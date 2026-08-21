@@ -1,0 +1,96 @@
+{
+  "locale": "en",
+  "family": "breakdownshock",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't touch him.",
+          "sourceHash": "sha256:fca068fa2d993342dd3c872580dc295d6904940b9bc24d1c077ea386546df243"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stay back. I can't hold it.",
+          "sourceHash": "sha256:b83bcda33ca092af3f09d66b72475f403aca6a06bc39ce06b7be131ebe320314"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The wiring's arcing.",
+          "sourceHash": "sha256:c9d474784b6c0ea992af2bc6607bd275612091960bf6119abc2978c9a41ecef8"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. It's me.",
+          "sourceHash": "sha256:0d081f755f7a828b1c58d216bdc0930fa38ec21c4a4d3326cc873e614911524e"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He took out the whole light bank.",
+          "sourceHash": "sha256:bd85e9c720eb571a72e938c4b3d64f2ab8df855a1e58ebe5477aee46a231bb99"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Saving power.",
+          "sourceHash": "sha256:15f9d7e60667cf5bd01763a50e9f2c37180cbb8de878070d90307d683dded398"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You'll hurt yourself doing that.",
+          "sourceHash": "sha256:0a6d82e947a54570e32f0aecd495c604293c58ec8dd034742496647c055fbb95"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Already am.",
+          "sourceHash": "sha256:913a51d4ac567237ea1d233f12e25addb4deae574e793cb38d54d6ce19123987"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The machines are scared of you.",
+          "sourceHash": "sha256:e47fd7187c3156f04ffad5a52e3b9f92f8b17fad4c183a8c69bfa71e307912cb"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The machines are smart.",
+          "sourceHash": "sha256:d542e0f7106db881d2c19725d8d13400baaf1db7008631884d2bc852b3a4ef2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "locale": "en",
+  "family": "wrathspeakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathspeakup.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I pulled the logs. He was on the far side that shift.",
+          "sourceHash": "sha256:808246fbc6e2184b00ef253656ac15c53c0eb06d0ac62b014f9b479dd85cef00"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...You actually pulled the logs?",
+          "sourceHash": "sha256:aec794d1a189b71cba3fa4a02f06a5018c1d3c06622ed577b31db0cc373a56dc"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Blame me. I wrote the roster.",
+          "sourceHash": "sha256:1b23324e5fcfc05c1bc9610695993b4d32effd1f465c40d95fa426dd9b0db24a"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't have to do that for me.",
+          "sourceHash": "sha256:ea57f4e03473d246ed49e93d0a548fcd2670da322f4489560d37d8ce7b0f1c70"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.003",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What we're short on is a working machine, not someone to yell at.",
+          "sourceHash": "sha256:d0eea6597408b76aaa34a4bdf56f0146d2a97c3b077523304a009a2b966eb17f"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thank you.",
+          "sourceHash": "sha256:ff4fdb31db6c0ded5368e976e80a4215a462caacaec4fc286dafaf3dfdd33847"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.004",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My word still counts around here. He didn't do it.",
+          "sourceHash": "sha256:259effdf6d60bea401c29b7291eccfc001fa61ec39b99c834e7cab216c1ffb43"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I thought everyone had stopped remembering me.",
+          "sourceHash": "sha256:0464d1a92b65eb8acaec429f507fed4c195bb3f31df75088add567800c025925"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.005",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time somebody wants a name, they come to me first.",
+          "sourceHash": "sha256:e165f744d6fa495384ca72ac7af74beb98a392537d998232584af8c376930657"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Then you'd better watch yourself.",
+          "sourceHash": "sha256:cb679dbb34ce8c54a67fee33fcb706f8b1fdbd352a5e87498b924b76748259ed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "又是你下去的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "我肺比较好。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "那层归我，下次。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "你说了三次了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我欠你的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "记着就好。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你不用每次都替我去。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "那你要我看你去？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "谢了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "别说这个。"
+        }
+      ]
+    }
+  ]
+}

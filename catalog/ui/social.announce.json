@@ -1,0 +1,844 @@
+{
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "seq": 549,
+      "source": "社交生活已开始",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "seq": 550,
+      "source": "复制人有了自己的社交生活：聊天、交友、恋爱、争执都会自然发生。顶部管理菜单的「社交」可以旁观全局并牵线搭桥；复制人详情的「社交」标签可以查看每个人的关系。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "seq": 551,
+      "source": "喜结连理",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "seq": 552,
+      "source": "{0} 向 {1} 告白成功，两人正式成为恋人！",
+      "description": "{0}/{1}: the new couple.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the new couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "seq": 553,
+      "source": "分手了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "seq": 554,
+      "source": "{0} 和 {1} 的感情走到了尽头。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "seq": 555,
+      "source": "压垮感情的最后一根稻草：{0}（周期 {1}）。",
+      "description": "{0}: memory description (event + cause), {1}: display cycle.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "memory description (event + cause), {1}: display cycle",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "seq": 556,
+      "source": "失去了伴侣",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "seq": 557,
+      "source": "{0} 失去了伴侣 {1}，陷入悲伤。",
+      "description": "{0}: survivor, {1}: the deceased partner.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "survivor, {1}: the deceased partner",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "seq": 558,
+      "source": "冷战",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "seq": 559,
+      "source": "{0} 和 {1} 进入冷战，关系岌岌可危。给他们一个牵线标记可以促成和解。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "seq": 560,
+      "source": "和好如初",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "seq": 561,
+      "source": "{0} 和 {1} 冰释前嫌，重归于好。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "seq": 562,
+      "source": "默默哀悼",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "seq": 563,
+      "source": "{0} 在心里悼念逝去的 {1}。",
+      "description": "{0}: survivor, {1}: the deceased crush.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "survivor, {1}: the deceased crush",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "seq": 564,
+      "source": "挚友",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "seq": 565,
+      "source": "{0} 和 {1} 成为彼此的挚友。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "seq": 566,
+      "source": "殖民地羁绊",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "seq": 567,
+      "source": "殖民地人心凝聚，全员士气提升。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "seq": 568,
+      "source": "殖民地不和",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "seq": 569,
+      "source": "殖民地气氛紧张，全员士气受挫。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "seq": 570,
+      "source": "气氛回归平静",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "seq": 571,
+      "source": "殖民地的集体情绪回到了平常状态。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "seq": 572,
+      "source": "纪念日",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "seq": 573,
+      "source": "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。",
+      "description": "{0}/{1}: the couple.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "seq": 574,
+      "source": "错过的纪念日",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "seq": 575,
+      "source": "{0} 和 {1} 的纪念日在忙碌中溜走了，两人都有点闷闷不乐。",
+      "description": "{0}/{1}: the couple.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "seq": 576,
+      "source": "闹掰了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "seq": 577,
+      "source": "{0} 和 {1} 积怨爆发，正式闹掰——一段时间内感情难以升温，一次道歉就能和好清账。",
+      "description": "{0}/{1}: the feuding friends.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the feuding friends",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "seq": 578,
+      "source": "低谷陪伴",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "seq": 579,
+      "source": "{0} 坐在 {1} 身边，默默陪伴着悲伤中的伙伴。",
+      "description": "{0}: comforter, {1}: the grieving duplicant.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "comforter, {1}: the grieving duplicant",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "seq": 580,
+      "source": "老夫老妻",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "seq": 581,
+      "source": "{0} 和 {1} 相伴日久，感情进入细水长流的阶段。",
+      "description": "{0}/{1}: the long-term couple.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the long-term couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "seq": 582,
+      "source": "结下宿敌",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "seq": 583,
+      "source": "{0} 和 {1} 积怨到底，正式结下宿敌——这段关系不再自行回暖，除非你出手牵线调解。",
+      "description": "{0}/{1}: the new rivals.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the new rivals",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "seq": 584,
+      "source": "宿敌和解",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "seq": 585,
+      "source": "{0} 和 {1} 的宿怨终于化开，关系回到了正常轨道。",
+      "description": "{0}/{1}: the former rivals.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the former rivals",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "seq": 586,
+      "source": "打起来了！",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "seq": 587,
+      "source": "{0} 和 {1} 从争吵升级成互殴。点到为止，但两人都要挂彩。",
+      "description": "{0}/{1}: the brawlers.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the brawlers",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "seq": 588,
+      "source": "总得有人负责",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "seq": 589,
+      "source": "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。",
+      "description": "{0}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "seq": 590,
+      "source": "没人跟他说话了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "seq": 591,
+      "source": "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。",
+      "description": "{0}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "seq": 592,
+      "source": "有人说了句公道话",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "seq": 593,
+      "source": "{0} 当众替 {1} 说了话。没人再提这件事了。",
+      "description": "{0}: the champion, {1}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the champion, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "seq": 594,
+      "source": "第一个坐下来的人",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "seq": 595,
+      "source": "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。",
+      "description": "{0}: the rescuer, {1}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the rescuer, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "seq": 596,
+      "source": "没人看见",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "seq": 597,
+      "source": "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。",
+      "description": "{0}: the attacker, {1}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the attacker, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "seq": 598,
+      "source": "被淡忘了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "seq": 599,
+      "source": "没人救 {0}，但也没人再记得那件事了。日子照过。",
+      "description": "{0}: the scapegoat.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "seq": 600,
+      "source": "整个房间都看着",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "seq": 601,
+      "source": "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。",
+      "description": "{0}: the duplicant breaking down, {1}: witness count, {2}: reaction name.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the duplicant breaking down, {1}: witness count, {2}: reaction name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "seq": 602,
+      "source": "第一个坐下来的人",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "seq": 603,
+      "source": "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。",
+      "description": "{0}: the comforter, {1}: the duplicant who broke down. **刻意不写「崩溃就这样停了」**:自然发生的安慰几乎必然落在崩溃自己 结束之后(tier2 的六种 chore 是 compulsory 且优先权高于吃饭/工作/就医, 崩溃者在那期间根本接不到互动),讲成因果是假的。玩家牵线那条路才切得短。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the comforter, {1}: the duplicant who broke down",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "seq": 604,
+      "source": "不打不相识",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "seq": 605,
+      "source": "{0} 和 {1} 打完这一架反而认了对方，宿怨就此了结。",
+      "description": "{0}/{1}: the reconciled brawlers.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the reconciled brawlers",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "seq": 606,
+      "source": "粮仓见底了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "seq": 607,
+      "source": "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "seq": 608,
+      "source": "危机解除",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "seq": 609,
+      "source": "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "seq": 610,
+      "source": "活下去！",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "seq": 611,
+      "source": "{0} 和 {1} 之间的事已经不是吵架了。饥饿把最后一点体面也拿走了。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "seq": 612,
+      "source": "饥荒过去了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "seq": 613,
+      "source": "储藏室重新有了食物。没有人问那是什么。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "seq": 614,
+      "source": "最后的殖民者",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "seq": 615,
+      "source": "只剩一个人了。基地很安静，食物也够了。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "seq": 616,
+      "source": "对头不在了",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "seq": 617,
+      "source": "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。",
+      "description": "{0}: the survivor, {1}: the dead rival.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the survivor, {1}: the dead rival",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    }
+  ]
+}

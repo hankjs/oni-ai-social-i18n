@@ -1,0 +1,54 @@
+{
+  "locale": "en",
+  "family": "partnerloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.partnerloss.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your name is still on the schedule... I cannot erase it yet.",
+          "sourceHash": "sha256:cd449da78cee07082e286a1d286243833a633e213d8e0139ef5dce3b8d627043"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We were supposed to see the colony finished together. Why did you leave first?",
+          "sourceHash": "sha256:35c9f79053e5e0bd3cc08c9c1ab7fa6e9a081b92e001f7a0b8dc716aba5b2349"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.003",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I cleaned your atmo suit and hung it in the usual spot. As if you might come back for it.",
+          "sourceHash": "sha256:430a6e525159d2da34d76007f20351e1b7eaaa61cd6831ee5ac37c156c8e3650"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.004",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The oxygen is rich today and dinner was almost good. Of all the days for you to miss.",
+          "sourceHash": "sha256:71ed71e1a1c125191871aac3078a549ed40a3484e0bf2d111e891ea0f7beb0d5"
+        }
+      ]
+    }
+  ]
+}

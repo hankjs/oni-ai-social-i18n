@@ -1,0 +1,72 @@
+{
+  "locale": "en",
+  "namespace": "social.log",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "Cycle {0} · {1} and {2} [{3}]{4}",
+      "sourceHash": "sha256:813693e804e560aa691b52478bcc66379913d59e2eec310a41101ff2aec9577c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "Cycle {0} · {1} [{2}]{3}",
+      "sourceHash": "sha256:6007cc11ba022c2cea68e210a24438f463651023868d15a4172d2d8ea3d69a5a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "Cycle {0} · with {1} [{2}]{3}",
+      "sourceHash": "sha256:7c7320fdd7955949403cdf37c160bf04c1e9ce67d14f0f6810fec6a734b907f5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "Cycle {0} · [{1}]{2}",
+      "sourceHash": "sha256:834139b09b7732ad5e7a2871ce6430c3a401aaeb89d5ddb357854e941455a08c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " Affinity {0:+#;-#;0}",
+      "sourceHash": "sha256:401cf06d0c79d28960f2e9e14917e2c25304e1902f114b7dae37514630e8089f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " Stress {0:+#.#;-#.#;0}",
+      "sourceHash": "sha256:2381a06b8286913b25e2ffb0b37b928a21467c87526f16b00c0719cde0653159",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " Stress {0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "sourceHash": "sha256:4437d71359acb56e5664eb3f8dd0326e14163cca5a54376cc77fc03be195062b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " Morale {0:+#.#;-#.#;0}",
+      "sourceHash": "sha256:bf0bc01c2d64234e5f5d189ccbae5ef45341a4ce404b33922aa407b9d62510ce",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "Cycle {0} · {1}{2}",
+      "sourceHash": "sha256:11a10acf95ec037f87aad0146d5036e4c991d3e53630fd937f3ef9a17ae34613",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— Milestones ——",
+      "sourceHash": "sha256:765279556b04b482603fe20caaea116fcfcb0853909e106747019c1ce46f2290",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— Recent ——",
+      "sourceHash": "sha256:c7c7cb71d36eb140fe73f249cfc3d3479fb90098ad17aa1cf757b6aab5d767f7",
+      "status": "reviewed"
+    }
+  ]
+}

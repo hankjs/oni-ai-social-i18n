@@ -1,0 +1,498 @@
+{
+  "locale": "en",
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "Social",
+      "sourceHash": "sha256:c6a6df900ed312147c1bc204e62ec00b13772d3f373ff76a057c2f05e6e57d88",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "Review colony relationships and manage matchmaking or block marks",
+      "sourceHash": "sha256:2fe2d93f844528ca13d22adf10d9fc6d1facc72045de8c21549c3a5f2651e82a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "Matchmake",
+      "sourceHash": "sha256:e028f5b35602bb4349ee2372b9295ace2e488b9b4f860a6ce1a57c1895f24189",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "Block",
+      "sourceHash": "sha256:ee91a1bd99bcbb6b772609f664c83b6ba374dbf81508e10279c2fe4ce05336a5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "Clear marks",
+      "sourceHash": "sha256:0182f69ef8cfd7f7ebe0b5cc6163f1d56f2833d9c835ba550847f5f6ca5326ef",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "Bounds",
+      "sourceHash": "sha256:040a23d6a0461742922b48a825b7fc5773922f5ea8708b15f3876604786ca7f1",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "Relationship overview",
+      "sourceHash": "sha256:befa7bb4eccffc01f1655032e453b2ec89ed7e52cfcceac0fcf2fb39a6a9dda4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "Pending",
+      "sourceHash": "sha256:f8ded347383f82ee057a613446b44f6f3ae062b612bea0f6c5108e0ed9f98309",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "Pending social events",
+      "sourceHash": "sha256:eb2f9fa5da82e8c4dd6c34e1a94d217ec98870d9b9a754088f10a27805e10df0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "The outcome is already locked. Choose Happen now, or wait for the deadline and a safe moment.",
+      "sourceHash": "sha256:db7380d769578ac1933d730aa7d3eedb899f603dde61499137bb81820a8817c1",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "No pending social events.",
+      "sourceHash": "sha256:ff6098365aa4db355754694d6b79bc3413843551e725a8614b8c982e29394ad0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "{0} → {1} · {2} cycles remaining",
+      "sourceHash": "sha256:af8f261bfb977cb0e5678cd53bf69451611f234d6c17b6a3c49060ba8c8c4a30",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "{0} → {1} · Waiting for a safe meeting",
+      "sourceHash": "sha256:9a31d0a3e9a0fbab80042c28ebb259890415a1dc070a86af9009b9a654da16a3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "Happen now",
+      "sourceHash": "sha256:095bf171a3aca8ebf3a9bf1ecf134ae9ea3aea6476091d943639d728f1ab88d2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}  [{1}]",
+      "sourceHash": "sha256:0aa1a04f821274f262f3b90bf4f65bfd29b35232aac6221dff28d15f5b9ffed0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "Event requested; waiting for a safe moment",
+      "sourceHash": "sha256:4e0821ec37f7f8e13f10415d7d808efe62cd25b0bd347fdeff12f43a9b677b72",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "Colony relationships",
+      "sourceHash": "sha256:723e81c19dae560ae3ba6162b59b3cd4f4f2577daaa13a028cab1b016a47d571",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0} relationships",
+      "sourceHash": "sha256:436b10881440cdfcedd5d61cf416898838df72c036b096f59ea4c70d25f92d36",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "Search duplicant names",
+      "sourceHash": "sha256:a5b2b7732926b87996fe740b1aa66580044d484ec5d49c6a643f3adbc0e474d2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "Relationship: {0}",
+      "sourceHash": "sha256:5707f69fb8d00a9f27f1887c624079cb54a666ddc9456af752eb2740bc01115e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "All",
+      "sourceHash": "sha256:4601695e9187a2e0fb88ad7dce5394e509677fe8bd7a3c5316769086c63baf8f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "Friendly",
+      "sourceHash": "sha256:91dc640fa2273f9530cec8fadb8feaec01ab6a2e26a7626eb9d6346306a0a651",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "Romance",
+      "sourceHash": "sha256:a6a0399403d129d78f58c51d98e4dba3bedacadbc8927b257a5cf03333657acd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "Conflict",
+      "sourceHash": "sha256:de3bc56ee0c63c72a5717b5bdda9660609cc921b78ed3e9e0418b07f85092beb",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "Mark: {0}",
+      "sourceHash": "sha256:5112587da3805accaec5f57c6907d3234ea49dd9769ddcd7d0e885c63cdaacc5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "Unmarked",
+      "sourceHash": "sha256:b975e1b91f120d7524280adf80b314c108cbecab60d94e379c2484aa1eaa1143",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "Sort: {0}",
+      "sourceHash": "sha256:e3cbcf7c7706150ceddd72338a17176df2839cda95a7001a6ab414485b84b89c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "Name",
+      "sourceHash": "sha256:528286a3bf33a490f4cd077c9a44a2a7bb4b7cf4219faff96a15e9c145918fcf",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "Relationship count",
+      "sourceHash": "sha256:33d5a172a79c1550bc9d9547b78fde9de8c2e025eb58f3e7ac0a3a4fc9738bf2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "Highest affinity",
+      "sourceHash": "sha256:4a518dd8ba62b8baa0f9ded36a1707d2793dd63f9f58ed9566221aee7dd8a9a0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "No relationships match these filters",
+      "sourceHash": "sha256:0f5269d1dc36da10463f5f0cdf43d52ec5880b16f145c43dda526ae38fab451b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "Close",
+      "sourceHash": "sha256:66c2baf7ce710ddab227e8a1bba43f5c29828554669c996033969de21374ee77",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "Back",
+      "sourceHash": "sha256:9d49144a86b7d10d816fb1a00884bc7f3bd1538f89ae2fcfd6838b3defca70fa",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "Previous page",
+      "sourceHash": "sha256:e13072fabddbda2c49eb1a0c0cad2f94f095b7938e2fdf54cf7d2903d57d88f7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "Next page",
+      "sourceHash": "sha256:c29bb28612bd15fe9d6598ae3e622bd2138821c90b205e28208fcdbc986b5e80",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "Page {0} of {1}",
+      "sourceHash": "sha256:ac3083dae554f228113ab0cac9191ed21bd5abb80d2734abfa23dd427590693b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "No duplicants are available.",
+      "sourceHash": "sha256:feeb02cce4dc29efb72851d30d804ec7b011c8f275155b4815588d7028affb1f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "Action failed: social system is not ready",
+      "sourceHash": "sha256:1292ab1a1f4e7f327e4eff7eb50498cfc7571ec6e9960dca55a86fd42e01ba6e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · Choose the second duplicant",
+      "sourceHash": "sha256:2b99c1e82d5fcc179012dcb29f63fc1e223893f94a93725a4e5220904eed0f41",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "{0} is selected. Choose another duplicant to complete the action.",
+      "sourceHash": "sha256:07be9715aeec0e40f25819c4553799297b598792d945f09591761935efc4e5d4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "Choose the first duplicant. Matchmaking grants: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats.",
+      "sourceHash": "sha256:e808c8e3fcaa5748f1cf0408ea2fae3759731821b2759906627c1101184a52c5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats.",
+      "sourceHash": "sha256:d2d8af69ee4dda11cb3341dc6e5e6b5f4574945c8f551ac503db17d29bd172c0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "Choose a duplicant to clear all matchmaking and block marks involving them.",
+      "sourceHash": "sha256:760fbec866444287567bb66f71cee0ed2c709b65b46c483b0f73897cf50a7f27",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "Bounds",
+      "sourceHash": "sha256:040a23d6a0461742922b48a825b7fc5773922f5ea8708b15f3876604786ca7f1",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "Choose the first duplicant. Bounds cap how close or how hostile this pair's relationship can become — it never stops them from interacting, it only stops the relationship from crossing the line.",
+      "sourceHash": "sha256:07a97db8ebfd2d00eeb9de438362f6b48ebe6c8accef2ff24d0df6071123cfaa",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "Best relationship: {0}",
+      "sourceHash": "sha256:5e87a3f2e163a6a5a575416ba7247c325637d2faf5389d4f0d9462eff3035692",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "Worst relationship: {0}",
+      "sourceHash": "sha256:b99ceb84f2928d42ce69e77302cd6dd38d3e41d26c6f9ad49999f5490e28692b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "No limit",
+      "sourceHash": "sha256:62c2ce4bc87106c943176d07610d9362438ea760229ae302ae6df9b4d0595712",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "Choose best relationship",
+      "sourceHash": "sha256:da3f60aa5427a85975f79b530291bfe10c528c3f09a44424bf166857eca655da",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "Choose worst relationship",
+      "sourceHash": "sha256:1b4a8f65b7a0da0e5e9f855060ebd4575096a83f170cb9915a23f723cab51acd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "Only tiers compatible with the other bound are shown. The choice takes effect immediately, but does not change the current relationship until its next transition.",
+      "sourceHash": "sha256:0305e466c5e75b50d471b6c93e8d8dcd86c3edbc893b9afee9cc73139904d4a4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "Bounds: {0} × {1} → best {2} · worst {3}",
+      "sourceHash": "sha256:217927efd8ad3fc27cebe42beb10032332822825cc924f8f56bef0060615eefe",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "Rejected: the worst relationship cannot be better than the best",
+      "sourceHash": "sha256:21840cfc4b18fa2979892c5b35138c2c24069ff9fb9ab2c06f7bb2c94b05fa2f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "Colony: {0} ({1})\nLiving duplicants: {2}\nRelationships: {3}\nMatches: {4} · Blocks: {5}",
+      "sourceHash": "sha256:c9c2c85d9406de17e72d48cdbdfec7b4d73b67c9359c659683992af9bb8e3115",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "breakup in {0} cycles",
+      "sourceHash": "sha256:c7a1d7ddb4c70f5b04cc075ad221a96ea1fb269911b83bfa909f2a7bcd311cb3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "falling-out: {0} cycles left",
+      "sourceHash": "sha256:79d7111647deba156bcafeb81be19fbbf059e712f36e17c9e620e1989beeedc7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "rivals - frozen",
+      "sourceHash": "sha256:96c5d7e64562c3395f97157bffb4dfc415a70c6d01bc27941ebe4044cb5234f7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "ex period: {0} cycles left",
+      "sourceHash": "sha256:ecd570f92769f3a2841faeec5d4af2c84816c0a96251fc04963d59779eafb594",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "anniversary today!",
+      "sourceHash": "sha256:6f15048bef2b3fed9437a5a63766d11f388904e31a293156f23ff4dacd6e1990",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "anniversary in {0} cycles",
+      "sourceHash": "sha256:7afe0ddf9ce76fadedb8a86bc9820b49aafb71fe0574ff888788b81494999ed5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "Couples: {0} · Cold wars: {1} · Best friends: {2}",
+      "sourceHash": "sha256:ea8561dc2915f128c4ebbab44b716abe2ddd198566396c26468fdf1323dd5b9d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[Done] {0}",
+      "sourceHash": "sha256:89a9543c589135a26420e899759af96e769eb97d5c130dcd5a0b0675af428bfb",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[Done] Cleared {1} marks involving {0}",
+      "sourceHash": "sha256:b2dbfad986e1f803c25015798b2c68345ac8d7319a10b3216bc073ac435cdd1d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "Matchmaking: {0} × {1}",
+      "sourceHash": "sha256:19d8f504ad11d48acc112f67d22658750368736c93d9adb06d0ba0df49333ce9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "Blocked: {0} × {1}",
+      "sourceHash": "sha256:9f135a2e8dd91ca5cec0dd5185b41055d233578a11a08ed681748bf3647e54aa",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "Mark cleared: {0} × {1}",
+      "sourceHash": "sha256:8ce9fd20cb1faef8a76905f11904a1607e9b8b0afe2f66142fb9b459839e5f53",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "Picked {0}; select another duplicant and press the same hotkey again",
+      "sourceHash": "sha256:9dd0e77ba858abab37533668602cae22b7846bbf1dbf9d9ce038601e4569a2bc",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "Cancelled selection of {0}",
+      "sourceHash": "sha256:eda6c77c3037b37b1f8c1a76c20c2f4379762313637ba99cbbb29b198693dcb7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "Cleared {1} marks for {0}",
+      "sourceHash": "sha256:f8d2ce785fd1fc48030b382b838e3b24528fdba6c1a8da9ed2a2957eae8c6caa",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "Chronicle",
+      "sourceHash": "sha256:a833fb8626a45cefda8b248df8e0c6aa0cfedbacac86ccea572277ac64b27966",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "Colony Chronicle",
+      "sourceHash": "sha256:de703f22cceab7ee3fc77042aa7a2b114f7253a29ce1d05bc76c12b5d3388a81",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "No events recorded yet",
+      "sourceHash": "sha256:32bfd2db3de295a74236600f00402c001aef7c8ff0e6ea5cc4ed8c49769bf5ea",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0} is no longer in the colony",
+      "sourceHash": "sha256:7525e1cc1c408d9b409bedfef86b8421fad04ae7fd496deb91b7806f797645e6",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "Person: All",
+      "sourceHash": "sha256:278427fba8210ed1fc2628a6c6c73d460dfe1b830106ca1316d64310c006579c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "Person: {0}",
+      "sourceHash": "sha256:55ca2bde9d3006bf4339e45ac88ad18a09541aeb126dfbb2cd3b187a6eb9be71",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "Clear",
+      "sourceHash": "sha256:d62845c3f2a9117f4c403065adb56fb798c98f73b0ee2a2099c89e93c3639ad2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "Whose story?",
+      "sourceHash": "sha256:d545f418f7eaa9bc37829add72d3b2ab16950a379bd9828a1275d655def95664",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "Pick a duplicant and the log shows only the events they took part in — a slice of their life.",
+      "sourceHash": "sha256:d08e63ab01e60e371835f56feb118584984b69389a208f150a3dcb0a85023768",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "Export diagnostic report",
+      "sourceHash": "sha256:740b4aa3bc8c4850ff861495427ff45f22e7d050d8506c175eea999d973e99e7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "Enable Local Gameplay Data in the mod settings first",
+      "sourceHash": "sha256:0216b2f4894cc9b38f742f67bd08cdb130347ddd56092179690e8fa43f46a4aa",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "Diagnostic report exported: {0}",
+      "sourceHash": "sha256:a504dfeff42e1bb681f82a9f397833872da57f95295667036e32bc7b98ef8a8d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "Could not export diagnostic report: {0}",
+      "sourceHash": "sha256:7b5ca33421b7e78b45e2dab43fe8f5d858d79149a7317ef02fd56299b2fff7ac",
+      "status": "reviewed"
+    }
+  ]
+}

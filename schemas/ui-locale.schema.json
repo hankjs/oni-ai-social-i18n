@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/ui-locale.schema.json",
+  "title": "UI locale namespace file",
+  "type": "object",
+  "required": ["locale", "namespace", "entries"],
+  "properties": {
+    "locale": { "type": "string" },
+    "namespace": { "type": "string" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "text", "sourceHash", "status"],
+        "properties": {
+          "key": { "type": "string" },
+          "text": { "type": "string" },
+          "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "status": { "type": "string", "enum": ["draft", "reviewed"] }
+        }
+      }
+    }
+  }
+}

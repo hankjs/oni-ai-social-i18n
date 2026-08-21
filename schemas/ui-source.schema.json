@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/ui-source.schema.json",
+  "title": "UI source namespace file",
+  "type": "object",
+  "required": ["namespace", "entries"],
+  "properties": {
+    "namespace": { "type": "string" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "source", "arguments", "richText"],
+        "properties": {
+          "key": { "type": "string", "pattern": "^STRINGS\\." },
+          "source": { "type": "string" },
+          "description": { "type": "string" },
+          "arguments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["token", "name", "kind"],
+              "properties": {
+                "token": { "type": "string" },
+                "name": { "type": "string" },
+                "kind": { "type": "string" }
+              }
+            }
+          },
+          "richText": { "type": "boolean" },
+          "maxLength": { "type": ["integer", "null"] }
+        }
+      }
+    }
+  }
+}

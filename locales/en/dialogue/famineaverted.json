@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "family": "famineaverted",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Food arrived. Nobody mentions what they were thinking a few days ago.",
+          "sourceHash": "sha256:efb8dcd2bd12156fb037f413bba0c30127aa9c35ef28a7b3eefa6a9bedb5dbb5"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pantry is stocked again. By silent agreement, the subject is closed.",
+          "sourceHash": "sha256:5eca39eea27bc726914003046e086ea2c6c582558de8efadb237dcf2068e2b42"
+        }
+      ]
+    }
+  ]
+}

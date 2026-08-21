@@ -1,0 +1,100 @@
+{
+  "family": "hazardeased",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你昨天也下去了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "轮到我了而已。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "面罩起雾的时候你会骂人吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "会。骂得很难听。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "那层其实没那么糟。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "有那么糟。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "算了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……嗯。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "下次一起下去，快一点。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "行。"
+        }
+      ]
+    }
+  ]
+}

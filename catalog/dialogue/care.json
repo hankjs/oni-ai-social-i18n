@@ -1,0 +1,124 @@
+{
+  "family": "care",
+  "candidates": [
+    {
+      "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "别乱动，我帮你把绷带重新扎好。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "轻点……不过，谢谢你。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "今天先休息，剩下的工作交给我们。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "听你这么说，我终于敢闭会儿眼了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "药很苦，我给你配了半块蜜饯。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "半块？……行吧，护士最大。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "体温正常了，但今天还是躺着。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "床都要躺出茧了。……好，听你的。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "病菌层我查过了，你床边干净得很。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "那我就放心咳嗽了。……开玩笑的。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "药是我按剂量配的，放心喝。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "上次是谁把一份倒成两份的？"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "source": "……所以这次我称了三遍。"
+        }
+      ]
+    }
+  ]
+}

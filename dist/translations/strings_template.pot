@@ -1,0 +1,2977 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included\n"
+"POT Version: 2.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.TAB.TITLE"
+msgid "社交"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.TAB.TOOLTIP"
+msgid "查看这名复制人的声望和人际关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE"
+msgid "社交概况"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE"
+msgid "人际关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL"
+msgid "好感"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK"
+msgid "挚友"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL"
+msgid "声望（仅供观察）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP"
+msgid "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COLONY_LABEL"
+msgid "殖民地"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP"
+msgid "全体存活复制人两两好感的平均值。≥40 触发殖民地羁绊（全员士气 +1）；多对冷战会触发殖民地不和（全员士气 -1，争执更频繁）。共餐、聚会和牵线都能提升羁绊。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE"
+msgid "社交系统尚未就绪"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP"
+msgid "进入对局并等待社交系统完成初始化"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT"
+msgid "已故的复制人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS"
+msgid "尚无关系记录"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP"
+msgid "复制人互动后，关系和好感会显示在这里"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE"
+msgid "心情日志"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY"
+msgid "最近没有心情记录"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP"
+msgid "这名复制人最近的社交事件，以及对好感和心情的影响"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAITS_LABEL"
+msgid "特质"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP"
+msgid "有些特质会影响社交：争执与互殴更少、被请教时的好感更多或更少、作息不合时同寝更容易闹别扭。名字后括号里是该特质的具体影响。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT"
+msgid "不爱争执"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER"
+msgid "被请教时更领情"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER"
+msgid "被请教时不太领情"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD"
+msgid "作息规律的早睡者"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL"
+msgid "夜猫子，作息难合拍"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY"
+msgid "随时睡着，作息难合拍"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION"
+msgid "性格履历"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT"
+msgid "当前性格：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE"
+msgid "修改性格"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP"
+msgid "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY"
+msgid "尚未经历性格变化"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE"
+msgid "修改性格"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY"
+msgid "选择 {0} 的新性格。旧性格会留在履历里，只做展示。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE"
+msgid "周期{0} · {1}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED"
+msgid "已经是这种性格了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED"
+msgid "没法改性格：社交系统尚未就绪"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD"
+msgid "暴躁"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY"
+msgid "爱哭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD"
+msgid "大嗓门"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER"
+msgid "贪吃"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS"
+msgid "神经质"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY"
+msgid "易惊"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE"
+msgid "温和"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS"
+msgid "好学"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW"
+msgid "迟钝"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY"
+msgid "早起"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT"
+msgid "夜猫"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY"
+msgid "嗜睡"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE"
+msgid "好动"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN"
+msgid "原本"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
+msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL"
+msgid "{0} 性格大变，{1}性格 变成了 {2}性格。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED"
+msgid "万人迷"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR"
+msgid "受欢迎"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN"
+msgid "熟脸"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST"
+msgid "孤狼"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE"
+msgid "透明人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION"
+msgid "羁绊"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD"
+msgid "不和"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL"
+msgid "中立"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS"
+msgid "陌生"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED"
+msgid "熟络"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS"
+msgid "朋友"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH"
+msgid "心动"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE"
+msgid "恋人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR"
+msgid "冷战"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP"
+msgid "分手"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING"
+msgid "悲伤"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING"
+msgid "悼念"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL"
+msgid "宿敌"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN"
+msgid "未知社交事件"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT"
+msgid "争执"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY"
+msgid "道歉"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.VENT"
+msgid "倾诉"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.TEACH"
+msgid "请教"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND"
+msgid "挚友谈心"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION"
+msgid "告白成功"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED"
+msgid "告白被拒"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DATE"
+msgid "约会"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL"
+msgid "共同进食"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CARE"
+msgid "医疗照顾"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY"
+msgid "吃醋"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE"
+msgid "和解"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP"
+msgid "分手"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED"
+msgid "失去伴侣"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED"
+msgid "未说出口的遗憾"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WELCOME"
+msgid "欢迎新人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.PARTY"
+msgid "参加聚会"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN"
+msgid "陪伴低谷"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT"
+msgid "闹掰"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED"
+msgid "悲伤中的陪伴"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY"
+msgid "纪念日"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED"
+msgid "错过的纪念日"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.GREETING"
+msgid "打招呼"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CHAT"
+msgid "聊天"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE"
+msgid "休闲社交"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST"
+msgid "同寝共眠"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE"
+msgid "压力波动"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND"
+msgid "不打不相识"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.RIVAL"
+msgid "结下宿敌"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER"
+msgid "宿敌和解"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED"
+msgid "对头身故"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BRAWL"
+msgid "互殴"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING"
+msgid "粮仓见底"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED"
+msgid "危机解除"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL"
+msgid "断粮相残"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER"
+msgid "饥荒结束"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BLAMED"
+msgid "灾后被迁怒"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED"
+msgid "被孤立"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR"
+msgid "有人替他说话"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED"
+msgid "第一个坐下来的人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
+msgid "被偷揍"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED"
+msgid "我看见他打人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING"
+msgid "撞见他一个人在哭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED"
+msgid "时间冲淡"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN"
+msgid "我看过他最糟的样子"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED"
+msgid "他第一个过来"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY"
+msgid "嚎啕大哭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL"
+msgid "尖叫"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT"
+msgid "吐了出来"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE"
+msgid "开始暴食"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY"
+msgid "砸起了东西"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK"
+msgid "放起了电"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED"
+msgid "为什么总是我下去"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED"
+msgid "他最近也下来了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE"
+msgid "他替我下去了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
+msgid "一起在下面待过"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
+msgid "管理员牵线"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
+msgid "管理员拆散"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
+msgid "管理员取消标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED"
+msgid "界限·受阻"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CAUSE.STRESS"
+msgid "压力太大"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY"
+msgid "积怨已久"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH"
+msgid "特质不合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD"
+msgid "殖民地不和"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY"
+msgid "气场不合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2"
+msgid "天作之合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1"
+msgid "气场相合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1"
+msgid "气场不合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2"
+msgid "天生犯冲"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD"
+msgid "合拍"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD"
+msgid "犯冲"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE"
+msgid "好感：{0}；冲突：{1}{2}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL"
+msgid "；尴尬持续至周期 {0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS"
+msgid "\n最近事件："
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE"
+msgid "\n周期 {0}："
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH"
+msgid "牵线标记：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
+msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN"
+msgid "宿敌·冻结中：负好感不会随时间回零，这段关系不会自行修复。用牵线标记介入可以解冻，让好感慢慢回暖"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER"
+msgid "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只有一个人下去（已经 {4} 个周期）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING"
+msgid "宿敌·调解中：牵线标记已解冻衰减，好感正在回暖；回到门槛之上就会解除宿敌"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE"
+msgid "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2}）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE"
+msgid "社交"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
+msgid "查看殖民地关系并管理牵线和拆散标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON"
+msgid "牵线"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
+msgid "拆散"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON"
+msgid "清除标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON"
+msgid "界限"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON"
+msgid "关系总览"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON"
+msgid "待发生"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE"
+msgid "待发生的社交事件"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT"
+msgid "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY"
+msgid "目前没有待发生的社交事件。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW"
+msgid "{0} → {1} · 还剩 {2} 周期"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW"
+msgid "{0} → {1} · 正在等待安全会合"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW"
+msgid "现在发生"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW"
+msgid "{0}　[{1}]"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED"
+msgid "事件已请求，正在等待安全时机"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE"
+msgid "殖民地关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT"
+msgid "{0} 段关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER"
+msgid "搜索复制人姓名"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP"
+msgid "关系：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL"
+msgid "全部"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY"
+msgid "友好"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE"
+msgid "恋爱"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT"
+msgid "冲突"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK"
+msgid "标记：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED"
+msgid "未标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT"
+msgid "排序：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.SORT_NAME"
+msgid "姓名"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT"
+msgid "关系数"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY"
+msgid "最高好感"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS"
+msgid "没有符合筛选条件的关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
+msgid "关闭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON"
+msgid "返回"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE"
+msgid "上一页"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE"
+msgid "下一页"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL"
+msgid "第 {0}/{1} 页"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS"
+msgid "没有可选的复制人。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE"
+msgid "操作失败：社交系统尚未就绪"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND"
+msgid "{0} · 选择第二人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED"
+msgid "已选择 {0}。请选择另一名复制人完成操作。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE"
+msgid "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
+msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
+msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE"
+msgid "界限"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE"
+msgid "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL"
+msgid "最好关系:{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL"
+msgid "最差关系:{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED"
+msgid "不限"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER"
+msgid "选择最好关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER"
+msgid "选择最差关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT"
+msgid "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET"
+msgid "界限: {0} × {1} → 最好 {2} · 最差 {3}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID"
+msgid "设置失败:最差关系不能好过最好关系"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN"
+msgid "{0} 周期后分手"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT"
+msgid "闹掰还剩 {0} 周期"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN"
+msgid "宿敌·冻结中"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT"
+msgid "前任期还剩 {0} 周期"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY"
+msgid "今天是纪念日！"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN"
+msgid "纪念日还有 {0} 周期"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY"
+msgid "恋人 {0} 对 · 冷战 {1} 对 · 挚友 {2} 对"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
+msgid "[完成] {0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
+msgid "[完成] 已清除 {0} 的 {1} 个标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH"
+msgid "牵线: {0} × {1}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
+msgid "拆散: {0} × {1}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED"
+msgid "取消标记: {0} × {1}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT"
+msgid "已选 {0}，选中另一名复制人后再按一次同一热键"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT"
+msgid "已取消选择 {0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK"
+msgid "已清除 {0} 的 {1} 个标记"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON"
+msgid "纪事"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
+msgid "殖民地纪事"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY"
+msgid "暂无事件记录"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE"
+msgid "{0} 已不在殖民地,无法跳转"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL"
+msgid "人物:全部"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON"
+msgid "人物:{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR"
+msgid "清除"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE"
+msgid "查看谁的故事?"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE"
+msgid "选一名复制人,日志只显示他参与的事件——他的一段人生。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT"
+msgid "导出诊断报告"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
+msgid "请先在 Mod 设置中开启「本地玩法数据」"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED"
+msgid "诊断报告已导出：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
+msgid "诊断报告导出失败：{0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_PAIR"
+msgid "周期{0} · {1} 和 {2} [{3}]{4}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SOLO"
+msgid "周期{0} · {1} [{2}]{3}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_WITH"
+msgid "周期{0} · 与 {1} [{2}]{3}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SELF"
+msgid "周期{0} · [{1}]{2}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_AFFINITY"
+msgid " 好感{0:+#;-#;0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_STRESS"
+msgid " 压力{0:+#.#;-#.#;0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR"
+msgid " 压力{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_MORALE"
+msgid " 士气{0:+#.#;-#.#;0}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_STORY"
+msgid "周期{0} · {1}{2}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.SECTION_MILESTONES"
+msgid "—— 大事记 ——"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.SECTION_RECENT"
+msgid "—— 最近 ——"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER"
+msgid "{0} 和 {1}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SELF_NAME"
+msgid "我"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_1"
+msgid "{pair}擦肩而过,互相点了点头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_2"
+msgid "{pair}在走廊里打了个招呼。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_3"
+msgid "{pair}碰面时寒暄了两句。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_4"
+msgid "{pair}远远地挥了挥手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_5"
+msgid "{pair}隔着半条走廊对视了一眼,心照不宣。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_6"
+msgid "{pair}在打印舱前排着队,顺便打了招呼。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_1"
+msgid "{pair}聊了会儿天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_2"
+msgid "{pair}凑在一起闲聊,气氛不错。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_3"
+msgid "{pair}聊起了家长里短。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_4"
+msgid "{pair}聊起了{topic}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_5"
+msgid "{pair}交换了今天的见闻。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_6"
+msgid "{pair}有一搭没一搭地聊着,时间过得飞快。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_1"
+msgid "{actor}向{other}倒了一肚子苦水。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_2"
+msgid "{other}听{actor}倾诉了很久。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_3"
+msgid "{actor}把今天的糟心事一件一件数给{other}听。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_4"
+msgid "{actor}问{other}这日子什么时候是个头,{other}答不上来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_5"
+msgid "苦水倒完了,{actor}觉得肩上的浮土都轻了些。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1"
+msgid "{actor}的情绪快压不住了,{other}陪他坐了一会儿。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TEACH_1"
+msgid "{actor}手把手教{other}干活。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TEACH_2"
+msgid "{actor}给{other}讲了些独门窍门。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TEACH_3"
+msgid "{actor}演示了一遍,{other}看得眼睛都不眨。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TEACH_4"
+msgid "{actor}说只教一遍,{other}决定回去自己偷偷练。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TEACH_5"
+msgid "有些手艺是排班表上学不到的,{actor}传给了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1"
+msgid "{pair}聊到深夜,成了彼此的挚友。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2"
+msgid "{pair}说了些从没对别人说过的话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3"
+msgid "{pair}交换了彼此的秘密,从此不分你我。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4"
+msgid "那晚{pair}聊到天亮,谁也没提该睡觉的事。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5"
+msgid "有些人认识很久才是朋友,{pair}只花了一个晚上。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CARE_1"
+msgid "{actor}照顾了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CARE_2"
+msgid "{actor}帮{other}处理了伤势。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CARE_3"
+msgid "{actor}给{other}换了绷带,动作很轻。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CARE_4"
+msgid "{other}嘴上说着没事,还是让{actor}照看了一整天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CARE_5"
+msgid "{actor}守在{other}旁边,连药都提前晾温了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.COMFORT_1"
+msgid "{actor}陪着{other},直到他缓过来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.COMFORT_2"
+msgid "{other}在{actor}的陪伴下平静了下来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.COMFORT_3"
+msgid "{actor}没说什么大道理,只是陪着{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.COMFORT_4"
+msgid "{other}想说谢谢,{actor}摆摆手让他省点力气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.COMFORT_5"
+msgid "有些夜晚只能熬过去,好在{other}不是一个人熬。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_1"
+msgid "{pair}在{place}一起吃了顿饭。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_2"
+msgid "{pair}边吃边聊,很放松。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_3"
+msgid "{pair}拼了一桌,聊了很久。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_4"
+msgid "{pair}端着餐盘坐到了一起。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_5"
+msgid "{pair}分食了一份软泥糕,谁也没嫌弃谁。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_6"
+msgid "饭菜还是老样子,但{pair}这桌的笑声是新的。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1"
+msgid "{pair}隔着一张桌子,谁也没先开口。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1"
+msgid "{pair}挨着坐下,这顿饭吃得很甜。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_1"
+msgid "{pair}同屋睡了一晚,作息很合拍。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_2"
+msgid "{pair}的床铺挨着,夜里翻身都怕吵到对方。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_3"
+msgid "熄灯之后,{pair}又小声聊了一会儿才睡。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_4"
+msgid "同一个屋檐下,{pair}连打鼾的节奏都磨合出来了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1"
+msgid "{pair}作息不合,谁都没睡好。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1"
+msgid "{pair}在{place}一起玩了一会儿。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2"
+msgid "{pair}在休息区碰头,玩得很开心。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3"
+msgid "{pair}在{place}消磨了一段好时光。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4"
+msgid "{pair}较量了几局,输赢已经不重要了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5"
+msgid "{pair}把一天的疲惫都玩没了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PARTY_1"
+msgid "{pair}参加了{place}的聚会。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PARTY_2"
+msgid "{pair}在聚会上玩开了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PARTY_3"
+msgid "{pair}在聚会上碰了杯,果汁都快喝出酒味了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PARTY_4"
+msgid "聚会的灯光下,{pair}比平时健谈了不少。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.PARTY_5"
+msgid "{pair}一直待到聚会散场,还意犹未尽。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.DATE_1"
+msgid "{pair}约了一次会,气氛正好。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.DATE_2"
+msgid "{pair}独处了一会儿,眼里只有彼此。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.DATE_3"
+msgid "{pair}并肩散步,谁也没提回工作站的事。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.DATE_4"
+msgid "{pair}在望远镜旁约会,轮流看同一片星空。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.DATE_5"
+msgid "约会的规矩是{pair}定的:不许谈排班表。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1"
+msgid "{pair}纪念了在一起的日子。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2"
+msgid "{pair}又安稳地走过了一年,值得碰一杯。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3"
+msgid "在这个连日历都要自己记的地方,{pair}没有忘记今天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4"
+msgid "{pair}把纪念日过成了全殖民地的节日——至少他们自己是这么觉得的。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1"
+msgid "{actor}忘了和{other}的纪念日。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2"
+msgid "{actor}的排班表上唯独漏掉了和{other}的纪念日。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3"
+msgid "{other}等了一晚上,{actor}在矿井里浑然不觉。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4"
+msgid "日子一忙就糊涂,{actor}把最重要的那天忘了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_1"
+msgid "{actor}向{other}表明了心意——{other}答应了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_2"
+msgid "{actor}鼓起勇气告白,{other}红着脸点了头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_3"
+msgid "{actor}把练习了十遍的话说到一半,{other}就答应了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_4"
+msgid "在打印舱的见证下,{actor}和{other}牵起了手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_5"
+msgid "{other}等这句话等了很久,{actor}终于说出口了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REKINDLE_1"
+msgid "{pair}重新走到了一起。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REKINDLE_2"
+msgid "{pair}绕了一圈,又回到了彼此身边。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REKINDLE_3"
+msgid "有些分开只是为了想清楚,{pair}想清楚了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REKINDLE_4"
+msgid "{pair}再次牵起手,比第一次还要用力。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1"
+msgid "{actor}向{other}表白了,但{other}没有答应。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2"
+msgid "{actor}的心意,{other}没能接住。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3"
+msgid "{actor}说完那句排练好的告白,{other}沉默了很久。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4"
+msgid "不是所有真心都有回音,{actor}今天明白了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BREAKUP_1"
+msgid "{pair}分手了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BREAKUP_2"
+msgid "{pair}的感情走到了尽头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BREAKUP_3"
+msgid "{pair}把话说开,然后各自转身。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BREAKUP_4"
+msgid "{pair}的关系,像气压服的氧气一样耗尽了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BREAKUP_5"
+msgid "{other}还想挽回,{actor}已经不想再谈了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1"
+msgid "{pair}之间像隔着一层看不见的墙,关系停在了原地。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2"
+msgid "某种说不清的力量按住了{pair}的缘分,谁也没有再进一步。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3"
+msgid "{pair}的故事刚要翻页,又被无形的手轻轻按住。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4"
+msgid "命运在{pair}之间画了一条线,谁也没有跨过去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5"
+msgid "{pair}的关系起了波澜,又莫名其妙地平息了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FALLOUT_1"
+msgid "{pair}大吵一架,从此形同陌路。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FALLOUT_2"
+msgid "{pair}之间那点情分,一夜之间清了零。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FALLOUT_3"
+msgid "从那天起,{pair}在走廊里遇见都绕着走。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FALLOUT_4"
+msgid "朋友做到头,{pair}连招呼都省了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECONCILE_1"
+msgid "{pair}冰释前嫌,重归于好。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECONCILE_2"
+msgid "{pair}把旧账翻篇,重新坐到了一张桌上。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECONCILE_3"
+msgid "谁先开的口已经不重要,{pair}和好了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECONCILE_4"
+msgid "冷战结束的那天,{pair}都松了一口气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_1"
+msgid "{actor}向{other}道了歉。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_2"
+msgid "{actor}先低了头,{other}也就顺势原谅了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_3"
+msgid "{actor}把「对不起」三个字说得磕磕绊绊,{other}收下了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_4"
+msgid "{actor}递过去一块软泥糕,算是赔罪。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_5"
+msgid "面子和{other}之间,{actor}选了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1"
+msgid "一场冲突反倒让{pair}成了好朋友。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2"
+msgid "{pair}把话说透,反倒成了朋友。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3"
+msgid "道完歉的{pair},比吵架前还要亲近。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4"
+msgid "{pair}先是吵了一架,然后成了朋友——事情就是这样。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1"
+msgid "{pair}吵了一架。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2"
+msgid "{pair}争执了起来,谁也不让谁。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3"
+msgid "{pair}的声音越抬越高,惊动了隔壁的哈奇。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4"
+msgid "{pair}为一点小事红了脸,事后想想都不值。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5"
+msgid "一场架吵完,{pair}都觉得是对方先不讲理的。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1"
+msgid "因为{cause},{pair}吵了起来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_1"
+msgid "{pair}结下了梁子,成了宿敌。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_2"
+msgid "{pair}的恩怨从此有了名字:宿敌。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_3"
+msgid "往后很长一段日子,{pair}都不会给对方好脸色。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1"
+msgid "{pair}放下了宿怨。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2"
+msgid "{pair}握了握手,宿怨到此为止。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3"
+msgid "恨一个人也挺累的,{pair}决定算了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1"
+msgid "{other}死了,{actor}心里说不出是什么滋味。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2"
+msgid "宿敌死了,{actor}突然发现走廊安静了不少。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3"
+msgid "{actor}曾盼着赢过{other},如今再也没有对手了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1"
+msgid "{actor}看见{other}和{third}有说有笑,心里很不是滋味。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2"
+msgid "{actor}吃醋了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3"
+msgid "{third}和{other}聊得投机,{actor}在旁边数了很久的浮土。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4"
+msgid "那股酸劲儿,{actor}自己也说不清来由。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1"
+msgid "{actor}失去了{other},整个人都垮了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2"
+msgid "{other}的床铺空了下来,{actor}很久都不去看那个方向。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3"
+msgid "往后的排班表上再没有{other}的名字,{actor}的日子也空了一块。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1"
+msgid "{other}走了,{actor}把没说出口的话咽了回去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2"
+msgid "{other}没能等到{actor}鼓起勇气的那一天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3"
+msgid "{actor}把准备了好久的话,说给了{other}空着的床铺。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WITNESS_1"
+msgid "{actor}崩溃的样子,{other}都看在眼里。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WITNESS_2"
+msgid "{other}别过脸去,却没能忘掉{actor}崩溃的那一幕。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WITNESS_3"
+msgid "看着{actor}崩溃,{other}第一次觉得基地这么安静。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1"
+msgid "{subject}目睹了同伴的崩溃,心里很沉重。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2"
+msgid "{subject}撞见了同伴的崩溃,之后一整天都心不在焉。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BRAWL_1"
+msgid "{pair}打了起来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BRAWL_2"
+msgid "{pair}的争执升级成了拳脚。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BRAWL_3"
+msgid "{pair}扭作一团,工具散了一地。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BRAWL_4"
+msgid "这一架打得难看,{pair}都挂了彩。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.BRAWL_5"
+msgid "劝架的都来了,{pair}才肯撒手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1"
+msgid "{actor}又下了一天危险区,对{other}的轻松差事有了怨气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2"
+msgid "同样是下矿井,凭什么{actor}总去危险的那头——{actor}越想越不是滋味。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3"
+msgid "{actor}数着{other}的清闲日子,心里的账越记越厚。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1"
+msgid "{actor}对{other}的那点怨气,慢慢散了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2"
+msgid "{actor}想通了:危险活总得有人干,不该怨{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3"
+msgid "时间把那点火气磨平了,{actor}看{other}顺眼多了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1"
+msgid "{other}替{actor}挡了危险活,{actor}记在了心里。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2"
+msgid "危险活落下来的时候,{other}先一步接了,{actor}不会忘。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3"
+msgid "{actor}欠{other}一个人情,还是拿命换的那种。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1"
+msgid "{pair}一起扛过了危险的活,有了过命的交情。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2"
+msgid "从危险区活着出来,{pair}看彼此的眼神都不一样了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3"
+msgid "生死关头上{pair}谁都没先跑,这交情假不了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1"
+msgid "{actor}带头把账算到了{other}头上。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2"
+msgid "出了事,总得有人背锅——{actor}领着大家选了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3"
+msgid "{actor}一句话,就把众人的怒火引向了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1"
+msgid "{other}被孤立了,没人愿意跟他说话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2"
+msgid "{other}走进餐厅,一整桌的人都收了声。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3"
+msgid "现在连哈奇都比{other}受欢迎。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1"
+msgid "{actor}当众替{other}说了句公道话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2"
+msgid "{actor}当着所有人的面替{other}说话,没人再吭声。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3"
+msgid "众怒汹汹的时候,{actor}是唯一肯替{other}开口的人。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1"
+msgid "{actor}向{other}伸出了援手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2"
+msgid "{actor}端着餐盘坐到{other}旁边,孤立的墙塌了一角。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3"
+msgid "所有人都绕开{other}的时候,{actor}偏偏走了过去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1"
+msgid "{actor}趁没人注意,揍了{other}一顿。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2"
+msgid "排班表的空档里,{actor}堵住了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3"
+msgid "{actor}挑了个四下无人的时候,把火气撒在了{other}身上。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1"
+msgid "{subject}看见了那场私刑。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2"
+msgid "{subject}撞见了那一幕,慌忙装作没看见。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3"
+msgid "有些事看见了也只能咽下去,{subject}把嘴闭得很紧。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1"
+msgid "{subject}撞见他一个人躲着哭。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2"
+msgid "{subject}路过时听见哭声,放轻了脚步。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3"
+msgid "躲在角落里的那个人哭了很久,{subject}没有上前。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1"
+msgid "针对{subject}的孤立,总算过去了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2"
+msgid "殖民地找到了新的谈资,{subject}的那档子事没人再提。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3"
+msgid "日子一长,连怒火也会过期——{subject}重新融进了人群。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1"
+msgid "粮仓见了底,恐慌在殖民地蔓延。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2"
+msgid "最后一块软泥糕也见了底,没人敢想明天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3"
+msgid "饿肚子的消息比氧气传得还快。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1"
+msgid "粮食补上了,大家松了一口气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2"
+msgid "储藏室重新有了存货,咀嚼声又回来了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3"
+msgid "危机解除了,没人追问粮食从哪来的。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1"
+msgid "{actor}和{other}为了最后一口吃的动了手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2"
+msgid "饿极了的人不讲道理,{actor}和{other}为了一口吃的撕破了脸。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3"
+msgid "{actor}盯上了{other}的那份口粮,拳头比理智先到。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1"
+msgid "断粮的日子终于过去了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2"
+msgid "粮仓重新满了,有些事大家心照不宣地不再提。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3"
+msgid "又能吃饱的日子来了,仿佛饥荒从没发生过。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_1"
+msgid "{pair}迎接了新来的同伴。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_2"
+msgid "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_3"
+msgid "打印舱又吐出一个新人,{pair}第一个迎了上去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_4"
+msgid "新人的第一顿饭,是{pair}陪着吃的。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1"
+msgid "{subject}的压力又重了一分。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2"
+msgid "{subject}的眉头又拧紧了一分。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3"
+msgid "弦绷得太久,{subject}自己都能听见响声。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1"
+msgid "{subject}松了一口气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2"
+msgid "{subject}睡了个好觉,脸色缓过来了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3"
+msgid "压在心口的那块浮土,{subject}总算掸掉了些。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1"
+msgid "{actor}大老远就冲{other}嚷了一嗓子问好。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1"
+msgid "{actor}打招呼跟下命令似的,{other}还是应了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1"
+msgid "{actor}左右看了看,才小声跟{other}打了招呼。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1"
+msgid "{actor}轻轻朝{other}点了点头,笑得很暖。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1"
+msgid "{actor}嘴里还嚼着米虱糕,含混地跟{other}打了招呼。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1"
+msgid "{actor}大着嗓门跟{other}聊了个痛快。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1"
+msgid "{actor}说着说着就提高了音量,{other}居然没介意。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2"
+msgid "{actor}越聊越激动,差点拍了桌子。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1"
+msgid "{actor}压低声音跟{other}嘀咕了半天,不知在担心什么。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1"
+msgid "{actor}说话轻声细语,{other}听得直点头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1"
+msgid "{actor}说着说着眼圈就红了,{other}赶紧岔开了话题。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1"
+msgid "{actor}边吃边聊,{other}的话头总被咀嚼声盖过去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1"
+msgid "{actor}把自己那份点心拨给了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2"
+msgid "{pair}的餐盘收得格外干净。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1"
+msgid "{actor}把热乎的那份让给了{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1"
+msgid "{pair}这桌最热闹,{actor}的嗓门半个餐厅都听得见。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1"
+msgid "{actor}嫌饭菜淡了,{other}默默把盐罐推了过去。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1"
+msgid "{actor}吃得心不在焉,{other}问了三遍才应声。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1"
+msgid "{actor}翻来覆去睡不着,{other}陪着说了会儿话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1"
+msgid "{actor}夜里掉了几滴眼泪,{other}装作没听见。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1"
+msgid "{actor}的呼噜声,{other}听了一整夜。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1"
+msgid "{actor}起夜轻手轻脚,生怕吵醒{other}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_EATER_1"
+msgid "{actor}睡前又摸出一块点心,{other}闻着香味睡不着。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1"
+msgid "玩游戏时{actor}又急了眼,{other}笑着让了他一把。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1"
+msgid "就数{actor}的笑声最响,{other}的耳朵遭了殃。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1"
+msgid "{actor}输了游戏差点哭出来,{other}赶紧让了他一局。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1"
+msgid "{actor}总把输赢让给{other},两个人都玩得开心。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1"
+msgid "{actor}玩得提心吊胆,{other}一直在旁边打气。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1"
+msgid "{actor}说着说着就哭了,{other}默默递了张纸巾。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1"
+msgid "{actor}骂骂咧咧倒完苦水,{other}从头听到尾。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1"
+msgid "{actor}絮絮叨叨说了半天担心,{other}一条条帮他理清。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1"
+msgid "{actor}的苦水,半个休息区都听见了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1"
+msgid "{actor}连诉苦都轻声细语,{other}听得格外认真。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1"
+msgid "{pair}聊了几句,客气得像刚认识。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1"
+msgid "{pair}话里带刺,聊得像在过招。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1"
+msgid "{pair}聊着聊着,目光就躲到了别处。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1"
+msgid "{pair}僵着脖子,交换了几句必要的话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1"
+msgid "{pair}凑在一起说悄悄话,旁若无人。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1"
+msgid "{pair}同桌吃饭,各自盯着餐盘。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1"
+msgid "{pair}同桌吃饭,刀叉碰得格外响。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1"
+msgid "{pair}同桌吃饭,谁都吃得心不在焉。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_EX_1"
+msgid "{pair}同屋睡了一晚,谁也没提从前。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1"
+msgid "{pair}同屋睡了一晚,背对着背。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1"
+msgid "{pair}同屋睡了一晚,都睡得不踏实。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_COLD_1"
+msgid "{pair}同屋睡了一晚,屋里冷得像冰窖。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1"
+msgid "{pair}挤一张床睡了一晚,醒来还牵着手。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1"
+msgid "{pair}一照面就乐了,谁还记得当初那一架。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1"
+msgid "{pair}聊得热络——不打不相识。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1"
+msgid "{pair}聊起那次死里逃生,话就没个完。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1"
+msgid "{pair}边吃边碰了碰杯,过命的交情都在里头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1"
+msgid "{pair}有说有笑,当初那次拒绝如今成了笑谈。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1"
+msgid "{pair}挨着坐下,这顿饭等了不止一天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY"
+msgid "继那次争吵之后,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL"
+msgid "上次的拒绝没有让{actor}放弃,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE"
+msgid "分开之后,他们还是放不下彼此,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT"
+msgid "目睹了那场崩溃之后,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE"
+msgid "冷战了这些日子,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL"
+msgid "那场争吵终究没收住,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL"
+msgid "积怨已久,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP"
+msgid "裂痕再也没能弥合,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN"
+msgid "又一次,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.RECUR_MANY"
+msgid "这已经是第{0}次了,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE"
+msgid "在断粮的阴影下,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.ERA_WRATH"
+msgid "在众怒未平的日子里,"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1"
+msgid "消息很快传开,大家都在谈论他们。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2"
+msgid "整个殖民地都替他们高兴。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1"
+msgid "殖民地里的空气沉了几天。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2"
+msgid "大家看在眼里,都不好受。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1"
+msgid "{pair}这天凑在一起聊了好几回。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2"
+msgid "{pair}这一天有说不完的话。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1"
+msgid "{pair}这一天打了不少照面,越来越熟络。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1"
+msgid "{pair}这天一起吃了好几顿饭。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1"
+msgid "{pair}这天一有空就凑在一块儿玩。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK"
+msgid "手上的活计"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE"
+msgid "彼此的差事"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING"
+msgid "挖掘的进展"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING"
+msgid "建造的门道"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING"
+msgid "新琢磨的菜谱"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING"
+msgid "庄稼的长势"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING"
+msgid "小动物的脾气"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH"
+msgid "研究的新发现"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING"
+msgid "机器的维护"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING"
+msgid "包扎的手法"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING"
+msgid "搬货的路线"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_ART"
+msgid "新挂的装饰"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS"
+msgid "锻炼的心得"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS"
+msgid "穿气压服的窍门"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER"
+msgid "矿道里的事"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER"
+msgid "新盖的走廊"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK"
+msgid "灶台上的新花样"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER"
+msgid "地里的收成"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER"
+msgid "圈里的小家伙们"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER"
+msgid "实验台前的发现"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR"
+msgid "机器的毛病"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR"
+msgid "医务室的药箱"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE"
+msgid "社交生活已开始"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY"
+msgid "复制人有了自己的社交生活：聊天、交友、恋爱、争执都会自然发生。顶部管理菜单的「社交」可以旁观全局并牵线搭桥；复制人详情的「社交」标签可以查看每个人的关系。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE"
+msgid "喜结连理"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY"
+msgid "{0} 向 {1} 告白成功，两人正式成为恋人！"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE"
+msgid "分手了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY"
+msgid "{0} 和 {1} 的感情走到了尽头。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX"
+msgid "压垮感情的最后一根稻草：{0}（周期 {1}）。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE"
+msgid "失去了伴侣"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY"
+msgid "{0} 失去了伴侣 {1}，陷入悲伤。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE"
+msgid "冷战"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY"
+msgid "{0} 和 {1} 进入冷战，关系岌岌可危。给他们一个牵线标记可以促成和解。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE"
+msgid "和好如初"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY"
+msgid "{0} 和 {1} 冰释前嫌，重归于好。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE"
+msgid "默默哀悼"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY"
+msgid "{0} 在心里悼念逝去的 {1}。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE"
+msgid "挚友"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY"
+msgid "{0} 和 {1} 成为彼此的挚友。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE"
+msgid "殖民地羁绊"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY"
+msgid "殖民地人心凝聚，全员士气提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE"
+msgid "殖民地不和"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY"
+msgid "殖民地气氛紧张，全员士气受挫。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE"
+msgid "气氛回归平静"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY"
+msgid "殖民地的集体情绪回到了平常状态。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE"
+msgid "纪念日"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY"
+msgid "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE"
+msgid "错过的纪念日"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY"
+msgid "{0} 和 {1} 的纪念日在忙碌中溜走了，两人都有点闷闷不乐。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE"
+msgid "闹掰了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY"
+msgid "{0} 和 {1} 积怨爆发，正式闹掰——一段时间内感情难以升温，一次道歉就能和好清账。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE"
+msgid "低谷陪伴"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY"
+msgid "{0} 坐在 {1} 身边，默默陪伴着悲伤中的伙伴。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE"
+msgid "老夫老妻"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY"
+msgid "{0} 和 {1} 相伴日久，感情进入细水长流的阶段。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE"
+msgid "结下宿敌"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY"
+msgid "{0} 和 {1} 积怨到底，正式结下宿敌——这段关系不再自行回暖，除非你出手牵线调解。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE"
+msgid "宿敌和解"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY"
+msgid "{0} 和 {1} 的宿怨终于化开，关系回到了正常轨道。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE"
+msgid "打起来了！"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY"
+msgid "{0} 和 {1} 从争吵升级成互殴。点到为止，但两人都要挂彩。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE"
+msgid "总得有人负责"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY"
+msgid "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE"
+msgid "没人跟他说话了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY"
+msgid "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE"
+msgid "有人说了句公道话"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY"
+msgid "{0} 当众替 {1} 说了话。没人再提这件事了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE"
+msgid "第一个坐下来的人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY"
+msgid "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE"
+msgid "没人看见"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY"
+msgid "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE"
+msgid "被淡忘了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY"
+msgid "没人救 {0}，但也没人再记得那件事了。日子照过。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE"
+msgid "整个房间都看着"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY"
+msgid "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE"
+msgid "第一个坐下来的人"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY"
+msgid "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE"
+msgid "不打不相识"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY"
+msgid "{0} 和 {1} 打完这一架反而认了对方，宿怨就此了结。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE"
+msgid "粮仓见底了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY"
+msgid "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE"
+msgid "危机解除"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY"
+msgid "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE"
+msgid "活下去！"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY"
+msgid "{0} 和 {1} 之间的事已经不是吵架了。饥饿把最后一点体面也拿走了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE"
+msgid "饥荒过去了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY"
+msgid "储藏室重新有了食物。没有人问那是什么。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE"
+msgid "最后的殖民者"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY"
+msgid "只剩一个人了。基地很安静，食物也够了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE"
+msgid "对头不在了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY"
+msgid "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DEATHS.SURVIVE.NAME"
+msgid "活下去"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DEATHS.SURVIVE.DESC"
+msgid "在粮仓见底的日子里，被同伴夺去了性命。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME"
+msgid "「同事」肉"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC"
+msgid "断粮那几天留下来的。没有人问这是谁，也没有人愿意先动筷子。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE.NAME"
+msgid "恋爱中"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE.DESC"
+msgid "有心上人了，士气提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME"
+msgid "老夫老妻"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC"
+msgid "相伴已久,是彼此最安心的存在。士气大幅提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.DATE_AFTERGLOW.NAME"
+msgid "约会余韵"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.DATE_AFTERGLOW.DESC"
+msgid "刚度过愉快的约会，士气提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.CANNIBAL.NAME"
+msgid "吃了同事"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.CANNIBAL.DESC"
+msgid "那顿饭是谁，心里清楚。有些事情吃下去就吐不出来了。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.RIVAL_DIED.NAME"
+msgid "幸灾乐祸"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.RIVAL_DIED.DESC"
+msgid "看不顺眼的那个人不在了。嘴上不说，心情确实不错。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.GRIEF.NAME"
+msgid "丧偶悲伤"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.GRIEF.DESC"
+msgid "失去了心上人，士气下降。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.GRIEF_SOFT.NAME"
+msgid "丧偶悲伤（有人陪着）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.GRIEF_SOFT.DESC"
+msgid "失去了心上人，但殖民地的陪伴减轻了痛苦。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.COLONY_COHESION.NAME"
+msgid "殖民地羁绊"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.COLONY_COHESION.DESC"
+msgid "殖民地上下一条心，全员士气提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.COLONY_DISCORD.NAME"
+msgid "殖民地不和"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.COLONY_DISCORD.DESC"
+msgid "殖民地关系紧张，全员士气下降。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.SIDE_BY_SIDE.NAME"
+msgid "并肩作战"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.SIDE_BY_SIDE.DESC"
+msgid "和要好的人一起干活，效率提升。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.STRAINED.NAME"
+msgid "情绪紧绷"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.STRAINED.DESC"
+msgid "压力已经逼近极限，随时可能崩溃。找人聊聊、吃顿好的，或者让 TA 歇一歇。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.STRAINED.BUBBLE"
+msgid "深吸一口气……忍住了"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.NAME"
+msgid "被孤立"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC"
+msgid "殖民地出了事，而 TA 是人缘垫底的那个——所以帐算在 TA 头上了，跟事情是不是 TA 做的无关。有人愿意照顾 TA、找 TA 说话或跟 TA 一起吃顿饭，这个状态就会解除；再久一点，事情也会被淡忘。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TITLE"
+msgid "社交生活 · 设置"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BUTTON"
+msgid "设置"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP"
+msgid "打开「复制人社交生活」的设置面板"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVE"
+msgid "保存"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CANCEL"
+msgid "取消"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.RESET"
+msgid "恢复默认"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK"
+msgid "已保存，并已对当前会话生效。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVE_FAILED"
+msgid "保存失败，详情见日志。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK"
+msgid "已恢复默认值，点「保存」后生效。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX"
+msgid "（重启后生效）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ON"
+msgid "开"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OFF"
+msgid "关"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_AI"
+msgid "AI 对话"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ENABLE_AI"
+msgid "启用 AI 生成对话"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT"
+msgid "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BASE_URL"
+msgid "API 地址"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY"
+msgid "API Key"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MODEL"
+msgid "模型"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER"
+msgid "https://api.example.com/v1"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER"
+msgid "粘贴你的 API Key"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER"
+msgid "模型名称"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE"
+msgid "对话语言"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW"
+msgid "跟随游戏"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH"
+msgid "中文"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN"
+msgid "English"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
+msgid "每周期 AI 对话上限"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
+msgid "同一对复制人的对话冷却（秒）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TIMEOUT"
+msgid "AI 请求超时（秒）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_TOKENS"
+msgid "单次生成上限（token）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_SET"
+msgid "Key 已填写，保存后立即生效"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING"
+msgid "未填写 Key，AI 对话不会发起，仅使用内置台词"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING"
+msgid "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL"
+msgid "社交系统"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
+msgid "观察原生社交事件（关系引擎输入）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
+msgid "（本版本固定开启）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
+msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.HOTKEYS"
+msgid "F9/F10/F11 牵线热键"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS"
+msgid "关系大事通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE"
+msgid "关系事件演出"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT"
+msgid "简洁"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD"
+msgid "标准"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS"
+msgid "聚焦"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT"
+msgid "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE"
+msgid "重大事件自动暂停"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT"
+msgid "独立开关，默认关闭。打开后重大关系事件发生时暂停游戏。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW"
+msgid "待发生窗口"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT"
+msgid "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES"
+msgid "待发生等待周期"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES"
+msgid "关系里程碑通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF"
+msgid "悲伤与失去通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT"
+msgid "冲突与危险通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY"
+msgid "日常纪念通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF"
+msgid "关闭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE"
+msgid "仅封存"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT"
+msgid "即时通知"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_TITLE"
+msgid "一件重要的事即将发生"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_BODY"
+msgid "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
+msgid "同一对复制人的好感进账间隔（秒）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
+msgid "原生聊天转化为好感的每对最短间隔，社交事件节奏的总阀门：聊天里的争执/告白/倾诉等判定机会随之增减。默认 150 ≈ 每对每周期 3-4 次进账；调小节奏更快，30 即旧版的刷屏节奏"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
+msgid "纪事容量（条）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT"
+msgid "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_DARK"
+msgid "黑暗内容（人性考验）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DARK_CONTENT"
+msgid "启用黑暗内容"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT"
+msgid "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED"
+msgid "（黑暗内容总开关关闭中，下列项目暂不生效）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.FAMINE"
+msgid "允许断粮相残"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.FAMINE_HINT"
+msgid "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA"
+msgid "把崩溃演成一场戏"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT"
+msgid "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT"
+msgid "危险工时会积怨"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT"
+msgid "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH"
+msgid "允许集体迁怒"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT"
+msgid "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS"
+msgid "允许宿敌互殴"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE"
+msgid "调快原生对话节奏"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT"
+msgid "原生对话冷却倍率"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT"
+msgid "原生对话距离倍率"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_UI"
+msgid "界面与反馈"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
+msgid "对话台词浮动文字"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
+msgid "台词停留秒数"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS"
+msgid "好感增减飘字"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY"
+msgid "本地玩法数据"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY"
+msgid "记录匿名社交遥测"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT"
+msgid "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE"
+msgid "平衡"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET"
+msgid "戏剧强度预设（读档后生效）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET_QUIET"
+msgid "安静"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT"
+msgid "默认"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA"
+msgid "戏剧"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM"
+msgid "自定义"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESET_HINT"
+msgid "预设调整争执/吃醋/道歉的概率与代价；「安静」少吵少醋，「戏剧」冲突更密"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP"
+msgid "社交压力软上限（0 = 关闭）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD"
+msgid "「情绪紧绷」阈值"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG"
+msgid "调试（仅开发版可见）"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DEBUG_HINT"
+msgid "以下是技术性参数，改坏了用「恢复默认」拉回来"
+msgstr ""

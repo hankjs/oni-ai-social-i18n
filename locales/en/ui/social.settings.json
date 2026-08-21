@@ -1,0 +1,582 @@
+{
+  "locale": "en",
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "Social Life · Settings",
+      "sourceHash": "sha256:dd0ce977a0099a1ed18ea15e119ac17ee14314dd6a15f273ee99a80d3b65b06d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "Settings",
+      "sourceHash": "sha256:5278edffb7b50f940183051d2e887af7907ee8f076f2963477f7669c10232c0b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "Open the settings panel for Duplicant Social Life",
+      "sourceHash": "sha256:5e6843f8d759c6e2850b3987e40b0664dfdc9b815ae1c967aee6b856dfa8333e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "Save",
+      "sourceHash": "sha256:49a01bb28142434a8fb1c15769989ffd0e233771562f03ebebe72f89bc3c76cd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "Cancel",
+      "sourceHash": "sha256:221c197f14546a2065d7d2ccf7700052e52d3f590349d5fd2abf5214bfa4410d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "Restore defaults",
+      "sourceHash": "sha256:a88d8522d31909636720f045edd8161bbfd6bfa8e3e86ce658cf2239a04e5373",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "Saved and applied to the current session.",
+      "sourceHash": "sha256:12569f7f757103d3d28f94610cec3a1d5935636c13220089f46fd4345bf4712e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "Save failed, see the log for details.",
+      "sourceHash": "sha256:02030391eb59c6a2c68744bdc36fc463dd6fc8a89ab6c87dd765277249700591",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "Defaults restored. Click Save to apply.",
+      "sourceHash": "sha256:9d1c4f8ad91a4f3a3433b8b70fd6c1d706b6d9451bcaacd81de11753012be504",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": " (restart required)",
+      "sourceHash": "sha256:6d25dfc981d2ca36ccb3716e05066bc2b65cb240a06f3a5714f58cc4b34f049b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "On",
+      "sourceHash": "sha256:918acef0657064792b075f539d5cf1136bf554f580bbcaa52aa5fb48f82294c2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "Off",
+      "sourceHash": "sha256:19980ec3333f6581dcf533a27de927a950c36974f5c5ca7ae7c31e20491a7272",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "AI Dialogue",
+      "sourceHash": "sha256:40ddc0eab96f1ebd8b95c4ea15e6943583e9b69808014b391f3605cdbfad67a3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "Enable AI-generated dialogue",
+      "sourceHash": "sha256:b52f2e6ac3b9357fd65a26a01c4d1231b97c78dc1e737b71d9e157fb4c2da5d9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "AI dialogue is still a work in progress and off by default. With it off, built-in lines cover the whole game.",
+      "sourceHash": "sha256:f8c6ac99914d2a0a45479d0f995f4a833063d7fa298d7a92a7be81f9f6541302",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "API base URL",
+      "sourceHash": "sha256:d7f70739011a4900e191c256c09e0c228bae9015467889001a4b1618d81aa8d4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API key",
+      "sourceHash": "sha256:4e692144c2a81ba1bc853f96f4e98c73043046c6a6f7d11b4f68373b7f0b4b9a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "Model",
+      "sourceHash": "sha256:7872188dbe7f0a6f9cb271cdc8515e18d382bec588d60daad5d186d01bdd9506",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "sourceHash": "sha256:c02b9a3387ce44a807453752b93041edb229e282a8040f75f27ca27a63a585b9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "Paste your API key",
+      "sourceHash": "sha256:e360f073c9f2c06b3f5ff0873fd69ee82dfbb9cab09cc2c4b153099a1f624af3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "Model name",
+      "sourceHash": "sha256:e253995e26113404d0005ab81ecfb3c09a1a740a1cbbbe162552acefd37d0e16",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "Dialogue language",
+      "sourceHash": "sha256:bd2a4afd8e77ad086acdeabeb6981b291e500e85f0ad8301d1357d1f748ffb75",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "Follow game",
+      "sourceHash": "sha256:6472d1847ba505b15747ba7ab5febd1bf674dfae2e51dd38233f2136206b28a6",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "中文",
+      "sourceHash": "sha256:62dd2e93050724685de30d6cb183f1ef32afab52880857248696ffa0190af79d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "sourceHash": "sha256:98ef6b69bbb04b5c33aa47d62c5fc1809efec5577e550cab7ff064ec394eb765",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "AI conversations per cycle",
+      "sourceHash": "sha256:235cac4b77d295e6b325c64de957f9b72d5949cd1cc30972fe142842f3b58523",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "Per-pair conversation cooldown (s)",
+      "sourceHash": "sha256:383fa18f271ff995e23661aade2302264b0a049113b6bc293494d465c6ec47e2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "AI request timeout (s)",
+      "sourceHash": "sha256:91c5e1af62c5d7492b43c9bdedba7d8a8d00706f2dff83e3273f1b5d6993bea4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "Max tokens per generation",
+      "sourceHash": "sha256:90b97579ce1be910a495c6c18740f37e59afdcb850aae0334833f462ee28eb17",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key entered; takes effect as soon as you save",
+      "sourceHash": "sha256:07297186b302a342296f1fa5e9438626d29021973af7ea6ee163dde47a420eac",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "No key set. AI dialogue stays off and built-in lines are used.",
+      "sourceHash": "sha256:c52492c06236c7ed4e24a9367d1a8f7569382a9fc858dec602300f21330bd1e1",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key is filled in, but the API address or model is missing or invalid - AI dialogue will not be attempted",
+      "sourceHash": "sha256:f3fff37b884b69bd28e2e64d587ddec1559a0140d32529bf6341fe4e8cee8cc4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "Social System",
+      "sourceHash": "sha256:7daf8a01300350caa64ce41cf0e06412b5a0e756145bdf858e8158a18877d19b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "Observe native social events (engine input)",
+      "sourceHash": "sha256:6d5fbb9e7e232fab6fc83d0fb7f54654ec03ed41ff3f779ab6d0fb3390e80d8b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": " (always on in this version)",
+      "sourceHash": "sha256:55d59df9318d522b8e7870bc9103594e58c911bd0be37256a20fd2c7dba06237",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "The relationship engine is built entirely on native social events, so it cannot be turned off yet.",
+      "sourceHash": "sha256:3c36df41760b6c92aa5d983fd33a79fe3512ea3edf338ad31a9bc939708b401e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "F9/F10/F11 matchmaking hotkeys",
+      "sourceHash": "sha256:28100edaba2ca556d4b36ff2cd8e93da9dbc9e33dbd7409eedcfac3410eca533",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "Relationship event notifications",
+      "sourceHash": "sha256:76af14deaf42df391366447d8630b667a0a65f7c3e84843b922f6a77ade46f80",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "Relationship event presentation",
+      "sourceHash": "sha256:682fe06e868bc1c764693c6ab0f2e7c83a0af9660f78c1365a1e7008011ae216",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "Compact",
+      "sourceHash": "sha256:6b80e02b48609363e50b52d3cc5e46708df1bb8735ec61cad058d3e5de8dd21d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "Standard",
+      "sourceHash": "sha256:3a90ea750f11c87a61e1860378e6d1992373f41d2a6164d9c5ca2b9e0a2da599",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "Focus",
+      "sourceHash": "sha256:f118d0f9248f4f0b144ab7767db6905ddf5af47d360b456acfbd6612738a976c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "Standard does not move the camera. Only Focus automatically moves to the event. This does not change outcomes or values.",
+      "sourceHash": "sha256:ac9b96d709ff75c76e1fe08010fac737326ed8f2143f0c6f9d55513b3153844b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "Pause on major events",
+      "sourceHash": "sha256:bfe160f5ed3c907ecb650e87b7a1c1cf7c4d4a8a9b9e2a839201faf596778281",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "Independent setting, off by default. When enabled, major relationship events pause the game.",
+      "sourceHash": "sha256:cf4509479a944b2b9575d37fc9e5b1e195f2627904970bd7bb571d2c55ba3b21",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "Pending event window",
+      "sourceHash": "sha256:2fae16612d2f5d1c43dd2ced002c660420f197e781f286ff8d41873b68017163",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "When disabled, confession events happen immediately but still have presentation and notifications. Only timing changes.",
+      "sourceHash": "sha256:07b9ca011a0c0b8bec59bca4d93b25057d7df2cc91cf4795093ca5a96e116a84",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "Pending window (cycles)",
+      "sourceHash": "sha256:e7743d3e0693b24194290030edea95b372fb13d614dbd68ebde7a39d34fd181a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "Relationship milestones",
+      "sourceHash": "sha256:91e8874dff8d7ce01fb9901a0a1a3a1fa7306c0f64179e9f0b6deb8991298e03",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "Grief and loss",
+      "sourceHash": "sha256:c553c0c316b2d4f3c9b69906b5fe29701b05e0501ea7b316ea63a974cadfeafe",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "Conflict and danger",
+      "sourceHash": "sha256:f4183826b41a15f330dfbb72c5e2a7e9bd79d358ea07d5a84d1f94133156f7a4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "Everyday commemorations",
+      "sourceHash": "sha256:c0fe2ae50e8305ea837259fb290be3d1621c54c5f991a941364408b6c2ce85bc",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "Off",
+      "sourceHash": "sha256:66c2baf7ce710ddab227e8a1bba43f5c29828554669c996033969de21374ee77",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "Archive only",
+      "sourceHash": "sha256:2fb8078358d51590fcdbe1b0aaefada75dfabca014b3105b0ccad07cf9faec4e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "Instant",
+      "sourceHash": "sha256:fcceb28d0aab2c317d32a78d2e33f2cb29c30d8ac0b763ea6709effb7766670c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "An important moment is coming",
+      "sourceHash": "sha256:358e3e5c66deb62b7d9c94aa8347a2844090a3bb2e2660a70d231567ae8b7964",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0} is preparing to tell {1} something important. {2} cycles remain.",
+      "sourceHash": "sha256:2cab79faf89ffd16d0486891cd9091b4556f1afa0290a37731fdb05d16973553",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "Minimum interval between affinity gains for a pair (seconds)",
+      "sourceHash": "sha256:586ff0b93a1f07727e0c8b41919aa78f013209562479bf7af81eeb2cc2e92185",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "Master valve for social event pacing: argument, confession and venting checks inside chats scale with it. Default 150 = 3-4 gains per pair per cycle; lower is faster, 30 restores the old rapid-fire pace.",
+      "sourceHash": "sha256:76f531f11046771815024684e4f1aaf619b2d8edfbc54cafac8b5fb9c7eba28a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "Chronicle capacity (entries)",
+      "sourceHash": "sha256:d292068fcff7e351f88b83ecc6f002d7fa29fca6829d8499906d68ebea407796",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "Rolling section size of the event log. Default 5000 entries ≈ 1MB reserved (uncompressed estimate; far less after save compression). Milestones are kept in a separate section and don't count. Takes effect on next load or new colony.",
+      "sourceHash": "sha256:ad112919cd612de40e69b941eb014782314feed2aefdf873ca51d1aedd43098a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "Dark content (tests of character)",
+      "sourceHash": "sha256:8564c42f03c80f6ca60af431711e435afa2fe0b623fb2edf994015f3f10e88dd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "Enable dark content",
+      "sourceHash": "sha256:51baa1d0f062bda8e0fe309a68d2a9b3138556f2c2c3ae747d3c71baced5412b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "Master switch, off by default. The dark events below only take effect once this is on - brawls, famine cannibalism, and the tests of character added later. This content involves violence and death between duplicants; leave it off if you would rather not have it, and every other social feature carries on unchanged.",
+      "sourceHash": "sha256:bff59dee0dc4823c3c1a50786a997d8c62fb76cd89da2fafe815e9bb51d2e067",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "(Dark content is switched off, so the items below are inactive)",
+      "sourceHash": "sha256:13619d7946946d73f7876ec79bb4305088aa5c6942c43af83da7eb7c3ee8ef96",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "Allow famine cannibalism",
+      "sourceHash": "sha256:56aa7f85089f18e7743e0219bcbf4088b972b04e8ba4fdedb7ded6b8d9db5d06",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "When the larder is empty and several duplicants are starving, the colony turns on itself and the dead become food. A warning and a countdown come first, and restocking during that window calls it off; one death per episode, and it stops once food recovers. This is the darkest content in the mod - it needs the master switch as well.",
+      "sourceHash": "sha256:800784f8eb023120d646cce1fc9b5e6fb1a464962fc913abe8d65047e3989d09",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "Play breakdowns as a scene",
+      "sourceHash": "sha256:c27d94b4d9d48d8a8f557f76726059f76266c751b4c28ab52c8b9d0b1cc6c606",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "When a duplicant's stress maxes out and they actually break down (ugly crying / screaming / vomiting / binge eating / smashing things / throwing sparks), everyone in the room stops to watch, and the relationship keeps a memory of it. For the next few cycles, the first person to talk to them, tend to them or share their table pulls them out of it - a large affinity gain for both, and a little stress for the one who went. You can also pick that person yourself with a matchmaking mark. It changes no numbers: breakdown frequency, stress and death rate are all untouched. On by default.",
+      "sourceHash": "sha256:680891db2b28fc23329d9f86851b650ca9474d8de7b70e7213923363f53b4b43",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "Hazard duty breeds resentment",
+      "sourceHash": "sha256:6bc6da38c293fbde233d682ce196a11065919aba36cbcb8cddc55d0adf0c8d9f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "Within one trade, a duplicant who keeps getting sent somewhere dangerous (thin air, unbreathable gas, actively suffocating or burning or freezing) starts to resent the colleague who never goes down: affinity toward them can only fall, and it can end in outright rivalry. Working in an atmo suit does not count - which quietly turns \"who has a suit\" into a social question. The way out is yours: change the priorities. Old duty slides out of the rolling window, the grievance fades on its own, and it leaves behind \"they've been going down too lately\". This is the only feature in the mod resolved by you changing how you manage the colony, and it uses the game's own controls - no new UI. Two duplicants down there together counts as well: that becomes comradeship. And the same sacrifice reads differently between friends - \"they went down in my place\" raises affinity instead. It adds no stress and takes nothing away: the game already charges for bad environments. At most two grievances run at once. On by default; the Quiet drama preset force-disables it.",
+      "sourceHash": "sha256:ae9480432eb4cc5c42f2ffe349dfe8266afca09d7e2b566beb3e65df295fadb0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "Allow collective scapegoating",
+      "sourceHash": "sha256:8cd63ec16b4e309ea4788ced373812ca3f9233887094960bc39781aace539286",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "After something bad happens to the colony (a death, several breakdowns, an empty larder), everyone pins it on whoever is least liked, guilty or not: a one-off affinity drop, then a slide into being frozen out - the three who like them least stop warming up at all, others flash disgust in passing, and tablemates leave early. Both exits are your tools: in act one, pair them with a well-respected colleague and that person will speak up; in act two, anyone tending, venting or eating with them breaks it. Nothing gets stuck forever - time fades it. Needs the master switch too, and Drama intensity set to Quiet disables it outright.",
+      "sourceHash": "sha256:1710dce8dc434eb0cfdfbdfbaa15d66f8377a066f5c68d9d6a5f72f8e53fee61",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "Allow rivals to brawl",
+      "sourceHash": "sha256:409fccbcbb600046b82a7bf28e21653a1cec85d1b4b1ecb469fd76f680ce623f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "Arguments between rivals can escalate into an actual fight: turn-based, and stopped short (both back off once either drops to half health) - rival brawls never kill (famine cannibalism is a separate matter, see below). Off by default; turn it on if you want the drama. A block mark bans brawling for a pair outright, and setting Drama intensity to Quiet disables it even when this is on.",
+      "sourceHash": "sha256:f3424448154a7f3fce7ceadbff3fcf5d239ca0475c22b45585850c553423d3ff",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "Boost native conversation pacing",
+      "sourceHash": "sha256:9423dda42e86dfcc1a9b8bd5870e9303926eaf396cf2bff834c7b7335d73839f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "Native conversation cooldown multiplier",
+      "sourceHash": "sha256:9d5c958c887370a7b92aa3bb58198e8361800ba461f8a3f79e2c8d15319bec82",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "Native conversation distance multiplier",
+      "sourceHash": "sha256:1f35e970e9d0aed9820f165141e281c4d22772ee037be8ca791998c827e17c03",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "Interface & Feedback",
+      "sourceHash": "sha256:5c59ff5b258fe4f3c2df6675404ece5b1b069e7a4745c4689630956155a24a72",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "Dialogue text popups",
+      "sourceHash": "sha256:9ff5b41228f1c0223e60582d7f868a8e61bd45f2c59db7e4ad6d2cca2c8beac4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "Dialogue popup duration (s)",
+      "sourceHash": "sha256:a6164774a58ac4f111b13fef277485c42dbea7f3e3844f5dc92494c2c7a3cfb2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "Affinity change popups",
+      "sourceHash": "sha256:7a4af22ad0d5ec43467feea9ee85a6cfd215c62d7f02dfc66993107757fb2a9a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "Local Gameplay Data",
+      "sourceHash": "sha256:46532eafee33ead1729a4fa700857bbd530a206c6556cd091618198572c4c4dc",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "Record anonymous social telemetry",
+      "sourceHash": "sha256:c10226a3dd5b3951825ffb4dd9d538399598891e64da875fce56bc196d5d6c93",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "Off by default. When enabled, the mod records event frequency, relationship distribution, mod stress effects, schedule share and performance timings on this device only. Duplicants use anonymous IDs; API keys, AI endpoints and save contents are excluded, and nothing is uploaded automatically. Export a diagnostic report from Social > Event Log while in a colony.",
+      "sourceHash": "sha256:bb3c2a44f0d014153f212663114137741083e40483682f746bb0a2d7a962d70e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "Balance",
+      "sourceHash": "sha256:92f4381d7f386b19a9052252a595ae5b4fa07903e7cc5ee93aa91bc63bf4e37e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "Drama intensity preset (applies after loading a save)",
+      "sourceHash": "sha256:efb19afb250f19547ffd975551ff97ac8a18cad6eb6b15fc8aef810d319a1a72",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "Quiet",
+      "sourceHash": "sha256:bdc04f3d9c58e085cb45f907320ae97ba741b106578344e5b002e1c0b93f88be",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "Default",
+      "sourceHash": "sha256:9f089cec94fd32c84ce5ba2232937e372378ab43398d952142fb7de08f96f1a0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "Drama",
+      "sourceHash": "sha256:32f447fa14a4923db8080477ddcff1c803977cd1ce9205b3f0f72de90b2afc17",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "Custom",
+      "sourceHash": "sha256:a3fdb34a87cfce39db0004408e98dac7a60db33a7920f7742b8568482d64f149",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "Presets adjust argument/jealousy/apology odds and costs. Quiet = fewer fights, Drama = denser conflict.",
+      "sourceHash": "sha256:d4cc57d6a592a925db2f67725d3d1e265afa1c7380bf23fa6b6b9578f0c0c527",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "Social stress soft cap (0 = off)",
+      "sourceHash": "sha256:02b22c9447a6d30b2fc65f200d26529f6071714da527193a1ed46248c897ecff",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "\"Strained\" stress threshold",
+      "sourceHash": "sha256:10aa1c67d836946df6b6e92cad20b848f577f966a108bad7580b91c5b5bf48b5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "Debug (development builds only)",
+      "sourceHash": "sha256:748b87205a04b77c136a74d9d0645961df858c3da741104550fced7858ca0cf0",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "Technical knobs below. If you break something, use Reset to defaults.",
+      "sourceHash": "sha256:ef45ac463d25ab58829a2c0b02a3446ee740d6887a3b09f23af6b3ce313c0adc",
+      "status": "reviewed"
+    }
+  ]
+}

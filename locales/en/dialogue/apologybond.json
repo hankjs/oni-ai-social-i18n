@@ -1,0 +1,78 @@
+{
+  "locale": "en",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "About that fight... I was out of line.",
+          "sourceHash": "sha256:03d927349eca1dd75da850b252be5d14a9286e53331f6e68f1c7455ec9fd5e03"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We're good. Honestly, I get you better now.",
+          "sourceHash": "sha256:4fb86ba0bc2d7d62285ffaac07687d48a60534a077b06da9d323daadb110d1fc"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I said it too harshly. Sorry.",
+          "sourceHash": "sha256:f6ebe904eebacb691279db83209e32c2a539e808195679cc751efb9ed7cbd5a6"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Same here. Nothing bonds people like a good argument.",
+          "sourceHash": "sha256:9246f704de3214e8f5f33f0a1f5333d072dc100c6c69f6b859a9c903c816c241"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Still mad?",
+          "sourceHash": "sha256:69ff931177eb1b9ecf2110a58b29e033bb396cf79b54ebde86da903e76acb2d8"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nah. If we can fight like that, we must really care.",
+          "sourceHash": "sha256:694e87dcb9637657c44449bb4bcd06cc18fa8fb6e3d23ed34997014ea0be593b"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time I'll hear you out first.",
+          "sourceHash": "sha256:ca7b582bdf818eed2fc81a0b6a9150eceee292c4421fea80d313b6c3a88cd05a"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And I'll yell less. Shake on it?",
+          "sourceHash": "sha256:75fd38d13dcc2b4deddfd08d1c133c00a4ed431ae0f96608305ed1a9c0412339"
+        }
+      ]
+    }
+  ]
+}

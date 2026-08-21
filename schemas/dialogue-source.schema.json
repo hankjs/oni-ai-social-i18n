@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/dialogue-source.schema.json",
+  "title": "Dialogue source family file",
+  "type": "object",
+  "required": ["family", "candidates"],
+  "properties": {
+    "family": { "type": "string" },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["candidateId", "storyletId", "variant", "turns"],
+        "properties": {
+          "candidateId": { "type": "string" },
+          "storyletId": { "type": "string" },
+          "variant": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {
+              "kind": { "type": "string" },
+              "value": { "type": "string" }
+            }
+          },
+          "turns": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["turnId", "speakerSlot", "source"],
+              "properties": {
+                "turnId": { "type": "string" },
+                "speakerSlot": { "type": "integer" },
+                "source": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

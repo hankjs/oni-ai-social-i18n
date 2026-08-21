@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/dialogue-locale.schema.json",
+  "title": "Dialogue locale family file",
+  "type": "object",
+  "required": ["locale", "family", "candidates"],
+  "properties": {
+    "locale": { "type": "string" },
+    "family": { "type": "string" },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["candidateId", "status", "turns"],
+        "properties": {
+          "candidateId": { "type": "string" },
+          "status": { "type": "string", "enum": ["draft", "reviewed"] },
+          "turns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["turnId", "speakerSlot", "text", "sourceHash"],
+              "properties": {
+                "turnId": { "type": "string" },
+                "speakerSlot": { "type": "integer" },
+                "text": { "type": "string" },
+                "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

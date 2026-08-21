@@ -1,0 +1,100 @@
+{
+  "family": "breakdowndestroy",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "那台是我昨天修好的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "那你修得很好，响很久。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "住手，那是氧气机。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……哪一台。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你砸的是我们的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "这里有什么是我的？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你打完了吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "没有。但手痛了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "墙比你硬。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "墙从来没让我失望过。"
+        }
+      ]
+    }
+  ]
+}

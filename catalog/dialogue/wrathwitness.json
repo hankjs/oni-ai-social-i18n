@@ -1,0 +1,100 @@
+{
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我看见了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "你看见什么了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "手放下。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……关你什么事。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "原来你动手之前，会先看一眼有没有人。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "闭嘴。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我会记住今天。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "随你便。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你打他的时候，我在通风管里。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……那你听见的比看见的多。"
+        }
+      ]
+    }
+  ]
+}

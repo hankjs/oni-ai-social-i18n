@@ -1,0 +1,420 @@
+{
+  "locale": "en",
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "Social life has begun",
+      "sourceHash": "sha256:5a5a6a032184b7e8d35bb61f3c4b3e9d745d95eed3db9f41ed4d999a64484879",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "Your duplicants now have social lives of their own: chatting, friendships, romance and quarrels all happen naturally. Open the Social entry in the top management menu to watch the colony and play matchmaker; each duplicant's Social tab shows their relationships.",
+      "sourceHash": "sha256:a7f6820e8f25195fc4ebeffaa8742642c0156008f6d18c93af59cce6f3cf6da4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "A New Couple",
+      "sourceHash": "sha256:a6de9dbf2b5bbe9ade00f027de911dd01d6e65cfd0c888f3fd17c72d8cfeaed9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0} confessed to {1} — they are now a couple!",
+      "sourceHash": "sha256:6e2e3364b7af68272bed1f43d79e558dcafb7b30cb86ce95ab1475d03c67e480",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "Broken Up",
+      "sourceHash": "sha256:9e8ea45cc9c70d5b1d4f4c8242514e0d7ff50f190703136c448f280525456ce6",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0} and {1} have gone their separate ways.",
+      "sourceHash": "sha256:c58ae97e272c6a0954be36603a42d2123ab2be446cd0130933f03dee25bc45f3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": " The final straw: {0} (cycle {1}).",
+      "sourceHash": "sha256:0336fcadb80799d7eeecf17b82360ceaa874c2c57795628347ec1848429e80c7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "Lost a Partner",
+      "sourceHash": "sha256:a2eb73a028576874f53ac98a74d607bdb9de495aefd4a2bb3425fd3c2779d472",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0} lost their partner {1} and is grieving.",
+      "sourceHash": "sha256:685915d259ce58b351f322f5a2a2904eda3e4be0c9a7df64e30fc14cf8bf8b0c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "Cold War",
+      "sourceHash": "sha256:d066b264d0035e437d82439db079e6e9cd199bc9f510fe41b8b289b572833c66",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0} and {1} are giving each other the cold shoulder. A matchmaking mark can nudge them toward reconciliation.",
+      "sourceHash": "sha256:4ce752ed1748c96252e0823705e7dd05083b5fb4888465639df5cde09f195dd5",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "Reconciled",
+      "sourceHash": "sha256:62b4dfe41ae6dda644522100c55ac8650c579b460e80a9beae52f0807421c830",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0} and {1} have patched things up.",
+      "sourceHash": "sha256:a8de1e1cc7e71c42c320b0abd91a82eeee0589a9253efcadd23de0565d1bc3dd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "Quiet Mourning",
+      "sourceHash": "sha256:a14552a9d38df477fee6ca2865b84f4787e01982a549956711a24bfc707f35c1",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0} quietly mourns the late {1}.",
+      "sourceHash": "sha256:2a608eec993ea760980446d1a0c3e0f057cc92d8f1f877fd690941f32caa6a7d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "Best Friends",
+      "sourceHash": "sha256:8187ce5e5211530b17dc9e073be14edda7b5895a3e8a599bb0ffca7a187de0e2",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0} and {1} are now best friends.",
+      "sourceHash": "sha256:452c166f7c58dbe0a97bde388aeab60695de0ea184b6b8747f7b7c13e61b0f89",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "Colony Cohesion",
+      "sourceHash": "sha256:b2d7cb7c79e6ca219c431f86a3c540752e60a419b18794cc0a91deaa5ffbeb11",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "The colony stands together. Morale up for everyone.",
+      "sourceHash": "sha256:97363d38a136692fe479c2589a0a82422906e13b49e8c52062d6f3cd6f6c4ee9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "Colony Discord",
+      "sourceHash": "sha256:982105196656904bab9062ad8a3ea315d0439545f0d3b81389f4051314d7d450",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "Tensions run high. Morale down for everyone.",
+      "sourceHash": "sha256:1d72f3b27c8534371e3d39489f181710ed19f2edeead653da1041dc0b7497213",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "Back to Normal",
+      "sourceHash": "sha256:0be597dc3f87288bc1c434399ea5c55a04bd8d8f6cc100465a51e725e0bf94eb",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "The colony's collective mood has settled down.",
+      "sourceHash": "sha256:a4f258a987e314c280400f9ef4cb2ad188a252f2f86588d89679d968a7268c2c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "Anniversary",
+      "sourceHash": "sha256:28dd18496795d98eea04cc1a545c3e1fca3eaa2d41cd2f8cc004b4cf003889ba",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0} and {1} celebrated their anniversary date. Twice as sweet.",
+      "sourceHash": "sha256:2ae1624942c23a33a136584214e764a6ebd079d217650492289e914734273a68",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "Missed Anniversary",
+      "sourceHash": "sha256:58249752862124fd74ee21bdaf4d2ac3403f07ce26ea3257db0b5d6327124cf6",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0} and {1} let their anniversary slip by. Both are a little glum.",
+      "sourceHash": "sha256:edff3702226f58f0e476bd7460775ee5e883c5f13256ad830e1dc843a7cac07a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "Falling-Out",
+      "sourceHash": "sha256:300b678c97026e502f0af0555fcd1c952a5b6fad288ae65c920433891915d143",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0} and {1} have had a falling-out. Warmth will be slow to return for a while, but one apology clears the air.",
+      "sourceHash": "sha256:a98ddadc498d7d38565e956ab7f2f76ef459d264a5cffe2edb6ca01cb0c1952c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "Quiet Company",
+      "sourceHash": "sha256:9427c9512b5fdf315472ade44139f502e5177c36739bcb7512de42fdd62c3966",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0} sits with {1}, quietly keeping them company through the grief.",
+      "sourceHash": "sha256:8344f292f004b175734aabffa600f493af920314faba449811688c489640e6c3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "Seasoned Love",
+      "sourceHash": "sha256:9287c8944f1c00742e4f2fa6f14f8de1f101950249fcef8daab9fe2de49fad8a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0} and {1} have been together a long while. Their love has settled into a steady warmth.",
+      "sourceHash": "sha256:e46685cd7048ca2cdc3f7c2b451a520ff39fc388c6dbc127b1eefdce8b9f1de9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "A rivalry is born",
+      "sourceHash": "sha256:12d1739aee740f51b79e8047b231f8ff2b28714be47b2d564e862f00c21ad7bd",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0} and {1} have nursed their grudge to the bottom and are now rivals. This relationship will no longer warm up on its own unless you step in with a matchmaking mark.",
+      "sourceHash": "sha256:3dc84040b9f825b396779464ad6c81d4a538ef73fb1af13d94332f0cd6947aec",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "Rivalry settled",
+      "sourceHash": "sha256:894734b9ec3f61092591ef735a66c84104904c6c8e448c160a5dcc1a7a37b69e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0} and {1} have finally let the grudge go. Things are back to normal between them.",
+      "sourceHash": "sha256:1743a9fbd0994b186717e53391022083dfcd75ac35cb967de8edeef8473c01f8",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "They're fighting!",
+      "sourceHash": "sha256:e0547dcc1dc251deee3fe773be4bad90af690b874f17846d32f988b0e3410ad3",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "An argument between {0} and {1} has escalated into a brawl. They will stop short of serious harm, but both are going to be bruised.",
+      "sourceHash": "sha256:c3275ba1b9dbcca69637ce3c906967725d1fd2b6b65c75a04745a502d36d1fbc",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "Somebody has to answer for it",
+      "sourceHash": "sha256:d2e44413c974e65785a8c4e377dbc3b6270e9b78f6279ac577c937c8c9d4420a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "The colony has just been through something, and {0} is the least liked person here - so the bill lands on them. Pair them with a well-respected colleague now and that person will speak up; miss this window and {0} gets frozen out.",
+      "sourceHash": "sha256:9cea5bd52c7d040e3a41253c2c773d916954498bf95b9f2b5945da3ae2034835",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "Nobody talks to them anymore",
+      "sourceHash": "sha256:9316cc8a086bd55fe1c4d841e2559c6b13acb0d54304a187e301c5a345e8f8a9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "Nobody spoke up for {0}. From now on colleagues look away when they pass, and anyone sharing their table finishes early. It ends the moment a single person tends to them, talks with them, or eats with them.",
+      "sourceHash": "sha256:5241ac2363cdd7f4ff361e1625682cbcaa0b1e23f1acf0cbaeef1d81c184175d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "Somebody said the fair thing",
+      "sourceHash": "sha256:d8b462d78b574ab872a5232cb02e0e0d868d25b965843c062cb6f499d101efa9",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0} spoke up for {1} in front of everyone. Nobody is bringing it up again.",
+      "sourceHash": "sha256:c44ce3402679fa3fa4fa9f00e4b484dddc3d03667b43180c035056cda6c97636",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "The first one to sit down",
+      "sourceHash": "sha256:7494e2293b72d4072cb14315d2358221d167225e28b2420b4b494b7837de3d3d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0} sat down next to {1}. The freeze-out ends here - it only ever takes one person going first.",
+      "sourceHash": "sha256:9652c9beda04783a422324957fe495ea87ffce79a74f95eeffc035b611134306",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "Nobody saw it",
+      "sourceHash": "sha256:df9820cee92a3741d7e8f2f08ff08a842af53d607b8707302c22b05fff59ae59",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "With nobody around, {0} hit {1}. None of their colleagues know - you are the only one who saw this.",
+      "sourceHash": "sha256:f98fcb2037b4a54dbdefb363995879febca152473eb28f0b4ba28f94f5bbeb98",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "Forgotten about",
+      "sourceHash": "sha256:68343adfd8819a09a905bb8cb82babb1449d1cca3e74c9cd3832a3ea242bba1d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "Nobody came for {0}, but nobody remembers the whole business either. Life goes on.",
+      "sourceHash": "sha256:91c73f828e669c4bc0b5e03ca80f62897e16a9e4f4cdc05d51f697f3c0168e5d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "The whole room is watching",
+      "sourceHash": "sha256:8a7b44e7cb08d4f467a63f2e93b3ed7c0206c362b292025483cbc353d96cb1ef",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0} {2} right there, and {1} of them stopped to watch. For the next few cycles, anyone willing to go over and sit with them will be remembered for it forever.",
+      "sourceHash": "sha256:ef760bae95c4beb00f5397ae554f9db29362c45306264edddbf1791638238db8",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "The first one to sit down",
+      "sourceHash": "sha256:7494e2293b72d4072cb14315d2358221d167225e28b2420b4b494b7837de3d3d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0} went over and sat with {1} for a while. Nothing important was said - but {1} will always remember who came over first.",
+      "sourceHash": "sha256:4d1e59b01526d1607df4e1037799663dbd7b86c81a3fed8c551e610f8a8b5700",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "Fought it out",
+      "sourceHash": "sha256:6ced5e2cc658eaaca640ee86ea3c68f2c3195bfcbbd176db433c07e0c1e3c470",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0} and {1} came out of that fight with a grudging respect for each other. The rivalry is over.",
+      "sourceHash": "sha256:1d039257fed6726ce15e9925318cdb1ac65f25b4de5ad8771854d1d0d06ec356",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "The pantry is empty",
+      "sourceHash": "sha256:20101850762aa960350abc8b27d946d8cf7dda4a1bfdab8d00645f2d51676796",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "The larder is bare and several duplicants are starving. Left like this, they will start solving the problem themselves - there is still time to get food in.",
+      "sourceHash": "sha256:fc6a32cbc5fa7b43c437372247b008a705e7444947f2cb90ad394c87cb3427ac",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "Crisis averted",
+      "sourceHash": "sha256:bd650a00e5084ecff7c111a10b3c3969d825f781010155dd1bc4819e90681cd6",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "Food arrived in time and the colony stepped back from the edge. Nobody mentions what they were thinking a few days ago.",
+      "sourceHash": "sha256:e590f074babd16ec2691e8ab17dd4ac2635614a11a5dd3290dd7ddad45f03439",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "Survive!",
+      "sourceHash": "sha256:8a544c09db5759a4096c0c36fe46a8cab9011508f3fe2c4d8d0a23f9accab34f",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "Whatever is between {0} and {1}, it stopped being an argument a while ago. Hunger has taken the last of their decency.",
+      "sourceHash": "sha256:8e9c6d5d28c9dcca19c2076867b85baeabfd7de67b22b90bea205cc7a500bab4",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "The famine has passed",
+      "sourceHash": "sha256:40ebecb98ef9672c5a95d0fba87e9e8883fb4e6ad7c4c1be36b38fb0e78c8367",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "There is food in the larder again. Nobody asks what it is.",
+      "sourceHash": "sha256:853e37c46a030ba03c05503220a87088b8805564ad3d0ab2fd2e14e42b12209d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "The last colonist",
+      "sourceHash": "sha256:e3f05c0163dfde9fcb22da366d97681e8074efcc367c276821f2771f3635038c",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "One left. The base is very quiet now, and there is plenty to eat.",
+      "sourceHash": "sha256:58e53321e701e2665c899620c835b363b5ea9a3090a10994366580326b74a8f7",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "The rival is gone",
+      "sourceHash": "sha256:b1c88e5d8d96723cb08b2ccdc30ce1bb930287e5f0bc86e3db8a1f3d1f60858a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1} is dead. {0} said nothing about it, and has been in a noticeably good mood since.",
+      "sourceHash": "sha256:22fb1cfb79c08e916612b50cad33b08215339ce60e57b5a695559dac4fafe574",
+      "status": "reviewed"
+    }
+  ]
+}

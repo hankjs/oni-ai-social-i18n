@@ -1,0 +1,4041 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "storylets": {
+    "Anniversary": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Remember this day, ten cycles ago?"
+          },
+          {
+            "slot": 1,
+            "text": "You crushed a mush bar out of sheer nerves."
+          },
+          {
+            "slot": 0,
+            "text": "Tonight I'll crush the stars for you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Another year... by colony reckoning."
+          },
+          {
+            "slot": 1,
+            "text": "As long as there's oxygen, I'll keep counting with you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Your gift: a massage table pass. Cost me three shift trades."
+          },
+          {
+            "slot": 1,
+            "text": "Mine: I rescheduled all your shifts to daytime."
+          },
+          {
+            "slot": 0,
+            "text": "...We really are perfect for each other."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A hundred cycles and you still tolerate my snoring."
+          },
+          {
+            "slot": 1,
+            "text": "Tolerate is strong. Let's say I've stopped filing reports."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Happy anniversary. Base intact, us intact."
+          },
+          {
+            "slot": 1,
+            "text": "On this planet, that's the highest score there is."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "AnniversaryMissed": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Yesterday... was our day."
+          },
+          {
+            "slot": 1,
+            "text": "I know. Dig shift. Neither of us dared bring it up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I waited until the mess hall lights went out."
+          },
+          {
+            "slot": 1,
+            "text": "...I'm sorry. The tunnel collapsed. I couldn't get back."
+          },
+          {
+            "slot": 0,
+            "text": "You're safe. The date can wait a year."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I kept the candied berry two days. Then I ate it alone."
+          },
+          {
+            "slot": 1,
+            "text": "...Next anniversary, I'll tear up the schedule itself."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Apology": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I lost my temper last time. I'm sorry."
+          },
+          {
+            "slot": 1,
+            "text": "I went too far too. Let's move on."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I should not have taken it out on you."
+          },
+          {
+            "slot": 1,
+            "text": "Breathe first next time. And yes, I forgive you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I went too far. Here — barbeque. The real kind."
+          },
+          {
+            "slot": 1,
+            "text": "...Fine. For the barbeque's sake."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I was wrong to drag up old fights."
+          },
+          {
+            "slot": 1,
+            "text": "All dragged up now? Then come eat."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm sorry. Your pipework isn't that bad."
+          },
+          {
+            "slot": 1,
+            "text": "Apology accepted. Review returned to sender."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I rehearsed this apology all the way here."
+          },
+          {
+            "slot": 1,
+            "text": "Good rehearsal. Never need it again."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I yelled about the wire. It was the hunger talking."
+          },
+          {
+            "slot": 1,
+            "text": "Then eat first, apologize second. Both accepted."
+          }
+        ]
+      ],
+      "tags": {
+        "gentle": [
+          [
+            {
+              "slot": 0,
+              "text": "I thought about it all night. I owe you a proper sorry."
+            },
+            {
+              "slot": 1,
+              "text": "You showing up says more than the words."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm sorry I left that whole mess on you alone."
+            },
+            {
+              "slot": 1,
+              "text": "It's fine. Just lend a hand next time."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "What I said that day? I take it back. Gently."
+            },
+            {
+              "slot": 1,
+              "text": "Retraction accepted. The tea's still warm, sit."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I brewed two cups of berry juice. One is an apology."
+            },
+            {
+              "slot": 1,
+              "text": "And the other?"
+            },
+            {
+              "slot": 0,
+              "text": "A thank-you for still talking to me."
+            }
+          ]
+        ],
+        "hothead": [
+          [
+            {
+              "slot": 0,
+              "text": "Yesterday... wasn't entirely my fault. Partly was. Fine. Sorry."
+            },
+            {
+              "slot": 1,
+              "text": "An apology squeezed out like toothpaste. Accepted."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not here to apologize. ...Okay, I am. Sorry."
+            },
+            {
+              "slot": 1,
+              "text": "Your voice dropped an octave at the door. I knew."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "SORRY! There! Loud means it counts!"
+            },
+            {
+              "slot": 1,
+              "text": "It counts, it counts. Indoor volume works too."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Your pipework is... actually decent. Yesterday was on me."
+            },
+            {
+              "slot": 1,
+              "text": "I'm framing the first half and accepting the second."
+            }
+          ]
+        ]
+      }
+    },
+    "ApologyBond": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "About that fight... I was out of line."
+          },
+          {
+            "slot": 1,
+            "text": "We're good. Honestly, I get you better now."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I said it too harshly. Sorry."
+          },
+          {
+            "slot": 1,
+            "text": "Same here. Nothing bonds people like a good argument."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Still mad?"
+          },
+          {
+            "slot": 1,
+            "text": "Nah. If we can fight like that, we must really care."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Next time I'll hear you out first."
+          },
+          {
+            "slot": 1,
+            "text": "And I'll yell less. Shake on it?"
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Argument": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Could you stop leaving every mess for someone else?"
+          },
+          {
+            "slot": 1,
+            "text": "I'm already run off my feet. What more do you want?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You scrambled the schedule again."
+          },
+          {
+            "slot": 1,
+            "text": "No, you just didn't read it!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I really cannot deal with this right now."
+          },
+          {
+            "slot": 1,
+            "text": "Fine. Then we stay out of each other's way."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You snore like an unoiled rock crusher!"
+          },
+          {
+            "slot": 1,
+            "text": "Me? You recited coordinates in your sleep all night!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Where's the berry I was saving? The single berry!"
+          },
+          {
+            "slot": 1,
+            "text": "It didn't have your name on it!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Can you clear that junk pile in the corridor?"
+          },
+          {
+            "slot": 1,
+            "text": "Those are spare parts! Every single one is useful!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The lavatory is clogged because you crossed the pipes!"
+          },
+          {
+            "slot": 1,
+            "text": "I followed the blueprint. Blame the blueprint!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The battery is dead and it was your shift!"
+          },
+          {
+            "slot": 1,
+            "text": "A hatch chewed the wire. Take it up with the hatch!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You left the airlock open on purpose so I would yell about it."
+          },
+          {
+            "slot": 1,
+            "text": "And yet. Here you are. Yelling."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You have been 'inspecting' that ladder for an hour."
+          },
+          {
+            "slot": 1,
+            "text": "Inspection is work. Ask anyone who isn't you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Your tunnel is genius. Visionary. Historic."
+          },
+          {
+            "slot": 1,
+            "text": "It's a hole. You want my rations, don't you?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "How's my new great hall?"
+          },
+          {
+            "slot": 1,
+            "text": "Mid."
+          },
+          {
+            "slot": 0,
+            "text": "MID? There's a water fountain!"
+          }
+        ]
+      ],
+      "tags": {
+        "crybaby": [
+          [
+            {
+              "slot": 0,
+              "text": "Why are you yelling at me... waaah—"
+            },
+            {
+              "slot": 1,
+              "text": "Don't cry! I'm not yelling anymore, see!"
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not losing this argument, I'm just... having emotions."
+            },
+            {
+              "slot": 1,
+              "text": "Wipe your eyes first. We'll restart the fight."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "The whole colony bullies me! Now you too!"
+            },
+            {
+              "slot": 1,
+              "text": "I don't! ...This is a lot of pressure, honestly."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Stop being mean! My tears don't have a valve!"
+            },
+            {
+              "slot": 1,
+              "text": "Okay okay, I'm sorry, here's a tissue!"
+            }
+          ]
+        ],
+        "gentle": [
+          [
+            {
+              "slot": 0,
+              "text": "I don't want to fight... but you really did this one wrong."
+            },
+            {
+              "slot": 1,
+              "text": "Just yell at me once. This calm thing hurts worse."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Can we argue sitting down? Standing feels too hostile."
+            },
+            {
+              "slot": 1,
+              "text": "...Fine. Sitting. You start."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Lower your voice. You're scaring the hatch."
+            },
+            {
+              "slot": 1,
+              "text": "The hatch?! Now of all times?!"
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I won't fight you. But I'm writing this down. Gently."
+            },
+            {
+              "slot": 1,
+              "text": "Your 'gently' is scarier than shouting."
+            }
+          ]
+        ],
+        "hothead": [
+          [
+            {
+              "slot": 0,
+              "text": "I'm faster than anyone at this! Got a problem?!"
+            },
+            {
+              "slot": 1,
+              "text": "Fast, yes. You also broke the wall!"
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Fine, blame me! Blame me for the whole base!"
+            },
+            {
+              "slot": 1,
+              "text": "Nobody said— there you go again."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Three counts. Give back my shovel. One! Two!!"
+            },
+            {
+              "slot": 1,
+              "text": "What happened to three? — Oh. You already grabbed it."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not angry! This is just my voice!!"
+            },
+            {
+              "slot": 1,
+              "text": "The ceiling regolith disagrees."
+            }
+          ]
+        ]
+      }
+    },
+    "BestFriend": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Honestly, without you in this dump I'd have cracked long ago."
+          },
+          {
+            "slot": 1,
+            "text": "Same here. Best partners ever."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "First thing after we get out: I'm buying you real water."
+          },
+          {
+            "slot": 1,
+            "text": "Ha, I'll hold you to that."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're the only one who knows where my berry stash is."
+          },
+          {
+            "slot": 1,
+            "text": "That's a life-debt level of trust."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "If I go first, you get my cot."
+          },
+          {
+            "slot": 1,
+            "text": "Don't jinx it. ...It is the good spot, though."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Complaining to you makes the work feel lighter."
+          },
+          {
+            "slot": 1,
+            "text": "Come back anytime. Unlimited grumbling, no charge."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You have walked beside me for three corridors and said nothing."
+          },
+          {
+            "slot": 1,
+            "text": "I know. It's the best part of my shift."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're my emotional support duplicant."
+          },
+          {
+            "slot": 1,
+            "text": "And you're mine. The colony should list us as infrastructure."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BrawlBond": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "...You hit harder than you look."
+          },
+          {
+            "slot": 1,
+            "text": "So do you. Help me up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Had enough?"
+          },
+          {
+            "slot": 1,
+            "text": "Enough. Honestly? You can take more than I figured."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "My nose is still bleeding."
+          },
+          {
+            "slot": 1,
+            "text": "I can't open one eye. ...Come on, let's get patched up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "All that over something that small. Worth it?"
+          },
+          {
+            "slot": 1,
+            "text": "No. But I feel a lot better."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Next time just say it instead of sitting on it."
+          },
+          {
+            "slot": 1,
+            "text": "Deal. I've paid enough for sitting on it today."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownBinge": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "That was three people's rations."
+          },
+          {
+            "slot": 1,
+            "text": "I'm counting. Don't."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Leave some for night shift."
+          },
+          {
+            "slot": 1,
+            "text": "Night shift will understand."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're not even chewing."
+          },
+          {
+            "slot": 1,
+            "text": "Chewing takes time."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The fridge is empty."
+          },
+          {
+            "slot": 1,
+            "text": "Good. Empty I understand."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're going to regret that."
+          },
+          {
+            "slot": 1,
+            "text": "That's a problem for later me."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownComfort": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I'll sit here. You don't have to talk."
+          },
+          {
+            "slot": 1,
+            "text": "...Okay."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I had one too. Two cycles back."
+          },
+          {
+            "slot": 1,
+            "text": "You didn't let anyone see."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Everyone else left."
+          },
+          {
+            "slot": 1,
+            "text": "You didn't."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Want some water."
+          },
+          {
+            "slot": 1,
+            "text": "Yeah."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "We'll head back when you're ready."
+          },
+          {
+            "slot": 1,
+            "text": "That could be a while."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I won't tell anyone."
+          },
+          {
+            "slot": 1,
+            "text": "You will. But thanks."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownCry": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "How long has he been crying."
+          },
+          {
+            "slot": 1,
+            "text": "...Don't look at me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Want me to get someone?"
+          },
+          {
+            "slot": 1,
+            "text": "Doesn't matter who."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Everyone stopped what they were doing."
+          },
+          {
+            "slot": 1,
+            "text": "That's why I can't stop."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Anything I say right now is useless."
+          },
+          {
+            "slot": 1,
+            "text": "Then don't say it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Oxygen's fine. Water's fine."
+          },
+          {
+            "slot": 1,
+            "text": "Then what am I crying about."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownDestroy": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I fixed that yesterday."
+          },
+          {
+            "slot": 1,
+            "text": "You fixed it well. It rang for ages."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Stop—that's the oxygen unit."
+          },
+          {
+            "slot": 1,
+            "text": "...Which one."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're smashing our stuff."
+          },
+          {
+            "slot": 1,
+            "text": "What in here is mine?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Are you done."
+          },
+          {
+            "slot": 1,
+            "text": "No. But my hand hurts."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The wall is harder than you are."
+          },
+          {
+            "slot": 1,
+            "text": "The wall has never let me down."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownShock": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Don't touch him."
+          },
+          {
+            "slot": 1,
+            "text": "Stay back. I can't hold it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The wiring's arcing."
+          },
+          {
+            "slot": 1,
+            "text": "I know. It's me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "He took out the whole light bank."
+          },
+          {
+            "slot": 1,
+            "text": "Saving power."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You'll hurt yourself doing that."
+          },
+          {
+            "slot": 1,
+            "text": "Already am."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The machines are scared of you."
+          },
+          {
+            "slot": 1,
+            "text": "The machines are smart."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownVomit": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I just mopped that."
+          },
+          {
+            "slot": 1,
+            "text": "I know. Sorry."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Somebody get a bucket."
+          },
+          {
+            "slot": 1,
+            "text": "Too late."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That's not food poisoning, is it."
+          },
+          {
+            "slot": 1,
+            "text": "No."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't all stand around watching."
+          },
+          {
+            "slot": 1,
+            "text": "They're not watching me. They're watching the floor."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You should eat something after."
+          },
+          {
+            "slot": 1,
+            "text": "Seriously?"
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "BreakdownWail": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "The whole corridor can hear that."
+          },
+          {
+            "slot": 1,
+            "text": "Good."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "He isn't screaming at us."
+          },
+          {
+            "slot": 1,
+            "text": "I know you're all there."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Should I shut the door."
+          },
+          {
+            "slot": 1,
+            "text": "I'd still be inside it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I've heard that pitch down in the mines."
+          },
+          {
+            "slot": 1,
+            "text": "At least the mines echo back."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Does screaming help."
+          },
+          {
+            "slot": 1,
+            "text": "No. Not screaming is worse."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Breakup": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Maybe... we should call it off."
+          },
+          {
+            "slot": 1,
+            "text": "No hard feelings. Take care."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "We can fix any pipe on this base. Not this."
+          },
+          {
+            "slot": 1,
+            "text": "...Yeah. At least the pipes are fine."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'll take the east tables. You take the west."
+          },
+          {
+            "slot": 1,
+            "text": "Okay. ...Take care of yourself."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Here's your oxygen canister back. All of it."
+          },
+          {
+            "slot": 1,
+            "text": "Keep it. Call it... a gift from a friend."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Care": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Hold still. Let me redo that bandage."
+          },
+          {
+            "slot": 1,
+            "text": "Easy... but thank you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Rest today. We will handle the remaining work."
+          },
+          {
+            "slot": 1,
+            "text": "Hearing that, I can finally close my eyes."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The medicine is bitter, so here's half a candied berry."
+          },
+          {
+            "slot": 1,
+            "text": "Half? ...Fine. Nurse's orders."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Fever's gone, but you're staying down today."
+          },
+          {
+            "slot": 1,
+            "text": "This cot is fusing to my back. ...Okay, you win."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I checked the germ overlay. Your bedside is spotless."
+          },
+          {
+            "slot": 1,
+            "text": "Great, I can cough freely. ...Kidding."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I measured the dose myself. Drink up."
+          },
+          {
+            "slot": 1,
+            "text": "Who poured a double last time, again?"
+          },
+          {
+            "slot": 0,
+            "text": "...Which is why I weighed it three times."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Casual": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "You haul like a champion."
+          },
+          {
+            "slot": 1,
+            "text": "Thanks. My back has filed a formal complaint."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The printing pod lit up by itself last night."
+          },
+          {
+            "slot": 1,
+            "text": "It's deciding who to print next. Don't interrupt."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I climb so many ladders I climb them in my dreams."
+          },
+          {
+            "slot": 1,
+            "text": "At least dream ladders don't come with a hauling errand."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What will you do when the colony is finished?"
+          },
+          {
+            "slot": 1,
+            "text": "Sleep without an alarm clock."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A hatch ate my spare boots again."
+          },
+          {
+            "slot": 1,
+            "text": "It eats better than we do. Let that sink in."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Do you smell something weird?"
+          },
+          {
+            "slot": 1,
+            "text": "Narrow it down. This base is a bouquet."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The printing pod has new picks tomorrow."
+          },
+          {
+            "slot": 1,
+            "text": "Please be someone who can wire a battery."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I dug three tons of granite yesterday. I counted."
+          },
+          {
+            "slot": 1,
+            "text": "Stop counting. The number only ever goes up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That pacu doesn't look stressed at all."
+          },
+          {
+            "slot": 1,
+            "text": "It never has to read the schedule."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "All the carbon dioxide sinks to the bottom floor."
+          },
+          {
+            "slot": 1,
+            "text": "That's why top bunks are a survival strategy."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Did you understand the new painting?"
+          },
+          {
+            "slot": 1,
+            "text": "No. But the decor number went up, so I nodded."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "My atmo suit smell has developed layers."
+          },
+          {
+            "slot": 1,
+            "text": "That's the smell of seniority."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Meteor shower tonight. Don't look up."
+          },
+          {
+            "slot": 1,
+            "text": "Don't worry. The regolith will remember for us."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You said 'nice weather in the base' yesterday. Word for word."
+          },
+          {
+            "slot": 1,
+            "text": "I have four thoughts. I rotate them."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You know what you need? To go outside and touch some grass."
+          },
+          {
+            "slot": 1,
+            "text": "We are four hundred meters underground. I'll touch the algae."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The far wall is on fire and you are still eating."
+          },
+          {
+            "slot": 1,
+            "text": "It's contained. Mostly. This is fine."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The ladder broke and I fell two floors."
+          },
+          {
+            "slot": 1,
+            "text": "Skill issue. ...You okay, though?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Reactor's overheating and the farm is flooded."
+          },
+          {
+            "slot": 1,
+            "text": "We're so cooked."
+          },
+          {
+            "slot": 0,
+            "text": "Literally, if that reactor blows."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You are eating over the compost in an unwashed suit."
+          },
+          {
+            "slot": 1,
+            "text": "The suit and I have an arrangement. Don't get involved."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I dug the same corridor so long I forgot my own name."
+          },
+          {
+            "slot": 1,
+            "text": "It's on your suit."
+          },
+          {
+            "slot": 0,
+            "text": "...Huh. So it is."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Why do you always dig the front tunnel?"
+          },
+          {
+            "slot": 1,
+            "text": "Someone has to be the one the story follows."
+          },
+          {
+            "slot": 0,
+            "text": "The story is about oxygen."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What the hatch doin'?"
+          },
+          {
+            "slot": 1,
+            "text": "Head first into the granite. Third time this shift."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That pacu has been circling the same pond all night."
+          },
+          {
+            "slot": 1,
+            "text": "Oiia, oiia."
+          },
+          {
+            "slot": 0,
+            "text": "Stop narrating. Help me with the filter."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The airlock cycled eight hundred times today."
+          },
+          {
+            "slot": 1,
+            "text": "Hardest worker in the colony. Give it the raise."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I labeled every pipe in the base."
+          },
+          {
+            "slot": 1,
+            "text": "Wonderful. The next flood will be beautifully documented."
+          }
+        ]
+      ],
+      "tags": {
+        "crybaby": [
+          [
+            {
+              "slot": 0,
+              "text": "I read today's schedule and... I might cry a little."
+            },
+            {
+              "slot": 1,
+              "text": "Don't cry, don't cry. I'll take your latrine shift."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "That hatch looked at me so gently..."
+            },
+            {
+              "slot": 1,
+              "text": "It wants your boots. Don't get attached."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not crying. It's the CO2."
+            },
+            {
+              "slot": 1,
+              "text": "Sure. The CO2. Tissues are in locker two."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Do you think the printing pod ever gets sad..."
+            },
+            {
+              "slot": 1,
+              "text": "Keep going and I'll be the one crying."
+            }
+          ]
+        ],
+        "eater": [
+          [
+            {
+              "slot": 0,
+              "text": "Think a mush bar would taste better toasted?"
+            },
+            {
+              "slot": 1,
+              "text": "Last time you toasted one, the mess hall blew a fuse."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not hungry. I'm eating preventively."
+            },
+            {
+              "slot": 1,
+              "text": "You've preventively eaten tomorrow's ration too."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "What are we talking about? ...Is there food?"
+            },
+            {
+              "slot": 1,
+              "text": "Three sentences in and you're back to food."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Night shift bonus should be fried mush bars."
+            },
+            {
+              "slot": 1,
+              "text": "You already wrote yourself into the schedule as taste-tester."
+            }
+          ]
+        ],
+        "hothead": [
+          [
+            {
+              "slot": 0,
+              "text": "Move, move, I'll do it myself! — Not yelling at you. Yelling near you."
+            },
+            {
+              "slot": 1,
+              "text": "Noted. Observing the champion from a safe distance."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Who designed these ladders? Third climb today!"
+            },
+            {
+              "slot": 1,
+              "text": "Someone who never climbs. Keep it down, the regolith is shaking."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "If the pod doesn't print help soon, I'm knocking on it myself."
+            },
+            {
+              "slot": 1,
+              "text": "Knock away. It'll print someone exactly as patient as you."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Blocked tunnel? Step aside. Two minutes."
+            },
+            {
+              "slot": 1,
+              "text": "All yours. I'll go fetch the spare shovel."
+            }
+          ]
+        ],
+        "loud": [
+          [
+            {
+              "slot": 0,
+              "text": "GOOD MORNING!! OXYGEN'S GREAT TODAY!!"
+            },
+            {
+              "slot": 1,
+              "text": "Heard. The whole shaft heard."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not shouting! This is my normal volume!"
+            },
+            {
+              "slot": 1,
+              "text": "The hatches evacuated. That's your normal volume."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "EVERYONE LISTEN— hey, why the earplugs?"
+            },
+            {
+              "slot": 1,
+              "text": "Go ahead. We're listening with our eyes."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Learned a new song! Let me belt it!"
+            },
+            {
+              "slot": 1,
+              "text": "Take it to the airlock. Both doors, please."
+            }
+          ]
+        ],
+        "nervous": [
+          [
+            {
+              "slot": 0,
+              "text": "D-did you hear that? There's something in the pipes."
+            },
+            {
+              "slot": 1,
+              "text": "That's water. Probably. ...Probably!"
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I counted the oxygen three times. It checks out. I still don't feel okay."
+            },
+            {
+              "slot": 1,
+              "text": "I'll sit with you for the fourth count."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "What if a meteor punches through tonight??"
+            },
+            {
+              "slot": 1,
+              "text": "Then it hits my shift and you get the night off."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Don't sneak up on me, I drop live wires."
+            },
+            {
+              "slot": 1,
+              "text": "Got it, I'll knock next time. On the wall. We have no doors."
+            }
+          ]
+        ]
+      }
+    },
+    "Comfort": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "You don't have to talk. I'll just sit here."
+          },
+          {
+            "slot": 1,
+            "text": "...Thanks. The fans sound quieter today."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I covered your shift. Go rest a while."
+          },
+          {
+            "slot": 1,
+            "text": "That's what they always said too... thank you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I brought two meals. We can just chew if talking's too much."
+          },
+          {
+            "slot": 1,
+            "text": "...Chewing does quiet the thinking. A little."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm in the next cot tonight. Knock the wall if you can't sleep."
+          },
+          {
+            "slot": 1,
+            "text": "...Okay. I might knock."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "We split the work they left unfinished. You take your time."
+          },
+          {
+            "slot": 1,
+            "text": "...Thanks. I just... need company being slow."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "One day I'll build you a small room. A lamp. One plant that isn't food."
+          },
+          {
+            "slot": 1,
+            "text": "...Put me in that room. I'll allow the plant."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Confession": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Honestly... every shift I'm paired with you, I secretly smile."
+          },
+          {
+            "slot": 1,
+            "text": "Silly. Me too."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "This rock is terrifying, but not when you're near."
+          },
+          {
+            "slot": 1,
+            "text": "Then... let's stay near."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "When the power died that night, my first thought was you."
+          },
+          {
+            "slot": 1,
+            "text": "...I crossed half the base in the dark to find you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Half of my oxygen canister is yours. Always."
+          },
+          {
+            "slot": 1,
+            "text": "Dummy. Then we'd have to stay together forever."
+          },
+          {
+            "slot": 0,
+            "text": "That's the idea."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The decor is negative and the food is grim."
+          },
+          {
+            "slot": 1,
+            "text": "And?"
+          },
+          {
+            "slot": 0,
+            "text": "And you smile, and none of it matters."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I dug for nine hours thinking about your stupid pipe layout."
+          },
+          {
+            "slot": 1,
+            "text": "Nine hours. And I never paid you any rent."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "ConfessionFail": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I... I've liked you for a long time..."
+          },
+          {
+            "slot": 1,
+            "text": "Oh... I'm sorry. I need to focus on surviving right now."
+          },
+          {
+            "slot": 0,
+            "text": "...Forget I said anything."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "So... I might, sort of, like you."
+          },
+          {
+            "slot": 1,
+            "text": "You're one of the good ones. My heart's just full elsewhere."
+          },
+          {
+            "slot": 0,
+            "text": "Understood. Friends as usual?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I like you. Took me ten cycles to say it."
+          },
+          {
+            "slot": 1,
+            "text": "Thank you for telling me. I can't answer the same way."
+          },
+          {
+            "slot": 0,
+            "text": "It's fine. Saying it was worth it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I always look forward to pipe duty with you."
+          },
+          {
+            "slot": 1,
+            "text": "To me you're my best workmate... I'm sorry."
+          },
+          {
+            "slot": 0,
+            "text": "Workmate's still good. Plenty of pipes left."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "He smiled at me near the printing pod."
+          },
+          {
+            "slot": 1,
+            "text": "He was smiling at the pod. It makes new coworkers."
+          },
+          {
+            "slot": 0,
+            "text": "...Let me have this for one more cycle."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "ConfessionRekindle": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Being apart taught me arguing beats missing you."
+          },
+          {
+            "slot": 1,
+            "text": "Then argue properly this time. And stay."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I fixed the wrench you left behind. Here."
+          },
+          {
+            "slot": 1,
+            "text": "You dope. I left it on purpose."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The west tables are too quiet. Can I come back?"
+          },
+          {
+            "slot": 1,
+            "text": "...Your seat's been waiting this whole time."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Let's overhaul the old problems, like servicing pipes."
+          },
+          {
+            "slot": 1,
+            "text": "By the blueprint this time. I already drew it."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "CrushLoss": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "There were things I never said. Now I never can."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I never even asked which ration you liked best."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I used to blame the schedule for keeping us apart. Can't blame it this time."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Date": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Just us two today. Nowhere else to be."
+          },
+          {
+            "slot": 1,
+            "text": "Deal. A rare moment to ourselves."
+          },
+          {
+            "slot": 0,
+            "text": "Later, let's go stargazing?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "With you here, even the vents sound like music."
+          },
+          {
+            "slot": 1,
+            "text": "Flatterer. ...I feel it too, though."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I traded away today's shift a week in advance."
+          },
+          {
+            "slot": 1,
+            "text": "I traded mine two weeks ago."
+          },
+          {
+            "slot": 0,
+            "text": "...That's why it's you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "One bristle blossom. It's all I could requisition."
+          },
+          {
+            "slot": 1,
+            "text": "It's plenty. Plus five decor, plus everything else."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I booked the arcade cabinet. One whole cycle."
+          },
+          {
+            "slot": 1,
+            "text": "Then what are we waiting for? See you on the high score board."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "No oxygen talk, no power talk, no pipe talk today."
+          },
+          {
+            "slot": 1,
+            "text": "Then what do we talk about?"
+          },
+          {
+            "slot": 0,
+            "text": "You."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You name every hatch you fight."
+          },
+          {
+            "slot": 1,
+            "text": "I need to know who I'm losing to."
+          },
+          {
+            "slot": 0,
+            "text": "And that's why it's you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "So are we together, or just... adjacent?"
+          },
+          {
+            "slot": 1,
+            "text": "Adjacent has fewer forms to file."
+          },
+          {
+            "slot": 0,
+            "text": "...Then let's file the forms."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Fallout": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Enough. Don't talk to me for a while."
+          },
+          {
+            "slot": 1,
+            "text": "Gladly. And don't sit next to me at meals."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Let's just cool off for a while."
+          },
+          {
+            "slot": 1,
+            "text": "Fine. The pipes are your problem now."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I left your tools on your locker."
+          },
+          {
+            "slot": 1,
+            "text": "Fine. We'll use our own from now on."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "So that's what you really thought of me."
+          },
+          {
+            "slot": 1,
+            "text": "...Likewise. Let's leave it there."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "FamineAverted": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Food arrived. Nobody mentions what they were thinking a few days ago."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The pantry is stocked again. By silent agreement, the subject is closed."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "FamineCull": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Stay back."
+          },
+          {
+            "slot": 1,
+            "text": "Only one of us walks away from this."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I don't want to do this."
+          },
+          {
+            "slot": 1,
+            "text": "Neither do I. But I'm hungry."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm sorry."
+          },
+          {
+            "slot": 1,
+            "text": "Don't apologise. Just do it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Why us?"
+          },
+          {
+            "slot": 1,
+            "text": "Because nobody likes either of us."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "FamineLastOne": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "One left. The base is very quiet now, and there is plenty to eat."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "FamineOver": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "There is food again. Nobody asks what it is."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The crisis is over. People sit a little further apart than they used to."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The larder is full again. Nobody checked the label."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "FamineWarning": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "The pantry is empty. Nobody is talking, but everybody is counting heads."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Three days without food. Today, people started looking at each other differently."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The last ration is gone. What gets shared out next, nobody will say out loud."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "HazardComrade": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Sixty degrees. How did you hold out?"
+          },
+          {
+            "slot": 1,
+            "text": "I didn't. I was thinking about popsicles."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "My legs went when I came out."
+          },
+          {
+            "slot": 1,
+            "text": "Mine too. Don't tell anyone."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Was that noise you or the pipe?"
+          },
+          {
+            "slot": 1,
+            "text": "...The pipe."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't take the visor off that early next time."
+          },
+          {
+            "slot": 1,
+            "text": "I thought we were out."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Are we the joke on that roster?"
+          },
+          {
+            "slot": 1,
+            "text": "Yes. And we're still standing."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "HazardEased": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "You went down yesterday too."
+          },
+          {
+            "slot": 1,
+            "text": "It was my turn."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Do you swear when the visor fogs up?"
+          },
+          {
+            "slot": 1,
+            "text": "Yes. Badly."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That level isn't so bad actually."
+          },
+          {
+            "slot": 1,
+            "text": "It is that bad."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Forget it."
+          },
+          {
+            "slot": 1,
+            "text": "...Yeah."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Next time we go together. It's faster."
+          },
+          {
+            "slot": 1,
+            "text": "Fine."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "HazardGratitude": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "You went down again."
+          },
+          {
+            "slot": 1,
+            "text": "I've got better lungs."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That level's mine next time."
+          },
+          {
+            "slot": 1,
+            "text": "You've said that three times."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I owe you."
+          },
+          {
+            "slot": 1,
+            "text": "Just remember it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You don't have to keep going in my place."
+          },
+          {
+            "slot": 1,
+            "text": "What, and watch you go?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Thanks."
+          },
+          {
+            "slot": 1,
+            "text": "Don't."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "HazardResent": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "The chlorine level. That's been me all month."
+          },
+          {
+            "slot": 1,
+            "text": "I don't write the roster."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Do you even know what it smells like down there."
+          },
+          {
+            "slot": 1,
+            "text": "...No."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I counted. Forty cycles."
+          },
+          {
+            "slot": 1,
+            "text": "Why would you count that."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "When did you last go down."
+          },
+          {
+            "slot": 1,
+            "text": "I have things to do up here."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "It's not that I'm scared. It's that it's always me."
+          },
+          {
+            "slot": 1,
+            "text": "Then take it up with the roster."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Jealousy": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I saw you two. Having a lovely chat, were we?"
+          },
+          {
+            "slot": 1,
+            "text": "It's not what you think!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I see. I'm on the schedule, but someone's in your heart."
+          },
+          {
+            "slot": 1,
+            "text": "Let me explain..."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Does wire repair really require standing that close?"
+          },
+          {
+            "slot": 1,
+            "text": "That's standard operating distance!"
+          },
+          {
+            "slot": 2,
+            "text": "I... hear a pipe leaking somewhere. Bye."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A whole shift away, and I come back to this."
+          },
+          {
+            "slot": 1,
+            "text": "We were literally just counting hatches!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You laughed at their airlock joke. You never laugh at mine."
+          },
+          {
+            "slot": 1,
+            "text": "Theirs was about a DIFFERENT airlock."
+          },
+          {
+            "slot": 2,
+            "text": "I'll just... see myself out."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "PartnerLoss": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Your name is still on the schedule... I cannot erase it yet."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "We were supposed to see the colony finished together. Why did you leave first?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I cleaned your atmo suit and hung it in the usual spot. As if you might come back for it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The oxygen is rich today and dinner was almost good. Of all the days for you to miss."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Party": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Everyone over here! No work talk tonight!"
+          },
+          {
+            "slot": 1,
+            "text": "Then what do I talk about? Tomorrow's shifts?"
+          },
+          {
+            "slot": 2,
+            "text": "Hahaha!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Cheers to surviving another cycle!"
+          },
+          {
+            "slot": 1,
+            "text": "Cheers — with recycled water."
+          },
+          {
+            "slot": 2,
+            "text": "Next time, filtered water!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Tonight's music: the manual generator!"
+          },
+          {
+            "slot": 1,
+            "text": "That's just someone doing overtime."
+          },
+          {
+            "slot": 2,
+            "text": "Keep the tempo steady!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Everyone share their worst day here."
+          },
+          {
+            "slot": 1,
+            "text": "Me first: I fell into the polluted water tank."
+          },
+          {
+            "slot": 2,
+            "text": "You win. Instantly."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A toast! To the ceiling that hasn't collapsed!"
+          },
+          {
+            "slot": 1,
+            "text": "To everyone still breathing!"
+          },
+          {
+            "slot": 2,
+            "text": "To whoever's off early shift — no one? Party's over."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Who brought the harmonica?"
+          },
+          {
+            "slot": 1,
+            "text": "No harmonica. Just the gas vents."
+          },
+          {
+            "slot": 2,
+            "text": "Close enough. Very rock and roll."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're at the party but facing the wall."
+          },
+          {
+            "slot": 1,
+            "text": "I'm here in spirit. The wall and I are close."
+          },
+          {
+            "slot": 2,
+            "text": "One drink. The wall will wait."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Vibe check: how are we all doing?"
+          },
+          {
+            "slot": 1,
+            "text": "Alive."
+          },
+          {
+            "slot": 2,
+            "text": "Employed. ...Passing grade, barely."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "New rule: tonight's dance contest has no rules."
+          },
+          {
+            "slot": 1,
+            "text": "Then how do we win?"
+          },
+          {
+            "slot": 2,
+            "text": "Nobody knows. We're a room full of huh-cats."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "There's a green blob vibing by the jukebot."
+          },
+          {
+            "slot": 1,
+            "text": "That's a morb. How did it get in here?"
+          },
+          {
+            "slot": 2,
+            "text": "It glorped in. It stays for one song."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Reconcile": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "The food tastes worse after days of silence."
+          },
+          {
+            "slot": 1,
+            "text": "...I'm sorry. I overreacted."
+          },
+          {
+            "slot": 0,
+            "text": "Truce. Talk to me next time."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You covered my shift yesterday. I know it was you."
+          },
+          {
+            "slot": 1,
+            "text": "...Hmph. It was on my way."
+          },
+          {
+            "slot": 0,
+            "text": "On your way. So is making up. Come on."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Even the hatches avoid us lately."
+          },
+          {
+            "slot": 1,
+            "text": "We've been that scary, huh. ...I'll go first: I'm sorry."
+          },
+          {
+            "slot": 0,
+            "text": "Accepted. Let's go eat."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Here. Espresso. I queued half an hour for the machine."
+          },
+          {
+            "slot": 1,
+            "text": "This is bribery. ...I accept."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Rival": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I've got your number now."
+          },
+          {
+            "slot": 1,
+            "text": "Likewise. Stay out of my sight."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "This isn't a fight anymore. This is a grudge."
+          },
+          {
+            "slot": 1,
+            "text": "Then hold it. I'll hold mine longer."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You and me? We're done."
+          },
+          {
+            "slot": 1,
+            "text": "We were done a long time ago."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "One base. We're going to keep running into each other."
+          },
+          {
+            "slot": 1,
+            "text": "And every time, I'll enjoy ruining your day."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I don't care what the others think of you. I can't stand you."
+          },
+          {
+            "slot": 1,
+            "text": "Good. I wasn't aiming to be liked."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "RivalDied": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I heard. ...I'm not sad, and nobody gets to make me fake it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I was saving up a win for the next time we met. Guess I'll keep it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't look at me like that. I'm not smiling. It's just a good day."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "One less mouth breathing my oxygen. Works for me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'll go clear out that locker. Tired of looking at it."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "SharedMeal": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Is this seat taken?"
+          },
+          {
+            "slot": 1,
+            "text": "It is now. Sit down, I saved the least burnt piece."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The mush bar is almost soft today."
+          },
+          {
+            "slot": 1,
+            "text": "Don't celebrate. It might just be damp."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Eating alone is too quiet."
+          },
+          {
+            "slot": 1,
+            "text": "Perfect timing. I have a whole shift's worth of complaints."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Today's liceloaf is extra... structural."
+          },
+          {
+            "slot": 1,
+            "text": "Chef calls it texture. I call it jaw day."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "My dessert for your wall seat."
+          },
+          {
+            "slot": 1,
+            "text": "Deal. Friend price: half the dessert."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Slow down, nobody is stealing your plate."
+          },
+          {
+            "slot": 1,
+            "text": "You don't get it. Chew fast and you can't taste it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "They say table talk aids digestion."
+          },
+          {
+            "slot": 1,
+            "text": "Then this meal needs a very long conversation."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A wash basin in the mess hall. Fancy."
+          },
+          {
+            "slot": 1,
+            "text": "Fewer germs, same amount of complaining."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What's the scientific name for this?"
+          },
+          {
+            "slot": 1,
+            "text": "The menu just says 'surprise'."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Should we stop him? That's the third bristle berry on the grill."
+          },
+          {
+            "slot": 1,
+            "text": "No. Let him cook. Literally, for once."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Three berries and a pickled meal lice. That's dinner?"
+          },
+          {
+            "slot": 1,
+            "text": "It's a curated plate. Don't look at it too long."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Half of every meal you cook goes missing."
+          },
+          {
+            "slot": 1,
+            "text": "Kitchen tax. The chef eats first. That's civilization."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "They swapped the barbeque for mush bars."
+          },
+          {
+            "slot": 1,
+            "text": "I'm eating it and crying. Full banana cat."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That's your third helping tonight."
+          },
+          {
+            "slot": 1,
+            "text": "The chonk chart doesn't judge me. Neither should you."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Teach": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Your technique is off. Watch me once."
+          },
+          {
+            "slot": 1,
+            "text": "So that's it! No wonder I'm always a step slow."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "There's a trick to this job. Let me show you."
+          },
+          {
+            "slot": 1,
+            "text": "Noted! I owe you a soft mush bar."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't fight the pick. Let it fall on its own."
+          },
+          {
+            "slot": 1,
+            "text": "Oh! And the saved energy goes to dinner."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Before touching a wire, tap it with the back of your hand."
+          },
+          {
+            "slot": 1,
+            "text": "Why the back?"
+          },
+          {
+            "slot": 0,
+            "text": "So the shock throws your hand clear. Remember it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Save your research data before you click around."
+          },
+          {
+            "slot": 1,
+            "text": "So that's how last week's report died... noted."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't vent the whole room to kill the germs. You are also in the room."
+          },
+          {
+            "slot": 1,
+            "text": "...That explains the last report ending mid-sentence."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I asked for one ladder. You built a stairwell with lighting."
+          },
+          {
+            "slot": 1,
+            "text": "You said 'access.' I heard 'dignity.'"
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "Vent": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I can't take it anymore, there are pipes to fix everywhere..."
+          },
+          {
+            "slot": 1,
+            "text": "Breathe. Pipes are infinite; you are not."
+          },
+          {
+            "slot": 0,
+            "text": "...Thanks. Saying it out loud helps."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Dreamed the power grid died again. My hands are still shaking."
+          },
+          {
+            "slot": 1,
+            "text": "Just a dream. Come sit with me a while."
+          },
+          {
+            "slot": 0,
+            "text": "Yeah. Glad you're here."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The electrolyzer blew again. Everyone's oxygen is on me..."
+          },
+          {
+            "slot": 1,
+            "text": "Sit down. Oxygen has reserves. You don't have a backup."
+          },
+          {
+            "slot": 0,
+            "text": "...Okay. Breathing first."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "A full shift on the hamster wheel. My legs won't stop."
+          },
+          {
+            "slot": 1,
+            "text": "I'll take tomorrow. The wheel can't bully both of us."
+          },
+          {
+            "slot": 0,
+            "text": "...Deal. You're a good one."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The meteors keep hammering. I can't sleep."
+          },
+          {
+            "slot": 1,
+            "text": "They won't get through. I checked every tile myself."
+          },
+          {
+            "slot": 0,
+            "text": "...Somehow that actually helps."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What if I wake up and the oxygen reads zero?"
+          },
+          {
+            "slot": 1,
+            "text": "You'd wake up next to me first. Panic later."
+          },
+          {
+            "slot": 0,
+            "text": "Ha... fair."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm fine. I'm fine. I'm fine."
+          },
+          {
+            "slot": 1,
+            "text": "That's four this cycle. Sit. I'll take the next shift."
+          },
+          {
+            "slot": 0,
+            "text": "...One more: I'm fine. Okay. Sitting."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I am one broken pipe away from crashing out entirely."
+          },
+          {
+            "slot": 1,
+            "text": "Then I'll fix the pipe. Sit down."
+          },
+          {
+            "slot": 0,
+            "text": "...Okay. Watching you fix it helps."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What are you thinking about?"
+          },
+          {
+            "slot": 1,
+            "text": "Nothing. Beautifully, completely nothing."
+          },
+          {
+            "slot": 0,
+            "text": "Finally, someone at peace in this colony."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "How often do you think about that one flooded shaft?"
+          },
+          {
+            "slot": 1,
+            "text": "Daily. Sometimes twice, if the pump hums wrong."
+          },
+          {
+            "slot": 0,
+            "text": "...It haunts me too. Cycle 12. Never again."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Two straight shifts on the manual generator."
+          },
+          {
+            "slot": 1,
+            "text": "Sad hamster hours. Tiniest violin. I'm taking the next one."
+          },
+          {
+            "slot": 0,
+            "text": "...Okay. You win."
+          }
+        ]
+      ],
+      "tags": {
+        "crybaby": [
+          [
+            {
+              "slot": 0,
+              "text": "I can't hold it in... the mush bars are gone again..."
+            },
+            {
+              "slot": 1,
+              "text": "Cry it out. Half of mine tomorrow is yours."
+            },
+            {
+              "slot": 0,
+              "text": "Snff... you're the best..."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I dreamed the printing pod didn't want me anymore..."
+            },
+            {
+              "slot": 1,
+              "text": "Dreams lie. Who else would it even print?"
+            },
+            {
+              "slot": 0,
+              "text": "R-really...? Okay..."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "My tears fell into the regolith. Will something grow...?"
+            },
+            {
+              "slot": 1,
+              "text": "You'll be the first to know. Here, wipe up."
+            },
+            {
+              "slot": 0,
+              "text": "...Ha. Now I'm laughing and crying."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not fragile. I just have surplus water draining through my eyes."
+            },
+            {
+              "slot": 1,
+              "text": "Drain away. Drainage is honest work."
+            },
+            {
+              "slot": 0,
+              "text": "...Mm! Feeling better already."
+            }
+          ]
+        ],
+        "hothead": [
+          [
+            {
+              "slot": 0,
+              "text": "I nearly took the hamster wheel apart today! It spins too slow!!"
+            },
+            {
+              "slot": 1,
+              "text": "Breathe before dismantling. The wheel is public property."
+            },
+            {
+              "slot": 0,
+              "text": "...Hooo. Fine. It lives. For now."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "Why do I get every busted pipe?!"
+            },
+            {
+              "slot": 1,
+              "text": "Because you're fastest. That's a compliment, stop glaring."
+            },
+            {
+              "slot": 0,
+              "text": "...Fine. That reason I accept."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm counting to three, and if this base blacks out again—"
+            },
+            {
+              "slot": 1,
+              "text": "At three we go crank the generator together."
+            },
+            {
+              "slot": 0,
+              "text": "...Deal. One, two... move."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "I'm not angry! I'm just too efficient to sit still!"
+            },
+            {
+              "slot": 1,
+              "text": "Then lend me half that energy for hauling."
+            },
+            {
+              "slot": 0,
+              "text": "...Take it, take it. Feels better out loud."
+            }
+          ]
+        ],
+        "nervous": [
+          [
+            {
+              "slot": 0,
+              "text": "I keep thinking the backup battery isn't full. It is full. I checked..."
+            },
+            {
+              "slot": 1,
+              "text": "Then we check once more. Together."
+            },
+            {
+              "slot": 0,
+              "text": "...That was the seventh check. Thanks for coming."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "What if? What if the oxygen, while I'm asleep—"
+            },
+            {
+              "slot": 1,
+              "text": "Stop. The alarm works nights. You work days. Clear division of labor."
+            },
+            {
+              "slot": 0,
+              "text": "...Fine. I'll only wake up three times."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "The pipe made a noise! You heard it, right?!"
+            },
+            {
+              "slot": 1,
+              "text": "Heard it. Thermal expansion. I signed its health certificate."
+            },
+            {
+              "slot": 0,
+              "text": "...You made that up. It helped anyway."
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "text": "My heart is racing. Is the base about to blow?"
+            },
+            {
+              "slot": 1,
+              "text": "That's from three ladder sprints. Sit. Sip water."
+            },
+            {
+              "slot": 0,
+              "text": "...Oh. Right. Okay, settling down now."
+            }
+          ]
+        ]
+      }
+    },
+    "Welcome": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Hi everyone, I just stepped out of the printer..."
+          },
+          {
+            "slot": 1,
+            "text": "Welcome to the family! Go claim a seat in the mess hall."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "It's... livelier than the brochure said."
+          },
+          {
+            "slot": 1,
+            "text": "That's the spirit. Ask us anything."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "It felt warmer inside the printing pod..."
+          },
+          {
+            "slot": 1,
+            "text": "Too late to climb back in. Here's your shovel."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Quick question: which way to the lavatory?"
+          },
+          {
+            "slot": 1,
+            "text": "Excellent question. That's the most important knowledge here."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I have three skills. Here's my resume."
+          },
+          {
+            "slot": 1,
+            "text": "Breathing is the only requirement. We'll teach the rest."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I was printed today and I already have a schedule."
+          },
+          {
+            "slot": 1,
+            "text": "Welcome. It gets worse, and then you get used to it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Hi! I'm new and I already love it here!"
+          },
+          {
+            "slot": 1,
+            "text": "Happy cat energy. Ask me again in three cycles."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Do I get a locker?"
+          },
+          {
+            "slot": 1,
+            "text": "You get a cot and a dream. Lockers unlock at level two."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathBlame": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Somebody has to answer for this."
+          },
+          {
+            "slot": 1,
+            "text": "...Why is it me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm not saying he did it. I'm saying I didn't."
+          },
+          {
+            "slot": 1,
+            "text": "You already said it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The report needs a name on it."
+          },
+          {
+            "slot": 1,
+            "text": "So you picked the easiest one to write."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Everyone here knows."
+          },
+          {
+            "slot": 1,
+            "text": "Knowing isn't proof."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You were there that shift, weren't you."
+          },
+          {
+            "slot": 1,
+            "text": "I was asleep. Everyone's always there. It's one base."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathFaded": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Somebody used my name today."
+          },
+          {
+            "slot": 1,
+            "text": "...They should have all along."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "You're not angry anymore?"
+          },
+          {
+            "slot": 1,
+            "text": "Tired of it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Nobody's brought up last month in a while."
+          },
+          {
+            "slot": 1,
+            "text": "Then let's not bring it up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I thought I'd be that guy forever."
+          },
+          {
+            "slot": 1,
+            "text": "Next time it'll be somebody else."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "The roster put me back on days."
+          },
+          {
+            "slot": 1,
+            "text": "...I did that."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathIsolated": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "This table's full."
+          },
+          {
+            "slot": 1,
+            "text": "...You're the only one at it."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't talk to me. I'd rather not catch it."
+          },
+          {
+            "slot": 1,
+            "text": "Neither would I."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Roster's been changed. Go look."
+          },
+          {
+            "slot": 1,
+            "text": "...I looked. It's all night shifts."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Use the other side."
+          },
+          {
+            "slot": 1,
+            "text": "The other side is a wall."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Who's pairing with him? ...Fine. Nobody, then."
+          },
+          {
+            "slot": 1,
+            "text": "I can finish it alone."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathPunch": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "Nobody down here."
+          },
+          {
+            "slot": 1,
+            "text": "—What are you doing!"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Don't shout. Nobody's coming anyway."
+          },
+          {
+            "slot": 1,
+            "text": "...I know."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "That one's for last week."
+          },
+          {
+            "slot": 1,
+            "text": "Last week I was in a med bed."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Clean up before you go out. Don't let them see."
+          },
+          {
+            "slot": 1,
+            "text": "You don't let them see either."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "It isn't personal. This place needs somewhere to vent."
+          },
+          {
+            "slot": 1,
+            "text": "Then go find a wall."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathRescue": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I'm sitting here. Nothing else to it."
+          },
+          {
+            "slot": 1,
+            "text": "...Nobody's sat here in days."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I brought two portions."
+          },
+          {
+            "slot": 1,
+            "text": "Aren't you worried who sees?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Who gave you that."
+          },
+          {
+            "slot": 1,
+            "text": "...I fell."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I don't care what they're saying. You still owe me a night shift."
+          },
+          {
+            "slot": 1,
+            "text": "...I know I do."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Finish crying, then eat. It's worse cold."
+          },
+          {
+            "slot": 1,
+            "text": "...Yeah."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathSawCrying": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "What are you doing down here."
+          },
+          {
+            "slot": 1,
+            "text": "...Nothing. Dust in my eye."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "No cameras on this level. No one either. Finish."
+          },
+          {
+            "slot": 1,
+            "text": "I'm already finished."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Want me to go?"
+          },
+          {
+            "slot": 1,
+            "text": "...No. Just stand there."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I didn't see anything."
+          },
+          {
+            "slot": 1,
+            "text": "Thank you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I thought this level was empty."
+          },
+          {
+            "slot": 1,
+            "text": "So did I."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathSpeakUp": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I pulled the logs. He was on the far side that shift."
+          },
+          {
+            "slot": 1,
+            "text": "...You actually pulled the logs?"
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Blame me. I wrote the roster."
+          },
+          {
+            "slot": 1,
+            "text": "You don't have to do that for me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "What we're short on is a working machine, not someone to yell at."
+          },
+          {
+            "slot": 1,
+            "text": "...Thank you."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "My word still counts around here. He didn't do it."
+          },
+          {
+            "slot": 1,
+            "text": "I thought everyone had stopped remembering me."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Next time somebody wants a name, they come to me first."
+          },
+          {
+            "slot": 1,
+            "text": "...Then you'd better watch yourself."
+          }
+        ]
+      ],
+      "tags": {}
+    },
+    "WrathWitness": {
+      "base": [
+        [
+          {
+            "slot": 0,
+            "text": "I saw that."
+          },
+          {
+            "slot": 1,
+            "text": "You saw what."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "Put your hand down."
+          },
+          {
+            "slot": 1,
+            "text": "...None of your business."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "So you check for witnesses first. Good to know."
+          },
+          {
+            "slot": 1,
+            "text": "Shut up."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I'm going to remember today."
+          },
+          {
+            "slot": 1,
+            "text": "Suit yourself."
+          }
+        ],
+        [
+          {
+            "slot": 0,
+            "text": "I was in the vent while you were doing it."
+          },
+          {
+            "slot": 1,
+            "text": "...Then you heard more than you saw."
+          }
+        ]
+      ],
+      "tags": {}
+    }
+  },
+  "fallback": {
+    "ordinary": [
+      [
+        "How many tons of granite did you dig today?",
+        "Don't ask. My back filed a complaint."
+      ],
+      [
+        "The mush bar got even harder today.",
+        "At least it's warm... okay, it's not."
+      ],
+      [
+        "Do you think there are other planets out there?",
+        "If so, I hope their toilets don't clog."
+      ],
+      [
+        "Dreamed about falling into magma again.",
+        "At least you didn't sleepwalk into the oxygen diffuser."
+      ],
+      [
+        "The air feels thinner today.",
+        "Breathe slowly. Call it cardio."
+      ],
+      [
+        "They say stress makes people smash things at night.",
+        "I stress-eat. Can't smash anything on a full stomach."
+      ],
+      [
+        "I asked the printing pod for a helper.",
+        "And it printed five kilos of clay, didn't it."
+      ],
+      [
+        "The lavatory's clogged. Third time this week.",
+        "Don't look at me. I clog, I don't fix."
+      ],
+      [
+        "The slickster is sleeping on my cot again.",
+        "It likes you. Well, it likes your carbon dioxide."
+      ],
+      [
+        "Nice new hairstyle.",
+        "It's from the wire. Thanks for noticing."
+      ],
+      [
+        "Whose puddle is that in corridor three?",
+        "Stress. The stress threw up. Nobody else."
+      ],
+      [
+        "If you got reprinted, what would you come back as?",
+        "A solar panel. Lie there all day, then lie there all night."
+      ],
+      [
+        "The alarm's going off. Why aren't you running?",
+        "Running where? Outside doesn't even have air."
+      ],
+      [
+        "I unlocked a new skill: Advanced Digging.",
+        "Congrats. Your reward is more digging."
+      ],
+      [
+        "Tell me a bedtime story?",
+        "Once upon a time, a duplicant deconstructed the wrong airlock. The end."
+      ],
+      [
+        "The electrolyzer flooded again.",
+        "It is what it is."
+      ],
+      [
+        "You've read the same daily report nine times.",
+        "The numbers might improve if I stare harder."
+      ],
+      [
+        "Your shift ended six hours ago. Why are you still in the cot?",
+        "I'm banking horizontal time against future digging."
+      ],
+      [
+        "I'm not slacking. I'm delivering exactly forty kilograms of effort.",
+        "That is the job description, yes."
+      ],
+      [
+        "The whole west wing flooded.",
+        "GG. Go next. ...What do you mean it's our only base?"
+      ],
+      [
+        "They discontinued my favorite mush bar flavor.",
+        "Womp womp. ...Sorry, I meant: there, there."
+      ],
+      [
+        "A slickster followed me home through the airlock.",
+        "Cat distribution system. It chose you. Congratulations."
+      ]
+    ],
+    "breaking": [
+      [
+        "Don't talk to me yet... I need a second to breathe.",
+        "Okay. I'm right here. Not talking."
+      ],
+      [
+        "The alarm in my head is louder than the base's.",
+        "Then switch one off: sit down, drink some water."
+      ],
+      [
+        "One more thing and I will lose it.",
+        "Then that one thing is mine. Go lie down."
+      ],
+      [
+        "I'm barely holding on.",
+        "Say it out loud. It weighs half as much once you do."
+      ]
+    ]
+  }
+}

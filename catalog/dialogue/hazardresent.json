@@ -1,0 +1,100 @@
+{
+  "family": "hazardresent",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardresent.base.001",
+      "storyletId": "HazardResent",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "氯气那层，这个月都是我。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "排班表不是我排的。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.002",
+      "storyletId": "HazardResent",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你知道底下是什么味道吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……不知道。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.003",
+      "storyletId": "HazardResent",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我数过了，四十个周期。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "数这个做什么。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.004",
+      "storyletId": "HazardResent",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你上一次下去是什么时候。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "我在上面也有事做。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.005",
+      "storyletId": "HazardResent",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "不是我怕。是每次都是我。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "那你去跟排班表说。"
+        }
+      ]
+    }
+  ]
+}

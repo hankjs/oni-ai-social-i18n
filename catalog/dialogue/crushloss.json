@@ -1,0 +1,47 @@
+{
+  "family": "crushloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.crushloss.base.001",
+      "storyletId": "CrushLoss",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "有些话还没来得及说，就再也没机会了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.002",
+      "storyletId": "CrushLoss",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我连你爱吃哪种糕都还没问过。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.003",
+      "storyletId": "CrushLoss",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "以前怪排班把我们隔开。这次，不能再怪它了。"
+        }
+      ]
+    }
+  ]
+}

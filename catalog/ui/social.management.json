@@ -1,0 +1,968 @@
+{
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "seq": 152,
+      "source": "社交",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "seq": 153,
+      "source": "查看殖民地关系并管理牵线和拆散标记",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "seq": 154,
+      "source": "牵线",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "seq": 155,
+      "source": "拆散",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "seq": 156,
+      "source": "清除标记",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "seq": 157,
+      "source": "界限",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "seq": 158,
+      "source": "关系总览",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "seq": 159,
+      "source": "待发生",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "seq": 160,
+      "source": "待发生的社交事件",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "seq": 161,
+      "source": "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "seq": 162,
+      "source": "目前没有待发生的社交事件。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "seq": 163,
+      "source": "{0} → {1} · 还剩 {2} 周期",
+      "description": "{0}/{1}: names; {2}: remaining cycles.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "remaining cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "seq": 164,
+      "source": "{0} → {1} · 正在等待安全会合",
+      "description": "{0}/{1}: names.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "seq": 165,
+      "source": "现在发生",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "seq": 166,
+      "source": "{0}　[{1}]",
+      "description": "{0}: pending row; {1}: action.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "pending row",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "action",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "seq": 167,
+      "source": "事件已请求，正在等待安全时机",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "seq": 168,
+      "source": "殖民地关系",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "seq": 169,
+      "source": "{0} 段关系",
+      "description": "{0}: relationship count for one duplicant.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "relationship count for one duplicant",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "seq": 170,
+      "source": "搜索复制人姓名",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "seq": 171,
+      "source": "关系：{0}",
+      "description": "{0}: active relationship category.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active relationship category",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "seq": 172,
+      "source": "全部",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "seq": 173,
+      "source": "友好",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "seq": 174,
+      "source": "恋爱",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "seq": 175,
+      "source": "冲突",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "seq": 176,
+      "source": "标记：{0}",
+      "description": "{0}: active director-mark filter.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active director-mark filter",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "seq": 177,
+      "source": "未标记",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "seq": 178,
+      "source": "排序：{0}",
+      "description": "{0}: active group ordering.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active group ordering",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "seq": 179,
+      "source": "姓名",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "seq": 180,
+      "source": "关系数",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "seq": 181,
+      "source": "最高好感",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "seq": 182,
+      "source": "没有符合筛选条件的关系",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "seq": 183,
+      "source": "关闭",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "seq": 184,
+      "source": "返回",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "seq": 185,
+      "source": "上一页",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "seq": 186,
+      "source": "下一页",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "seq": 187,
+      "source": "第 {0}/{1} 页",
+      "description": "{0}: current page, {1}: total pages.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "current page, {1}: total pages",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "seq": 188,
+      "source": "没有可选的复制人。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "seq": 189,
+      "source": "操作失败：社交系统尚未就绪",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "seq": 190,
+      "source": "{0} · 选择第二人",
+      "description": "{0}: action label (matchmake/block/clear).",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "action label (matchmake/block/clear)",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "seq": 191,
+      "source": "已选择 {0}。请选择另一名复制人完成操作。",
+      "description": "{0}: name of the already selected duplicant.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the already selected duplicant",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "seq": 192,
+      "source": "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。",
+      "description": "{0}: chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "3",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "seq": 193,
+      "source": "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "seq": 194,
+      "source": "选择一名复制人，清除所有与其有关的牵线和拆散标记。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "seq": 195,
+      "source": "界限",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "seq": 196,
+      "source": "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "seq": 197,
+      "source": "最好关系:{0}",
+      "description": "{0}: 当前最好档位名。可选完整稳定阶梯(宿敌..恋人)或不限。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "当前最好档位名。可选完整稳定阶梯(宿敌",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "seq": 198,
+      "source": "最差关系:{0}",
+      "description": "{0}: 当前最差档位名。可选完整稳定阶梯(宿敌..恋人)或不限。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "当前最差档位名。可选完整稳定阶梯(宿敌",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "seq": 199,
+      "source": "不限",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "seq": 200,
+      "source": "选择最好关系",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "seq": 201,
+      "source": "选择最差关系",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "seq": 202,
+      "source": "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "seq": 203,
+      "source": "界限: {0} × {1} → 最好 {2} · 最差 {3}",
+      "description": "{0}/{1}: names of the pair; {2}/{3}: 上限/下限档位名。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names of the pair",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "上限/下限档位名。",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "seq": 204,
+      "source": "设置失败:最差关系不能好过最好关系",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "seq": 205,
+      "source": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}",
+      "description": "{0}: cohesion state, {1}: cohesion value, {2}: living duplicants, {3}: relationship count, {4}: match marks, {5}: block marks.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cohesion state, {1}: cohesion value, {2}: living duplicants, {3}: relationship count, {4}: match marks, {5}: block marks",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "3",
+          "kind": "text"
+        },
+        {
+          "token": "4",
+          "name": "4",
+          "kind": "text"
+        },
+        {
+          "token": "5",
+          "name": "5",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "seq": 206,
+      "source": "{0} 周期后分手",
+      "description": "{0}: cycles until the cold war ends in a breakup.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cycles until the cold war ends in a breakup",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "seq": 207,
+      "source": "闹掰还剩 {0} 周期",
+      "description": "{0}: remaining fallout cycles.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "remaining fallout cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "seq": 208,
+      "source": "宿敌·冻结中",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "seq": 209,
+      "source": "前任期还剩 {0} 周期",
+      "description": "{0}: remaining ex-partner cycles.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "remaining ex-partner cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "seq": 210,
+      "source": "今天是纪念日！",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "seq": 211,
+      "source": "纪念日还有 {0} 周期",
+      "description": "{0}: cycles until the next anniversary.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cycles until the next anniversary",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "seq": 212,
+      "source": "恋人 {0} 对 · 冷战 {1} 对 · 挚友 {2} 对",
+      "description": "{0}: couples, {1}: cold wars, {2}: mutual best-friend pairs.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "couples, {1}: cold wars, {2}: mutual best-friend pairs",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "seq": 213,
+      "source": "[完成] {0}",
+      "description": "{0}: completed action description.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "completed action description",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "seq": 214,
+      "source": "[完成] 已清除 {0} 的 {1} 个标记",
+      "description": "{0}: duplicant name, {1}: cleared mark count.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "duplicant name, {1}: cleared mark count",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "seq": 215,
+      "source": "牵线: {0} × {1}",
+      "description": "{0}/{1}: names of the marked pair.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names of the marked pair",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "seq": 216,
+      "source": "拆散: {0} × {1}",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "seq": 217,
+      "source": "取消标记: {0} × {1}",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "seq": 218,
+      "source": "已选 {0}，选中另一名复制人后再按一次同一热键",
+      "description": "{0}: name of the duplicant picked as the first half of a pair.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the duplicant picked as the first half of a pair",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "seq": 219,
+      "source": "已取消选择 {0}",
+      "description": "{0}: name of the duplicant whose selection was cancelled.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the duplicant whose selection was cancelled",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "seq": 220,
+      "source": "已清除 {0} 的 {1} 个标记",
+      "description": "{0}: duplicant name, {1}: cleared mark count.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "duplicant name, {1}: cleared mark count",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "seq": 221,
+      "source": "纪事",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "seq": 222,
+      "source": "殖民地纪事",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "seq": 223,
+      "source": "暂无事件记录",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "seq": 224,
+      "source": "{0} 已不在殖民地,无法跳转",
+      "description": "{0}: 纪事里被点击、但已不在场的复制人名(死亡或离开)。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "纪事里被点击、但已不在场的复制人名(死亡或离开)。",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "seq": 225,
+      "source": "人物:全部",
+      "description": "事件日志按人过滤:未选时的按钮文案。",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "seq": 226,
+      "source": "人物:{0}",
+      "description": "{0}: 被过滤的复制人名。",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "被过滤的复制人名。",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "seq": 227,
+      "source": "清除",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "seq": 228,
+      "source": "查看谁的故事?",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "seq": 229,
+      "source": "选一名复制人,日志只显示他参与的事件——他的一段人生。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "seq": 230,
+      "source": "导出诊断报告",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "seq": 231,
+      "source": "请先在 Mod 设置中开启「本地玩法数据」",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "seq": 232,
+      "source": "诊断报告已导出：{0}",
+      "description": "{0}: local report path.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "local report path",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "seq": 233,
+      "source": "诊断报告导出失败：{0}",
+      "description": "{0}: safe local error message.",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "safe local error message",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    }
+  ]
+}

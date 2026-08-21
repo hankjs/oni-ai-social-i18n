@@ -1,0 +1,81 @@
+{
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "那件事……是我不对。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "说开就好。吵完这架,我反而更懂你了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "我把话说重了,对不起。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "彼此彼此。不打不相识,走,吃饭去。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "还在气吗?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "气消了。能吵起来,说明咱俩都当真了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "下次我先听你说完。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "下次我也少嚷两句。握手?握手。"
+        }
+      ]
+    }
+  ]
+}

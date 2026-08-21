@@ -1,0 +1,150 @@
+{
+  "locale": "en",
+  "family": "welcome",
+  "candidates": [
+    {
+      "candidateId": "storylet.welcome.base.001",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hi everyone, I just stepped out of the printer...",
+          "sourceHash": "sha256:8b63643743737092fd7948c3af1d59893028c54bb54a6840be724a8fd404bd38"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Welcome to the family! Go claim a seat in the mess hall.",
+          "sourceHash": "sha256:3fbf49c1b9becf3546920282d31919d5762e701b4e31a94f34b4672a15ac3f47"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.002",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It's... livelier than the brochure said.",
+          "sourceHash": "sha256:74d97d1dab6a66c0c4ebaa342b62a49d414f1db181470e599ee92c83f769b828"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's the spirit. Ask us anything.",
+          "sourceHash": "sha256:d69cc88a084276badb9f001043c72343c14b933fe24d3c354f5d5456c8b6c4bf"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.003",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It felt warmer inside the printing pod...",
+          "sourceHash": "sha256:bc60e8531c415bd25dc0f3f530b260d787a246ff59a512f0421194b12c337fa7"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Too late to climb back in. Here's your shovel.",
+          "sourceHash": "sha256:0eee6fc6ea35429af17e4ba6a560f7537689245c9efcb4178b695ed18b9d9e31"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.004",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Quick question: which way to the lavatory?",
+          "sourceHash": "sha256:682048357ef919261d3f51d5f2d6fa32cb3520336b22bd7decb9bbd786ee8ac4"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Excellent question. That's the most important knowledge here.",
+          "sourceHash": "sha256:d161eafacdcc40ddd97ee7ac7bb05ebfa3af36927b0ad388255f337cc902585f"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.005",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I have three skills. Here's my resume.",
+          "sourceHash": "sha256:5823725aca6611efe9511dd046067ceb279a4487426206b0b4196dd8eecf4ff4"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathing is the only requirement. We'll teach the rest.",
+          "sourceHash": "sha256:0d02b98138c8342a0d345251338fa1042963bb61ebc8d63b34b91991798be0ff"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.006",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was printed today and I already have a schedule.",
+          "sourceHash": "sha256:daba0152f42210258efbfdcc6d5216002f1e8559517805ba523f03e4773aad43"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Welcome. It gets worse, and then you get used to it.",
+          "sourceHash": "sha256:59657ebddd06a9702d26f9f5c91fcf17eaa7c8adb1f056f43ae99cca80c6a1ec"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.007",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hi! I'm new and I already love it here!",
+          "sourceHash": "sha256:31338e9bb897e7dbfea49ca155ea40dc010a4183df6f7e1210acf96860746de5"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Happy cat energy. Ask me again in three cycles.",
+          "sourceHash": "sha256:483ca9b36686e10422eb7d7510c32bd4d3abf7d98a22d8440ffee4060b5c2547"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.008",
+      "status": "reviewed",
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do I get a locker?",
+          "sourceHash": "sha256:22139d40e40c0b2543d2fbccb485802a82ebc3bf9f5f421177eaad4ae6b55eaa"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You get a cot and a dream. Lockers unlock at level two.",
+          "sourceHash": "sha256:fa65cd4ea95dcd060736739e80fc79ded383ae4fee0fdcf81443d88b57bd257b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "seq": 647,
+      "source": "社交生活 · 设置",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "seq": 648,
+      "source": "设置",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "seq": 649,
+      "source": "打开「复制人社交生活」的设置面板",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "seq": 650,
+      "source": "保存",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "seq": 651,
+      "source": "取消",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "seq": 652,
+      "source": "恢复默认",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "seq": 653,
+      "source": "已保存，并已对当前会话生效。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "seq": 654,
+      "source": "保存失败，详情见日志。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "seq": 655,
+      "source": "已恢复默认值，点「保存」后生效。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "seq": 656,
+      "source": "（重启后生效）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "seq": 657,
+      "source": "开",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "seq": 658,
+      "source": "关",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "seq": 659,
+      "source": "AI 对话",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "seq": 660,
+      "source": "启用 AI 生成对话",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "seq": 661,
+      "source": "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "seq": 662,
+      "source": "API 地址",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "seq": 663,
+      "source": "API Key",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "seq": 664,
+      "source": "模型",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "seq": 665,
+      "source": "https://api.example.com/v1",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "seq": 666,
+      "source": "粘贴你的 API Key",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "seq": 667,
+      "source": "模型名称",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "seq": 668,
+      "source": "对话语言",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "seq": 669,
+      "source": "跟随游戏",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "seq": 670,
+      "source": "中文",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "seq": 671,
+      "source": "English",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "seq": 672,
+      "source": "每周期 AI 对话上限",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "seq": 673,
+      "source": "同一对复制人的对话冷却（秒）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "seq": 674,
+      "source": "AI 请求超时（秒）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "seq": 675,
+      "source": "单次生成上限（token）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "seq": 676,
+      "source": "Key 已填写，保存后立即生效",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "seq": 677,
+      "source": "未填写 Key，AI 对话不会发起，仅使用内置台词",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "seq": 678,
+      "source": "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "seq": 679,
+      "source": "社交系统",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "seq": 680,
+      "source": "观察原生社交事件（关系引擎输入）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "seq": 681,
+      "source": "（本版本固定开启）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "seq": 682,
+      "source": "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "seq": 683,
+      "source": "F9/F10/F11 牵线热键",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "seq": 684,
+      "source": "关系大事通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "seq": 685,
+      "source": "关系事件演出",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "seq": 686,
+      "source": "简洁",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "seq": 687,
+      "source": "标准",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "seq": 688,
+      "source": "聚焦",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "seq": 689,
+      "source": "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "seq": 690,
+      "source": "重大事件自动暂停",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "seq": 691,
+      "source": "独立开关，默认关闭。打开后重大关系事件发生时暂停游戏。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "seq": 692,
+      "source": "待发生窗口",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "seq": 693,
+      "source": "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "seq": 694,
+      "source": "待发生等待周期",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "seq": 695,
+      "source": "关系里程碑通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "seq": 696,
+      "source": "悲伤与失去通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "seq": 697,
+      "source": "冲突与危险通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "seq": 698,
+      "source": "日常纪念通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "seq": 699,
+      "source": "关闭",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "seq": 700,
+      "source": "仅封存",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "seq": 701,
+      "source": "即时通知",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "seq": 702,
+      "source": "一件重要的事即将发生",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "seq": 703,
+      "source": "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。",
+      "description": "",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "seq": 704,
+      "source": "同一对复制人的好感进账间隔（秒）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "seq": 705,
+      "source": "原生聊天转化为好感的每对最短间隔，社交事件节奏的总阀门：聊天里的争执/告白/倾诉等判定机会随之增减。默认 150 ≈ 每对每周期 3-4 次进账；调小节奏更快，30 即旧版的刷屏节奏",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "seq": 706,
+      "source": "纪事容量（条）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "seq": 707,
+      "source": "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "seq": 708,
+      "source": "黑暗内容（人性考验）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "seq": 709,
+      "source": "启用黑暗内容",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "seq": 710,
+      "source": "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "seq": 711,
+      "source": "（黑暗内容总开关关闭中，下列项目暂不生效）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "seq": 712,
+      "source": "允许断粮相残",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "seq": 713,
+      "source": "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "seq": 714,
+      "source": "把崩溃演成一场戏",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "seq": 715,
+      "source": "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "seq": 716,
+      "source": "危险工时会积怨",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "seq": 717,
+      "source": "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "seq": 718,
+      "source": "允许集体迁怒",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "seq": 719,
+      "source": "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "seq": 720,
+      "source": "允许宿敌互殴",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "seq": 721,
+      "source": "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "seq": 722,
+      "source": "调快原生对话节奏",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "seq": 723,
+      "source": "原生对话冷却倍率",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "seq": 724,
+      "source": "原生对话距离倍率",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "seq": 725,
+      "source": "界面与反馈",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "seq": 726,
+      "source": "对话台词浮动文字",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "seq": 727,
+      "source": "台词停留秒数",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "seq": 728,
+      "source": "好感增减飘字",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "seq": 729,
+      "source": "本地玩法数据",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "seq": 730,
+      "source": "记录匿名社交遥测",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "seq": 731,
+      "source": "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "seq": 732,
+      "source": "平衡",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "seq": 733,
+      "source": "戏剧强度预设（读档后生效）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "seq": 734,
+      "source": "安静",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "seq": 735,
+      "source": "默认",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "seq": 736,
+      "source": "戏剧",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "seq": 737,
+      "source": "自定义",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "seq": 738,
+      "source": "预设调整争执/吃醋/道歉的概率与代价；「安静」少吵少醋，「戏剧」冲突更密",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "seq": 739,
+      "source": "社交压力软上限（0 = 关闭）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "seq": 740,
+      "source": "「情绪紧绷」阈值",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "seq": 741,
+      "source": "调试（仅开发版可见）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "seq": 742,
+      "source": "以下是技术性参数，改坏了用「恢复默认」拉回来",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "family": "reconcile",
+  "candidates": [
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "冷战这几天，食堂的饭更难吃了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……对不起，是我乱发脾气。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "source": "和好吧，下次有话直说。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "你昨天替我顶了班。我都知道。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "……哼，只是顺路。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "source": "顺路。那就和好吧，也顺路。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "这几天连哈奇都躲着我们走。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "是我们太吓人了。……我先低头，行吗？"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "source": "行。一起去吃饭吧。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "variant": {
+        "kind": "base"
+      },
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "source": "给。我排了半小时的浓缩咖啡。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "source": "这算贿赂。……但我收下了。"
+        }
+      ]
+    }
+  ]
+}
