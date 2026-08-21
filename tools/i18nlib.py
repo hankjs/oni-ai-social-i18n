@@ -22,6 +22,25 @@ SCHEMA_VERSION = 1
 SOURCE_LOCALE = "zh"
 FALLBACK_LOCALE = "en"
 TURN_LETTERS = "abcdefghijklmnopqrstuvwxyz"
+MAX_UI_TEXT_LENGTH = 10000
+MAX_DIALOGUE_TEXT_LENGTH = 2000
+ALLOWED_RICH_TEXT_TAGS = {"b", "i", "color"}
+
+# Legacy pools were not all literal translations. These exact per-locale turn
+# shapes preserve the shipped dialogue without weakening the structure contract
+# for every other candidate.
+DIALOGUE_TURN_EXCEPTIONS = {
+    ("en", "storylet.argument.base.012"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.bestfriend.base.007"): (("a", "b", "c"), ("a", "b")),
+    ("en", "storylet.casual.base.018"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.casual.base.020"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.casual.base.021"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.casual.base.022"): (("a", "b", "c"), ("a", "b")),
+    ("en", "storylet.casual.base.023"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.date.base.007"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.date.base.008"): (("a", "b"), ("a", "b", "c")),
+    ("en", "storylet.sharedmeal.base.014"): (("a", "b", "c"), ("a", "b")),
+}
 
 
 def normalize_locale(value: str) -> str:
@@ -64,6 +83,135 @@ def write_json(path: Path, obj: Any) -> None:
 
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _schema_type_matches(value: Any, expected: str) -> bool:
+    if expected == "object":
+        return isinstance(value, dict)
+    if expected == "array":
+        return isinstance(value, list)
+    if expected == "string":
+        return isinstance(value, str)
+    if expected == "integer":
+        return isinstance(value, int) and not isinstance(value, bool)
+    if expected == "number":
+        return isinstance(value, (int, float)) and not isinstance(value, bool)
+    if expected == "boolean":
+        return isinstance(value, bool)
+    if expected == "null":
+        return value is None
+    return False
+
+
+def validate_json_schema(value: Any, schema: dict[str, Any], location: str) -> list[str]:
+    """Validate the JSON-Schema subset used by this repository without network dependencies."""
+    errors: list[str] = []
+    expected = schema.get("type")
+    if expected is not None:
+        choices = expected if isinstance(expected, list) else [expected]
+        if not any(_schema_type_matches(value, item) for item in choices):
+            errors.append(f"{location}: expected type {' or '.join(choices)}")
+            return errors
+    if "const" in schema and value != schema["const"]:
+        errors.append(f"{location}: expected constant {schema['const']!r}")
+    if "enum" in schema and value not in schema["enum"]:
+        errors.append(f"{location}: value {value!r} is not in {schema['enum']!r}")
+    if isinstance(value, str):
+        if len(value) < int(schema.get("minLength", 0)):
+            errors.append(f"{location}: string is shorter than minLength")
+        if "maxLength" in schema and len(value) > int(schema["maxLength"]):
+            errors.append(f"{location}: string is longer than maxLength")
+        pattern = schema.get("pattern")
+        if pattern and re.search(pattern, value) is None:
+            errors.append(f"{location}: value does not match {pattern!r}")
+    if isinstance(value, list):
+        if len(value) < int(schema.get("minItems", 0)):
+            errors.append(f"{location}: array is shorter than minItems")
+        if schema.get("uniqueItems"):
+            encoded = [canonical_json(item) for item in value]
+            if len(encoded) != len(set(encoded)):
+                errors.append(f"{location}: array items must be unique")
+        item_schema = schema.get("items")
+        if isinstance(item_schema, dict):
+            for index, item in enumerate(value):
+                errors.extend(validate_json_schema(item, item_schema, f"{location}[{index}]"))
+    if isinstance(value, dict):
+        properties = schema.get("properties") or {}
+        for required in schema.get("required") or []:
+            if required not in value:
+                errors.append(f"{location}: missing required property {required!r}")
+        if schema.get("additionalProperties") is False:
+            for key in value:
+                if key not in properties:
+                    errors.append(f"{location}: unknown property {key!r}")
+        for key, child_schema in properties.items():
+            if key in value:
+                errors.extend(validate_json_schema(value[key], child_schema, f"{location}.{key}"))
+    return errors
+
+
+def validate_schema_files(root: Path) -> list[str]:
+    errors: list[str] = []
+    schemas = {
+        name: load_json(root / "schemas" / f"{name}.schema.json")
+        for name in ("manifest", "ui-source", "ui-locale", "dialogue-source", "dialogue-locale")
+    }
+    routes: list[tuple[Path, str, str | None]] = [(root / "manifest.json", "manifest", None)]
+    routes.extend((path, "ui-source", None) for path in iter_ui_source_files(root))
+    routes.extend((path, "dialogue-source", None) for path in iter_dialogue_source_files(root))
+    locales_root = root / "locales"
+    if locales_root.is_dir():
+        for locale_dir in sorted((path for path in locales_root.iterdir() if path.is_dir()), key=lambda p: p.name):
+            locale = normalize_locale(locale_dir.name)
+            routes.extend((path, "ui-locale", locale) for path in sorted_paths(locale_dir / "ui", "*.json"))
+            routes.extend(
+                (path, "dialogue-locale", locale)
+                for path in sorted_paths(locale_dir / "dialogue", "*.json")
+            )
+    for path, schema_name, expected_locale in routes:
+        try:
+            payload = load_json(path)
+        except (OSError, UnicodeError, json.JSONDecodeError) as error:
+            errors.append(f"{path.relative_to(root)}: invalid JSON ({error})")
+            continue
+        label = path.relative_to(root).as_posix()
+        errors.extend(validate_json_schema(payload, schemas[schema_name], label))
+        if expected_locale is not None and isinstance(payload, dict):
+            actual = normalize_locale(payload.get("locale", ""))
+            if actual != expected_locale:
+                errors.append(f"{label}: locale {actual!r} does not match directory {expected_locale!r}")
+    return errors
+
+
+def rich_text_error(text: str, enabled: bool) -> str | None:
+    tags = list(re.finditer(r"<[^>]*>", text or ""))
+    if not tags:
+        return None
+    if not enabled:
+        return "rich-text markup is present while richText is false"
+    stack: list[str] = []
+    for match in tags:
+        raw = match.group(0)
+        parsed = re.fullmatch(r"<(/?)([A-Za-z]+)(?:=(#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{8}))?>", raw)
+        if parsed is None:
+            return f"unsupported rich-text tag {raw!r}"
+        closing, tag, argument = parsed.groups()
+        tag = tag.lower()
+        if tag not in ALLOWED_RICH_TEXT_TAGS:
+            return f"rich-text tag {tag!r} is not allowed"
+        if tag == "color" and not closing and argument is None:
+            return "color tag requires a six- or eight-digit hex value"
+        if tag != "color" and argument is not None:
+            return f"rich-text tag {tag!r} does not accept attributes"
+        if closing:
+            if argument is not None or not stack or stack[-1] != tag:
+                return f"unbalanced rich-text closing tag {raw!r}"
+            stack.pop()
+        else:
+            stack.append(tag)
+    if stack:
+        return f"unclosed rich-text tag {stack[-1]!r}"
+    return None
 
 
 def canonical_json(obj: Any) -> str:
@@ -297,7 +445,9 @@ def fallback_chain(locale: str, published: Iterable[str]) -> list[str]:
 
 
 def validate_catalog(root: Path) -> list[str]:
-    errors: list[str] = []
+    errors = validate_schema_files(root)
+    if errors:
+        return errors
     manifest = load_manifest(root)
     if manifest.get("schemaVersion") != SCHEMA_VERSION:
         errors.append(f"manifest schemaVersion must be {SCHEMA_VERSION}")
@@ -305,6 +455,9 @@ def validate_catalog(root: Path) -> list[str]:
         errors.append("manifest sourceLocale must be zh")
     if manifest.get("fallbackLocale") != FALLBACK_LOCALE:
         errors.append("manifest fallbackLocale must be en")
+    content_version = manifest.get("contentVersion")
+    if not isinstance(content_version, str) or not content_version:
+        errors.append("manifest contentVersion must be a non-empty SemVer")
     published = [normalize_locale(item) for item in manifest.get("publishedLocales", [])]
     if SOURCE_LOCALE not in published or FALLBACK_LOCALE not in published:
         errors.append("publishedLocales must include zh and en")
@@ -321,6 +474,14 @@ def validate_catalog(root: Path) -> list[str]:
             continue
         ui_by_key[key] = entry
         source = entry.get("source", "")
+        if len(source) > MAX_UI_TEXT_LENGTH:
+            errors.append(f"{key}: source exceeds {MAX_UI_TEXT_LENGTH} characters")
+        max_length = entry.get("maxLength")
+        if isinstance(max_length, int) and len(source) > max_length:
+            errors.append(f"{key}: source exceeds maxLength {max_length}")
+        rich_error = rich_text_error(source, bool(entry.get("richText")))
+        if rich_error:
+            errors.append(f"{key}: {rich_error}")
         syntax = placeholder_syntax_error(source)
         if syntax:
             errors.append(f"{key}: source placeholder syntax is malformed ({syntax})")
@@ -358,11 +519,26 @@ def validate_catalog(root: Path) -> list[str]:
             seen_turns.add(pair)
             if not isinstance(turn.get("speakerSlot"), int):
                 errors.append(f"{cid}.{tid}: speakerSlot must be an int")
+            text = turn.get("source", "")
+            if len(text) > MAX_DIALOGUE_TEXT_LENGTH:
+                errors.append(f"{cid}.{tid}: source exceeds {MAX_DIALOGUE_TEXT_LENGTH} characters")
+            rich_error = rich_text_error(text, False)
+            if rich_error:
+                errors.append(f"{cid}.{tid}: {rich_error}")
 
+    used_turn_exceptions: set[tuple[str, str]] = set()
     for locale in published:
         if locale == SOURCE_LOCALE:
             continue
-        locale_entries = {item["key"]: item for item in load_ui_locale(root, locale) if "key" in item}
+        locale_entries: dict[str, dict[str, Any]] = {}
+        for item in load_ui_locale(root, locale):
+            key = item.get("key")
+            if not key:
+                continue
+            if key in locale_entries:
+                errors.append(f"{locale}: duplicate translation {key}")
+                continue
+            locale_entries[key] = item
         for key, source_entry in ui_by_key.items():
             loc = locale_entries.get(key)
             if loc is None:
@@ -386,11 +562,28 @@ def validate_catalog(root: Path) -> list[str]:
             syntax = placeholder_syntax_error(loc.get("text", ""))
             if syntax:
                 errors.append(f"{locale}: {key}: translation placeholder syntax is malformed ({syntax})")
+            text = loc.get("text", "")
+            if len(text) > MAX_UI_TEXT_LENGTH:
+                errors.append(f"{locale}: {key}: translation exceeds {MAX_UI_TEXT_LENGTH} characters")
+            max_length = source_entry.get("maxLength")
+            if isinstance(max_length, int) and len(text) > max_length:
+                errors.append(f"{locale}: {key}: translation exceeds maxLength {max_length}")
+            rich_error = rich_text_error(text, bool(source_entry.get("richText")))
+            if rich_error:
+                errors.append(f"{locale}: {key}: {rich_error}")
         extra = set(locale_entries) - set(ui_by_key)
         for key in sorted(extra):
             errors.append(f"{locale}: unknown translation key {key}")
 
-        loc_dialogue = {item["candidateId"]: item for item in load_dialogue_locale(root, locale) if "candidateId" in item}
+        loc_dialogue: dict[str, dict[str, Any]] = {}
+        for item in load_dialogue_locale(root, locale):
+            cid = item.get("candidateId")
+            if not cid:
+                continue
+            if cid in loc_dialogue:
+                errors.append(f"{locale}: duplicate dialogue candidate {cid}")
+                continue
+            loc_dialogue[cid] = item
         for cid, source_candidate in dialogue_by_id.items():
             loc = loc_dialogue.get(cid)
             if loc is None:
@@ -405,8 +598,17 @@ def validate_catalog(root: Path) -> list[str]:
             loc_ids = [turn.get("turnId") for turn in loc_turns]
             if not loc_ids:
                 errors.append(f"{locale}: {cid}: locale candidate has no turns")
-            # Shared prefix of turn ids must keep speaker slots. Extra meme turns
-            # on either side are allowed because some C# pools were never 1:1.
+            if src_ids != loc_ids:
+                exception_key = (locale, cid)
+                expected = DIALOGUE_TURN_EXCEPTIONS.get(exception_key)
+                actual = (tuple(src_ids), tuple(loc_ids))
+                if expected != actual:
+                    errors.append(
+                        f"{locale}: {cid}: turn structure {actual!r} does not match source "
+                        "or an explicit legacy exception"
+                    )
+                else:
+                    used_turn_exceptions.add(exception_key)
             shared = min(len(src_ids), len(loc_ids))
             for src_turn, loc_turn in zip(src_turns[:shared], loc_turns[:shared]):
                 if src_turn.get("turnId") != loc_turn.get("turnId"):
@@ -424,13 +626,36 @@ def validate_catalog(root: Path) -> list[str]:
                 )
                 if loc_turn.get("sourceHash") != expected:
                     errors.append(f"{locale}: stale dialogue turn {cid}.{src_turn.get('turnId')}")
+                text = loc_turn.get("text", "")
+                if len(text) > MAX_DIALOGUE_TEXT_LENGTH:
+                    errors.append(
+                        f"{locale}: {cid}.{src_turn.get('turnId')}: translation exceeds "
+                        f"{MAX_DIALOGUE_TEXT_LENGTH} characters"
+                    )
+                rich_error = rich_text_error(text, False)
+                if rich_error:
+                    errors.append(f"{locale}: {cid}.{src_turn.get('turnId')}: {rich_error}")
             for tid in loc_ids[shared:]:
                 extra = loc_by_id[tid]
                 if extra.get("speakerSlot") is None or extra.get("text") in (None, ""):
                     errors.append(f"{locale}: {cid}.{tid}: extra locale turn is incomplete")
+                elif len(extra["text"]) > MAX_DIALOGUE_TEXT_LENGTH:
+                    errors.append(
+                        f"{locale}: {cid}.{tid}: translation exceeds "
+                        f"{MAX_DIALOGUE_TEXT_LENGTH} characters"
+                    )
+                else:
+                    rich_error = rich_text_error(extra["text"], False)
+                    if rich_error:
+                        errors.append(f"{locale}: {cid}.{tid}: {rich_error}")
         extra_cids = set(loc_dialogue) - set(dialogue_by_id)
         for cid in sorted(extra_cids):
             errors.append(f"{locale}: unknown dialogue candidate {cid}")
+
+    unused_exceptions = set(DIALOGUE_TURN_EXCEPTIONS) - used_turn_exceptions
+    for locale, cid in sorted(unused_exceptions):
+        if locale in published:
+            errors.append(f"{locale}: stale dialogue turn exception {cid}")
 
     return errors
 

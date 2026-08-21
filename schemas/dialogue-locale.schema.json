@@ -3,27 +3,32 @@
   "$id": "https://oni-ai-social.local/schemas/dialogue-locale.schema.json",
   "title": "Dialogue locale family file",
   "type": "object",
+  "additionalProperties": false,
   "required": ["locale", "family", "candidates"],
   "properties": {
     "locale": { "type": "string" },
     "family": { "type": "string" },
     "candidates": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["candidateId", "status", "turns"],
         "properties": {
-          "candidateId": { "type": "string" },
+          "candidateId": { "type": "string", "minLength": 1 },
           "status": { "type": "string", "enum": ["draft", "reviewed"] },
           "turns": {
             "type": "array",
+            "minItems": 1,
             "items": {
               "type": "object",
+              "additionalProperties": false,
               "required": ["turnId", "speakerSlot", "text", "sourceHash"],
               "properties": {
-                "turnId": { "type": "string" },
+                "turnId": { "type": "string", "minLength": 1 },
                 "speakerSlot": { "type": "integer" },
-                "text": { "type": "string" },
+                "text": { "type": "string", "minLength": 1, "maxLength": 2000 },
                 "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
               }
             }
