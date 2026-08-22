@@ -212,10 +212,10 @@ namespace ONIAiSocial
                 public static LocString OVERVIEW_BUTTON = "关系总览";
                 public static LocString PENDING_BUTTON = "待发生";
                 public static LocString PENDING_TITLE = "待发生的社交事件";
-                public static LocString PENDING_HINT = "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。";
+                public static LocString PENDING_HINT = "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。";
                 public static LocString PENDING_EMPTY = "目前没有待发生的社交事件。";
-                public static LocString PENDING_ROW = "{0} → {1} · 还剩 {2} 周期";
-                public static LocString PENDING_REQUESTED_ROW = "{0} → {1} · 正在等待安全会合";
+                public static LocString PENDING_ROW = "【{0}】{1} → {2} · 还剩 {3} 周期";
+                public static LocString PENDING_REQUESTED_ROW = "【{0}】{1} → {2} · 正在等待安全会合";
                 public static LocString PENDING_HAPPEN_NOW = "现在发生";
                 public static LocString PENDING_ACTION_ROW = "{0}　[{1}]";
                 public static LocString PENDING_REQUESTED = "事件已请求，正在等待安全时机";
@@ -285,6 +285,7 @@ namespace ONIAiSocial
                 public static LocString TELEMETRY_DISABLED = "请先在 Mod 设置中开启「本地玩法数据」";
                 public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";
                 public static LocString TELEMETRY_EXPORT_FAILED = "诊断报告导出失败：{0}";
+                public static LocString PENDING_CONFESSION = "告白";
             }
 
             public class LOG

@@ -649,7 +649,7 @@ msgid "待发生的社交事件"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT"
-msgid "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。"
+msgid "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY"
@@ -657,11 +657,11 @@ msgid "目前没有待发生的社交事件。"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW"
-msgid "{0} → {1} · 还剩 {2} 周期"
+msgid "【{0}】{1} → {2} · 还剩 {3} 周期"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW"
-msgid "{0} → {1} · 正在等待安全会合"
+msgid "【{0}】{1} → {2} · 正在等待安全会合"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW"
@@ -942,6 +942,10 @@ msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_PAIR"
 msgid "周期{0} · {1} 和 {2} [{3}]{4}"
+msgstr ""
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION"
+msgid "告白"
 msgstr ""
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SOLO"

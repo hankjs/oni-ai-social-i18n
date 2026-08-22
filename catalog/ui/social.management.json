@@ -76,7 +76,7 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
       "seq": 161,
-      "source": "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。",
+      "source": "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。",
       "description": "",
       "arguments": [],
       "richText": false
@@ -92,21 +92,26 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
       "seq": 163,
-      "source": "{0} → {1} · 还剩 {2} 周期",
-      "description": "{0}/{1}: names; {2}: remaining cycles.",
+      "source": "【{0}】{1} → {2} · 还剩 {3} 周期",
+      "description": "{0}: event type; {1}/{2}: names; {3}: remaining cycles.",
       "arguments": [
         {
           "token": "0",
-          "name": "0",
+          "name": "event type",
           "kind": "text"
         },
         {
           "token": "1",
-          "name": "names",
+          "name": "first name",
           "kind": "text"
         },
         {
           "token": "2",
+          "name": "second name",
+          "kind": "text"
+        },
+        {
+          "token": "3",
           "name": "remaining cycles",
           "kind": "text"
         }
@@ -116,17 +121,22 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
       "seq": 164,
-      "source": "{0} → {1} · 正在等待安全会合",
-      "description": "{0}/{1}: names.",
+      "source": "【{0}】{1} → {2} · 正在等待安全会合",
+      "description": "{0}: event type; {1}/{2}: names.",
       "arguments": [
         {
           "token": "0",
-          "name": "0",
+          "name": "event type",
           "kind": "text"
         },
         {
           "token": "1",
-          "name": "names",
+          "name": "first name",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "second name",
           "kind": "text"
         }
       ],
@@ -962,6 +972,14 @@
           "kind": "text"
         }
       ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "seq": 234,
+      "source": "告白",
+      "description": "Pending-safe event label; must not reveal the locked confession outcome.",
+      "arguments": [],
       "richText": false
     }
   ]

@@ -649,20 +649,20 @@ msgid "待发生的社交事件"
 msgstr "Pending social events"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT"
-msgid "结果已经确定。你可以选择现在发生，也可以等待期限结束后自动寻找安全时机。"
-msgstr "The outcome is already locked. Choose Happen now, or wait for the deadline and a safe moment."
+msgid "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。"
+msgstr "This list includes confessions, breakups, reconciliations and new rivalries. Outcomes are locked; click a row to arrange it now, or wait for its countdown."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY"
 msgid "目前没有待发生的社交事件。"
 msgstr "No pending social events."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW"
-msgid "{0} → {1} · 还剩 {2} 周期"
-msgstr "{0} → {1} · {2} cycles remaining"
+msgid "【{0}】{1} → {2} · 还剩 {3} 周期"
+msgstr "[{0}] {1} → {2} · {3} cycles remaining"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW"
-msgid "{0} → {1} · 正在等待安全会合"
-msgstr "{0} → {1} · Waiting for a safe meeting"
+msgid "【{0}】{1} → {2} · 正在等待安全会合"
+msgstr "[{0}] {1} → {2} · Finding a safe meeting"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW"
 msgid "现在发生"
@@ -943,6 +943,10 @@ msgstr "Could not export diagnostic report: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_PAIR"
 msgid "周期{0} · {1} 和 {2} [{3}]{4}"
 msgstr "Cycle {0} · {1} and {2} [{3}]{4}"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION"
+msgid "告白"
+msgstr "Confession"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SOLO"
 msgid "周期{0} · {1} [{2}]{3}"

@@ -58,8 +58,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
-      "text": "The outcome is already locked. Choose Happen now, or wait for the deadline and a safe moment.",
-      "sourceHash": "sha256:db7380d769578ac1933d730aa7d3eedb899f603dde61499137bb81820a8817c1",
+      "text": "This list includes confessions, breakups, reconciliations and new rivalries. Outcomes are locked; click a row to arrange it now, or wait for its countdown.",
+      "sourceHash": "sha256:6527720942897f49473201a24c42526efb262d2435447f5789ebefa00062b5d7",
       "status": "reviewed"
     },
     {
@@ -70,14 +70,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
-      "text": "{0} → {1} · {2} cycles remaining",
-      "sourceHash": "sha256:af8f261bfb977cb0e5678cd53bf69451611f234d6c17b6a3c49060ba8c8c4a30",
+      "text": "[{0}] {1} → {2} · {3} cycles remaining",
+      "sourceHash": "sha256:bba35ce7b6c419e0fa6d2850404f1e764e1b40ca4f75091affb58562cf660a8a",
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
-      "text": "{0} → {1} · Waiting for a safe meeting",
-      "sourceHash": "sha256:9a31d0a3e9a0fbab80042c28ebb259890415a1dc070a86af9009b9a654da16a3",
+      "text": "[{0}] {1} → {2} · Finding a safe meeting",
+      "sourceHash": "sha256:3d12c36d194834c569f0b45e3a4c64c0bafc66b85b673e3aa18b5d33ab5823c8",
       "status": "reviewed"
     },
     {
@@ -492,6 +492,12 @@
       "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
       "text": "Could not export diagnostic report: {0}",
       "sourceHash": "sha256:7b5ca33421b7e78b45e2dab43fe8f5d858d79149a7317ef02fd56299b2fff7ac",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "Confession",
+      "sourceHash": "sha256:29234df4138626341d137ba2ab0253458b9cc8643c697f4d29434b484adb71b8",
       "status": "reviewed"
     }
   ]
