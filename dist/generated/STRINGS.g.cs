@@ -682,6 +682,10 @@ namespace ONIAiSocial
                 public static LocString FAMINE_LAST_ONE_BODY = "只剩一个人了。基地很安静，食物也够了。";
                 public static LocString RIVAL_DIED_TITLE = "对头不在了";
                 public static LocString RIVAL_DIED_BODY = "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。";
+                public static LocString CONFESSION_FAIL_TITLE = "告白被拒";
+                public static LocString CONFESSION_FAIL_BODY = "{0} 向 {1} 表明了心意，但没有得到回应。";
+                public static LocString REKINDLE_TITLE = "重新牵起手";
+                public static LocString REKINDLE_BODY = "{0} 和 {1} 决定重新开始。";
             }
 
             public class DEATHS
@@ -876,6 +880,26 @@ namespace ONIAiSocial
                 public static LocString STRAINED_THRESHOLD = "「情绪紧绷」阈值";
                 public static LocString SECTION_DEBUG = "调试（仅开发版可见）";
                 public static LocString DEBUG_HINT = "以下是技术性参数，改坏了用「恢复默认」拉回来";
+            }
+
+            public class SCENE
+            {
+                public static LocString CONFESSION_INTRO = "我有件重要的事想告诉你。";
+                public static LocString CONFESSION_KEY = "我喜欢你。";
+                public static LocString CONFESSION_REPLY = "我也一直喜欢你。";
+                public static LocString CONFESSION_RESULT = "那就一起走下去吧。";
+                public static LocString REKINDLE_INTRO = "有些话，我还是想再说一次。";
+                public static LocString REKINDLE_KEY = "我们能重新开始吗？";
+                public static LocString REKINDLE_REPLY = "这次别再错过了。";
+                public static LocString REKINDLE_RESULT = "重新认识彼此吧。";
+                public static LocString CONFESSION_FAIL_REPLY = "对不起，我不能答应。";
+                public static LocString CONFESSION_FAIL_RESULT = "……我明白了。";
+                public static LocString BREAKUP_KEY = "我们还是到这里吧。";
+                public static LocString BREAKUP_REPLY = "……我知道了。";
+                public static LocString RECONCILE_KEY = "别再这样僵下去了。";
+                public static LocString RECONCILE_REPLY = "好，我们重新来过。";
+                public static LocString GRIEF_KEY = "我会记得你的。";
+                public static LocString CHAT_KEY = "嗨。";
             }
         }
     }
