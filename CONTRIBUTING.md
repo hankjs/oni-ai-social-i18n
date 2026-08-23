@@ -20,11 +20,10 @@ storylet/fallback dialogue for ONI Social Life. Git is the only persistence.
 3. Run `python3 tools/export.py` and `python3 tools/validate.py`.
 4. Commit source JSON **and** regenerated `dist/` together.
 5. Open a pull request. `main` only accepts PRs.
-6. Normal development leaves `manifest.json` `contentVersion` at the currently published Mod
-   version; repeated content commits do not consume release numbers.
-7. Only when the maintainer explicitly starts a release do they update `contentVersion` and tag
-   the reviewed `main` commit as `i18n-vX.Y.Z`. The suffix must equal the manifest and tags are
-   immutable.
+6. During development, `manifest.json` `contentVersion` follows the Mod's tracked development
+   version. Repeated commits may reuse that version and do not create tags or claim it is online.
+7. Only when the maintainer explicitly starts a release do they tag the reviewed `main` commit as
+   `i18n-vX.Y.Z`. The suffix must equal the manifest and tags are immutable.
 
 Fork/PR from GitHub remains a valid contribution path. The web editor (Phase 2)
 does not replace this workflow.

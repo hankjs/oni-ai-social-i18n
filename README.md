@@ -24,8 +24,9 @@ frequent pools: greeting, chat, shared meal, shared rest, and socializing (24 ea
 check` before review; it validates sources and translations, runs negative contract tests, and
 checks that committed `dist/` is reproducible.
 
-During development, `contentVersion` stays at the currently published Mod version and the private
+During development, `contentVersion` follows the tracked development version and the private
 repository imports a reviewed `main` snapshot with `make sync-i18n-dev`; this does not create a
-tag or claim a new release number. Only the maintainer's explicit release operation changes
-`contentVersion`, creates `i18n-vX.Y.Z`, and lets the private Mod import that immutable tag with
-`make sync-i18n I18N_VERSION=X.Y.Z`.
+tag or claim that the version is online. The private `version-state.json` separately records the
+published and development versions. Only the maintainer's explicit release operation creates
+`i18n-vX.Y.Z` and lets the private Mod import that immutable tag with `make sync-i18n
+I18N_VERSION=X.Y.Z`.
