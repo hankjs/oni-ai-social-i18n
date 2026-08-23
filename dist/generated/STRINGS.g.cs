@@ -900,6 +900,8 @@ namespace ONIAiSocial
                 public static LocString RECONCILE_REPLY = "好，我们重新来过。";
                 public static LocString GRIEF_KEY = "我会记得你的。";
                 public static LocString CHAT_KEY = "嗨。";
+                public static LocString RIVAL_KEY = "这笔账，我不会就这么算了。";
+                public static LocString RIVAL_REPLY = "正好，我也没打算和你和解。";
             }
         }
     }
