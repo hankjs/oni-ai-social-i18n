@@ -42,7 +42,7 @@ def main() -> int:
             for existing in dist.rglob("*"):
                 if existing.is_file():
                     rel = existing.relative_to(dist).as_posix()
-                    if rel.startswith(("generated/", "translations/", "dialogue/")) and rel not in files:
+                    if rel.startswith(("generated/", "translations/", "dialogue/", "chronicle/")) and rel not in files:
                         extra.append(rel)
         if mismatched or extra:
             for item in mismatched:

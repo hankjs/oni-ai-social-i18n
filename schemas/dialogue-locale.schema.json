@@ -27,7 +27,7 @@
               "required": ["turnId", "speakerSlot", "text", "sourceHash"],
               "properties": {
                 "turnId": { "type": "string", "minLength": 1 },
-                "speakerSlot": { "type": "integer" },
+                "speakerSlot": { "type": "integer", "minimum": 0 },
                 "text": { "type": "string", "minLength": 1, "maxLength": 2000 },
                 "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
               }

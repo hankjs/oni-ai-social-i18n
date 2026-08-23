@@ -16,8 +16,10 @@ catalogs in `dist/chronicle/`.
 
 Each pool declares a stable `poolId`, a release-blocking `minimumPublished`, and its allowed slot
 contract. Each complete sentence has a permanent `templateId`; published ids may be deprecated
-but are never reused, so old saves remain readable. Locale entries must preserve placeholders,
-carry a current `sourceHash`, and be reviewed.
+but are never reused, so old saves remain readable. `contracts/chronicle-stability.json` records
+the allocated id high-water mark for every persisted pool; removing an id or adding one without
+registering it fails validation. Locale entries must preserve placeholders, carry a current
+`sourceHash`, and be reviewed.
 
 The first content tranche contains 120 reviewed Chinese/English templates across the five most
 frequent pools: greeting, chat, shared meal, shared rest, and socializing (24 each). Run `make

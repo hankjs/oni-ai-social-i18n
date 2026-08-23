@@ -125,6 +125,11 @@ def validate_json_schema(value: Any, schema: dict[str, Any], location: str) -> l
         pattern = schema.get("pattern")
         if pattern and re.search(pattern, value) is None:
             errors.append(f"{location}: value does not match {pattern!r}")
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        if "minimum" in schema and value < schema["minimum"]:
+            errors.append(f"{location}: value is below minimum {schema['minimum']}")
+        if "maximum" in schema and value > schema["maximum"]:
+            errors.append(f"{location}: value is above maximum {schema['maximum']}")
     if isinstance(value, list):
         if len(value) < int(schema.get("minItems", 0)):
             errors.append(f"{location}: array is shorter than minItems")
@@ -157,10 +162,13 @@ def validate_schema_files(root: Path) -> list[str]:
         name: load_json(root / "schemas" / f"{name}.schema.json")
         for name in (
             "manifest", "ui-source", "ui-locale", "dialogue-source", "dialogue-locale",
-            "chronicle-source", "chronicle-locale",
+            "chronicle-source", "chronicle-locale", "chronicle-stability",
         )
     }
-    routes: list[tuple[Path, str, str | None]] = [(root / "manifest.json", "manifest", None)]
+    routes: list[tuple[Path, str, str | None]] = [
+        (root / "manifest.json", "manifest", None),
+        (root / "contracts" / "chronicle-stability.json", "chronicle-stability", None),
+    ]
     routes.extend((path, "ui-source", None) for path in iter_ui_source_files(root))
     routes.extend((path, "dialogue-source", None) for path in iter_dialogue_source_files(root))
     routes.extend((path, "chronicle-source", None) for path in iter_chronicle_source_files(root))
@@ -535,6 +543,15 @@ def validate_catalog(root: Path) -> list[str]:
         syntax = placeholder_syntax_error(source)
         if syntax:
             errors.append(f"{key}: source placeholder syntax is malformed ({syntax})")
+        declared_tokens = [str(item.get("token", "")) for item in entry.get("arguments") or []]
+        if len(declared_tokens) != len(set(declared_tokens)):
+            errors.append(f"{key}: duplicate declared argument token")
+        source_tokens = placeholder_tokens(source)
+        if set(declared_tokens) != source_tokens:
+            errors.append(
+                f"{key}: declared arguments {sorted(set(declared_tokens))!r} do not match "
+                f"source placeholders {sorted(source_tokens)!r}"
+            )
         expected_hash = source_hash(
             source=source,
             arguments=list(entry.get("arguments") or []),
@@ -558,6 +575,21 @@ def validate_catalog(root: Path) -> list[str]:
             continue
         seen_candidates.add(cid)
         dialogue_by_id[cid] = candidate
+        storylet_id = str(candidate.get("storyletId") or "")
+        variant = candidate.get("variant") or {}
+        variant_kind = variant.get("kind")
+        variant_value = variant.get("value")
+        if storylet_id.lower() == "fallback":
+            if variant_kind != "category" or variant_value not in ("ordinary", "breaking"):
+                errors.append(
+                    f"{cid}: fallback dialogue must use category ordinary or breaking"
+                )
+        elif variant_kind == "category":
+            errors.append(f"{cid}: category variants are reserved for fallback dialogue")
+        elif variant_kind == "initiatorTag" and not variant_value:
+            errors.append(f"{cid}: initiatorTag variant requires a non-empty value")
+        elif variant_kind == "base" and variant_value is not None:
+            errors.append(f"{cid}: base variant must not declare a value")
         turns = candidate.get("turns") or []
         if not turns:
             errors.append(f"{cid}: candidate has no turns")
@@ -567,8 +599,11 @@ def validate_catalog(root: Path) -> list[str]:
             if pair in seen_turns:
                 errors.append(f"duplicate turn {cid}+{tid}")
             seen_turns.add(pair)
-            if not isinstance(turn.get("speakerSlot"), int):
+            speaker_slot = turn.get("speakerSlot")
+            if not isinstance(speaker_slot, int):
                 errors.append(f"{cid}.{tid}: speakerSlot must be an int")
+            elif speaker_slot < 0:
+                errors.append(f"{cid}.{tid}: speakerSlot must be non-negative")
             text = turn.get("source", "")
             if len(text) > MAX_DIALOGUE_TEXT_LENGTH:
                 errors.append(f"{cid}.{tid}: source exceeds {MAX_DIALOGUE_TEXT_LENGTH} characters")
@@ -642,6 +677,35 @@ def validate_catalog(root: Path) -> list[str]:
             errors.append(
                 f"{pool_id}: has {active_count} active templates, below minimumPublished {minimum}"
             )
+
+    stability = load_json(root / "contracts" / "chronicle-stability.json")
+    stable_pools: dict[str, dict[str, Any]] = {}
+    for item in stability.get("pools") or []:
+        pool_id = item.get("poolId")
+        if pool_id in stable_pools:
+            errors.append(f"duplicate chronicle stability pool {pool_id}")
+            continue
+        stable_pools[pool_id] = item
+    for pool_id, pool in chronicle_pool_by_id.items():
+        stable = stable_pools.get(pool_id)
+        if stable is None:
+            errors.append(f"{pool_id}: missing chronicle stability registration")
+            continue
+        high = stable.get("highestStableNumber")
+        if not isinstance(high, int) or high < 1:
+            continue
+        actual = {item.get("templateId") for item in pool.get("templates") or []}
+        expected = {f"{pool_id}.{number:03d}" for number in range(1, high + 1)}
+        for template_id in sorted(expected - actual):
+            errors.append(
+                f"{template_id}: persisted chronicle templateId was removed; deprecate it instead"
+            )
+        for template_id in sorted(actual - expected):
+            errors.append(
+                f"{template_id}: chronicle templateId is not registered in the stability contract"
+            )
+    for pool_id in sorted(set(stable_pools) - set(chronicle_pool_by_id)):
+        errors.append(f"{pool_id}: persisted chronicle pool was removed")
 
     used_turn_exceptions: set[tuple[str, str]] = set()
     for locale in published:

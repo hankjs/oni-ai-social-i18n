@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pools": [
+    {
+      "poolId": "chronicle.chat.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.greet.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.meal.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.rest.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.socialize.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    }
+  ]
+}

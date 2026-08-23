@@ -22,8 +22,8 @@
             "additionalProperties": false,
             "required": ["kind"],
             "properties": {
-              "kind": { "type": "string" },
-              "value": { "type": "string" }
+              "kind": { "type": "string", "enum": ["base", "initiatorTag", "category"] },
+              "value": { "type": "string", "minLength": 1 }
             }
           },
           "turns": {
@@ -35,7 +35,7 @@
               "required": ["turnId", "speakerSlot", "source"],
               "properties": {
                 "turnId": { "type": "string", "minLength": 1 },
-                "speakerSlot": { "type": "integer" },
+                "speakerSlot": { "type": "integer", "minimum": 0 },
                 "source": { "type": "string", "minLength": 1, "maxLength": 2000 }
               }
             }
