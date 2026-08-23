@@ -1,0 +1,134 @@
+{
+  "family": "routine",
+  "pools": [
+    {
+      "poolId": "chronicle.chat.base",
+      "minimumPublished": 24,
+      "allowedSlots": [
+        "pair"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.chat.base.001",
+          "source": "{pair}趁着换班的空当聊了几句。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.002",
+          "source": "{pair}碰面后交换了今天的见闻。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.003",
+          "source": "{pair}一路说着话，直到各自去忙。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.004",
+          "source": "{pair}凑在一起闲聊了一阵。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.005",
+          "source": "{pair}聊到兴起，差点忘了下一项工作。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.006",
+          "source": "{pair}用几句闲话打发了等待的时间。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.007",
+          "source": "{pair}聊了些殖民地里的新鲜事。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.008",
+          "source": "{pair}说了会儿话，心情都轻快了一些。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.009",
+          "source": "{pair}你一句我一句，聊得很是自然。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.010",
+          "source": "{pair}停下脚步，认真听完了彼此的话。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.011",
+          "source": "{pair}在忙碌中挤出了一小段聊天时间。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.012",
+          "source": "{pair}从一句随口的问候聊到了别的事情。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.013",
+          "source": "{pair}聊得不算久，却都听得很专心。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.014",
+          "source": "{pair}趁手头清闲，互相说起了近况。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.015",
+          "source": "{pair}聊过一阵后，才重新投入各自的工作。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.016",
+          "source": "{pair}说起琐碎日常，时间也过得快了些。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.017",
+          "source": "{pair}聊了几件无关紧要却有趣的小事。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.018",
+          "source": "{pair}短短聊了一会儿，气氛很是融洽。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.019",
+          "source": "{pair}把各自遇到的趣事说给了对方听。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.020",
+          "source": "{pair}一边赶路，一边断断续续地聊着。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.021",
+          "source": "{pair}聊得平淡，却没有谁急着结束。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.022",
+          "source": "{pair}分享了几件最近留意到的小事。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.023",
+          "source": "{pair}说说笑笑，给忙碌的一天添了点轻松。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        },
+        {
+          "templateId": "chronicle.chat.base.024",
+          "source": "{pair}结束交谈时，还意犹未尽地多说了两句。",
+          "description": "普通闲聊；不要求地点、话题或关系状态。"
+        }
+      ]
+    }
+  ]
+}

@@ -24,6 +24,7 @@ FALLBACK_LOCALE = "en"
 TURN_LETTERS = "abcdefghijklmnopqrstuvwxyz"
 MAX_UI_TEXT_LENGTH = 10000
 MAX_DIALOGUE_TEXT_LENGTH = 2000
+MAX_CHRONICLE_TEXT_LENGTH = 2000
 ALLOWED_RICH_TEXT_TAGS = {"b", "i", "color"}
 
 # Legacy pools were not all literal translations. These exact per-locale turn
@@ -154,11 +155,15 @@ def validate_schema_files(root: Path) -> list[str]:
     errors: list[str] = []
     schemas = {
         name: load_json(root / "schemas" / f"{name}.schema.json")
-        for name in ("manifest", "ui-source", "ui-locale", "dialogue-source", "dialogue-locale")
+        for name in (
+            "manifest", "ui-source", "ui-locale", "dialogue-source", "dialogue-locale",
+            "chronicle-source", "chronicle-locale",
+        )
     }
     routes: list[tuple[Path, str, str | None]] = [(root / "manifest.json", "manifest", None)]
     routes.extend((path, "ui-source", None) for path in iter_ui_source_files(root))
     routes.extend((path, "dialogue-source", None) for path in iter_dialogue_source_files(root))
+    routes.extend((path, "chronicle-source", None) for path in iter_chronicle_source_files(root))
     locales_root = root / "locales"
     if locales_root.is_dir():
         for locale_dir in sorted((path for path in locales_root.iterdir() if path.is_dir()), key=lambda p: p.name):
@@ -167,6 +172,10 @@ def validate_schema_files(root: Path) -> list[str]:
             routes.extend(
                 (path, "dialogue-locale", locale)
                 for path in sorted_paths(locale_dir / "dialogue", "*.json")
+            )
+            routes.extend(
+                (path, "chronicle-locale", locale)
+                for path in sorted_paths(locale_dir / "chronicle", "*.json")
             )
     for path, schema_name, expected_locale in routes:
         try:
@@ -239,6 +248,18 @@ def dialogue_turn_hash(*, source: str, speaker_slot: int, turn_id: str) -> str:
     return "sha256:" + digest
 
 
+def chronicle_template_hash(*, source: str, description: str, pool_id: str,
+                            allowed_slots: list[str]) -> str:
+    payload = {
+        "allowedSlots": sorted(allowed_slots),
+        "description": description or "",
+        "poolId": pool_id,
+        "source": source,
+    }
+    digest = hashlib.sha256(canonical_json(payload).encode("utf-8")).hexdigest()
+    return "sha256:" + digest
+
+
 def turn_id_for(index: int) -> str:
     if index < 0:
         raise ValueError("turn index must be >= 0")
@@ -293,6 +314,10 @@ def iter_dialogue_source_files(root: Path) -> list[Path]:
     return sorted_paths(root / "catalog" / "dialogue", "*.json")
 
 
+def iter_chronicle_source_files(root: Path) -> list[Path]:
+    return sorted_paths(root / "catalog" / "chronicle", "*.json")
+
+
 def load_ui_sources(root: Path) -> list[dict[str, Any]]:
     entries: list[dict[str, Any]] = []
     for path in iter_ui_source_files(root):
@@ -328,6 +353,31 @@ def load_dialogue_locale(root: Path, locale: str) -> list[dict[str, Any]]:
         for candidate in payload.get("candidates", []):
             candidates.append(candidate)
     return candidates
+
+
+def load_chronicle_pools(root: Path) -> list[dict[str, Any]]:
+    pools: list[dict[str, Any]] = []
+    for path in iter_chronicle_source_files(root):
+        payload = load_json(path)
+        family = payload.get("family", "")
+        for pool in payload.get("pools", []):
+            item = dict(pool)
+            item["family"] = family
+            pools.append(item)
+    return pools
+
+
+def load_chronicle_locale(root: Path, locale: str) -> list[dict[str, Any]]:
+    templates: list[dict[str, Any]] = []
+    for path in sorted_paths(root / "locales" / locale / "chronicle", "*.json"):
+        payload = load_json(path)
+        templates.extend(payload.get("templates", []))
+    return templates
+
+
+def normalized_chronicle_text(text: str) -> str:
+    """Collapse punctuation/spacing/case so trivial duplicates cannot satisfy pool capacity."""
+    return "".join(char.lower() for char in (text or "") if char.isalnum())
 
 
 def ui_file_stem(key: str) -> str:
@@ -526,6 +576,73 @@ def validate_catalog(root: Path) -> list[str]:
             if rich_error:
                 errors.append(f"{cid}.{tid}: {rich_error}")
 
+    chronicle_pools = load_chronicle_pools(root)
+    chronicle_by_id: dict[str, dict[str, Any]] = {}
+    chronicle_pool_by_id: dict[str, dict[str, Any]] = {}
+    for pool in chronicle_pools:
+        pool_id = pool.get("poolId")
+        if not pool_id:
+            errors.append("chronicle pool missing poolId")
+            continue
+        if pool_id in chronicle_pool_by_id:
+            errors.append(f"duplicate chronicle poolId {pool_id}")
+            continue
+        chronicle_pool_by_id[pool_id] = pool
+        allowed_slots = list(pool.get("allowedSlots") or [])
+        active_count = 0
+        normalized_texts: dict[str, str] = {}
+        for template in pool.get("templates") or []:
+            template_id = template.get("templateId")
+            if not template_id:
+                errors.append(f"{pool_id}: chronicle template missing templateId")
+                continue
+            if template_id in chronicle_by_id:
+                errors.append(f"duplicate chronicle templateId {template_id}")
+                continue
+            if not template_id.startswith(pool_id + "."):
+                errors.append(f"{template_id}: templateId must be namespaced below {pool_id}")
+            source = template.get("source", "")
+            if len(source) > MAX_CHRONICLE_TEXT_LENGTH:
+                errors.append(
+                    f"{template_id}: source exceeds {MAX_CHRONICLE_TEXT_LENGTH} characters"
+                )
+            syntax = placeholder_syntax_error(source)
+            if syntax:
+                errors.append(
+                    f"{template_id}: source placeholder syntax is malformed ({syntax})"
+                )
+            slots = placeholder_tokens(source)
+            unknown_slots = slots - set(allowed_slots)
+            if unknown_slots:
+                errors.append(
+                    f"{template_id}: slots {sorted(unknown_slots)!r} are not allowed by {pool_id}"
+                )
+            rich_error = rich_text_error(source, False)
+            if rich_error:
+                errors.append(f"{template_id}: {rich_error}")
+            normalized = normalized_chronicle_text(source)
+            if normalized in normalized_texts:
+                errors.append(
+                    f"{template_id}: duplicate normalized chronicle text with "
+                    f"{normalized_texts[normalized]}"
+                )
+            else:
+                normalized_texts[normalized] = template_id
+            if not template.get("deprecated", False):
+                active_count += 1
+            enriched = dict(template)
+            enriched["poolId"] = pool_id
+            enriched["allowedSlots"] = allowed_slots
+            enriched["family"] = pool.get("family", "")
+            chronicle_by_id[template_id] = enriched
+        minimum = pool.get("minimumPublished", 0)
+        if not isinstance(minimum, int) or minimum < 1:
+            errors.append(f"{pool_id}: minimumPublished must be a positive integer")
+        elif active_count < minimum:
+            errors.append(
+                f"{pool_id}: has {active_count} active templates, below minimumPublished {minimum}"
+            )
+
     used_turn_exceptions: set[tuple[str, str]] = set()
     for locale in published:
         if locale == SOURCE_LOCALE:
@@ -652,6 +769,54 @@ def validate_catalog(root: Path) -> list[str]:
         for cid in sorted(extra_cids):
             errors.append(f"{locale}: unknown dialogue candidate {cid}")
 
+        locale_chronicle: dict[str, dict[str, Any]] = {}
+        for item in load_chronicle_locale(root, locale):
+            template_id = item.get("templateId")
+            if not template_id:
+                continue
+            if template_id in locale_chronicle:
+                errors.append(f"{locale}: duplicate chronicle template {template_id}")
+                continue
+            locale_chronicle[template_id] = item
+        for template_id, source_template in chronicle_by_id.items():
+            loc = locale_chronicle.get(template_id)
+            if loc is None:
+                errors.append(f"{locale}: missing chronicle template {template_id}")
+                continue
+            if loc.get("status") == "draft":
+                errors.append(f"{locale}: draft chronicle template {template_id}")
+            expected = chronicle_template_hash(
+                source=source_template.get("source", ""),
+                description=source_template.get("description", ""),
+                pool_id=source_template.get("poolId", ""),
+                allowed_slots=list(source_template.get("allowedSlots") or []),
+            )
+            if loc.get("sourceHash") != expected:
+                errors.append(f"{locale}: stale chronicle template {template_id}")
+            source_tokens = placeholder_tokens(source_template.get("source", ""))
+            text_tokens = placeholder_tokens(loc.get("text", ""))
+            if source_tokens != text_tokens:
+                errors.append(
+                    f"{locale}: {template_id}: chronicle translation placeholders differ"
+                )
+            syntax = placeholder_syntax_error(loc.get("text", ""))
+            if syntax:
+                errors.append(
+                    f"{locale}: {template_id}: chronicle placeholder syntax is malformed ({syntax})"
+                )
+            text = loc.get("text", "")
+            if len(text) > MAX_CHRONICLE_TEXT_LENGTH:
+                errors.append(
+                    f"{locale}: {template_id}: translation exceeds "
+                    f"{MAX_CHRONICLE_TEXT_LENGTH} characters"
+                )
+            rich_error = rich_text_error(text, False)
+            if rich_error:
+                errors.append(f"{locale}: {template_id}: {rich_error}")
+        extra_templates = set(locale_chronicle) - set(chronicle_by_id)
+        for template_id in sorted(extra_templates):
+            errors.append(f"{locale}: unknown chronicle template {template_id}")
+
     unused_exceptions = set(DIALOGUE_TURN_EXCEPTIONS) - used_turn_exceptions
     for locale, cid in sorted(unused_exceptions):
         if locale in published:
@@ -767,6 +932,31 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
     }
 
 
+def compact_chronicle(root: Path, locale: str) -> dict[str, Any]:
+    locale_map = None
+    if locale != SOURCE_LOCALE:
+        locale_map = {
+            item["templateId"]: item for item in load_chronicle_locale(root, locale)
+        }
+    pools: dict[str, list[dict[str, Any]]] = {}
+    for pool in sorted(load_chronicle_pools(root), key=lambda item: item["poolId"]):
+        templates: list[dict[str, Any]] = []
+        for template in sorted(pool["templates"], key=lambda item: item["templateId"]):
+            template_id = template["templateId"]
+            text = template["source"] if locale == SOURCE_LOCALE else locale_map[template_id]["text"]
+            templates.append({
+                "id": template_id,
+                "text": text,
+                "deprecated": bool(template.get("deprecated", False)),
+            })
+        pools[pool["poolId"]] = templates
+    return {
+        "schemaVersion": SCHEMA_VERSION,
+        "locale": locale,
+        "pools": pools,
+    }
+
+
 def export_dist(root: Path) -> dict[str, bytes]:
     """Return mapping of dist-relative paths to UTF-8 bytes. Deterministic."""
     manifest = load_manifest(root)
@@ -788,6 +978,8 @@ def export_dist(root: Path) -> dict[str, bytes]:
     for locale in published:
         payload = compact_dialogue(root, locale)
         files[f"dialogue/{locale}.json"] = dumps(payload).encode("utf-8")
+        chronicle = compact_chronicle(root, locale)
+        files[f"chronicle/{locale}.json"] = dumps(chronicle).encode("utf-8")
     return files
 
 
@@ -800,9 +992,9 @@ def write_dist(root: Path) -> list[Path]:
     if dist.exists():
         for existing in dist.rglob("*"):
             if existing.is_file() and existing not in expected:
-                # Keep unknown files only if outside generated/translations/dialogue.
+                # Keep unknown files only if outside generated/translations/dialogue/chronicle.
                 rel = existing.relative_to(dist).as_posix()
-                if rel.startswith(("generated/", "translations/", "dialogue/")):
+                if rel.startswith(("generated/", "translations/", "dialogue/", "chronicle/")):
                     existing.unlink()
     for relative, data in files.items():
         path = dist / relative
