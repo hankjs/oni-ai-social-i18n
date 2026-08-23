@@ -58,6 +58,41 @@ class I18nValidationTests(unittest.TestCase):
             path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             self.assertTrue(any("rich-text markup" in error for error in validate_catalog(root)))
 
+    def test_chronicle_pool_capacity_is_a_release_gate(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "catalog" / "chronicle" / "routine.json"
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            payload["pools"][0]["minimumPublished"] = 25
+            path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            self.assertTrue(
+                any("below minimumPublished 25" in error for error in validate_catalog(root))
+            )
+
+    def test_chronicle_translation_must_keep_its_slot_contract(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales" / "en" / "chronicle" / "routine.json"
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            payload["templates"][0]["text"] = "They traded a few words between shifts."
+            path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            self.assertTrue(
+                any("chronicle translation placeholders differ" in error
+                    for error in validate_catalog(root))
+            )
+
+    def test_chronicle_source_change_makes_translation_stale(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "catalog" / "chronicle" / "routine.json"
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            payload["pools"][0]["templates"][0]["description"] += " changed"
+            path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            self.assertTrue(
+                any("stale chronicle template chronicle.chat.base.001" in error
+                    for error in validate_catalog(root))
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

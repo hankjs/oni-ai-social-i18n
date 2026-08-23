@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/chronicle-source.schema.json",
+  "title": "Chronicle source family file",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["family", "pools"],
+  "properties": {
+    "family": { "type": "string", "minLength": 1 },
+    "pools": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["poolId", "minimumPublished", "allowedSlots", "templates"],
+        "properties": {
+          "poolId": {
+            "type": "string",
+            "pattern": "^chronicle\\.[a-z0-9]+(?:[.-][a-z0-9]+)*$"
+          },
+          "minimumPublished": { "type": "integer" },
+          "allowedSlots": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*$"
+            }
+          },
+          "templates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["templateId", "source", "description"],
+              "properties": {
+                "templateId": {
+                  "type": "string",
+                  "pattern": "^chronicle\\.[a-z0-9]+(?:[.-][a-z0-9]+)*\\.[0-9]{3}$"
+                },
+                "source": { "type": "string", "minLength": 1, "maxLength": 2000 },
+                "description": { "type": "string" },
+                "deprecated": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

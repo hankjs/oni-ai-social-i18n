@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "pools": {
+    "chronicle.chat.base": [
+      {
+        "id": "chronicle.chat.base.001",
+        "text": "{pair} traded a few words between shifts.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.002",
+        "text": "{pair} caught up on the day's happenings.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.003",
+        "text": "{pair} talked as they went, then split off to their respective tasks.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.004",
+        "text": "{pair} stopped for a leisurely chat.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.005",
+        "text": "{pair} became so absorbed in conversation that the next task nearly slipped their minds.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.006",
+        "text": "{pair} filled some waiting time with idle conversation.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.007",
+        "text": "{pair} discussed the latest news around the colony.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.008",
+        "text": "{pair} talked for a while and came away in lighter spirits.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.009",
+        "text": "{pair} fell into an easy back-and-forth conversation.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.010",
+        "text": "{pair} paused and gave each other their full attention.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.011",
+        "text": "{pair} carved a brief conversation out of a busy day.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.012",
+        "text": "{pair} turned a passing greeting into a proper conversation.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.013",
+        "text": "{pair} did not talk for long, but listened closely all the same.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.014",
+        "text": "{pair} used a quiet moment to catch up with each other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.015",
+        "text": "{pair} talked for a while before returning to their separate duties.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.016",
+        "text": "{pair} passed the time by chatting about everyday life.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.017",
+        "text": "{pair} swapped a few trivial but entertaining stories.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.018",
+        "text": "{pair} shared a short and pleasant conversation.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.019",
+        "text": "{pair} recounted amusing moments they had each run into.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.020",
+        "text": "{pair} kept up a broken conversation while on the move.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.021",
+        "text": "{pair} talked about ordinary things, yet neither hurried to leave.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.022",
+        "text": "{pair} shared a handful of small things they had noticed lately.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.023",
+        "text": "{pair} brought a little levity to a busy day with their chatter.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.chat.base.024",
+        "text": "{pair} lingered for two more remarks even after the conversation had ended.",
+        "deprecated": false
+      }
+    ],
+    "chronicle.greet.base": [
+      {
+        "id": "chronicle.greet.base.001",
+        "text": "{pair} crossed paths and greeted each other with a nod.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.002",
+        "text": "{pair} met along the way and exchanged a quick greeting.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.003",
+        "text": "{pair} caught each other's eye as they passed.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.004",
+        "text": "{pair} waved to each other from a short distance away.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.005",
+        "text": "{pair} stopped for a brief exchange of pleasantries.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.006",
+        "text": "{pair} met in a hurry but still made time to say hello.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.007",
+        "text": "{pair} greeted each other with a familiar gesture.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.008",
+        "text": "{pair} both smiled when they saw each other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.009",
+        "text": "{pair} checked that all was well, then carried on.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.010",
+        "text": "{pair} quietly said hello while passing by.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.011",
+        "text": "{pair} recognized each other from afar and raised a hand.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.012",
+        "text": "{pair} stopped to ask how things were going.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.013",
+        "text": "{pair} began their encounter with a simple greeting.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.014",
+        "text": "{pair} greeted each other before returning to their work.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.015",
+        "text": "{pair} paused long enough to make sure the other was doing well.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.016",
+        "text": "{pair} raised their hands in greeting at the very same moment.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.017",
+        "text": "{pair} greeted each other as naturally as ever.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.018",
+        "text": "{pair} spotted each other in the crowd and exchanged greetings.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.019",
+        "text": "{pair} lightened the mood with a playful greeting.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.020",
+        "text": "{pair} slowed down when they met and said hello.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.021",
+        "text": "{pair} found a moment in their busy day to greet each other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.022",
+        "text": "{pair} smiled warmly while passing each other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.023",
+        "text": "{pair} acknowledged each other with a quick hello.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.greet.base.024",
+        "text": "{pair} crossed paths once more during a busy day.",
+        "deprecated": false
+      }
+    ],
+    "chronicle.meal.base": [
+      {
+        "id": "chronicle.meal.base.001",
+        "text": "{pair} sat together and enjoyed an unhurried meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.002",
+        "text": "{pair} turned mealtime into time spent together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.003",
+        "text": "{pair} talked between bites, with neither in a hurry to leave.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.004",
+        "text": "{pair} happened to eat at the same time and took seats together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.005",
+        "text": "{pair} put their tasks aside and settled down for a meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.006",
+        "text": "{pair} exchanged a few idle remarks over their meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.007",
+        "text": "{pair} sat side by side and shared a peaceful mealtime.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.008",
+        "text": "{pair} kept up a loose conversation while they ate.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.009",
+        "text": "{pair} chose nearby seats and ate together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.010",
+        "text": "{pair} set work aside and shared an ordinary meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.011",
+        "text": "{pair} sat down at the same time and finished together too.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.012",
+        "text": "{pair} kept each other company for the length of a meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.013",
+        "text": "{pair} ate at an easy pace and spoke every now and then.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.014",
+        "text": "{pair} came together for a meal amid the day's work.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.015",
+        "text": "{pair} made their short break feel more leisurely by eating together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.016",
+        "text": "{pair} kept the conversation easy throughout their meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.017",
+        "text": "{pair} naturally settled near each other and began to eat.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.018",
+        "text": "{pair} lingered for a while after eating before going their separate ways.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.019",
+        "text": "{pair} made a lively occasion out of an ordinary meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.020",
+        "text": "{pair} ate quietly together without any awkwardness.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.021",
+        "text": "{pair} discussed what each of them would do next over their meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.022",
+        "text": "{pair} waited for each other before starting their meal.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.023",
+        "text": "{pair} shared a rare mealtime with no work to rush back to.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.meal.base.024",
+        "text": "{pair} finished their meal together and returned to work refreshed.",
+        "deprecated": false
+      }
+    ],
+    "chronicle.rest.base": [
+      {
+        "id": "chronicle.rest.base.001",
+        "text": "{pair} gradually grew quiet during the same rest period.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.002",
+        "text": "{pair} brought a busy day to a close and rested together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.003",
+        "text": "{pair} shared a rare stretch of peaceful rest.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.004",
+        "text": "{pair} were tired from the day and soon drifted off.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.005",
+        "text": "{pair} briefly wished each other good night before resting.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.006",
+        "text": "{pair} stopped working one after the other and settled into the same quiet spell.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.007",
+        "text": "{pair} rested easily in each other's company.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.008",
+        "text": "{pair} said nothing more and simply rested in silence.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.009",
+        "text": "{pair} left the work for tomorrow and rested together for now.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.010",
+        "text": "{pair} recovered their energy during a brief quiet spell.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.011",
+        "text": "{pair} settled in as everything around them slowly grew still.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.012",
+        "text": "{pair} were rarely free at the same time and made good use of the rest.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.013",
+        "text": "{pair} shared a peaceful moment in their matching routines.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.014",
+        "text": "{pair} entered the same rest period carrying the day's fatigue.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.015",
+        "text": "{pair} each relaxed without disturbing the other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.016",
+        "text": "{pair} enjoyed a little quiet during their break.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.017",
+        "text": "{pair} passed their shared rest period peacefully.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.018",
+        "text": "{pair} soon grew quiet after their conversation ended.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.019",
+        "text": "{pair} wished each other good night despite their weariness.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.020",
+        "text": "{pair} reached their break together and let the tension go.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.021",
+        "text": "{pair} left work unmentioned and kept this moment for rest.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.022",
+        "text": "{pair} shared another rest in the rhythm of their routines.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.023",
+        "text": "{pair} spent a quiet while together and recovered their energy.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.rest.base.024",
+        "text": "{pair} got a sound sleep together before the next round of work.",
+        "deprecated": false
+      }
+    ],
+    "chronicle.socialize.base": [
+      {
+        "id": "chronicle.socialize.base.001",
+        "text": "{pair} whiled away some leisure time together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.002",
+        "text": "{pair} set work aside and relaxed together for a while.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.003",
+        "text": "{pair} got together and found a little amusement.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.004",
+        "text": "{pair} shared plenty of laughter in their free time.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.005",
+        "text": "{pair} made a lively occasion of their short break.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.006",
+        "text": "{pair} relaxed together and came away feeling refreshed.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.007",
+        "text": "{pair} naturally joined each other's leisure time.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.008",
+        "text": "{pair} played around for a while and forgot their worries.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.009",
+        "text": "{pair} lingered in an easygoing mood for quite some time.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.010",
+        "text": "{pair} made good use of their free time by relaxing together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.011",
+        "text": "{pair} teased each other and eased some of the day's fatigue.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.012",
+        "text": "{pair} finally had no work to rush through and relaxed together.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.013",
+        "text": "{pair} spent their leisure time talking and laughing.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.014",
+        "text": "{pair} added a small diversion to an otherwise ordinary day.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.015",
+        "text": "{pair} found something to do together and kept things light.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.016",
+        "text": "{pair} gave their time away from work to each other.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.017",
+        "text": "{pair} gathered together and passed the time with enthusiasm.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.018",
+        "text": "{pair} threw themselves into having fun during their short freedom.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.019",
+        "text": "{pair} left work out of the conversation and simply relaxed.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.020",
+        "text": "{pair} passed the time together and grew a little more familiar.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.021",
+        "text": "{pair} agreed to unwind for a while before parting ways.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.022",
+        "text": "{pair} turned a little free time into a pleasant visit.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.023",
+        "text": "{pair} regained some energy through jokes and laughter.",
+        "deprecated": false
+      },
+      {
+        "id": "chronicle.socialize.base.024",
+        "text": "{pair} enjoyed their diversion before returning to daily life.",
+        "deprecated": false
+      }
+    ]
+  }
+}

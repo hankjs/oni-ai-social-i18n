@@ -25,11 +25,12 @@
     },
     "exports": {
       "type": "object",
-      "required": ["ui", "dialogue", "prompts"],
+      "required": ["ui", "dialogue", "chronicle", "prompts"],
       "additionalProperties": false,
       "properties": {
         "ui": { "type": "string", "const": "po" },
         "dialogue": { "type": "string", "const": "json" },
+        "chronicle": { "type": "string", "const": "json" },
         "prompts": { "type": "string", "const": "json" }
       }
     }

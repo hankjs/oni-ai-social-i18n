@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.13.4",
+  "contentVersion": "0.14.0",
   "sourceLocale": "zh",
   "fallbackLocale": "en",
   "publishedLocales": [
@@ -10,6 +10,7 @@
   "exports": {
     "ui": "po",
     "dialogue": "json",
+    "chronicle": "json",
     "prompts": "json"
   }
 }
