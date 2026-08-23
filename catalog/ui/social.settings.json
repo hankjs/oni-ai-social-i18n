@@ -484,7 +484,7 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
       "seq": 705,
-      "source": "原生聊天转化为好感的每对最短间隔，社交事件节奏的总阀门：聊天里的争执/告白/倾诉等判定机会随之增减。默认 150 ≈ 每对每周期 3-4 次进账；调小节奏更快，30 即旧版的刷屏节奏",
+      "source": "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。",
       "description": "",
       "arguments": [],
       "richText": false
@@ -806,6 +806,22 @@
       "seq": 767,
       "source": "每周期收录的日常纪事",
       "description": "限制问候、闲聊等普通事实进入纪事；里程碑和重大事件不受限制。",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "seq": 768,
+      "source": "每对每周期原生聊天进账上限（次）",
+      "description": "",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "seq": 769,
+      "source": "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。",
+      "description": "",
       "arguments": [],
       "richText": false
     }

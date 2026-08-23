@@ -352,8 +352,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Master valve for social event pacing: argument, confession and venting checks inside chats scale with it. Default 150 = 3-4 gains per pair per cycle; lower is faster, 30 restores the old rapid-fire pace.",
-      "sourceHash": "sha256:76f531f11046771815024684e4f1aaf619b2d8edfbc54cafac8b5fb9c7eba28a",
+      "text": "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap.",
+      "sourceHash": "sha256:ee19314fd6b082e1883a7e3125a6f2131530a4434462fbd855a20eb4f4142647",
       "status": "reviewed"
     },
     {
@@ -594,6 +594,18 @@
       "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
       "text": "Routine chronicle entries per cycle",
       "sourceHash": "sha256:bde235b238c543dc837dd7539f57830ba199ad694a78f943f541ccc1dfedea0b",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "Native chat feeds per pair per cycle",
+      "sourceHash": "sha256:bbba4617b4523443244d5080c315e71399eb3ec194ecf628ed3278068dfcac7d",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "Default: 3. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle.",
+      "sourceHash": "sha256:bfa50cc5e1079e6ec6612602e5df8c2c08bf55658709c6f65acff9e43ebae61f",
       "status": "reviewed"
     }
   ]

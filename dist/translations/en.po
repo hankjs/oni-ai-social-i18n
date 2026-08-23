@@ -2829,8 +2829,8 @@ msgid "同一对复制人的好感进账间隔（秒）"
 msgstr "Minimum interval between affinity gains for a pair (seconds)"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感的每对最短间隔，社交事件节奏的总阀门：聊天里的争执/告白/倾诉等判定机会随之增减。默认 150 ≈ 每对每周期 3-4 次进账；调小节奏更快，30 即旧版的刷屏节奏"
-msgstr "Master valve for social event pacing: argument, confession and venting checks inside chats scale with it. Default 150 = 3-4 gains per pair per cycle; lower is faster, 30 restores the old rapid-fire pace."
+msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
+msgstr "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -3079,3 +3079,11 @@ msgstr "Daily chat cooldown per duplicant (seconds)"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT"
 msgid "每周期收录的日常纪事"
 msgstr "Routine chronicle entries per cycle"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
+msgid "每对每周期原生聊天进账上限（次）"
+msgstr "Native chat feeds per pair per cycle"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
+msgid "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
+msgstr "Default: 3. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle."

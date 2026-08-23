@@ -842,7 +842,7 @@ namespace ONIAiSocial
                 public static LocString PENDING_TITLE = "一件重要的事即将发生";
                 public static LocString PENDING_BODY = "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。";
                 public static LocString CHAT_FEED_COOLDOWN = "同一对复制人的好感进账间隔（秒）";
-                public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感的每对最短间隔，社交事件节奏的总阀门：聊天里的争执/告白/倾诉等判定机会随之增减。默认 150 ≈ 每对每周期 3-4 次进账；调小节奏更快，30 即旧版的刷屏节奏";
+                public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。";
                 public static LocString LOG_CAPACITY = "纪事容量（条）";
                 public static LocString LOG_CAPACITY_HINT = "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效";
                 public static LocString SECTION_DARK = "黑暗内容（人性考验）";
@@ -883,6 +883,8 @@ namespace ONIAiSocial
                 public static LocString MAX_AI_REWRITES_PER_CYCLE = "每周期 AI 润色上限";
                 public static LocString AMBIENT_CHAT_COOLDOWN = "同一复制人的日常闲聊冷却（秒）";
                 public static LocString ROUTINE_CHRONICLE_LIMIT = "每周期收录的日常纪事";
+                public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天进账上限（次）";
+                public static LocString CHAT_FEED_LIMIT_HINT = "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
             }
 
             public class SCENE
