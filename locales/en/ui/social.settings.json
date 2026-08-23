@@ -577,6 +577,24 @@
       "text": "Technical knobs below. If you break something, use Reset to defaults.",
       "sourceHash": "sha256:ef45ac463d25ab58829a2c0b02a3446ee740d6887a3b09f23af6b3ce313c0adc",
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "AI rewrites per cycle",
+      "sourceHash": "sha256:e68c0cb73e7ab095db9a560c07a813c38c74c6c7a80e56b2912f05ec7435cd7a",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "Daily chat cooldown per duplicant (seconds)",
+      "sourceHash": "sha256:0547fb77a379ab490789941e8097697e687cb33872a3ba4a1b6a15e0da12018e",
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "Routine chronicle entries per cycle",
+      "sourceHash": "sha256:bde235b238c543dc837dd7539f57830ba199ad694a78f943f541ccc1dfedea0b",
+      "status": "reviewed"
     }
   ]
 }

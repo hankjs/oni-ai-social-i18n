@@ -784,6 +784,30 @@
       "description": "",
       "arguments": [],
       "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "seq": 765,
+      "source": "每周期 AI 润色上限",
+      "description": "仅限制发送给 AI 的日常对话数量；超过后继续使用本地 i18n 台词，不减少可见闲聊。",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "seq": 766,
+      "source": "同一复制人的日常闲聊冷却（秒）",
+      "description": "日常气泡的个人冷却；与同一对复制人的冷却共同生效。",
+      "arguments": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "seq": 767,
+      "source": "每周期收录的日常纪事",
+      "description": "限制问候、闲聊等普通事实进入纪事；里程碑和重大事件不受限制。",
+      "arguments": [],
+      "richText": false
     }
   ]
 }

@@ -880,6 +880,9 @@ namespace ONIAiSocial
                 public static LocString STRAINED_THRESHOLD = "「情绪紧绷」阈值";
                 public static LocString SECTION_DEBUG = "调试（仅开发版可见）";
                 public static LocString DEBUG_HINT = "以下是技术性参数，改坏了用「恢复默认」拉回来";
+                public static LocString MAX_AI_REWRITES_PER_CYCLE = "每周期 AI 润色上限";
+                public static LocString AMBIENT_CHAT_COOLDOWN = "同一复制人的日常闲聊冷却（秒）";
+                public static LocString ROUTINE_CHRONICLE_LIMIT = "每周期收录的日常纪事";
             }
 
             public class SCENE
