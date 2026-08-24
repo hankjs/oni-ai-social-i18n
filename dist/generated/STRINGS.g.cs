@@ -5,6 +5,12 @@ namespace ONIAiSocial
     {
         public class SOCIAL
         {
+            public class CHRONICLE
+            {
+                public static LocString SELF_SUBJECT = "我";
+                public static LocString SELF_OBJECT = "我";
+            }
+
             public class TAB
             {
                 public static LocString TITLE = "社交";

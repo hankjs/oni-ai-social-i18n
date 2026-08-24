@@ -4037,5 +4037,7313 @@
         "Say it out loud. It weighs half as much once you do."
       ]
     ]
-  }
+  },
+  "runtimeCandidates": [
+    {
+      "candidateId": "storylet.anniversary.base.001",
+      "storyletId": "Anniversary",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Remember this day, ten cycles ago?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You crushed a mush bar out of sheer nerves."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Tonight I'll crush the stars for you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.002",
+      "storyletId": "Anniversary",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Another year... by colony reckoning."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "As long as there's oxygen, I'll keep counting with you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.003",
+      "storyletId": "Anniversary",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your gift: a massage table pass. Cost me three shift trades."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Mine: I rescheduled all your shifts to daytime."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...We really are perfect for each other."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.004",
+      "storyletId": "Anniversary",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A hundred cycles and you still tolerate my snoring."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tolerate is strong. Let's say I've stopped filing reports."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.005",
+      "storyletId": "Anniversary",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Happy anniversary. Base intact, us intact."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "On this planet, that's the highest score there is."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Yesterday... was our day."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. Dig shift. Neither of us dared bring it up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I waited until the mess hall lights went out."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I'm sorry. The tunnel collapsed. I couldn't get back."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "You're safe. The date can wait a year."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I kept the candied berry two days. Then I ate it alone."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Next anniversary, I'll tear up the schedule itself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.001",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I thought about it all night. I owe you a proper sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You showing up says more than the words."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.002",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sorry I left that whole mess on you alone."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's fine. Just lend a hand next time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.003",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What I said that day? I take it back. Gently."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Retraction accepted. The tea's still warm, sit."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.004",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I brewed two cups of berry juice. One is an apology."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And the other?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "A thank-you for still talking to me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.001",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Yesterday... wasn't entirely my fault. Partly was. Fine. Sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "An apology squeezed out like toothpaste. Accepted."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.002",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not here to apologize. ...Okay, I am. Sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Your voice dropped an octave at the door. I knew."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.003",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "SORRY! There! Loud means it counts!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It counts, it counts. Indoor volume works too."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.004",
+      "storyletId": "Apology",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your pipework is... actually decent. Yesterday was on me."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm framing the first half and accepting the second."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.001",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I lost my temper last time. I'm sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I went too far too. Let's move on."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.002",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I should not have taken it out on you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe first next time. And yes, I forgive you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.003",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I went too far. Here — barbeque. The real kind."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Fine. For the barbeque's sake."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.004",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was wrong to drag up old fights."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "All dragged up now? Then come eat."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.005",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sorry. Your pipework isn't that bad."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Apology accepted. Review returned to sender."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.006",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I rehearsed this apology all the way here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good rehearsal. Never need it again."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.007",
+      "storyletId": "Apology",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I yelled about the wire. It was the hunger talking."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then eat first, apologize second. Both accepted."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "About that fight... I was out of line."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We're good. Honestly, I get you better now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I said it too harshly. Sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Same here. Nothing bonds people like a good argument."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Still mad?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nah. If we can fight like that, we must really care."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time I'll hear you out first."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And I'll yell less. Shake on it?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.001",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why are you yelling at me... waaah—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't cry! I'm not yelling anymore, see!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.002",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not losing this argument, I'm just... having emotions."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Wipe your eyes first. We'll restart the fight."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.003",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The whole colony bullies me! Now you too!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I don't! ...This is a lot of pressure, honestly."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.004",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stop being mean! My tears don't have a valve!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Okay okay, I'm sorry, here's a tissue!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.001",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't want to fight... but you really did this one wrong."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just yell at me once. This calm thing hurts worse."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.002",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Can we argue sitting down? Standing feels too hostile."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Fine. Sitting. You start."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.003",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Lower your voice. You're scaring the hatch."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The hatch?! Now of all times?!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.004",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "gentle",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I won't fight you. But I'm writing this down. Gently."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Your 'gently' is scarier than shouting."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.001",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm faster than anyone at this! Got a problem?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fast, yes. You also broke the wall!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.002",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Fine, blame me! Blame me for the whole base!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nobody said— there you go again."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.003",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Three counts. Give back my shovel. One! Two!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What happened to three? — Oh. You already grabbed it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.004",
+      "storyletId": "Argument",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not angry! This is just my voice!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The ceiling regolith disagrees."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.001",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Could you stop leaving every mess for someone else?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm already run off my feet. What more do you want?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.002",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You scrambled the schedule again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No, you just didn't read it!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.003",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I really cannot deal with this right now."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. Then we stay out of each other's way."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.004",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You snore like an unoiled rock crusher!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Me? You recited coordinates in your sleep all night!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.005",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Where's the berry I was saving? The single berry!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It didn't have your name on it!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.006",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Can you clear that junk pile in the corridor?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Those are spare parts! Every single one is useful!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.007",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The lavatory is clogged because you crossed the pipes!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I followed the blueprint. Blame the blueprint!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.008",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The battery is dead and it was your shift!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "A hatch chewed the wire. Take it up with the hatch!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.009",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You left the airlock open on purpose so I would yell about it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And yet. Here you are. Yelling."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.010",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You have been 'inspecting' that ladder for an hour."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Inspection is work. Ask anyone who isn't you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.011",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your tunnel is genius. Visionary. Historic."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's a hole. You want my rations, don't you?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.012",
+      "storyletId": "Argument",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How's my new great hall?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Mid."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "MID? There's a water fountain!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.001",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Honestly, without you in this dump I'd have cracked long ago."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Same here. Best partners ever."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.002",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "First thing after we get out: I'm buying you real water."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ha, I'll hold you to that."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.003",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're the only one who knows where my berry stash is."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's a life-debt level of trust."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.004",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "If I go first, you get my cot."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't jinx it. ...It is the good spot, though."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.005",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Complaining to you makes the work feel lighter."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Come back anytime. Unlimited grumbling, no charge."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.006",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You have walked beside me for three corridors and said nothing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. It's the best part of my shift."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.bestfriend.base.007",
+      "storyletId": "BestFriend",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're my emotional support duplicant."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And you're mine. The colony should list us as infrastructure."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.001",
+      "storyletId": "BrawlBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "...You hit harder than you look."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So do you. Help me up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.002",
+      "storyletId": "BrawlBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Had enough?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Enough. Honestly? You can take more than I figured."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.003",
+      "storyletId": "BrawlBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My nose is still bleeding."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I can't open one eye. ...Come on, let's get patched up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.004",
+      "storyletId": "BrawlBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "All that over something that small. Worth it?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. But I feel a lot better."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.005",
+      "storyletId": "BrawlBond",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time just say it instead of sitting on it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Deal. I've paid enough for sitting on it today."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.001",
+      "storyletId": "BreakdownBinge",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That was three people's rations."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm counting. Don't."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.002",
+      "storyletId": "BreakdownBinge",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Leave some for night shift."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Night shift will understand."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.003",
+      "storyletId": "BreakdownBinge",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're not even chewing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Chewing takes time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.004",
+      "storyletId": "BreakdownBinge",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The fridge is empty."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good. Empty I understand."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.005",
+      "storyletId": "BreakdownBinge",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're going to regret that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's a problem for later me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.001",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'll sit here. You don't have to talk."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Okay."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.002",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I had one too. Two cycles back."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You didn't let anyone see."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.003",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone else left."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You didn't."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.004",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want some water."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Yeah."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.005",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We'll head back when you're ready."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That could be a while."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.006",
+      "storyletId": "BreakdownComfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I won't tell anyone."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You will. But thanks."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.001",
+      "storyletId": "BreakdownCry",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How long has he been crying."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Don't look at me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.002",
+      "storyletId": "BreakdownCry",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want me to get someone?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Doesn't matter who."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.003",
+      "storyletId": "BreakdownCry",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone stopped what they were doing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's why I can't stop."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.004",
+      "storyletId": "BreakdownCry",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Anything I say right now is useless."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then don't say it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.005",
+      "storyletId": "BreakdownCry",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Oxygen's fine. Water's fine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then what am I crying about."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I fixed that yesterday."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You fixed it well. It rang for ages."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stop—that's the oxygen unit."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Which one."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're smashing our stuff."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What in here is mine?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Are you done."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. But my hand hurts."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The wall is harder than you are."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The wall has never let me down."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "storyletId": "BreakdownShock",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't touch him."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stay back. I can't hold it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "storyletId": "BreakdownShock",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The wiring's arcing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. It's me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "storyletId": "BreakdownShock",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He took out the whole light bank."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Saving power."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "storyletId": "BreakdownShock",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You'll hurt yourself doing that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Already am."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "storyletId": "BreakdownShock",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The machines are scared of you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The machines are smart."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.001",
+      "storyletId": "BreakdownVomit",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I just mopped that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. Sorry."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.002",
+      "storyletId": "BreakdownVomit",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Somebody get a bucket."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Too late."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.003",
+      "storyletId": "BreakdownVomit",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That's not food poisoning, is it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.004",
+      "storyletId": "BreakdownVomit",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't all stand around watching."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "They're not watching me. They're watching the floor."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.005",
+      "storyletId": "BreakdownVomit",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You should eat something after."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Seriously?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The whole corridor can hear that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He isn't screaming at us."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know you're all there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Should I shut the door."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'd still be inside it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I've heard that pitch down in the mines."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At least the mines echo back."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Does screaming help."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. Not screaming is worse."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Maybe... we should call it off."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No hard feelings. Take care."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We can fix any pipe on this base. Not this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Yeah. At least the pipes are fine."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'll take the east tables. You take the west."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Okay. ...Take care of yourself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Here's your oxygen canister back. All of it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Keep it. Call it... a gift from a friend."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hold still. Let me redo that bandage."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Easy... but thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Rest today. We will handle the remaining work."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Hearing that, I can finally close my eyes."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The medicine is bitter, so here's half a candied berry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Half? ...Fine. Nurse's orders."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Fever's gone, but you're staying down today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "This cot is fusing to my back. ...Okay, you win."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I checked the germ overlay. Your bedside is spotless."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Great, I can cough freely. ...Kidding."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I measured the dose myself. Drink up."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Who poured a double last time, again?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Which is why I weighed it three times."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.crybaby.001",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I read today's schedule and... I might cry a little."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't cry, don't cry. I'll take your latrine shift."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.crybaby.002",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That hatch looked at me so gently..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It wants your boots. Don't get attached."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.crybaby.003",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not crying. It's the CO2."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sure. The CO2. Tissues are in locker two."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.crybaby.004",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do you think the printing pod ever gets sad..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Keep going and I'll be the one crying."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.eater.001",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "eater",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Think a mush bar would taste better toasted?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Last time you toasted one, the mess hall blew a fuse."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.eater.002",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "eater",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not hungry. I'm eating preventively."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You've preventively eaten tomorrow's ration too."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.eater.003",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "eater",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What are we talking about? ...Is there food?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Three sentences in and you're back to food."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.eater.004",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "eater",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Night shift bonus should be fried mush bars."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You already wrote yourself into the schedule as taste-tester."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.hothead.001",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Move, move, I'll do it myself! — Not yelling at you. Yelling near you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Noted. Observing the champion from a safe distance."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.hothead.002",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who designed these ladders? Third climb today!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Someone who never climbs. Keep it down, the regolith is shaking."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.hothead.003",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "If the pod doesn't print help soon, I'm knocking on it myself."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Knock away. It'll print someone exactly as patient as you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.hothead.004",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Blocked tunnel? Step aside. Two minutes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "All yours. I'll go fetch the spare shovel."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.loud.001",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "loud",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "GOOD MORNING!! OXYGEN'S GREAT TODAY!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Heard. The whole shaft heard."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.loud.002",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "loud",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not shouting! This is my normal volume!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The hatches evacuated. That's your normal volume."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.loud.003",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "loud",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "EVERYONE LISTEN— hey, why the earplugs?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Go ahead. We're listening with our eyes."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.loud.004",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "loud",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Learned a new song! Let me belt it!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Take it to the airlock. Both doors, please."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.nervous.001",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "D-did you hear that? There's something in the pipes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's water. Probably. ...Probably!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.nervous.002",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I counted the oxygen three times. It checks out. I still don't feel okay."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'll sit with you for the fourth count."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.nervous.003",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What if a meteor punches through tonight??"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then it hits my shift and you get the night off."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.nervous.004",
+      "storyletId": "Casual",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't sneak up on me, I drop live wires."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Got it, I'll knock next time. On the wall. We have no doors."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.001",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You haul like a champion."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Thanks. My back has filed a formal complaint."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.002",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The printing pod lit up by itself last night."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's deciding who to print next. Don't interrupt."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.003",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I climb so many ladders I climb them in my dreams."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At least dream ladders don't come with a hauling errand."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.004",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What will you do when the colony is finished?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sleep without an alarm clock."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.005",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A hatch ate my spare boots again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It eats better than we do. Let that sink in."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.006",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do you smell something weird?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Narrow it down. This base is a bouquet."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.007",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The printing pod has new picks tomorrow."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Please be someone who can wire a battery."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.008",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I dug three tons of granite yesterday. I counted."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stop counting. The number only ever goes up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.009",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That pacu doesn't look stressed at all."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It never has to read the schedule."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.010",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "All the carbon dioxide sinks to the bottom floor."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's why top bunks are a survival strategy."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.011",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Did you understand the new painting?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. But the decor number went up, so I nodded."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.012",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My atmo suit smell has developed layers."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's the smell of seniority."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.013",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Meteor shower tonight. Don't look up."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't worry. The regolith will remember for us."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.014",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You said 'nice weather in the base' yesterday. Word for word."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I have four thoughts. I rotate them."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.015",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You know what you need? To go outside and touch some grass."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We are four hundred meters underground. I'll touch the algae."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.016",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The far wall is on fire and you are still eating."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's contained. Mostly. This is fine."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.017",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The ladder broke and I fell two floors."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Skill issue. ...You okay, though?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.018",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Reactor's overheating and the farm is flooded."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We're so cooked."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Literally, if that reactor blows."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.019",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You are eating over the compost in an unwashed suit."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The suit and I have an arrangement. Don't get involved."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.020",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I dug the same corridor so long I forgot my own name."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's on your suit."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Huh. So it is."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.021",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why do you always dig the front tunnel?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Someone has to be the one the story follows."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "The story is about oxygen."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.022",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What the hatch doin'?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Head first into the granite. Third time this shift."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.023",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That pacu has been circling the same pond all night."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Oiia, oiia."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Stop narrating. Help me with the filter."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.024",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The airlock cycled eight hundred times today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Hardest worker in the colony. Give it the raise."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.base.025",
+      "storyletId": "Casual",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I labeled every pipe in the base."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Wonderful. The next flood will be beautifully documented."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.001",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You don't have to talk. I'll just sit here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thanks. The fans sound quieter today."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.002",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I covered your shift. Go rest a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's what they always said too... thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.003",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I brought two meals. We can just chew if talking's too much."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Chewing does quiet the thinking. A little."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.004",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm in the next cot tonight. Knock the wall if you can't sleep."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Okay. I might knock."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.005",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We split the work they left unfinished. You take your time."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thanks. I just... need company being slow."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.006",
+      "storyletId": "Comfort",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One day I'll build you a small room. A lamp. One plant that isn't food."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Put me in that room. I'll allow the plant."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.001",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Honestly... every shift I'm paired with you, I secretly smile."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Silly. Me too."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.002",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "This rock is terrifying, but not when you're near."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then... let's stay near."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.003",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "When the power died that night, my first thought was you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I crossed half the base in the dark to find you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.004",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Half of my oxygen canister is yours. Always."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Dummy. Then we'd have to stay together forever."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "That's the idea."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.005",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The decor is negative and the food is grim."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "And you smile, and none of it matters."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confession.base.006",
+      "storyletId": "Confession",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I dug for nine hours thinking about your stupid pipe layout."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nine hours. And I never paid you any rent."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.001",
+      "storyletId": "ConfessionFail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I... I've liked you for a long time..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Oh... I'm sorry. I need to focus on surviving right now."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Forget I said anything."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.002",
+      "storyletId": "ConfessionFail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So... I might, sort of, like you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You're one of the good ones. My heart's just full elsewhere."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Understood. Friends as usual?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.003",
+      "storyletId": "ConfessionFail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I like you. Took me ten cycles to say it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Thank you for telling me. I can't answer the same way."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "It's fine. Saying it was worth it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.004",
+      "storyletId": "ConfessionFail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I always look forward to pipe duty with you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "To me you're my best workmate... I'm sorry."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Workmate's still good. Plenty of pipes left."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.005",
+      "storyletId": "ConfessionFail",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He smiled at me near the printing pod."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "He was smiling at the pod. It makes new coworkers."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Let me have this for one more cycle."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Being apart taught me arguing beats missing you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then argue properly this time. And stay."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I fixed the wrench you left behind. Here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You dope. I left it on purpose."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The west tables are too quiet. Can I come back?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Your seat's been waiting this whole time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Let's overhaul the old problems, like servicing pipes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "By the blueprint this time. I already drew it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.001",
+      "storyletId": "CrushLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There were things I never said. Now I never can."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.002",
+      "storyletId": "CrushLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I never even asked which ration you liked best."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.003",
+      "storyletId": "CrushLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I used to blame the schedule for keeping us apart. Can't blame it this time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.001",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Just us two today. Nowhere else to be."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Deal. A rare moment to ourselves."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Later, let's go stargazing?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.002",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "With you here, even the vents sound like music."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Flatterer. ...I feel it too, though."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.003",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I traded away today's shift a week in advance."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I traded mine two weeks ago."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...That's why it's you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.004",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One bristle blossom. It's all I could requisition."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's plenty. Plus five decor, plus everything else."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.005",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I booked the arcade cabinet. One whole cycle."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then what are we waiting for? See you on the high score board."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.006",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "No oxygen talk, no power talk, no pipe talk today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then what do we talk about?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "You."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.007",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You name every hatch you fight."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I need to know who I'm losing to."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "And that's why it's you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.date.base.008",
+      "storyletId": "Date",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So are we together, or just... adjacent?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Adjacent has fewer forms to file."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Then let's file the forms."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.001",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How many tons of granite did you dig today?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't ask. My back filed a complaint."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.002",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The mush bar got even harder today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At least it's warm... okay, it's not."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.003",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do you think there are other planets out there?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "If so, I hope their toilets don't clog."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.004",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Dreamed about falling into magma again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At least you didn't sleepwalk into the oxygen diffuser."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.005",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The air feels thinner today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe slowly. Call it cardio."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.006",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "They say stress makes people smash things at night."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I stress-eat. Can't smash anything on a full stomach."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.007",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I asked the printing pod for a helper."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And it printed five kilos of clay, didn't it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.008",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The lavatory's clogged. Third time this week."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't look at me. I clog, I don't fix."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.009",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The slickster is sleeping on my cot again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It likes you. Well, it likes your carbon dioxide."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.010",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Nice new hairstyle."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's from the wire. Thanks for noticing."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.011",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Whose puddle is that in corridor three?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stress. The stress threw up. Nobody else."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.012",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "If you got reprinted, what would you come back as?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "A solar panel. Lie there all day, then lie there all night."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.013",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The alarm's going off. Why aren't you running?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Running where? Outside doesn't even have air."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.014",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I unlocked a new skill: Advanced Digging."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Congrats. Your reward is more digging."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.015",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tell me a bedtime story?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Once upon a time, a duplicant deconstructed the wrong airlock. The end."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.016",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The electrolyzer flooded again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It is what it is."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.017",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You've read the same daily report nine times."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The numbers might improve if I stare harder."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.018",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your shift ended six hours ago. Why are you still in the cot?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm banking horizontal time against future digging."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.019",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not slacking. I'm delivering exactly forty kilograms of effort."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That is the job description, yes."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.020",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The whole west wing flooded."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "GG. Go next. ...What do you mean it's our only base?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.021",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "They discontinued my favorite mush bar flavor."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Womp womp. ...Sorry, I meant: there, there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.ordinary.022",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "ordinary",
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A slickster followed me home through the airlock."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Cat distribution system. It chose you. Congratulations."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.breaking.001",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "breaking",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't talk to me yet... I need a second to breathe."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Okay. I'm right here. Not talking."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.breaking.002",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "breaking",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The alarm in my head is louder than the base's."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then switch one off: sit down, drink some water."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.breaking.003",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "breaking",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One more thing and I will lose it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then that one thing is mine. Go lie down."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallback.breaking.004",
+      "storyletId": "Fallback",
+      "variantKind": "category",
+      "variantValue": "breaking",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm barely holding on."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Say it out loud. It weighs half as much once you do."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Enough. Don't talk to me for a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Gladly. And don't sit next to me at meals."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Let's just cool off for a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. The pipes are your problem now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I left your tools on your locker."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. We'll use our own from now on."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So that's what you really thought of me."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Likewise. Let's leave it there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "storyletId": "FamineAverted",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Food arrived. Nobody mentions what they were thinking a few days ago."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "storyletId": "FamineAverted",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pantry is stocked again. By silent agreement, the subject is closed."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stay back."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Only one of us walks away from this."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't want to do this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Neither do I. But I'm hungry."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't apologise. Just do it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why us?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Because nobody likes either of us."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminelastone.base.001",
+      "storyletId": "FamineLastOne",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One left. The base is very quiet now, and there is plenty to eat."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There is food again. Nobody asks what it is."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The crisis is over. People sit a little further apart than they used to."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The larder is full again. Nobody checked the label."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.001",
+      "storyletId": "FamineWarning",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pantry is empty. Nobody is talking, but everybody is counting heads."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.002",
+      "storyletId": "FamineWarning",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Three days without food. Today, people started looking at each other differently."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.003",
+      "storyletId": "FamineWarning",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The last ration is gone. What gets shared out next, nobody will say out loud."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardcomrade.base.001",
+      "storyletId": "HazardComrade",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Sixty degrees. How did you hold out?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I didn't. I was thinking about popsicles."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardcomrade.base.002",
+      "storyletId": "HazardComrade",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My legs went when I came out."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Mine too. Don't tell anyone."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardcomrade.base.003",
+      "storyletId": "HazardComrade",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Was that noise you or the pipe?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...The pipe."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardcomrade.base.004",
+      "storyletId": "HazardComrade",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't take the visor off that early next time."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I thought we were out."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardcomrade.base.005",
+      "storyletId": "HazardComrade",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Are we the joke on that roster?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Yes. And we're still standing."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You went down yesterday too."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It was my turn."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do you swear when the visor fogs up?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Yes. Badly."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That level isn't so bad actually."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It is that bad."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Forget it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Yeah."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time we go together. It's faster."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You went down again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I've got better lungs."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That level's mine next time."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You've said that three times."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I owe you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just remember it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You don't have to keep going in my place."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What, and watch you go?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Thanks."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.001",
+      "storyletId": "HazardResent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The chlorine level. That's been me all month."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I don't write the roster."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.002",
+      "storyletId": "HazardResent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do you even know what it smells like down there."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...No."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.003",
+      "storyletId": "HazardResent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I counted. Forty cycles."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Why would you count that."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.004",
+      "storyletId": "HazardResent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "When did you last go down."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I have things to do up here."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.005",
+      "storyletId": "HazardResent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It's not that I'm scared. It's that it's always me."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then take it up with the roster."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.001",
+      "storyletId": "Jealousy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I saw you two. Having a lovely chat, were we?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's not what you think!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.002",
+      "storyletId": "Jealousy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I see. I'm on the schedule, but someone's in your heart."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Let me explain..."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.003",
+      "storyletId": "Jealousy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Does wire repair really require standing that close?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's standard operating distance!"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "I... hear a pipe leaking somewhere. Bye."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.004",
+      "storyletId": "Jealousy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A whole shift away, and I come back to this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We were literally just counting hatches!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.005",
+      "storyletId": "Jealousy",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You laughed at their airlock joke. You never laugh at mine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Theirs was about a DIFFERENT airlock."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "I'll just... see myself out."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.001",
+      "storyletId": "PartnerLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your name is still on the schedule... I cannot erase it yet."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.002",
+      "storyletId": "PartnerLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We were supposed to see the colony finished together. Why did you leave first?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.003",
+      "storyletId": "PartnerLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I cleaned your atmo suit and hung it in the usual spot. As if you might come back for it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.004",
+      "storyletId": "PartnerLoss",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The oxygen is rich today and dinner was almost good. Of all the days for you to miss."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.001",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone over here! No work talk tonight!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then what do I talk about? Tomorrow's shifts?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Hahaha!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.002",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Cheers to surviving another cycle!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Cheers — with recycled water."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Next time, filtered water!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.003",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tonight's music: the manual generator!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's just someone doing overtime."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Keep the tempo steady!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.004",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone share their worst day here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Me first: I fell into the polluted water tank."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "You win. Instantly."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.005",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A toast! To the ceiling that hasn't collapsed!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "To everyone still breathing!"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "To whoever's off early shift — no one? Party's over."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.006",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who brought the harmonica?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No harmonica. Just the gas vents."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Close enough. Very rock and roll."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.007",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're at the party but facing the wall."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm here in spirit. The wall and I are close."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "One drink. The wall will wait."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.008",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Vibe check: how are we all doing?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Alive."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Employed. ...Passing grade, barely."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.009",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "New rule: tonight's dance contest has no rules."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then how do we win?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Nobody knows. We're a room full of huh-cats."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.party.base.010",
+      "storyletId": "Party",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There's a green blob vibing by the jukebot."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's a morb. How did it get in here?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "It glorped in. It stays for one song."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The food tastes worse after days of silence."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I'm sorry. I overreacted."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Truce. Talk to me next time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You covered my shift yesterday. I know it was you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Hmph. It was on my way."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "On your way. So is making up. Come on."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Even the hatches avoid us lately."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We've been that scary, huh. ...I'll go first: I'm sorry."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Accepted. Let's go eat."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Here. Espresso. I queued half an hour for the machine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "This is bribery. ...I accept."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.001",
+      "storyletId": "Rival",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I've got your number now."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Likewise. Stay out of my sight."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.002",
+      "storyletId": "Rival",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "This isn't a fight anymore. This is a grudge."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then hold it. I'll hold mine longer."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.003",
+      "storyletId": "Rival",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You and me? We're done."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We were done a long time ago."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.004",
+      "storyletId": "Rival",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One base. We're going to keep running into each other."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And every time, I'll enjoy ruining your day."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.005",
+      "storyletId": "Rival",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't care what the others think of you. I can't stand you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good. I wasn't aiming to be liked."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rivaldied.base.001",
+      "storyletId": "RivalDied",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I heard. ...I'm not sad, and nobody gets to make me fake it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rivaldied.base.002",
+      "storyletId": "RivalDied",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was saving up a win for the next time we met. Guess I'll keep it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rivaldied.base.003",
+      "storyletId": "RivalDied",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't look at me like that. I'm not smiling. It's just a good day."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rivaldied.base.004",
+      "storyletId": "RivalDied",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One less mouth breathing my oxygen. Works for me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rivaldied.base.005",
+      "storyletId": "RivalDied",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'll go clear out that locker. Tired of looking at it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.001",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Is this seat taken?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It is now. Sit down, I saved the least burnt piece."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.002",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The mush bar is almost soft today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't celebrate. It might just be damp."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.003",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Eating alone is too quiet."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Perfect timing. I have a whole shift's worth of complaints."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.004",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Today's liceloaf is extra... structural."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Chef calls it texture. I call it jaw day."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.005",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My dessert for your wall seat."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Deal. Friend price: half the dessert."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.006",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Slow down, nobody is stealing your plate."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't get it. Chew fast and you can't taste it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.007",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "They say table talk aids digestion."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then this meal needs a very long conversation."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.008",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A wash basin in the mess hall. Fancy."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fewer germs, same amount of complaining."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.009",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What's the scientific name for this?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The menu just says 'surprise'."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.010",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Should we stop him? That's the third bristle berry on the grill."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. Let him cook. Literally, for once."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.011",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Three berries and a pickled meal lice. That's dinner?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's a curated plate. Don't look at it too long."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.012",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Half of every meal you cook goes missing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Kitchen tax. The chef eats first. That's civilization."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.013",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "They swapped the barbeque for mush bars."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm eating it and crying. Full banana cat."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.sharedmeal.base.014",
+      "storyletId": "SharedMeal",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That's your third helping tonight."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The chonk chart doesn't judge me. Neither should you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.001",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your technique is off. Watch me once."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So that's it! No wonder I'm always a step slow."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.002",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There's a trick to this job. Let me show you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Noted! I owe you a soft mush bar."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.003",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't fight the pick. Let it fall on its own."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Oh! And the saved energy goes to dinner."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.004",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Before touching a wire, tap it with the back of your hand."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Why the back?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "So the shock throws your hand clear. Remember it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.005",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Save your research data before you click around."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So that's how last week's report died... noted."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.006",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't vent the whole room to kill the germs. You are also in the room."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...That explains the last report ending mid-sentence."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.teach.base.007",
+      "storyletId": "Teach",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I asked for one ladder. You built a stairwell with lighting."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You said 'access.' I heard 'dignity.'"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.001",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I can't hold it in... the mush bars are gone again..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Cry it out. Half of mine tomorrow is yours."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Snff... you're the best..."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.002",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I dreamed the printing pod didn't want me anymore..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Dreams lie. Who else would it even print?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "R-really...? Okay..."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.003",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My tears fell into the regolith. Will something grow...?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You'll be the first to know. Here, wipe up."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Ha. Now I'm laughing and crying."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.004",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "crybaby",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not fragile. I just have surplus water draining through my eyes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Drain away. Drainage is honest work."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Mm! Feeling better already."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.001",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I nearly took the hamster wheel apart today! It spins too slow!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe before dismantling. The wheel is public property."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Hooo. Fine. It lives. For now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.002",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why do I get every busted pipe?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Because you're fastest. That's a compliment, stop glaring."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Fine. That reason I accept."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.003",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm counting to three, and if this base blacks out again—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At three we go crank the generator together."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Deal. One, two... move."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.004",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "hothead",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not angry! I'm just too efficient to sit still!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then lend me half that energy for hauling."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Take it, take it. Feels better out loud."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.001",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I keep thinking the backup battery isn't full. It is full. I checked..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then we check once more. Together."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...That was the seventh check. Thanks for coming."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.002",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What if? What if the oxygen, while I'm asleep—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stop. The alarm works nights. You work days. Clear division of labor."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Fine. I'll only wake up three times."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.003",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pipe made a noise! You heard it, right?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Heard it. Thermal expansion. I signed its health certificate."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...You made that up. It helped anyway."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.004",
+      "storyletId": "Vent",
+      "variantKind": "initiatorTag",
+      "variantValue": "nervous",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My heart is racing. Is the base about to blow?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's from three ladder sprints. Sit. Sip water."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Oh. Right. Okay, settling down now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.001",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I can't take it anymore, there are pipes to fix everywhere..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe. Pipes are infinite; you are not."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Thanks. Saying it out loud helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.002",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Dreamed the power grid died again. My hands are still shaking."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just a dream. Come sit with me a while."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Yeah. Glad you're here."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.003",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The electrolyzer blew again. Everyone's oxygen is on me..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sit down. Oxygen has reserves. You don't have a backup."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. Breathing first."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.004",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A full shift on the hamster wheel. My legs won't stop."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'll take tomorrow. The wheel can't bully both of us."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Deal. You're a good one."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.005",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The meteors keep hammering. I can't sleep."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "They won't get through. I checked every tile myself."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Somehow that actually helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.006",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What if I wake up and the oxygen reads zero?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You'd wake up next to me first. Panic later."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Ha... fair."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.007",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm fine. I'm fine. I'm fine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's four this cycle. Sit. I'll take the next shift."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...One more: I'm fine. Okay. Sitting."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.008",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I am one broken pipe away from crashing out entirely."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then I'll fix the pipe. Sit down."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. Watching you fix it helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.009",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What are you thinking about?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nothing. Beautifully, completely nothing."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Finally, someone at peace in this colony."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.010",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How often do you think about that one flooded shaft?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Daily. Sometimes twice, if the pump hums wrong."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...It haunts me too. Cycle 12. Never again."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.011",
+      "storyletId": "Vent",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Two straight shifts on the manual generator."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sad hamster hours. Tiniest violin. I'm taking the next one."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. You win."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.001",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hi everyone, I just stepped out of the printer..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Welcome to the family! Go claim a seat in the mess hall."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.002",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It's... livelier than the brochure said."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's the spirit. Ask us anything."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.003",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It felt warmer inside the printing pod..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Too late to climb back in. Here's your shovel."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.004",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Quick question: which way to the lavatory?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Excellent question. That's the most important knowledge here."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.005",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I have three skills. Here's my resume."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathing is the only requirement. We'll teach the rest."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.006",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was printed today and I already have a schedule."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Welcome. It gets worse, and then you get used to it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.007",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hi! I'm new and I already love it here!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Happy cat energy. Ask me again in three cycles."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.008",
+      "storyletId": "Welcome",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Do I get a locker?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You get a cot and a dream. Lockers unlock at level two."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.001",
+      "storyletId": "WrathBlame",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Somebody has to answer for this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Why is it me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.002",
+      "storyletId": "WrathBlame",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not saying he did it. I'm saying I didn't."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You already said it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.003",
+      "storyletId": "WrathBlame",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The report needs a name on it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So you picked the easiest one to write."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.004",
+      "storyletId": "WrathBlame",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone here knows."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Knowing isn't proof."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.005",
+      "storyletId": "WrathBlame",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You were there that shift, weren't you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I was asleep. Everyone's always there. It's one base."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathfaded.base.001",
+      "storyletId": "WrathFaded",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Somebody used my name today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...They should have all along."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathfaded.base.002",
+      "storyletId": "WrathFaded",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're not angry anymore?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tired of it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathfaded.base.003",
+      "storyletId": "WrathFaded",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Nobody's brought up last month in a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then let's not bring it up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathfaded.base.004",
+      "storyletId": "WrathFaded",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I thought I'd be that guy forever."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Next time it'll be somebody else."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathfaded.base.005",
+      "storyletId": "WrathFaded",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The roster put me back on days."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I did that."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.001",
+      "storyletId": "WrathIsolated",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "This table's full."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...You're the only one at it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.002",
+      "storyletId": "WrathIsolated",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't talk to me. I'd rather not catch it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Neither would I."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.003",
+      "storyletId": "WrathIsolated",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Roster's been changed. Go look."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I looked. It's all night shifts."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.004",
+      "storyletId": "WrathIsolated",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Use the other side."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The other side is a wall."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.005",
+      "storyletId": "WrathIsolated",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who's pairing with him? ...Fine. Nobody, then."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I can finish it alone."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.001",
+      "storyletId": "WrathPunch",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Nobody down here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "—What are you doing!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.002",
+      "storyletId": "WrathPunch",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't shout. Nobody's coming anyway."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I know."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.003",
+      "storyletId": "WrathPunch",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That one's for last week."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Last week I was in a med bed."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.004",
+      "storyletId": "WrathPunch",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Clean up before you go out. Don't let them see."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't let them see either."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.005",
+      "storyletId": "WrathPunch",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It isn't personal. This place needs somewhere to vent."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then go find a wall."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sitting here. Nothing else to it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Nobody's sat here in days."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I brought two portions."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Aren't you worried who sees?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who gave you that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I fell."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't care what they're saying. You still owe me a night shift."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I know I do."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Finish crying, then eat. It's worse cold."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Yeah."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.001",
+      "storyletId": "WrathSawCrying",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What are you doing down here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Nothing. Dust in my eye."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.002",
+      "storyletId": "WrathSawCrying",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "No cameras on this level. No one either. Finish."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm already finished."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.003",
+      "storyletId": "WrathSawCrying",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want me to go?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...No. Just stand there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.004",
+      "storyletId": "WrathSawCrying",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I didn't see anything."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.005",
+      "storyletId": "WrathSawCrying",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I thought this level was empty."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So did I."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.001",
+      "storyletId": "WrathSpeakUp",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I pulled the logs. He was on the far side that shift."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...You actually pulled the logs?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.002",
+      "storyletId": "WrathSpeakUp",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Blame me. I wrote the roster."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't have to do that for me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.003",
+      "storyletId": "WrathSpeakUp",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What we're short on is a working machine, not someone to yell at."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.004",
+      "storyletId": "WrathSpeakUp",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My word still counts around here. He didn't do it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I thought everyone had stopped remembering me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.005",
+      "storyletId": "WrathSpeakUp",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time somebody wants a name, they come to me first."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Then you'd better watch yourself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I saw that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You saw what."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Put your hand down."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...None of your business."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So you check for witnesses first. Good to know."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Shut up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm going to remember today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Suit yourself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "variantKind": "base",
+      "variantValue": "",
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was in the vent while you were doing it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Then you heard more than you saw."
+        }
+      ]
+    }
+  ]
 }

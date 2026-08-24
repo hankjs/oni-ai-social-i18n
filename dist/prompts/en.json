@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "Write their short conversation now.",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "no notable traits",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "A: [[profile]]",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "B: [[profile]]",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]] (traits: [[traits]]; stress: [[stress]])",
+      "requiredSlots": [
+        "name",
+        "stress",
+        "traits"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "Relationship: [[stage]], affinity [[affinity]].",
+      "requiredSlots": [
+        "affinity",
+        "stage"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "Stress \"breaking\" means on the verge of an emotional breakdown: let the strain show in that duplicant's lines (short temper, weary, barely holding on).",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "You are writing dialogue between duplicants in the survival sim Oxygen Not Included. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries],\"affinity_delta\":integer(-5 to 10)}",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "Cause: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "Colony: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "famine ongoing, collective wrath ongoing",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "famine ongoing",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "collective wrath ongoing",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "Current relationship: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "Event: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "Their recent history:",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "Cycle [[cycle]] · [[event]]",
+      "requiredSlots": [
+        "cycle",
+        "event"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "Rewrite it as one chronicle sentence.",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "New relationship: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "A: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "B: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "Place: [[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "You are the chronicler of a space colony. Rewrite the given social event as a single sentence of at most 25 words: plain, restrained, with a sense of history. Never change names or facts; no quotes, no emoji, no numbers. Output only the sentence.",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "Witnesses: [[count]]",
+      "requiredSlots": [
+        "count"
+      ]
+    }
+  ]
+}

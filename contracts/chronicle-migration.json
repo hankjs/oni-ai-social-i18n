@@ -1,0 +1,2743 @@
+{
+  "schemaVersion": 1,
+  "sourceCorpus": "STRINGS.SOCIAL.LOG_STORY",
+  "expectedLegacyCount": 304,
+  "mappings": [
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:032d87763b0cc91d253d4d243e72408a18feeae723c7374114c78f4d86df5fd5",
+      "targetParityHash": "sha256:aec20aad570df6bb612fb44b10b8a5b1c33e61be1de2fed420e97285dc8a9ffb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5c7d26eca66ad414ffab9f4d9959a65dd481f9479e32709e88c2b104731650d4",
+      "targetParityHash": "sha256:72797858b1f133a4219150de4aa20dc6a54e1776de12461d0711c0c8698ac883",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5d3da03bf10836452cee38f601a528a6801a9965f7d86f395bfb8929b667c424",
+      "targetParityHash": "sha256:a82dc379aa0338b70c14e04b0ac49918d9a33b444803844768e652e57bab4085",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c0b8a9dc8ef3bda97adce41414878c8655e052b874d837b82fb432b6ec9de98b",
+      "targetParityHash": "sha256:4037fe2c36c8a08cc3eeb8886cfbd55af928c7017322a5c4ed926e534922839a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary-missed.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:bda5dcd9d5150d4cc445ca569ec8fbe9d7931951a01bd3034d34958364b8cff6",
+      "targetParityHash": "sha256:c241bbf1cbae2945ce4d81ce12a9f708dda737cd745f43ccce150a9c6667974d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary-missed.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1ccb7634a5975e18e5e11e6627fb581c98b0c9ec6cafb58774f732d27c54e81a",
+      "targetParityHash": "sha256:32f70878ee610875ddb670a07b258f9a46703fdac6915015823c3e5d319fa39d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary-missed.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5c5a86a88dae5c5cacc36ba4030a892a34d038067c0e018e6721e7443294a4b4",
+      "targetParityHash": "sha256:4d6ad5f5fefb62ee7ff053f28892634d06e7feb19a8893a7e888386eb0fea0a3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "targetKind": "body",
+      "targetId": "chronicle.anniversary-missed.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:99cae1051c514fe0f43d1a997739161c15b2c2fb57acce80612dd9387461b85c",
+      "targetParityHash": "sha256:7262dd14b4d7a6d4a81c179f0e47df79f4e022f8046c4afa7ffe8e4ff8854dd8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.apology.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:167481eaa17b30a137a80facfc9517662d33b6f49f527b347ebde06ce9787cd2",
+      "targetParityHash": "sha256:43cc3bc949c140ed629655a6356daeee18e9609a6c90b3b9c4b5701bec2fea7f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "targetKind": "body",
+      "targetId": "chronicle.apology.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a866b43bf05a4f8ec737f7622947bd0194a122365ff0cd9066aee018fa09540f",
+      "targetParityHash": "sha256:e4e71df9c670828027ebf8b49800d279e88e56f0506223763a81a07fd899e62d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "targetKind": "body",
+      "targetId": "chronicle.apology.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d5a5938c8a778dd8eda4670b631ea64b03536b0677fa9c9c91a1954cbb162127",
+      "targetParityHash": "sha256:773ac3293f883053963997c7147e4a8f676182785fe6e9f5f5ca9f797a4cc73d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "targetKind": "body",
+      "targetId": "chronicle.apology.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a0defc606c4a1f21f317782f9246555d71bc659d6010f05d306b3ce878fbab68",
+      "targetParityHash": "sha256:32a8e3b1fd726f786fe89db4a533524f48714de5a2a1de212987ec0d9db82480",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "targetKind": "body",
+      "targetId": "chronicle.apology.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:79dd2a67f986404b5bc1e72d4bc993015fc14d6af86c33be262267586977d50b",
+      "targetParityHash": "sha256:3ae12484a513b0e12c17148caf341e6b11badbb8d0f89d33a184f6b0ee77d344",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "targetKind": "body",
+      "targetId": "chronicle.apology-bond.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:34bdf2942afbffebbb15f12b8eb7290e7a0680058fed1c65ee6d5585f50aefbf",
+      "targetParityHash": "sha256:517ab88245c8d79a6efde7611edd3f6846243b256257ff8cf48d438d43f10bc0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "targetKind": "body",
+      "targetId": "chronicle.apology-bond.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:87d592592ed83af3b8ebb76365187dd1cf627db7a0c194ac71a3ca52331c13db",
+      "targetParityHash": "sha256:bef91b2e56d71e4043d0b1ac8753c88994ae7f0122ace66505d4b0e63c30a5e8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "targetKind": "body",
+      "targetId": "chronicle.apology-bond.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a38b10c0d75cc3082927d9644c867f1e1f4e406331741387beaa2ccf8f694d22",
+      "targetParityHash": "sha256:4f3f0d81deb0eddd20ba4e1ca71fc3deb1e3941046b63358f8eb5ec96076960e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "targetKind": "body",
+      "targetId": "chronicle.apology-bond.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1ec88b95e54017027c51d0d6f0266d9073ebbd70ca9db4c79e36b32d4d3765f4",
+      "targetParityHash": "sha256:45f1b40172de628875e9a8028b9e5ba9ed9718af32ad3a261a6266a0e04c98bf",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f08bf5213df0c6c8e9c654c51fed14dd741bbc25ee916f3c7858d1e1f5817260",
+      "targetParityHash": "sha256:e6c47e8dd6afe10f39f109d78ce8f92ffb8c36c0070215b2e33c3cc9338ef6da",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c61274b0294d0adfa9de54e58b07926a2f753547e01bdddd47d15f362fd2f1b8",
+      "targetParityHash": "sha256:d98c63b5401abd0c1ecda1e0f968a611fedd4985eb6d0c15c6d88ad37cb93b63",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1ecb0aff83b320a94a697d1eb25c141d187b294af2fe5c8e6fc34f81282ef013",
+      "targetParityHash": "sha256:b3c63f09fdbdef1b7346c95061b89f7e70de3c669e1920c99c8c636624a8707f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d910713f9a7bfa08730bdb1dabeb9bf2050ebc5c643532b742da081fcb171ccb",
+      "targetParityHash": "sha256:48b07f5634ec2a1cd18c579c17d54404345c547526ebe7ba69fa141fc4709f71",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f2ac39d2bffbff9d95c862165a628d672f22b68adb692a45069cf0c74c417426",
+      "targetParityHash": "sha256:9bdc49e728e7aed4291ce4a89f6ebe3b324dd3f97d699629e3ea0f776b792db1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.argument.with-cause.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8283fb71c0c7df25b5bdb4c6fb2bd60951bdfe6f8fe0ed0d3d291395ddf11345",
+      "targetParityHash": "sha256:d6589a49da0f750b48b6008489402010ad9ff43109040c53e92a7ffac06d78c9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "targetKind": "body",
+      "targetId": "chronicle.bestfriend.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1378dc5b2ed8f10a65fe695981cf16d0c48d9e05dd3711c2c3a6f9fbcaff8f88",
+      "targetParityHash": "sha256:c40d9a8cbce4b063a13fa7728e082008bde35f0aef34c24ed6664a5e5939b8f9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "targetKind": "body",
+      "targetId": "chronicle.bestfriend.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a457eb2f536cc515a295b16456eb559c651e806fef3e3b961da468429ffe3901",
+      "targetParityHash": "sha256:15627c38dfd6c3820eb5e6ca20de58fa6c5e7595042c60f6e61581a4197b7272",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "targetKind": "body",
+      "targetId": "chronicle.bestfriend.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:48a19da7c58adf24dc22c07a01cc367d3842ca148dfd0ee1290a6b676139c162",
+      "targetParityHash": "sha256:0d7b340bda5a0bef67e32513d2d3c87aabd3d6eb3358c173869c2795cb0bd2a3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "targetKind": "body",
+      "targetId": "chronicle.bestfriend.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a6f383098aec5f08859ac595ca9d0447cdcc038c0b543e03a407db1a1723696c",
+      "targetParityHash": "sha256:25c3931157e40aef68e518b259c7bab5d08851e2fc660cffe41fbd26e842536c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "targetKind": "body",
+      "targetId": "chronicle.bestfriend.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:67b3fa1d02c34efa2b633ea24166b1ed8c1b45a5ad1b262f704095be015da1e2",
+      "targetParityHash": "sha256:7aab81075bff86bc6ab2e25758d941a4e3ffbf1e0cb1d9a64aea751fd4866a9f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "targetKind": "body",
+      "targetId": "chronicle.bound-block.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:500469968b5cd83978be09d6871efbe1e9aa56e79c7a50ea65ccded267230e6e",
+      "targetParityHash": "sha256:2221f9b8fa782bd7a43da38f4eabe44b5d8b8018d2a626aacc5782ad2e529c7a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "targetKind": "body",
+      "targetId": "chronicle.bound-block.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2304f130312186497af28ec233dd5725f2618a4498b27ffa35830790649ca789",
+      "targetParityHash": "sha256:50d45a9c07fc500d80b0a5367bae9715a4ebf77cb28224ecf2e6a062c51555d9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "targetKind": "body",
+      "targetId": "chronicle.bound-block.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a9f2de63d80378b13748d2c55220abe3b630e30d571c7dac04052007a30c4106",
+      "targetParityHash": "sha256:c64ffd927237e4657858169b7f8a0ae37280cf54b7220f7a87d31ef6a3fc0c14",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "targetKind": "body",
+      "targetId": "chronicle.bound-block.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4f2c5e88d8dcb5222a285600df2373a21ad9d83f0bf708a327f6652bd635ec72",
+      "targetParityHash": "sha256:3ce376ab28d8ed45a1a96794b1e1ee85634770de8a3a5505fd750d4d144a454f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "targetKind": "body",
+      "targetId": "chronicle.bound-block.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f3a33c19bf92865969b039f10afdf7ef56fc92d6891d47272a811313b50ff949",
+      "targetParityHash": "sha256:207f0e25050704d047f365f13897c97840ff7a58889804fb5a9d54f125f979e9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.brawl.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7e6d46ca884c9a7f1d3de15e477f505afe302c99c1bd26b5bb4cd9389badd79f",
+      "targetParityHash": "sha256:e6fba91dafc674a61d48b1b88786295403690c3578fcc34d6dd7998e185c1230",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "targetKind": "body",
+      "targetId": "chronicle.brawl.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f64ecea20c1030435a6ec0b058d2bb256b894133fd4a407be0cd3fe97d4b4d88",
+      "targetParityHash": "sha256:bcdb999917581e6fa624814674b8faaef501a5c4ef7606bcdd5e882ab6d51190",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "targetKind": "body",
+      "targetId": "chronicle.brawl.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0ef188bf9c0c85ec47741bc4799f5e456a481d5a756dee96a4b4b3b18342239c",
+      "targetParityHash": "sha256:7ecdd90ca34dd58bf8606069819bb8bfe3a8b9d4a87321244914c97c7d0eaf00",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "targetKind": "body",
+      "targetId": "chronicle.brawl.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c44ae127f3dd1364c4040367fa2c97089c21ac45dbe2fe3c229491057674c0a8",
+      "targetParityHash": "sha256:a96d3976d7938746a9ba454ab3759fd6a496838e4d9b3888e51cdece3ec1caba",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "targetKind": "body",
+      "targetId": "chronicle.brawl.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:52e4d6781c07a07ad70a9845d9895499ff82235d8c6e388afcf58afec4a89d89",
+      "targetParityHash": "sha256:15ebc810143c3d3f0a805fa7090e6f7b90282f40ddf81843ada77f80e8eb2c09",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "targetKind": "body",
+      "targetId": "chronicle.breakup.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:30dfc0ce756c9eb3d935a42f7264f427e0819316c26aa321abaefa05ba655a22",
+      "targetParityHash": "sha256:53ecf5b6ea06c0b78b584df77f538600855b7bda3dcca036cb3ab4dd3a0be8fb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "targetKind": "body",
+      "targetId": "chronicle.breakup.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:df5d66f2841623271a03bb9f504939feb793005528ccfd4eb491b13a9a8c6698",
+      "targetParityHash": "sha256:ad43d4a8e8659cc5a5a60fea798459a6f9f61ab925892e66d21b12849894427c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "targetKind": "body",
+      "targetId": "chronicle.breakup.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:58d760cc50844337f032f8448a3fcc605474da4b4457c7e5e97041a876330040",
+      "targetParityHash": "sha256:2c515854ecf64014fc5195d62d39d62b25dd1769384d58eb1b5e65715c88ef34",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "targetKind": "body",
+      "targetId": "chronicle.breakup.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:68746fd07b8b4fdf7268738483cdeb21adfd0d2bdd9c101d65f1d63b1290ddfe",
+      "targetParityHash": "sha256:243b5418fa766f004fd85b4fb5ca47b1583c10f42a95c85b5681399b93414aff",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "targetKind": "body",
+      "targetId": "chronicle.breakup.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e6f191323dfe0ae33699d048c94d0815c4618c25fef7649fc757f969eaabc71b",
+      "targetParityHash": "sha256:1491a36731d5c186a418dc1e8e745075ddbd85bb54c851a9dfe9ce9482b457d9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.care.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2dca177b041580fce93275c8c9fced20163e40c4ced1c862e59b42edf37fe49d",
+      "targetParityHash": "sha256:3822cdf471a7034af1cfaa2c0782243b263b5dbaa22354d11ef553a2d5d62069",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.care.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9d8489ea642791ff3d247b41a5ad54960aa5ad3c4453b3c930699f6b3b82d1cf",
+      "targetParityHash": "sha256:f6e52932225f0cf1903a1e62a7c1ae852cfa9569d85d3046a7969a4d4e613d4d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.care.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:82245734a2833af6521ac8ea90760ce5adcaa8f43ffd0ec2bd1e5a07d926fe1e",
+      "targetParityHash": "sha256:6191114957938029f6ead28010f6c9dcdf81d739e376c76b0fc7b8fb51704f5a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "targetKind": "body",
+      "targetId": "chronicle.care.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a01fce1a24f3c69d3e8971e7aff1dbf4aa6e4618c116afb90cf90c08b1ac7b1e",
+      "targetParityHash": "sha256:30b0732446a927057f03c0b5cfd20db78d058c5277b4af2e0bc03ede94150597",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "targetKind": "body",
+      "targetId": "chronicle.care.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e91a8afdea53a450bcdeb37f4787702ff88e33def0438130bc9e2e646ab5492f",
+      "targetParityHash": "sha256:abca240781ea63a082c6081fa2ffd92a9c4f08a45f9a4ea318e91059ec588f8b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d2a75ce427ffed237ab810805d015999cf0795a386850fe69a0639fbb471b249",
+      "targetParityHash": "sha256:d801357a70fc53c2519b9f12f7f049bbae617a88f9a34dc041b2b6a9215b5505",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ed5d77f7700f1184b09fed440d64017977862608994ebdd167dd01c0fd10a7da",
+      "targetParityHash": "sha256:15e89b12d5287ed8fba761cb9e061d17134063151359a472729a8045d8683d03",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9b9c6d0de3a02f4a32861e9b0e60d887f13d01ba72840685c51c7aaec41b1f5b",
+      "targetParityHash": "sha256:aa843b5879c42daac0be2a0f2ff4883cba987d91ab673fbeea85a442fc535185",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.with-topic.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c6a237cdfae6675319f3a3b65c4d0c0cb45f0e9d38a9bba51c02717cd7ec7f84",
+      "targetParityHash": "sha256:9cbe29386cd68db8a647e2602125fe6895175a2d2992c6308a2db425d07241ee",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:17b36d47710cb0607067d458a5e9ccb535c16993ab677fb67589d30228702abb",
+      "targetParityHash": "sha256:05534e21b35f5f7aa5ef9343a33f6e6e88ccb643d5c7d1a6869d927a82b77ecc",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6866d67fe740b5899487139bc177e01b3787f6c472b528335d47d1e20c186e4c",
+      "targetParityHash": "sha256:682def1dbeb46b02ad465ffd1452680bb5adc9da874f72147d26e4617767d406",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.shared-history.brawl-bond.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3ae7da8f43e7a0f45ed2261c74e49f1f2d3c0b7939d18ff4281244bf32f069c4",
+      "targetParityHash": "sha256:09edca2ef6edc0d7e149e4598e1899a27e62f51bda8aba5f5ad6fa05fcf61bec",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.relationship.cold.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8e791e3c14b4e5047aea9dcd49178c521fb46b0007a58cdaece5dbaa22070dfb",
+      "targetParityHash": "sha256:840e924f1a17d93d19f4dfa688f65d4573d64b8e32236c16cf7e6c3a47b8782e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.shared-history.comrade.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f7e404358c07ca0ff66409d76ad048cb52a37882fd4e703995dac6dcb58ce6f8",
+      "targetParityHash": "sha256:204b4d75a7c83ed9d9c3445efe84ba4e0e56bea0a240761982427cc9621f6f5a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.relationship.couple.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0a7e05a76034ce9b75c941d4e3f7f38a13426cb56266c0ad7f99bc43b8b8ef1f",
+      "targetParityHash": "sha256:c6624228ce9ae57e50c59b8e407b421717e052ca638cd59f19492e783cc027a8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.relationship.crush.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:65ea4d390a8639af6cc89ba89147cf0aee426d80feaf8ec61f827f7588ba4fac",
+      "targetParityHash": "sha256:d8f20924d366e4ef6317a973fc9006709ed00d387e40e95e0fd65488901036b7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.crybaby.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f8ed6c2f0289bedc6ade927e759ac877391237fe0249fe73cc8b8c96dab70ecb",
+      "targetParityHash": "sha256:a63d439cdd35584cb04b25758451f046e7d1f1a2c521905b9c0eb274e85d9441",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.eater.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ff0caa7d1255b269812e7b96530bc23f9590b873a5faee017092d30708d799a3",
+      "targetParityHash": "sha256:6c76e6a64e22195d086386df10e6683e79ced2106740c203ef5b16fcb36640a7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.relationship.ex.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d16914e4d342bd3ef28a0680e2ebfd77bd1c0c87b7c23073acbf0a0426afc0a3",
+      "targetParityHash": "sha256:6929ca378d1ed892554dc58b8c76fe0e3f29acd02e2b78a4d12d538fa7f4066d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4599c222afbe88c059585d658d91cec96b91c5ba836f3976d9fb0e881d921f14",
+      "targetParityHash": "sha256:49f6f6a08624e492535ee1fe00035a2a67fd5bdea2af74d4d6366e0fdee14bb7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.hothead.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3815a66140f6273086b213931df38d73c447aa9ff9b793e5849e47f2a27713f8",
+      "targetParityHash": "sha256:58383dac0d4eff99ec4f9eab9cf71abb1b0186b37a59c418debfa9bba45fe066",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.hothead.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d50732d67a7f814c16b6607c948d6aaad4002bdffd23a345ea53234532645287",
+      "targetParityHash": "sha256:ebf833233c4153abefd7b754b20da8d75426c0eecfd5444d4bf6890fc1395517",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b27cc4434b7523292a9c2b22a23d500eb549934e652f59a426815e75e14b0478",
+      "targetParityHash": "sha256:dd4591a747b370784d9bbf3bff43e279323389acd617609ce42eae9de8a307ed",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.actor.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:47a037b2864960af1a4416da2709a13746dde97057f6b26dc63626e6ddd6ac76",
+      "targetParityHash": "sha256:ce1d59a0f973263430e4c351936c611ecf15367d32098858541920a708fce9fe",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.relationship.rival.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:02e7adf0b30815534258e8cefb5ddc8108dcbbbf2c005df8ba2753de6512ed19",
+      "targetParityHash": "sha256:df9d2a7d26ba86e342c7c90c4b2c7db7c7174a81b776e0de8446f722b702cce3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.chat.shared-history.waited.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f2aea050d8fe450dca3c2dfa828764b3f1def5505ebef5c25ba2cfdf605170a7",
+      "targetParityHash": "sha256:e64f2dbb232dac8a5fa8e6b8005e395caef7cd10f31af8a2f3ea3534fc0ebee8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.comfort.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d6e5e4d0b6529a3157c145d1a7b893f9f6ef4a7cf286b1ce7039f64b3c5a5b54",
+      "targetParityHash": "sha256:e603b56365b8f26aa1728042751b365f6559cc0a9e79469b931d40925359dffb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.comfort.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:cda4e8b1a0f70e6914a5c60ab5a8e904cd4999aa3bff95fcac0f0376adacbaf5",
+      "targetParityHash": "sha256:5574330de5986f0adffd9819f1430ed61fd27142b00260bb624bb0b478a76028",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.comfort.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9b6b4cdb907229a42d38dbf3057fea050af0c46527e8f975c4cc25c3773048f2",
+      "targetParityHash": "sha256:777459669827eba18d89c1f73d3e6dc0b1617e876fc49fb57baf1620acfabfb2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "targetKind": "body",
+      "targetId": "chronicle.comfort.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9a7cd16dce92d1a7267d4afb8e154d5b62d6b192d7a7faf62bf6b6614b25dfd7",
+      "targetParityHash": "sha256:d097cab78cb5f3229b9664914ea68556c5553356626e1a9c2084153ac43d4d68",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "targetKind": "body",
+      "targetId": "chronicle.comfort.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4f193f7455464dac52fadd58a37cd3bd55efaf9b38081ec6dc8c7fd2998476ab",
+      "targetParityHash": "sha256:c7cc2ef3b29847d6c7a698fa7ea6ccdb7b2524f7b81faa3549fbebb0ec076499",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "targetKind": "body",
+      "targetId": "chronicle.confession.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3d0f3dfea9a560e278b2d7b8c5fd2f90436677aa1f0b3dc51793f31ff93d6aaf",
+      "targetParityHash": "sha256:b460f5b9c01b40bf6389029d7e145be5af08edb1b42d522de1a3759f5ce0d1da",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "targetKind": "body",
+      "targetId": "chronicle.confession.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:cf0fe114eeaff0b40204607401c699f5ce64c6eb8dc4e17dababbc9c2cf88c4a",
+      "targetParityHash": "sha256:cdef7d5d88922d5ff6683278fa82591b2b71e393388d73a3fde4f7e5c47a5df5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "targetKind": "body",
+      "targetId": "chronicle.confession.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1bca6ba8d9cca23f419c32850140aef3a1cf64e861ffb1d6b75ef55ea929b71d",
+      "targetParityHash": "sha256:58fc5f859dca4f0337cca0c1403685c84d00daf4fdd67310e625f77cf98fef36",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "targetKind": "body",
+      "targetId": "chronicle.confession.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d9e8897ed5c490e8ef462f5eed33870607461c493148748088b67f5c49e650b8",
+      "targetParityHash": "sha256:5b93517e0c02322b6cf23fcab27fa77dabf3757707271b8736caa45105be6fab",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "targetKind": "body",
+      "targetId": "chronicle.confession.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:06866dca66ac442c4af6ec732715f0e831fd93d5541076b44077b40a286c162b",
+      "targetParityHash": "sha256:1465d7c592730ffa16e582301fab8115f79a13d0e9fae095dbe5298247841899",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.confession-fail.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:bb23c6be18cd387509b9c44f8bc9211cee7d9e539a4b58022bcf3ebcd3afe477",
+      "targetParityHash": "sha256:bf03ed4fcbdc338d3b83b63123ed97fb04e5bfa8546ba54f89870d5394161cab",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "targetKind": "body",
+      "targetId": "chronicle.confession-fail.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1ecf02c7159b5c57cc20db75ec58fb010e0f1a6242557a6cf4c4959c7569bb6d",
+      "targetParityHash": "sha256:ffbd9e4c4b4b8b675158cdc69a2a72f6d2a4163111f1d346e5f37160f2b6bde1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "targetKind": "body",
+      "targetId": "chronicle.confession-fail.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8784cdfbea441633d50d6355d451ebcb016d7c1ce052c022758716b150156c88",
+      "targetParityHash": "sha256:372f8438e57d96aca2509d3d87fa6296ba571525a77f78b01c532a17f149cbb8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "targetKind": "body",
+      "targetId": "chronicle.confession-fail.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:76a1d3635e94c950ad91b610b92995e43faa11507300db1469bf9eba0aed69a5",
+      "targetParityHash": "sha256:daba97975b6ae86d0f88edc65070d35237063ce91de8d422983326036040203a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.date.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6346dcdd26496f5f0865e1b991ea4340e9acf6ae38c63213f62804657402560e",
+      "targetParityHash": "sha256:3d01d909589bec1dd21d12be3b68434258d2571f2e10a97c0c8e477c3f870f8c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.date.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:18f1920ae187a440e338d5fb7235554370c469d17ec755a99f474bc0b6e182e3",
+      "targetParityHash": "sha256:41b4af706321fd134fb6a17d3bcdc7115134a6292899f02132ed6be7b60c0c8e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.date.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f3d0e6f60d2435cbaa31d9d02465cb3926f7d9eddadab766856eaab956b3ce36",
+      "targetParityHash": "sha256:9cafaa699c6506b4c30f10f98a606b7e2c2fbd1d51b6771e8432b76725ac0039",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "targetKind": "body",
+      "targetId": "chronicle.date.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b01694ffdb724e2a231c68c3f72591a390ca3ff31497479b1f20fd11c848a636",
+      "targetParityHash": "sha256:985ab703e71d63562390ff1c1bda43644e3ee3e6b7a6f6748fcfca42a3c41f9f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "targetKind": "body",
+      "targetId": "chronicle.date.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e9e6e0e57cd70edf45104ab749254d3e73bf289deb7dbe5290e7abeb9392ad8b",
+      "targetParityHash": "sha256:9d30d6b6302963615a116ad33eaa995d324c2281226c3557d49d9b206a10bd0f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.era-famine.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2ea8b9de390012b68e686486f242ddd523df4c2ec848c977890cbe5e75aa968b",
+      "targetParityHash": "sha256:21229c50e86ed76747d0f96bb0e6dd657e4610e2e936a5cb48d992551187eaa9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.era-wrath.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:01fed8bd100754063a98ec13e802a28265a7bc1fd7609c7a62ef187c33fde649",
+      "targetParityHash": "sha256:df03a89ed55e81894042bbd3e6076c13f830e9ccb16e79c528c8cc2e67027711",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.fallout.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2b638d5a987ee4e99748c0190d59554ba47f36db7e80ecec4b498221118eae95",
+      "targetParityHash": "sha256:4abec7bf4c13c5bc7f00082d9c192a9cce5bac716a7afae67e65663371649931",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.fallout.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7e465bdc9621d6444232d48903fda1790bc511a44a5b35e5fa455470135a82e7",
+      "targetParityHash": "sha256:c4dfee2dfa66edb46b016a95fe5d1315c478fb109f03f0984e5ba32c6737fc94",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.fallout.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d8f7ff439ad2bf1f75293dbf247c246802e9ccaed397ef007b23b234de33c2ed",
+      "targetParityHash": "sha256:52f6812649046446b9b7b4213e9d236a2660c26ce65091a1fe1f44ac29171286",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "targetKind": "body",
+      "targetId": "chronicle.fallout.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2656b1ede98ff3f117d202f0b57a43b58107a0291acb2c383fb89f848b0cc8e4",
+      "targetParityHash": "sha256:b98e3eb4815dbf00bb8307868f3d4d396f6f280dbbe77589dd0114ce61005fd6",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-averted.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b6954c3bfd8a878301cb777b69f181a18a1997c1d9f8de8e65ecc849bbfadda4",
+      "targetParityHash": "sha256:9ffd7e36b400eb913bd020ec214fdcb5225da3d4ab5e1a9e878b6356fc1e0691",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-averted.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:54b2d887956a19cc57d31da7ecdac1c2497d536d49a081ec10917f36bae633ac",
+      "targetParityHash": "sha256:0e54349fe226f2c8f7032b7c3c5b8fb569cf3b2348c8bd829e565ac769360807",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-averted.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1d417fd63b633292267257360417d6e9e1b4bd81cc469d8f5cc5962a761b211e",
+      "targetParityHash": "sha256:d1f4d36935263ed79dfbb4a93d3deb112fac17419863e95d92901fb6be056dcc",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-cull.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8bd010fb122bcaf595bd9a8a804043ba7a05d3047b35bc8698696a5f3fd5aa7f",
+      "targetParityHash": "sha256:afe41da0f1614011af9a5a8ccf9257e7180b43287bc28e160b600ba3f8a52bee",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-cull.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:987695b5cfe7221bd27c7efcfb2999449575a78281cee4e7065845f6bf3e5f9a",
+      "targetParityHash": "sha256:26a72382d42e60345f33dc5a4335e05e6e473fbac0921a96458051358341d480",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-cull.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:962c2883b650b9bd6a59d261dcb048def0e0feff11b54b20ebfc5bf1e2e4254d",
+      "targetParityHash": "sha256:f851535a29ebc45eb6217d6ab64b5b96ecb43ea6e2c6dba142964b3ef5307976",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-over.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:42af9b5f27c831d333f56516fdb93dfc874e171af586bdd319635266e82e82a1",
+      "targetParityHash": "sha256:a2c6cf927c6b15e9b4e6784c08339ff96f2b43f9cc42b933185d9bd1c6d4ff24",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-over.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0b04f3236852d8fdd8f864b5abbe79139e4bcef57d7996a71d895d06ce87577a",
+      "targetParityHash": "sha256:7a70b1a439191fd9535a996165eb8d1d832d829ad2925e9c6533011b611d246b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-over.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7cd7a73f6318394061a8f8d6e818558337ce0f9f8f1d3453dd68093e21739602",
+      "targetParityHash": "sha256:a5ce7683157d6f4c5c7aef62bf7cf3cf0e47a080988bbf7b63debea46927fe1f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-warning.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:646ac92310923ba8ec3b3e7987e28d62f837e540bb56b4e145a248f6f128aa41",
+      "targetParityHash": "sha256:d2b50a29034bf033dcb0939a85c09bc7dcb636c50ba9267dc011ae963cf6bf04",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-warning.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:552f8d4e31d21a2e742435014404673114ddeded5522c2a8ff46b4f625f4cb0f",
+      "targetParityHash": "sha256:c7edd3ff3f7c2d33a5fccc1e0e1d71f192ac01a8164e5610ec877ccbebd25c8b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "targetKind": "body",
+      "targetId": "chronicle.famine-warning.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0efbd5f0a7bacdaa6ea97bd1f73add0a461ee1931b240807269a73387aa13dca",
+      "targetParityHash": "sha256:b9a3db88d1bb8b5a275891791be36036be530f7a3d70ecb9d8936db4614c2e54",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9e272587ecf581623b760cd80c343d70adcfb578dd08d7154e4e9661a849e2c4",
+      "targetParityHash": "sha256:5eeb22dd54a3dec4351e057b7a3a1b27fa9d838adc7f71af43a069c50fe2b950",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b630299afb731571a8bbadf1dc1bcbb09759d9b9a244bc2e3b57d80442695b52",
+      "targetParityHash": "sha256:9da28ef6e074a5992c2352b51fcbf22e5a05688904f3dc6a6472a8ce5283e60b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1e1e98da06ee1886183be825d0e262a7aabe59862aae65389ead5beed8c52ada",
+      "targetParityHash": "sha256:856d96e1914fa2d4c9e6fa6945e54a58c347af6028d3db7f4d96392ec90fcf25",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1a0ec375fae76b2bc08a00d0d1c1295f10ca28867dc5981ba9de049b28c5ba28",
+      "targetParityHash": "sha256:9e3f4f4ac7f8f09bf0c754021bc5a50ac0d678e8a434b6d52c346f67ae06af13",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d76de6b1ffb2b44ff27f79ffdfac8bb97ea5e6f0f7d7b3bb3f159c1cae3faf1d",
+      "targetParityHash": "sha256:8d63268f5537ac605e138bd8e29e1cb97ad80dd4478db274a203dce1d70e44ab",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.baseline.006",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6b85c85059cac69d4229b9741ff4768401f865b8511768b83fb66ba7b3e671ae",
+      "targetParityHash": "sha256:9d825d1d3634a44222d2757f1ec1daadf54668bfee07aac758ac06e0c8d82bb7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.shared-history.brawl-bond.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fd068dd68cacd880a189be7723cd1c26805a0c9e750363f041970e2aeac4b9bd",
+      "targetParityHash": "sha256:6a28d172249d2d298b2cfdc5d51bb9dd88770b68b6ff7ed68101dc24d22f0261",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.actor.eater.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1266f23cde1c937fa1754eb85437fe3cedc177586778fbc2b3aef5eb63ebb29f",
+      "targetParityHash": "sha256:546776fb10c74654761d421815397d46158fa018e2f97938d51eee3fa4c4a6b3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.actor.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f841f43edaa05bf4b30e3be34694defe01b3158d84b188f67aa6ffa673b15a0a",
+      "targetParityHash": "sha256:71170fe868f6664f3f856205c6cb81220907a852aa4b5eb0d0d9e7f3b6133310",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.actor.hothead.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:598b82ce44969b9847377dc3819c3673b4869e803f7cf039fee93567de78af50",
+      "targetParityHash": "sha256:b6012c258de78285cb854faccae12512a588d3b45dd8a56cc0efa13accc8fea3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.actor.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:433661fc61f5dd113849bd4aee256bce9ae46f9bfc4f83546e8729c68fe6b2c5",
+      "targetParityHash": "sha256:7d68583d09ba2a1b5ce4fee9ace1b05e02659b98b9835557f598d7565e95281f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.greet.actor.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:103b20bd033ede3888333b6bc2bb5f6fe2b895831f4f48741e8df41db492da65",
+      "targetParityHash": "sha256:249c355a0e623f155d080595135b581080d9ed8b045f281c405fdbc1a05f4cff",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-comrade.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:021c26553d49970d55ec224cae1cbc92846510249abd5824550f85a8d48daa76",
+      "targetParityHash": "sha256:4ec6df4045dc11b675292ad3f80c08729a00221b7102f7024e5e3cb54ecad3e9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-comrade.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:cc2410aafb5eb565cb781f99bd9f07f310ce84d81ffd388ea8ca36af08b7e457",
+      "targetParityHash": "sha256:ac64af9d1d40d973a37cb408387e13a43ccb75fc1359019f076c8999d0484a37",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-comrade.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:822b5f23f8c50ae225c77974d089cd420a65c23f5cfa6dd9be121c5fc5a89610",
+      "targetParityHash": "sha256:43af7b60e555bc2149be7264a81a0fe794ed0d1abed918ea9fdfff47abf9eaf8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-eased.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:066d4b04afeeba500329f8f8f6509f34f9d6ae925c200f6f3c515442af44bbf0",
+      "targetParityHash": "sha256:606233d6635ac6f0ccc593cf745ed6eb7f6aed9fa617aac9c0c0accfcad88c08",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-eased.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6d8d1b1ade7ed4a055ef6ffeec9f8a7be407d7cea8132276c744a3ecbd349a2c",
+      "targetParityHash": "sha256:47079696ae0f0e7e5f0dce9ecfdef7357be0fde3a258b97ca93e5d5e7b5f1ead",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-eased.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8a115cd6850b212165d9170c3a514fce393828f14c71be34a83a78c6aca376d8",
+      "targetParityHash": "sha256:c81fcac9fbd638ebbc8a887c3567bb7e839235858fd9431fd52a87b8ba7fbef5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-gratitude.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:041e0725ca6b1c891a9e29d40f904c4abe7cc44e7407d2e23db39baad45e46b1",
+      "targetParityHash": "sha256:28d405d9357e5c3deb8e79e4a8aebc12baf7191d029ec960c31edadc632b33f8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-gratitude.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:dc959f02a2826d53165c5cf00122850ba321a429415ff7bc411c03119072996b",
+      "targetParityHash": "sha256:6b4e9953fe7b09bc782575c81fbfc625fd70b224794826bbc5a1892b0785aef5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-gratitude.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:dbc4d892b9a56977d62e4d14c7ddfbc145fe1022448c779a6746cb702cd4899a",
+      "targetParityHash": "sha256:191ca59e3b8c43482b04974fa9f9535c3f991be44885160dc549cffc71477519",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-resent.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6e51876c987035986589dec94c9886482d838fa799c582c211ec3b336fbaf9d7",
+      "targetParityHash": "sha256:16d279cc1b9acc9a8b52d5116c5d9075ca3f57093c8c006b7a200b601b9b5937",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-resent.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:faac82922e1ba8bb4611cb4e0f6f47562b8dc4a9d9c5d0b417a761cda0f0c640",
+      "targetParityHash": "sha256:265f6007ae22461e47c9808b06477d61c4de246f993f1647268da46a219c486c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.hazard-resent.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6424f75d08adec608d656fbe779e0e28d3fdf7ae33db3e892ccc33fa8e607797",
+      "targetParityHash": "sha256:28ca4864925d31a1de484481a1bb16ea2daf12cbcadb264c230e19e528e3e36e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.jealousy.with-third.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a54f1ff7b60193b885543367bf5453b1ee3136aa9b2c3a3a74a548c9d1f30610",
+      "targetParityHash": "sha256:f2c500d8ada1b1927428eaaea8c952034005674aa886b5814d8ad607093074f1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "targetKind": "body",
+      "targetId": "chronicle.jealousy.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7492839b446709a884b5de13dddef22f736ebe31d27bfec8d44e5a6b8f222f04",
+      "targetParityHash": "sha256:81df3b2a46c6de229252903997df93effa160683f3f8fbbdead42c759dffa1b7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "targetKind": "body",
+      "targetId": "chronicle.jealousy.with-third.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0a847e72306356d27abbe9f5f3c6d9ffdd201fd766a713920d6075982650ab20",
+      "targetParityHash": "sha256:8593497a94d82be4b2d7eff68a96973798a7239c79c069487992f5ee7cb6ce32",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "targetKind": "body",
+      "targetId": "chronicle.jealousy.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c3cada9bf6e57fd84834866a21ae6768aef8f072f9a5c28f524a498c451bfc90",
+      "targetParityHash": "sha256:81aa4ca4bdb90421f155f7dff367cf97d17e5b528ff250b48b28acfe76e7f8f3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-crush.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b3e017cca4c9e0f5ba68c293be4cef2f421e31889ec4ae3bfb86bab3090e6b7b",
+      "targetParityHash": "sha256:cd07749525cc616dac40684afa235ce76ce492323bad6befac6ec5f69a9cfe4f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-crush.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a5ba39a744094497c43b92f49fc7845661e790702c9de48a7a9f73d5478c1123",
+      "targetParityHash": "sha256:a1620d251e1c5349b2c5b4825faa659b52c03436a67d29b031fee8931e6ab947",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-crush.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e91cb4e69db3734b967a25e8980c353ba0c6bc41d5a200425b5311f8eed823ed",
+      "targetParityHash": "sha256:1b90a849292a61562c8480c1cd98e89b73eaf42d150f36164c0a5777b1622659",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-partner.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:88273464374c1412d6cc68764e7076a1bcba3a406b31fc0ce1c638c0e17121bc",
+      "targetParityHash": "sha256:ccf318865e542063029f18c92fb8bd66ebf9dda5848b708750c7aac75822005f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-partner.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d1ab8edd9e88afdb4b35d5b0ed87c6c5336bc354d9d1d8cf15484655b999f553",
+      "targetParityHash": "sha256:8b1c9cd9e69e631f855136eaf557ff4ee86f892c2d54fd2299073b455cfa87c2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "targetKind": "body",
+      "targetId": "chronicle.loss-partner.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d39fb0a9f1b9185b158949b7a097df4381aa6eaa8c7a0bbb76c43927bc6663f1",
+      "targetParityHash": "sha256:051e9748b12e572a35ffd2eb6f7b78f854681ab75d19310beec2aeddf09a07fe",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.with-place.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f7f52c4d6920d60ab68fb75a0c63bf2e105bc185fe22049bc855c8ebef5fb189",
+      "targetParityHash": "sha256:66742d06b4c7669d8479d0907e7b35582d8474defd1395edaa08036a9f99e6bf",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:932933d3137aec1f913d3eb3aff8e68ed3d61ee97ae69f95748901d0ff1ca296",
+      "targetParityHash": "sha256:ab178967b2b510112420565062e52547ee90e42ea986a0d628235b127e5c6a1e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:74b0a0d9e4e0e99dac547d0dd53cd480feaae27aa9c6b6075be07a15ab02cdf2",
+      "targetParityHash": "sha256:aa2a1e955e9316e442732a0139e3fb2410beff089a2071f98ca91a5f53a6c07d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2592d411d477fa0b7dc048f6089f6941269271d3b1641ae69bb7b96f9b330e2b",
+      "targetParityHash": "sha256:50bcef641b867e4f94663761e348bab0bef948ade88b9142ed776f19385fd691",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5165eb3e88b220354ae376c4647f5287f2e27294b2249c2d97b9fb20c86dcfbc",
+      "targetParityHash": "sha256:44a5cac7b5cee1fb0e0ae63501ce95cf8c62cbb24d1f4240f78c82449ef4495d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:23001a0c216d40d71bcba0081e0b7f6f3d0d763ca67ecda984ae7d1cc884d619",
+      "targetParityHash": "sha256:88c4e2a63da918c1a47ba618e280c50f6151718c6aa47bfd3ed32a496a506c6b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.relationship.cold.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:090d6649523ff0947a7d1d352a1266c1596387aa17e73b8c428747a30469d1da",
+      "targetParityHash": "sha256:a01abcce5d83d9ee9b5ca60ac45c8792a87b7de663fcad9d6401030ae8d7cbcb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.shared-history.comrade.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ddddb072ec137809a37f2334c08b11a861115f41854ac41e293f72b03d00c7b8",
+      "targetParityHash": "sha256:f4d60db3a9c17dad2e4afb18e6c4d5f6c3e736f1465f3f55b061bcdf22dca51f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.relationship.couple.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fdd69a72f0714aa31d5da3faf62d57af9641418b0e18a5b12f07f3efeea58a11",
+      "targetParityHash": "sha256:49c8f676d09a26f1795a6c8255574db4448b7efcee159f78ace356aef25ad5ec",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.relationship.crush.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e8945b027e88092fbc3a1558e17e8740a0f91f1c741de3ac603b72911def03b6",
+      "targetParityHash": "sha256:542e1a52e850c9cddb873dcf2185ad0810272d3ebf78e69c44b05652dbd60c30",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.eater.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fba2290a58ddc966ddc256b893c4aa363c2718b4b71e687c7a0b4243fef54ae8",
+      "targetParityHash": "sha256:41d0ea1fdfb82c6c89b40424c739541eae67f934698bed733978b4094d2ee306",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.eater.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9d11de409697d07a96f9e510cce26f23394b32d22b7724ddc225a1d7cb7dcc71",
+      "targetParityHash": "sha256:77b21d3549c4b9ab9ec6acc61152a2519f176743b4a1c3bf3a0f9601346f8264",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.relationship.ex.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:63119e641a12497733a1ccfb15018206a6769f93424d76f0f89f1b55a40c483c",
+      "targetParityHash": "sha256:5adc8adabc8354cb84b3e51626715f0b40bd4080af5fb2e6acea7465b455ad32",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2b6d03cd162bb9f67d979fbecfcafce775afb8703dbd9bb686ec8cf1aaf829b2",
+      "targetParityHash": "sha256:34edf5c2967323d40be22aca53d1c952627891b30bc26d86e007e925b82c5df8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.hothead.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d429ea388aba7538bb0511b6b52207f20f4287aad2124650e2b4c386d7493633",
+      "targetParityHash": "sha256:252e6233bdca7928d02ef8248b85bd78b115c6ec60cc29c54e3fe5d2c136e481",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:406603ba5f637e26f8a2dc5997f70a742667d74d256b99ae291756daa5838896",
+      "targetParityHash": "sha256:d75ce73f63c44a100445997ba904a1d49892a8d2a662453a4987285f0befe353",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.actor.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:86ef36cb1c0240cb329c5e32e3c58b40a21449197a021201acb7cec5802f0f3b",
+      "targetParityHash": "sha256:22bcb9d650a9e6f79589721b60c02d5681e9dc9052b9a3ee2062a245dab19a19",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.relationship.rival.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c6966da202430515352bedb10559d476dfbeb77fc16333fe535e60da2bee80c8",
+      "targetParityHash": "sha256:3d70b7c64e27ed0daa65fc70ee4ff29196c9dd5122caac07c3b783a2a020b030",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.meal.shared-history.waited.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fee5c480dd81207df83873539149d8169ad665a87a21a40eea7868e091a88bda",
+      "targetParityHash": "sha256:a805f7cc77d4a1a7ee04be075666a06ee5d14c981b3680de538024e1bcd6ae75",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "targetKind": "merge",
+      "targetId": "chronicle.connective.merge.merge-chat-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:24dab4ec3d8dd86c16b312b6d0ebc4b1b2bb472e980ea0552ca53285534b0871",
+      "targetParityHash": "sha256:d84486b63d2e7b6d24566e4694ef9f9d318636be2070ac20787ad4bb59c72e93",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "targetKind": "merge",
+      "targetId": "chronicle.connective.merge.merge-chat-2.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4de5d45ec9a92d18442838cb8f9d328e319c097c5565013faf559cbe48f340d4",
+      "targetParityHash": "sha256:3109b6cc30c071d92e6eee67b96216cce620891a9a05c892a058632dbc56c3d8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "targetKind": "merge",
+      "targetId": "chronicle.connective.merge.merge-greet-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b235f366e87a328b56b3f6c288cdc549b45f21c553bb642f99df9e0744f156f4",
+      "targetParityHash": "sha256:4eec4d5690cb73c0faebb437d6c02f4f7de1c239d2672410504f1255ebbeda16",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "targetKind": "merge",
+      "targetId": "chronicle.connective.merge.merge-meal-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b1274402d2425ae5fed9fdc18f477b7d21b6b493d09af5019bff6c23c84c3308",
+      "targetParityHash": "sha256:4d914267cea98ba3a1d5bec0d9004a98d3d6edc2b89ddf1eb42a7aeadec8c7d1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "targetKind": "merge",
+      "targetId": "chronicle.connective.merge.merge-socialize-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7590c434d2c49d7b22332c21acb70158be6e89ec346518d4c50b27ac397522eb",
+      "targetParityHash": "sha256:c024b2c7e82cdfd3d6b0672f46e64c6411e410c46d6f36665882e306c8e6283c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "targetKind": "uiFrame",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "status": "retained",
+      "legacyParityHash": "sha256:9536367a47c13193b749c18572a5752f5af33cd6c91f6658f8f944e6a1c7c409",
+      "targetParityHash": "sha256:7b1668cd2ae853197e158abcf47729d6f5a438b293de40cb12c6f807d71ac243",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.party.with-place.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9c00911be29fb024aec3bfe57a30e991f4efc8e0ba5487df8c72ecb3ee7f1701",
+      "targetParityHash": "sha256:777667584d50c20ba08803dc00a6f1853b59ef50c87b9180d541ebd9976f32be",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "targetKind": "body",
+      "targetId": "chronicle.party.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c71be6115399c3dea374d8dfcdca44d3a5e242d67b7f98051f0d814ba833bafb",
+      "targetParityHash": "sha256:689b22b851830b325466612bbec2d5ad583e91896d1f23b64fe25ee3ec504869",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "targetKind": "body",
+      "targetId": "chronicle.party.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4c22c16d2bc7ce2367f70c214003d623bf283a6cf0c25165a075121a89a12d13",
+      "targetParityHash": "sha256:6fdb16d05e0071e2de3d51b7a5df864da5296158a7a0ad025c374ed433a166b6",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "targetKind": "body",
+      "targetId": "chronicle.party.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:902c3afb53df8321e77ead22f47f94d421a2cc0a7bb8373dfa26d9679520b73a",
+      "targetParityHash": "sha256:f94bff50ddc3c4692ad73b1d67aa6563ffe85049dd13599fa7afefff87d127ce",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "targetKind": "body",
+      "targetId": "chronicle.party.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:46f15b5e8ee89db8542e3d1454301d0b29def4715d7f4a78729a56d98518daa0",
+      "targetParityHash": "sha256:aa59358f8e6a75261e66f7a24fea4eb07018478f76f1a4726b76d3c21caa9aa6",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "targetKind": "tail",
+      "targetId": "chronicle.connective.tail.react-bad-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d327a366cacfd8e5cafaa602ec56f881fcfe22817eb8c25787a91af15691bbf0",
+      "targetParityHash": "sha256:05e66388cc5608c67788a0478652f4e7fa03109d530aeac472e3fc48f0f22c57",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "targetKind": "tail",
+      "targetId": "chronicle.connective.tail.react-bad-2.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:40b7e3dadc30c68b2531854d059b1bd68c3bae56da23b12c05f8349a667c805e",
+      "targetParityHash": "sha256:4aaaf73dfb17abadf6c7a37e02d03d51feb90445b6109cd4825e0fa12a194946",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "targetKind": "tail",
+      "targetId": "chronicle.connective.tail.react-good-1.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5943584864a02dd601251e18e9186a8461acfa35cbc9b94e1ddbf2ce13926d47",
+      "targetParityHash": "sha256:2a4ce186a10c173c6cce1b4c78805d9fb31a1859e3c46ca4913f5d88123691e1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "targetKind": "tail",
+      "targetId": "chronicle.connective.tail.react-good-2.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fe4bc662bf87ca968623b8fec7a7b41a790427cbd6420d48a1f8703acf200282",
+      "targetParityHash": "sha256:e37a6f065faf94a978261859238157644570171db928acff356702d2863a51be",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.reconcile.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:11ae88f184a9992ce12c4669f5facc12cecbe5ab6b3f00532141d8e34f4c07c1",
+      "targetParityHash": "sha256:bc1b11844daecf9c569fa9142ebf97242a70b0a20b66aa040d54f13fe4f7e788",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.reconcile.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:92a7758ae4f086d59bfe8c0ba912d64aab7dede22561eaff9963618ae3c1017c",
+      "targetParityHash": "sha256:7b2ea3b79727067be45dfb61730322ff34bd888235cec31fb26ee36882bfa1a0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.reconcile.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0e912e526a78a9d29dbd693241e21cd29b682d258715838b6c31fcc61ffb9c7d",
+      "targetParityHash": "sha256:6ae3dfd556672e5105aade7e7bd2524bd662d7bfeb9e5c7c282cd7e3a6ad0311",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "targetKind": "body",
+      "targetId": "chronicle.reconcile.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d0b1b18381400bef198d295808ce4ba2f6c9e38823396aa471ca661942d2ee2a",
+      "targetParityHash": "sha256:a7960ab95c17f5af003ee0fa9ed7af937ef691207a164ab6982b82cb21324225",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.recur-again.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b4ab63d072cba8bfd018b9863708f52bc5cb61d240b03fbe83f59b4fa24cab54",
+      "targetParityHash": "sha256:94f8f29c7582136049110b8f46a2a330cd1f54d26e6bb000e418a963ca47cc25",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.recur-many.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:bb3d0e1e40c8fc5c087cb4311496ff6466506e5075b1bde3997401b9fbe19422",
+      "targetParityHash": "sha256:e4b9256e34b937f5fc2da6c49e36e01a37fd6671511c6bf7da1ca058dfbe79e9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rekindle.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b295b6f96832ef97bf165775f4677c29b6583ada71b45d254ad54487066ef531",
+      "targetParityHash": "sha256:aa02d619b26f7457a8d9db7af642e1c09021b1badcceb4cf6ccb4d3e79e8530e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.rekindle.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:29bb6feb3fc90924ec24461ac25483ade40ad84c8104e2d155bb233f8a44aa78",
+      "targetParityHash": "sha256:11959372adefa75c73b4e54ed53fa859adeb85672817a9130139cf94028a8f89",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.rekindle.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d8a4ae19f25d0ca5d85f551c2f431ccbb0b641bbf990aca591481b8286589657",
+      "targetParityHash": "sha256:e19910587300c4f7188bf4cb99b72acd03c0adc93ac21667995e62a7e2a6b35b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "targetKind": "body",
+      "targetId": "chronicle.rekindle.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:adbcb6a21d56985c8e98991916a9a20a8167d112de6a2f0719dae1b715028b75",
+      "targetParityHash": "sha256:18792ea71bd99aa8f599974573c7bdbeeaf1f4d6b3143f778c1ec4546f3cf57c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e34b5853d7fe721593b5f624d54512437e72662ef09da5e49319fc5103c45b7b",
+      "targetParityHash": "sha256:e5bd93c5a6f7725e7dfc1a122ad121fac6b8268ccce0da77462ad59407fd551e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d07110d665ce30b17c376cdf6860203a0195f6479bec26bd5f14878e05c3ba0e",
+      "targetParityHash": "sha256:8b470b3afbe1b10eb77880299ca201bce50dc8ea181b3c8ef59389a5f025890f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9fb9d049be8b2fb09dbd5a101462cd5c09b479c2a2331100390578e7afff0f38",
+      "targetParityHash": "sha256:f51b3e4f2c106b1da0d20c99460326fbf76869194d7fae659f3cf29fd5dda68b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:775647c65d2c15d5d84bb58d0830a5dc372d2d58bbca328531465b5c06152c44",
+      "targetParityHash": "sha256:a56f48393781c8648173b247d7df5a159f9c4902dec00cccb8b6e91e705023a8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.event.clash.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6a53bdf6886186d50a0767a5e715cc4b563d7032240fa50e8195003f605dd32d",
+      "targetParityHash": "sha256:526d32299fd71f57493efd14a4d67c4dd914ee385580c3c3464429e377959ef4",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.relationship.cold.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a0ae854a232d172b62e286e3fc9ac2841faff3796d9bb97bfd00cd9b431206d4",
+      "targetParityHash": "sha256:97910349aa9ec86cadb8686f9839c01c569be62637eeb3e2a24bd2fd4bd4e253",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.relationship.couple.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:90db901b02f143dd64019b21b215b4f92e5cf86eb2ec0c16d1b5d3d5a56dd70b",
+      "targetParityHash": "sha256:96c35a2f76e50cd9cfbdf0a66c7e226e3f869c933a7f6ed43f7b0434fa322b1f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.relationship.crush.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e3d88b59ea4ac8853a4fe4c9182aa036811aa2094e462f5e5fd279461f669c2b",
+      "targetParityHash": "sha256:dc7dfd563278f9df6ec495f70cad2b29215475d8714a75866c916f62f4ac8816",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.participant-a-trait.crybaby.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:06bea2c1fa4904595d8455e9dd31406861bb68f3366442854e3f93dd2c9f80c2",
+      "targetParityHash": "sha256:cdabf6a99e6fa8a7297f142f9650a8db4b010a1de3604ee80d5c72b43c964ccd",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.participant-a-trait.eater.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:300adf890cb394c9df0e177b2f830b6bb21e8f408a504010b93d8131808f95ee",
+      "targetParityHash": "sha256:18ec9f24977c5cd4bc46092c292bb3dac4f8c1f38e39efd58438345b3d39a51f",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.relationship.ex.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d0f2a9024e1604e9a252d26e82fd4f2ace439afb46a9a9e9b7edfd41d53ff69f",
+      "targetParityHash": "sha256:98ee8a65b4bd0f1b591f97d5a74be4d38c8c2be5c0542fd803fee0360c591060",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.participant-a-trait.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c221ac673f42acf1a174560e5f938718303df8e74a762830a8805fb499474e37",
+      "targetParityHash": "sha256:5f5f8427e57e841e79a0bee32ae0ab838cb51adf4f86d36ac21f44cf662de91e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.participant-a-trait.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fa7d96d171cd3174b8b43f59989164940144097f33e05436da2b5498bc3cc277",
+      "targetParityHash": "sha256:9fb85175c9bf9526c2e7e286d4ff5ed7cb8da13d8544b549533621fc474667d4",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.participant-a-trait.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1514893875f64013b29cc669da53e2f4d3c71f286d60189295e679285329562b",
+      "targetParityHash": "sha256:e8208664fbb6770ddde31b43c312264883e408805f92918d0fd94ccee9be2253",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rest.relationship.rival.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:55fc083fd99d30e88aa06cebec12bb8af2e7dc7b64c3adb396e8f7e7dedbe801",
+      "targetParityHash": "sha256:28d310654b95db93eb847246c7a7ce633fec3ef203c664e5b96754d43971164a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rival.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:21e2139c797b953760ec28d112bd43a36a6329dbedb99e6529c4f0e23d0bd3c5",
+      "targetParityHash": "sha256:5307fe811d691e889eb0e866e922603c8f2fac36d815a077c29593a6ce2d4133",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "targetKind": "body",
+      "targetId": "chronicle.rival.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:69606c997c62c2931bddf1ece71732d51ba9af249e21c63a6c6a454393aafbf9",
+      "targetParityHash": "sha256:f7ffcab5a3383738248d4bee7931f2405479cb50bdc3654844addb0f8d98b5f3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "targetKind": "body",
+      "targetId": "chronicle.rival.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:4fbf5b11bf43c8b6a4261afbf7007d21245b530d2ef3f0ec20b057ee403bfb73",
+      "targetParityHash": "sha256:9cfcd71baa18b000add5987f3afbde588a6c2f3fc307a2724923d0ef81c64996",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-died.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3d8c90aca3cd85e953cecbf0f89607b7070a79694148088d505af56f635a68ef",
+      "targetParityHash": "sha256:66d082b89488665e97a76cbebb87f2db84dc293026bbc8f5aac4818f45524eeb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-died.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e474f4162830c1818263abf8d933c2a40419ca0e14bc490be30ed757b94d3ed6",
+      "targetParityHash": "sha256:f03a020368511020f6bc790affcee979b4d60dacb4afa1065421d7b9bb9daa2b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-died.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:77aa58806725b2717bab64a3db7fdb2c40ac5b95863ac4ec5c46e8d96d35f777",
+      "targetParityHash": "sha256:fc952e7220ccf41f406a0316a3e7956caa052f47ff270f716fdd3de7b955f7a3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-over.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:6552dc19c13b2c58681fc5dbebe05d4b386df55bc4c87a6509fdd72265334430",
+      "targetParityHash": "sha256:e3e4f91cd94bda92504a907c97674e5417611778e50275624e9a4de9bb015203",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-over.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f7192c620ca27b70a616c663130d5785646b34b8b023a5989329de65004f85be",
+      "targetParityHash": "sha256:bba2da407f9251fe4208d83d75f3821ae4b3b57152d8f12044dde31c8882d2e5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "targetKind": "body",
+      "targetId": "chronicle.rival-over.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:41e6287e6fb35f0a3843e85b4a666eac0559a887972f5d54b92453d06478ae63",
+      "targetParityHash": "sha256:12a9c830ddc3ca17bd79e6e2de6787f6518ed47e4014f1f9dbc016de6bd29d5e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "targetKind": "uiFrame",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "status": "retained",
+      "legacyParityHash": "sha256:4c60a2c2549d081fc317804efb6f6085404803ec5c6c579f6ce87712c71cb8e3",
+      "targetParityHash": "sha256:bcf2bd57ca5556f0d0696b20aa055a6893f8d5c7e88e225bcc229c7890c2f16a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-apology.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:015ba55282678c4c744a57df6b9ff9fb631fac5e185529ac0d1d34e908175851",
+      "targetParityHash": "sha256:e5773567ed7b0fcf493690ef7cbb19a3e15f237387a3d19c642b24c0dd34fb09",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-brawl.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f6c5bcfa77d5d7d0fcbc5e0d8b8c34871546e3d8cd02803408994590f714877a",
+      "targetParityHash": "sha256:6944846ee74bf440361d7885291b3f7f479a8d2ff36e3e79847490bd8e648770",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-breakup.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e61d80392e3eb835934d5ff230afd589463c21539fd72a299856fcd7db59a29f",
+      "targetParityHash": "sha256:032f3293626f64056cda0fc0a7f2bebbb0b33033a348634e9049bd37a78193c0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-comfort.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:58e37e70fa0899f9a20af2ed2ca1a434e683acd8e4f1701aa069c277661a9432",
+      "targetParityHash": "sha256:a90e01ead8c123e98a7048e50720c2a7fafe776583d70f8b850711309296bcba",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-confession-after-fail.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:b7d8cbfda9ec075d13ead9aae93948b3005235ce41b0f3e1bb81be4cd684e5c7",
+      "targetParityHash": "sha256:4b72db73fdbef68fca1d380c9d50f08811f55970316fc9a5e5876278d979c946",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-reconcile.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c7226930950f78439217a560c826bcb60ef8e8e3455789da4a6ca7850879bd27",
+      "targetParityHash": "sha256:9d93a9b0c06fd9f6c2824f2cf47be2136a8ff27de8bffe2394d5d454c6b469f8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-rekindle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:dbd888e4413f8ebbefff909d283b50f891e052a2c82d7cd05ee889d99d5b0fcc",
+      "targetParityHash": "sha256:9365cb1fb68fe4b2f43ec4309a97c480a46d14fc89883f3b2641506dd4a8198c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "targetKind": "lead",
+      "targetId": "chronicle.connective.lead.seq-rival.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:af35b0c26633e99cef2df77c6e7d1589381ea8358ffbf9689d77a43fe2f2d880",
+      "targetParityHash": "sha256:8b65a7d8ea0ef16066727835375c0e6ee459ade89158b92813b9445237ea9297",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.with-place.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:837e638cd6482c4d3386deeadaa3497080116e9d2bb321e4580e96323c00e1f9",
+      "targetParityHash": "sha256:9cbd2a05eefc4834f2142ace70d61697491f090122c4c33b67f52f65bebcfe6c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ec32cf5ee63171a69d1adabc6fb40aa31388c4a06a473070978446d51ab64ec2",
+      "targetParityHash": "sha256:a4fd514f94c516eac366572398f8bb02f3664e93a251ec64b621ba4554d569b3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.with-place.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c9ea34bcd6101a0bba833993bb29062ef5e042265dd0ab27096942a43bfa438d",
+      "targetParityHash": "sha256:c03b3c04f8553a382146795f3c22ba17cd13fbbea5c402e0aa40cbc511f9cdbb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:55daeca262e45858974225f41a8cf5a286361c90be16d0c1459e759b70337a0d",
+      "targetParityHash": "sha256:abf5558a1e0aa7c5de64386543034bd58ad14750196b4387b35f781bed9ebbc4",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:524b847a48adf24bc32423994c2ea95aa1ccb401b4185bcee99af82930a8d0b9",
+      "targetParityHash": "sha256:56228974922f4b0b4e7304b255955b996053e85a0e599c49513b974aa9d05f11",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.actor.crybaby.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3b27375de4d9e7970b99734ae0a56bbb2255fc48d4ffa5e4488cdca656fc84f6",
+      "targetParityHash": "sha256:45a67d944b032499c51ecec2e2d06c5a497a4fe8b1d8007a54b0e09263fe8a86",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.actor.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:cc11cd5acc04cf0cc4805e6dad2685debf71bc035d3a4b4a0263343981bf98fc",
+      "targetParityHash": "sha256:48a2fadfa4f0fa29b9dbf4c4a1ac932ed84b375ed973d616e7b8b688034199e0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.actor.hothead.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:31d64e9cfa0abb28b320e0e031ad2fbb9353c4b63d7f80baef764ab99b73faee",
+      "targetParityHash": "sha256:23473f491b61f656d718175b22fa2fd3c85b9f2795e77e66cc4659f324427315",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.actor.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5f134538c0d07ec85b6230a437f481d1de203c6fc4acb8fd51c867ee9232970e",
+      "targetParityHash": "sha256:0d41780894c703b23e565dcbaf9b5d0ff07eb88ef983965192e4e9a54b69eb05",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.socialize.actor.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d5fba89e95cfd23c6e7f9129bb63c50e5ecd1004ea13bb9a68e4eae382ec6043",
+      "targetParityHash": "sha256:16821a8861be7d310f898828f9c202e1f4b74526e95a6df419205873de46376b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7baf699eebd9873518f0e19f83efaaab1e1b38e39dd2385806d168ee34a43459",
+      "targetParityHash": "sha256:227d32fd37cfe47cf9a927eb7daefada8bbaf2c71fcefe98b907bef5d230b7ba",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8a5d67cd53f0c318f974f8274f6aeae554ad295eccbb81dff1915e7fae56dc97",
+      "targetParityHash": "sha256:4ae78c5e60a326e1bcdec0cc06c19d2a8d655bf34886e894cb520ca79c15f985",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8fe805494e9dc84a5aa391bd60cfa79c19c3284f9fbafb7b167641993279e2d5",
+      "targetParityHash": "sha256:c11defb33de7622ec8f9e823303c7ed328ba393039013ec8c1bb114aa403d7c0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:839678da40e9fea81f076f8e1a62ee42daf47326a4adaa7208919e4e98365bd4",
+      "targetParityHash": "sha256:557a10ff95a11ee52fa814d049a218b287def576059575c1695a46fc9a36d834",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:71395bf9814365dff8c5a2e5593c719d00694506e2919e2fbbb6e76c449165b3",
+      "targetParityHash": "sha256:b7a0460851a16ce70213da990ab878d2fb3fc126152ad9ef475fb128d0de31a1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "targetKind": "body",
+      "targetId": "chronicle.stress.baseline.006",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c51b2b6892ed0e0840f68dca6f762e3483d5d7d58edcbad9fa6316caff627330",
+      "targetParityHash": "sha256:0e2b9084a11ac31591ec2e679da52303113d879a9345cf5927529f720614e1bd",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.teach.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e9888286f87d45d36081baab05d0dfc3a17a1a2dbc1b45f5d6d4015671f753d1",
+      "targetParityHash": "sha256:820a7bab33110a4efd94e9dab56925a0d85b7303372418bc1a9499c605fdba73",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "targetKind": "body",
+      "targetId": "chronicle.teach.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ca279f54c1ecdfeb81c02eb6101b2bda44edf2f5849dd08f27dabee8281863da",
+      "targetParityHash": "sha256:54d2043e3c6ca4ed4aec72c899f3af7b27eccd1df015964eabd61e861f7a911e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "targetKind": "body",
+      "targetId": "chronicle.teach.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:214834242b56b259b1301c13f7fcb38edb76b4a80622e97f94f82c7005873b95",
+      "targetParityHash": "sha256:66e3719290647971cb87894a3c1abaae61bb57eaf525bf4c628042c3c76d284c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "targetKind": "body",
+      "targetId": "chronicle.teach.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e894e674f4f9a30afda80055c42a3faae4fabbd06ec50ed631943568445ef4b1",
+      "targetParityHash": "sha256:814761f7ba7089f91451dc7e59704cab256958982aa07fdeea9b1b3816e285fb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "targetKind": "body",
+      "targetId": "chronicle.teach.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5d17bdf50b48eaaafb75ebca02b7832a881deb7ab502cc1b7f5b1b16e299e2a6",
+      "targetParityHash": "sha256:d0b1ac705f0c9c77041b9b1a056940a9fd27dc8144adee770e0f777e0b14a489",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "status": "retained",
+      "legacyParityHash": "sha256:1d219a3cc3f7d6f805e7280aa5fd2f8a74deb93bd47c87b24d7fe199db512ca6",
+      "targetParityHash": "sha256:b219142c7f4309083a14134e46b3b7db5716fda9d40d94385336316a0585b41a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "status": "retained",
+      "legacyParityHash": "sha256:d09e4806f80def40dc55ee25cf846201093f74c409cf20c8473a24074b085d9a",
+      "targetParityHash": "sha256:7f69a31f2bd3768ecdcce27916a63e44f1a1627899dbd852415729d5e25d365a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "status": "retained",
+      "legacyParityHash": "sha256:6a15247c53404e419af5ce8d97da6d8b1a97fa372378b81497e7df8d6126d3c9",
+      "targetParityHash": "sha256:dbbedc801d21c3d2867cf944ce079950d708405085eabf0f2e990da1a5d180c2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "status": "retained",
+      "legacyParityHash": "sha256:06253816920f3c9bfb2c2563803e90aef515929bae488cd23b059cd503cdb5e7",
+      "targetParityHash": "sha256:f3c047852b8d15fc192f0fb6f7a9203400afabc52d3804c7002ef747bee526d5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "status": "retained",
+      "legacyParityHash": "sha256:07cd42ef172787cadbe058ae75a21da4b1cd5bbf9138d0ca17c3d8fce17b55f0",
+      "targetParityHash": "sha256:e80068dded7da33f34d14aeb77cf603d91a760a2376afa38d2db7f1da77fec7a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "status": "retained",
+      "legacyParityHash": "sha256:68a4305fb47f63cd4e575a10f80b397bf7df4c52c4b55458cb1f7547e5be3962",
+      "targetParityHash": "sha256:5e166411bfb68703a36d7c7735ee71f3202fcdb6ea51c3a76620ffaacf8ea183",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "status": "retained",
+      "legacyParityHash": "sha256:0acefcb2ede6beeb3d4516e14d4cc4e429afe4bc53d90e63710fe0c2edc0dff1",
+      "targetParityHash": "sha256:b27058472591b360fd2c2504ea6d96ac00e9dcfd6ef40e22f8d1d84c72dfcf83",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "status": "retained",
+      "legacyParityHash": "sha256:db8d282003c8df7ed824780ce9a4bb201b77451498823f06f068802dbbeea4be",
+      "targetParityHash": "sha256:808f1e22f43adf8acb0c68882c997e89ca844367333cc3c60a80285598a24d2e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "status": "retained",
+      "legacyParityHash": "sha256:1b6bcf65a3cb24195eca46c1847fddd386d96cf9f4293d237701fd9dda25fec3",
+      "targetParityHash": "sha256:9ecabd19707ed413351057545e955663e9b5a59373480df3280b937d0bb20ef1",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "status": "retained",
+      "legacyParityHash": "sha256:38f2f7a0683870ac3542c631fe9eaf0c051af182b68a71ba76d5f7cdecabdf8d",
+      "targetParityHash": "sha256:a4c3e3a9c6162fb7aac7d33477a56ebecea6e7bd0a5c28e69f61ec6608ab1576",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "status": "retained",
+      "legacyParityHash": "sha256:1154cec059b60fb90240d95726a1e70c08e45c1a4e625114389dee0c8ef73b0c",
+      "targetParityHash": "sha256:b6c4fa587b1aa6f07e4582d5df1a7486afc096ce6c8c8eb073da4c04646258d6",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "status": "retained",
+      "legacyParityHash": "sha256:ea43bd24bd99e6bc383cf1b5ea2213ec4194ae7138b7fdc214ade8a30847ac5c",
+      "targetParityHash": "sha256:8432edf37c23aa5709d9c569b6d105368aca7a9fbfd4a3a91bd1c2e2a867e9a0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "status": "retained",
+      "legacyParityHash": "sha256:7ef714cd5f94b821b2dd5b4ccb3c1b4d5dacbe23aa212b65b9e040be7f1b16aa",
+      "targetParityHash": "sha256:744c8f47b636e7159d4fc8f4eaa977311e106aa270e9c59cee9a2cdd1503de00",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "status": "retained",
+      "legacyParityHash": "sha256:2f718224ff83bb36476e5e2544b5d055b02d03e39704656fba690eebe97a85be",
+      "targetParityHash": "sha256:5c4b07563174e4cca3c127fb39bf740c2d2eff00e148b36bddf8ebb70eadd8ba",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "status": "retained",
+      "legacyParityHash": "sha256:f5903f70ffbed1c0b5f5217f3fcf0e1a32bb967a480bd1bb8583a7fc133f87ae",
+      "targetParityHash": "sha256:97c3f9df55dec78659e752227a2548f06b8190a9612c090231f998650de38bd7",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "status": "retained",
+      "legacyParityHash": "sha256:12a093498750c3b8b8456d858c88f68373739ccd7e46af39b45501d6086cacea",
+      "targetParityHash": "sha256:ab0a3cf588e5978bc8571c367e800906cb8fa8ef9dee7daf4d11fe73ea16329b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "status": "retained",
+      "legacyParityHash": "sha256:f52c11c668bc8f2f04796aa5f313372e1bfddef0d4d3894d1e7f5366319204d9",
+      "targetParityHash": "sha256:a9142c16dc6fd09784956d4951ea34a08974af6c78fc43a8e650ac3af047bbe4",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "status": "retained",
+      "legacyParityHash": "sha256:9d9a6fce06ce19654792b0025645b0d471595092eaeb27bab19bf8db6161e453",
+      "targetParityHash": "sha256:31a24c600a81fd5ef475fb9186e61b384eea4ec71b53aaf3f95407fcaac4d6e2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "status": "retained",
+      "legacyParityHash": "sha256:6d42ac116224fa928143a028a594b78ab46ef0b3b3c4803569a3a118f9f69413",
+      "targetParityHash": "sha256:0af5c4a83de0161bdda7e0d3c4d985e2486d12d3a7c9b381270ea1421912f525",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "status": "retained",
+      "legacyParityHash": "sha256:3e91af730b89652e48b7a01d8b7ab7a056aa8adaea39550f778eb23de0891ee8",
+      "targetParityHash": "sha256:b012ad98d3f5f297db6c6a550112f5f8231570e700a03010d25b108769877ed8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "status": "retained",
+      "legacyParityHash": "sha256:5c1045f733e87df43b2c2838b41224b7540845a76ad24eecfd91d1263808e4c9",
+      "targetParityHash": "sha256:8f4cef198bf9557261aa4484e3cc1c5b680a4ca2a9781a51a43a400cdd1d3eaa",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "targetKind": "slotLocalization",
+      "targetId": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "status": "retained",
+      "legacyParityHash": "sha256:b0f01dfd55f1656c62ae4522ec9cb5a38651285f329b186815f87126a8a66939",
+      "targetParityHash": "sha256:326321f84db3b67ce1627396b646a77f923a94707a38a4304af9e548bcbf7bf8",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:1339b830873b5208c5d1a047a81e7b6c9ccbe73b9adfc1a0bfe69375f0ba027e",
+      "targetParityHash": "sha256:a96f6d66882ed06c3c43987325be7e1791014d69a71cc9d79fb687af423413a9",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:13c0b597f8c7da81ec711f7831ea2f8d73960fe06332592f7cb59da0842288d9",
+      "targetParityHash": "sha256:e8ef9882f2a53dc88b184f4a2d78b5565c4fb98b656452968de4b4eb408c2c97",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a5857ced519a1898eb999b6fd09b5d26a09f04f93bc5ad5e2b31ef517a2b8f74",
+      "targetParityHash": "sha256:dd97f6659e969fe693abd8f7fe65036f025bc5ff19d93bb0460021c9a8c79315",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:023ef34f473177418ee8e5f3eb9fd25f97d511ddfc195807f7be0b7e809249a6",
+      "targetParityHash": "sha256:29eeacbd60aa41b35678490e147b1324b489bc1c38dc77ffeb6085291b25cf6c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.baseline.005",
+      "status": "migrated",
+      "legacyParityHash": "sha256:d36d9c0549b3ea69f02fc1ec7509ecb35f527ef7575d0f6b1d63aed47b4e0fbe",
+      "targetParityHash": "sha256:d906a5e83850d0617da71b6eb1726c8c17eacd7b379b7c6162f74be88168bee0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.actor.crybaby.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c04441383aefa23fb291fe1cdc34740ac203b2bb818c011d1f201d344d45e84d",
+      "targetParityHash": "sha256:28ffa3ef80da4981143b97459094c4345d6f12eaf26aaf6782554cb342b713f0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.actor.gentle.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2cf23d505e28fe18036acf86a4945354b2210fc3153570b1ec6e5c8bc4e5c543",
+      "targetParityHash": "sha256:44a931b5c36c4cfb04f6ce94c66491201d9a06fdf757e9b61e563be4c9df43cb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.actor.hothead.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:2a1309352d8eee0bf9a8772e059d71a167864fed744d5e777646d513b8000ba1",
+      "targetParityHash": "sha256:3d9bce2fa107b1c04a404e668c2dcf11dadf880a802ed09ec3f557b937fb6b8d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.actor.loud.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a3e677d1f8c18adef7876f75e30d38eaa8319386ed3619e94a2bbabee39d2de7",
+      "targetParityHash": "sha256:3497a7491c92a0cb892fd397e4dcd899fe57b710a7b6a74482b9b65442f472a2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.actor.nervous.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:03fe4b573b66d188a9e28aff416f600d48dc8de75224ede8c11c7f771089cf48",
+      "targetParityHash": "sha256:f99fc3ce9d2db32813edce1d2ee30e32423a48087308d33efe4038f0269effc5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.vent.event.stress.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5de10ac16ca03827b0b51bbdeed0c1303d0cad8decc80428116673a117c382e4",
+      "targetParityHash": "sha256:63ccf6e240f7adff7a1ca8419eaea333861d218d30a709ea0f28acfe634791fb",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "targetKind": "body",
+      "targetId": "chronicle.welcome.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:3d8b9105b7df472446a6a59d00b229e5af449f7a2777fe37a52e73b735114a48",
+      "targetParityHash": "sha256:b5d09c88f569d7a2f8ebcc65520c273cbb753f3a99f903c8d8287a81bc253b55",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "targetKind": "body",
+      "targetId": "chronicle.welcome.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:c841d0833ae998538d4306371389530890014a3448025d76799eca0f99c9638a",
+      "targetParityHash": "sha256:f990e6b2fc33a8c15d90dd0fd673863598c2c425eaf88313a6701e7851ef055d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "targetKind": "body",
+      "targetId": "chronicle.welcome.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:373ed0fb3892f8c1b899de8d190dc9c9340cf5fc78b81dac1f87682213d72ff0",
+      "targetParityHash": "sha256:ae707c70d4a047b0219528a9733829e700eabcdff5be46ed5938f27c4007f07b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "targetKind": "body",
+      "targetId": "chronicle.welcome.baseline.004",
+      "status": "migrated",
+      "legacyParityHash": "sha256:73085c09798a4b80c14388867088fe05a43ac3a5f366d8e4d371b5f3ad6366db",
+      "targetParityHash": "sha256:7bad11fc6489d55c4f6f94941b93f4ddefd28add4913a756cb43c422313a6150",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.witness.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fcdb05474d661d9172ea5312d1d4d5d23ffa5ab52ad94d79e5585e1a087da19e",
+      "targetParityHash": "sha256:350551a6039a00cad53c3e302d96772fdfb7393bad3d81266f506d436aebc158",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "targetKind": "body",
+      "targetId": "chronicle.witness.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:f8c61ef60b4cb1128be0a005bbcaf6c6fe2a9aa25075de2a57f9743fda55887d",
+      "targetParityHash": "sha256:8591f9fa805666fce0087fe753516958cb7afdffb83531b80cc88e90c9edf98c",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "targetKind": "body",
+      "targetId": "chronicle.witness.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:985f8a9bd790d7ab840e142b95d240383ad159912b1a4af2907895912d422554",
+      "targetParityHash": "sha256:9913364269d7d3d9d0f653d48006bc665ac3b189fee0365126c6648d83cf5407",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "targetKind": "body",
+      "targetId": "chronicle.witness.event.solo.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:91297f6955699e37d758391f60176b35bdf827b8f18b3165ab437e3764b2c1b3",
+      "targetParityHash": "sha256:faa6fbaa212d7663c3b79ceb8e4de8dec7353e64c40ba519c4a406cc1ab881ac",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "targetKind": "body",
+      "targetId": "chronicle.witness.event.solo.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:ed7f3a3dd7f19cb93eed6b0f06ce50414fc3cbff4513fdafa01c2abbba47717f",
+      "targetParityHash": "sha256:f0422cf8c325320224077b69b9270da0463f3fd58d8c7f84a4a133ffcbfdb5ea",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-blame.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:137332ad43f9e458f089ed1e4aa0a4373d54cb144b0c7441e2d9249341649461",
+      "targetParityHash": "sha256:c6e189e4d1ef7b2f2351a9f0abd7648a3a1c5d0ab8cdf64144a5ec4d48961c86",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-blame.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:62961126997030ff337eb20cf197654e827508054799b35f28d868e362142782",
+      "targetParityHash": "sha256:08833987151a3ac1c9e19b3c29f190b845932e3fb2af0c32add3c62fb93044d5",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-blame.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:9a81cc00ab4c131e5ffeadbc6b471a563581408ff565daa01627f42e419019a9",
+      "targetParityHash": "sha256:9963d5e3c0a58213a0ef0d600ef63d5ffa35acbe4fc63ad155faa3d7e3811679",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-faded.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:a2ab1fb369aa5b7cfb7f315866fe78a5342675d8b87ece88548bfd51eb6fba6b",
+      "targetParityHash": "sha256:e60f303c444c99e6ea87794dc411c8db7363366fdd8c2d894fdbbb1fc845898a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-faded.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:884d77c5a5c307c0717f4ff0048ca5f13d4a247d53ab274b78b86e1a95deef28",
+      "targetParityHash": "sha256:332d49e4cf285c6ddee7075a7b8a7c9352d299d9a1c7c9a2562e425925e6b31d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-faded.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:385207e5b7e01509a609828fa77cfa9d9c07f4652d76a9d1fc7c8bc3a308b48f",
+      "targetParityHash": "sha256:bbab40124f3c7365f5681f07cb75890cfc4b9fc85a987008829452101203271a",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-isolated.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:8a42289e6d74a1a29ed5a7c7243efe598825771defa3158a5db7c40a584a815a",
+      "targetParityHash": "sha256:26b32a2ef55704cfb07129ab719ae5e1bb9a73a476d0e2129c3544eba011dce3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-isolated.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:47f04a72abdfe1b85913cbc669903dea1c66b5391ae4d6fe32bf0011f7d8ffad",
+      "targetParityHash": "sha256:af3705d5cbf4177cc8dcd8be217c84ec5383f68fe1c4372e1e47d5314b58b4dc",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-isolated.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fca0145de39a47f2c888e110875913da96c07b6f1de6cf0a46e65efe55d9479d",
+      "targetParityHash": "sha256:66561c5a5753f917bfc58523bf54dc617be32a69b129655731d99bf74d69c6fc",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-punch.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:665bd38d275351eb9740667beaff315ed519472704ab8054aeb1238216d45966",
+      "targetParityHash": "sha256:9c40e89c998b3f761197878d357003140b7a5a358efd71e0cda86f6ff7e5c0c3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-punch.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:708c9e61476fc3c5d77afcbb2da2fdf222ac25b5cf7d227bea71573ad3bc770d",
+      "targetParityHash": "sha256:5dfbe4223786f559b7f4b67ab15c5a79a76846726946f600f14231e4ca726089",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-punch.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:21c881b81eff88a9e6f2ec7b96ef62c7936f5abb11bc5b809a03213e4a39cee6",
+      "targetParityHash": "sha256:4aeb22b046a32e7c5e2b76f01831280b32e68d213e6e62879495295da93125e3",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-rescue.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:5e50c4e3d53b05d01011c62b7b2ff2d68de2dee56864a517cafb9543c974beb3",
+      "targetParityHash": "sha256:7c0037bbc83229246ccada2b1aafb081c0f30e033ad5f8a4365e6e3ad56ecd0b",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-rescue.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:e2779224d2001ce3d5eadcc4f2a6f3b2337774cc308d8dba7f3749500216ba7f",
+      "targetParityHash": "sha256:914748cbabb928c9e860aa1716db23e505eab7a45e8a4d63b22f10092cfd0b50",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-rescue.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7c0438932e9dc639db29b427b568053bfbbd2f46a5b9ccb249c2ddc81011b143",
+      "targetParityHash": "sha256:4b0ceeaa72981479d890aee16939e1849d4e37473aed6ec9d34cc50600496567",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-saw-crying.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:7ba521e9a98f7e65a8c1ce6fae566f6756a3e6cd33e673783d2f95641284f637",
+      "targetParityHash": "sha256:6527869c39a4c8a0c3846e8d970ad0f0b9b0820b4f455d36651f2c2d9452568d",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-saw-crying.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:fa70f95ad6a734145f12f1dc8a816d9256ad0d14d0c2be8f1f3ee0fc86403cf9",
+      "targetParityHash": "sha256:54b259cf69fb83e5ad0846628bb903af18ecd4b96584396ed13d02f50dc272e2",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-saw-crying.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:0733a28a44e261f4194b4f1ad44f041ea3b5007ac9dd6433133d4f012326debf",
+      "targetParityHash": "sha256:2bcb27d48e886221f2794411574f915cc1b2e2e404c64ec1fe26a56852ebfbc0",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-speak-up.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:410294ef8bdbb3d52775fd6bb3255713283c0a831e1cacababf80f5eb18fa75c",
+      "targetParityHash": "sha256:399e496333f8ccb0847fa81200a28fb976b392dd62e5c1a7c0d07777ee9c3412",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-speak-up.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:20d08939afdc634d538290e295bbd2d28cfae1988c1ff4afa3d387fbb9519bb5",
+      "targetParityHash": "sha256:379cdae0d6a9f3bc325024cdd3106a6bd2137cbe3f9f0b3a40cac37a6dc5e50e",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-speak-up.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:de1d3f822933ff63d5d1935427f71bba419e26b1e7c1b2b6e324f92f2e3fcf2a",
+      "targetParityHash": "sha256:d9170f3bf626f7302c3711a8b42b7df55890e0e72ccd54d6eb1cedf052fb6712",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-witness.baseline.001",
+      "status": "migrated",
+      "legacyParityHash": "sha256:45178edcf422b17b4cab677dc8cedd2eef274db88bcd9c2ef2c39f310ce4044a",
+      "targetParityHash": "sha256:aa29199a6ebff8978cf36ea6c36e679dae9a91d8bbf6a15314ca6723c9cb5335",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-witness.baseline.002",
+      "status": "migrated",
+      "legacyParityHash": "sha256:26706b23eaed0912fb19c99cf474ee7fc897c28e5e2505ad0538a8518b8af99a",
+      "targetParityHash": "sha256:4882df2f4fa2cbadcc976b26867c87454881ba49195fb0a889e160eb46c18b99",
+      "parityStatus": "approved"
+    },
+    {
+      "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "targetKind": "body",
+      "targetId": "chronicle.wrath-witness.baseline.003",
+      "status": "migrated",
+      "legacyParityHash": "sha256:bcd35d3fd8b9f49335aaffb70788955118aab4cb3cce9a0a6725c554afaf5e89",
+      "targetParityHash": "sha256:57d10ac42bcd63f668a17f5a46bf80f7102a348b97365a6e908db48c23a94bd0",
+      "parityStatus": "approved"
+    }
+  ]
+}

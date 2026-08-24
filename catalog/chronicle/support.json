@@ -1,0 +1,1224 @@
+{
+  "family": "support",
+  "pools": [
+    {
+      "poolId": "chronicle.bestfriend.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.bestfriend.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}聊到深夜，成了彼此的挚友。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}说了些从没对别人说过的话。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.003",
+          "ordinal": 3,
+          "source": "{a} 和 {b}交换了彼此的秘密，从此不分你我。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.004",
+          "ordinal": 4,
+          "source": "那晚{a} 和 {b}聊到天亮，谁也没提该睡觉的事。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.005",
+          "ordinal": 5,
+          "source": "有些人认识很久才是朋友，{a} 和 {b}只花了一个晚上。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.006",
+          "ordinal": 6,
+          "source": "{a}和{b}把最难开口的担忧告诉了彼此，也把信任交给了对方。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.007",
+          "ordinal": 7,
+          "source": "{a}与{b}不必把话说完，就能明白对方真正介意什么。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.008",
+          "ordinal": 8,
+          "source": "{a}和{b}约好无论下一班多忙，都要替彼此留意一点。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.009",
+          "ordinal": 9,
+          "source": "{a}与{b}回想一路共同经历的事，发现彼此早已成了最可靠的人。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.010",
+          "ordinal": 10,
+          "source": "{a}把一直珍藏的小秘密告诉了{b}，{b}也用自己的秘密回应。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.011",
+          "ordinal": 11,
+          "source": "{a}和{b}安静坐了很久，即使没有说话也知道有人陪着。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bestfriend.baseline.012",
+          "ordinal": 12,
+          "source": "{a}与{b}认真说定，遇到难关时谁都不许独自硬撑。",
+          "description": "Reviewed event expansion; pool=chronicle.bestfriend.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.care.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.care.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}照顾了{other}。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CARE_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}帮{other}处理了伤势。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CARE_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}给{other}换了绷带，动作很轻。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CARE_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.004",
+          "ordinal": 4,
+          "source": "{other}嘴上说着没事，还是让{actor}照看了一整天。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CARE_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.005",
+          "ordinal": 5,
+          "source": "{actor}守在{other}旁边，连药都提前晾温了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CARE_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}替{other}检查伤处，又确认对方没有漏掉需要处理的地方。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}把护理用品准备齐全，耐心陪{other}完成了处理。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.008",
+          "ordinal": 8,
+          "source": "{other}行动不便时，{actor}把需要的东西一件件送到手边。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}提醒{other}按时休息，直到亲眼看见对方安顿好才离开。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}重新固定了{other}松开的绷带，动作稳当而仔细。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}守着{other}观察了一阵，确认状况没有继续恶化。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.care.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}把照护步骤解释给{other}听，让对方知道接下来该怎样恢复。",
+          "description": "Reviewed event expansion; pool=chronicle.care.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.comfort.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.comfort.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}陪着{other}，直到他缓过来。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.COMFORT_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.002",
+          "ordinal": 2,
+          "source": "{other}在{actor}的陪伴下平静了下来。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.COMFORT_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}没说什么大道理，只是陪着{other}。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.COMFORT_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.004",
+          "ordinal": 4,
+          "source": "{other}想说谢谢，{actor}摆摆手让他省点力气。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.COMFORT_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.005",
+          "ordinal": 5,
+          "source": "有些夜晚只能熬过去，好在{other}不是一个人熬。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.COMFORT_5; participantMode=directedPair; requiredSlots=other.",
+          "requiredSlots": [
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}没有催{other}振作，只陪着对方把最难熬的一阵撑过去。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}听完{other}断断续续的话，把每一句都认真接住。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.008",
+          "ordinal": 8,
+          "source": "{other}一时说不出话，{actor}便安静坐在旁边等着。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}递给{other}一杯水，又把周围留得足够安静。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}提醒{other}慢慢呼吸，直到急促的节奏终于平稳。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}让{other}知道这次失控不会被拿来嘲笑，也不必独自承担。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.comfort.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}陪{other}把混乱的情绪一点点理清，最后才一起起身。",
+          "description": "Reviewed event expansion; pool=chronicle.comfort.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.teach.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.teach.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}手把手教{other}干活。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.TEACH_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}给{other}讲了些独门窍门。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.TEACH_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}演示了一遍，{other}看得眼睛都不眨。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.TEACH_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.004",
+          "ordinal": 4,
+          "source": "{actor}说只教一遍，{other}决定回去自己偷偷练。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.TEACH_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.005",
+          "ordinal": 5,
+          "source": "有些手艺是排班表上学不到的，{actor}传给了{other}。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.TEACH_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}先完整示范了一遍，再让{other}自己动手尝试。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.007",
+          "ordinal": 7,
+          "source": "{other}做错一步时，{actor}停下来指出问题，没有直接替对方完成。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}把复杂的步骤拆成几段，让{other}可以一段段练习。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}观察{other}的动作，给出了一个立刻就能用上的改进办法。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.010",
+          "ordinal": 10,
+          "source": "{other}终于做对时，{actor}没有吝啬一句明确的肯定。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}把容易出错的地方反复讲了两遍，确认{other}真的记住。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.teach.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}让{other}重新从头完成一次，只在必要的时候出声提醒。",
+          "description": "Reviewed event expansion; pool=chronicle.teach.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.actor.crybaby",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "minimumPublished": 5,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.actor.crybaby.001",
+          "ordinal": 1,
+          "source": "{actor}说着说着就哭了，{other}默默递了张纸巾。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1; participantMode=directedPair; requiredSlots=actor,other. 主动方爱哭。",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.crybaby.002",
+          "ordinal": 2,
+          "source": "{actor}说着说着就哭了，{other}默默递了张纸巾；{actor}的眼眶很快湿了，{other}没有拿这件事开玩笑。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.crybaby; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.crybaby.003",
+          "ordinal": 3,
+          "source": "{actor}说着说着就哭了，{other}默默递了张纸巾；情绪写在{actor}脸上，{other}一眼便看明白了。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.crybaby; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.crybaby.004",
+          "ordinal": 4,
+          "source": "{actor}说着说着就哭了，{other}默默递了张纸巾；{actor}花了一会儿才把声音稳住，{other}始终留在旁边。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.crybaby; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.crybaby.005",
+          "ordinal": 5,
+          "source": "{actor}说着说着就哭了，{other}默默递了张纸巾；眼泪没有让事情中断，{actor}和{other}只是把节奏放慢了一点。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.crybaby; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.actor.gentle",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "minimumPublished": 5,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.actor.gentle.001",
+          "ordinal": 1,
+          "source": "{actor}连诉苦都轻声细语，{other}听得格外认真。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1; participantMode=directedPair; requiredSlots=actor,other. 主动方温和。",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.gentle.002",
+          "ordinal": 2,
+          "source": "{actor}连诉苦都轻声细语，{other}听得格外认真；{actor}始终留意{other}是否自在，把分寸拿得很轻。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.gentle; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.gentle.003",
+          "ordinal": 3,
+          "source": "{actor}连诉苦都轻声细语，{other}听得格外认真；{actor}没有催促，给{other}留下了足够的回应时间。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.gentle; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.gentle.004",
+          "ordinal": 4,
+          "source": "{actor}连诉苦都轻声细语，{other}听得格外认真；连最小的动作都带着照顾，{other}自然看得出来。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.gentle; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.gentle.005",
+          "ordinal": 5,
+          "source": "{actor}连诉苦都轻声细语，{other}听得格外认真；{actor}把声音和动作都放轻，让这段相处没有一点压力。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.gentle; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.actor.hothead",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "minimumPublished": 5,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.actor.hothead.001",
+          "ordinal": 1,
+          "source": "{actor}骂骂咧咧倒完苦水，{other}从头听到尾。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1; participantMode=directedPair; requiredSlots=actor,other. 主动方暴躁。",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.hothead.002",
+          "ordinal": 2,
+          "source": "{actor}骂骂咧咧倒完苦水，{other}从头听到尾；{actor}的动作比话更快，{other}花了一会儿才跟上。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.hothead; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.hothead.003",
+          "ordinal": 3,
+          "source": "{actor}骂骂咧咧倒完苦水，{other}从头听到尾；情绪来得突然，{actor}很快又把注意力收回到{other}身上。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.hothead; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.hothead.004",
+          "ordinal": 4,
+          "source": "{actor}骂骂咧咧倒完苦水，{other}从头听到尾；{other}没有被{actor}一时的急躁带乱，事情才顺利继续。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.hothead; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.hothead.005",
+          "ordinal": 5,
+          "source": "{actor}骂骂咧咧倒完苦水，{other}从头听到尾；{actor}反应得直截了当，连停顿都显得多余。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.hothead; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.actor.loud",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "minimumPublished": 5,
+      "allowedSlots": [
+        "actor"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.actor.loud.001",
+          "ordinal": 1,
+          "source": "{actor}的苦水，半个休息区都听见了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1; participantMode=directedPair; requiredSlots=actor. 主动方大嗓门。",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.loud.002",
+          "ordinal": 2,
+          "source": "{actor}的苦水，半个休息区都听见了；这阵响亮的动静让附近的人都知道他们正在相处。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.loud; angle=actorTrait; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.loud.003",
+          "ordinal": 3,
+          "source": "{actor}的苦水，半个休息区都听见了；{actor}没有刻意压低声音，旁人隔着一段距离也能听清。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.loud; angle=actorTrait; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.loud.004",
+          "ordinal": 4,
+          "source": "{actor}的苦水，半个休息区都听见了；声音传出去很远，这段相处倒没有因此停下来。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.loud; angle=actorTrait; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.loud.005",
+          "ordinal": 5,
+          "source": "{actor}的苦水，半个休息区都听见了；等周围重新安静下来，{actor}刚才的声音似乎还留在空气里。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.loud; angle=actorTrait; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.actor.nervous",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "minimumPublished": 5,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.actor.nervous.001",
+          "ordinal": 1,
+          "source": "{actor}絮絮叨叨说了半天担心，{other}一条条帮他理清。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1; participantMode=directedPair; requiredSlots=actor,other. 主动方神经质。",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.nervous.002",
+          "ordinal": 2,
+          "source": "{actor}絮絮叨叨说了半天担心，{other}一条条帮他理清；{actor}反复确认{other}的反应，才慢慢放松下来。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.nervous; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.nervous.003",
+          "ordinal": 3,
+          "source": "{actor}絮絮叨叨说了半天担心，{other}一条条帮他理清；一点小动静就让{actor}分神，{other}耐心等着注意力回来。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.nervous; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.nervous.004",
+          "ordinal": 4,
+          "source": "{actor}絮絮叨叨说了半天担心，{other}一条条帮他理清；{actor}把每个动作都做得格外谨慎，{other}没有催促。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.nervous; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.actor.nervous.005",
+          "ordinal": 5,
+          "source": "{actor}絮絮叨叨说了半天担心，{other}一条条帮他理清；直到事情结束，{actor}紧绷的肩膀才终于松开。",
+          "description": "Reviewed angle expansion; pool=chronicle.vent.actor.nervous; angle=actorTrait; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}向{other}倒了一肚子苦水。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.002",
+          "ordinal": 2,
+          "source": "{other}听{actor}倾诉了很久。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}把今天的糟心事一件一件数给{other}听。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.004",
+          "ordinal": 4,
+          "source": "{actor}问{other}这日子什么时候是个头，{other}答不上来。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.005",
+          "ordinal": 5,
+          "source": "苦水倒完了，{actor}觉得肩上的浮土都轻了些。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_5; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}把一整天积下来的烦闷说给{other}听，终于不用继续憋着。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.007",
+          "ordinal": 7,
+          "source": "{other}没有急着给建议，只让{actor}把想抱怨的事全部说完。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}从最小的不顺说起，讲到最后才说出真正压在心里的事。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}一连说了很久，{other}始终没有露出不耐烦的神色。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.010",
+          "ordinal": 10,
+          "source": "{other}偶尔问一句，让{actor}知道自己的话确实有人在听。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}把混在一起的委屈和怒气分开说清，情绪也慢慢缓下来。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}说到没有力气再抱怨时，{other}仍陪着坐了一会儿。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.vent.event.stress",
+      "angle": "eventSpecific",
+      "participantMode": "directedPair",
+      "minimumPublished": 12,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.vent.event.stress.001",
+          "ordinal": 1,
+          "source": "{actor}的情绪快压不住了，{other}陪他坐了一会儿。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1; participantMode=directedPair; requiredSlots=actor,other. 发起方压力档为高时优先。",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.002",
+          "ordinal": 2,
+          "source": "{actor}说话时一直攥紧双手，{other}看出这次压力已经不是普通的烦躁。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.003",
+          "ordinal": 3,
+          "source": "{actor}几次说不下去，{other}便把节奏放慢，一句句等着。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.004",
+          "ordinal": 4,
+          "source": "{actor}的呼吸越来越急，{other}先陪着把情绪稳下来再继续听。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.005",
+          "ordinal": 5,
+          "source": "{actor}承认自己已经快撑不住了，{other}没有把这句话当作软弱。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.006",
+          "ordinal": 6,
+          "source": "{actor}把最坏的担心全说了出来，{other}只回应能够确定的事实。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.007",
+          "ordinal": 7,
+          "source": "{actor}的情绪几次冲上来，{other}始终没有离开。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.008",
+          "ordinal": 8,
+          "source": "{other}替{actor}挡开无关的打扰，让这次倾诉不必仓促结束。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.009",
+          "ordinal": 9,
+          "source": "{actor}说完后仍然沉默了很久，{other}陪着等到紧绷稍微松开。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.010",
+          "ordinal": 10,
+          "source": "{actor}一再担心自己会失控，{other}便把注意力放在眼前能做的小事上。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.011",
+          "ordinal": 11,
+          "source": "{actor}终于说出压力真正来自哪里，声音已经明显发抖。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.vent.event.stress.012",
+          "ordinal": 12,
+          "source": "{other}没有许诺一切都会好起来，只认真告诉{actor}不必独自面对。",
+          "description": "Reviewed event expansion; pool=chronicle.vent.event.stress; angle=eventSpecific; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}

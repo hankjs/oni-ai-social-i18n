@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/chronicle-migration.schema.json",
+  "title": "Complete legacy Chronicle migration map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "sourceCorpus", "expectedLegacyCount", "mappings"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "sourceCorpus": { "type": "string", "const": "STRINGS.SOCIAL.LOG_STORY" },
+    "expectedLegacyCount": { "type": "integer", "const": 304 },
+    "mappings": {
+      "type": "array",
+      "minItems": 304,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["legacyKey", "targetKind", "targetId", "status", "legacyParityHash", "targetParityHash", "parityStatus"],
+        "properties": {
+          "legacyKey": { "type": "string", "pattern": "^STRINGS\\.SOCIAL\\.LOG_STORY\\." },
+          "targetKind": { "type": "string", "enum": ["body", "lead", "tail", "merge", "slotLocalization", "uiFrame"] },
+          "targetId": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "enum": ["migrated", "retained"] },
+          "legacyParityHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "targetParityHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "parityStatus": { "type": "string", "const": "approved" }
+        }
+      }
+    }
+  }
+}

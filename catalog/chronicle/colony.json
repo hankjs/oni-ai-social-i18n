@@ -1,0 +1,772 @@
+{
+  "family": "colony",
+  "pools": [
+    {
+      "poolId": "chronicle.bound-block.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 13,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.bound-block.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}之间像隔着一层看不见的墙，关系停在了原地。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.002",
+          "ordinal": 2,
+          "source": "某种说不清的力量按住了{a} 和 {b}的缘分，谁也没有再进一步。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.003",
+          "ordinal": 3,
+          "source": "{a} 和 {b}的故事刚要翻页，又被无形的手轻轻按住。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.004",
+          "ordinal": 4,
+          "source": "命运在{a} 和 {b}之间画了一条线，谁也没有跨过去。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.005",
+          "ordinal": 5,
+          "source": "{a} 和 {b}的关系起了波澜，又莫名其妙地平息了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.006",
+          "ordinal": 6,
+          "source": "{a}和{b}原本快要改变关系，却被既定界线挡在了原处。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.007",
+          "ordinal": 7,
+          "source": "{a}与{b}之间的感情继续积累，关系状态却没有越过允许的范围。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.008",
+          "ordinal": 8,
+          "source": "{a}和{b}都感觉到了变化，某条不可越过的规则却阻止了结果。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.009",
+          "ordinal": 9,
+          "source": "{a}与{b}的关系走到界线上便停住，没有进入原本将要到达的状态。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.010",
+          "ordinal": 10,
+          "source": "{a}和{b}仍保留着彼此的感受，只是这一次关系没有继续变化。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.011",
+          "ordinal": 11,
+          "source": "{a}与{b}之间出现了新的可能，但设定的关系边界没有放行。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.012",
+          "ordinal": 12,
+          "source": "{a}和{b}走到了关系能够抵达的尽头，暂时只能停在这里。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.bound-block.baseline.013",
+          "ordinal": 13,
+          "source": "{a}与{b}没有失去已经存在的联系，只是预期中的转变被挡住了。",
+          "description": "Reviewed event expansion; pool=chronicle.bound-block.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.stress.baseline",
+      "angle": "base",
+      "participantMode": "solo",
+      "minimumPublished": 13,
+      "allowedSlots": [
+        "subject"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.stress.baseline.001",
+          "ordinal": 1,
+          "source": "{subject}的压力又重了一分。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.002",
+          "ordinal": 2,
+          "source": "{subject}的眉头又拧紧了一分。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.003",
+          "ordinal": 3,
+          "source": "弦绷得太久，{subject}自己都能听见响声。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.004",
+          "ordinal": 4,
+          "source": "{subject}松了一口气。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.005",
+          "ordinal": 5,
+          "source": "{subject}睡了个好觉，脸色缓过来了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.006",
+          "ordinal": 6,
+          "source": "压在心口的那块浮土，{subject}总算掸掉了些。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.007",
+          "ordinal": 7,
+          "source": "{subject}停下手里的动作揉了揉额角，积累的压力已经写在脸上。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.008",
+          "ordinal": 8,
+          "source": "{subject}发现自己很难集中注意力，连熟悉的工作也需要反复确认。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.009",
+          "ordinal": 9,
+          "source": "{subject}一整天都绷着肩膀，直到休息时也没有真正放松。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.010",
+          "ordinal": 10,
+          "source": "{subject}对一点小动静也反应过度，压力让耐心越来越少。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.011",
+          "ordinal": 11,
+          "source": "{subject}试着继续保持原来的节奏，疲惫却一次次打断思路。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.012",
+          "ordinal": 12,
+          "source": "{subject}把一次普通失误看得格外严重，心里的负担又重了一层。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.stress.baseline.013",
+          "ordinal": 13,
+          "source": "{subject}没有找到合适的出口，只能把越来越重的压力继续带着。",
+          "description": "Reviewed event expansion; pool=chronicle.stress.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.welcome.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 13,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.welcome.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}迎接了新来的同伴。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WELCOME_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}帮新来的同伴安顿下来，讲了讲基地的规矩。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WELCOME_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.003",
+          "ordinal": 3,
+          "source": "打印舱又吐出一个新人，{a} 和 {b}第一个迎了上去。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WELCOME_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.004",
+          "ordinal": 4,
+          "source": "新人的第一顿饭，是{a} 和 {b}陪着吃的。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WELCOME_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}带新同伴熟悉了日常路线，免得第一次上工就迷路。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}把基地里最重要的规矩耐心讲给新同伴听。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}为新同伴腾出位置，让陌生的环境先有了一点归属感。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}轮流介绍身边的人，很快让新同伴记住了几张面孔。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}把第一份需要的物资交给新同伴，也说明了该去哪里补充。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}没有只说一句欢迎，而是陪新同伴把最初的事情安顿好。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.011",
+          "ordinal": 11,
+          "source": "{a}和{b}分享了自己刚来时犯过的错误，让新同伴少走一些弯路。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.012",
+          "ordinal": 12,
+          "source": "{a}与{b}把新同伴带进大家的谈话里，没有让对方独自站在一旁。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.welcome.baseline.013",
+          "ordinal": 13,
+          "source": "{a}和{b}认真记住了新同伴的名字，这场欢迎因此不只是形式。",
+          "description": "Reviewed event expansion; pool=chronicle.welcome.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.witness.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 13,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.witness.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}崩溃的样子，{other}都看在眼里。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WITNESS_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.002",
+          "ordinal": 2,
+          "source": "{other}别过脸去，却没能忘掉{actor}崩溃的那一幕。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WITNESS_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.003",
+          "ordinal": 3,
+          "source": "看着{actor}崩溃，{other}第一次觉得基地这么安静。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WITNESS_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.004",
+          "ordinal": 4,
+          "source": "{other}亲眼看见{actor}情绪失控，此后很久都忘不掉当时的神情。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.005",
+          "ordinal": 5,
+          "source": "{actor}崩溃时来不及避开{other}，最脆弱的一刻被完整看见。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.006",
+          "ordinal": 6,
+          "source": "{other}想上前帮忙又不知该做什么，只能看着{actor}熬过失控。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}的失控来得突然，{other}被眼前的一幕惊得停在原地。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.008",
+          "ordinal": 8,
+          "source": "{other}没有把{actor}的崩溃告诉别人，却把这段记忆留了下来。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}最难堪的时刻被{other}撞见，两个人之后都不知道该怎样开口。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.010",
+          "ordinal": 10,
+          "source": "{other}看见{actor}彻底失去平日的控制，心里既害怕又担忧。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}慢慢平静下来以后，{other}仍站在不远处确认对方安全。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.012",
+          "ordinal": 12,
+          "source": "{other}没有嘲笑{actor}的崩溃，只是沉默地记住了这件事。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.baseline.013",
+          "ordinal": 13,
+          "source": "{actor}的情绪在{other}面前彻底决堤，这份目击改变了之后的相处。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.witness.event.solo",
+      "angle": "eventSpecific",
+      "participantMode": "solo",
+      "minimumPublished": 13,
+      "allowedSlots": [
+        "subject"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.witness.event.solo.001",
+          "ordinal": 1,
+          "source": "{subject}目睹了同伴的崩溃，心里很沉重。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.002",
+          "ordinal": 2,
+          "source": "{subject}撞见了同伴的崩溃，之后一整天都心不在焉。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.003",
+          "ordinal": 3,
+          "source": "{subject}目睹同伴失控后一直心神不宁，工作时也会想起那一幕。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.004",
+          "ordinal": 4,
+          "source": "{subject}不知道该怎样帮助崩溃的同伴，只能把无力感留在心里。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.005",
+          "ordinal": 5,
+          "source": "{subject}被突如其来的崩溃吓了一跳，很久才重新平静下来。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.006",
+          "ordinal": 6,
+          "source": "{subject}没有向别人描述看到的细节，却始终忘不掉同伴的痛苦。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.007",
+          "ordinal": 7,
+          "source": "{subject}看见同伴最脆弱的一刻，对周围人的压力多了一层担心。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.008",
+          "ordinal": 8,
+          "source": "{subject}本能地停下脚步，却没能在当时想出合适的安慰。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.009",
+          "ordinal": 9,
+          "source": "{subject}离开现场后仍反复确认那名同伴是否已经安全。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.010",
+          "ordinal": 10,
+          "source": "{subject}把目睹崩溃的事藏在心里，情绪因此沉了很久。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.011",
+          "ordinal": 11,
+          "source": "{subject}第一次如此清楚地看见压力的后果，之后变得格外警觉。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.012",
+          "ordinal": 12,
+          "source": "{subject}想起那场崩溃时仍会难受，却没有把同伴的痛苦当成谈资。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.witness.event.solo.013",
+          "ordinal": 13,
+          "source": "{subject}目睹一切后没有立刻离开，直到确认情况不再恶化。",
+          "description": "Reviewed event expansion; pool=chronicle.witness.event.solo; angle=eventSpecific; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}

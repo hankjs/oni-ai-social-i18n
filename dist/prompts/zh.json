@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "现在写出他们的简短对话。",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "没有显著特质",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "甲：[[profile]]",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "乙：[[profile]]",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]]（特质：[[traits]]；压力：[[stress]]）",
+      "requiredSlots": [
+        "name",
+        "stress",
+        "traits"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "关系：[[stage]]，好感 [[affinity]]。",
+      "requiredSlots": [
+        "affinity",
+        "stage"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "压力“濒临崩溃”表示复制人快要情绪崩溃；让这种紧绷体现在其台词里，例如易怒、疲惫或勉强支撑。",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 生成复制人之间的对话。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条],\"affinity_delta\":整数(-5到10)}",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "起因：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "殖民地：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "断粮中、众怒中",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "断粮中",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "众怒中",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "关系近况：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "事件：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "两人往事：",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "周期[[cycle]] · [[event]]",
+      "requiredSlots": [
+        "cycle",
+        "event"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "请改写成一句编年史。",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "新关系：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "甲：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "乙：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "地点：[[value]]",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "你是殖民地编年史的作者。把给定的社交事件改写成一句话，不超过40字。白描、克制、有历史感；不得改变人名与事实，不要引号，不要emoji，不要数值。只输出这句话本身。",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "目击者：[[count]]人",
+      "requiredSlots": [
+        "count"
+      ]
+    }
+  ]
+}

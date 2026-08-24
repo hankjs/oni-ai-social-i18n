@@ -3,148 +3,2440 @@
   "family": "routine",
   "templates": [
     {
-      "templateId": "chronicle.chat.base.001",
+      "templateId": "chronicle.chat.actor.crybaby.001",
       "status": "reviewed",
-      "text": "{pair} traded a few words between shifts.",
-      "sourceHash": "sha256:b45618437da65245382637213f0a222d5a67b562a52d9ff1131c6fe8d3610c1a"
+      "text": "{actor:possessiveCapitalized} eyes welled up mid-sentence; {other} quickly changed the subject.",
+      "sourceHash": "sha256:c90e0028fbbde96e8bdc17b8e549d105588ffc6f6110bad9e808c10cf93d298d"
     },
     {
-      "templateId": "chronicle.chat.base.002",
+      "templateId": "chronicle.chat.actor.crybaby.002",
       "status": "reviewed",
-      "text": "{pair} caught up on the day's happenings.",
-      "sourceHash": "sha256:100bcf84b5db31056d844b3b141dc1c5c01bfa6961766c09e651dfdb4d5f20c2"
+      "text": "{actor:possessiveCapitalized} eyes welled up mid-sentence; {other} quickly changed the subject; {actor:possessive} eyes quickly grew wet, and {other} made no joke of it.",
+      "sourceHash": "sha256:6a3c4d32d8e5cc8cba5c24d3bb65b37dc1bee3b823d815b8af9da42954fee5e5"
     },
     {
-      "templateId": "chronicle.chat.base.003",
+      "templateId": "chronicle.chat.actor.crybaby.003",
       "status": "reviewed",
-      "text": "{pair} talked as they went, then split off to their respective tasks.",
-      "sourceHash": "sha256:87ef61ce959a4616e5b36a5d23d24608971e7dd98dc18d3d6fe4086bbcda867c"
+      "text": "{actor:possessiveCapitalized} eyes welled up mid-sentence; {other} quickly changed the subject; the emotion showed clearly on {actor:possessive} face, and {other} understood at once.",
+      "sourceHash": "sha256:31ac05f4a1241c59fdf3c6f6a8d798bc93a59ff497c993be3982749cb1a21d55"
     },
     {
-      "templateId": "chronicle.chat.base.004",
+      "templateId": "chronicle.chat.actor.crybaby.004",
       "status": "reviewed",
-      "text": "{pair} stopped for a leisurely chat.",
-      "sourceHash": "sha256:4a5948f9102fe8cbbdcc3f5e4b562a3e1925c3675163d0300e1d4d89174e061d"
+      "text": "{actor:possessiveCapitalized} eyes welled up mid-sentence; {other} quickly changed the subject; {actor} needed a moment to steady the voice, while {other} remained nearby.",
+      "sourceHash": "sha256:c5b8c271076b5b74afbca49d7c5aabbd44efc3b9c12b09b8e53f0eb43b140660"
     },
     {
-      "templateId": "chronicle.chat.base.005",
+      "templateId": "chronicle.chat.actor.crybaby.005",
       "status": "reviewed",
-      "text": "{pair} became so absorbed in conversation that the next task nearly slipped their minds.",
-      "sourceHash": "sha256:9696360e4883133200d3042fc746d033ac0937ca72ac75caff878091afc9ef3a"
+      "text": "{actor:possessiveCapitalized} eyes welled up mid-sentence; {other} quickly changed the subject; the tears did not end the moment; {actor} and {other} simply slowed it down.",
+      "sourceHash": "sha256:c395a0c5656fc2a3d881a5805bcee65af3b5baa450fa9bed2605a57612837f8c"
     },
     {
-      "templateId": "chronicle.chat.base.006",
+      "templateId": "chronicle.chat.actor.eater.001",
       "status": "reviewed",
-      "text": "{pair} filled some waiting time with idle conversation.",
-      "sourceHash": "sha256:807803d410e80775b5e323b45c6b2d44785e6b74c975c5ac95445745cc9b7895"
+      "text": "{actor} talked between bites, chewing over {other:possessive} every sentence.",
+      "sourceHash": "sha256:13686c9d0d508adba5ee9d48ce4cabbfbd79088c4899de6b3b0f610bd1e0b1e1"
     },
     {
-      "templateId": "chronicle.chat.base.007",
+      "templateId": "chronicle.chat.actor.eater.002",
       "status": "reviewed",
-      "text": "{pair} discussed the latest news around the colony.",
-      "sourceHash": "sha256:26dcec1716a024c5a91ec7f404a5ba0c48d319a1c7313f0073d04d12850ffee1"
+      "text": "{actor} talked between bites, chewing over {other:possessive} every sentence; the smell of food never quite left {actor:possessive} side, making it hard for {other} to ignore.",
+      "sourceHash": "sha256:7486e22c2552307328dcf624de93b56870d7a71faa2e1d6e6eeaf0f117e7e31c"
     },
     {
-      "templateId": "chronicle.chat.base.008",
+      "templateId": "chronicle.chat.actor.eater.003",
       "status": "reviewed",
-      "text": "{pair} talked for a while and came away in lighter spirits.",
-      "sourceHash": "sha256:ae8f16bae21d661c7c806a08c9b75e4a8f1ce8b1e6c8bb8b0fecadc4a8b16f1b"
+      "text": "{actor} talked between bites, chewing over {other:possessive} every sentence; even while thinking about the next bite, {actor} remembered to respond to {other}.",
+      "sourceHash": "sha256:3438ee8bff74f670f2ca5f0d89f218ef85c8a758ea6347153da2ffede0f6d99a"
     },
     {
-      "templateId": "chronicle.chat.base.009",
+      "templateId": "chronicle.chat.actor.eater.004",
       "status": "reviewed",
-      "text": "{pair} fell into an easy back-and-forth conversation.",
-      "sourceHash": "sha256:f7890ab9d434e7f15ab6ff6aff7a1329f10ca8c4a0e082146fcf47fbac512173"
+      "text": "{actor} talked between bites, chewing over {other:possessive} every sentence; at the mention of food, {actor} immediately brightened and made {other} laugh.",
+      "sourceHash": "sha256:91c9832e5805ba86452e69f267659e15d5d60a1b1504f5e9fde74eaf264beb86"
     },
     {
-      "templateId": "chronicle.chat.base.010",
+      "templateId": "chronicle.chat.actor.eater.005",
       "status": "reviewed",
-      "text": "{pair} paused and gave each other their full attention.",
-      "sourceHash": "sha256:5f6cac4342b5a51dbced79b65499cfd8989d606d0bfba96753afe85501c1e586"
+      "text": "{actor} talked between bites, chewing over {other:possessive} every sentence; {actor} fitted the interaction around a little food and neglected neither.",
+      "sourceHash": "sha256:3647cf0582eb5d1f6b92355c8a7f9ee5f64046e432d10e2267f3d875a421dc90"
     },
     {
-      "templateId": "chronicle.chat.base.011",
+      "templateId": "chronicle.chat.actor.gentle.001",
       "status": "reviewed",
-      "text": "{pair} carved a brief conversation out of a busy day.",
-      "sourceHash": "sha256:dbb55c3adbca68b8e2a1a33b3156e08e9f8bbcd5786cdd35a77d10cc850f4412"
+      "text": "{actor} spoke softly, and {other} nodded along.",
+      "sourceHash": "sha256:8b8d1fe318845188721148f233fc4b7a3f0bd3c67d4225e3684e712cac58b78e"
     },
     {
-      "templateId": "chronicle.chat.base.012",
+      "templateId": "chronicle.chat.actor.gentle.002",
       "status": "reviewed",
-      "text": "{pair} turned a passing greeting into a proper conversation.",
-      "sourceHash": "sha256:fcee41819aa9cdc9686d282ae0b184afa00f1a22232c9f9b32207c7d89b20183"
+      "text": "{actor} spoke softly, and {other} nodded along; {actor} kept watching whether {other} was comfortable and handled the moment gently.",
+      "sourceHash": "sha256:fd790365199f039ae408732298dc428d9d9ce6e85a137d69d60f01ecdb2c58b9"
     },
     {
-      "templateId": "chronicle.chat.base.013",
+      "templateId": "chronicle.chat.actor.gentle.003",
       "status": "reviewed",
-      "text": "{pair} did not talk for long, but listened closely all the same.",
-      "sourceHash": "sha256:49689358c85d4b123a43e584ef7a600e0368d2480b2de28a68739064b27ce3c4"
+      "text": "{actor} spoke softly, and {other} nodded along; {actor} never hurried {other}, leaving plenty of time to respond.",
+      "sourceHash": "sha256:417818bd20f03bdb0f5d1f41ece9ee487aff9b2f6534647e65246659781246c2"
     },
     {
-      "templateId": "chronicle.chat.base.014",
+      "templateId": "chronicle.chat.actor.gentle.004",
       "status": "reviewed",
-      "text": "{pair} used a quiet moment to catch up with each other.",
-      "sourceHash": "sha256:1a6720e1e3df3ffafb9796da5c58bc83f7f48bc1c697f61f9965ecc78d1feae3"
+      "text": "{actor} spoke softly, and {other} nodded along; even the smallest gesture carried consideration, and {other} plainly noticed.",
+      "sourceHash": "sha256:226a8a159e646b072501db2f97dda30e8687ca11dd59542f0927aa4b766f7af3"
     },
     {
-      "templateId": "chronicle.chat.base.015",
+      "templateId": "chronicle.chat.actor.gentle.005",
       "status": "reviewed",
-      "text": "{pair} talked for a while before returning to their separate duties.",
-      "sourceHash": "sha256:df2e2138abc641defdab2bce941282ab78b90ee899db4dc27089ce818d3db558"
+      "text": "{actor} spoke softly, and {other} nodded along; {actor} softened both voice and movement, keeping the interaction free of pressure.",
+      "sourceHash": "sha256:985f8bc105f7fceda9607836e0692bc26ac4da77271121048720717a61005dca"
     },
     {
-      "templateId": "chronicle.chat.base.016",
+      "templateId": "chronicle.chat.actor.hothead.001",
       "status": "reviewed",
-      "text": "{pair} passed the time by chatting about everyday life.",
-      "sourceHash": "sha256:f7a542394f87d814b93839d8aec9df38a091fb224501a1ed7658bebacbe43ec7"
+      "text": "{actor:possessiveCapitalized} voice kept rising; {other} somehow didn't mind.",
+      "sourceHash": "sha256:f40c7348f10724526e691b09bd6eea31352cb15f673120bd0cff1930a71ba843"
     },
     {
-      "templateId": "chronicle.chat.base.017",
+      "templateId": "chronicle.chat.actor.hothead.002",
       "status": "reviewed",
-      "text": "{pair} swapped a few trivial but entertaining stories.",
-      "sourceHash": "sha256:bfc66ab5a17af192df6dfb139013cd66aa5b5ac8b8a610eb547c60ce6cc752de"
+      "text": "{actor} got so worked up mid-chat they nearly slammed the table.",
+      "sourceHash": "sha256:07580c13e842461dead265682b09bb33c474dc63b1364f9ebf5d39dcd37800e3"
     },
     {
-      "templateId": "chronicle.chat.base.018",
+      "templateId": "chronicle.chat.actor.hothead.003",
       "status": "reviewed",
-      "text": "{pair} shared a short and pleasant conversation.",
-      "sourceHash": "sha256:6c71ec6fc5cccd744f15b8d6950c9a3040766a5bbb829c90044db9b4dc3bbb29"
+      "text": "{actor:possessiveCapitalized} voice kept rising; {other} somehow didn't mind; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up.",
+      "sourceHash": "sha256:2c7637f31419fe742d6a9853047700b4a12fd960b3c2ce8dc7c472aa75a5f9a8"
     },
     {
-      "templateId": "chronicle.chat.base.019",
+      "templateId": "chronicle.chat.actor.hothead.004",
       "status": "reviewed",
-      "text": "{pair} recounted amusing moments they had each run into.",
-      "sourceHash": "sha256:e49d9b513516809de23992ec03d51b30fb6bad6d89ac8ebf46a38ca3a9b6c51f"
+      "text": "{actor} got so worked up mid-chat they nearly slammed the table; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}.",
+      "sourceHash": "sha256:eed8e57b1e0003a8d2c43f594eb0bfd5c3fd4f01ab865c9a7d3cc5c2861d2183"
     },
     {
-      "templateId": "chronicle.chat.base.020",
+      "templateId": "chronicle.chat.actor.hothead.005",
       "status": "reviewed",
-      "text": "{pair} kept up a broken conversation while on the move.",
-      "sourceHash": "sha256:e2b9eb77a2d7c859399efd4239dca690853d6764725ea30252f8e76b7dc392a0"
+      "text": "{actor:possessiveCapitalized} voice kept rising; {other} somehow didn't mind; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue.",
+      "sourceHash": "sha256:07248cb0cb99e434a7681a41ea81836df1f5d3c6bce275e3b4ced9e6de3af5c0"
     },
     {
-      "templateId": "chronicle.chat.base.021",
+      "templateId": "chronicle.chat.actor.loud.001",
       "status": "reviewed",
-      "text": "{pair} talked about ordinary things, yet neither hurried to leave.",
-      "sourceHash": "sha256:7d40ce07d15c2122e1bbfcc6d4797cd163f06450533eaf139a1f57dad7791cc6"
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it.",
+      "sourceHash": "sha256:dd61c1578a9a9dd9603710bdd2f2edc38839d88a59bf0899e052f0e2c6a2f466"
     },
     {
-      "templateId": "chronicle.chat.base.022",
+      "templateId": "chronicle.chat.actor.loud.002",
       "status": "reviewed",
-      "text": "{pair} shared a handful of small things they had noticed lately.",
-      "sourceHash": "sha256:3a7aeeb319a0eb88a79e02e62f48a595f541678c414e41a88031e3011ed964df"
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it; the volume made their interaction obvious to everyone nearby.",
+      "sourceHash": "sha256:194fd8a1f8488cf19272c9f7e0a0eff6ec4bcb9ac13c6eb7bfc0767736f36a2e"
     },
     {
-      "templateId": "chronicle.chat.base.023",
+      "templateId": "chronicle.chat.actor.loud.003",
       "status": "reviewed",
-      "text": "{pair} brought a little levity to a busy day with their chatter.",
-      "sourceHash": "sha256:bcc11d737cb79d0b64e0a3256d4cbce7dd9cc867bc6366897d17f12a051a77f0"
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it; {actor} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "sourceHash": "sha256:d2ebf193efb1c3c804f422e3f55be07481f2e157ccacbacc3a3bb9dd567c8d0f"
     },
     {
-      "templateId": "chronicle.chat.base.024",
+      "templateId": "chronicle.chat.actor.loud.004",
       "status": "reviewed",
-      "text": "{pair} lingered for two more remarks even after the conversation had ended.",
-      "sourceHash": "sha256:2f223aa713cdaf6f6d1de75b93ecfaebfd3d4d5679e0c4f8507120e2857eabc5"
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it; the sound carried far, but the interaction did not stop because of it.",
+      "sourceHash": "sha256:6a1cb586d1fe4dacc073f05974ac1844db79aa863f2dc1c3eb5c7e41dadf7dfd"
+    },
+    {
+      "templateId": "chronicle.chat.actor.loud.005",
+      "status": "reviewed",
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it; even after the area quieted, {actor:possessive} voice seemed to linger in the air.",
+      "sourceHash": "sha256:4bacb8ef5d20ab3fe4bbbba95286d90fa9bbb1c1d3e37b256f8b1fe467a9d3ea"
+    },
+    {
+      "templateId": "chronicle.chat.actor.nervous.001",
+      "status": "reviewed",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what.",
+      "sourceHash": "sha256:4f5d30250e3f5d6bcefca64f344c5102721a1614ec987d3aefe654e06db33871"
+    },
+    {
+      "templateId": "chronicle.chat.actor.nervous.002",
+      "status": "reviewed",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what; {actor} checked {other:possessive} reaction several times before gradually relaxing.",
+      "sourceHash": "sha256:4cdcbd923c12e624dbf287a25f41d867a13db9bb4ecd0dfc5f45731eae9f9dac"
+    },
+    {
+      "templateId": "chronicle.chat.actor.nervous.003",
+      "status": "reviewed",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what; every small noise distracted {actor}, while {other} patiently waited for the attention to return.",
+      "sourceHash": "sha256:eaa36ec63314047961123bc113f27969c85449315af77c7c985e94a97e360d0c"
+    },
+    {
+      "templateId": "chronicle.chat.actor.nervous.004",
+      "status": "reviewed",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what; {actor} handled every movement with extra care, and {other} did not rush anything.",
+      "sourceHash": "sha256:b69db64f43ebea32c8ff7c844d503b6551a36f139ca875533d42db9243902f9d"
+    },
+    {
+      "templateId": "chronicle.chat.actor.nervous.005",
+      "status": "reviewed",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what; only when it was over did {actor:possessive} tense shoulders finally relax.",
+      "sourceHash": "sha256:cc6556f1ac3df7d9b164173ab1985959ad0f5d5e5be40edd5282e6ba4e183e6d"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted for a while.",
+      "sourceHash": "sha256:59c451ed599c2ea8d2ec3f0a3527685d0541f2ab295753f3a517e7dc38716b1e"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat together shooting the breeze; the mood was good.",
+      "sourceHash": "sha256:a125c5dcf5bfc8c4a215e96c8def0045a554cf32aaaf54956baf747f68ad793d"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} talked about everyday things.",
+      "sourceHash": "sha256:f7b1d61057e0483637b16967f68d50b6fc0c0ba54fd7e21582fe9a367eac582e"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded the day's stories.",
+      "sourceHash": "sha256:9f933ab14cf8f675e3762866de52894a9512d0db5f6669d3e3b9ed777eefaff4"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted idly, and the time flew by.",
+      "sourceHash": "sha256:f6506fe779f58da3d6fde0ce5edefdd790752b72025a72e9491d4dbd98a08669"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} started a short conversation with {other}, and each listened until the other had finished.",
+      "sourceHash": "sha256:38da10bbd0aabdc11e3eb28a6951e8ae8b62c5f820560ded89d4ed477212a0cd"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.007",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded observations from the day, one subject leading naturally to the next.",
+      "sourceHash": "sha256:4a5138088819b99192f0345fb8cdf2db6b6eb4f1377b44d3dd22f714f0a946b8"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.008",
+      "status": "reviewed",
+      "text": "Halfway through a thought, {actor} paused to consider it while {other} quietly waited.",
+      "sourceHash": "sha256:74c7391265ae8a6d1232cefd2835eaee3b070136a3da4301fc89b18ab84f7a10"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.009",
+      "status": "reviewed",
+      "text": "{actor} told {other} about a small incident, and {other} listened with full attention.",
+      "sourceHash": "sha256:2363843164a7cf73e36a190056890ee58242c48b155f2789164fe08b92cb8222"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.010",
+      "status": "reviewed",
+      "text": "{actor} and {other} spoke without rushing, leaving room for every reply.",
+      "sourceHash": "sha256:518ec4eb31fc128554a055567b1b533199460638bd0a01064501f700f4ead2f3"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.011",
+      "status": "reviewed",
+      "text": "{actor} shared a little personal news, then asked how {other} had been doing.",
+      "sourceHash": "sha256:30c68ef4fa9487be85b103c3b290a9b8a63058216fc8bfaaea5ded6a3b51159b"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.012",
+      "status": "reviewed",
+      "text": "As {actor} talked with {other}, both broke into laughter and some of the earlier fatigue eased.",
+      "sourceHash": "sha256:10740a788e999a83daa82b65446e97a22996c1e8a9ac4bebd5b609b1f37e81a8"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.013",
+      "status": "reviewed",
+      "text": "{actor} finished an earlier thought for {other}, who understood it at once.",
+      "sourceHash": "sha256:dff7d103b22ba67b04c74d0a355f06b7858abf004c6f01102ceaac05f2a2c4d8"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.014",
+      "status": "reviewed",
+      "text": "{actor} approached {other} to confirm one small thing, but the exchange lasted much longer.",
+      "sourceHash": "sha256:dc63f462f69011fba6a2b04755987cc2202e4e0e508c8dbf2b300ca442541d0d"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.015",
+      "status": "reviewed",
+      "text": "{actor} lowered the voice for a few words with {other}, as serious as if sharing a secret.",
+      "sourceHash": "sha256:7ab4cc10354d0d4e9c6ed8d9307ce3252498f9c78054cf75866a01949c12f203"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.016",
+      "status": "reviewed",
+      "text": "While talking with {other}, {actor} gestured carefully to make every point clear.",
+      "sourceHash": "sha256:7fc150da977fb8a7a9430b26b3c73e69faa64be24330ae03e35d051758a0cc95"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.017",
+      "status": "reviewed",
+      "text": "As soon as {actor} opened the subject, {other} picked it up and the conversation found an easy rhythm.",
+      "sourceHash": "sha256:9a1df87389d9aff4cd7ee03df22153f7030dbb5bf9d04b6faa9527209e468fec"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.018",
+      "status": "reviewed",
+      "text": "{actor} talked a tangled thought through with {other} and came away with a clearer mind.",
+      "sourceHash": "sha256:da916a950221b37a5ac9eaf412c4cc24995c8fbb1797cd31e6d9d059d399e69d"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.019",
+      "status": "reviewed",
+      "text": "{actor} and {other} compared experiences and unexpectedly found several things in common.",
+      "sourceHash": "sha256:172ab84794a3d2ba28fa90b0f0aec5bd4dacb09919bdc90a50e3522831faf47c"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.020",
+      "status": "reviewed",
+      "text": "{actor} asked {other} a question and stayed to hear the whole answer.",
+      "sourceHash": "sha256:7c191404aa404d8ae99c7438cfb00f2d0463b3a04d15fdb03ef38695bb8877d4"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.021",
+      "status": "reviewed",
+      "text": "{actor} and {other} kept talking until the short break ended, then reluctantly wrapped up.",
+      "sourceHash": "sha256:18805ddac7025488f324a85f9c6811ec871daff911476988a531d574966e306d"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.022",
+      "status": "reviewed",
+      "text": "{actor} mentioned a small piece of good news, and {other} smiled along.",
+      "sourceHash": "sha256:2d2e589fcf511c12ece3fa51c0d51bb7a0e379358bfc819e6956fba7f8465704"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.023",
+      "status": "reviewed",
+      "text": "{actor} and {other} never raised their voices, but each managed to say what mattered.",
+      "sourceHash": "sha256:4cb08dca7db80b1c6800d7d34314a337ad8e66f2aa21d87e86177396a7037d63"
+    },
+    {
+      "templateId": "chronicle.chat.baseline.024",
+      "status": "reviewed",
+      "text": "{actor} meant to exchange only a few words with {other}, then lost track of time once the conversation opened up.",
+      "sourceHash": "sha256:5527fddd2eabb981edfc5701321fdf0833993d2ab11642d43640a0fe92a8c914"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary.",
+      "sourceHash": "sha256:90c5a28ae74de3a246435d89c69e099bd238ce2f669db2678641e7b6ad9cc17d"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary; the necessary cooperation remained, but none of the warmth returned with it.",
+      "sourceHash": "sha256:edeaa5cbb6170edf86642479f90b69ded81fa6e64a81e0e580e57db8a17ba894"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary; neither started an argument, and neither made a move toward closeness.",
+      "sourceHash": "sha256:75c4228143a52c44ff990ff81baadc1b83730f74a7c1fcb1743b65d9da30839b"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary; they completed what was needed while leaving every personal thought in silence.",
+      "sourceHash": "sha256:fcc9332750caab10ea634052e933888e20c84d1f4a866e904a1f0147a9587879"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary; they were not physically far apart, yet the coldness made the encounter feel long.",
+      "sourceHash": "sha256:a4e84ca8694d9bfdd2b7490e8cc74672dee2a51889cc245870f5fcdccbc97a54"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.cold.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} stiffly exchanged the few words that were necessary; the surface calm never broke, and the standoff beneath it never loosened.",
+      "sourceHash": "sha256:db3fd7acfa2588f781bc3e50a56f9fb324a4ba36d94639f717666ad2c372b96e"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else.",
+      "sourceHash": "sha256:e4fe6f4f41e87b0839538badb077232b1681f81a9333b5c7a754053e60bb4a6c"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else; neither needed many words to know how to look after the other.",
+      "sourceHash": "sha256:3d6d09f59d0bf14e48e572592d6f8e276c612c8b92e090286a87ea1f05bdd10f"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else; familiarity made the ordinary interaction easy, with no needless hesitation between gestures.",
+      "sourceHash": "sha256:cbd1467031c49c4f02d3ab949f5a389e84571f81708a0afef94e874a35acf684"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else; they made room for each other naturally, as if they had done so countless times.",
+      "sourceHash": "sha256:b73979f954655933ff9fbe1810796faa276090f5c1fdb26cfa6e3702b7e63651"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else; after briefly tending to separate tasks, the two soon found their way back together.",
+      "sourceHash": "sha256:f0ffcebb21a3217bef4736aff0cec35202be90f889184b8d70c52d532b93c3fa"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.couple.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} whispered together, oblivious to everyone else; others might see nothing unusual, but the two understood the value of this ordinary moment.",
+      "sourceHash": "sha256:1a7a70ed29465b76a5432a97a9edd7cc6e5b9a8612468d5952177ebfc7c5b3c6"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other.",
+      "sourceHash": "sha256:94395e998fddb3ed5fb2383d7d8d6188fd28aafaadb1c2f1c86be0475727c9a2"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other; both paid more attention than usual to every movement, making the moment slightly awkward.",
+      "sourceHash": "sha256:382df5730827d2abd8aeb992e461f00799cd4ee832f746cb5f938b240d998c62"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other; even an ordinary remark became memorable simply because it came from the other person.",
+      "sourceHash": "sha256:7f736c7d6ca70a48c848d7d9e10241f64ff58846655b97e99760116d0cdfd0d3"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other; their eyes met several times, and each time both looked away almost together.",
+      "sourceHash": "sha256:1570ca3e974f8e0bf1c740fd15ebf20d4ec7846453d246dda2c39a71282e468c"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other; nothing improper happened; what showed was the extra attention each gave the other.",
+      "sourceHash": "sha256:26fe2350c39094a5f36125bfb7de21a66f3174b27ff9cea7ec010214437ac363"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.crush.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} chatted, eyes drifting away from each other; for a brief while, both thought far too much about gestures that were usually effortless.",
+      "sourceHash": "sha256:b48cc9af87c87f0342e640b0c40697c38254ef09a953672d1e4f83365a7617ee"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers.",
+      "sourceHash": "sha256:bde02b6fbb76abeeea2516a0435458ba228c7621af47296377cd483f70eb334d"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers; both remained perfectly polite, though none of their former closeness returned.",
+      "sourceHash": "sha256:215f7fc698a409b311704abf878bb81b5a4be2f31a58e3802d4e42250161c2b0"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers; familiarity remained, while intimacy had become a piece of the past to avoid.",
+      "sourceHash": "sha256:5ac8ef170648c187f28f9710c6bf8ef4e9e56d47e743ba859cbd944721fc71ea"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers; they knew each other's habits and exactly how much distance to keep now.",
+      "sourceHash": "sha256:4f05d77a4c8ad3fc5a6722657ed1b4db51b3776cc9cbb5a222ae2eccc4339fda"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers; the encounter stayed composed, though every pause felt unusually distinct.",
+      "sourceHash": "sha256:1e092da0bf974a17fc9658e7ebc9a7dcf22c99333ffc5d294c97b1df5798715b"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.ex.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a few words, polite as strangers; things that once needed no explanation now sat behind a layer of courtesy.",
+      "sourceHash": "sha256:1b00c84e0d843e2fe913fde5360232b64f68c87e61b566541853260a81695faa"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel.",
+      "sourceHash": "sha256:4b11383f2d5a2299a4fafc7ff7f3a452eb4bbecb604cb8d034a34ca520f0a3fd"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel; neither would show weakness first, turning an ordinary interaction into a contest.",
+      "sourceHash": "sha256:fcb5e612d41e19262170fc50c3544b71fa78c8dd324ec310bed62c74a2024f5f"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel; both watched the other closely, with far more caution than ease.",
+      "sourceHash": "sha256:7afbf848df2b58b34064cc6b2080a41e0ea051fb952ff276471491410e51f3b3"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel; no open conflict appeared, but the quiet competition never stopped.",
+      "sourceHash": "sha256:eafa17bf68ac5abaa38ef41f11d9f7510c5583293f22a0228fd17d9e964b931b"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel; every word and gesture seemed aimed at gaining a small advantage.",
+      "sourceHash": "sha256:39c3d005e82fc84afb1048da1aaa71b16bd44b69ed83eae8e2bd1cf896fbb773"
+    },
+    {
+      "templateId": "chronicle.chat.relationship.rival.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded barbed words; the chat was a duel; there was no winner when it ended, and their hostility remained unmistakable.",
+      "sourceHash": "sha256:aa54f1dcf4e80ff38d6a773f79a36d9d319bc6f4fe7f12213dfd26ae9a849cb2"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight.",
+      "sourceHash": "sha256:18170604f1ba9ac9301e02e80ac60536733e33ec235334afb96220ef78c0a51f"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight; the two who once traded blows could now tell the story as a joke.",
+      "sourceHash": "sha256:57db299b2b49cd562f92c07a6ad6ca88e4b6bd5a0f0f866ed5b3d942233050ba"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight; the old injuries had passed, leaving a shared memory only the two fully understood.",
+      "sourceHash": "sha256:4e7ef604d5a1e01cfcbc242372f799fe088cd8ee640200c572de291a1d4bdcd5"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight; both remembered the relationship at its worst and could clearly see how much had changed.",
+      "sourceHash": "sha256:62c744fde7ed85e2b4d882b134d69fe115ceba10619b1fef5c9047180cc1c136"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight; none of the old fury returned, only the understanding born from a rough beginning.",
+      "sourceHash": "sha256:ebc3196fd8b72c043a5a28dcdb8919964f8091336e931a51bc5049e5abf3429a"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.brawl-bond.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} hit it off — no friendship like one forged in a fight; the fight was never romanticized, but the two truly learned how to get along afterward.",
+      "sourceHash": "sha256:faf9743279eec8ab3426b3d56893c1f39118312c7455d695030481fb7721b8ee"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop.",
+      "sourceHash": "sha256:7a3e6d054cdd1d61f93edaf1aad229626daf3301a7765384431887a3c9f369f7"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop; after facing danger together, even an ordinary interaction carried another layer of trust.",
+      "sourceHash": "sha256:38383171b1006a38f474e89266861576dceefb678fe1eaa1680ea5d195606b08"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop; each knew the other had not stepped away from danger, a fact more reliable than many words.",
+      "sourceHash": "sha256:7910af44474ee0067385482f9b883092da5e50985931e536b23a7be72d121546"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop; they rarely spoke of the ordeal, but it remained in the understanding between them.",
+      "sourceHash": "sha256:333f4c76f212ea5427fdf5a54fc93d0bf2338ad40317c2f2a3beed906b303741"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop; people who returned from danger together needed no explanation for looking after each other.",
+      "sourceHash": "sha256:110783d5d7c0262d688e5c64151ca22d977cbb200cdb42154ecfac2416a8d0e1"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.comrade.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} got talking about that narrow escape and couldn't stop; today was calm, but both remembered how they had endured harder days side by side.",
+      "sourceHash": "sha256:04c370a60f58f8621f2f40e2e167852c984cf97eb7e38180df56a5718d7a928c"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now.",
+      "sourceHash": "sha256:84271acd910d5a1be8fc4d0f156e8036ed8f533d4c22d2b3ffa46867c7251c1a"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now; feelings once left unanswered had become part of the road the two had traveled together.",
+      "sourceHash": "sha256:62ba10b78b121510cf8bc348cb97074613bc536588a3d7b00e9d0519cf53fe84"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now; both remembered the refusal and valued how naturally they could be together now.",
+      "sourceHash": "sha256:19d1c399551e2c48ab56e2ee3e537fd6dc4412902a890e52a807c17b1c43fb8d"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now; the waiting was never called a sacrifice, only a true part of the relationship's history.",
+      "sourceHash": "sha256:6dbf335e4fc82304869e6d4e532dbdcac2b2d0797023de5102d88d2bde07b917"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now; the earlier hesitation remained in memory, making their present closeness feel more concrete.",
+      "sourceHash": "sha256:97f7ddd7ed6b8115333fcb758144bec5acd3a3f76c0ddf463bec72b0e6e17fb7"
+    },
+    {
+      "templateId": "chronicle.chat.shared-history.waited.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} laughed together; that old rejection is just a funny story now; the long detour had not vanished; it had finally led them in the same direction.",
+      "sourceHash": "sha256:57ab1b913c1d935386641e925c5ed7df9db6544b963ac5d54460f5229286c91c"
+    },
+    {
+      "templateId": "chronicle.chat.with-topic.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} talked about {topic}.",
+      "sourceHash": "sha256:7821d90a3194f0c5d8cddf3a80d235a46de624f220250bf846288b6d402b69dc"
+    },
+    {
+      "templateId": "chronicle.greet.actor.eater.001",
+      "status": "reviewed",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}.",
+      "sourceHash": "sha256:b4ccc73053db4cfff69c0af4ccde80a6603a97ed5fd97de30d4cb94de6513eab"
+    },
+    {
+      "templateId": "chronicle.greet.actor.eater.002",
+      "status": "reviewed",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}; the smell of food never quite left {actor:possessive} side, making it hard for {other} to ignore.",
+      "sourceHash": "sha256:0686fa24a10bc9fdb41c0d40b23b912e0b3508dc48c6d441936b9402b78a30f8"
+    },
+    {
+      "templateId": "chronicle.greet.actor.eater.003",
+      "status": "reviewed",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}; even while thinking about the next bite, {actor} remembered to respond to {other}.",
+      "sourceHash": "sha256:424e46c3865de17718f0c292f2161fe7a14ace735eaaf24febb9cc8d4ca26f6c"
+    },
+    {
+      "templateId": "chronicle.greet.actor.eater.004",
+      "status": "reviewed",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}; at the mention of food, {actor} immediately brightened and made {other} laugh.",
+      "sourceHash": "sha256:8721a65825b0996eeb7e50e58483b2384c1bd4bd5e7f363709613dd6e2a7e482"
+    },
+    {
+      "templateId": "chronicle.greet.actor.eater.005",
+      "status": "reviewed",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}; {actor} fitted the interaction around a little food and neglected neither.",
+      "sourceHash": "sha256:d790830ca5e7424666775066c34236c9f928d857fdbbf935b8fabd5d2fcd451b"
+    },
+    {
+      "templateId": "chronicle.greet.actor.gentle.001",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a soft nod and a warm smile.",
+      "sourceHash": "sha256:d2c5d672b88bed6316537577c8348a834640e9a1570bd9e199c565b11a703425"
+    },
+    {
+      "templateId": "chronicle.greet.actor.gentle.002",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a soft nod and a warm smile; {actor} kept watching whether {other} was comfortable and handled the moment gently.",
+      "sourceHash": "sha256:155b34198f50392893c1df5c93d82068813957df1cd935cbd1e6b88eb617ce63"
+    },
+    {
+      "templateId": "chronicle.greet.actor.gentle.003",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a soft nod and a warm smile; {actor} never hurried {other}, leaving plenty of time to respond.",
+      "sourceHash": "sha256:be849dd34df278c8048a6dcbbbcc99157e1bca99d3726783c2e1d74a123c24b2"
+    },
+    {
+      "templateId": "chronicle.greet.actor.gentle.004",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a soft nod and a warm smile; even the smallest gesture carried consideration, and {other} plainly noticed.",
+      "sourceHash": "sha256:ee253cb83f7a01c4fa54dbaa44c895c81d151f1fc607233b9f9fefdfbc7bc460"
+    },
+    {
+      "templateId": "chronicle.greet.actor.gentle.005",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a soft nod and a warm smile; {actor} softened both voice and movement, keeping the interaction free of pressure.",
+      "sourceHash": "sha256:e2e098ddd868ed38b36ac0a5852b4b3a3de9c636b1e5bf4a94d31ab104e3c83d"
+    },
+    {
+      "templateId": "chronicle.greet.actor.hothead.001",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} greeting sounded like an order; {other} answered anyway.",
+      "sourceHash": "sha256:686c9dea195a500f4e8f34d223c51039d18821427a5a01df9184ab358c2660ac"
+    },
+    {
+      "templateId": "chronicle.greet.actor.hothead.002",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} greeting sounded like an order; {other} answered anyway; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up.",
+      "sourceHash": "sha256:ba9ea334036d8c3e1b8b0c2abd3cb9a698399239f687fad4663155f9baa54781"
+    },
+    {
+      "templateId": "chronicle.greet.actor.hothead.003",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} greeting sounded like an order; {other} answered anyway; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}.",
+      "sourceHash": "sha256:61229211f8ee0328d837e28f8806bbbb62522e1966e66c6ca23ee644372e8dff"
+    },
+    {
+      "templateId": "chronicle.greet.actor.hothead.004",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} greeting sounded like an order; {other} answered anyway; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue.",
+      "sourceHash": "sha256:5cabda7ab6b58301bd1163548142ca2d992caa6b00672fc162ea35c569438467"
+    },
+    {
+      "templateId": "chronicle.greet.actor.hothead.005",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} greeting sounded like an order; {other} answered anyway; {actor} reacted with such directness that even a pause seemed unnecessary.",
+      "sourceHash": "sha256:98d226a9ae227c6b0503aac705491de75915fe7710e576a46e23433fcd2660fa"
+    },
+    {
+      "templateId": "chronicle.greet.actor.loud.001",
+      "status": "reviewed",
+      "text": "{actor} bellowed a hello at {other} from across the room.",
+      "sourceHash": "sha256:e6eb46bfdcf26575782a89b6a1924f60c2c74125c38ccfb3570991b14862c4b0"
+    },
+    {
+      "templateId": "chronicle.greet.actor.loud.002",
+      "status": "reviewed",
+      "text": "{actor} bellowed a hello at {other} from across the room; the volume made their interaction obvious to everyone nearby.",
+      "sourceHash": "sha256:5dedd57b7d4798204eec8cf3f940ff799c6639e6c71584d7f94f4b42689b4340"
+    },
+    {
+      "templateId": "chronicle.greet.actor.loud.003",
+      "status": "reviewed",
+      "text": "{actor} bellowed a hello at {other} from across the room; {actor} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "sourceHash": "sha256:140cebb4a4280e988c1e12ab8654e41a86705d8a7a408086f3d1ceccd348d9e4"
+    },
+    {
+      "templateId": "chronicle.greet.actor.loud.004",
+      "status": "reviewed",
+      "text": "{actor} bellowed a hello at {other} from across the room; the sound carried far, but the interaction did not stop because of it.",
+      "sourceHash": "sha256:155a87ed308cb10ee27f8b7726549a4f90b48b83449453934570cdd71fe8fd44"
+    },
+    {
+      "templateId": "chronicle.greet.actor.loud.005",
+      "status": "reviewed",
+      "text": "{actor} bellowed a hello at {other} from across the room; even after the area quieted, {actor:possessive} voice seemed to linger in the air.",
+      "sourceHash": "sha256:79ff8b5e802e14d14f423b96ee973b7942ad90754885bf6f57433c5af6604654"
+    },
+    {
+      "templateId": "chronicle.greet.actor.nervous.001",
+      "status": "reviewed",
+      "text": "{actor} glanced around before quietly saying hi to {other}.",
+      "sourceHash": "sha256:b691544479e8bbd2e6c9e7846e30759188b8fa39d4e1a690eb068538bc4b1b3c"
+    },
+    {
+      "templateId": "chronicle.greet.actor.nervous.002",
+      "status": "reviewed",
+      "text": "{actor} glanced around before quietly saying hi to {other}; {actor} checked {other:possessive} reaction several times before gradually relaxing.",
+      "sourceHash": "sha256:670f053695510ab244565a7312a296870d9dfd44db94fad7fa0f28651c4887ac"
+    },
+    {
+      "templateId": "chronicle.greet.actor.nervous.003",
+      "status": "reviewed",
+      "text": "{actor} glanced around before quietly saying hi to {other}; every small noise distracted {actor}, while {other} patiently waited for the attention to return.",
+      "sourceHash": "sha256:dee4308687e90e81dc69ab41bf3d6f93f7a278cfbad8e0171129da42d95446da"
+    },
+    {
+      "templateId": "chronicle.greet.actor.nervous.004",
+      "status": "reviewed",
+      "text": "{actor} glanced around before quietly saying hi to {other}; {actor} handled every movement with extra care, and {other} did not rush anything.",
+      "sourceHash": "sha256:38d8e1a9f3f30f6c6e6f32db3b7f67f552c3ae172be8c92824362d64591b8d65"
+    },
+    {
+      "templateId": "chronicle.greet.actor.nervous.005",
+      "status": "reviewed",
+      "text": "{actor} glanced around before quietly saying hi to {other}; only when it was over did {actor:possessive} tense shoulders finally relax.",
+      "sourceHash": "sha256:c77f0ddc9462a7a0411e5bf51717d135d7ac473f6e10f2fbdc618ade9402c7bf"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} crossed paths and exchanged a nod.",
+      "sourceHash": "sha256:4725ab792beff54a664c2031324b0c8efce71d1bdf6a4ad0bd0b294c31466161"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} said hello in the corridor.",
+      "sourceHash": "sha256:d0b1b507a3164cc4fceaf0e2e94506b0367c8fdc866505ab918fcbaf423c06fa"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} traded a few pleasantries when they met.",
+      "sourceHash": "sha256:418e6776170c885b0fb1ebea352149013a3f3179398e19551102976224b47269"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} waved at each other from afar.",
+      "sourceHash": "sha256:5e19713f08091547608d48776b6fe7d7e2fb167b6091fb75e05dedcca8c84dcd"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} exchanged a glance across half the corridor; nothing needed saying.",
+      "sourceHash": "sha256:eea75b2b104208b329efc6dd3a82d0fb3edef44cbc031321445fa7218ccda71d"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} queued at the printing pod and said hello while they waited.",
+      "sourceHash": "sha256:6e77c1e69a2ba9ac26c5172c33cb391a16088882465a3164777743ac1ca19bf3"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.007",
+      "status": "reviewed",
+      "text": "{actor} spotted {other} from a distance and raised a hand in greeting.",
+      "sourceHash": "sha256:79a57a8dcf259d406b988f1d9a8ef6ae75cc87254315b4a4267c703e799653ff"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.008",
+      "status": "reviewed",
+      "text": "As {actor} passed {other}, {actor} slowed down long enough to offer a proper greeting.",
+      "sourceHash": "sha256:bec2cd832f4486f9ee314514d767cfb153d4bc9f0bbbb13be3894f0fcd13a5d3"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.009",
+      "status": "reviewed",
+      "text": "{actor} called {other:possessive} name first, then smiled and nodded when {other} looked over.",
+      "sourceHash": "sha256:c958272a55e2cb122afb37e46875a51b0af29b87082970ae8b9ca588e058dfa4"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.010",
+      "status": "reviewed",
+      "text": "Even in a hurry, {actor} remembered to wave to {other}.",
+      "sourceHash": "sha256:bf98f631ea8526903b7b023444851ca5f88a2029052cafd67fc620536a70d409"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.011",
+      "status": "reviewed",
+      "text": "{actor} tipped a chin toward {other}; the brief gesture was enough to acknowledge the meeting.",
+      "sourceHash": "sha256:9a83c300fbac8b1a696b6feffda7683f7d753b2bb46b6305fc882ed2e2a29c45"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.012",
+      "status": "reviewed",
+      "text": "Meeting {other} head-on, {actor} spoke a greeting at nearly the same moment as {other}.",
+      "sourceHash": "sha256:bd4e8a16ae96640ab0509cf8c5baebf8b7879e861c156c481c50eeecc9133743"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.013",
+      "status": "reviewed",
+      "text": "{actor} paused the task at hand specifically to greet {other} passing by.",
+      "sourceHash": "sha256:2c9209753e68fcfc0ec0bd525a80ef63af7d76b5e277980331d6d8016aa7381b"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.014",
+      "status": "reviewed",
+      "text": "Seeing that {other} was busy, {actor} kept the greeting to one crisp gesture.",
+      "sourceHash": "sha256:f8b8c7964a91d95dc7d2a3c5e10666ea7a3f58cf9083f53d5a508e36f536b27f"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.015",
+      "status": "reviewed",
+      "text": "When their eyes met, {actor} was the first to offer {other} a friendly smile.",
+      "sourceHash": "sha256:8dcca60d7e4cf2bb94cb0c5b7cef00968e66f98c5544511f866c2f29987cd89e"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.016",
+      "status": "reviewed",
+      "text": "{actor} recognized {other} among the others and called out a greeting from several steps away.",
+      "sourceHash": "sha256:bf8c8a90472476354060b2f2b3d8b0b7d2ba3ad1b492673a4fb75c206ce503a5"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.017",
+      "status": "reviewed",
+      "text": "Passing {other}, {actor} touched a hand lightly to the chest in a deliberate greeting.",
+      "sourceHash": "sha256:8aae5b3aab68b71dc93ccac81cb5644de7c7cda35e7f44d11bc3715e7cf9e995"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.018",
+      "status": "reviewed",
+      "text": "After greeting {other}, {actor} did not leave at once and lingered for another moment.",
+      "sourceHash": "sha256:418e20cadab3377195a422e79c09f36d0ac5f72bc2d5f1aa4853ef5a7863a5c9"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.019",
+      "status": "reviewed",
+      "text": "{actor} waved a dusty glove at {other}, wearing a smile that was anything but dusty.",
+      "sourceHash": "sha256:2df0dcba3c14c735e374a776a456b457dcaf03dbad83ed42739614012f974c78"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.020",
+      "status": "reviewed",
+      "text": "As soon as the task was done, {actor} made a point of greeting {other} first.",
+      "sourceHash": "sha256:ab9d69cedc8f131ac52b84cdbfa10ac9a81bcd222491f19c6319b15450bd23c0"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.021",
+      "status": "reviewed",
+      "text": "When {actor} met {other}, they exchanged nods, making even the brief moment feel familiar.",
+      "sourceHash": "sha256:f751b0b2252d48c8314916228b21c32e07c33f2605b2c6dabbf59ef44b015695"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.022",
+      "status": "reviewed",
+      "text": "{actor} had already walked past, then turned back to add a greeting for {other}.",
+      "sourceHash": "sha256:e29e8730b944690ed6cdbabda6f2aa71ef6c4cafd7b4f6016a2655e17c327b91"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.023",
+      "status": "reviewed",
+      "text": "{actor} gave {other} a tired but sincere smile as the day's greeting.",
+      "sourceHash": "sha256:41b8f4e898e821dff75801b37267394c92111c1acbb3abfe9cd7b9f425f000a9"
+    },
+    {
+      "templateId": "chronicle.greet.baseline.024",
+      "status": "reviewed",
+      "text": "Not wanting to interrupt {other:possessive} work, {actor} offered a quiet hello while passing.",
+      "sourceHash": "sha256:8e85d81229001db2742b140082761c374a1677ff5b013a9536a8dcdc84f7204e"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl?",
+      "sourceHash": "sha256:ac52566a727faca70ead42492e6d5bc2c85d908f95b67aa5e64591ee13043652"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl; the two who once traded blows could now tell the story as a joke.",
+      "sourceHash": "sha256:da133c88303357721ef78d5053d05e03af4d5255d2a1a71231b9cfc0e5053a18"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl; the old injuries had passed, leaving a shared memory only the two fully understood.",
+      "sourceHash": "sha256:19510d0b13c8f818329283ff98683787c52e9da00dcde54caa25fc2047ac3a0d"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl; both remembered the relationship at its worst and could clearly see how much had changed.",
+      "sourceHash": "sha256:12371d3dc8cd73f8c8a83a3433b7f69121ee11cd72bba784a7b203fdb1431c0f"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl; none of the old fury returned, only the understanding born from a rough beginning.",
+      "sourceHash": "sha256:1243d8eed4cab9de7a397a02b8cad6e33dd1080d1288a1db4f1cd3b76c7b0f3b"
+    },
+    {
+      "templateId": "chronicle.greet.shared-history.brawl-bond.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} grinned at each other on sight — who remembers that old brawl; the fight was never romanticized, but the two truly learned how to get along afterward.",
+      "sourceHash": "sha256:76f2414d72add59cef8aaac9a48520ebf394c994d35535081222d8a678b4f6eb"
+    },
+    {
+      "templateId": "chronicle.meal.actor.eater.001",
+      "status": "reviewed",
+      "text": "{actor} slid their own dessert onto {other:possessive} tray.",
+      "sourceHash": "sha256:b5610e53d21c3db3d194174a98d75f23bea73ea987a2699a5222b77137170c34"
+    },
+    {
+      "templateId": "chronicle.meal.actor.eater.002",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} trays came back spotless.",
+      "sourceHash": "sha256:d932e3431d113b0f3a719aca1a5990566335dccaefe34c2c0b9369713865dfc1"
+    },
+    {
+      "templateId": "chronicle.meal.actor.eater.003",
+      "status": "reviewed",
+      "text": "{actor} slid their own dessert onto {other:possessive} tray; the smell of food never quite left {actor:possessive} side, making it hard for {other} to ignore.",
+      "sourceHash": "sha256:a00f8f5ae2a0a62cb46ebd78179e961198c07a25c13d5fbe5accf33b9f6d03e1"
+    },
+    {
+      "templateId": "chronicle.meal.actor.eater.004",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} trays came back spotless; even while thinking about the next bite, {actor} remembered to respond to {other}.",
+      "sourceHash": "sha256:0067944dd73525dda40ff9fd55d4a3962edbbfa79358e165e462e8be8f60fc39"
+    },
+    {
+      "templateId": "chronicle.meal.actor.eater.005",
+      "status": "reviewed",
+      "text": "{actor} slid their own dessert onto {other:possessive} tray; at the mention of food, {actor} immediately brightened and made {other} laugh.",
+      "sourceHash": "sha256:f204c759b004ed9a8d39e17ee69377f6df2c40aa6a03a6afa51e7115cd48a6dd"
+    },
+    {
+      "templateId": "chronicle.meal.actor.gentle.001",
+      "status": "reviewed",
+      "text": "{actor} gave {other} the warmer portion.",
+      "sourceHash": "sha256:16d0cabb7d7692fdd07a0218d58f2e7fd5e9a32f0841a68ec8c12a70ef716b3a"
+    },
+    {
+      "templateId": "chronicle.meal.actor.gentle.002",
+      "status": "reviewed",
+      "text": "{actor} gave {other} the warmer portion; {actor} kept watching whether {other} was comfortable and handled the moment gently.",
+      "sourceHash": "sha256:7d0995f6fc231a6bb0944279a62c1b7418161aa0be85efa245f7961eb788dda8"
+    },
+    {
+      "templateId": "chronicle.meal.actor.gentle.003",
+      "status": "reviewed",
+      "text": "{actor} gave {other} the warmer portion; {actor} never hurried {other}, leaving plenty of time to respond.",
+      "sourceHash": "sha256:623f17dda0612ca57a1eac1b1419478a6e835a4bfdf99c477c63ed4e32342ebb"
+    },
+    {
+      "templateId": "chronicle.meal.actor.gentle.004",
+      "status": "reviewed",
+      "text": "{actor} gave {other} the warmer portion; even the smallest gesture carried consideration, and {other} plainly noticed.",
+      "sourceHash": "sha256:b429479589c607e1f48f18cf456bcf6c380bf9691dbd4e55e41560d4e9691547"
+    },
+    {
+      "templateId": "chronicle.meal.actor.gentle.005",
+      "status": "reviewed",
+      "text": "{actor} gave {other} the warmer portion; {actor} softened both voice and movement, keeping the interaction free of pressure.",
+      "sourceHash": "sha256:ecb13648d68eff5fd3dee5a913cc0271e3e82049efeacba6221d4c8ae538b577"
+    },
+    {
+      "templateId": "chronicle.meal.actor.hothead.001",
+      "status": "reviewed",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt.",
+      "sourceHash": "sha256:9f4922aeab239546e6dc2153cf0dab9d7e9dbfb1426b196a6efac71f905f3eaa"
+    },
+    {
+      "templateId": "chronicle.meal.actor.hothead.002",
+      "status": "reviewed",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up.",
+      "sourceHash": "sha256:1fafe3d3bce31ad3164cce9835e37175c5ab9c31aa630e147c668dfe60c7a71f"
+    },
+    {
+      "templateId": "chronicle.meal.actor.hothead.003",
+      "status": "reviewed",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}.",
+      "sourceHash": "sha256:65af7d5d7b83d0d73a40da42afc179a6f68525cbe81750b3160bf579a4c65c37"
+    },
+    {
+      "templateId": "chronicle.meal.actor.hothead.004",
+      "status": "reviewed",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue.",
+      "sourceHash": "sha256:9bafa2c44f3678ee9d3ecaa04cb29556c191701dd48b91efc4709cfed008b7a9"
+    },
+    {
+      "templateId": "chronicle.meal.actor.hothead.005",
+      "status": "reviewed",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt; {actor} reacted with such directness that even a pause seemed unnecessary.",
+      "sourceHash": "sha256:5c292b56b4028486c88d0e90e621f6a6689279392e55e1b9c0a39d5017818e04"
+    },
+    {
+      "templateId": "chronicle.meal.actor.loud.001",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} table was the loudest; half the mess hall heard {actor}.",
+      "sourceHash": "sha256:25cef4822cddd92be284d7c79d18f9cba8c17f6393e88ea0704bca7a3ee98dcb"
+    },
+    {
+      "templateId": "chronicle.meal.actor.loud.002",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} table was the loudest; half the mess hall heard {actor}; the volume made their interaction obvious to everyone nearby.",
+      "sourceHash": "sha256:fee14d4fb0b6d04d5de85a1276bfd467ab544c6382a92aca56218b8c1cdef47b"
+    },
+    {
+      "templateId": "chronicle.meal.actor.loud.003",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} table was the loudest; half the mess hall heard {actor}; {actor} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "sourceHash": "sha256:136833cbbf7e920d084249fb9fe9ce6d1540f3f5b610bee19684fa8cf4f62eea"
+    },
+    {
+      "templateId": "chronicle.meal.actor.loud.004",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} table was the loudest; half the mess hall heard {actor}; the sound carried far, but the interaction did not stop because of it.",
+      "sourceHash": "sha256:11a218756339ec9793fa731b6d4a223fc8b7f16e93cb9d9b3592c20e066200ff"
+    },
+    {
+      "templateId": "chronicle.meal.actor.loud.005",
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} table was the loudest; half the mess hall heard {actor}; even after the area quieted, {actor:possessive} voice seemed to linger in the air.",
+      "sourceHash": "sha256:65a8e8e6c17dedbd22e55ede468f44d2b93452a9531f48bd455017bdf39b8908"
+    },
+    {
+      "templateId": "chronicle.meal.actor.nervous.001",
+      "status": "reviewed",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times.",
+      "sourceHash": "sha256:55a8a07a25821c39b4c29f2d49b50b58328494a40e4891a3fc4b3a7f30786776"
+    },
+    {
+      "templateId": "chronicle.meal.actor.nervous.002",
+      "status": "reviewed",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times; {actor} checked {other:possessive} reaction several times before gradually relaxing.",
+      "sourceHash": "sha256:2380ffa9bcd55b51d670888665a822413474538b3608fb315e719414d3c71806"
+    },
+    {
+      "templateId": "chronicle.meal.actor.nervous.003",
+      "status": "reviewed",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times; every small noise distracted {actor}, while {other} patiently waited for the attention to return.",
+      "sourceHash": "sha256:43858a12bd0760085231027d6979c3cb7d227234e66f24ad6f065bb4e766472a"
+    },
+    {
+      "templateId": "chronicle.meal.actor.nervous.004",
+      "status": "reviewed",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times; {actor} handled every movement with extra care, and {other} did not rush anything.",
+      "sourceHash": "sha256:85e622e7a5e085d63d94eaa3a28d03724d58b6924cb271b0d6292d58e1644a7b"
+    },
+    {
+      "templateId": "chronicle.meal.actor.nervous.005",
+      "status": "reviewed",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times; only when it was over did {actor:possessive} tense shoulders finally relax.",
+      "sourceHash": "sha256:d92cd6ef0ff3c84314c386a6a07c6eda8bc6743ea57f1bfbb783ca9f5ea518a7"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} ate and talked, at ease.",
+      "sourceHash": "sha256:905062a3a0bbbc2566108c6039f945211f343845ae9858d5ef4eab56d523ac7b"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table and talked for a long time.",
+      "sourceHash": "sha256:54daa521f0ef96c1756825783de47f76b2425dd9f8e79ebb257c4cfcfc2a3571"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} carried their trays to the same table.",
+      "sourceHash": "sha256:19e0b1fd33442ad672a5b4a48a8342f5cdbaa3bbce756bc09129cb00ceada60a"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} split a mush bar between them; neither complained.",
+      "sourceHash": "sha256:8c4ac4b78f27517a5a34e906ece067a0491163d476f0cd9028b203da2d50df95"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.005",
+      "status": "reviewed",
+      "text": "The food was the same as ever, but the laughter at {actor} and {other:possessive} table was new.",
+      "sourceHash": "sha256:96b33427220aa402621426df8b4ff2f2094b67c25c9dc73585e5a15218b4b97a"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} carried a tray over to {other}, and the two shared an unhurried meal.",
+      "sourceHash": "sha256:6c40ba694ef74bca7beb8f9e2f1986e30b844cd9a6b2f0b17ad1cd9628361c2d"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.007",
+      "status": "reviewed",
+      "text": "{actor} made room for {other} before taking a seat as well.",
+      "sourceHash": "sha256:3a2442126909b6eb1c3eeb4e20ecf2f3f8fbfe2f6070c1f70a506a6090b17bd7"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.008",
+      "status": "reviewed",
+      "text": "{actor} and {other} set their trays side by side and traded a few words while eating.",
+      "sourceHash": "sha256:3604fe27f1199a9380d0a2ebd4fe1ccc052266e7f6fcbfbfa19b94b0ad0f17ac"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.009",
+      "status": "reviewed",
+      "text": "Seeing {other} eating alone, {actor} chose to join the table.",
+      "sourceHash": "sha256:6e06fccce51b65587dca94b98f24de32e31a70a7cd7e51c8dafd3256f3543dba"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.010",
+      "status": "reviewed",
+      "text": "{actor} waited until {other} was settled before eating, and their pace gradually matched.",
+      "sourceHash": "sha256:5e5239fe1378a7b6a9ee66fa0cf431729da4786f890444fa2a5342052ca72a23"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.011",
+      "status": "reviewed",
+      "text": "{actor} and {other} ate quietly for a while, with no awkwardness in the silence.",
+      "sourceHash": "sha256:6be29d2741359f7594904cd9dba70a7c345a52e43c545f9873db39de7356ea73"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.012",
+      "status": "reviewed",
+      "text": "{actor} passed the utensils to {other} and naturally took the neighboring seat.",
+      "sourceHash": "sha256:ce226d2b8880d22f6c62d19726b1675616e2c40522850c7fdb0bdf68ecb659d1"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.013",
+      "status": "reviewed",
+      "text": "{actor} and {other} ate slowly, neither appearing eager for the meal to end.",
+      "sourceHash": "sha256:f9ebcbc3726d3dbd3089fcc37f4f6d9ad963fe484a9f31ecdd3a37a826076fd6"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.014",
+      "status": "reviewed",
+      "text": "{actor} took the first bite and nodded to {other} before both continued eating.",
+      "sourceHash": "sha256:c77e0753f61d0989082e2d23f5eb47d02cf06612cd222d7ce678e75babf69864"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.015",
+      "status": "reviewed",
+      "text": "{actor} and {other} finished the last bites before clearing their utensils together.",
+      "sourceHash": "sha256:85a4c165fbe38b1fbd653a7f9665a68adeadddf3c4fa985b5d8fcceb7bdea9c7"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.016",
+      "status": "reviewed",
+      "text": "{actor} sat opposite {other}, and the space between their trays soon stopped feeling formal.",
+      "sourceHash": "sha256:5806235251b907ca267967c877e8d539727356693844b2c23ef7f0c36df8eb69"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.017",
+      "status": "reviewed",
+      "text": "{actor} and {other} looked up for the occasional remark but spent most of the meal simply eating.",
+      "sourceHash": "sha256:0b145fe6c7f7da601b5fd875569958c7784102937b604b3af09ea39d01b58834"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.018",
+      "status": "reviewed",
+      "text": "Noticing that {other} had not started, {actor} waited so they could begin together.",
+      "sourceHash": "sha256:a3e7cee5d472080035e401cc65ab21e3f44828e25df8129462bcad0e9ec99664"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.019",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat at the same table, giving the busy day a brief pause.",
+      "sourceHash": "sha256:864736bd0ffa45528f3eae4fae82c6a4588b5d1c61fc012a8a42ae23308a1d3d"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.020",
+      "status": "reviewed",
+      "text": "{actor} slid an out-of-reach utensil to {other} with the ease of a familiar habit.",
+      "sourceHash": "sha256:90cef6eb77580fe06f6ea7506927497ca0786e95bc1742e565c492567a8addb1"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.021",
+      "status": "reviewed",
+      "text": "{actor} and {other} touched cup rims, lending a little ceremony to an ordinary meal.",
+      "sourceHash": "sha256:e12e7d11273cef33f4e3d4ceff3aaf62c37d8b2d714ea9c85334f767cc766530"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.022",
+      "status": "reviewed",
+      "text": "After finishing, {actor} and {other} remained seated for a moment instead of leaving at once.",
+      "sourceHash": "sha256:6fee9f702811dc82d5b646e4508259aeb18103882e09804ff06a165b54ca2b60"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.023",
+      "status": "reviewed",
+      "text": "{actor} chose a seat suited for conversation and shared the meal with {other}.",
+      "sourceHash": "sha256:8e5e0ac31ef048fdce7d669b37c38bd3a8f77a1512a73059dd8b2a287f83b0a6"
+    },
+    {
+      "templateId": "chronicle.meal.baseline.024",
+      "status": "reviewed",
+      "text": "When {other} began clearing the table, {actor} picked up both sets of dishes.",
+      "sourceHash": "sha256:7d554e55074b6494a5a3a43fa287ea47bd318438907a3241984f5c9cccb0d6cf"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first.",
+      "sourceHash": "sha256:ecabf16c44ecb14a3c7dff0d157b35d7a2c6f744711256aa61804278801fba4c"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first; the necessary cooperation remained, but none of the warmth returned with it.",
+      "sourceHash": "sha256:b7728505565d0aa0d338a34268672a4bbf2663327b2d1ff2cd7cf4c7a5e6d96f"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first; neither started an argument, and neither made a move toward closeness.",
+      "sourceHash": "sha256:e38543e824d92d0f259b6fd215a25df607388502caf6fe3f4a6dff9b882fb37b"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first; they completed what was needed while leaving every personal thought in silence.",
+      "sourceHash": "sha256:7d94afd9cd648ca71847a272333020dc79ad3f3a29a84ec15d1d97766b6ff290"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first; they were not physically far apart, yet the coldness made the encounter feel long.",
+      "sourceHash": "sha256:9c4e227cb3b7cc21fa39740a1fd9824260b61e8af7fbb045069a6e9f63435269"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.cold.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat across the table; neither spoke first; the surface calm never broke, and the standoff beneath it never loosened.",
+      "sourceHash": "sha256:11858d2d8323c622a6c25eed364ec332f0320dcfeb8b9d9992048759dc8a18be"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet.",
+      "sourceHash": "sha256:12bcb1f5e2101566355cf61862310378895f6ef31d8dfbaafb783eea8525c5b0"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet; neither needed many words to know how to look after the other.",
+      "sourceHash": "sha256:1f440b27d1dbd07feac1748568e88092042640c6cae622dccd3ba28042f1cbb4"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet; familiarity made the ordinary interaction easy, with no needless hesitation between gestures.",
+      "sourceHash": "sha256:b40f44e3965da2f468801e146eb3b94a14300005f59f989ca7038ca5526c4051"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet; they made room for each other naturally, as if they had done so countless times.",
+      "sourceHash": "sha256:4e71870e293be93cdd961e4b78f39d92e45cee4fef3b838f34308d3050fc4655"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet; after briefly tending to separate tasks, the two soon found their way back together.",
+      "sourceHash": "sha256:b4749711bc764f2cd7c32ef0dec1f02ac03f3cedbdae379c5ff605df05f2e52a"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.couple.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close, and the meal was sweet; others might see nothing unusual, but the two understood the value of this ordinary moment.",
+      "sourceHash": "sha256:908b5897ad93a31c4e382016dd44f6284fb0ee0f7784f2c0ebca885ee432c497"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food.",
+      "sourceHash": "sha256:186e6ba53916a4d80a013f72582e7dac088dc0f9168110ccb5f895f47cf15e7c"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food; both paid more attention than usual to every movement, making the moment slightly awkward.",
+      "sourceHash": "sha256:cd50b7fdf5c4f80d6e259964503243053d9d44c80d24a8f5648eb4377ca6ad06"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food; even an ordinary remark became memorable simply because it came from the other person.",
+      "sourceHash": "sha256:7743c1fe23a64f5854473688569b7aeee7f4c82b7676c432452967770c9333cd"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food; their eyes met several times, and each time both looked away almost together.",
+      "sourceHash": "sha256:9473a859f763b83dc8eadef2a10b27a3ce38286341c7181f8f2697fe5ad66da8"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food; nothing improper happened; what showed was the extra attention each gave the other.",
+      "sourceHash": "sha256:c4181c1819d9d5885c46e12f2d169c8def2aa4d38d6a7f0c04fd2de134fd4461"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.crush.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, neither really tasting the food; for a brief while, both thought far too much about gestures that were usually effortless.",
+      "sourceHash": "sha256:a2c79f1d49ccfbdde89b4e41805eca1ff27f411cc81496f854de26f5fe01277b"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray.",
+      "sourceHash": "sha256:68b9882b1018bafeb86ed960fd0b856673d312fcf6e17c53a4cb79c1ba649873"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray; both remained perfectly polite, though none of their former closeness returned.",
+      "sourceHash": "sha256:3c561ef89df1f41d46170d2ea9db7acc59984b0892988f7d01550428d0c334b5"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray; familiarity remained, while intimacy had become a piece of the past to avoid.",
+      "sourceHash": "sha256:afae36d35d6f2eff1bfd43e3ee01f7b0e49db45291fc609e2c6e8d6dae3a3dc2"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray; they knew each other's habits and exactly how much distance to keep now.",
+      "sourceHash": "sha256:f61c087072d3501e6be1d71620cd5310abfd8f5d2c19b2eb720fdeeaa554ea64"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray; the encounter stayed composed, though every pause felt unusually distinct.",
+      "sourceHash": "sha256:a4da96bd414eed88d3e169f5eac71eae3184fc5687ace4738282065e40578b1a"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.ex.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table, each staring at their own tray; things that once needed no explanation now sat behind a layer of courtesy.",
+      "sourceHash": "sha256:034d1e09ebfc48dbbb08ad1fc35dfe2aecb17191eb896b44fde433b6ceb3be87"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual.",
+      "sourceHash": "sha256:83018f05545b092044bfd02453cdc58da25ce699c2e63683935dac6d804966a3"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual; neither would show weakness first, turning an ordinary interaction into a contest.",
+      "sourceHash": "sha256:f57c45a5912fbbe60437983bbe6ddb8e6c7edcd3a99036d172b72369d67833aa"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual; both watched the other closely, with far more caution than ease.",
+      "sourceHash": "sha256:634aa1bb589b21428aacfcb51de9bb684e850bdf044fae3a1fe343da3e5507c7"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual; no open conflict appeared, but the quiet competition never stopped.",
+      "sourceHash": "sha256:b5a8e717644cb0573541bb9412d9046c0f86e5e55bcaa595dde1c997d9e8e3b8"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual; every word and gesture seemed aimed at gaining a small advantage.",
+      "sourceHash": "sha256:9470e67b6219e4bd5192c5630f74f1d3e8f4e69645d272d7503b4ba8bfde8126"
+    },
+    {
+      "templateId": "chronicle.meal.relationship.rival.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a table; the cutlery clattered louder than usual; there was no winner when it ended, and their hostility remained unmistakable.",
+      "sourceHash": "sha256:fd6ca168d836427e75d6ab0f399e6cdf28529bcc93a6c3f9fb137b1495f289a0"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger.",
+      "sourceHash": "sha256:91cc26e60c1b91328f5a46687b80670d38878f5726ca7d964350706a16b8ba75"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger; after facing danger together, even an ordinary interaction carried another layer of trust.",
+      "sourceHash": "sha256:05b8fa32a99091968d176a6e0ab08779b486459a7e6412903924ce88c1f329dd"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger; each knew the other had not stepped away from danger, a fact more reliable than many words.",
+      "sourceHash": "sha256:36a3c7d44d27ead84e281d5f348213ee97e283a5e4404e5c5ced2cad0b2aee78"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger; they rarely spoke of the ordeal, but it remained in the understanding between them.",
+      "sourceHash": "sha256:656fe336dc6feb9eed4d99f30b1a1a11146fcf16732d09705b0f336454541df4"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger; people who returned from danger together needed no explanation for looking after each other.",
+      "sourceHash": "sha256:09cd78e9310043b715bcd30719654465d20a5e4ee867772ccbab2c9bde507ddf"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.comrade.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} clinked cups over the meal — a bond forged in danger; today was calm, but both remembered how they had endured harder days side by side.",
+      "sourceHash": "sha256:5d50cb8e1ceadead6e556ec44471fa7aaa437a8073e1e4b5d627768ea484e967"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming.",
+      "sourceHash": "sha256:eb455827af98064d61019c7ae8ff1aab9c257bb928c5fcbad1d7be68de8f49e3"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming; feelings once left unanswered had become part of the road the two had traveled together.",
+      "sourceHash": "sha256:ea6cd249f1b48f2b6dcfaaba9ed4cee26b51a790b79df1b3d6ccc5135612c9bd"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming; both remembered the refusal and valued how naturally they could be together now.",
+      "sourceHash": "sha256:4ad9edfc5ad687ba39ae4e23bf1c4aa377ea5610b2e0ae9387c6f8c812a10832"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming; the waiting was never called a sacrifice, only a true part of the relationship's history.",
+      "sourceHash": "sha256:da74b30bbf8049e4395db67751e97778a83788e1cc193196dc30342177b1d6e6"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming; the earlier hesitation remained in memory, making their present closeness feel more concrete.",
+      "sourceHash": "sha256:3dcff76070235a8108dd49412cb3a15269ddeee97c6d4404b8d78c471ecfdf5e"
+    },
+    {
+      "templateId": "chronicle.meal.shared-history.waited.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} sat close; this meal was a long time coming; the long detour had not vanished; it had finally led them in the same direction.",
+      "sourceHash": "sha256:a038d2cf0573f9e58750db636f48afdd5d5d4ca1cea316a6bcfcd233b2e5639f"
+    },
+    {
+      "templateId": "chronicle.meal.with-place.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} shared a meal at {place}.",
+      "sourceHash": "sha256:4c5f5fc0afa830d69e07e92e9aa300259e178a596166220884af174c25a9ff4e"
+    },
+    {
+      "templateId": "chronicle.party.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} let loose at the party.",
+      "sourceHash": "sha256:17798c72df20bab92926d1205406749511c8dfef0a74d4434b32083f0b77dbf4"
+    },
+    {
+      "templateId": "chronicle.party.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b} toasted at the party; the juice nearly passed for wine.",
+      "sourceHash": "sha256:d1ca74921c538a52b420d2031c2e8069b2b3cbe2c78bb77e56f471e099caa252"
+    },
+    {
+      "templateId": "chronicle.party.baseline.003",
+      "status": "reviewed",
+      "text": "In the party lights, {a} and {b} were chattier than usual.",
+      "sourceHash": "sha256:6fd0007577e0dd1c259a5f87e6a3531b35ee6808025e760e2cc121c66efcd741"
+    },
+    {
+      "templateId": "chronicle.party.baseline.004",
+      "status": "reviewed",
+      "text": "{a} and {b} stayed until the party wound down, reluctant to leave.",
+      "sourceHash": "sha256:93d5f12d552f624332c90e2e153a4ad1ed1023e8cb11947dd3653c3029906638"
+    },
+    {
+      "templateId": "chronicle.party.baseline.005",
+      "status": "reviewed",
+      "text": "{a} and {b} touched cups in the crowd, celebrating the work they had made it through.",
+      "sourceHash": "sha256:eee8f2a64942db850433c9248068157af78119258991a6ef6450060acf3c3afa"
+    },
+    {
+      "templateId": "chronicle.party.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} relaxed into the celebration and briefly forgot the schedule.",
+      "sourceHash": "sha256:a3fa15758ccbf415c191f2c5ce24be4326cc87328bdc3220923f14db8f43b4ac"
+    },
+    {
+      "templateId": "chronicle.party.baseline.007",
+      "status": "reviewed",
+      "text": "{a} and {b} found each other in the crowd and joined the cheering together.",
+      "sourceHash": "sha256:9661c9f0f22ecde6fe72feb0806157e449544e69082718cd5892b0a020bc76fc"
+    },
+    {
+      "templateId": "chronicle.party.baseline.008",
+      "status": "reviewed",
+      "text": "{a} and {b} took turns recounting the day's amusing moments and soon drew a circle of listeners.",
+      "sourceHash": "sha256:781920ac02ab199ddc726b8ae69a6c89fad9584865741143a6b63d7612e4125d"
+    },
+    {
+      "templateId": "chronicle.party.baseline.009",
+      "status": "reviewed",
+      "text": "{a} and {b} raised their cups high and gave the occasion a proper celebration.",
+      "sourceHash": "sha256:b22017a9fe6a269b19ca7e782291d1d518d97a8320b610ed89c5e010c489d5eb"
+    },
+    {
+      "templateId": "chronicle.party.baseline.010",
+      "status": "reviewed",
+      "text": "{a} and {b} lingered at the edge of the gathering before gradually catching its joy.",
+      "sourceHash": "sha256:6d62190a2e5eea7a07fabaa26de3cc93097d6ee0e9b8ae52b3365c01bfecb880"
+    },
+    {
+      "templateId": "chronicle.party.baseline.011",
+      "status": "reviewed",
+      "text": "{a} and {b} saved places for each other and never became separated during the celebration.",
+      "sourceHash": "sha256:ba0a428f6432df90a98e8f14e8d47e94083ced74ce85de32bdc913db5ec81b62"
+    },
+    {
+      "templateId": "chronicle.party.baseline.012",
+      "status": "reviewed",
+      "text": "{a} and {b} laughed together so long that neither remembered exactly what had been said.",
+      "sourceHash": "sha256:ad901fd2160c924a5a44d20574dc6d27b23e690ba1ec44fb13f86a5c0172d9c8"
+    },
+    {
+      "templateId": "chronicle.party.baseline.013",
+      "status": "reviewed",
+      "text": "At the loudest moment of the gathering, {a} and {b} exchanged a knowing look.",
+      "sourceHash": "sha256:21c10cbc3bb0967e95fcde6c70e0e01b7b276f38bc3f44e748cadb9043c3080f"
+    },
+    {
+      "templateId": "chronicle.party.baseline.014",
+      "status": "reviewed",
+      "text": "{a} and {b} celebrated with everyone, but still made time for a toast of their own.",
+      "sourceHash": "sha256:34e3e17b874663447ccfe092d205341f10d0a704a28f463e4247e7fe7b497edc"
+    },
+    {
+      "templateId": "chronicle.party.baseline.015",
+      "status": "reviewed",
+      "text": "{a} and {b} put their usual reserve aside and joined the festivities wholeheartedly.",
+      "sourceHash": "sha256:15786a688db6d829b07bda100d60559b2e5d71c81178979598b73ff87f9d2208"
+    },
+    {
+      "templateId": "chronicle.party.baseline.016",
+      "status": "reviewed",
+      "text": "Throughout the gathering, {a} and {b} kept an eye on each other so neither was left alone.",
+      "sourceHash": "sha256:7603ceccd36542750ba9f64f5e314ef503193df50e5a62176e5ecd4d016c2fda"
+    },
+    {
+      "templateId": "chronicle.party.baseline.017",
+      "status": "reviewed",
+      "text": "{a} and {b} clapped along with everyone until their palms grew warm.",
+      "sourceHash": "sha256:12a3d26be3c0b36ac298202f6134df7bebba7369951aee893d7e2f280e7dd2e9"
+    },
+    {
+      "templateId": "chronicle.party.baseline.018",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a festive snack and divided the final bite evenly.",
+      "sourceHash": "sha256:70d844904dd7ce45b52e1f7f70bba1d1ab295f8cbc5e4488237ca5bf4b09bdd7"
+    },
+    {
+      "templateId": "chronicle.party.baseline.019",
+      "status": "reviewed",
+      "text": "{a} and {b} stayed until the crowd began to thin, reluctant to end the celebration early.",
+      "sourceHash": "sha256:71dc2741de9bbf29126238cfced769b8b3073189c7cf918ae72760ebe5d93d31"
+    },
+    {
+      "templateId": "chronicle.party.baseline.020",
+      "status": "reviewed",
+      "text": "{a} and {b} turned the day's hardship into jokes until it no longer sounded quite so heavy.",
+      "sourceHash": "sha256:2571bc7a86d7cfec7b846d10c750d0dc32596bc60075d32552a2933e70f8c39f"
+    },
+    {
+      "templateId": "chronicle.party.baseline.021",
+      "status": "reviewed",
+      "text": "Amid the cheering, {a} and {b} congratulated each other more earnestly than usual.",
+      "sourceHash": "sha256:b18ad302350c52f5de234821207fdf863e8cc5744a86d6563a8ee626762c7410"
+    },
+    {
+      "templateId": "chronicle.party.baseline.022",
+      "status": "reviewed",
+      "text": "{a} and {b} moved with the crowd, not quite in rhythm but plainly happy.",
+      "sourceHash": "sha256:65cc06e915c6facce60771b5a59aefed9246e328580c0c261c2ce01f2c822406"
+    },
+    {
+      "templateId": "chronicle.party.baseline.023",
+      "status": "reviewed",
+      "text": "Only near the end of the gathering did {a} and {b} quiet down and share a smile.",
+      "sourceHash": "sha256:c0e0c8d741e622eaf21caf5d39e7e1e744041897ac02e9147223314c50321a69"
+    },
+    {
+      "templateId": "chronicle.party.baseline.024",
+      "status": "reviewed",
+      "text": "{a} and {b} treated the evening as well-earned rest after hard work and celebrated fully.",
+      "sourceHash": "sha256:853cdb33b15cade50a16839f53dacb9b8d84db1c5dd322af0e03a0a0a8ec20e7"
+    },
+    {
+      "templateId": "chronicle.party.with-place.001",
+      "status": "reviewed",
+      "text": "{a} and {b} attended the party at {place}.",
+      "sourceHash": "sha256:ae27d7aa1cf80569e24ff818b406384a378ad0fdbf79458ecb064158197c9ba2"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; their schedules matched.",
+      "sourceHash": "sha256:7f3b177e0e0ebe3fd3921596cf33eccfc4a9af7c36d362b7f9d56eaeb8916206"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b} bunked side by side, each turning over carefully so as not to wake the other.",
+      "sourceHash": "sha256:60e5d5b526b829ba7cc0d9fe19cc655b5d47e903e183d60734f5e84ca72cf946"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.003",
+      "status": "reviewed",
+      "text": "After lights-out, {a} and {b} whispered a while longer before sleeping.",
+      "sourceHash": "sha256:34d37b5fbdf64fff6731c1a8c08b53d2e631982840d63afb8cd4405408e80f47"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.004",
+      "status": "reviewed",
+      "text": "Under one roof, {a} and {b} have even synced up their snoring.",
+      "sourceHash": "sha256:13b25480a74f59341336380cca6f3f85b05b48a65201ec0a064968e95b063c94"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.005",
+      "status": "reviewed",
+      "text": "Once {a} and {b} lay down, the room soon became quiet.",
+      "sourceHash": "sha256:a887ea23463a469e6eb1895e66a4214719e7f0ccfab509ee06217a3d231e6604"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.006",
+      "status": "reviewed",
+      "text": "After a long day, {a} and {b} fell asleep to the nearby rhythm of each other's breathing.",
+      "sourceHash": "sha256:da33375283ea14b63f104906daea9c842dfa787495751d89853cb557b1ee3200"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.007",
+      "status": "reviewed",
+      "text": "When {a} turned over in the night, {b} merely adjusted the blanket and went back to sleep.",
+      "sourceHash": "sha256:934cdec0e7e9b2dcf29e94052cfeef5ba5024d38622be9d91cde67ce57d7e33f"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.008",
+      "status": "reviewed",
+      "text": "{a} and {b} exchanged only a few words before settling into silence together.",
+      "sourceHash": "sha256:4afca2004243e116a1cfc89b56b4f9b6f62197ce8cd3d611dff73535f41b7800"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.009",
+      "status": "reviewed",
+      "text": "{a} turned out the light first, and {b} soon quieted down to rest as well.",
+      "sourceHash": "sha256:b9f243258edabe72e2c8d2831ec9fd8efa122e38692b6eb3614e3f9742f3d302"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.010",
+      "status": "reviewed",
+      "text": "Both {a} and {b} were exhausted and fell soundly asleep before long.",
+      "sourceHash": "sha256:837488c5baae0960e94f74372bb5d945a59bf1e08eeab32ab99027bb3ed1c10c"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.011",
+      "status": "reviewed",
+      "text": "{a} woke once in the night and moved quietly after seeing {b} still asleep.",
+      "sourceHash": "sha256:123ee619c0390e4a9a9752177dd1608ef976e8dad69d9711800109a21f8ed5fa"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.012",
+      "status": "reviewed",
+      "text": "For once, {a} and {b} kept the same rhythm, and neither disturbed the other that night.",
+      "sourceHash": "sha256:3ab448dc073131362aba04da47336f21fcad59d313ed4dd9eefe004ef07367e6"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.013",
+      "status": "reviewed",
+      "text": "Drowsy, {a} and {b} wished each other good night before the room fell silent.",
+      "sourceHash": "sha256:fba4189fedf762be2eefcc5657b03f21ed012c5e79db69987221a1089c800c20"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.014",
+      "status": "reviewed",
+      "text": "{a} preserved a little quiet for {b}, and {b} returned the same consideration.",
+      "sourceHash": "sha256:b9e157bd6c4236634c3b282a8e2c1dab3eacf97b592b1c724c444d4127fbf512"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.015",
+      "status": "reviewed",
+      "text": "{a} and {b} made their beds, bringing the day's work to a close.",
+      "sourceHash": "sha256:ad71f8d8a6edf72f9b2818de451af874bf612978289f4c44f3bc5d3745ca8c3d"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.016",
+      "status": "reviewed",
+      "text": "Hearing {b:possessive} breathing settle, {a} gradually relaxed as well.",
+      "sourceHash": "sha256:8523b16be5de3661f02961651980d57ccfab40576f9d9bec20663b4c01a9a166"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.017",
+      "status": "reviewed",
+      "text": "{a} and {b} left the day's events unspoken and let exhaustion carry them into sleep.",
+      "sourceHash": "sha256:b24aa5d3f01fb21cc5d1efd4e7bffe5569bb2cabc00a46a176b2a4f149897fa4"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.018",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a rare stretch of undisturbed rest.",
+      "sourceHash": "sha256:92aebd670aca3783f7aa1a69ce23b39cdf1aad37f45fedebc70f7ced453b2445"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.019",
+      "status": "reviewed",
+      "text": "{a} woke first and took care not to disturb {b}, who was still asleep.",
+      "sourceHash": "sha256:d768d73ae991bdb474c3c090e2f1fd2e80f0159d4de466bd7f0fea89790ce57c"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.020",
+      "status": "reviewed",
+      "text": "Neither {a} nor {b} made unnecessary noise, leaving the night especially peaceful.",
+      "sourceHash": "sha256:aa4c7e71f4a8417dda799fff39a89fa544efafcce4229e4f4f29f61f0de1ab66"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.021",
+      "status": "reviewed",
+      "text": "{a} and {b} recovered in the same quiet until the new day began.",
+      "sourceHash": "sha256:17c07f23cb688a1aecf48c7be16e4cbdff7f664b0a7bae5dc551e6f824ad2d68"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.022",
+      "status": "reviewed",
+      "text": "{a} slept deeply; even when {b} stirred, the room remained quiet.",
+      "sourceHash": "sha256:fb0859b3a21676dcfe43900d89fe0ce819f4a9c2336a57e9663a77fd33bf28ad"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.023",
+      "status": "reviewed",
+      "text": "{a} and {b} left the unfinished conversation for tomorrow and got a proper night's sleep.",
+      "sourceHash": "sha256:2811b63d382c1dd9c08c2af49ee3c251e25f7968ce835ac43c8b20bfb2cfd67a"
+    },
+    {
+      "templateId": "chronicle.rest.baseline.024",
+      "status": "reviewed",
+      "text": "A faint light lingered by the beds of {a} and {b} until both had fallen asleep.",
+      "sourceHash": "sha256:a5d29cd5639422842486e5f3138882b9e0bf1f7ae9ccc97590043d1e1140f788"
+    },
+    {
+      "templateId": "chronicle.rest.event.clash.001",
+      "status": "reviewed",
+      "text": "{a} and {b:possessive} schedules clashed; neither slept well.",
+      "sourceHash": "sha256:7536841e0086cfb0c432df356693f30de1a6af991d6419ac5c5cc7afe43ab6a9"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.crybaby.001",
+      "status": "reviewed",
+      "text": "{a} shed a few tears in the night; {b} pretended not to hear.",
+      "sourceHash": "sha256:06cdf46aa14df5640f16638ab0061837f75082fbb20fc604166a9acb91f57d8e"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.crybaby.002",
+      "status": "reviewed",
+      "text": "{a} shed a few tears in the night; {b} pretended not to hear; {a:possessive} eyes quickly grew wet, and {b} made no joke of it.",
+      "sourceHash": "sha256:f828f2c5cdbf90e6f86d8339fe18cdcb29c24c9da196bed5667fd3643a267a73"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.crybaby.003",
+      "status": "reviewed",
+      "text": "{a} shed a few tears in the night; {b} pretended not to hear; the emotion showed clearly on {a:possessive} face, and {b} understood at once.",
+      "sourceHash": "sha256:96655819e0b27322a4908fa5312b071e4a8f696d5f9a8e3a8c14ced4745ad841"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.crybaby.004",
+      "status": "reviewed",
+      "text": "{a} shed a few tears in the night; {b} pretended not to hear; {a} needed a moment to steady the voice, while {b} remained nearby.",
+      "sourceHash": "sha256:b5a108936be788285122d1e4212f63530b485d57c85c79244fe570dfece2f667"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.crybaby.005",
+      "status": "reviewed",
+      "text": "{a} shed a few tears in the night; {b} pretended not to hear; the tears did not end the moment; {a} and {b} simply slowed it down.",
+      "sourceHash": "sha256:3fcc32babe69cccc1fbffcc536e0f21cc8729dbcd2e374804f1fced978185c8b"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.eater.001",
+      "status": "reviewed",
+      "text": "{a} snuck out a snack before bed; the smell kept {b} awake.",
+      "sourceHash": "sha256:1b0dc16bedc81f5b931abe1021938e182877ae024bb1f6347d93f32a158cb811"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.eater.002",
+      "status": "reviewed",
+      "text": "{a} snuck out a snack before bed; the smell kept {b} awake; the smell of food never quite left {a:possessive} side, making it hard for {b} to ignore.",
+      "sourceHash": "sha256:9fd85eb9a77e715f1b0a9b88138829be8ea559ddda77a062a98331d8de0690a9"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.eater.003",
+      "status": "reviewed",
+      "text": "{a} snuck out a snack before bed; the smell kept {b} awake; even while thinking about the next bite, {a} remembered to respond to {b}.",
+      "sourceHash": "sha256:1c8a079135ce091a033d8521d81bcf8e0063dc6f6cbc8c55a31c4778c1570cf6"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.eater.004",
+      "status": "reviewed",
+      "text": "{a} snuck out a snack before bed; the smell kept {b} awake; at the mention of food, {a} immediately brightened and made {b} laugh.",
+      "sourceHash": "sha256:acee11fd57dd1f95aee9163cb57e5235e27f9c3a83b1ddcf4a50c01205004a1a"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.eater.005",
+      "status": "reviewed",
+      "text": "{a} snuck out a snack before bed; the smell kept {b} awake; {a} fitted the interaction around a little food and neglected neither.",
+      "sourceHash": "sha256:80e723102c7610d9061eccd87843f96ec6a1d06c54e28f19aa2c5c0c5e47c8e9"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.gentle.001",
+      "status": "reviewed",
+      "text": "{a} tiptoed around at night, careful not to wake {b}.",
+      "sourceHash": "sha256:d84b1905a6cf1f58d6975781a5db220af6beef5796b07e88f061862ac1db6e76"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.gentle.002",
+      "status": "reviewed",
+      "text": "{a} tiptoed around at night, careful not to wake {b}; {a} kept watching whether {b} was comfortable and handled the moment gently.",
+      "sourceHash": "sha256:1d1dacdd0f1e32db15e71e86140a79b9828b7e2329a576a7dc1638999107dcbb"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.gentle.003",
+      "status": "reviewed",
+      "text": "{a} tiptoed around at night, careful not to wake {b}; {a} never hurried {b}, leaving plenty of time to respond.",
+      "sourceHash": "sha256:bfc722f83c023194c404574e775d0fa3969395155fee54f63b8cf4e21ca0671c"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.gentle.004",
+      "status": "reviewed",
+      "text": "{a} tiptoed around at night, careful not to wake {b}; even the smallest gesture carried consideration, and {b} plainly noticed.",
+      "sourceHash": "sha256:cdf9dd47fc8d3afccdf25ceacdcf96ad41557281e89164b82157ffd57d2280b5"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.gentle.005",
+      "status": "reviewed",
+      "text": "{a} tiptoed around at night, careful not to wake {b}; {a} softened both voice and movement, keeping the interaction free of pressure.",
+      "sourceHash": "sha256:9b181e98647bfaca144b983568d892fdbd0d7ff10239d07972f53e3353fe8b35"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.loud.001",
+      "status": "reviewed",
+      "text": "{b} spent the whole night listening to {a:possessive} snoring.",
+      "sourceHash": "sha256:1ff8060f8bb0be19f0835d10ff3dec76f982b668c42a0e2d98af8bb6a6816d22"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.loud.002",
+      "status": "reviewed",
+      "text": "{b} spent the whole night listening to {a:possessive} snoring; the volume made their interaction obvious to everyone nearby.",
+      "sourceHash": "sha256:34b382299506f9a8858769c93928ff25b940b0443ebb48f1e809727d1f850725"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.loud.003",
+      "status": "reviewed",
+      "text": "{b} spent the whole night listening to {a:possessive} snoring; {a} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "sourceHash": "sha256:acdaa45d855e2340822b0830d1070d16e477b278e898eae2c10a2e035c505792"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.loud.004",
+      "status": "reviewed",
+      "text": "{b} spent the whole night listening to {a:possessive} snoring; the sound carried far, but the interaction did not stop because of it.",
+      "sourceHash": "sha256:bd6458befb3a984616e342fef35589da86883868713ec9d6815b20f0bfa331bb"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.loud.005",
+      "status": "reviewed",
+      "text": "{b} spent the whole night listening to {a:possessive} snoring; even after the area quieted, {a:possessive} voice seemed to linger in the air.",
+      "sourceHash": "sha256:5ed056fd2184ae7a49d88a59704af20acca7424266f4258d77ea3396abae09aa"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.nervous.001",
+      "status": "reviewed",
+      "text": "{a} tossed and turned; {b} stayed up talking a while.",
+      "sourceHash": "sha256:4b73e82e1c9a7241cbb925b6d9ea62676f98e10b0578d64e4afe5f7570790e5b"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.nervous.002",
+      "status": "reviewed",
+      "text": "{a} tossed and turned; {b} stayed up talking a while; {a} checked {b:possessive} reaction several times before gradually relaxing.",
+      "sourceHash": "sha256:7db6d63010d9fdc9356198d268267d6a8a48bd3e854d8dfaed9ceafc9666c3a5"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.nervous.003",
+      "status": "reviewed",
+      "text": "{a} tossed and turned; {b} stayed up talking a while; every small noise distracted {a}, while {b} patiently waited for the attention to return.",
+      "sourceHash": "sha256:b196b260882431d16d8bd2ee46142f20d427bb1e37eaf6baf04fb407d3f05f14"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.nervous.004",
+      "status": "reviewed",
+      "text": "{a} tossed and turned; {b} stayed up talking a while; {a} handled every movement with extra care, and {b} did not rush anything.",
+      "sourceHash": "sha256:cea830b377e66145e77cc068480c6b27e43a94cec6b7cb3810b4c93ca6a9857e"
+    },
+    {
+      "templateId": "chronicle.rest.participant-a-trait.nervous.005",
+      "status": "reviewed",
+      "text": "{a} tossed and turned; {b} stayed up talking a while; only when it was over did {a:possessive} tense shoulders finally relax.",
+      "sourceHash": "sha256:bdfbb464e6c17d279017cfa8335591029986b1c37e9204d8c772e69983c744e5"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.001",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing.",
+      "sourceHash": "sha256:7c834ebbafdfb195fbb107abcd1c9f4cac155bea39c6baf6cb56a71ab0d6b10a"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.002",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing; the necessary cooperation remained, but none of the warmth returned with it.",
+      "sourceHash": "sha256:f4235e8e6312ac78f4f00acda5a2365627b490cae7d96f7353ded84eb5a4b98d"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.003",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing; neither started an argument, and neither made a move toward closeness.",
+      "sourceHash": "sha256:2c567f698ed2d263242d1dec31156866d81df5d537576772456072fdcbc5c5b5"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.004",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing; they completed what was needed while leaving every personal thought in silence.",
+      "sourceHash": "sha256:3705797b7c3af17bfba20211ce352eb9960dac22e8123f91030106fa520d69bf"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.005",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing; they were not physically far apart, yet the coldness made the encounter feel long.",
+      "sourceHash": "sha256:96af93b36f544a08342e0f2d82bc1a5385c1a8836873997d0f10c693099a3e4c"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.cold.006",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; the air was freezing; the surface calm never broke, and the standoff beneath it never loosened.",
+      "sourceHash": "sha256:081c7bb1af72369915d351d0e5d3b400f23b485db786a5f1d0eb0f862894ba4b"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.001",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands.",
+      "sourceHash": "sha256:28253b9ac42256282beb37438c5df0e9b0a61fef1cc7ff591d51285f890302c4"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.002",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands; neither needed many words to know how to look after the other.",
+      "sourceHash": "sha256:cd3b63138dff10798db300f8599a2c59b7e9c779f2bd7c03a4c60b46483f93f5"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.003",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands; familiarity made the ordinary interaction easy, with no needless hesitation between gestures.",
+      "sourceHash": "sha256:02c51e63f3382f3a033d5cf1265f585db4f1f766af8f66452eacb7d6063d658b"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.004",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands; they made room for each other naturally, as if they had done so countless times.",
+      "sourceHash": "sha256:445a0fe7b943ee3e2b9fcd0f89a94e63da15db8c7c67a3834f8722002411c4d1"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.005",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands; after briefly tending to separate tasks, the two soon found their way back together.",
+      "sourceHash": "sha256:6eff645a2e9f4c14ef47b0ecf4a7f0b7f747b18992e98fe31caa0202d1460cbd"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.couple.006",
+      "status": "reviewed",
+      "text": "{a} and {b} squeezed into one bunk and woke up holding hands; others might see nothing unusual, but the two understood the value of this ordinary moment.",
+      "sourceHash": "sha256:cd425470669330b4c647f3236b7e3ee4b9cd43976ebf390ad6fb4bc47d1f79e2"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.001",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly.",
+      "sourceHash": "sha256:dd975d24c3a56cdfe15b38c8329745b6edef8fb279c71e8cbf8c37cb08048876"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.002",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly; both paid more attention than usual to every movement, making the moment slightly awkward.",
+      "sourceHash": "sha256:213f3ecf24055010f261fc7281c5c176467cc58638eef09955c4870758d3a205"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.003",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly; even an ordinary remark became memorable simply because it came from the other person.",
+      "sourceHash": "sha256:2bdbee2f309b04a4a5c1e735354bba4e6602cbc8536a57919a4710a5166dd748"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.004",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly; their eyes met several times, and each time both looked away almost together.",
+      "sourceHash": "sha256:8e9cdbbcc42be48943b5d3628b85fce3e7dc705d75bc65b49d9af2030cb1d830"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.005",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly; nothing improper happened; what showed was the extra attention each gave the other.",
+      "sourceHash": "sha256:b22d3e2a4bb9b03e2cd129f8e9eff2cfff5f07860bbf6af9ec8d7c5547b3fc2d"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.crush.006",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither slept soundly; for a brief while, both thought far too much about gestures that were usually effortless.",
+      "sourceHash": "sha256:7843a232dcfc766ed5264b9fecff255b2d58068013de6a29e1d187026199a0a6"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.001",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past.",
+      "sourceHash": "sha256:460578b078db1a879f4ce7d4d3f256e699fe03b4e74cc7bee00e11bb25827bf6"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.002",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past; both remained perfectly polite, though none of their former closeness returned.",
+      "sourceHash": "sha256:399bcc2e6f5333430a77f767b0abaca9992410058c81af4874a8185fbec83d73"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.003",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past; familiarity remained, while intimacy had become a piece of the past to avoid.",
+      "sourceHash": "sha256:5f5fa13ed71ad49c1c6c86a182f7bb790fc2fa8205d21d226c21ad6fedbb1aca"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.004",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past; they knew each other's habits and exactly how much distance to keep now.",
+      "sourceHash": "sha256:333a87c66d0fb4edd48e47989accd7e947ea304fc6e45a86d346293b4402e425"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.005",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past; the encounter stayed composed, though every pause felt unusually distinct.",
+      "sourceHash": "sha256:bea6783df73d50284cf9002b847a5bd294f170b1307940a59e2cd006f37af6fd"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.ex.006",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night; neither mentioned the past; things that once needed no explanation now sat behind a layer of courtesy.",
+      "sourceHash": "sha256:fb7e9196d9c21ea5ddae98da1a2e1f4b1b73dcc991d270d32d85934f70fcc7ea"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.001",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back.",
+      "sourceHash": "sha256:39a493508a37e437172d4db3044b8d351483193e824d5c9b9593feaa6d7706c3"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.002",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back; neither would show weakness first, turning an ordinary interaction into a contest.",
+      "sourceHash": "sha256:09e38e1131b990b259119c9c588ea22e8b9a9c898d82bac814f2bf9dc4e2e2ab"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.003",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back; both watched the other closely, with far more caution than ease.",
+      "sourceHash": "sha256:13f324e7082d702a383c27a98798a77af55ecd966f8362da1675b013ee356a10"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.004",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back; no open conflict appeared, but the quiet competition never stopped.",
+      "sourceHash": "sha256:d08cbae2a670e7cfe89d2b1ac4a31686d1e68f0ca121f7dc1df914cbb0f50fed"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.005",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back; every word and gesture seemed aimed at gaining a small advantage.",
+      "sourceHash": "sha256:cbdc18654a2e2359d9ce25eac0d601d5ae762e9c35d1978a1da4aba3d2ad3ee3"
+    },
+    {
+      "templateId": "chronicle.rest.relationship.rival.006",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a room for the night, back to back; there was no winner when it ended, and their hostility remained unmistakable.",
+      "sourceHash": "sha256:eed4bc18a56382ed623ad0919589553b1409b0b8df964c77451bfd5532ec5e65"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.crybaby.001",
+      "status": "reviewed",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round.",
+      "sourceHash": "sha256:79ebc4fd56d6ea80a133b3ba9f960a885363a66edc34d0c7bc5dadc4a7999413"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.crybaby.002",
+      "status": "reviewed",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round; {actor:possessive} eyes quickly grew wet, and {other} made no joke of it.",
+      "sourceHash": "sha256:a7aaa5b34ecd4999b1afff93e950aef6b50190f7b79965f20f691341a74dbb48"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.crybaby.003",
+      "status": "reviewed",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round; the emotion showed clearly on {actor:possessive} face, and {other} understood at once.",
+      "sourceHash": "sha256:48bf7bed50451b9f03d63cf6039be0ed2c15326d29e350f6bd3298ca3ad54b03"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.crybaby.004",
+      "status": "reviewed",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round; {actor} needed a moment to steady the voice, while {other} remained nearby.",
+      "sourceHash": "sha256:bd54d55c5cfa1b83a3c52e5c53a326ded29ec2391a3a8f248c691ef0bc423236"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.crybaby.005",
+      "status": "reviewed",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round; the tears did not end the moment; {actor} and {other} simply slowed it down.",
+      "sourceHash": "sha256:823bafd57a33b9ad9de84df78598d26af6462de746ef9ed561e0b3ceadd64b59"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.gentle.001",
+      "status": "reviewed",
+      "text": "{actor} kept letting {other} win, and both had a great time.",
+      "sourceHash": "sha256:d340026c7cbb2b579e815957baff33cbad9028da832e183da0d6145729010350"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.gentle.002",
+      "status": "reviewed",
+      "text": "{actor} kept letting {other} win, and both had a great time; {actor} kept watching whether {other} was comfortable and handled the moment gently.",
+      "sourceHash": "sha256:3d8b1203aefb71dc8b073fac22d31f9309112ba2cddf4646a1b898587962c38f"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.gentle.003",
+      "status": "reviewed",
+      "text": "{actor} kept letting {other} win, and both had a great time; {actor} never hurried {other}, leaving plenty of time to respond.",
+      "sourceHash": "sha256:35cd3307b05a97f13d94a8307f70ef61fcecc264bf46c31f9a0a836f3adda912"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.gentle.004",
+      "status": "reviewed",
+      "text": "{actor} kept letting {other} win, and both had a great time; even the smallest gesture carried consideration, and {other} plainly noticed.",
+      "sourceHash": "sha256:21574f2b62e3f65544da0507a6fabacd1b5c15d57787c7f9095c206a5173cf7d"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.gentle.005",
+      "status": "reviewed",
+      "text": "{actor} kept letting {other} win, and both had a great time; {actor} softened both voice and movement, keeping the interaction free of pressure.",
+      "sourceHash": "sha256:0769b755229c90d15288dad9b7f537319d4430101f2806817817ea6095194c21"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.hothead.001",
+      "status": "reviewed",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them.",
+      "sourceHash": "sha256:b179a147ccd7f94506753975db3cf4ac18a5e2164e96a30a31f0687ab89a2e7a"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.hothead.002",
+      "status": "reviewed",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up.",
+      "sourceHash": "sha256:129299e533ee968d3a22269fe18d4896a73f872ce96a8555b28c0381906ea73d"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.hothead.003",
+      "status": "reviewed",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}.",
+      "sourceHash": "sha256:a1e9ef1712d272ecf05a72c9d4961cef3a2f8cb2c257eeb551adb0100df9172e"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.hothead.004",
+      "status": "reviewed",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue.",
+      "sourceHash": "sha256:34a2db54af8fb52732dbc352ecabdd0ff6662d4d0d2b36907b35e19cd3262551"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.hothead.005",
+      "status": "reviewed",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them; {actor} reacted with such directness that even a pause seemed unnecessary.",
+      "sourceHash": "sha256:7b8658797ae3626c8b3e23ae4d58a1910f2799d69ed8da2669ab49224bed59d2"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.loud.001",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} laughter rang loudest of all; {other:possessive} ears paid the price.",
+      "sourceHash": "sha256:b434312668472c93ad231de4b69721bae7981b8b21fba888afb9091a95ccb001"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.loud.002",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} laughter rang loudest of all; {other:possessive} ears paid the price; the volume made their interaction obvious to everyone nearby.",
+      "sourceHash": "sha256:a42b27e1b25eb96c33ea49e1c07afaa5cd0a168842a5e8f598da901b62763682"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.loud.003",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} laughter rang loudest of all; {other:possessive} ears paid the price; {actor} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "sourceHash": "sha256:c5242054dccab978da4707d2d407ca21ec4548466157735a6a42986b35d3bc7b"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.loud.004",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} laughter rang loudest of all; {other:possessive} ears paid the price; the sound carried far, but the interaction did not stop because of it.",
+      "sourceHash": "sha256:6c2f612e09c0fca63c55649a5f40f9d09c1a799cb7671805daf8ffc2bcb930d8"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.loud.005",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} laughter rang loudest of all; {other:possessive} ears paid the price; even after the area quieted, {actor:possessive} voice seemed to linger in the air.",
+      "sourceHash": "sha256:64563d914a6d02be8b611e7b11c388fb86fad9d418a38a9d866b68a180013fea"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.nervous.001",
+      "status": "reviewed",
+      "text": "{actor} played on pins and needles while {other} cheered them on.",
+      "sourceHash": "sha256:0b05d261069691ef9e6fb96fc91257c30b268959f145ec38669b0880d1be3c93"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.nervous.002",
+      "status": "reviewed",
+      "text": "{actor} played on pins and needles while {other} cheered them on; {actor} checked {other:possessive} reaction several times before gradually relaxing.",
+      "sourceHash": "sha256:cb09f744438cd196913879eb47d7f5ae059762a371b35321bdcce8182250db42"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.nervous.003",
+      "status": "reviewed",
+      "text": "{actor} played on pins and needles while {other} cheered them on; every small noise distracted {actor}, while {other} patiently waited for the attention to return.",
+      "sourceHash": "sha256:db8348fbffac0202a2ca04c92da48f3506396bd513a758c9a854a7245971044c"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.nervous.004",
+      "status": "reviewed",
+      "text": "{actor} played on pins and needles while {other} cheered them on; {actor} handled every movement with extra care, and {other} did not rush anything.",
+      "sourceHash": "sha256:4500f266bd3c089d2548bf7606d8cc0ee1af027b70caae2fe609cc0eb3db4988"
+    },
+    {
+      "templateId": "chronicle.socialize.actor.nervous.005",
+      "status": "reviewed",
+      "text": "{actor} played on pins and needles while {other} cheered them on; only when it was over did {actor:possessive} tense shoulders finally relax.",
+      "sourceHash": "sha256:e9dead359b5dc1ecfd88d6307aca7b96bb510a972d9b0301ec9a07dcd12afc06"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} met in the recreation area and had a good time.",
+      "sourceHash": "sha256:7a9a367446671ac39304d74f1034a5d5142b646360710f3b4454f446160970ad"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} played a few rounds; by the end, the score didn't matter.",
+      "sourceHash": "sha256:94edf80fffbd0ce22fbe2bd324d989a47974da83c1ecdb7436aaa5685c38c23a"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} and {other} played the day's exhaustion clean away.",
+      "sourceHash": "sha256:66ab0b5a81ed0b28fdcff4c0630cb5f1f3b340327a8a6849e6f2597557d50fde"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} and {other} spent a while playing together, their laughter overtaking their fatigue.",
+      "sourceHash": "sha256:1a5b944d6abe109a7ac58dcccea26751e95b0ac5746183377ad254dfe3e3bdde"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} and {other} competed for several rounds, then willingly traded strategies.",
+      "sourceHash": "sha256:1970942c092be8128808e729f39bfb7cc16908ae4621913d160e0edf9fea18e3"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} and {other} set winning aside and simply enjoyed the rare free time.",
+      "sourceHash": "sha256:585b774dacaa17bb21a36d58b7023f1117de1fb1b3033a225d5e97c701215e6a"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.007",
+      "status": "reviewed",
+      "text": "{actor} demonstrated first, and {other} quickly found the rhythm.",
+      "sourceHash": "sha256:a02a32cd08d9844fc46223c9ddbc47123aaea3f0e52eb9eed47fd087849157dc"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.008",
+      "status": "reviewed",
+      "text": "{actor} and {other} became so engaged that even choosing who began the next round became part of the fun.",
+      "sourceHash": "sha256:67bb8be58fa133758cf3911f1c9e3a9efbd297450cee5d92df2c3126f7853ab3"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.009",
+      "status": "reviewed",
+      "text": "{actor} and {other} teased each other, laughing whenever either made a mistake.",
+      "sourceHash": "sha256:cfc856bc16f7f098ec2291581cbf46b24ad4f674fb43739260fc9396cc462130"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.010",
+      "status": "reviewed",
+      "text": "{actor} and {other} played several earnest rounds, then cared little about the final result.",
+      "sourceHash": "sha256:37c7eebd3126756c57a1cacc7501dbb17b9ab22837d77273ea27dfb0dd9e7891"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.011",
+      "status": "reviewed",
+      "text": "{actor} gave {other} an extra chance, and {other} returned the favor in the next round.",
+      "sourceHash": "sha256:a3b80220a2ef0ac4fef5bea2de91cd09b164d8166da53566e32ed880963c50d8"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.012",
+      "status": "reviewed",
+      "text": "{actor} and {other} began a little stiffly but soon relaxed into the game.",
+      "sourceHash": "sha256:bd6d3b9d4875dc5b53d3b1b7ef4e51a072c4d3dad096a8db80ae5ef001640951"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.013",
+      "status": "reviewed",
+      "text": "{actor} and {other} took turns suggesting ideas, keeping the short break lively.",
+      "sourceHash": "sha256:4e1e37fd2a71b3d8b4940439b27daac3875ab8cc1b91edc638cc3c9a83559434"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.014",
+      "status": "reviewed",
+      "text": "{actor} and {other} took one tiny contest very seriously before both broke into laughter.",
+      "sourceHash": "sha256:b6ac467fc0cbe5c51ebcc2e17a987e4d257b7d73313c806bc43debc0aa4ad90b"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.015",
+      "status": "reviewed",
+      "text": "As {actor} and {other} played, their coordination improved and their movements began to match.",
+      "sourceHash": "sha256:4b69feb82fb0c23821ddb8f6ea37627d38904679341389292981715d6a56cda4"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.016",
+      "status": "reviewed",
+      "text": "{actor} and {other} each won a few rounds, with neither holding the advantage for long.",
+      "sourceHash": "sha256:cb82e08578cc326dc83c2185a9a400e8aa1308a96c312a53809060929779448b"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.017",
+      "status": "reviewed",
+      "text": "{actor} and {other} brought their workday seriousness into the game, making it all the more amusing.",
+      "sourceHash": "sha256:384c8251a8d432ab288aa59d5e38a682eba30eb44dac9a3345045300ba79cccc"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.018",
+      "status": "reviewed",
+      "text": "When {actor} and {other} tired, they sat briefly before starting another round.",
+      "sourceHash": "sha256:8751c30e1de809f3e009058d68864be3b1c718cdd4f7acc61b5a62a6f7f8e662"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.019",
+      "status": "reviewed",
+      "text": "{actor} and {other} found the fun in every mistake, and neither spoiled the mood.",
+      "sourceHash": "sha256:7ad3eee1d586e8ccef7de2271dd439510b40174c6eabfe99cd315c8b34d00bf7"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.020",
+      "status": "reviewed",
+      "text": "{actor} and {other} agreed on a single round, but neither was the first to stop.",
+      "sourceHash": "sha256:e1bc049234a7916588877f86dd0b6a9bbf0eb93f7bc2da43d8171c8bd2eb167d"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.021",
+      "status": "reviewed",
+      "text": "{actor} and {other} tried cooperating and found it easier than competing.",
+      "sourceHash": "sha256:3b5c6b874430c71fefdfc6833607886a9d183e926ef8c773853e5cbad243dc79"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.022",
+      "status": "reviewed",
+      "text": "{actor} and {other} played until their free time ended, then left wanting another round.",
+      "sourceHash": "sha256:a7a50a7903ff387effec8524fecd916bfeece2bf1f785b7a8235a1c697462777"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.023",
+      "status": "reviewed",
+      "text": "{actor} and {other} turned an ordinary break into a small contest worth anticipating.",
+      "sourceHash": "sha256:7031715cbdb0d8c9de5daa25763d8218f090b508c8633c03deccda7b12b4872a"
+    },
+    {
+      "templateId": "chronicle.socialize.baseline.024",
+      "status": "reviewed",
+      "text": "{actor} and {other} reviewed their mistakes as they played and found them funnier with every retelling.",
+      "sourceHash": "sha256:f8b94382fb684f9c3efd5d165a8c3d1df36cbfa6a16c7415070daa31e964d565"
+    },
+    {
+      "templateId": "chronicle.socialize.with-place.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} spent some time together at {place}.",
+      "sourceHash": "sha256:f1b44a721c378c90d69345e1bffda6a9f01c24c22d092a76d4a2f6c4a5c776b8"
+    },
+    {
+      "templateId": "chronicle.socialize.with-place.002",
+      "status": "reviewed",
+      "text": "{actor} and {other} whiled away a pleasant stretch at {place}.",
+      "sourceHash": "sha256:0ef2060a3a2e3b3c362505dfd738e2cbc10ddc014bd7db4b181ddce07b407142"
     }
   ]
 }

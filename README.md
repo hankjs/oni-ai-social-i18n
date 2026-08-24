@@ -21,10 +21,13 @@ the allocated id high-water mark for every persisted pool; removing an id or add
 registering it fails validation. Locale entries must preserve placeholders, carry a current
 `sourceHash`, and be reviewed.
 
-The first content tranche contains 120 reviewed Chinese/English templates across the five most
-frequent pools: greeting, chat, shared meal, shared rest, and socializing (24 each). Run `make
-check` before review; it validates sources and translations, runs negative contract tests, and
-checks that committed `dist/` is reproducible.
+The canonical Chronicle authoring layout contains six active family files (`routine`, `support`,
+`relationship`, `colony`, `dark`, `connective`) plus
+`compatibility/legacy-pair.json`. The current complete snapshot has 137 pools, 976 reviewed active
+templates and 120 deprecated `{pair}` templates retained only for persisted IDs. Parallel `v2-*`
+or `routine-more` files are rejected rather than treated as another catalog. Run `make check`
+before review; it validates sources and translations, runs negative contract tests, and checks
+that committed `dist/` is reproducible.
 
 During development, `contentVersion` follows the tracked development version and the private
 repository imports a reviewed `main` snapshot with `make sync-i18n-dev`; this does not create a

@@ -1,0 +1,396 @@
+{
+  "locale": "en",
+  "family": "colony",
+  "templates": [
+    {
+      "templateId": "chronicle.bound-block.baseline.001",
+      "status": "reviewed",
+      "text": "An invisible wall stands between {a} and {b}; nothing moved.",
+      "sourceHash": "sha256:68e5288759459f8ee7e8986774bcdb2ec4bc29b1a75b7e2f485fb1637deea851"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.002",
+      "status": "reviewed",
+      "text": "Some unnameable force held the bond between {a} and {b} exactly where it was.",
+      "sourceHash": "sha256:863d744ece3e1b4c19ece5fc5284785c305df06bf2261dc641c061dde4f0d208"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.003",
+      "status": "reviewed",
+      "text": "{a} and {b:possessive} story was about to turn a page, until an unseen hand held it down.",
+      "sourceHash": "sha256:a15558bdaf54cc7ce26611b4e89c57ef611ab6a676ce07232b688c05ec463fb0"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.004",
+      "status": "reviewed",
+      "text": "Fate drew a line between {a} and {b}, and neither one crossed it.",
+      "sourceHash": "sha256:001bd3ea5ea3b7f6b33043517bc59e73664f11c9a653b89c8796fa5bc057cf0c"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.005",
+      "status": "reviewed",
+      "text": "Things stirred between {a} and {b}, then inexplicably settled again.",
+      "sourceHash": "sha256:547ef4f7def30c57c51915f2fd489b8c421105cf3d32807c9a14ec24a97e9f51"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} were close to changing their relationship, but an established boundary held them in place.",
+      "sourceHash": "sha256:e5464dd9af51939fbae3a9294439a11950e41d9a8969019a7a5d95450c4d4114"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.007",
+      "status": "reviewed",
+      "text": "Feelings continued to build between {a} and {b}, while their relationship state remained inside the allowed range.",
+      "sourceHash": "sha256:70d8f13e201f9dc9cfde4297f10106c84b92e2af1d5657059f6bd48941a5ba15"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.008",
+      "status": "reviewed",
+      "text": "Both {a} and {b} felt the change, but a boundary that could not be crossed prevented the outcome.",
+      "sourceHash": "sha256:34d1e122d5cde761f4c5af87178da4cb96b9a814d8592e6060ac551b1c70a670"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.009",
+      "status": "reviewed",
+      "text": "The relationship between {a} and {b} reached its boundary and stopped before entering the state that would otherwise have followed.",
+      "sourceHash": "sha256:dce90238b6476022aa5c3b2d411456033dc3705939aefd05ba880eaa2b490e39"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.010",
+      "status": "reviewed",
+      "text": "{a} and {b} retained their feelings for each other, though the relationship did not change this time.",
+      "sourceHash": "sha256:5e21f01a9ddeb9d61867a7d3eabee0a1d0bf443a74d065237018a8f3d81424b7"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.011",
+      "status": "reviewed",
+      "text": "A new possibility appeared between {a} and {b}, but the configured relationship boundary did not allow it through.",
+      "sourceHash": "sha256:a6466e934e46449d0724995ce29be4c648c2b04abb2f31995a6083acd16d29e6"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.012",
+      "status": "reviewed",
+      "text": "{a} and {b} reached the furthest point their relationship was allowed to go and had to remain there for now.",
+      "sourceHash": "sha256:8f12ee3ae48458fe10103c2a0159ecea9a8d7a0951fa6bfe9b95ca77111a70d7"
+    },
+    {
+      "templateId": "chronicle.bound-block.baseline.013",
+      "status": "reviewed",
+      "text": "{a} and {b} did not lose their existing connection; only the expected transition was blocked.",
+      "sourceHash": "sha256:1cec8f952643c1191d88837d9cd232a8575acc77db108e1463e5d2a02e92c4ba"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.001",
+      "status": "reviewed",
+      "text": "{subject:possessiveCapitalized} stress grew heavier.",
+      "sourceHash": "sha256:c0aa460286c7f1d35958727ce81a685ed6cb1545ee333a80dd92cb77904c8acf"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.002",
+      "status": "reviewed",
+      "text": "{subject:possessiveCapitalized} brow creased a notch tighter.",
+      "sourceHash": "sha256:e567708d9605e4a6e6f31c518b843dd7428f5f633136d64e963df9184fa96a3a"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.003",
+      "status": "reviewed",
+      "text": "A string pulled taut for too long — {subject} can almost hear it hum.",
+      "sourceHash": "sha256:f6e99abf154369c262cbe4960a1295184890fdc8b50f84ec8744de3bb5d0c1d5"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.004",
+      "status": "reviewed",
+      "text": "{subject} breathed a sigh of relief.",
+      "sourceHash": "sha256:f16888f79bdc315045069a3fcc346cffc7999f009b5074594b51177c030f0aec"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.005",
+      "status": "reviewed",
+      "text": "{subject} finally got a good night's sleep, and it shows.",
+      "sourceHash": "sha256:996dc1edc51f771761479152d2166913260ca96c6b713ba2d52b2608f866e953"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.006",
+      "status": "reviewed",
+      "text": "The weight on {subject:possessive} chest has lifted a little.",
+      "sourceHash": "sha256:fa223d3323401dee55bd9faa4ad451fbb99b5f0360aa6f288e678ca55c6d56e9"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.007",
+      "status": "reviewed",
+      "text": "{subject} paused to rub the temples, with accumulated stress plainly visible.",
+      "sourceHash": "sha256:446ef39a16362d06d37d8870c0e34fa15bb0ca715f1d87ffc9f2f4ca3165950f"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.008",
+      "status": "reviewed",
+      "text": "{subject} found it difficult to concentrate and had to double-check even familiar work.",
+      "sourceHash": "sha256:1c9cc97e8fe62e91d7e19897c9c2c76b715eb7f9b826efe2fd02d6233cdb8093"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.009",
+      "status": "reviewed",
+      "text": "{subject:possessiveCapitalized} shoulders stayed tense all day and did not truly relax even during rest.",
+      "sourceHash": "sha256:c6c174bf8d77c72afe7d8d0959d875ef019ad162c7b53f6a2892629dca0a8cb0"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.010",
+      "status": "reviewed",
+      "text": "{subject} overreacted to every small disturbance as stress steadily reduced all patience.",
+      "sourceHash": "sha256:732fc96e491a0af569ce07b4e8cf882a391931e2978811f19f547435601392e6"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.011",
+      "status": "reviewed",
+      "text": "{subject} tried to keep the usual pace, but exhaustion repeatedly broke the train of thought.",
+      "sourceHash": "sha256:215da0abe863762b1f921f870b4d736ecaf0f64980d0e7f6eb1c33ea207b18f3"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.012",
+      "status": "reviewed",
+      "text": "{subject} treated an ordinary mistake as something severe, adding another layer to the burden.",
+      "sourceHash": "sha256:1dd3bf66e68c8d947ccaa5bea5325a604b98573d3abf4a21148da31bd376382e"
+    },
+    {
+      "templateId": "chronicle.stress.baseline.013",
+      "status": "reviewed",
+      "text": "{subject} found no suitable outlet and had to carry the growing pressure onward.",
+      "sourceHash": "sha256:7292399aec16d8851eac2e30cdd9bafc89dbb1d67fd5676c9529fc7f57647707"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} welcomed the newcomer.",
+      "sourceHash": "sha256:dd25d09d44613000413bce6b01ba861482237461daa290ec797201daa73660ad"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b} helped the newcomer settle in and explained the base's rules.",
+      "sourceHash": "sha256:809868b7ad7630aaed280b0a9993d0ffe02b2a1f92285dd695e28e007fccd8ba"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.003",
+      "status": "reviewed",
+      "text": "The printing pod spat out another newcomer, and {a} and {b} were the first to greet them.",
+      "sourceHash": "sha256:9691320089e4835026b38453b0b92df59c7d97ed04e5e6d2e173bceb76ff0462"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.004",
+      "status": "reviewed",
+      "text": "The newcomer's first meal was shared with {a} and {b}.",
+      "sourceHash": "sha256:7fbcfe243086ba835864d2f13687cf26ce1e8a6502316c098c212182aea5481d"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.005",
+      "status": "reviewed",
+      "text": "{a} and {b} showed the newcomer the usual routes so the first shift would not begin with getting lost.",
+      "sourceHash": "sha256:aaf8f24ab59e1da37e58f634b995e3cc9003fe4ff20e1110376aeba22f46afd2"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} patiently explained the colony's most important rules to the newcomer.",
+      "sourceHash": "sha256:03f7dfcf879b4e8684f74085d008a182768a483c9c7b637adc6359a425944a09"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.007",
+      "status": "reviewed",
+      "text": "{a} and {b} made room for the newcomer, giving the unfamiliar surroundings an early sense of belonging.",
+      "sourceHash": "sha256:a6b73853b9ef54079cae043393c96c13dd299eb839304fed211aef6d9de14a64"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.008",
+      "status": "reviewed",
+      "text": "{a} and {b} took turns making introductions, helping the newcomer remember several faces.",
+      "sourceHash": "sha256:616041dda471f0728c0857dfd2e3abb4dfa3d5ebb0356da89e74384b577e83b1"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.009",
+      "status": "reviewed",
+      "text": "{a} and {b} gave the newcomer the first needed supplies and explained where to find more.",
+      "sourceHash": "sha256:547508821c48e580bf3d647a64fd1c4f02f5a768395411d738d15b32bdf52cee"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.010",
+      "status": "reviewed",
+      "text": "{a} and {b} offered more than a greeting and stayed until the newcomer's first needs were settled.",
+      "sourceHash": "sha256:bdffc07622f7ef88df843fffe5c61672ff70086a70e75050f46a07b04aada7fb"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.011",
+      "status": "reviewed",
+      "text": "{a} and {b} shared mistakes from their own first days so the newcomer could avoid them.",
+      "sourceHash": "sha256:0bbc3b6fe73b7debab83215bc99c5a1fe1f91d7bcdc472e9849433e5dbc1e4a1"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.012",
+      "status": "reviewed",
+      "text": "{a} and {b} brought the newcomer into the group's conversation instead of leaving anyone alone at the edge.",
+      "sourceHash": "sha256:14b605ab4e4721f365267f5102f83eb866498a194d620fb6fcbac1e641c26296"
+    },
+    {
+      "templateId": "chronicle.welcome.baseline.013",
+      "status": "reviewed",
+      "text": "{a} and {b} made a point of remembering the newcomer's name, making the welcome more than a formality.",
+      "sourceHash": "sha256:aac7b4523890919df1f245d09904ec40a728711f85c1f1c61f430e117c1b93a7"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.001",
+      "status": "reviewed",
+      "text": "{other} saw every moment of {actor:possessive} breakdown.",
+      "sourceHash": "sha256:ece5a9a7c781b542231f23d72c8cfc6ce5bcb0ea52af56d14709450b6f1b6673"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.002",
+      "status": "reviewed",
+      "text": "{other} looked away, but couldn't unsee {actor:possessive} breakdown.",
+      "sourceHash": "sha256:f1d5921b2e78f5b0f9bf5d4aff1ecffe0946307c09522096fec8f5767d466982"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.003",
+      "status": "reviewed",
+      "text": "Watching {actor} come apart, {other} realized how quiet the base could be.",
+      "sourceHash": "sha256:b57f1613cbaa7cd5857c5c29e54ae7975b93c6945a2071a310dd1af7bb739a7e"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.004",
+      "status": "reviewed",
+      "text": "{other} witnessed {actor} lose control and could not forget the expression for a long time afterward.",
+      "sourceHash": "sha256:36d1d33466748118098ce8de741e160019e29fc756914fa5cfb11bb1e111ac67"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.005",
+      "status": "reviewed",
+      "text": "When {actor} broke down, there was no chance to avoid {other}, who saw the most vulnerable moment in full.",
+      "sourceHash": "sha256:3ded7d44b67374e226b3fb724f01cc61e0dab0afd4539211f2aaa4ffeb10299d"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.006",
+      "status": "reviewed",
+      "text": "{other} wanted to help but did not know how and could only watch {actor} endure the breakdown.",
+      "sourceHash": "sha256:54a30a94bd44dbb7a6d77ef0385f0ce3e51d4dc55613acd4328910863c5012ac"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.007",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} breakdown came suddenly, leaving {other} frozen by what was happening.",
+      "sourceHash": "sha256:085f334907ade9a6ece91269de90bf147029c255bfa96feaf99c754a16f0c097"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.008",
+      "status": "reviewed",
+      "text": "{other} did not spread the story of {actor:possessive} breakdown, but the memory remained.",
+      "sourceHash": "sha256:c31226b6b61c94a4f94fe6fbc29e64990d6c9ca8d8b6975837cf7e9ea7d5d53f"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.009",
+      "status": "reviewed",
+      "text": "{other} encountered {actor} at the most humiliating moment, and neither knew how to speak afterward.",
+      "sourceHash": "sha256:8a87bb2337cf2b8539f4b2aa3dfb6a8b2f8f44f5f82b94a0ea9e65ee14ba227b"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.010",
+      "status": "reviewed",
+      "text": "Seeing {actor} lose all usual control left {other} both frightened and concerned.",
+      "sourceHash": "sha256:feadee5ca245e2b85bd93a167dd89e480c5db01abb5849796a7ebe4346e80985"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.011",
+      "status": "reviewed",
+      "text": "After {actor} gradually calmed down, {other} remained nearby to make sure everything was safe.",
+      "sourceHash": "sha256:55d65d17319a5d7c4989afc8906166a4350ffb117480b8827e211033c90e5f33"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.012",
+      "status": "reviewed",
+      "text": "{other} did not mock {actor:possessive} breakdown and remembered it in silence.",
+      "sourceHash": "sha256:d6aae2661b1eac5b25c76255048ed6ef5a5554c4039369ba8727c174d47e9ac2"
+    },
+    {
+      "templateId": "chronicle.witness.baseline.013",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} emotions collapsed completely in front of {other}, and the witnessing changed later interactions.",
+      "sourceHash": "sha256:414b5da609611d1adcbb2b0404e49b4521e6c4ec4c5b8f6f0efe99f31cc87400"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.001",
+      "status": "reviewed",
+      "text": "{subject} witnessed a crewmate's breakdown, and it weighed heavy.",
+      "sourceHash": "sha256:4c6d6c33d905c87ba9e7a586dded4dc965c15fd320fde6a944f2993eba6f63c4"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.002",
+      "status": "reviewed",
+      "text": "{subject} stumbled onto a crewmate's breakdown and was distracted all day.",
+      "sourceHash": "sha256:e94d136c9cfcf41c6ff41b4f2e1526ccbd342031b9b21d9fdee91fab7e407dd1"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.003",
+      "status": "reviewed",
+      "text": "After witnessing a companion lose control, {subject} remained unsettled and recalled the scene even while working.",
+      "sourceHash": "sha256:1ef610f776f382e6bf834a853bc3e3b2662220e5727aa41a8c99d0b5bfbd2fa6"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.004",
+      "status": "reviewed",
+      "text": "{subject} did not know how to help the collapsing companion and carried the helplessness inside.",
+      "sourceHash": "sha256:b65198535a006b5bf748c90ac14fac4bd9243e40c01ef4e8759fa816be7217c1"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.005",
+      "status": "reviewed",
+      "text": "The sudden breakdown startled {subject}, who needed a long time to settle again.",
+      "sourceHash": "sha256:d7dd497317cb8ebd343a1360023929151df7f50e4758cc9a094048d681bdd98e"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.006",
+      "status": "reviewed",
+      "text": "{subject} told no one the details but could not forget the companion's distress.",
+      "sourceHash": "sha256:aa4c6902ce3ce851d60a6dbc907aa48ccc177d72b7f7b2d1d2f3aa2e6eda049a"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.007",
+      "status": "reviewed",
+      "text": "After seeing a companion at the most vulnerable, {subject} became more concerned about the pressure around everyone.",
+      "sourceHash": "sha256:6ac126aeb45c76d9a40f6e3815d8d4fbc973c0aed80e3561969536e4329cebcf"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.008",
+      "status": "reviewed",
+      "text": "{subject} stopped instinctively but could not find suitable comfort in the moment.",
+      "sourceHash": "sha256:8bc91134483fb1ababbc0bcedad2a78ad0bbae082e556710e9541f73b50990cd"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.009",
+      "status": "reviewed",
+      "text": "After leaving the scene, {subject} repeatedly checked whether the companion was safe.",
+      "sourceHash": "sha256:229a323581a503a468fc8034e63d691fc7b8784ed0136a0f9763dd4aef94cd4d"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.010",
+      "status": "reviewed",
+      "text": "{subject} kept the witnessed breakdown private, and the weight lingered for a long time.",
+      "sourceHash": "sha256:e5fb8a65aadd20d9d936d14647910aef23e773854fd78c255151f3ff7fdb295d"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.011",
+      "status": "reviewed",
+      "text": "For the first time, {subject} saw the consequences of stress so clearly and became unusually watchful afterward.",
+      "sourceHash": "sha256:bb116ce6464c4c49daaa16ed22be8c269e71ec0f61937210eda0e3869f1a2a3b"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.012",
+      "status": "reviewed",
+      "text": "Remembering the breakdown still hurt {subject}, who never turned the companion's pain into gossip.",
+      "sourceHash": "sha256:1afa621427a87833e411161e117e72a0b3547ed50a8ca907525a788710141a19"
+    },
+    {
+      "templateId": "chronicle.witness.event.solo.013",
+      "status": "reviewed",
+      "text": "After witnessing everything, {subject} stayed until the situation was no longer worsening.",
+      "sourceHash": "sha256:e0be514e7dcb96baceda5e7890a3126888b512057be16df06ef057ce40eb3d22"
+    }
+  ]
+}

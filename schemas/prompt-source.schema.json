@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oni-ai-social.local/schemas/prompt-source.schema.json",
+  "title": "Prompt source file",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["namespace", "entries"],
+  "properties": {
+    "namespace": { "type": "string", "minLength": 1 },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["promptId", "source", "description", "requiredSlots"],
+        "properties": {
+          "promptId": { "type": "string", "pattern": "^prompt\\.[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
+          "source": { "type": "string", "minLength": 1, "maxLength": 10000 },
+          "description": { "type": "string" },
+          "requiredSlots": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" }
+          }
+        }
+      }
+    }
+  }
+}
