@@ -1,0 +1,1901 @@
+{
+  "family": "relationship",
+  "pools": [
+    {
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}忘了和{other}的纪念日。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}的排班表上唯独漏掉了和{other}的纪念日。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.003",
+          "ordinal": 3,
+          "source": "{other}等了一晚上，{actor}在矿井里浑然不觉。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.004",
+          "ordinal": 4,
+          "source": "日子一忙就糊涂，{actor}把最重要的那天忘了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.005",
+          "ordinal": 5,
+          "source": "{actor}直到这一天快结束才想起纪念日，面对{other}时已经来不及装作没事。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.006",
+          "ordinal": 6,
+          "source": "{other}等了一整天也没有等到表示，{actor}终于意识到自己漏掉了什么。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}把普通排班记得清楚，却偏偏忘了与{other}共同的重要日子。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}迟来的祝福说出口时，{other}已经没有心情配合庆祝。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}试着补上一句纪念日快乐，{other}只安静看了过来。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary-missed.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}发现{other}独自收起准备好的心意，才明白自己错过了纪念日。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary-missed.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.anniversary.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.anniversary.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}纪念了在一起的日子。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}又安稳地走过了一年，值得碰一杯。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.003",
+          "ordinal": 3,
+          "source": "在这个连日历都要自己记的地方，{a} 和 {b}没有忘记今天。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.004",
+          "ordinal": 4,
+          "source": "{a} 和 {b}把纪念日过成了全殖民地的节日——至少他们自己是这么觉得的。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}一起回想最初走到一起的那一天，为又一个纪念日举杯。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}把忙碌暂时放下，认真留出时间纪念彼此。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}交换了准备好的小心意，谁都没有忘记这个日子。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}数着共同走过的周期，发现值得记住的事情已经很多。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}没有安排盛大的庆祝，只安静地把这一天留给彼此。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.anniversary.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}在纪念日重新说了一遍当初的承诺，这次语气更加笃定。",
+          "description": "Reviewed event expansion; pool=chronicle.anniversary.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.apology-bond.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.apology-bond.baseline.001",
+          "ordinal": 1,
+          "source": "一场冲突反倒让{a} 和 {b}成了好朋友。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}把话说透，反倒成了朋友。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.003",
+          "ordinal": 3,
+          "source": "道完歉的{a} 和 {b}，比吵架前还要亲近。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.004",
+          "ordinal": 4,
+          "source": "{a} 和 {b}先是吵了一架，然后成了朋友——事情就是这样。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}把冲突从头说清，发现彼此都愿意为关系退让一步。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}没有回避难堪的部分，坦白反而让信任更深。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}承认各自做错的地方，一场道歉最终变成了新的默契。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}原本只是想结束争执，最后却第一次真正理解了对方。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}在和解后仍坐了很久，把过去不敢说的话都说开了。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology-bond.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}从冲突里看见对方仍愿意留下，于是关系比先前更牢靠。",
+          "description": "Reviewed event expansion; pool=chronicle.apology-bond.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.apology.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.apology.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}向{other}道了歉。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}先低了头，{other}也就顺势原谅了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}把「对不起」三个字说得磕磕绊绊，{other}收下了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.004",
+          "ordinal": 4,
+          "source": "{actor}递过去一块软泥糕，算是赔罪。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_4; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.005",
+          "ordinal": 5,
+          "source": "面子和{other}之间，{actor}选了{other}。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.APOLOGY_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}没有为自己找借口，只把做错的事清楚告诉了{other}。",
+          "description": "Reviewed event expansion; pool=chronicle.apology.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}等{other}把不满全部说完，才认真请求原谅。",
+          "description": "Reviewed event expansion; pool=chronicle.apology.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}向{other}承认那句话伤了人，并答应以后换一种做法。",
+          "description": "Reviewed event expansion; pool=chronicle.apology.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}把道歉说得很慢，确保{other}听见的是诚意而不是敷衍。",
+          "description": "Reviewed event expansion; pool=chronicle.apology.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.apology.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}主动找到{other}低头认错，没有等时间替自己把事情冲淡。",
+          "description": "Reviewed event expansion; pool=chronicle.apology.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.argument.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.argument.baseline.001",
+          "ordinal": 1,
+          "source": "{actor} 和 {other}吵了一架。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.002",
+          "ordinal": 2,
+          "source": "{actor} 和 {other}争执了起来，谁也不让谁。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.003",
+          "ordinal": 3,
+          "source": "{actor} 和 {other}的声音越抬越高，惊动了隔壁的哈奇。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.004",
+          "ordinal": 4,
+          "source": "{actor} 和 {other}为一点小事红了脸，事后想想都不值。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.005",
+          "ordinal": 5,
+          "source": "一场架吵完，{actor} 和 {other}都觉得是对方先不讲理的。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}先提高了声音，{other}也没有退让，争执很快变得尖锐。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}指责{other}没有把话听完，两个人随即吵了起来。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}把积压的不满一次说了出来，{other}也逐条反驳。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}试图让{other}认错，结果双方都只听见了自己的怒气。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}的一句重话越过了分寸，{other}不再愿意保持平静。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.argument.with-cause",
+      "angle": "context",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.argument.with-cause.001",
+          "ordinal": 1,
+          "source": "因为{cause}，{actor} 和 {other}吵了起来。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.002",
+          "ordinal": 2,
+          "source": "因为{cause}，{actor}主动质问{other}，双方很快争执起来。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.003",
+          "ordinal": 3,
+          "source": "{actor}把对{cause}的不满算到{other}头上，{other}立刻反驳。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.004",
+          "ordinal": 4,
+          "source": "围绕{cause}，{actor}和{other}各执一词，谁也没有说服谁。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.005",
+          "ordinal": 5,
+          "source": "{actor}要求{other}解释{cause}，得到的回答反而让火气更大。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.006",
+          "ordinal": 6,
+          "source": "{cause}成了导火索，{actor}先发难，{other}也把旧账翻了出来。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.007",
+          "ordinal": 7,
+          "source": "{actor}认定{other}应该为{cause}负责，两个人为此吵得不可开交。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.008",
+          "ordinal": 8,
+          "source": "谈到{cause}时，{actor}失去了耐心，{other}也拒绝再忍让。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.009",
+          "ordinal": 9,
+          "source": "{actor}本想和{other}说清{cause}，情绪却让解释变成了指责。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.argument.with-cause.010",
+          "ordinal": 10,
+          "source": "{actor}与{other}都觉得自己在{cause}上受了委屈，争论因此越陷越深。",
+          "description": "Reviewed event expansion; pool=chronicle.argument.with-cause; angle=context; participantMode=directedPair; requiredSlots=actor,cause,other.",
+          "requiredSlots": [
+            "actor",
+            "cause",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.breakup.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.breakup.baseline.001",
+          "ordinal": 1,
+          "source": "{actor} 和 {other}分手了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BREAKUP_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.002",
+          "ordinal": 2,
+          "source": "{actor} 和 {other}的感情走到了尽头。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BREAKUP_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.003",
+          "ordinal": 3,
+          "source": "{actor} 和 {other}把话说开，然后各自转身。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BREAKUP_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.004",
+          "ordinal": 4,
+          "source": "{actor} 和 {other}的关系，像气压服的氧气一样耗尽了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BREAKUP_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.005",
+          "ordinal": 5,
+          "source": "{other}还想挽回，{actor}已经不想再谈了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.BREAKUP_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}告诉{other}这段关系无法继续，亲手结束了两人的伴侣身份。",
+          "description": "Reviewed event expansion; pool=chronicle.breakup.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}把分手的话说出口后，{other}沉默了很久才接受。",
+          "description": "Reviewed event expansion; pool=chronicle.breakup.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}承认自己已经无法像从前那样面对{other}，两人就此分开。",
+          "description": "Reviewed event expansion; pool=chronicle.breakup.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}没有留下模糊的余地，清楚告诉{other}关系到此结束。",
+          "description": "Reviewed event expansion; pool=chronicle.breakup.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.breakup.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}与{other}最后谈了一次，决定不再以伴侣的身份继续相处。",
+          "description": "Reviewed event expansion; pool=chronicle.breakup.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.confession-fail.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.confession-fail.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}向{other}表白了，但{other}没有答应。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}的心意，{other}没能接住。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}说完那句排练好的告白，{other}沉默了很久。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.004",
+          "ordinal": 4,
+          "source": "不是所有真心都有回音，{actor}今天明白了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.005",
+          "ordinal": 5,
+          "source": "{actor}把心意说完后等了很久，{other}最终还是摇了头。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.006",
+          "ordinal": 6,
+          "source": "{other}认真听完{actor}的告白，却无法给出同样的感情。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}试着把失望藏起来，仍然向诚实回答的{other}道了谢。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}鼓起的勇气没有换来期待的结果，只能接受{other}的拒绝。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.009",
+          "ordinal": 9,
+          "source": "{other}温和但明确地拒绝了{actor}，没有留下会被误解的希望。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession-fail.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}原本准备了许多话，听见{other}的答案后只剩下一句明白了。",
+          "description": "Reviewed event expansion; pool=chronicle.confession-fail.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.confession.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.confession.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}向{other}表明了心意——{other}答应了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_1; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.002",
+          "ordinal": 2,
+          "source": "{actor}鼓起勇气告白，{other}红着脸点了头。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_2; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}把练习了十遍的话说到一半，{other}就答应了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_3; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.004",
+          "ordinal": 4,
+          "source": "在打印舱的见证下，{actor}和{other}牵起了手。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_4; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.005",
+          "ordinal": 5,
+          "source": "{other}等这句话等了很久，{actor}终于说出口了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.CONFESSION_5; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}把藏了很久的心意完整告诉{other}，等来了肯定的回答。",
+          "description": "Reviewed event expansion; pool=chronicle.confession.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}坦白自己想与{other}一起走下去，{other}认真答应了。",
+          "description": "Reviewed event expansion; pool=chronicle.confession.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}说到最后紧张得停了下来，{other}主动握住了对方的手。",
+          "description": "Reviewed event expansion; pool=chronicle.confession.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}没有准备漂亮的话，只诚实告诉{other}这份喜欢，仍然得到了回应。",
+          "description": "Reviewed event expansion; pool=chronicle.confession.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.confession.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}问{other}是否愿意成为伴侣，回答让两个人都笑了起来。",
+          "description": "Reviewed event expansion; pool=chronicle.confession.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.date.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.date.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}约了一次会，气氛正好。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.DATE_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}独处了一会儿，眼里只有彼此。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.DATE_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.003",
+          "ordinal": 3,
+          "source": "{a} 和 {b}并肩散步，谁也没提回工作站的事。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.DATE_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.004",
+          "ordinal": 4,
+          "source": "{a} 和 {b}在望远镜旁约会，轮流看同一片星空。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.DATE_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.005",
+          "ordinal": 5,
+          "source": "约会的规矩是{a} 和 {b}定的：不许谈排班表。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.DATE_5; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.006",
+          "ordinal": 6,
+          "source": "{a}和{b}把一段空闲只留给彼此，安静享受了一次约会。",
+          "description": "Reviewed event expansion; pool=chronicle.date.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.007",
+          "ordinal": 7,
+          "source": "{a}与{b}暂时不谈工作，只问起彼此最近真正关心的事。",
+          "description": "Reviewed event expansion; pool=chronicle.date.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.008",
+          "ordinal": 8,
+          "source": "{a}和{b}并肩待了很久，谁都没有急着安排下一件事。",
+          "description": "Reviewed event expansion; pool=chronicle.date.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.009",
+          "ordinal": 9,
+          "source": "{a}与{b}为这次约会认真整理了自己，见面时都看出了对方的用心。",
+          "description": "Reviewed event expansion; pool=chronicle.date.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.date.baseline.010",
+          "ordinal": 10,
+          "source": "{a}和{b}重温了最初让彼此心动的细节，气氛重新变得柔软。",
+          "description": "Reviewed event expansion; pool=chronicle.date.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.fallout.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.fallout.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}大吵一架，从此形同陌路。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.FALLOUT_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}之间那点情分，一夜之间清了零。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.FALLOUT_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.003",
+          "ordinal": 3,
+          "source": "从那天起，{a} 和 {b}在走廊里遇见都绕着走。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.FALLOUT_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.004",
+          "ordinal": 4,
+          "source": "朋友做到头，{a} 和 {b}连招呼都省了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.FALLOUT_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}把最伤人的话都说了出来，旧有的信任彻底断开。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}谁也不肯收回指责，争执结束后只剩下疏远。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}的矛盾越过了可以轻易和好的界线，关系因此破裂。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}不再愿意相信对方的解释，从此刻意避开彼此。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}在怒气里否定了过去的情分，冷静下来也没有重新靠近。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.fallout.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}结束争吵时没有和解，只把彼此留在了关系之外。",
+          "description": "Reviewed event expansion; pool=chronicle.fallout.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.jealousy.baseline",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.jealousy.baseline.001",
+          "ordinal": 1,
+          "source": "{actor}吃醋了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.002",
+          "ordinal": 2,
+          "source": "那股酸劲儿，{actor}自己也说不清来由。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.003",
+          "ordinal": 3,
+          "source": "{actor}发现自己过分在意对方的注意力去了哪里，酸意已经藏不住。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.004",
+          "ordinal": 4,
+          "source": "{actor}试着装作毫不在乎，语气里的不快却泄露了真实情绪。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.005",
+          "ordinal": 5,
+          "source": "{actor}看见亲近的人把心思放在别处，沉默里渐渐有了醋意。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.006",
+          "ordinal": 6,
+          "source": "{actor}反复告诉自己不该介意，情绪却没有因此消失。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}没有当场发作，只把那点酸楚一直带到了之后。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}突然变得格外安静，连平常的回应都带上了距离。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}意识到自己的占有欲正在冒头，却一时不知道怎样说清。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}因为没有得到期待的关注而失落，那份失落很快变成了嫉妒。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.baseline; angle=base; participantMode=directedPair; requiredSlots=actor.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.jealousy.with-third",
+      "angle": "context",
+      "participantMode": "group",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.jealousy.with-third.001",
+          "ordinal": 1,
+          "source": "{actor}看见{other}和{third}有说有笑，心里很不是滋味。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.002",
+          "ordinal": 2,
+          "source": "{third}和{other}聊得投机，{actor}在旁边数了很久的浮土。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.003",
+          "ordinal": 3,
+          "source": "{actor}看见{other}把注意力都放在{third}身上，脸上的不快越来越明显。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.004",
+          "ordinal": 4,
+          "source": "{third}与{other}聊得投入，{actor}几次想插话都停了下来。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.005",
+          "ordinal": 5,
+          "source": "{actor}留意着{other}对{third}的每个回应，越看越难保持平静。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.006",
+          "ordinal": 6,
+          "source": "{other}没有察觉{actor}的沉默，只继续与{third}亲近交谈。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.007",
+          "ordinal": 7,
+          "source": "{actor}试着相信{other}和{third}只是普通相处，心里的酸意仍没有退。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.008",
+          "ordinal": 8,
+          "source": "{third}离开后，{actor}面对{other}时仍带着没有说出口的不满。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.009",
+          "ordinal": 9,
+          "source": "{actor}看见{other}因{third}露出笑容，忽然觉得自己被留在了外面。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.jealousy.with-third.010",
+          "ordinal": 10,
+          "source": "{actor}没有责怪{third}，却无法忽略{other}把亲近给了别人。",
+          "description": "Reviewed event expansion; pool=chronicle.jealousy.with-third; angle=context; participantMode=group; requiredSlots=actor,other,third.",
+          "requiredSlots": [
+            "actor",
+            "other",
+            "third"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.reconcile.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.reconcile.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}冰释前嫌，重归于好。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.RECONCILE_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}把旧账翻篇，重新坐到了一张桌上。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.RECONCILE_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.003",
+          "ordinal": 3,
+          "source": "谁先开的口已经不重要，{a} 和 {b}和好了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.RECONCILE_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.004",
+          "ordinal": 4,
+          "source": "冷战结束的那天，{a} 和 {b}都松了一口气。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.RECONCILE_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}终于肯坐下来听完对方的话，冷战从这一刻开始松动。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}承认继续僵持只会让彼此更难受，于是决定重新合作。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}把最介意的事情逐条说清，没有再用沉默惩罚对方。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}试着从一句普通的问候重新开始，关系终于有了回暖的余地。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}都退了一步，终于让长期卡住的矛盾有了出口。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.reconcile.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}没有假装争执从未发生，只决定不再让它支配以后。",
+          "description": "Reviewed event expansion; pool=chronicle.reconcile.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "poolId": "chronicle.rekindle.baseline",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "minimumPublished": 10,
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "templates": [
+        {
+          "templateId": "chronicle.rekindle.baseline.001",
+          "ordinal": 1,
+          "source": "{a} 和 {b}重新走到了一起。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.REKINDLE_1; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.002",
+          "ordinal": 2,
+          "source": "{a} 和 {b}绕了一圈，又回到了彼此身边。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.REKINDLE_2; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.003",
+          "ordinal": 3,
+          "source": "有些分开只是为了想清楚，{a} 和 {b}想清楚了。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.REKINDLE_3; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.004",
+          "ordinal": 4,
+          "source": "{a} 和 {b}再次牵起手，比第一次还要用力。",
+          "description": "Migrated from STRINGS.SOCIAL.LOG_STORY.REKINDLE_4; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "legacyKey": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.005",
+          "ordinal": 5,
+          "source": "{a}和{b}承认分开后仍然惦记彼此，决定再给关系一次机会。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.006",
+          "ordinal": 6,
+          "source": "{a}与{b}重新谈起当初分开的原因，这一次找到了能够一起改变的办法。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.007",
+          "ordinal": 7,
+          "source": "{a}和{b}试着重新牵手，熟悉的感觉让两个人都没有松开。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.008",
+          "ordinal": 8,
+          "source": "{a}与{b}没有要求回到从前，只答应从现在重新认识彼此。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.009",
+          "ordinal": 9,
+          "source": "{a}和{b}绕过了漫长的疏远，最终还是选择再次站到一起。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rekindle.baseline.010",
+          "ordinal": 10,
+          "source": "{a}与{b}把复合说得很谨慎，却都没有掩饰重新靠近的愿望。",
+          "description": "Reviewed event expansion; pool=chronicle.rekindle.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}

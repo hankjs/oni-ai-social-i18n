@@ -1,0 +1,5519 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_SUBJECT",
+      "text": "I",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.TAB.TITLE",
+      "text": "Social",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_OBJECT",
+      "text": "me",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.TAB.TOOLTIP",
+      "text": "View this duplicant's reputation and relationships",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
+      "text": "Social overview",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE",
+      "text": "Relationships",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL",
+      "text": "Affinity",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK",
+      "text": "Best friend",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
+      "text": "Reputation (observation only)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
+      "text": "Average affinity with all living duplicants. For now it only reflects popularity and affects nothing; reputation gameplay is planned for a later version.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_LABEL",
+      "text": "Colony",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP",
+      "text": "Average pairwise affinity across all living duplicants. At 40+, Colony Cohesion grants +1 morale to everyone; multiple cold wars trigger Colony Discord (-1 morale, more arguments). Shared meals, parties and matchmaking all help.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE",
+      "text": "The social system is not ready",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP",
+      "text": "Enter a colony and wait for the social system to initialize",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT",
+      "text": "Fallen duplicant",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
+      "text": "No relationships recorded yet",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP",
+      "text": "Relationships and affinity appear here after duplicants interact",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
+      "text": "Mood log",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
+      "text": "No recent mood entries",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
+      "text": "This duplicant's recent social events and their effect on affinity and mood",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_LABEL",
+      "text": "Traits",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP",
+      "text": "Some traits affect socializing: fewer arguments and brawls, better or worse reactions to mentoring, and grumpier shared sleep when schedules clash. The parenthesis after a name is that trait's effect.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT",
+      "text": "hates arguments",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER",
+      "text": "appreciates being taught",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER",
+      "text": "doesn't take mentoring well",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD",
+      "text": "early riser, steady schedule",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL",
+      "text": "night owl, hard to share a bunk with",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY",
+      "text": "falls asleep anytime, schedule never matches",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
+      "text": "Temperament history",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT",
+      "text": "Current temperament: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE",
+      "text": "Change temperament",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
+      "text": "Guide this duplicant into a different social temperament. The old one stays on the history list for display only and no longer takes part in later social rolls.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY",
+      "text": "No temperament changes yet",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE",
+      "text": "Change temperament",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY",
+      "text": "Choose a new temperament for {0}. The old one stays on the history list for display only.",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE",
+      "text": "Cycle {0} · {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED",
+      "text": "Already that temperament",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED",
+      "text": "Couldn't change temperament: the social system is not ready",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD",
+      "text": "hotheaded",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY",
+      "text": "tearful",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD",
+      "text": "loud",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER",
+      "text": "greedy",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS",
+      "text": "nervous",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY",
+      "text": "jumpy",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE",
+      "text": "gentle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS",
+      "text": "curious",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW",
+      "text": "slow",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY",
+      "text": "early-rising",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT",
+      "text": "nocturnal",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY",
+      "text": "sleepy",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE",
+      "text": "athletic",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN",
+      "text": "original",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
+      "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
+      "text": "{0} changed dramatically: {1} temperament became {2}.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED",
+      "text": "Beloved",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR",
+      "text": "Popular",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN",
+      "text": "Known",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST",
+      "text": "Outcast",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE",
+      "text": "Invisible",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION",
+      "text": "Cohesion",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD",
+      "text": "Discord",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL",
+      "text": "Neutral",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS",
+      "text": "Strangers",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
+      "text": "Acquainted",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS",
+      "text": "Friends",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH",
+      "text": "Crush",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE",
+      "text": "Couple",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR",
+      "text": "Cold War",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP",
+      "text": "Broken Up",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING",
+      "text": "Grieving",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING",
+      "text": "Mourning",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL",
+      "text": "Rivals",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
+      "text": "Unknown social event",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT",
+      "text": "Argument",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY",
+      "text": "Apology",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.VENT",
+      "text": "Vented",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.TEACH",
+      "text": "Mentoring",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND",
+      "text": "Heart-to-heart",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION",
+      "text": "Confession accepted",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED",
+      "text": "Confession rejected",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DATE",
+      "text": "Date",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
+      "text": "Shared meal",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CARE",
+      "text": "Medical care",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY",
+      "text": "Jealousy",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE",
+      "text": "Reconciled",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP",
+      "text": "Breakup",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED",
+      "text": "Lost partner",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED",
+      "text": "Unspoken loss",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WELCOME",
+      "text": "Welcomed newcomer",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTY",
+      "text": "Party",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
+      "text": "Stood by them",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT",
+      "text": "Falling-out",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED",
+      "text": "Comfort in grief",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY",
+      "text": "Anniversary",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED",
+      "text": "Missed anniversary",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GREETING",
+      "text": "Greeting",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CHAT",
+      "text": "Chat",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE",
+      "text": "Socializing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST",
+      "text": "Shared quarters",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE",
+      "text": "Stress shift",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
+      "text": "Cleared the air",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL",
+      "text": "Became rivals",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER",
+      "text": "Rivalry settled",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED",
+      "text": "Rival died",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BRAWL",
+      "text": "Came to blows",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING",
+      "text": "The pantry ran dry",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED",
+      "text": "Crisis averted",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL",
+      "text": "Famine killing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER",
+      "text": "Famine ended",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BLAMED",
+      "text": "Blamed after the disaster",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED",
+      "text": "Frozen out",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR",
+      "text": "Somebody spoke up for them",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
+      "text": "The first one to sit down",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
+      "text": "Hit where nobody could see",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
+      "text": "I saw them throw that punch",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
+      "text": "Caught them crying alone",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED",
+      "text": "Faded with time",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN",
+      "text": "I saw them at their worst",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED",
+      "text": "They came over first",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY",
+      "text": "burst into ugly sobbing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL",
+      "text": "started screaming",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT",
+      "text": "threw up",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE",
+      "text": "started binge eating",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY",
+      "text": "started smashing things",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK",
+      "text": "started throwing sparks",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED",
+      "text": "Why is it always me down there",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
+      "text": "They've been going down too lately",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE",
+      "text": "They went down in my place",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
+      "text": "We were both down there",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
+      "text": "Administrator matchmaking",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
+      "text": "Administrator separation",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
+      "text": "Administrator cleared mark",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
+      "text": "Bound in the way",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.STRESS",
+      "text": "over stress",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY",
+      "text": "old grudges",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH",
+      "text": "clashing traits",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD",
+      "text": "colony discord",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY",
+      "text": "bad chemistry",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2",
+      "text": "Perfect match",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1",
+      "text": "Good chemistry",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1",
+      "text": "Bad chemistry",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2",
+      "text": "Oil and water",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD",
+      "text": "in sync",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD",
+      "text": "clashing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE",
+      "text": "Affinity: {0}; conflicts: {1}{2}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL",
+      "text": "; awkward until cycle {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS",
+      "text": "\nRecent events:",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE",
+      "text": "\nCycle {0}: ",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
+      "text": "Matchmaking mark: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
+      "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN",
+      "text": "Rivals - frozen: negative affinity no longer drifts back toward zero, so this relationship will not heal on its own. Set a matchmaking mark to step in and thaw it.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER",
+      "text": "Hazard duty: {0} {1} · {2} {3} - same trade, same stretch of days, only one of them went down (for {4} cycles now)",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING",
+      "text": "Rivals - mediating: the matchmaking mark has thawed the freeze and affinity is recovering. The rivalry ends once it climbs back past the threshold.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
+      "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "Social",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "Review colony relationships and manage matchmaking or block marks",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "Matchmake",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "Block",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "Clear marks",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "Bounds",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "Relationship overview",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "Pending",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "Pending social events",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "This list includes confessions, breakups, reconciliations and new rivalries. Outcomes are locked; click a row to arrange it now, or wait for its countdown.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "No pending social events.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "[{0}] {1} → {2} · {3} cycles remaining",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "[{0}] {1} → {2} · Finding a safe meeting",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "Happen now",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}  [{1}]",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "Event requested; waiting for a safe moment",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "Colony relationships",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0} relationships",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "Search duplicant names",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "Relationship: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "All",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "Friendly",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "Romance",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "Conflict",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "Mark: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "Unmarked",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "Sort: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "Name",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "Relationship count",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "Highest affinity",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "No relationships match these filters",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "Close",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "Back",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "Previous page",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "Next page",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "Page {0} of {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "No duplicants are available.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "Action failed: social system is not ready",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · Choose the second duplicant",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "{0} is selected. Choose another duplicant to complete the action.",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "Choose the first duplicant. Matchmaking grants: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "Choose a duplicant to clear all matchmaking and block marks involving them.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "Bounds",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "Choose the first duplicant. Bounds cap how close or how hostile this pair's relationship can become — it never stops them from interacting, it only stops the relationship from crossing the line.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "Best relationship: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "Worst relationship: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "No limit",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "Choose best relationship",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "Choose worst relationship",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "Only tiers compatible with the other bound are shown. The choice takes effect immediately, but does not change the current relationship until its next transition.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "Bounds: {0} × {1} → best {2} · worst {3}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "Rejected: the worst relationship cannot be better than the best",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "Colony: {0} ({1})\nLiving duplicants: {2}\nRelationships: {3}\nMatches: {4} · Blocks: {5}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "breakup in {0} cycles",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "falling-out: {0} cycles left",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "rivals - frozen",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "ex period: {0} cycles left",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "anniversary today!",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "anniversary in {0} cycles",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "Couples: {0} · Cold wars: {1} · Best friends: {2}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[Done] {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[Done] Cleared {1} marks involving {0}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "Matchmaking: {0} × {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "Blocked: {0} × {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "Mark cleared: {0} × {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "Picked {0}; select another duplicant and press the same hotkey again",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "Cancelled selection of {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "Cleared {1} marks for {0}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "Chronicle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "Colony Chronicle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "No events recorded yet",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0} is no longer in the colony",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "Person: All",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "Person: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "Clear",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "Whose story?",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "Pick a duplicant and the log shows only the events they took part in — a slice of their life.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "Export diagnostic report",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "Enable Local Gameplay Data in the mod settings first",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "Diagnostic report exported: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "Could not export diagnostic report: {0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "Cycle {0} · {1} and {2} [{3}]{4}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "Confession",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "Cycle {0} · {1} [{2}]{3}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "Cycle {0} · with {1} [{2}]{3}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "Cycle {0} · [{1}]{2}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " Affinity {0:+#;-#;0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " Stress {0:+#.#;-#.#;0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " Stress {0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " Morale {0:+#.#;-#.#;0}",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "Cycle {0} · {1}{2}",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— Milestones ——",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— Recent ——",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "text": "{0} and {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "text": "I",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "text": "{pair} crossed paths and exchanged a nod.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "text": "{pair} said hello in the corridor.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "text": "{pair} traded a few pleasantries when they met.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "text": "{pair} waved at each other from afar.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "text": "{pair} exchanged a glance across half the corridor; nothing needed saying.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "text": "{pair} queued at the printing pod and said hello while they waited.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "text": "{pair} chatted for a while.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "text": "{pair} sat together shooting the breeze; the mood was good.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "text": "{pair} talked about everyday things.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "text": "{pair} talked about {topic}.",
+      "requiredSlots": [
+        "pair",
+        "topic"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "text": "{pair} traded the day's stories.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "text": "{pair} chatted idly, and the time flew by.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "text": "{actor} poured their troubles out to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "text": "{other} listened to {actor} for a long time.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "text": "{actor} laid out the day's grievances for {other}, one by one.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "text": "{actor} asked {other} when this life gets any easier; {other} had no answer.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "text": "Troubles aired, {actor} felt the regolith on their shoulders weigh a little less.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "text": "{actor} was close to breaking; {other} sat with them a while.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "text": "{actor} showed {other} the work, step by step.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "text": "{actor} shared a few tricks of the trade with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "text": "{actor} demonstrated it once; {other} watched without blinking.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "text": "{actor} said they'd only teach it once, so {other} resolved to practice in secret.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "text": "Some skills aren't on any work schedule; {actor} passed one on to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "text": "{pair} talked late into the night and became best friends.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "text": "{pair} said things they had never told anyone.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "text": "{pair} traded secrets, and from then on kept nothing from each other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "text": "{pair} talked until morning; neither mentioned bedtime.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "text": "Some friendships take years. {pair} managed it in one night.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "text": "{actor} took care of {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "text": "{actor} tended {other}'s injuries.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "text": "{actor} changed {other}'s bandages, gentle as could be.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "text": "{other} insisted it was nothing, then let {actor} fuss over them all day.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "text": "{actor} stayed by {other}'s side, the medicine cooled and ready.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "text": "{actor} stayed with {other} until they came around.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "text": "{other} calmed down in {actor}'s company.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "text": "{actor} offered no grand wisdom — just stayed with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "text": "{other} tried to say thanks; {actor} waved it off to save them the breath.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "text": "Some nights can only be endured. At least {other} didn't endure this one alone.",
+      "requiredSlots": [
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "text": "{pair} shared a meal at {place}.",
+      "requiredSlots": [
+        "pair",
+        "place"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "text": "{pair} ate and talked, at ease.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "text": "{pair} shared a table and talked for a long time.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "text": "{pair} carried their trays to the same table.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "text": "{pair} split a mush bar between them; neither complained.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "text": "The food was the same as ever, but the laughter at {pair}'s table was new.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "text": "{pair} sat across the table; neither spoke first.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "text": "{pair} sat close, and the meal was sweet.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "text": "{pair} shared a room for the night; their schedules matched.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "text": "{pair} bunked side by side, each turning over carefully so as not to wake the other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "text": "After lights-out, {pair} whispered a while longer before sleeping.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "text": "Under one roof, {pair} have even synced up their snoring.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "text": "{pair}'s schedules clashed; neither slept well.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "text": "{pair} spent some time together at {place}.",
+      "requiredSlots": [
+        "pair",
+        "place"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "text": "{pair} met in the recreation area and had a good time.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "text": "{pair} whiled away a pleasant stretch at {place}.",
+      "requiredSlots": [
+        "pair",
+        "place"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "text": "{pair} played a few rounds; by the end, the score didn't matter.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "text": "{pair} played the day's exhaustion clean away.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "text": "{pair} attended the party at {place}.",
+      "requiredSlots": [
+        "pair",
+        "place"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "text": "{pair} let loose at the party.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "text": "{pair} toasted at the party; the juice nearly passed for wine.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "text": "In the party lights, {pair} were chattier than usual.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "text": "{pair} stayed until the party wound down, reluctant to leave.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "text": "{pair} went on a date; the mood was just right.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "text": "{pair} stole a moment alone, with eyes only for each other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "text": "{pair} walked side by side; neither mentioned going back to work.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "text": "{pair} had their date by the telescope, taking turns at the same patch of stars.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "text": "{pair} set one rule for the date: no talk of work schedules.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "text": "{pair} marked the day they got together.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "text": "{pair} made it through another year together — worth a toast.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "text": "In a place where you keep the calendar yourself, {pair} remembered the day.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "text": "{pair} celebrated like it was a colony-wide holiday — as far as they were concerned, it was.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "text": "{actor} forgot the anniversary with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "text": "{actor}'s schedule had everything on it except the anniversary with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "text": "{other} waited all evening; {actor}, down in the mines, noticed nothing.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "text": "Busy days blur together, and {actor} let the most important one slip.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "text": "{actor} confessed their feelings to {other} — {other} said yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "text": "{actor} found the courage to confess; {other}, blushing, nodded.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "text": "{actor} got halfway through the rehearsed speech before {other} said yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "text": "With the printing pod as their witness, {actor} took {other}'s hand.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "text": "{other} had waited a long time for those words; {actor} finally said them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "text": "{pair} found their way back to each other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "text": "{pair} took the long way around and ended up back together.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "text": "Some partings are just for thinking things through. {pair} thought it through.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "text": "{pair} held hands again, tighter than the first time.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "text": "{actor} confessed to {other}, but {other} did not say yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "text": "{other} could not return {actor}'s feelings.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "text": "{actor} delivered the rehearsed confession; {other} stayed silent for a long while.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "text": "Not every heartfelt word finds an echo; {actor} learned that today.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "text": "{pair} broke up.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "text": "{pair}'s relationship reached its end.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "text": "{pair} said what needed saying, then turned and walked away.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "text": "{pair}'s relationship ran out like an atmo suit's oxygen.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "text": "{other} wanted to try again; {actor} was done talking.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "text": "An invisible wall stands between {pair}; nothing moved.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "text": "Some unnameable force held the bond between {pair} exactly where it was.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "text": "{pair}'s story was about to turn a page, until an unseen hand held it down.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "text": "Fate drew a line between {pair}, and neither one crossed it.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "text": "Things stirred between {pair}, then inexplicably settled again.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "text": "{pair} had a bitter fight and became strangers.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "text": "Whatever warmth {pair} had left was gone overnight.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "text": "Since that day, {pair} take detours to avoid each other in the corridors.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "text": "The friendship ran its course; {pair} don't even nod anymore.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "text": "{pair} let go of old grievances and made up.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "text": "{pair} closed the old ledger and sat down at the same table again.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "text": "Whoever spoke first no longer matters; {pair} made up.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "text": "The day the cold war ended, {pair} both breathed easier.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "text": "{actor} apologized to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "text": "{actor} yielded first, and {other} forgave.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "text": "{actor} stumbled through the word \"sorry\"; {other} accepted it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "text": "{actor} offered a mush bar by way of apology.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "text": "Between pride and {other}, {actor} chose {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "text": "A conflict, of all things, made {pair} good friends.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "text": "{pair} talked it all out and came out of it friends.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "text": "After the apology, {pair} were closer than before the fight.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "text": "{pair} had a fight, then became friends. That's just how it went.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "text": "{pair} had an argument.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "text": "{pair} quarreled, neither willing to back down.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "text": "{pair}'s voices rose high enough to startle the hatches next door.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "text": "{pair} got heated over something trivial; in hindsight, neither could say what.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "text": "When the shouting was over, {pair} each blamed the other for starting it.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "text": "Over {cause}, {pair} got into an argument.",
+      "requiredSlots": [
+        "cause",
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "text": "{pair} made enemies of each other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "text": "{pair}'s grudge finally has a name: nemesis.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "text": "For a long time to come, {pair} won't be exchanging pleasantries.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "text": "{pair} let the old feud go.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "text": "{pair} shook hands; the feud ends here.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "text": "Hating someone is exhausting, so {pair} decided to stop.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "text": "{other} died, and {actor} could not name what they felt.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "text": "The nemesis was dead, and {actor} noticed how quiet the corridors had become.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "text": "{actor} always wanted to beat {other}; now there is no one left to beat.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "text": "{actor} watched {other} laughing with {third}, and it stung.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "text": "{actor} was jealous.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "text": "{third} and {other} were deep in conversation; {actor} stood nearby, counting regolith.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "text": "The sour feeling crept up on {actor}, who couldn't say where it came from.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "text": "{actor} lost {other} and fell apart.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "text": "{other}'s bunk sits empty now, and {actor} has stopped looking that way.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "text": "{other}'s name is gone from the schedule, and a piece of {actor}'s days went with it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "text": "{other} was gone; {actor} swallowed the words never said.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "text": "{other} never got to see the day {actor} finally found the nerve.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "text": "{actor} recited the long-prepared words to {other}'s empty bunk.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "text": "{other} saw every moment of {actor}'s breakdown.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "text": "{other} looked away, but couldn't unsee {actor}'s breakdown.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "text": "Watching {actor} come apart, {other} realized how quiet the base could be.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "text": "{subject} witnessed a crewmate's breakdown, and it weighed heavy.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "text": "{subject} stumbled onto a crewmate's breakdown and was distracted all day.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "text": "{pair} came to blows.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "text": "{pair}'s quarrel turned to fists.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "text": "{pair} grappled and tumbled, tools scattering everywhere.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "text": "It was an ugly fight; {pair} both walked away bruised.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "text": "Only when others pulled them apart did {pair} finally let go.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "text": "{actor} spent another day in the hazard zone and resented {other}'s easy duty.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "text": "Same mine, so why does {actor} always draw the dangerous end? {actor} couldn't let it go.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "text": "{actor} tallied {other}'s easy days, and the ledger of grievances grew.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "text": "{actor}'s resentment toward {other} slowly faded.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "text": "{actor} came around: someone has to take the dangerous work; blaming {other} was wrong.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "text": "Time wore the anger smooth; {other} looks a lot more agreeable to {actor} now.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "text": "{other} took the dangerous work off {actor}'s hands, and {actor} remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "text": "When the dangerous assignment came down, {other} took it first. {actor} won't forget.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "text": "{actor} owes {other} a favor — the life-risking kind.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "text": "{pair} got through dangerous work side by side — comrades now.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "text": "Coming out of the hazard zone alive, {pair} looked at each other differently.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "text": "{pair} faced the danger and neither ran first; that kind of bond can't be faked.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "text": "{actor} led the colony in blaming {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "text": "Something went wrong, so someone had to take the fall — {actor} led everyone in picking {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "text": "One sentence from {actor} was enough to turn everyone's anger on {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "text": "{other} was shunned; no one would speak to them.",
+      "requiredSlots": [
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "text": "{other} walked into the mess hall, and a whole table went quiet.",
+      "requiredSlots": [
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "text": "These days, even the hatches are more popular than {other}.",
+      "requiredSlots": [
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "text": "{actor} spoke up for {other} in front of everyone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "text": "{actor} stood up for {other} in front of everyone, and the room fell silent.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "text": "With the mob howling, {actor} was the only one willing to speak for {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "text": "{actor} reached out a hand to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "text": "{actor} carried a tray over and sat by {other}, and the wall of silence cracked.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "text": "While everyone else steered clear of {other}, {actor} walked straight over.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "text": "{actor} beat {other} while no one was watching.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "text": "In a gap between shifts, {actor} cornered {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "text": "{actor} picked a moment when no one was around and took the anger out on {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "text": "{subject} saw the lynching.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "text": "{subject} stumbled onto the scene and hurriedly pretended not to see.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "text": "Some things, once seen, must be swallowed; {subject} kept their mouth firmly shut.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "text": "{subject} found them crying alone in hiding.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "text": "Passing by, {subject} heard the crying and softened their steps.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "text": "The one hiding in the corner cried for a long time; {subject} didn't go over.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "text": "The isolation of {subject} finally passed.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "text": "The colony found fresh gossip, and no one brings up {subject}'s business anymore.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "text": "Given time, even anger expires — {subject} has blended back into the crowd.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "text": "The granary ran empty, and panic spread through the colony.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "text": "The last mush bar is gone, and no one dares think about tomorrow.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "text": "Word of empty stomachs travels faster than oxygen.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "text": "Food arrived; the colony breathed again.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "text": "The pantry has stock again, and with it the sound of chewing.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "text": "The crisis passed, and nobody asked where the food came from.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "text": "{actor} and {other} fought over the last bite of food.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "text": "Starving people don't reason; {actor} and {other} fell out over a single bite.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "text": "{actor} fixed their eyes on {other}'s ration, and fists moved faster than thought.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "text": "The days of hunger were finally over.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "text": "The granary is full again; some things are silently never mentioned.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "text": "Full bellies are back, as if the famine never happened.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "text": "{pair} welcomed the newcomer.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "text": "{pair} helped the newcomer settle in and explained the base's rules.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "text": "The printing pod spat out another newcomer, and {pair} were the first to greet them.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "text": "The newcomer's first meal was shared with {pair}.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "text": "{subject}'s stress grew heavier.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "text": "{subject}'s brow creased a notch tighter.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "text": "A string pulled taut for too long — {subject} can almost hear it hum.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "text": "{subject} breathed a sigh of relief.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "text": "{subject} finally got a good night's sleep, and it shows.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "text": "The weight on {subject}'s chest has lifted a little.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "text": "{actor} bellowed a hello at {other} from across the room.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "text": "{actor}'s greeting sounded like an order; {other} answered anyway.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "text": "{actor} glanced around before quietly saying hi to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "text": "{actor} gave {other} a soft nod and a warm smile.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "text": "Mouth full of lice loaf, {actor} mumbled a greeting to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "text": "{actor} chatted with {other} at full volume, thoroughly enjoying it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "text": "{actor}'s voice kept rising; {other} somehow didn't mind.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "text": "{actor} got so worked up mid-chat they nearly slammed the table.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "text": "{actor} muttered to {other} in hushed tones, worried about who knows what.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "text": "{actor} spoke softly, and {other} nodded along.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "text": "{actor}'s eyes welled up mid-sentence; {other} quickly changed the subject.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "text": "{actor} talked between bites, chewing over {other}'s every sentence.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "text": "{actor} slid their own dessert onto {other}'s tray.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "text": "{pair}'s trays came back spotless.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "text": "{actor} gave {other} the warmer portion.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "text": "{pair}'s table was the loudest; half the mess hall heard {actor}.",
+      "requiredSlots": [
+        "actor",
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "text": "{actor} complained the food was bland; {other} quietly passed the salt.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "text": "{actor} picked at the food distractedly; {other} had to ask three times.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "text": "{actor} tossed and turned; {other} stayed up talking a while.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "text": "{actor} shed a few tears in the night; {other} pretended not to hear.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "text": "{other} spent the whole night listening to {actor}'s snoring.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "text": "{actor} tiptoed around at night, careful not to wake {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "text": "{actor} snuck out a snack before bed; the smell kept {other} awake.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "text": "{actor} lost their temper over a game again; {other} laughed and went easy on them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "text": "{actor}'s laughter rang loudest of all; {other}'s ears paid the price.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "text": "{actor} nearly cried over losing a game; {other} quickly threw the next round.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "text": "{actor} kept letting {other} win, and both had a great time.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "text": "{actor} played on pins and needles while {other} cheered them on.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "text": "{actor}'s troubles were audible across half the rec room.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "text": "{actor} even complained softly; {other} listened all the more carefully.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "text": "{pair} exchanged a few words, polite as strangers.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "text": "{pair} traded barbed words; the chat was a duel.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "text": "{pair} chatted, eyes drifting away from each other.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "text": "{pair} stiffly exchanged the few words that were necessary.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "text": "{pair} whispered together, oblivious to everyone else.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "text": "{pair} shared a table, each staring at their own tray.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "text": "{pair} shared a table; the cutlery clattered louder than usual.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "text": "{pair} shared a table, neither really tasting the food.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "text": "{pair} shared a room for the night; neither mentioned the past.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "text": "{pair} shared a room for the night, back to back.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "text": "{pair} shared a room for the night; neither slept soundly.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "text": "{pair} shared a room for the night; the air was freezing.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "text": "{pair} squeezed into one bunk and woke up holding hands.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "text": "{pair} grinned at each other on sight — who remembers that old brawl?",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "text": "{pair} hit it off — no friendship like one forged in a fight.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "text": "{pair} got talking about that narrow escape and couldn't stop.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "text": "{pair} clinked cups over the meal — a bond forged in danger.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "text": "{pair} laughed together; that old rejection is just a funny story now.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "text": "{pair} sat close; this meal was a long time coming.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "text": "After that argument, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "text": "The last rejection did not stop {actor}, ",
+      "requiredSlots": [
+        "actor"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "text": "After the time apart, they still could not let each other go, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "text": "After witnessing that breakdown, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "text": "After all these days of silence, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "text": "That quarrel could not be contained, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "text": "Resentment had been building for a long time, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "text": "The rift never healed, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "text": "Once again, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "text": "For the {0}th time, ",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "text": "In the shadow of the famine, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "text": "In those days of unspent anger, ",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "text": "Word spread quickly; everyone was talking about them.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "text": "The whole colony was happy for them.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "text": "The air in the colony hung heavy for days.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "text": "Everyone saw it, and no one felt good about it.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "text": "{pair} kept finding each other to talk that day.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "text": "{pair} had no end of things to say that day.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "text": "{pair} kept crossing paths that day, and grew familiar.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "text": "{pair} shared several meals that day.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "text": "{pair} spent every spare moment together that day.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "text": "the work at hand",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "text": "their respective duties",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "text": "how the digging was going",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "text": "the tricks of construction",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "text": "a new recipe",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "text": "how the crops were coming along",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "text": "the critters' tempers",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "text": "a new finding from the lab",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "text": "machine maintenance",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "text": "bandaging technique",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "text": "the best hauling routes",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "text": "the new decor",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "text": "workout routines",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "text": "atmo suit tips",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "text": "things down in the mines",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "text": "the newly built corridors",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "text": "new tricks at the stove",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "text": "the harvest in the fields",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "text": "the little critters in the pen",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "text": "findings from the lab bench",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "text": "the machines' quirks",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "text": "the med bay's supplies",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "Social life has begun",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "Your duplicants now have social lives of their own: chatting, friendships, romance and quarrels all happen naturally. Open the Social entry in the top management menu to watch the colony and play matchmaker; each duplicant's Social tab shows their relationships.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "A New Couple",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0} confessed to {1} — they are now a couple!",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "Broken Up",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0} and {1} have gone their separate ways.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": " The final straw: {0} (cycle {1}).",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "Lost a Partner",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0} lost their partner {1} and is grieving.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "Cold War",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0} and {1} are giving each other the cold shoulder. A matchmaking mark can nudge them toward reconciliation.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "Reconciled",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0} and {1} have patched things up.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "Quiet Mourning",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0} quietly mourns the late {1}.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "Best Friends",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0} and {1} are now best friends.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "Colony Cohesion",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "The colony stands together. Morale up for everyone.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "Colony Discord",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "Tensions run high. Morale down for everyone.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "Back to Normal",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "The colony's collective mood has settled down.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "Anniversary",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0} and {1} celebrated their anniversary date. Twice as sweet.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "Missed Anniversary",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0} and {1} let their anniversary slip by. Both are a little glum.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "Falling-Out",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0} and {1} have had a falling-out. Warmth will be slow to return for a while, but one apology clears the air.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "Quiet Company",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0} sits with {1}, quietly keeping them company through the grief.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "Seasoned Love",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0} and {1} have been together a long while. Their love has settled into a steady warmth.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "A rivalry is born",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0} and {1} have nursed their grudge to the bottom and are now rivals. This relationship will no longer warm up on its own unless you step in with a matchmaking mark.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "Rivalry settled",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0} and {1} have finally let the grudge go. Things are back to normal between them.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "They're fighting!",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "An argument between {0} and {1} has escalated into a brawl. They will stop short of serious harm, but both are going to be bruised.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "Somebody has to answer for it",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "The colony has just been through something, and {0} is the least liked person here - so the bill lands on them. Pair them with a well-respected colleague now and that person will speak up; miss this window and {0} gets frozen out.",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "Nobody talks to them anymore",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "Nobody spoke up for {0}. From now on colleagues look away when they pass, and anyone sharing their table finishes early. It ends the moment a single person tends to them, talks with them, or eats with them.",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "Somebody said the fair thing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0} spoke up for {1} in front of everyone. Nobody is bringing it up again.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "The first one to sit down",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0} sat down next to {1}. The freeze-out ends here - it only ever takes one person going first.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "Nobody saw it",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "With nobody around, {0} hit {1}. None of their colleagues know - you are the only one who saw this.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "Forgotten about",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "Nobody came for {0}, but nobody remembers the whole business either. Life goes on.",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "The whole room is watching",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0} {2} right there, and {1} of them stopped to watch. For the next few cycles, anyone willing to go over and sit with them will be remembered for it forever.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "The first one to sit down",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0} went over and sat with {1} for a while. Nothing important was said - but {1} will always remember who came over first.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "Fought it out",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0} and {1} came out of that fight with a grudging respect for each other. The rivalry is over.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "The pantry is empty",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "The larder is bare and several duplicants are starving. Left like this, they will start solving the problem themselves - there is still time to get food in.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "Crisis averted",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "Food arrived in time and the colony stepped back from the edge. Nobody mentions what they were thinking a few days ago.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "Survive!",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "Whatever is between {0} and {1}, it stopped being an argument a while ago. Hunger has taken the last of their decency.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "The famine has passed",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "There is food in the larder again. Nobody asks what it is.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "The last colonist",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "One left. The base is very quiet now, and there is plenty to eat.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "The rival is gone",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1} is dead. {0} said nothing about it, and has been in a noticeably good mood since.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DEATHS.SURVIVE.NAME",
+      "text": "Survival",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.DEATHS.SURVIVE.DESC",
+      "text": "Killed by a fellow colonist in the days after the pantry ran dry.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME",
+      "text": "\"Colleague\" Meat",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC",
+      "text": "Left over from the days the food ran out. Nobody asks whose it is, and nobody wants to reach for it first.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.LOVE.NAME",
+      "text": "In Love",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.LOVE.DESC",
+      "text": "Has a sweetheart. Morale up.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME",
+      "text": "Seasoned Love",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC",
+      "text": "Long together, and each other's safest place. Morale way up.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.DATE_AFTERGLOW.NAME",
+      "text": "Date Afterglow",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.DATE_AFTERGLOW.DESC",
+      "text": "Fresh from a lovely date. Morale up.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.CANNIBAL.NAME",
+      "text": "Ate a colleague",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.CANNIBAL.DESC",
+      "text": "They know exactly who that meal was. Some things do not come back up once they are down.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.RIVAL_DIED.NAME",
+      "text": "Schadenfreude",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.RIVAL_DIED.DESC",
+      "text": "That one duplicant they could not stand is gone. They would never say so out loud, but the mood is good.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.GRIEF.NAME",
+      "text": "Grieving",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.GRIEF.DESC",
+      "text": "Lost a sweetheart. Morale down.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.GRIEF_SOFT.NAME",
+      "text": "Grieving (Supported)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.GRIEF_SOFT.DESC",
+      "text": "Lost a sweetheart, but the colony's warmth softens the blow.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.COLONY_COHESION.NAME",
+      "text": "Colony Cohesion",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.COLONY_COHESION.DESC",
+      "text": "The colony stands together. Morale up for everyone.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.COLONY_DISCORD.NAME",
+      "text": "Colony Discord",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.COLONY_DISCORD.DESC",
+      "text": "Tensions run high. Morale down for everyone.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.SIDE_BY_SIDE.NAME",
+      "text": "Side by Side",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.SIDE_BY_SIDE.DESC",
+      "text": "Working alongside a friend. Efficiency up.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.STRAINED.NAME",
+      "text": "Strained",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.STRAINED.DESC",
+      "text": "Stress is close to the breaking point. A chat, a good meal or some downtime could pull them back.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.STRAINED.BUBBLE",
+      "text": "Deep breath... holding it together",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.NAME",
+      "text": "Frozen out",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC",
+      "text": "Something went wrong in the colony and they were the least liked person here - so the bill landed on them, whether or not they had anything to do with it. It lifts the moment somebody tends to them, talks with them, or shares a meal; given long enough, it fades on its own.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "Social Life · Settings",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "Settings",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "Open the settings panel for Duplicant Social Life",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "Save",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "Cancel",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "Restore defaults",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "Saved and applied to the current session.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "Save failed, see the log for details.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "Defaults restored. Click Save to apply.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": " (restart required)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "On",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "Off",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "AI Dialogue",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "Enable AI-generated dialogue",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "AI dialogue is still a work in progress and off by default. With it off, built-in lines cover the whole game.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "API base URL",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API key",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "Model",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "Paste your API key",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "Model name",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "Dialogue language",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "Follow game",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "中文",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "AI conversations per cycle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "Per-pair conversation cooldown (s)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "AI request timeout (s)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "Max tokens per generation",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key entered; takes effect as soon as you save",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "No key set. AI dialogue stays off and built-in lines are used.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key is filled in, but the API address or model is missing or invalid - AI dialogue will not be attempted",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "Social System",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "Observe native social events (engine input)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": " (always on in this version)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "The relationship engine is built entirely on native social events, so it cannot be turned off yet.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "F9/F10/F11 matchmaking hotkeys",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "Relationship event notifications",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "Relationship event presentation",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "Compact",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "Standard",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "Focus",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "Standard does not move the camera. Only Focus automatically moves to the event. This does not change outcomes or values.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "Pause on major events",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "Independent setting, off by default. When enabled, major relationship events pause the game.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "Pending event window",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "When disabled, confession events happen immediately but still have presentation and notifications. Only timing changes.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "Pending window (cycles)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "Relationship milestones",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "Grief and loss",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "Conflict and danger",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "Everyday commemorations",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "Off",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "Archive only",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "Instant",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "An important moment is coming",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0} is preparing to tell {1} something important. {2} cycles remain.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "Minimum interval between affinity gains for a pair (seconds)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "Chronicle capacity (entries)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "Rolling section size of the event log. Default 5000 entries ≈ 1MB reserved (uncompressed estimate; far less after save compression). Milestones are kept in a separate section and don't count. Takes effect on next load or new colony.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "Dark content (tests of character)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "Enable dark content",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "Master switch, off by default. The dark events below only take effect once this is on - brawls, famine cannibalism, and the tests of character added later. This content involves violence and death between duplicants; leave it off if you would rather not have it, and every other social feature carries on unchanged.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "(Dark content is switched off, so the items below are inactive)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "Allow famine cannibalism",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "When the larder is empty and several duplicants are starving, the colony turns on itself and the dead become food. A warning and a countdown come first, and restocking during that window calls it off; one death per episode, and it stops once food recovers. This is the darkest content in the mod - it needs the master switch as well.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "Play breakdowns as a scene",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "When a duplicant's stress maxes out and they actually break down (ugly crying / screaming / vomiting / binge eating / smashing things / throwing sparks), everyone in the room stops to watch, and the relationship keeps a memory of it. For the next few cycles, the first person to talk to them, tend to them or share their table pulls them out of it - a large affinity gain for both, and a little stress for the one who went. You can also pick that person yourself with a matchmaking mark. It changes no numbers: breakdown frequency, stress and death rate are all untouched. On by default.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "Hazard duty breeds resentment",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "Within one trade, a duplicant who keeps getting sent somewhere dangerous (thin air, unbreathable gas, actively suffocating or burning or freezing) starts to resent the colleague who never goes down: affinity toward them can only fall, and it can end in outright rivalry. Working in an atmo suit does not count - which quietly turns \"who has a suit\" into a social question. The way out is yours: change the priorities. Old duty slides out of the rolling window, the grievance fades on its own, and it leaves behind \"they've been going down too lately\". This is the only feature in the mod resolved by you changing how you manage the colony, and it uses the game's own controls - no new UI. Two duplicants down there together counts as well: that becomes comradeship. And the same sacrifice reads differently between friends - \"they went down in my place\" raises affinity instead. It adds no stress and takes nothing away: the game already charges for bad environments. At most two grievances run at once. On by default; the Quiet drama preset force-disables it.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "Allow collective scapegoating",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "After something bad happens to the colony (a death, several breakdowns, an empty larder), everyone pins it on whoever is least liked, guilty or not: a one-off affinity drop, then a slide into being frozen out - the three who like them least stop warming up at all, others flash disgust in passing, and tablemates leave early. Both exits are your tools: in act one, pair them with a well-respected colleague and that person will speak up; in act two, anyone tending, venting or eating with them breaks it. Nothing gets stuck forever - time fades it. Needs the master switch too, and Drama intensity set to Quiet disables it outright.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "Allow rivals to brawl",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "Arguments between rivals can escalate into an actual fight: turn-based, and stopped short (both back off once either drops to half health) - rival brawls never kill (famine cannibalism is a separate matter, see below). Off by default; turn it on if you want the drama. A block mark bans brawling for a pair outright, and setting Drama intensity to Quiet disables it even when this is on.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "Boost native conversation pacing",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "Native conversation cooldown multiplier",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "Native conversation distance multiplier",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "Interface & Feedback",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "Dialogue text popups",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "Dialogue popup duration (s)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "Affinity change popups",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "Local Gameplay Data",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "Record anonymous social telemetry",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "Off by default. When enabled, the mod records event frequency, relationship distribution, mod stress effects, schedule share and performance timings on this device only. Duplicants use anonymous IDs; API keys, AI endpoints and save contents are excluded, and nothing is uploaded automatically. Export a diagnostic report from Social > Event Log while in a colony.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "Balance",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "Drama intensity preset (applies after loading a save)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "Quiet",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "Default",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "Drama",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "Custom",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "Presets adjust argument/jealousy/apology odds and costs. Quiet = fewer fights, Drama = denser conflict.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "Social stress soft cap (0 = off)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "\"Strained\" stress threshold",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "Debug (development builds only)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "Technical knobs below. If you break something, use Reset to defaults.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "text": "Confession Rejected",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "text": "{0} told {1} how they felt, but the feelings were not returned.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "text": "Together Again",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "text": "{0} and {1} have decided to try again.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_INTRO",
+      "text": "There is something important I need to tell you.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_KEY",
+      "text": "I like you.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_REPLY",
+      "text": "I have always liked you too.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_RESULT",
+      "text": "Then let's face whatever comes next together.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.REKINDLE_INTRO",
+      "text": "There is something I still need to say.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.REKINDLE_KEY",
+      "text": "Can we start over?",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.REKINDLE_REPLY",
+      "text": "Let's not miss our chance this time.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.REKINDLE_RESULT",
+      "text": "Let's get to know each other again.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_FAIL_REPLY",
+      "text": "I'm sorry. I can't.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CONFESSION_FAIL_RESULT",
+      "text": "...I understand.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
+      "text": "I think this is where we part.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY",
+      "text": "...I understand.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.RECONCILE_KEY",
+      "text": "I do not want us to stay like this.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.RECONCILE_REPLY",
+      "text": "Okay. Let's start again.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.GRIEF_KEY",
+      "text": "I will remember you.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.CHAT_KEY",
+      "text": "Hi.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.RIVAL_KEY",
+      "text": "I am not letting this go.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SCENE.RIVAL_REPLY",
+      "text": "Good. I was not planning to make peace with you either.",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "AI rewrites per cycle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "Daily chat cooldown per duplicant (seconds)",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "Routine chronicle entries per cycle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "Native chat feeds per pair per cycle",
+      "requiredSlots": [],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "Default: 3. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle.",
+      "requiredSlots": [],
+      "richText": false
+    }
+  ]
+}

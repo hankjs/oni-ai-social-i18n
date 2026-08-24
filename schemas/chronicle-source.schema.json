@@ -13,13 +13,21 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["poolId", "minimumPublished", "allowedSlots", "templates"],
+        "required": ["poolId", "angle", "participantMode", "minimumPublished", "allowedSlots", "templates"],
         "properties": {
           "poolId": {
             "type": "string",
             "pattern": "^chronicle\\.[a-z0-9]+(?:[.-][a-z0-9]+)*$"
           },
-          "minimumPublished": { "type": "integer" },
+          "angle": {
+            "type": "string",
+            "enum": ["base", "sharedHistory", "relationship", "actorTrait", "context", "eventSpecific", "connective", "compatibility"]
+          },
+          "participantMode": {
+            "type": "string",
+            "enum": ["directedPair", "symmetricPair", "solo", "group", "none", "compatibilityPair"]
+          },
+          "minimumPublished": { "type": "integer", "minimum": 0 },
           "allowedSlots": {
             "type": "array",
             "uniqueItems": true,
@@ -34,14 +42,21 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["templateId", "source", "description"],
+              "required": ["templateId", "ordinal", "source", "description", "requiredSlots"],
               "properties": {
                 "templateId": {
                   "type": "string",
                   "pattern": "^chronicle\\.[a-z0-9]+(?:[.-][a-z0-9]+)*\\.[0-9]{3}$"
                 },
+                "ordinal": { "type": "integer", "minimum": 1, "maximum": 999 },
                 "source": { "type": "string", "minLength": 1, "maxLength": 2000 },
                 "description": { "type": "string" },
+                "requiredSlots": {
+                  "type": "array",
+                  "uniqueItems": true,
+                  "items": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" }
+                },
+                "legacyKey": { "type": "string", "minLength": 1 },
                 "deprecated": { "type": "boolean" }
               }
             }

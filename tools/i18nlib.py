@@ -26,6 +26,31 @@ MAX_UI_TEXT_LENGTH = 10000
 MAX_DIALOGUE_TEXT_LENGTH = 2000
 MAX_CHRONICLE_TEXT_LENGTH = 2000
 ALLOWED_RICH_TEXT_TAGS = {"b", "i", "color"}
+ALLOWED_PERSON_FORMS = {
+    "subject", "object", "possessive", "possessiveCapitalized",
+    "pairSubject", "pairObject",
+    "pairPossessive", "pairReflexive",
+}
+PERSON_SLOTS = {"actor", "other", "third", "subject", "a", "b"}
+SEMANTIC_FORM_RE = re.compile(
+    r"(?<!\{)\{([A-Za-z_][A-Za-z0-9_]*):([A-Za-z_][A-Za-z0-9_]*)\}(?!\})"
+)
+MIN_ACTIVE_CHRONICLE_TEMPLATES = 900
+MAX_ACTIVE_CHRONICLE_TEMPLATES = 1200
+CHRONICLE_ACTIVE_FAMILIES = (
+    "routine", "support", "relationship", "colony", "dark", "connective",
+)
+CHRONICLE_COMPATIBILITY_FILE = "compatibility/legacy-pair.json"
+CHRONICLE_ANGLE_FLOORS = {
+    "high-frequency base": 120,
+    "high-frequency relationship": 90,
+    "high-frequency actor trait": 120,
+    "support and growth": 60,
+    "relationship events": 140,
+    "colony and stress": 64,
+    "dark events": 90,
+    "shared history and connective": 60,
+}
 
 # Legacy pools were not all literal translations. These exact per-locale turn
 # shapes preserve the shipped dialogue without weakening the structure contract
@@ -50,6 +75,18 @@ def normalize_locale(value: str) -> str:
 
 def placeholder_tokens(text: str) -> set[str]:
     return {match.group(1) for match in FORMAT_ITEM_RE.finditer(text or "")}
+
+
+PROMPT_SLOT_RE = re.compile(r"\[\[([a-z][a-zA-Z0-9]*)\]\]")
+
+
+def prompt_slots(text: str) -> set[str]:
+    return {match.group(1) for match in PROMPT_SLOT_RE.finditer(text or "")}
+
+
+def prompt_syntax_error(text: str) -> str | None:
+    stripped = PROMPT_SLOT_RE.sub("", text or "")
+    return "malformed [[slot]] token" if "[[" in stripped or "]]" in stripped else None
 
 
 def placeholder_syntax_error(text: str) -> str | None:
@@ -163,15 +200,19 @@ def validate_schema_files(root: Path) -> list[str]:
         for name in (
             "manifest", "ui-source", "ui-locale", "dialogue-source", "dialogue-locale",
             "chronicle-source", "chronicle-locale", "chronicle-stability",
+            "chronicle-migration",
+            "prompt-source", "prompt-locale",
         )
     }
     routes: list[tuple[Path, str, str | None]] = [
         (root / "manifest.json", "manifest", None),
         (root / "contracts" / "chronicle-stability.json", "chronicle-stability", None),
+        (root / "contracts" / "chronicle-migration.json", "chronicle-migration", None),
     ]
     routes.extend((path, "ui-source", None) for path in iter_ui_source_files(root))
     routes.extend((path, "dialogue-source", None) for path in iter_dialogue_source_files(root))
     routes.extend((path, "chronicle-source", None) for path in iter_chronicle_source_files(root))
+    routes.extend((path, "prompt-source", None) for path in iter_prompt_source_files(root))
     locales_root = root / "locales"
     if locales_root.is_dir():
         for locale_dir in sorted((path for path in locales_root.iterdir() if path.is_dir()), key=lambda p: p.name):
@@ -183,7 +224,11 @@ def validate_schema_files(root: Path) -> list[str]:
             )
             routes.extend(
                 (path, "chronicle-locale", locale)
-                for path in sorted_paths(locale_dir / "chronicle", "*.json")
+                for path in sorted_paths(locale_dir / "chronicle", "**/*.json")
+            )
+            routes.extend(
+                (path, "prompt-locale", locale)
+                for path in sorted_paths(locale_dir / "prompts", "*.json")
             )
     for path, schema_name, expected_locale in routes:
         try:
@@ -257,11 +302,41 @@ def dialogue_turn_hash(*, source: str, speaker_slot: int, turn_id: str) -> str:
 
 
 def chronicle_template_hash(*, source: str, description: str, pool_id: str,
-                            allowed_slots: list[str]) -> str:
+                            allowed_slots: list[str], angle: str = "",
+                            participant_mode: str = "",
+                            required_slots: list[str] | None = None) -> str:
     payload = {
         "allowedSlots": sorted(allowed_slots),
+        "angle": angle,
         "description": description or "",
+        "participantMode": participant_mode,
         "poolId": pool_id,
+        "requiredSlots": sorted(required_slots or []),
+        "source": source,
+    }
+    digest = hashlib.sha256(canonical_json(payload).encode("utf-8")).hexdigest()
+    return "sha256:" + digest
+
+
+def chronicle_migration_parity_hash(*, zh_text: str, en_text: str,
+                                    target_kind: str, required_slots: Iterable[str],
+                                    participant_mode: str) -> str:
+    """Hash the approved bilingual text and semantic shape of one migration side."""
+    payload = {
+        "en": en_text or "",
+        "participantMode": participant_mode or "",
+        "requiredSlots": sorted(required_slots or []),
+        "targetKind": target_kind or "",
+        "zh": zh_text or "",
+    }
+    digest = hashlib.sha256(canonical_json(payload).encode("utf-8")).hexdigest()
+    return "sha256:" + digest
+
+
+def prompt_hash(*, source: str, description: str, required_slots: list[str]) -> str:
+    payload = {
+        "description": description or "",
+        "requiredSlots": sorted(required_slots),
         "source": source,
     }
     digest = hashlib.sha256(canonical_json(payload).encode("utf-8")).hexdigest()
@@ -323,7 +398,11 @@ def iter_dialogue_source_files(root: Path) -> list[Path]:
 
 
 def iter_chronicle_source_files(root: Path) -> list[Path]:
-    return sorted_paths(root / "catalog" / "chronicle", "*.json")
+    return sorted_paths(root / "catalog" / "chronicle", "**/*.json")
+
+
+def iter_prompt_source_files(root: Path) -> list[Path]:
+    return sorted_paths(root / "catalog" / "prompts", "*.json")
 
 
 def load_ui_sources(root: Path) -> list[dict[str, Any]]:
@@ -377,10 +456,24 @@ def load_chronicle_pools(root: Path) -> list[dict[str, Any]]:
 
 def load_chronicle_locale(root: Path, locale: str) -> list[dict[str, Any]]:
     templates: list[dict[str, Any]] = []
-    for path in sorted_paths(root / "locales" / locale / "chronicle", "*.json"):
+    for path in sorted_paths(root / "locales" / locale / "chronicle", "**/*.json"):
         payload = load_json(path)
         templates.extend(payload.get("templates", []))
     return templates
+
+
+def load_prompt_sources(root: Path) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    for path in iter_prompt_source_files(root):
+        entries.extend(load_json(path).get("entries", []))
+    return entries
+
+
+def load_prompt_locale(root: Path, locale: str) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    for path in sorted_paths(root / "locales" / locale / "prompts", "*.json"):
+        entries.extend(load_json(path).get("entries", []))
+    return entries
 
 
 def normalized_chronicle_text(text: str) -> str:
@@ -520,6 +613,65 @@ def validate_catalog(root: Path) -> list[str]:
     if SOURCE_LOCALE not in published or FALLBACK_LOCALE not in published:
         errors.append("publishedLocales must include zh and en")
 
+    expected_chronicle_files = {
+        *(f"{family}.json" for family in CHRONICLE_ACTIVE_FAMILIES),
+        CHRONICLE_COMPATIBILITY_FILE,
+    }
+    source_root = root / "catalog" / "chronicle"
+    actual_source_files = {
+        path.relative_to(source_root).as_posix()
+        for path in iter_chronicle_source_files(root)
+    }
+    if actual_source_files != expected_chronicle_files:
+        errors.append(
+            "chronicle source layout is not canonical: missing=" +
+            repr(sorted(expected_chronicle_files - actual_source_files)) +
+            " extra=" + repr(sorted(actual_source_files - expected_chronicle_files))
+        )
+    for locale in published:
+        if locale == SOURCE_LOCALE:
+            continue
+        locale_root = root / "locales" / locale / "chronicle"
+        actual_locale_files = {
+            path.relative_to(locale_root).as_posix()
+            for path in sorted_paths(locale_root, "**/*.json")
+        }
+        if actual_locale_files != expected_chronicle_files:
+            errors.append(
+                f"chronicle locale layout for {locale} is not canonical: missing=" +
+                repr(sorted(expected_chronicle_files - actual_locale_files)) +
+                " extra=" + repr(sorted(actual_locale_files - expected_chronicle_files))
+            )
+
+    for family in CHRONICLE_ACTIVE_FAMILIES:
+        family_path = source_root / f"{family}.json"
+        if not family_path.is_file():
+            continue
+        payload = load_json(family_path)
+        if payload.get("family") != family:
+            errors.append(f"chronicle/{family}.json must declare family {family}")
+        for pool in payload.get("pools") or []:
+            for template in pool.get("templates") or []:
+                if template.get("deprecated", False):
+                    errors.append(
+                        f"{template.get('templateId')}: deprecated templates belong only in "
+                        f"{CHRONICLE_COMPATIBILITY_FILE}"
+                    )
+    compatibility_path = source_root / CHRONICLE_COMPATIBILITY_FILE
+    if compatibility_path.is_file():
+        compatibility = load_json(compatibility_path)
+        if compatibility.get("family") != "compatibility":
+            errors.append("legacy-pair.json must declare family compatibility")
+        for pool in compatibility.get("pools") or []:
+            if pool.get("angle") != "compatibility" or \
+                    pool.get("participantMode") != "compatibilityPair":
+                errors.append(f"{pool.get('poolId')}: invalid compatibility pool contract")
+            for template in pool.get("templates") or []:
+                if not template.get("deprecated", False):
+                    errors.append(
+                        f"{template.get('templateId')}: compatibility template must be deprecated"
+                    )
+
     ui_entries = load_ui_sources(root)
     ui_by_key: dict[str, dict[str, Any]] = {}
     for entry in ui_entries:
@@ -614,6 +766,7 @@ def validate_catalog(root: Path) -> list[str]:
     chronicle_pools = load_chronicle_pools(root)
     chronicle_by_id: dict[str, dict[str, Any]] = {}
     chronicle_pool_by_id: dict[str, dict[str, Any]] = {}
+    chronicle_active_by_pool: dict[str, int] = {}
     for pool in chronicle_pools:
         pool_id = pool.get("poolId")
         if not pool_id:
@@ -624,6 +777,8 @@ def validate_catalog(root: Path) -> list[str]:
             continue
         chronicle_pool_by_id[pool_id] = pool
         allowed_slots = list(pool.get("allowedSlots") or [])
+        angle = pool.get("angle", "")
+        participant_mode = pool.get("participantMode", "")
         active_count = 0
         normalized_texts: dict[str, str] = {}
         for template in pool.get("templates") or []:
@@ -647,6 +802,11 @@ def validate_catalog(root: Path) -> list[str]:
                     f"{template_id}: source placeholder syntax is malformed ({syntax})"
                 )
             slots = placeholder_tokens(source)
+            required_slots = set(template.get("requiredSlots") or [])
+            if slots != required_slots:
+                errors.append(
+                    f"{template_id}: requiredSlots must exactly match source placeholders"
+                )
             unknown_slots = slots - set(allowed_slots)
             if unknown_slots:
                 errors.append(
@@ -665,17 +825,72 @@ def validate_catalog(root: Path) -> list[str]:
                 normalized_texts[normalized] = template_id
             if not template.get("deprecated", False):
                 active_count += 1
+                if "pair" in slots:
+                    errors.append(f"{template_id}: active chronicle template cannot use pair")
+                if any(mark in source for mark in ",;:!?"):
+                    errors.append(
+                        f"{template_id}: active Chinese Chronicle source uses ASCII punctuation"
+                    )
             enriched = dict(template)
             enriched["poolId"] = pool_id
             enriched["allowedSlots"] = allowed_slots
+            enriched["angle"] = angle
+            enriched["participantMode"] = participant_mode
             enriched["family"] = pool.get("family", "")
             chronicle_by_id[template_id] = enriched
         minimum = pool.get("minimumPublished", 0)
-        if not isinstance(minimum, int) or minimum < 1:
-            errors.append(f"{pool_id}: minimumPublished must be a positive integer")
+        if not isinstance(minimum, int) or minimum < 0:
+            errors.append(f"{pool_id}: minimumPublished must be a non-negative integer")
         elif active_count < minimum:
             errors.append(
                 f"{pool_id}: has {active_count} active templates, below minimumPublished {minimum}"
+            )
+        chronicle_active_by_pool[pool_id] = active_count
+
+    active_chronicle_total = sum(chronicle_active_by_pool.values())
+    if not MIN_ACTIVE_CHRONICLE_TEMPLATES <= active_chronicle_total <= \
+            MAX_ACTIVE_CHRONICLE_TEMPLATES:
+        errors.append(
+            "active Chronicle template total "
+            f"{active_chronicle_total} is outside release range "
+            f"{MIN_ACTIVE_CHRONICLE_TEMPLATES}–{MAX_ACTIVE_CHRONICLE_TEMPLATES}"
+        )
+
+    def angle_count(predicate: Any) -> int:
+        return sum(
+            chronicle_active_by_pool.get(pool_id, 0)
+            for pool_id, pool in chronicle_pool_by_id.items()
+            if predicate(pool)
+        )
+
+    chronicle_angle_counts = {
+        "high-frequency base": angle_count(
+            lambda pool: pool.get("family") == "routine" and pool.get("angle") == "base"
+        ),
+        "high-frequency relationship": angle_count(
+            lambda pool: pool.get("family") == "routine" and
+            pool.get("angle") == "relationship"
+        ),
+        "high-frequency actor trait": angle_count(
+            lambda pool: pool.get("family") == "routine" and
+            pool.get("angle") == "actorTrait"
+        ),
+        "support and growth": angle_count(lambda pool: pool.get("family") == "support"),
+        "relationship events": angle_count(
+            lambda pool: pool.get("family") == "relationship"
+        ),
+        "colony and stress": angle_count(lambda pool: pool.get("family") == "colony"),
+        "dark events": angle_count(lambda pool: pool.get("family") == "dark"),
+        "shared history and connective": angle_count(
+            lambda pool: pool.get("angle") == "sharedHistory" or
+            pool.get("family") == "connective"
+        ),
+    }
+    for name, floor in CHRONICLE_ANGLE_FLOORS.items():
+        actual = chronicle_angle_counts[name]
+        if actual < floor:
+            errors.append(
+                f"Chronicle {name} has {actual} active templates, below release floor {floor}"
             )
 
     stability = load_json(root / "contracts" / "chronicle-stability.json")
@@ -706,6 +921,118 @@ def validate_catalog(root: Path) -> list[str]:
             )
     for pool_id in sorted(set(stable_pools) - set(chronicle_pool_by_id)):
         errors.append(f"{pool_id}: persisted chronicle pool was removed")
+
+    migration = load_json(root / "contracts" / "chronicle-migration.json")
+    mappings = list(migration.get("mappings") or [])
+    legacy_story_keys = {
+        item.get("key") for item in ui_entries
+        if str(item.get("key", "")).startswith("STRINGS.SOCIAL.LOG_STORY.")
+    }
+    mapped_keys = [item.get("legacyKey") for item in mappings]
+    if len(mappings) != migration.get("expectedLegacyCount"):
+        errors.append("chronicle migration count does not match expectedLegacyCount")
+    if len(mapped_keys) != len(set(mapped_keys)):
+        errors.append("chronicle migration contains duplicate legacy keys")
+    if set(mapped_keys) != legacy_story_keys:
+        missing_keys = sorted(legacy_story_keys - set(mapped_keys))
+        if missing_keys:
+            errors.append("migration.legacy-key-unmapped: " + ", ".join(missing_keys))
+        errors.append("chronicle migration must cover every LOG_STORY key exactly once")
+    active_legacy_keys: list[str] = []
+    for template_id, template in chronicle_by_id.items():
+        if template.get("deprecated", False):
+            continue
+        if "pair" in placeholder_tokens(template.get("source", "")):
+            errors.append(f"{template_id}: active chronicle pair slot survived migration")
+        legacy_key = template.get("legacyKey")
+        if legacy_key:
+            active_legacy_keys.append(legacy_key)
+    if len(active_legacy_keys) != len(set(active_legacy_keys)):
+        errors.append("multiple active chronicle templates claim the same legacyKey")
+    en_ui_by_key = {
+        item.get("key"): item for item in load_ui_locale(root, "en") if item.get("key")
+    }
+    en_chronicle_by_id = {
+        item.get("templateId"): item for item in load_chronicle_locale(root, "en")
+        if item.get("templateId")
+    }
+    for migration_locale in published:
+        migration_texts: dict[str, str] = {}
+        localized_ui = ui_by_key if migration_locale == SOURCE_LOCALE else {
+            item.get("key"): item for item in load_ui_locale(root, migration_locale)
+            if item.get("key")
+        }
+        for mapping in mappings:
+            if mapping.get("targetKind") not in {"body", "lead", "tail", "merge"}:
+                continue
+            localized = localized_ui.get(mapping.get("legacyKey"), {})
+            text = localized.get("source", "") if migration_locale == SOURCE_LOCALE \
+                else localized.get("text", "")
+            prior = migration_texts.get(text)
+            if text and prior and prior != mapping.get("targetId"):
+                errors.append(
+                    f"migration.parity-mismatch: {migration_locale} legacy text is ambiguous"
+                )
+            elif text:
+                migration_texts[text] = mapping.get("targetId")
+    for mapping in mappings:
+        legacy_key = mapping.get("legacyKey")
+        target_kind = mapping.get("targetKind")
+        target_id = mapping.get("targetId")
+        legacy_source = ui_by_key.get(legacy_key, {})
+        legacy_en = en_ui_by_key.get(legacy_key, {})
+        actual_legacy_hash = chronicle_migration_parity_hash(
+            zh_text=legacy_source.get("source", ""),
+            en_text=legacy_en.get("text", ""), target_kind="legacy",
+            required_slots=placeholder_tokens(legacy_source.get("source", "")),
+            participant_mode="legacy",
+        )
+        actual_target_hash = ""
+        if target_kind in {"body", "lead", "tail", "merge"}:
+            if target_id not in chronicle_by_id:
+                errors.append(f"{legacy_key}: missing Chronicle target {target_id}")
+            else:
+                target = chronicle_by_id[target_id]
+                localized = en_chronicle_by_id.get(target_id, {})
+                actual_target_hash = chronicle_migration_parity_hash(
+                    zh_text=target.get("source", ""), en_text=localized.get("text", ""),
+                    target_kind=target_kind,
+                    required_slots=target.get("requiredSlots") or [],
+                    participant_mode=target.get("participantMode", ""),
+                )
+        elif target_id not in ui_by_key:
+            errors.append(f"{legacy_key}: missing shared UI target {target_id}")
+        else:
+            target = ui_by_key[target_id]
+            localized = en_ui_by_key.get(target_id, {})
+            actual_target_hash = chronicle_migration_parity_hash(
+                zh_text=target.get("source", ""), en_text=localized.get("text", ""),
+                target_kind=target_kind,
+                required_slots=placeholder_tokens(target.get("source", "")),
+                participant_mode="ui" if target_kind == "uiFrame" else "slot",
+            )
+        if (mapping.get("parityStatus") != "approved" or
+                mapping.get("legacyParityHash") != actual_legacy_hash or
+                mapping.get("targetParityHash") != actual_target_hash):
+            errors.append(f"migration.parity-mismatch: {legacy_key}")
+
+    prompt_by_id: dict[str, dict[str, Any]] = {}
+    for entry in load_prompt_sources(root):
+        prompt_id = entry.get("promptId")
+        if not prompt_id:
+            errors.append("prompt entry missing promptId")
+            continue
+        if prompt_id in prompt_by_id:
+            errors.append(f"duplicate promptId {prompt_id}")
+            continue
+        prompt_by_id[prompt_id] = entry
+        source = entry.get("source", "")
+        required = set(entry.get("requiredSlots") or [])
+        if required != prompt_slots(source):
+            errors.append(f"{prompt_id}: requiredSlots do not match prompt slots")
+        syntax = prompt_syntax_error(source)
+        if syntax:
+            errors.append(f"{prompt_id}: {syntax}")
 
     used_turn_exceptions: set[tuple[str, str]] = set()
     for locale in published:
@@ -854,6 +1181,9 @@ def validate_catalog(root: Path) -> list[str]:
                 description=source_template.get("description", ""),
                 pool_id=source_template.get("poolId", ""),
                 allowed_slots=list(source_template.get("allowedSlots") or []),
+                angle=source_template.get("angle", ""),
+                participant_mode=source_template.get("participantMode", ""),
+                required_slots=list(source_template.get("requiredSlots") or []),
             )
             if loc.get("sourceHash") != expected:
                 errors.append(f"{locale}: stale chronicle template {template_id}")
@@ -869,6 +1199,18 @@ def validate_catalog(root: Path) -> list[str]:
                     f"{locale}: {template_id}: chronicle placeholder syntax is malformed ({syntax})"
                 )
             text = loc.get("text", "")
+            for form_match in SEMANTIC_FORM_RE.finditer(text):
+                form_slot, form_name = form_match.groups()
+                if form_slot not in PERSON_SLOTS or form_name not in ALLOWED_PERSON_FORMS:
+                    errors.append(
+                        f"{locale}: {template_id}: unsupported semantic person form "
+                        f"{form_slot}:{form_name}"
+                    )
+            if (locale == "en" and not source_template.get("deprecated", False) and
+                    re.search(r"\{(?:actor|other|third|subject|a|b)\}'s", text)):
+                errors.append(
+                    f"{locale}: {template_id}: raw person possessive bypasses semantic form"
+                )
             if len(text) > MAX_CHRONICLE_TEXT_LENGTH:
                 errors.append(
                     f"{locale}: {template_id}: translation exceeds "
@@ -880,6 +1222,34 @@ def validate_catalog(root: Path) -> list[str]:
         extra_templates = set(locale_chronicle) - set(chronicle_by_id)
         for template_id in sorted(extra_templates):
             errors.append(f"{locale}: unknown chronicle template {template_id}")
+
+        locale_prompts: dict[str, dict[str, Any]] = {}
+        for item in load_prompt_locale(root, locale):
+            prompt_id = item.get("promptId")
+            if prompt_id in locale_prompts:
+                errors.append(f"{locale}: duplicate prompt {prompt_id}")
+                continue
+            locale_prompts[prompt_id] = item
+        for prompt_id, source_prompt in prompt_by_id.items():
+            loc = locale_prompts.get(prompt_id)
+            if loc is None:
+                errors.append(f"{locale}: missing prompt {prompt_id}")
+                continue
+            if loc.get("status") == "draft":
+                errors.append(f"{locale}: draft prompt {prompt_id}")
+            required = list(source_prompt.get("requiredSlots") or [])
+            expected = prompt_hash(source=source_prompt.get("source", ""),
+                description=source_prompt.get("description", ""),
+                required_slots=required)
+            if loc.get("sourceHash") != expected:
+                errors.append(f"{locale}: stale prompt {prompt_id}")
+            if prompt_slots(loc.get("text", "")) != set(required):
+                errors.append(f"{locale}: {prompt_id}: prompt slots differ")
+            syntax = prompt_syntax_error(loc.get("text", ""))
+            if syntax:
+                errors.append(f"{locale}: {prompt_id}: {syntax}")
+        for prompt_id in sorted(set(locale_prompts) - set(prompt_by_id)):
+            errors.append(f"{locale}: unknown prompt {prompt_id}")
 
     unused_exceptions = set(DIALOGUE_TURN_EXCEPTIONS) - used_turn_exceptions
     for locale, cid in sorted(unused_exceptions):
@@ -963,15 +1333,40 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
 
     storylets: dict[str, Any] = {}
     fallback: dict[str, list[list[str]]] = {"ordinary": [], "breaking": []}
+    runtime_candidates: list[dict[str, Any]] = []
+    ordinals: dict[tuple[str, str, str], int] = {}
 
     for candidate in sources:
         cid = candidate["candidateId"]
         src_turns = candidate["turns"]
         if locale == SOURCE_LOCALE:
             turn_texts = [(turn["speakerSlot"], turn["source"]) for turn in src_turns]
+            runtime_turns = [
+                {"turnId": turn["turnId"], "speakerSlot": turn["speakerSlot"],
+                 "text": turn["source"]}
+                for turn in src_turns
+            ]
         else:
             loc = locale_map[cid]
             turn_texts = [(turn["speakerSlot"], turn["text"]) for turn in loc["turns"]]
+            runtime_turns = [
+                {"turnId": turn["turnId"], "speakerSlot": turn["speakerSlot"],
+                 "text": turn["text"]}
+                for turn in loc["turns"]
+            ]
+        variant = candidate.get("variant") or {"kind": "base"}
+        variant_kind = variant.get("kind") or "base"
+        variant_value = variant.get("value") or ""
+        ordinal_key = (candidate["storyletId"], variant_kind, variant_value)
+        ordinals[ordinal_key] = ordinals.get(ordinal_key, 0) + 1
+        runtime_candidates.append({
+            "candidateId": cid,
+            "storyletId": candidate["storyletId"],
+            "variantKind": variant_kind,
+            "variantValue": variant_value,
+            "ordinal": ordinals[ordinal_key],
+            "turns": runtime_turns,
+        })
 
         if candidate.get("family") == "fallback" or str(candidate.get("storyletId", "")).lower() == "fallback":
             category = (candidate.get("variant") or {}).get("value") or "ordinary"
@@ -979,7 +1374,6 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
             continue
 
         storylet_id = candidate["storyletId"]
-        variant = candidate.get("variant") or {"kind": "base"}
         bucket = storylets.setdefault(storylet_id, {"base": [], "tags": {}})
         compact_turns = [{"slot": slot, "text": text} for slot, text in turn_texts]
         if variant.get("kind") == "initiatorTag":
@@ -993,6 +1387,46 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
         "locale": locale,
         "storylets": storylets,
         "fallback": fallback,
+        "runtimeCandidates": runtime_candidates,
+    }
+
+
+def compact_ui(root: Path, locale: str) -> dict[str, Any]:
+    sources = load_ui_sources(root)
+    localized = None if locale == SOURCE_LOCALE else {
+        item["key"]: item["text"] for item in load_ui_locale(root, locale)
+    }
+    return {
+        "schemaVersion": SCHEMA_VERSION,
+        "locale": locale,
+        "entries": [
+            {
+                "key": item["key"],
+                "text": item["source"] if localized is None else localized[item["key"]],
+                "requiredSlots": sorted(arg["token"] for arg in item.get("arguments") or []),
+                "richText": bool(item.get("richText", False)),
+            }
+            for item in sources
+        ],
+    }
+
+
+def compact_prompts(root: Path, locale: str) -> dict[str, Any]:
+    sources = load_prompt_sources(root)
+    localized = None if locale == SOURCE_LOCALE else {
+        item["promptId"]: item["text"] for item in load_prompt_locale(root, locale)
+    }
+    return {
+        "schemaVersion": SCHEMA_VERSION,
+        "locale": locale,
+        "entries": [
+            {
+                "promptId": item["promptId"],
+                "text": item["source"] if localized is None else localized[item["promptId"]],
+                "requiredSlots": list(item.get("requiredSlots") or []),
+            }
+            for item in sorted(sources, key=lambda value: value["promptId"])
+        ],
     }
 
 
@@ -1012,8 +1446,14 @@ def compact_chronicle(root: Path, locale: str) -> dict[str, Any]:
                 "id": template_id,
                 "text": text,
                 "deprecated": bool(template.get("deprecated", False)),
+                "ordinal": int(template.get("ordinal", 0)),
+                "requiredSlots": list(template.get("requiredSlots") or []),
             })
-        pools[pool["poolId"]] = templates
+        pools[pool["poolId"]] = {
+            "angle": pool.get("angle", ""),
+            "participantMode": pool.get("participantMode", ""),
+            "templates": templates,
+        }
     return {
         "schemaVersion": SCHEMA_VERSION,
         "locale": locale,
@@ -1040,6 +1480,10 @@ def export_dist(root: Path) -> dict[str, bytes]:
         files[f"translations/{locale}.po"] = render_po(ui_entries, translations).encode("utf-8")
 
     for locale in published:
+        ui = compact_ui(root, locale)
+        files[f"ui/{locale}.json"] = dumps(ui).encode("utf-8")
+        prompts = compact_prompts(root, locale)
+        files[f"prompts/{locale}.json"] = dumps(prompts).encode("utf-8")
         payload = compact_dialogue(root, locale)
         files[f"dialogue/{locale}.json"] = dumps(payload).encode("utf-8")
         chronicle = compact_chronicle(root, locale)
@@ -1056,9 +1500,10 @@ def write_dist(root: Path) -> list[Path]:
     if dist.exists():
         for existing in dist.rglob("*"):
             if existing.is_file() and existing not in expected:
-                # Keep unknown files only if outside generated/translations/dialogue/chronicle.
+                # Keep unknown files only if outside generated runtime-owned directories.
                 rel = existing.relative_to(dist).as_posix()
-                if rel.startswith(("generated/", "translations/", "dialogue/", "chronicle/")):
+                if rel.startswith(("generated/", "translations/", "ui/", "dialogue/",
+                                   "chronicle/", "prompts/")):
                     existing.unlink()
     for relative, data in files.items():
         path = dist / relative

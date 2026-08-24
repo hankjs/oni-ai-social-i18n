@@ -1,0 +1,798 @@
+{
+  "locale": "en",
+  "family": "dark",
+  "templates": [
+    {
+      "templateId": "chronicle.brawl.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} came to blows.",
+      "sourceHash": "sha256:7ecad5349a78a07831c6c1b29c2b4e3b99b6e27b413e64d43ecdb7441d2221da"
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b:possessive} quarrel turned to fists.",
+      "sourceHash": "sha256:70570988b5ab7ddbaa2aa4d00a536cf35746572cdf884f6944b917eff99fa0d2"
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.003",
+      "status": "reviewed",
+      "text": "{a} and {b} grappled and tumbled, tools scattering everywhere.",
+      "sourceHash": "sha256:174a6aff35f7876d9bb48bf9e05a487b7f85bc1fbee14ecd43dc23f896cb05b9"
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.004",
+      "status": "reviewed",
+      "text": "It was an ugly fight; {a} and {b} both walked away bruised.",
+      "sourceHash": "sha256:037716414e14ef9d95b68028e38845ead613eef8b1e00bc1ec0127f9db0c3c81"
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.005",
+      "status": "reviewed",
+      "text": "Only when others pulled them apart did {a} and {b} finally let go.",
+      "sourceHash": "sha256:52d908a138063b4e9aef28e2c057632bef47903cca98423a676da2999ca5524f"
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} lost all restraint, and the argument ended in a physical fight.",
+      "sourceHash": "sha256:48bd7784f3fb73914bcc33a75bfa09301a5044421c691dd24c3be22e903eb5a4"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.001",
+      "status": "reviewed",
+      "text": "Food arrived; the colony breathed again.",
+      "sourceHash": "sha256:bbb77a54563570b58eb0858f4c06828a922e36f0a1f9d31402b9931d39e77153"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.002",
+      "status": "reviewed",
+      "text": "The pantry has stock again, and with it the sound of chewing.",
+      "sourceHash": "sha256:026ce03ca1a701543fbf9d341ecc17c0ff742eaca5d829c0dcee9426b71fe71e"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.003",
+      "status": "reviewed",
+      "text": "The crisis passed, and nobody asked where the food came from.",
+      "sourceHash": "sha256:1f18d6f041bc96a53345c62d476033ee99eebb2b14f341fbfc90220a3de1c409"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.004",
+      "status": "reviewed",
+      "text": "Food arrived in time to stop the panic, and the colony avoided the worst outcome.",
+      "sourceHash": "sha256:6f0be93175cf4ee39bcd282a33ee03d2fc172a75f6afa5fe28c58faeaeeee3f2"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.005",
+      "status": "reviewed",
+      "text": "Food reserves climbed back above the danger line, pushing the famine threat away for now.",
+      "sourceHash": "sha256:8208fcec3c5d1c6b9ae92bcebc603ff838630af6f1d02593926cf70365f1fe7c"
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.006",
+      "status": "reviewed",
+      "text": "The worst moment of shortage passed, and no one had to count the final bites anymore.",
+      "sourceHash": "sha256:c8c48d2429a4ac31736689c29e1fac66382a6783220f3bbfaf1d8d5bb2b05358"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} and {other} fought over the last bite of food.",
+      "sourceHash": "sha256:f7634680ede38b5214cd2ad9e0cfe1fcf2c41d869320daa7d0c1ac7023ed95bd"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.002",
+      "status": "reviewed",
+      "text": "Starving people don't reason; {actor} and {other} fell out over a single bite.",
+      "sourceHash": "sha256:6a1fae80acbbd4535a84e69ce96d90f50c14ca3af1ba4b50ccd05f6d087d5b1d"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} fixed their eyes on {other:possessive} ration, and fists moved faster than thought.",
+      "sourceHash": "sha256:6015d8a5fe69f0c3869ba063d646b7cb16ba8f213757ba060f10221fb4aa9ced"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.004",
+      "status": "reviewed",
+      "text": "When hunger reached its limit, {actor} began a deadly struggle against {other}.",
+      "sourceHash": "sha256:9691e6dc8d37c1878ab05dad542a7a5ec33a78563031cb66abbe9d4c66d397a0"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.005",
+      "status": "reviewed",
+      "text": "There was not enough food for both to survive, and a brutal conflict erupted between {actor} and {other}.",
+      "sourceHash": "sha256:6155fbb9aeb7dd48a5961b6f911935eacf1b8af82a96ba8d972efdd3cb691d87"
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.006",
+      "status": "reviewed",
+      "text": "In desperation, {actor} treated {other} as a rival for food, and the outcome could no longer be undone.",
+      "sourceHash": "sha256:7cd25403d7de4f4b828abff3e1f6b9a734412db10b2e96e6cac8d58524f01293"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.001",
+      "status": "reviewed",
+      "text": "The days of hunger were finally over.",
+      "sourceHash": "sha256:12d1031f95e9750a42b079eceaeb8e83e5ab90def3120d74a632dc7dc1654878"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.002",
+      "status": "reviewed",
+      "text": "The granary is full again; some things are silently never mentioned.",
+      "sourceHash": "sha256:044b4babb652ef43da5cde2f37c50ae98eb02b28f481ca34a2164f047857b686"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.003",
+      "status": "reviewed",
+      "text": "Full bellies are back, as if the famine never happened.",
+      "sourceHash": "sha256:c4e0dfb4497983fedbbe9041ea7c4325d532b71a38da9d1d9b84fe522c346f2a"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.004",
+      "status": "reviewed",
+      "text": "The food supply stabilized again, bringing the colony's famine state to an end.",
+      "sourceHash": "sha256:29246f3bc66ea660971ab0e8eebc8ca972a3603af9b6ac6dcaac1d00c57d25d5"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.005",
+      "status": "reviewed",
+      "text": "Everyone could finally eat normal portions again, though the tension left by starvation did not vanish at once.",
+      "sourceHash": "sha256:fa5008cc67e75feb483f9ec4222a8a3c629a55cfcc72f7f71cb27f6d82082f6a"
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.006",
+      "status": "reviewed",
+      "text": "The famine ended, and the survivors began rebuilding routines disrupted by the shortage.",
+      "sourceHash": "sha256:042220d37da647bceb1f0997e2d4db41ce0de9c7b9c0bf2f62f0c3af10915112"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.001",
+      "status": "reviewed",
+      "text": "The granary ran empty, and panic spread through the colony.",
+      "sourceHash": "sha256:7cc5199e6a884a9d6b828d07ebf0e61da033788098fd03aa1e4ed0db41f8e925"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.002",
+      "status": "reviewed",
+      "text": "The last mush bar is gone, and no one dares think about tomorrow.",
+      "sourceHash": "sha256:7cc044aa5c606e719341b86f895dabcb0f362c8aa58a3d76954f00abd9ad3877"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.003",
+      "status": "reviewed",
+      "text": "Word of empty stomachs travels faster than oxygen.",
+      "sourceHash": "sha256:961f1b3bbbc2707a3de82807003633a5352bba307a74553821b8f271edc4892e"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.004",
+      "status": "reviewed",
+      "text": "The existing reserves could no longer support everyone, placing the colony under an explicit famine warning.",
+      "sourceHash": "sha256:65c15f6da299deeefcfa3b7f030c044fbd136de0c3081ab313674ab1fdae486c"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.005",
+      "status": "reviewed",
+      "text": "Edible stores fell rapidly, and everyone began wondering what would remain for the next meal.",
+      "sourceHash": "sha256:07983399d268baffee255997b03baf7bc9830cf889f5aa6e0bef643772140e8c"
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.006",
+      "status": "reviewed",
+      "text": "The food deficit crossed the danger line, and panic spread with every emptied storage tile.",
+      "sourceHash": "sha256:298a634324989ea66a888fa6eb20c1c9070e668fd4cc93e3f14c9d799b5ee64b"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} got through dangerous work side by side — comrades now.",
+      "sourceHash": "sha256:ba7ad447fd5581eb90e49033c0c96db9a591ba0e3d44363279d4371daf900e9a"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.002",
+      "status": "reviewed",
+      "text": "Coming out of the hazard zone alive, {a} and {b} looked at each other differently.",
+      "sourceHash": "sha256:5fed59d7448a37dc4d3e0c48afdc8618d66b0e037a3bde60a97e104eebabab88"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.003",
+      "status": "reviewed",
+      "text": "{a} and {b} faced the danger and neither ran first; that kind of bond can't be faked.",
+      "sourceHash": "sha256:ce0e1885b70afd64d6e0bdadc36d3788a1039dba560b3d046a24f855b109e670"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.004",
+      "status": "reviewed",
+      "text": "{a} and {b} watched out for each other during dangerous work and returned with a stronger trust.",
+      "sourceHash": "sha256:e6816779cc89432e8c4b58168985e6c6163c323f37d068ef16b0981d7ff71110"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.005",
+      "status": "reviewed",
+      "text": "{a} and {b} shared a high-risk task, and enduring it together brought them closer.",
+      "sourceHash": "sha256:6c40ac954ef0a36de0c58505b462bed544094404bde990961a1c4c84d040fd16"
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.006",
+      "status": "reviewed",
+      "text": "The danger was no smaller for having company, but both {a} and {b} knew they had not faced it alone.",
+      "sourceHash": "sha256:c0c14ac225930db380eb9380f15d27a50e93a7f378a87fe6e901262917d10338"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.001",
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} resentment toward {other} slowly faded.",
+      "sourceHash": "sha256:6be20ee68df64543e398fa6d4b7a67e28be617f0f00ff1a56e01aa8147dc481d"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} came around: someone has to take the dangerous work; blaming {other} was wrong.",
+      "sourceHash": "sha256:de7dc270a4a04f602fed926e35fdeb05a26211f209d41263042a851adc23f3f6"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.003",
+      "status": "reviewed",
+      "text": "Time wore the anger smooth; {other} looks a lot more agreeable to {actor} now.",
+      "sourceHash": "sha256:103ad766ed0c3516cfcee53456e053898aebfe34f410c7c997eed97fde1b49a6"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.004",
+      "status": "reviewed",
+      "text": "After work assignments became fairer, {actor:possessive} resentment toward {other} over dangerous labor began to fade.",
+      "sourceHash": "sha256:e83be1600d818983f86422165c61ffc5553f7b868ef1c0062ebbded705236282"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.005",
+      "status": "reviewed",
+      "text": "Seeing {other} take a fair share of risk finally eased {actor:possessive} long-held grievance.",
+      "sourceHash": "sha256:a7eeee2353b782216c32382deacf0580e03d89720b869c4f332bff79267bfaed"
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.006",
+      "status": "reviewed",
+      "text": "As the danger gap stopped widening, {actor} became willing to stop assigning blame to {other}.",
+      "sourceHash": "sha256:e8e1601bd1d7c65468fcea903c2ded9b6ad7ec109aafb5a9aed62b28fbb2f330"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.001",
+      "status": "reviewed",
+      "text": "{other} took the dangerous work off {actor:possessive} hands, and {actor} remembered.",
+      "sourceHash": "sha256:c755dd368efa2e98cba8692a71bcc700055214ac3ad93dcec1f6fab5bc7324f6"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.002",
+      "status": "reviewed",
+      "text": "When the dangerous assignment came down, {other} took it first. {actor} won't forget.",
+      "sourceHash": "sha256:85eaad45bb32e3a0722bbe87b9ada2a022ec2abaed157755e33fee41b09549ea"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} owes {other} a favor — the life-risking kind.",
+      "sourceHash": "sha256:c455f0596c6aea1bded8f4ca6ba24dd4abed11ab341e6430eb0f8ed5ce57cdee"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.004",
+      "status": "reviewed",
+      "text": "{other} took on the more dangerous work, and {actor} remembered the help with genuine gratitude.",
+      "sourceHash": "sha256:332de6e2bc85761dd7de7975b1e8f0c41f2fe455f8a07ae1df33d3f306b0cb93"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.005",
+      "status": "reviewed",
+      "text": "When the risk arrived, {other} took part of it from {actor}, who did not take the act for granted.",
+      "sourceHash": "sha256:e35cffbdaf09d0f15807ee30ed12431f5e1fd50361d4ab3c21237d6c9c3dd128"
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.006",
+      "status": "reviewed",
+      "text": "Watching {other} enter the dangerous area, {actor} understood that real protection had been given.",
+      "sourceHash": "sha256:3fd75df9c9d863a25340c119438b5467c1f082ef20beaca768363684d03dfae8"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} spent another day in the hazard zone and resented {other:possessive} easy duty.",
+      "sourceHash": "sha256:c99e0872dc75d915595bafa15ed54bf8972d8e1808bc0ff49894d6a56d4b8f3b"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.002",
+      "status": "reviewed",
+      "text": "Same mine, so why does {actor} always draw the dangerous end? {actor} couldn't let it go.",
+      "sourceHash": "sha256:686fccf97eee0b1bead1ce93949082fd99ac8226eeb85001e848020292278a10"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} tallied {other:possessive} easy days, and the ledger of grievances grew.",
+      "sourceHash": "sha256:1eafc9fae8fd3756e70e8979b04b708636102c9b5d431e908da75b67a0f55615"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} repeatedly carried dangerous assignments while {other:possessive} work remained safer, allowing resentment to build.",
+      "sourceHash": "sha256:3b68fafa71a94d3cee42a52eff150699e1cc4bd86427f161c93c6942aed4b4cf"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.005",
+      "status": "reviewed",
+      "text": "The persistent gap in risk led {actor} to blame {other} for the unfairness.",
+      "sourceHash": "sha256:0d1aae0aa3614e0365ab3320956990a9fc2774999512c334ce4324ed12b91c14"
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.006",
+      "status": "reviewed",
+      "text": "Returning from dangerous work again, {actor} could no longer remain calm at the sight of {other} unharmed.",
+      "sourceHash": "sha256:5a4294a5f498eaa967a1f30e2d8fe4e92f35437793c618a8d63e71850d718c05"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.001",
+      "status": "reviewed",
+      "text": "{other} was gone; {actor} swallowed the words never said.",
+      "sourceHash": "sha256:51d82260f9379720abb4c6a5d46c4ba967ff692bab378e42ea572da5564c3b34"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.002",
+      "status": "reviewed",
+      "text": "{other} never got to see the day {actor} finally found the nerve.",
+      "sourceHash": "sha256:da1571d09e310a8a111760a39ac1d634f4c0a736d19afcc40c5cd1ec5aee07c2"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} recited the long-prepared words to {other:possessive} empty bunk.",
+      "sourceHash": "sha256:e8244af648bb67776212ccf7d7e0c8fe0bd83c4f7d91dba9b888c15d97815b4c"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.004",
+      "status": "reviewed",
+      "text": "After {other} died, {actor} no longer had any chance to resolve the feelings left unspoken.",
+      "sourceHash": "sha256:d99fbc3ee2ff371e4b92c0db5e1cab2898407ec85ebfa1fdac0daf2f8d2abd2a"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} lost {other}, the person once loved in silence, leaving even farewell too late.",
+      "sourceHash": "sha256:b75b5b3b2e90c17e299e3ce512af3338c79105bc466c7f2ac40fec19edf591e0"
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.006",
+      "status": "reviewed",
+      "text": "The death of {other} turned {actor:possessive} hidden affection into words that could never be delivered.",
+      "sourceHash": "sha256:2f8cbb87535942953334c6df6adc0678cea53ed6c4e41fde7d352fd8b239f573"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} lost {other} and fell apart.",
+      "sourceHash": "sha256:d98737344ff4cb6f50df2b46dd4d91d42a092a7e1a5b1a923d0cf3c60f5c7170"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.002",
+      "status": "reviewed",
+      "text": "{other:possessiveCapitalized} bunk sits empty now, and {actor} has stopped looking that way.",
+      "sourceHash": "sha256:62d2a770bc302a87dde7564a31a6d0c345eb1d9116aa454d2a27323ce8c182fc"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.003",
+      "status": "reviewed",
+      "text": "{other:possessiveCapitalized} name is gone from the schedule, and a piece of {actor:possessive} days went with it.",
+      "sourceHash": "sha256:bc090968e48828e1a8041eb8d56e4cb6fa939a96b3e5470f0fcf26114635630d"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.004",
+      "status": "reviewed",
+      "text": "After {other} died, {actor} lost a partner in shared life, and the grief did not ease for a long time.",
+      "sourceHash": "sha256:f39d15d99dc7237a075a4d581243a2aeb396298c1c962abf45aa7ca40948d351"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} still searched instinctively for {other}, only to remember again and again that the partner was gone.",
+      "sourceHash": "sha256:5d9baa939373ec34eea23976b96107c1345a65dc865328a4ea898cf3b1c9b6a3"
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.006",
+      "status": "reviewed",
+      "text": "Traces of {other:possessive} daily life remained everywhere, making it impossible for {actor} to avoid the loss.",
+      "sourceHash": "sha256:a4073d1b3bd08fc8e430e1349ea11615ed0a3cbafda2ca6c1f63a8ba12c4bb58"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.001",
+      "status": "reviewed",
+      "text": "{other} died, and {actor} could not name what they felt.",
+      "sourceHash": "sha256:2cad1db07884e14c4c44fb6553cf0099a3956fd09eb394ad28243c49052d5761"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.002",
+      "status": "reviewed",
+      "text": "The nemesis was dead, and {actor} noticed how quiet the corridors had become.",
+      "sourceHash": "sha256:5b1a6ee2e35fd2bd6903222db3ef71368c39369ed2361e5ccf9605fd6716c4dd"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} always wanted to beat {other}; now there is no one left to beat.",
+      "sourceHash": "sha256:7fb2429662b5ace88763540db9458b39c30280afd4620a84b1ed50f8094c5ee1"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.004",
+      "status": "reviewed",
+      "text": "After rival {other} died, {actor} lost the focus of a long conflict and felt less relief than expected.",
+      "sourceHash": "sha256:2589030a77a718262ee05b4933199639806dc9637bd97a9438014d7d7cfbf66a"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} had wanted to defeat {other}, but death ended the contest before there could be another round.",
+      "sourceHash": "sha256:d96f53d16ea41715c1bcfe585c05fff26ff390358876538e8efff708885c6920"
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.006",
+      "status": "reviewed",
+      "text": "The death of {other} ended the rivalry, leaving {actor} with only complicated silence.",
+      "sourceHash": "sha256:83463b3088e2ef1c618a5a426a3cbea8510ede006806c1ca35e5d11e60e89e29"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} let the old feud go.",
+      "sourceHash": "sha256:a899124d02fc92a4ee9a1d83a57141d69b1450fd4233d54d97e55b497feb727d"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b} shook hands; the feud ends here.",
+      "sourceHash": "sha256:7cf2e2a16bea5ab0cbef256e79d99fc48dde91bb676219bb72c51c527057dcda"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.003",
+      "status": "reviewed",
+      "text": "Hating someone is exhausting, so {a} and {b} decided to stop.",
+      "sourceHash": "sha256:f9efc7616c53e2010bac5cfcf006a4c7da450ead28f7ba2f88800864ef544316"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.004",
+      "status": "reviewed",
+      "text": "Neither {a} nor {b} continued feeding the hostility, finally ending the long rivalry.",
+      "sourceHash": "sha256:01fd8725165f7dd9497430c00ccc3969da484a5a3bdb7f1102a9c2d9f2ef0fb7"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.005",
+      "status": "reviewed",
+      "text": "{a} and {b} stopped treating every interaction as a contest and left the rival state behind.",
+      "sourceHash": "sha256:18bf5c2cc4ff60ea1f8ef7d8eacd7fc7a41cd8e83b60756bb4fa33afba451b91"
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} admitted that continued hostility served no purpose and chose to end the feud.",
+      "sourceHash": "sha256:22de3e13044eb8488891c10b511b40fa5941ab4374dc126aa6e3431d6f1f68be"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.001",
+      "status": "reviewed",
+      "text": "{a} and {b} made enemies of each other.",
+      "sourceHash": "sha256:bb47992e35c05a4ee67a1454e3187d60afa0d894d636d3fae774c33a43b5b17c"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.002",
+      "status": "reviewed",
+      "text": "{a} and {b:possessive} grudge finally has a name: nemesis.",
+      "sourceHash": "sha256:51ce30044e19fcd83b36c6d89393db22a8261e5ec68b5d7fd6883e55c515c3b7"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.003",
+      "status": "reviewed",
+      "text": "For a long time to come, {a} and {b} won't be exchanging pleasantries.",
+      "sourceHash": "sha256:9e5dab1d2ba5e30de2f063fff3cc89861bf525c1845aa1176ba09273893a47d5"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.004",
+      "status": "reviewed",
+      "text": "Conflict between {a} and {b} accumulated beyond denial, making them formal rivals.",
+      "sourceHash": "sha256:a0f79b3a9cb033f60f9867bd6b03fd4005b5c6364078ec5f97f99a286084ba8c"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.005",
+      "status": "reviewed",
+      "text": "Both {a} and {b} began treating the other as an opponent to overcome, fixing the hostility in place.",
+      "sourceHash": "sha256:68e68a3919f6550a70759f2812dc12d7afd417f7fb72226d7e7a549a62e119e3"
+    },
+    {
+      "templateId": "chronicle.rival.baseline.006",
+      "status": "reviewed",
+      "text": "{a} and {b} stopped hiding their dislike, and a rivalry formed between them.",
+      "sourceHash": "sha256:ae3595d60810df863bc54961464ca8527e707bb4d1a501b6ec6c66d8799887dd"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} led the colony in blaming {other}.",
+      "sourceHash": "sha256:5ec7e2e77e81a518c16470ffcf140fb69be3677b534edc079c47eea42fd076a3"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.002",
+      "status": "reviewed",
+      "text": "Something went wrong, so someone had to take the fall — {actor} led everyone in picking {other}.",
+      "sourceHash": "sha256:ad37b152e452b0801765691d1fd407069b410874b4d956c278cc2e67dbc5764f"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.003",
+      "status": "reviewed",
+      "text": "One sentence from {actor} was enough to turn everyone's anger on {other}.",
+      "sourceHash": "sha256:8fbccfb273d6868c7e73ffb52f767e083da1d8e132ad773456413a4c399c3f2e"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} publicly named {other} as responsible for the disaster, directing the group's anger toward one person.",
+      "sourceHash": "sha256:1273e642f1bc23297a576e25d1d932d9bf4680445174d05395452deebf1c6612"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} blamed {other} for losses that could not be undone and persuaded others to accept the claim.",
+      "sourceHash": "sha256:930bf1bb0ff64f962639663c14b5131795cf6cf7bb5300708d6f9bf6e7999cce"
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.006",
+      "status": "reviewed",
+      "text": "Needing a target for the colony's anger, {actor} chose {other} to carry the accusation.",
+      "sourceHash": "sha256:988703cdc29fc9e216aa349023724fdab8cfd8b6715a9e7c05446816342c5a12"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.001",
+      "status": "reviewed",
+      "text": "The isolation of {subject} finally passed.",
+      "sourceHash": "sha256:ccc639ace06d24ad4fe5cf2d6e9ae5a60857929e74384c6c0639f00f3893037a"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.002",
+      "status": "reviewed",
+      "text": "The colony found fresh gossip, and no one brings up {subject:possessive} business anymore.",
+      "sourceHash": "sha256:fcff0d9c80776a90bdcc41ea08c00862827c262c5a7dec90918c37061b88816d"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.003",
+      "status": "reviewed",
+      "text": "Given time, even anger expires — {subject} has blended back into the crowd.",
+      "sourceHash": "sha256:c5f7a1bd23d7cd0c4c091215869fdcf7d52519125d315dbc3a93098f834d30d1"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.004",
+      "status": "reviewed",
+      "text": "The collective anger toward {subject} gradually lost its force, and ordinary contact began to return.",
+      "sourceHash": "sha256:cb9ec3a46d691017b90fc031c129f29e2df449b659b2e6bcdb9bda22f5dbd959"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.005",
+      "status": "reviewed",
+      "text": "The colony stopped blaming every setback on {subject}, allowing the isolation to fade.",
+      "sourceHash": "sha256:0abbde9b36a77af14b1697ae20fb5a6cdd7ae836770cd482ba7f08ec4df2a3a4"
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.006",
+      "status": "reviewed",
+      "text": "{subject} was no longer subjected to constant hostility, bringing the wrath episode to an end.",
+      "sourceHash": "sha256:407774ee9d921d3edabc51899fa82f66a635566329aecc3f21c08f31cf7b6be0"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.001",
+      "status": "reviewed",
+      "text": "{other} was shunned; no one would speak to them.",
+      "sourceHash": "sha256:55db898f0fa8877d88647b72dd814869926434b8d285f69ff899c7cb26be8fbf"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.002",
+      "status": "reviewed",
+      "text": "{other} walked into the mess hall, and a whole table went quiet.",
+      "sourceHash": "sha256:5e007e1ef3f689914aa99c1b117fe9e9ccfc0be428b571c383416c3263d77efb"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.003",
+      "status": "reviewed",
+      "text": "These days, even the hatches are more popular than {other}.",
+      "sourceHash": "sha256:a5aed2d70aee4063e9e04ab45494f2694236f6c4d4b8960368c89a3f891b533f"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.004",
+      "status": "reviewed",
+      "text": "{other} was pushed out of ordinary social contact, with even simple greetings rarely answered.",
+      "sourceHash": "sha256:2f0686800b97d9c17d0c0056d9dd0fba387355c9eae3046a6e739c7e33382b67"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.005",
+      "status": "reviewed",
+      "text": "People nearby kept their distance, leaving {other} isolated throughout ordinary routines.",
+      "sourceHash": "sha256:f37aaddfdc7e0fc4412a623d17c1dce76eeaf5765f543148f8b88840d3d52eb2"
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.006",
+      "status": "reviewed",
+      "text": "Avoidance followed {other} everywhere as the isolation spread across the colony.",
+      "sourceHash": "sha256:31f16872b4d79b53dbf35065e51ec8fef91b5897d6cdd0592e59b876ea15da06"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} beat {other} while no one was watching.",
+      "sourceHash": "sha256:b8888b1e792e5f00c498cadb15d8b2e31c199ed34c6e6c4a074af82de1b443e1"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.002",
+      "status": "reviewed",
+      "text": "In a gap between shifts, {actor} cornered {other}.",
+      "sourceHash": "sha256:d6c724a2719821b1e0d11269e7be76ef3301cbb221887ebb5a02bc5731816cc7"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.003",
+      "status": "reviewed",
+      "text": "{actor} picked a moment when no one was around and took the anger out on {other}.",
+      "sourceHash": "sha256:443b67f003e74cfb6ba00bbb59bfd8a0a74eea4dad2a29ff52aa7e988597afe2"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} turned anger toward {other} into a sudden punch that caused real harm.",
+      "sourceHash": "sha256:3ed996a288f81c04b9eebb57bff55278ceda2b571d0698b5ba69ad73aabfc1a9"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} attacked while {other} was unprepared, pushing the colony's wrath beyond words.",
+      "sourceHash": "sha256:d37c7cb8507d4bc5eddb32f7575cd2e2ca45a4b1300dfc535f813539f52f4d57"
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.006",
+      "status": "reviewed",
+      "text": "{other} was beaten in private by {actor}, escalating the isolation into violence.",
+      "sourceHash": "sha256:898cbc04277e582d1c69a48a5252c160bb22207fd372712a77edf3f3ad915099"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} reached out a hand to {other}.",
+      "sourceHash": "sha256:56e25427a0091a50315d51a018996e33aa49c60ac9abeedff08aa7cd3fae0ac3"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} carried a tray over and sat by {other}, and the wall of silence cracked.",
+      "sourceHash": "sha256:87aed5ae5c16a29ee912598049b0bd710b2d368b50dafb51d5a97b76a70504c5"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.003",
+      "status": "reviewed",
+      "text": "While everyone else steered clear of {other}, {actor} walked straight over.",
+      "sourceHash": "sha256:fa59ddbfa160bcc76c1d71282512cf39c1744359b8958dae9837d5b0bd3690fb"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} refused to keep excluding {other} and actively brought the person back into ordinary contact.",
+      "sourceHash": "sha256:f795b90bee76e857cb0ac4361b0ea77a1e2cd0898b0a856f6a37a894a644c1f1"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.005",
+      "status": "reviewed",
+      "text": "While others avoided {other}, {actor} stood alongside and broke the isolation through action.",
+      "sourceHash": "sha256:843143d60c3a626236dfb4417b9fe63ed6037438c9ae7777b9f2a14829394a1a"
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} helped the excluded {other}, showing the colony that acceptance remained possible.",
+      "sourceHash": "sha256:24d25e08abe357542505281bf0207a10b2116a1d41c1c16c09a2d4f7ea3d1b38"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.001",
+      "status": "reviewed",
+      "text": "{subject} found them crying alone in hiding.",
+      "sourceHash": "sha256:ab54a075ff3eaf5c77e0c00aa18695f5ac6a3b2a91bd07358a4423347750123d"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.002",
+      "status": "reviewed",
+      "text": "Passing by, {subject} heard the crying and softened their steps.",
+      "sourceHash": "sha256:086de5d51b8da8baca65505b0df80af1b943c764a347037feac6fa45e930ee29"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.003",
+      "status": "reviewed",
+      "text": "The one hiding in the corner cried for a long time; {subject} didn't go over.",
+      "sourceHash": "sha256:4ce6b4ec59a7785caa7b4f7be4b3888d43da5a3fab4583dcb3c70ea4bc9e0f45"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.004",
+      "status": "reviewed",
+      "text": "{subject} unexpectedly saw the isolated person crying alone, and the earlier judgment began to waver.",
+      "sourceHash": "sha256:c9673c33da51434e681b0e50f33836ffbace0a20f5777ddb384c2aa89452b0f2"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.005",
+      "status": "reviewed",
+      "text": "{subject} heard the hidden crying, making the pain beneath the colony's anger concrete for the first time.",
+      "sourceHash": "sha256:6a44acced3c3fb7092838fbb1c9864f203872d86cb3a16278d3fef4c5b3c0ae2"
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.006",
+      "status": "reviewed",
+      "text": "{subject} witnessed tears meant for no audience and could no longer treat the isolation as trivial.",
+      "sourceHash": "sha256:ac073f1a207e25e1e5d20349c7331c104e95e4759e4bf0e82e6ae0c13c6431f7"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.001",
+      "status": "reviewed",
+      "text": "{actor} spoke up for {other} in front of everyone.",
+      "sourceHash": "sha256:18ef1e96417655cee451356dbccf03dac6ed78aa18f1e9477acadfbd03b36efd"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.002",
+      "status": "reviewed",
+      "text": "{actor} stood up for {other} in front of everyone, and the room fell silent.",
+      "sourceHash": "sha256:5f2eeb3ec42e900d08e459e289086876a8c3619b1e33291e331de720f4fd3c15"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.003",
+      "status": "reviewed",
+      "text": "With the mob howling, {actor} was the only one willing to speak for {other}.",
+      "sourceHash": "sha256:23520a3ced491b36d170f3327c7bf2ed54508576bf85f7979fd5cac6ba32f490"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.004",
+      "status": "reviewed",
+      "text": "{actor} publicly challenged the collective accusations against {other} and demanded an end to unsupported exclusion.",
+      "sourceHash": "sha256:a8b0047df9b21f7f329fc8cf5d704314e9d41c76a0521b663b9837ffa2752e4c"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.005",
+      "status": "reviewed",
+      "text": "{actor} stated the facts for {other} before everyone, finally giving silent opposition a voice.",
+      "sourceHash": "sha256:fbfcc119af1f71b675d8cc4d30bdc266754c7cf6ac0c3f41f89cb13d8da160b5"
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.006",
+      "status": "reviewed",
+      "text": "{actor} risked the group's displeasure and insisted that {other} be treated fairly.",
+      "sourceHash": "sha256:775f6cdf84d3a0b012e0a95a8028daacc959cd7b994ed744c677cb7fd2f69e1c"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.001",
+      "status": "reviewed",
+      "text": "{subject} saw the lynching.",
+      "sourceHash": "sha256:71f52aadc588b505d5ca486e333d623a5d8bf48fa5df31b45854814956476bb9"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.002",
+      "status": "reviewed",
+      "text": "{subject} stumbled onto the scene and hurriedly pretended not to see.",
+      "sourceHash": "sha256:0f05198aa3acb26d5c34d492f24ada8102ccac3fba53a1e1adf8420cb3c9f422"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.003",
+      "status": "reviewed",
+      "text": "Some things, once seen, must be swallowed; {subject} kept their mouth firmly shut.",
+      "sourceHash": "sha256:91e02b92b0267b4dbdd840503cfed988e2824a544c96869221f0bd3eafed1db6"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.004",
+      "status": "reviewed",
+      "text": "{subject} witnessed the isolated person being attacked and realized that the colony's anger had become violence.",
+      "sourceHash": "sha256:1c71f4b28b187979bc2a68c1903b9c99e908c62a303deef0ff55316797217ad7"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.005",
+      "status": "reviewed",
+      "text": "{subject} came upon the private beating and was too shocked to speak in the moment.",
+      "sourceHash": "sha256:8a9cb126cd16d51df0566afb68a101af8389097769eeccff0cd6133e44eb795c"
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.006",
+      "status": "reviewed",
+      "text": "{subject} saw how the assault happened and could no longer pretend to know nothing afterward.",
+      "sourceHash": "sha256:1efde6145942be4dd7949e0e8b93e330689c92c0dead8fa2a6b5042058819ea6"
+    }
+  ]
+}

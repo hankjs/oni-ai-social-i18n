@@ -1,582 +1,726 @@
 {
   "locale": "en",
-  "family": "routine",
+  "family": "compatibility",
   "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "status": "reviewed",
+      "text": "{pair} traded a few words between shifts.",
+      "sourceHash": "sha256:1213481e168920adc076ce0530eaedb7459dc62a3b8f936f5969db6f6f26fa99"
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "status": "reviewed",
+      "text": "{pair} caught up on the day's happenings.",
+      "sourceHash": "sha256:f0f3ff431e64e33765d58508e3312058f481514824856c8176db304ed8f17e26"
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "status": "reviewed",
+      "text": "{pair} talked as they went, then split off to their respective tasks.",
+      "sourceHash": "sha256:7f77e4a1528c4aede3bed48ad080655017ca47198712123463b5a1d3143c96e8"
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "status": "reviewed",
+      "text": "{pair} stopped for a leisurely chat.",
+      "sourceHash": "sha256:ca964b102f352b024c5589aa1de059aa8c1478c07fea7b49727f42c146078df4"
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "status": "reviewed",
+      "text": "{pair} became so absorbed in conversation that the next task nearly slipped their minds.",
+      "sourceHash": "sha256:3f4579d8b6b6871216ce291538056d72bf95b2c17ae7dc26bab347fe84b82a57"
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "status": "reviewed",
+      "text": "{pair} filled some waiting time with idle conversation.",
+      "sourceHash": "sha256:ec95ae3c7f0d41564164c650b37f24e1e8842eb41f6a6f7f9a125326fc23cd20"
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "status": "reviewed",
+      "text": "{pair} discussed the latest news around the colony.",
+      "sourceHash": "sha256:4872c49351e359e2907cc918409933c06130a381ab16b5c59e390c058d36fc2a"
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "status": "reviewed",
+      "text": "{pair} talked for a while and came away in lighter spirits.",
+      "sourceHash": "sha256:e4525f992f8f185f891c6fb869681627c75c9e5b9c36a1d45c9a1669defb0f2f"
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "status": "reviewed",
+      "text": "{pair} fell into an easy back-and-forth conversation.",
+      "sourceHash": "sha256:e446e376e206d3d08fb3c21c38800930acd2581586ef66d0f8299414b1c0b5fa"
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "status": "reviewed",
+      "text": "{pair} paused and gave each other their full attention.",
+      "sourceHash": "sha256:20ad00e683f07c65a054b40c812af2476ae36f704602b462cf9335cfe0d9c00a"
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "status": "reviewed",
+      "text": "{pair} carved a brief conversation out of a busy day.",
+      "sourceHash": "sha256:a9471ef2b1b53575d3dfe46a67310a027854401e121b4ab639a89c606e9f05a6"
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "status": "reviewed",
+      "text": "{pair} turned a passing greeting into a proper conversation.",
+      "sourceHash": "sha256:50dbc57d5f774942087eb4869d311411df86f3aaa3a723f9e77c96d7a9224c43"
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "status": "reviewed",
+      "text": "{pair} did not talk for long, but listened closely all the same.",
+      "sourceHash": "sha256:529e8da0d47d7dd1dd88acaf898811234ff55dba18a94a21197c014cf36124b7"
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "status": "reviewed",
+      "text": "{pair} used a quiet moment to catch up with each other.",
+      "sourceHash": "sha256:5208971acc82c998c896614027dbb3e55a4d2354a89b81ea1c351d2ca60c5e83"
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "status": "reviewed",
+      "text": "{pair} talked for a while before returning to their separate duties.",
+      "sourceHash": "sha256:dbd953afc041423255354f215ff329ac7ecdbda8ac61c3e1079d743f91dfb29f"
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "status": "reviewed",
+      "text": "{pair} passed the time by chatting about everyday life.",
+      "sourceHash": "sha256:f7dfe4dfb378e2ddf680c2811737c5c435e3ea3a3849cd4da0cf179b2a6c1723"
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "status": "reviewed",
+      "text": "{pair} swapped a few trivial but entertaining stories.",
+      "sourceHash": "sha256:662e3bafc00adb693c485d8a617576abcd67646136164b4d5bdc39432df86253"
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "status": "reviewed",
+      "text": "{pair} shared a short and pleasant conversation.",
+      "sourceHash": "sha256:a417906708a954cf5d26139fb8d7e8c6ef7a01ef69593623beb9f0ee0d70f117"
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "status": "reviewed",
+      "text": "{pair} recounted amusing moments they had each run into.",
+      "sourceHash": "sha256:3ed056d4aa6bbfdb994cca7fc8edcd71e23d58ba5757f90f1d14849d67465a1d"
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "status": "reviewed",
+      "text": "{pair} kept up a broken conversation while on the move.",
+      "sourceHash": "sha256:ee175aad66124cc7fc8ebf3e81256556fca96b521fc5ead04af98f98fb854be0"
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "status": "reviewed",
+      "text": "{pair} talked about ordinary things, yet neither hurried to leave.",
+      "sourceHash": "sha256:84b0785aeb23762cbe1025098c91cd9692e2159d5861b91dced5aa4ac89edda0"
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "status": "reviewed",
+      "text": "{pair} shared a handful of small things they had noticed lately.",
+      "sourceHash": "sha256:2813b452bee511500e40004ceef5f3a6e89695982fb610a06d1aca46ecdcb592"
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "status": "reviewed",
+      "text": "{pair} brought a little levity to a busy day with their chatter.",
+      "sourceHash": "sha256:8254ac25c92bf814e5765576423fe7da24d9b3b6ad584d86b08faa48333269b6"
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "status": "reviewed",
+      "text": "{pair} lingered for two more remarks even after the conversation had ended.",
+      "sourceHash": "sha256:759ce8c4f09715cbdf015d23c7dadc428fe61a45be84e74ec6fc4f6211d77d82"
+    },
     {
       "templateId": "chronicle.greet.base.001",
       "status": "reviewed",
       "text": "{pair} crossed paths and greeted each other with a nod.",
-      "sourceHash": "sha256:db871c55a10522fbba6bcec84c609df999b97244791467ea93bd0228288c55b6"
+      "sourceHash": "sha256:6a8812cb47a6febb72aadfc54e9353d485dc33638f3fd14989322c86be7646ee"
     },
     {
       "templateId": "chronicle.greet.base.002",
       "status": "reviewed",
       "text": "{pair} met along the way and exchanged a quick greeting.",
-      "sourceHash": "sha256:13538ac9a54d52cfd92b0285826088de7696e0de9f5bc35f0ed9695e481af415"
+      "sourceHash": "sha256:d3a0cbb39aabf6a90dc6943fc78405644bd9effd85ab3e00bcda128314aa90d6"
     },
     {
       "templateId": "chronicle.greet.base.003",
       "status": "reviewed",
       "text": "{pair} caught each other's eye as they passed.",
-      "sourceHash": "sha256:3328047e67a07cad5216b488bacd2606bcbe1eccf0d7c7a4a171a7d20c4e20fc"
+      "sourceHash": "sha256:4c775e66902008dd44c63ab0cf05b7b9308b30fecbb0415aab9a984610fbfdab"
     },
     {
       "templateId": "chronicle.greet.base.004",
       "status": "reviewed",
       "text": "{pair} waved to each other from a short distance away.",
-      "sourceHash": "sha256:d2d58ac234efbfbd185213c931fb0f508701ac35a4f94b00bca3d8b3b6bf0605"
+      "sourceHash": "sha256:73cb06278ee432e1dd5d624406227f6fb2d5033fe94cd0aacbd63e17146b04c9"
     },
     {
       "templateId": "chronicle.greet.base.005",
       "status": "reviewed",
       "text": "{pair} stopped for a brief exchange of pleasantries.",
-      "sourceHash": "sha256:d5f7a58b035bb17300ff9357eddac1a9a0d99731f9b063e18b4e078c8b91d0ec"
+      "sourceHash": "sha256:fc4c3e73dec32f42a6a6a4af10de6137d54b11306af8520c0c5716820bc29f95"
     },
     {
       "templateId": "chronicle.greet.base.006",
       "status": "reviewed",
       "text": "{pair} met in a hurry but still made time to say hello.",
-      "sourceHash": "sha256:44a77fffe1c5610ed7d7c4ad8aa7544a819ef15596bc17b1dfb7fe077e67b94b"
+      "sourceHash": "sha256:3d94fd1f92174485b8402e84e347929d807532f18b70e6e6ad99b1976b0cc82c"
     },
     {
       "templateId": "chronicle.greet.base.007",
       "status": "reviewed",
       "text": "{pair} greeted each other with a familiar gesture.",
-      "sourceHash": "sha256:f7380c0f0a48bf2068d733a3354b281d164d87f0541121174d07598f6aa585c4"
+      "sourceHash": "sha256:deefc0b0ae9c0657a19ba650c223558342baeae830baa6ea37c2a6f3f2dc9497"
     },
     {
       "templateId": "chronicle.greet.base.008",
       "status": "reviewed",
       "text": "{pair} both smiled when they saw each other.",
-      "sourceHash": "sha256:bc7ce98072e56cd3c617326a9f23af93943d7985bab2ebdf316fa34a94bc843e"
+      "sourceHash": "sha256:927b58122cc0308304265ee3db8725c791d86a4316b52561887194783c07f659"
     },
     {
       "templateId": "chronicle.greet.base.009",
       "status": "reviewed",
       "text": "{pair} checked that all was well, then carried on.",
-      "sourceHash": "sha256:3a461e8cb9213a4b3c8c92108e445909e3c0eea4b6037cb8905851ed393ce275"
+      "sourceHash": "sha256:529ec095cb0a326373a15522f79d9cf9a588922a78d36b786709b407e928bce0"
     },
     {
       "templateId": "chronicle.greet.base.010",
       "status": "reviewed",
       "text": "{pair} quietly said hello while passing by.",
-      "sourceHash": "sha256:965b5ddf41d8391e1be284e4e89499e9008c4ef6b4d5d6d5a4ebe23e1ff48900"
+      "sourceHash": "sha256:01367223b8a6122e425638a22393ff8bfcd4db381899726f9051e76fab200885"
     },
     {
       "templateId": "chronicle.greet.base.011",
       "status": "reviewed",
       "text": "{pair} recognized each other from afar and raised a hand.",
-      "sourceHash": "sha256:e6970db8c7c1ed053d41d8581a6f5fff878940a068e5543afca3aca5e0a15232"
+      "sourceHash": "sha256:40463a4da3912c0394ec56112f3080d15d006b5987dab04eeec2d89637d4d2eb"
     },
     {
       "templateId": "chronicle.greet.base.012",
       "status": "reviewed",
       "text": "{pair} stopped to ask how things were going.",
-      "sourceHash": "sha256:1b015a75e2226bd659b6684332ecaa391dc0dda07f1669d874d0f7e10b895509"
+      "sourceHash": "sha256:c1d0ad6ebd7e31faa78f95cca1af5bbb0437bccdb272f6b08ed9d482fdf59139"
     },
     {
       "templateId": "chronicle.greet.base.013",
       "status": "reviewed",
       "text": "{pair} began their encounter with a simple greeting.",
-      "sourceHash": "sha256:5fbb264c011c7ed0b6fb1c6d20a20a72e61c637a5af01236201a376437827689"
+      "sourceHash": "sha256:db6afae14bc18a5b9fcb8a90cd931f1a2eea422eaffcc5bb40a6b4505e0c72a7"
     },
     {
       "templateId": "chronicle.greet.base.014",
       "status": "reviewed",
       "text": "{pair} greeted each other before returning to their work.",
-      "sourceHash": "sha256:a65db21feb6512fe208dd25aef87ecb115abb81e55e3c427c46ebf0adbe98ff7"
+      "sourceHash": "sha256:ab3cb8e4fc887ecb416b0dc01c52ccc4e212ac91fffbed94df8e246c74374390"
     },
     {
       "templateId": "chronicle.greet.base.015",
       "status": "reviewed",
       "text": "{pair} paused long enough to make sure the other was doing well.",
-      "sourceHash": "sha256:870a415f5f129326912e119c90982a6fab125808f2740e911e9212e8669e1561"
+      "sourceHash": "sha256:533a9f8e2bf8b3c946dfc217604654df554485fc713438519e354e1f3faaf625"
     },
     {
       "templateId": "chronicle.greet.base.016",
       "status": "reviewed",
       "text": "{pair} raised their hands in greeting at the very same moment.",
-      "sourceHash": "sha256:53cb0c8e96dd6bd922b918068429db964098422d06aae44859bccad53ab87ef3"
+      "sourceHash": "sha256:1c1afb858409ee6f35ff3e98f95c7b9bb70113f13437822dc22e758f2dd422ba"
     },
     {
       "templateId": "chronicle.greet.base.017",
       "status": "reviewed",
       "text": "{pair} greeted each other as naturally as ever.",
-      "sourceHash": "sha256:48cdc9cf9eba46dbe042a1d0360ee144d85bf0ab00631d46e5d63bf3f42d1fbe"
+      "sourceHash": "sha256:c3321d2b08c1c42670e65d6c7132fa20096c88c2e6a285b7651c66b746874079"
     },
     {
       "templateId": "chronicle.greet.base.018",
       "status": "reviewed",
       "text": "{pair} spotted each other in the crowd and exchanged greetings.",
-      "sourceHash": "sha256:8afb09766146804c167c951c9db0c2855f61010835141462ca1934890fd28906"
+      "sourceHash": "sha256:37e75696c1ec0338a521c40fd42d4887f027932097365f6b58e7941dfef668fd"
     },
     {
       "templateId": "chronicle.greet.base.019",
       "status": "reviewed",
       "text": "{pair} lightened the mood with a playful greeting.",
-      "sourceHash": "sha256:82a8413736f24b1a448bf49a8aa399e9b99d4d0d54e716a27fa40689c55d36d0"
+      "sourceHash": "sha256:b08e806d90f48a616235d0a2bcf8518d35e464a48e6772aee895f9c11fd4de7f"
     },
     {
       "templateId": "chronicle.greet.base.020",
       "status": "reviewed",
       "text": "{pair} slowed down when they met and said hello.",
-      "sourceHash": "sha256:091a9cc28c46fd8c725232f0210e2b2600613317a6aaff63893191a9443b4782"
+      "sourceHash": "sha256:5755843315aa6e43097402be0e35399a102d549f05492a5a8b810d22860e6bf5"
     },
     {
       "templateId": "chronicle.greet.base.021",
       "status": "reviewed",
       "text": "{pair} found a moment in their busy day to greet each other.",
-      "sourceHash": "sha256:b199a78ef89e6deca5297efc0f4a955c0f5b5aee9ba43880c8df9fc70f680c99"
+      "sourceHash": "sha256:77e9d9acf7820437dad4f8e9b2b77c2b8da3d1d1a3ed0df3987e717a63db361c"
     },
     {
       "templateId": "chronicle.greet.base.022",
       "status": "reviewed",
       "text": "{pair} smiled warmly while passing each other.",
-      "sourceHash": "sha256:31b68a0c5d80620ad2090de4a1345db6781e855da6609a7a91d9e9bac9131160"
+      "sourceHash": "sha256:0d72e8cbcbcab65bd26f29928c6a540d15a3fdd6f935c6274cbd5a4d733aef29"
     },
     {
       "templateId": "chronicle.greet.base.023",
       "status": "reviewed",
       "text": "{pair} acknowledged each other with a quick hello.",
-      "sourceHash": "sha256:e08022f4454b55c511980e26f871b2b6ec205b043945e2fb75cbec6eb22c964f"
+      "sourceHash": "sha256:b9260b380a76f09cc7b6fa0d0aadcba8ac2cc994dd7da1002c68dfc0622e63da"
     },
     {
       "templateId": "chronicle.greet.base.024",
       "status": "reviewed",
       "text": "{pair} crossed paths once more during a busy day.",
-      "sourceHash": "sha256:596aaed489c6bd42a4b97bcd406a0cccdbc1423dd413e258abcdf87d30c832c0"
+      "sourceHash": "sha256:27742293bec59bb5003a3947941a58146767298e3ff5f705aa87206cd512e263"
     },
     {
       "templateId": "chronicle.meal.base.001",
       "status": "reviewed",
       "text": "{pair} sat together and enjoyed an unhurried meal.",
-      "sourceHash": "sha256:482e2d8888502b71bfd046ac13583a830ca40cbf5b337b3c35827460f87d81a4"
+      "sourceHash": "sha256:ed9e1a8d1841ec3dc5a5234e6a301f1df11d24e3ea5d66519fd102eefbc34488"
     },
     {
       "templateId": "chronicle.meal.base.002",
       "status": "reviewed",
       "text": "{pair} turned mealtime into time spent together.",
-      "sourceHash": "sha256:6fb7b2635b6333bebbd43244aa0f9cbb529a897db9cf936deea143c49c5c8c9a"
+      "sourceHash": "sha256:cd31a4135c6ec5bddd2a2cc0762ce3c884a2224bca868900c5e4637cf661035a"
     },
     {
       "templateId": "chronicle.meal.base.003",
       "status": "reviewed",
       "text": "{pair} talked between bites, with neither in a hurry to leave.",
-      "sourceHash": "sha256:5157f8e8df8c532d000e182d18ae19afa9ffc3599f11264faa30817ad1103567"
+      "sourceHash": "sha256:f88b2d3bbbe2a07ffe559163fc556c3ebd8bd67ca537fde67550bc2a4bc66048"
     },
     {
       "templateId": "chronicle.meal.base.004",
       "status": "reviewed",
       "text": "{pair} happened to eat at the same time and took seats together.",
-      "sourceHash": "sha256:456bed725f98424764290c5fd536152691c037e2167d122f0d1b2dad42464886"
+      "sourceHash": "sha256:42b3f6e6dd3c0ffb53b247fd1c31fb3be176faf0afee42be990c5a924db1dc0f"
     },
     {
       "templateId": "chronicle.meal.base.005",
       "status": "reviewed",
       "text": "{pair} put their tasks aside and settled down for a meal.",
-      "sourceHash": "sha256:73e0c8124cbd43ecb2f108a12d3dbf707627aa8884148c4de98f35d2ea22aa38"
+      "sourceHash": "sha256:a2a2f3795304e3b6ad572a875320e3a2249b6fa826937a35642890a566f6c694"
     },
     {
       "templateId": "chronicle.meal.base.006",
       "status": "reviewed",
       "text": "{pair} exchanged a few idle remarks over their meal.",
-      "sourceHash": "sha256:2189cc459a59deda770eddd6232c283061c0ac595d98d773af22c7d054032be7"
+      "sourceHash": "sha256:e3de1c933fc901ddcdb9e073e10f7ca0825e5cd27efdbf589bd1b7649ae830f3"
     },
     {
       "templateId": "chronicle.meal.base.007",
       "status": "reviewed",
       "text": "{pair} sat side by side and shared a peaceful mealtime.",
-      "sourceHash": "sha256:d80aaf64ee6c55f045035da678cb0ba8d5258d18028d6d043885317560f430c6"
+      "sourceHash": "sha256:2b8d819bef83c9f637d8bc41f584282a5eab557a7a7b79f25ced0df6dfc4f4d2"
     },
     {
       "templateId": "chronicle.meal.base.008",
       "status": "reviewed",
       "text": "{pair} kept up a loose conversation while they ate.",
-      "sourceHash": "sha256:25bac9f9944ec560d5f05a8e76e9d023556bbeda5116c42d33a790afffad7d1e"
+      "sourceHash": "sha256:56dd13fe71c2816904e51310ea2a1f184f3f1d475d399ccd40809df65cbea244"
     },
     {
       "templateId": "chronicle.meal.base.009",
       "status": "reviewed",
       "text": "{pair} chose nearby seats and ate together.",
-      "sourceHash": "sha256:55f9e9e5c19de685f43d953c84af877acf89aa8237c4257361c9618c22764168"
+      "sourceHash": "sha256:4d3184eb44414ae92a1bdea2483d0d322d71906e213de76bb68f39f9319ed71a"
     },
     {
       "templateId": "chronicle.meal.base.010",
       "status": "reviewed",
       "text": "{pair} set work aside and shared an ordinary meal.",
-      "sourceHash": "sha256:19eda300ac77e3af8e4a3d6d8d75a2337a7f690729f9e790d4b5459d30410493"
+      "sourceHash": "sha256:c4c8b3d738277a6ef20c16251fa94bb5a85be08bedaefdaeaf87ce01e9201801"
     },
     {
       "templateId": "chronicle.meal.base.011",
       "status": "reviewed",
       "text": "{pair} sat down at the same time and finished together too.",
-      "sourceHash": "sha256:a0afa0e752ddd6f0b239f617f48c907c328861deda8923c44c9495097b03027e"
+      "sourceHash": "sha256:5be2519ec00283f33c2f20a6290d5647d791ecdfa293a63a00d542646348ddb1"
     },
     {
       "templateId": "chronicle.meal.base.012",
       "status": "reviewed",
       "text": "{pair} kept each other company for the length of a meal.",
-      "sourceHash": "sha256:035164ce733e1a567742075fe08de235cd48d1790a523f77ac6c47023286a50b"
+      "sourceHash": "sha256:ecba71e2d3d849519da52dc4864eec3d18a545cc124d06b02cd94c976234dbb0"
     },
     {
       "templateId": "chronicle.meal.base.013",
       "status": "reviewed",
       "text": "{pair} ate at an easy pace and spoke every now and then.",
-      "sourceHash": "sha256:dd5d1a9a88f684f18104ac16dad6aa89017fac56bd28e1a4a2766da875bf0bef"
+      "sourceHash": "sha256:09660f21236e403a180f5624591e0481a7bd9bcfac5a984884444ae19bafa74f"
     },
     {
       "templateId": "chronicle.meal.base.014",
       "status": "reviewed",
       "text": "{pair} came together for a meal amid the day's work.",
-      "sourceHash": "sha256:3bd0c26d4d1c9ea1d55831c113bcfd592dc5aa6439f04f77c2583b628d2a7bbc"
+      "sourceHash": "sha256:b6180c0cdefb09ed544d9cad5fdad0280a016e8572d12d35a70530ce7c7ed247"
     },
     {
       "templateId": "chronicle.meal.base.015",
       "status": "reviewed",
       "text": "{pair} made their short break feel more leisurely by eating together.",
-      "sourceHash": "sha256:54cb8be10b8c4253fe7fe732b188125d8479c9f17586bb7cac36441d9e4dc0f3"
+      "sourceHash": "sha256:d48d0e40e8fd41ca8657c7a3237cc9c3149a1550d19e0bddc5f3c7c57fdcf9b0"
     },
     {
       "templateId": "chronicle.meal.base.016",
       "status": "reviewed",
       "text": "{pair} kept the conversation easy throughout their meal.",
-      "sourceHash": "sha256:c531635c8ea3a15480aa09727faaad97f5a952650c0c1385239ab7a03c6c4889"
+      "sourceHash": "sha256:e6ea81d27c9b6149956b5db8fd00ff8e8a960a07006abe0426e18a82e34ba73a"
     },
     {
       "templateId": "chronicle.meal.base.017",
       "status": "reviewed",
       "text": "{pair} naturally settled near each other and began to eat.",
-      "sourceHash": "sha256:1e366648b4ac2bce3bfee3c1a770ca1b852390fcbfa630e0b55b9c16ad282054"
+      "sourceHash": "sha256:37fb118fca8469a887e258bdd0fae0e7aba9cfd9d32f6b8c2573b4b28d6a31c2"
     },
     {
       "templateId": "chronicle.meal.base.018",
       "status": "reviewed",
       "text": "{pair} lingered for a while after eating before going their separate ways.",
-      "sourceHash": "sha256:d4f739c16210ac284662da7a8d2415f38c25b87073a5efbbee889d90ab8e1be1"
+      "sourceHash": "sha256:dc1bab5c6fcecc642b13a3bb120c314fea33d19e987e56b4d4c5fc0458f5ecd8"
     },
     {
       "templateId": "chronicle.meal.base.019",
       "status": "reviewed",
       "text": "{pair} made a lively occasion out of an ordinary meal.",
-      "sourceHash": "sha256:80a88c10349081a4a6c903a40e1133b08d59dcad674320a57a938e362ffd238f"
+      "sourceHash": "sha256:360dff843e5d12aa6a9c5bf211fb57f94dd3e8fe53a353bf0bac5268710630ee"
     },
     {
       "templateId": "chronicle.meal.base.020",
       "status": "reviewed",
       "text": "{pair} ate quietly together without any awkwardness.",
-      "sourceHash": "sha256:da2e65e4ed0bf02730c54ba1afd2654534f589d2ed8639d6aa8f35aac31f4195"
+      "sourceHash": "sha256:4d8cd58bd8931d35a427812b49f126e9d3eaf98d81533fa9218a901958ab75b7"
     },
     {
       "templateId": "chronicle.meal.base.021",
       "status": "reviewed",
       "text": "{pair} discussed what each of them would do next over their meal.",
-      "sourceHash": "sha256:7f649a3ddb76a1f4d6a8c76fcae56fb1172e87f825b15b66c7dfe11a999b7c2b"
+      "sourceHash": "sha256:a9ddc6d20caaf928c0cc128d3281987ce6a50153f58851910057b01fa80b1141"
     },
     {
       "templateId": "chronicle.meal.base.022",
       "status": "reviewed",
       "text": "{pair} waited for each other before starting their meal.",
-      "sourceHash": "sha256:9744f2bcb76fa8c6218f5436e5ce13eed4d05e0a439d60db08d5e88a89dee077"
+      "sourceHash": "sha256:9eec000b5332675ebf27076adc2d8dd3f51440a12917d12bc1e83c09b4811168"
     },
     {
       "templateId": "chronicle.meal.base.023",
       "status": "reviewed",
       "text": "{pair} shared a rare mealtime with no work to rush back to.",
-      "sourceHash": "sha256:13bc41bc562b9f920e3f27c6838ed940357d096fab216b5249c9536a997e49df"
+      "sourceHash": "sha256:ef37b801fd20266a433f4ca90d6d9d0bb68b0283aff120fc6529c30ed836c8cb"
     },
     {
       "templateId": "chronicle.meal.base.024",
       "status": "reviewed",
       "text": "{pair} finished their meal together and returned to work refreshed.",
-      "sourceHash": "sha256:f3cef3308eeaaac3c4d3fbccaf226632ebc7534753fe7fcd79b9f72b9e22c8f2"
+      "sourceHash": "sha256:58b22fc69e0f058727fd21c23b106f17710d2d45e0ed3c5eed05e4288e84ff6b"
     },
     {
       "templateId": "chronicle.rest.base.001",
       "status": "reviewed",
       "text": "{pair} gradually grew quiet during the same rest period.",
-      "sourceHash": "sha256:42a2e27ca2ad2dd706e448ca25dc8105269a604800388fe7dc4575610159d9d3"
+      "sourceHash": "sha256:eacc79eef93a35997fa014c974cd316a6b7ce26c1af025c5106d1a58533c971e"
     },
     {
       "templateId": "chronicle.rest.base.002",
       "status": "reviewed",
       "text": "{pair} brought a busy day to a close and rested together.",
-      "sourceHash": "sha256:817dec6eb45d85bd5c34c4ef233198ebff077c12820bbd48088bb89972a3607c"
+      "sourceHash": "sha256:c4b2a29c32971c470a252a0bf0b7843fa96bbf72b72ec927bfa754abb7f44674"
     },
     {
       "templateId": "chronicle.rest.base.003",
       "status": "reviewed",
       "text": "{pair} shared a rare stretch of peaceful rest.",
-      "sourceHash": "sha256:493a1476079e1ed7a69f37bc1b7df27259912cbc215224d9d35e590b0f9c1764"
+      "sourceHash": "sha256:bfee09f79acbc988f13e13f4d47e41bbba150a9343f01c386d86d8a82bd9950b"
     },
     {
       "templateId": "chronicle.rest.base.004",
       "status": "reviewed",
       "text": "{pair} were tired from the day and soon drifted off.",
-      "sourceHash": "sha256:f095fa834d2a288238964008d3e6c773d0aad7dd60d0b44b8390d8a934bed34d"
+      "sourceHash": "sha256:720eb921443e7000a743b7dfadb004f089f293f4b67bbdde00507b377aa66e73"
     },
     {
       "templateId": "chronicle.rest.base.005",
       "status": "reviewed",
       "text": "{pair} briefly wished each other good night before resting.",
-      "sourceHash": "sha256:c021ca2679ec49f8adb43f835345efe224f3d1ad35c2615f3ba61b222241a506"
+      "sourceHash": "sha256:2b3695a427bb80262f803511c0317fbf1aebfdad98b7a7039737c1a18cf35314"
     },
     {
       "templateId": "chronicle.rest.base.006",
       "status": "reviewed",
       "text": "{pair} stopped working one after the other and settled into the same quiet spell.",
-      "sourceHash": "sha256:fe79787615894925bb1bcdf79ba2df65c218985b7911aed69654168537e32db0"
+      "sourceHash": "sha256:d341702d8cc31312c65c15d0738746975ddf7fbd17f96c2c9598cbf9b77d3899"
     },
     {
       "templateId": "chronicle.rest.base.007",
       "status": "reviewed",
       "text": "{pair} rested easily in each other's company.",
-      "sourceHash": "sha256:7a6b4afc553409ee6ccca9bab7ae9916c6cf2ea213ced039118f4b8b87dbff01"
+      "sourceHash": "sha256:16a00e0f290f0711311431af48d6d198d1430ade771443fe8717e9c9a6c1fe43"
     },
     {
       "templateId": "chronicle.rest.base.008",
       "status": "reviewed",
       "text": "{pair} said nothing more and simply rested in silence.",
-      "sourceHash": "sha256:78c0ada2c5ccd2e58e11b5c17522265f3446732f3dd749ef33006755395bc87b"
+      "sourceHash": "sha256:b8164ffdf2d081a527fa3f6abf1240a4401d2c20f79736379cb629a76026b7f5"
     },
     {
       "templateId": "chronicle.rest.base.009",
       "status": "reviewed",
       "text": "{pair} left the work for tomorrow and rested together for now.",
-      "sourceHash": "sha256:bb05e1888aaaf91b7b46af1a1142661366227451287724a09e33fc08fbc7f838"
+      "sourceHash": "sha256:0cb203efac0f9d3c472ad37c231c7f108101b5557991acfb71749d72f02b97af"
     },
     {
       "templateId": "chronicle.rest.base.010",
       "status": "reviewed",
       "text": "{pair} recovered their energy during a brief quiet spell.",
-      "sourceHash": "sha256:cccf720a153bc0995ef976265ce4238b76a7eda3af06ec0ac5f1d55c5a50ec47"
+      "sourceHash": "sha256:0ccd74b0613e55e106056c6a2f40255b6eabffa5221be33d1974c1362425a851"
     },
     {
       "templateId": "chronicle.rest.base.011",
       "status": "reviewed",
       "text": "{pair} settled in as everything around them slowly grew still.",
-      "sourceHash": "sha256:1584f562367ca10450923578dbb6c58badb7dd74dee5a653b6d6ac98ce104578"
+      "sourceHash": "sha256:1d1efec17400a9a08590621d9c43be56b58f1b8cc01cf9a8b87b28b8bbeb2673"
     },
     {
       "templateId": "chronicle.rest.base.012",
       "status": "reviewed",
       "text": "{pair} were rarely free at the same time and made good use of the rest.",
-      "sourceHash": "sha256:fd2fd5d67277e6bcd169498545b2d233edf8ef653c71955c1f73fafdceacbd50"
+      "sourceHash": "sha256:23a2545c72873bbe174a77df8f875645d4cdedb169d5582a40fa55761099e960"
     },
     {
       "templateId": "chronicle.rest.base.013",
       "status": "reviewed",
       "text": "{pair} shared a peaceful moment in their matching routines.",
-      "sourceHash": "sha256:465c9533ad08ec5f3e0c76dfef53724f6cbffe913e032f9380ba79bab9305781"
+      "sourceHash": "sha256:b9621fd6f51c7c51d58e393848fd2c919bcb460e654a4f069c84683f7455414a"
     },
     {
       "templateId": "chronicle.rest.base.014",
       "status": "reviewed",
       "text": "{pair} entered the same rest period carrying the day's fatigue.",
-      "sourceHash": "sha256:1b412701e581649dfcc2b9e853351b59c823146d09cc14c282be643c4a2345aa"
+      "sourceHash": "sha256:f000185ac7d6ca55b5a983f11f60080eb66e821e37ef26aa984912cfc3d0d5cd"
     },
     {
       "templateId": "chronicle.rest.base.015",
       "status": "reviewed",
       "text": "{pair} each relaxed without disturbing the other.",
-      "sourceHash": "sha256:333326b7fe673cb6c90bc39e1f4e214f8c57f261adcdb396472e91ae128fc4e1"
+      "sourceHash": "sha256:8bd2e5611d903122f2e154f79d8f4f1020fefe7a1dbcdaf15fcf3e8442da88ab"
     },
     {
       "templateId": "chronicle.rest.base.016",
       "status": "reviewed",
       "text": "{pair} enjoyed a little quiet during their break.",
-      "sourceHash": "sha256:0ee3c24cd38b8d3f9fef069fb56ce8312820216a4659a630d6b6f1420ae40510"
+      "sourceHash": "sha256:f8ddc1d25c3e0063e02a6c625076e257b3c7f1becae6ea28577229e3e2cdaf18"
     },
     {
       "templateId": "chronicle.rest.base.017",
       "status": "reviewed",
       "text": "{pair} passed their shared rest period peacefully.",
-      "sourceHash": "sha256:00a0bbd98d411031a2edb932e416cd1872467e8c0a98195ccf134bbcfd2f1d74"
+      "sourceHash": "sha256:64190fb72d1a95e0d163fd8ea474206f4a46e68c9b11053b9f8b295d28ed44f8"
     },
     {
       "templateId": "chronicle.rest.base.018",
       "status": "reviewed",
       "text": "{pair} soon grew quiet after their conversation ended.",
-      "sourceHash": "sha256:ba1b482a9b4c034ed3c2e408300bff8ca4c9d1ee0ecde2d96d1456389743c59f"
+      "sourceHash": "sha256:f59cac36a097a4bb80b0f9ee20e4c509bd526cc8099016d8cb8858c0a307b2c5"
     },
     {
       "templateId": "chronicle.rest.base.019",
       "status": "reviewed",
       "text": "{pair} wished each other good night despite their weariness.",
-      "sourceHash": "sha256:29db15b4e73bc31e9ff79a928bb185292759a38b54ab9a685676a240457e4bcb"
+      "sourceHash": "sha256:1e94f6d5d75cd5bbddb9d0ad4622522b7bad94beaf6ce688484ad75a3303a31f"
     },
     {
       "templateId": "chronicle.rest.base.020",
       "status": "reviewed",
       "text": "{pair} reached their break together and let the tension go.",
-      "sourceHash": "sha256:c736908644328b29d8eaded69d4e107adf1a1ac008baca666f6d6018c9b56b4a"
+      "sourceHash": "sha256:b9a215f3c791335b98779c17b8d1f5b23da811c51871df7ba8a94fb6ebaf5158"
     },
     {
       "templateId": "chronicle.rest.base.021",
       "status": "reviewed",
       "text": "{pair} left work unmentioned and kept this moment for rest.",
-      "sourceHash": "sha256:ece79d152f420afcc3845470b0d6291dd6d987e467d68b446678b6ac273279c4"
+      "sourceHash": "sha256:fc42011417d987506e8353837a5b9e4e4e8f22e21be55c7ebbe832aa8621f7d2"
     },
     {
       "templateId": "chronicle.rest.base.022",
       "status": "reviewed",
       "text": "{pair} shared another rest in the rhythm of their routines.",
-      "sourceHash": "sha256:d650fb1a0ed1f446ca7312a54a7965253162e5ea191f09ef19f012c876953a08"
+      "sourceHash": "sha256:e4e210e94b2247185a311dcca860a998002e2f2cfcc2d0fd1bff45fc47ffb93d"
     },
     {
       "templateId": "chronicle.rest.base.023",
       "status": "reviewed",
       "text": "{pair} spent a quiet while together and recovered their energy.",
-      "sourceHash": "sha256:6965cfe98cbf014a7f5c342237cb525e71f5a1a6fbbc69f81c3c1bb831adb02a"
+      "sourceHash": "sha256:e915e43c1017278f31e83e9592c7f5560330419502fd790fae5de238187f35a7"
     },
     {
       "templateId": "chronicle.rest.base.024",
       "status": "reviewed",
       "text": "{pair} got a sound sleep together before the next round of work.",
-      "sourceHash": "sha256:23d828be393bbe394c11e2a2b5b07729cd47aecfb029714a05adcc4522340403"
+      "sourceHash": "sha256:a0eaf8ee5f7adab25d07f6dd97313d2c2bfcb7c93e299d90721c971df2be3bdc"
     },
     {
       "templateId": "chronicle.socialize.base.001",
       "status": "reviewed",
       "text": "{pair} whiled away some leisure time together.",
-      "sourceHash": "sha256:f457099cf4e25523be8cdbdae3693396ced1d92e1cb969b49dc17227dd6c124b"
+      "sourceHash": "sha256:a8e804ef0f1e11183cb385d2e10eb36353f1610b3214754922100989ef9dc914"
     },
     {
       "templateId": "chronicle.socialize.base.002",
       "status": "reviewed",
       "text": "{pair} set work aside and relaxed together for a while.",
-      "sourceHash": "sha256:b72e75b48b3089ff234c152e19a901f2d1b4308c123eaf232b17ec77d66ebd8f"
+      "sourceHash": "sha256:437c87d90f21d8d11e38c6499e549398263d7ff855ac254271e7f042cfe2da12"
     },
     {
       "templateId": "chronicle.socialize.base.003",
       "status": "reviewed",
       "text": "{pair} got together and found a little amusement.",
-      "sourceHash": "sha256:9bdbc1c1aa3769cb4aba5d96a2978b45916a71241ed2e689518e9a77d3624529"
+      "sourceHash": "sha256:dc5e5b4e2bcb888b80312bc257227163459264b9e3188e1091376524ac7780fa"
     },
     {
       "templateId": "chronicle.socialize.base.004",
       "status": "reviewed",
       "text": "{pair} shared plenty of laughter in their free time.",
-      "sourceHash": "sha256:918dd2409520de8dbd671a414928acbd6d8c56e105a1c233ba0f6942f285908d"
+      "sourceHash": "sha256:dba9bb5138f6a867177981fd36e991e2b2f6498f5e3559d94316d074e639483a"
     },
     {
       "templateId": "chronicle.socialize.base.005",
       "status": "reviewed",
       "text": "{pair} made a lively occasion of their short break.",
-      "sourceHash": "sha256:a5f43c581fabe2cdb0c1f2566b8e886d4494c17b81f021ce661faaff199a96b3"
+      "sourceHash": "sha256:cac070e803a0795a4001c7f9ad4cdcf2ac3fd79b89a07d69a4fe3993be072a2e"
     },
     {
       "templateId": "chronicle.socialize.base.006",
       "status": "reviewed",
       "text": "{pair} relaxed together and came away feeling refreshed.",
-      "sourceHash": "sha256:7d6dce1574db3a3de4d794f939a3ac9f0504c538368c06874985f0c3721833b7"
+      "sourceHash": "sha256:2bbe23ced1d1948fb0de5e160c931f2d58bed9946738715bd6dfb4f1f2f5c099"
     },
     {
       "templateId": "chronicle.socialize.base.007",
       "status": "reviewed",
       "text": "{pair} naturally joined each other's leisure time.",
-      "sourceHash": "sha256:a093f62ae879db4017291d1578529750d3ea1c8c884a59835fc943ac6fb81be2"
+      "sourceHash": "sha256:76c387dc2589cafb245c73b0e7b91ae7392ce4073cd86e6289f6b317080240b8"
     },
     {
       "templateId": "chronicle.socialize.base.008",
       "status": "reviewed",
       "text": "{pair} played around for a while and forgot their worries.",
-      "sourceHash": "sha256:b3737a0d3f7fc958a647323d11da76afa3a7411bced4f7fa38d69ab2afbb7f6b"
+      "sourceHash": "sha256:731386ef4b35a14b3449f992f813293eb0fe288e37e4e69c6ef9356f75d2dedd"
     },
     {
       "templateId": "chronicle.socialize.base.009",
       "status": "reviewed",
       "text": "{pair} lingered in an easygoing mood for quite some time.",
-      "sourceHash": "sha256:47b955f8b382ee071778df9fd5c7e55d55740d2a566f92fe4bd2256aac6e295b"
+      "sourceHash": "sha256:dc368821c5930537421f84fecd83aa7d05ae1af3ec15bb960461e7617d4cdbe1"
     },
     {
       "templateId": "chronicle.socialize.base.010",
       "status": "reviewed",
       "text": "{pair} made good use of their free time by relaxing together.",
-      "sourceHash": "sha256:df9c721a12580ea9a082386c78fb12b83f5b63d74af8af7852392cf706c18dbe"
+      "sourceHash": "sha256:54c611f2399939e439c9fd9b7aec702ce1d6db8379c496cdc111ab8164150047"
     },
     {
       "templateId": "chronicle.socialize.base.011",
       "status": "reviewed",
       "text": "{pair} teased each other and eased some of the day's fatigue.",
-      "sourceHash": "sha256:cb604bb8f0334d32e2f4548ce2a38b4c4725bc88e2c23d982507a543778a65e6"
+      "sourceHash": "sha256:a77e1b6b301b877373463783cdaf8102122f452c8e0c63eed9d3e0a9ec5b6022"
     },
     {
       "templateId": "chronicle.socialize.base.012",
       "status": "reviewed",
       "text": "{pair} finally had no work to rush through and relaxed together.",
-      "sourceHash": "sha256:ae6b0c220b21cda0785ecb12860a1b53bff5c8cc27eb9b913b7e01b8dc947718"
+      "sourceHash": "sha256:4f5585aa8469b749bce6eb1be26ee80be25c49e487e6225ec739e8746b601365"
     },
     {
       "templateId": "chronicle.socialize.base.013",
       "status": "reviewed",
       "text": "{pair} spent their leisure time talking and laughing.",
-      "sourceHash": "sha256:602190bea227ae21afc0d9f11203737146fb07c89df6934f22d2a19c05667f4b"
+      "sourceHash": "sha256:55ecb58e2961d903486ff677b1eb80a608f3b2d517e48dbd1f9261dae3f5fd21"
     },
     {
       "templateId": "chronicle.socialize.base.014",
       "status": "reviewed",
       "text": "{pair} added a small diversion to an otherwise ordinary day.",
-      "sourceHash": "sha256:b9794374a822a0af64327bbfc7c7624f57dc68d4f05339180756a9ffdcc3ae6e"
+      "sourceHash": "sha256:2d0c90406ecfd3b1d1988f4e0e1492d1e398255371e94b724486bf982f3e2807"
     },
     {
       "templateId": "chronicle.socialize.base.015",
       "status": "reviewed",
       "text": "{pair} found something to do together and kept things light.",
-      "sourceHash": "sha256:31b021ff55e8ad4a769de27dddfe8dcbde7c934374d5e0b54319c9af583a0a6e"
+      "sourceHash": "sha256:25d16d9e03773d088650e5d96f1ed43f0192b9a754e18541eb653e1d255fda4a"
     },
     {
       "templateId": "chronicle.socialize.base.016",
       "status": "reviewed",
       "text": "{pair} gave their time away from work to each other.",
-      "sourceHash": "sha256:48a7eb2f93a628041a99f7864831a99ad2dcb4097ef18fde4a40b62b28835622"
+      "sourceHash": "sha256:e8b59a194227f20471aad993eef0f77f78a40d4db5fea83a3b7ccbf9b7a5db14"
     },
     {
       "templateId": "chronicle.socialize.base.017",
       "status": "reviewed",
       "text": "{pair} gathered together and passed the time with enthusiasm.",
-      "sourceHash": "sha256:41c3d55139108860b6c5135440ab497967e342424f900eca6ff163fc39ee73b1"
+      "sourceHash": "sha256:5d4b26a64366ae97b132b065bc3349853c945d75baf9217c563b2015b8c97e1f"
     },
     {
       "templateId": "chronicle.socialize.base.018",
       "status": "reviewed",
       "text": "{pair} threw themselves into having fun during their short freedom.",
-      "sourceHash": "sha256:b9d49738051a2c665fd619448b136733be430a58ca24c7eb5d4e883c48fb444f"
+      "sourceHash": "sha256:5945f6ded6d319696b884bbb63d0ccf92192a6afb9abbb4cb206ca79cb7b2bc9"
     },
     {
       "templateId": "chronicle.socialize.base.019",
       "status": "reviewed",
       "text": "{pair} left work out of the conversation and simply relaxed.",
-      "sourceHash": "sha256:51c47be5f0174b153f8bf58d8ff585537762f244d620762f26c215aa1473301b"
+      "sourceHash": "sha256:1dde3f6a08a2c6fa2d886e4e4e8c5ea3591e17fc84c2d81178d264961e04213a"
     },
     {
       "templateId": "chronicle.socialize.base.020",
       "status": "reviewed",
       "text": "{pair} passed the time together and grew a little more familiar.",
-      "sourceHash": "sha256:487afc8415dace3550a1b4214a7a3c6ed7634ef2994960fbdd8f2d7c79aca387"
+      "sourceHash": "sha256:f7a1810fdd1b011a3f34603442ab34ac513d189cbe8ba693fd940c2ce8f72339"
     },
     {
       "templateId": "chronicle.socialize.base.021",
       "status": "reviewed",
       "text": "{pair} agreed to unwind for a while before parting ways.",
-      "sourceHash": "sha256:61b4b8110ecc22e8778fa90e7a5b864e48145ecd3fc3740f3ecea2e7da3d515a"
+      "sourceHash": "sha256:e9899ab60e8d9205b10355ce3e22e4c037e36b1a15e01c431bd8f63f7a01d16d"
     },
     {
       "templateId": "chronicle.socialize.base.022",
       "status": "reviewed",
       "text": "{pair} turned a little free time into a pleasant visit.",
-      "sourceHash": "sha256:e9c80eb47f92c9b30fdeabf150b2fc1c7d0585dc4f2209d897dd218854f8918c"
+      "sourceHash": "sha256:3aac49e4f12eeb77e2712717a1ecdb39c30b419a032b75953207b224370532b5"
     },
     {
       "templateId": "chronicle.socialize.base.023",
       "status": "reviewed",
       "text": "{pair} regained some energy through jokes and laughter.",
-      "sourceHash": "sha256:20415f9364ef8c55fc30ce8b209fff335ba8890149a594aa93e2dcec64944490"
+      "sourceHash": "sha256:d5a3327e5ad7301503f22a702cf858e076084bc40f5e338df9e4a21a41593f59"
     },
     {
       "templateId": "chronicle.socialize.base.024",
       "status": "reviewed",
       "text": "{pair} enjoyed their diversion before returning to daily life.",
-      "sourceHash": "sha256:250676018a6eefc4b710b7144122c1469ce003117d4e5dccb613c9dbc70a022d"
+      "sourceHash": "sha256:8f5d8430273856c51a42ff2644d634884fa8d4f119a006ca18fd9280de15c3c5"
     }
   ]
 }
