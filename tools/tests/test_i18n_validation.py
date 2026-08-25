@@ -109,6 +109,26 @@ class I18nValidationTests(unittest.TestCase):
             payload = json.loads(export_dist(root)["ui/en.json"])
             self.assertEqual("zh", next(item for item in payload["entries"] if item["key"] == key)["resolvedLocale"])
 
+    def test_draft_base_locale_cannot_supply_a_shipped_regional_fallback(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            manifest = root / "manifest.json"
+            self.rewrite(manifest, lambda value: value["locales"].append(
+                {"id": "ko-kr", "status": "preview", "ship": True}))
+            source = json.loads((root / "locales/en/ui/social.tab.json").read_text())
+            source["locale"] = "ko"
+            source["entries"][0]["text"] = "초안 소셜"
+            draft = root / "locales/ko/ui/social.tab.json"
+            draft.parent.mkdir(parents=True, exist_ok=True)
+            draft.write_text(json.dumps(source, ensure_ascii=False, indent=2) + "\n",
+                             encoding="utf-8")
+
+            payload = json.loads(export_dist(root)["ui/ko-kr.json"])
+            title = next(item for item in payload["entries"]
+                         if item["key"] == "STRINGS.SOCIAL.TAB.TITLE")
+            self.assertEqual("en", title["resolvedLocale"])
+            self.assertEqual("Social", title["text"])
+
     def test_stable_prompt_critical_missing_is_a_release_error(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/prompts/social.json"

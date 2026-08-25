@@ -494,11 +494,11 @@ def _coverage(units: Iterable[str], requested: str, maps: dict[str, Any], chain:
 
 
 def release_quality_errors(root: Path) -> list[str]:
-    manifest = load_manifest(root); registered = sorted(_locale_specs(root)); shipped = shipped_locales(root)
+    manifest = load_manifest(root); shipped = shipped_locales(root)
     specs, ui_c, prompt_c, dialogue_c, chronicle_c, ui, prompts, dialogue, chronicle = _eligible_maps(root)
     errors: list[str] = []
     for requested in shipped:
-        chain = fallback_chain(requested, registered, manifest["fallbackLocale"], manifest["defaultLocale"])
+        chain = fallback_chain(requested, shipped, manifest["fallbackLocale"], manifest["defaultLocale"])
         status = specs[requested]["status"]
         for family, contracts, maps, id_name in (("ui", ui_c, ui, "key"), ("prompts", prompt_c, prompts, "promptId")):
             if status != "stable": continue
@@ -618,11 +618,11 @@ def parse_po_catalog(path: Path) -> tuple[dict[str, str], list[str]]:
 
 
 def _resolved_catalogs(root: Path):
-    manifest = load_manifest(root); registered = sorted(_locale_specs(root)); shipped = shipped_locales(root)
+    manifest = load_manifest(root); shipped = shipped_locales(root)
     specs, ui_c, prompt_c, dialogue_c, chronicle_c, ui, prompts, dialogue, chronicle = _eligible_maps(root)
     result = {}
     for requested in shipped:
-        chain = fallback_chain(requested, registered, manifest["fallbackLocale"], manifest["defaultLocale"])
+        chain = fallback_chain(requested, shipped, manifest["fallbackLocale"], manifest["defaultLocale"])
         ui_entries = []
         for key, contract in sorted(ui_c.items()):
             resolved, item = _resolve_unit(key, ui, chain)
