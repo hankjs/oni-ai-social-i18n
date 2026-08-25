@@ -580,7 +580,11 @@ def render_po(entries: list[dict[str, Any]], locale: str) -> str:
     for item in entries:
         lines.append(f"#. resolved-locale: {item['resolvedLocale']}")
         if item["resolvedLocale"] != locale: lines.append(f"#. fallback for {locale}")
-        lines += [f"#. {item['key']}", f'msgctxt "{escape_po(item["key"])}"', f'msgid "{escape_po(item["sourceText"])}"', f'msgstr "{escape_po(item["text"])}"', ""]
+        # Klei registers the generated ONIAiSocial.STRINGS tree with the assembly namespace.
+        # Authoring/runtime JSON keeps language-neutral STRINGS.* keys; only the PO adapter owns
+        # the engine-specific prefix.
+        context = item["key"] if item["key"].startswith("ONIAiSocial.") else "ONIAiSocial." + item["key"]
+        lines += [f"#. {item['key']}", f'msgctxt "{escape_po(context)}"', f'msgid "{escape_po(item["sourceText"])}"', f'msgstr "{escape_po(item["text"])}"', ""]
     return "\n".join(lines)
 
 
@@ -612,8 +616,9 @@ def parse_po_catalog(path: Path) -> tuple[dict[str, str], list[str]]:
             try: msgstr = json.loads(line[7:])
             except ValueError: errors.append("invalid msgstr")
         elif line == "" and context is not None:
-            if context in result: errors.append(f"duplicate msgctxt {context}")
-            result[context] = msgstr or ""; context = None; msgstr = None
+            key = context.removeprefix("ONIAiSocial.")
+            if key in result: errors.append(f"duplicate msgctxt {context}")
+            result[key] = msgstr or ""; context = None; msgstr = None
     return result, errors
 
 
