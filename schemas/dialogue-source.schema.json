@@ -13,19 +13,35 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["candidateId", "storyletId", "variant", "turns"],
+        "required": ["candidateId", "storyletId", "selection", "weight", "turns"],
         "properties": {
           "candidateId": { "type": "string", "minLength": 1 },
           "storyletId": { "type": "string", "minLength": 1 },
-          "variant": {
+          "selection": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["kind"],
             "properties": {
-              "kind": { "type": "string", "enum": ["base", "initiatorTag", "category"] },
-              "value": { "type": "string", "minLength": 1 }
+              "actors": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["slot"],
+                  "properties": {
+                    "slot": { "type": "integer", "minimum": -1 },
+                    "emotions": { "$ref": "#/$defs/emotions" },
+                    "intensities": { "$ref": "#/$defs/intensities" },
+                    "voices": { "$ref": "#/$defs/voices" },
+                    "stances": { "$ref": "#/$defs/stances" }
+                  }
+                }
+              },
+              "relationshipStates": { "$ref": "#/$defs/nonEmptyStrings" },
+              "causes": { "$ref": "#/$defs/nonEmptyStrings" }
             }
           },
+          "weight": { "type": "integer", "minimum": 1, "maximum": 100 },
           "turns": {
             "type": "array",
             "minItems": 1,
@@ -42,6 +58,30 @@
           }
         }
       }
+    }
+  },
+  "$defs": {
+    "nonEmptyStrings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "emotions": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["neutral", "joy", "affection", "hope", "relief", "sadness", "grief", "anger", "anxiety", "fear", "guilt", "embarrassment", "exhaustion"] }
+    },
+    "intensities": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["calm", "mild", "strong", "breaking"] }
+    },
+    "voices": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["hothead", "crybaby", "loud", "eater", "nervous", "jumpy", "gentle", "curious", "slow", "early", "night", "sleepy"] }
+    },
+    "stances": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["open", "supportive", "intimate", "awkward", "guarded", "defensive", "hostile"] }
     }
   }
 }

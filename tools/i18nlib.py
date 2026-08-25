@@ -19,6 +19,7 @@ FORMAT_ITEM_RE = re.compile(
 )
 
 SCHEMA_VERSION = 1
+DIALOGUE_SCHEMA_VERSION = 2
 SOURCE_LOCALE = "zh"
 FALLBACK_LOCALE = "en"
 TURN_LETTERS = "abcdefghijklmnopqrstuvwxyz"
@@ -26,6 +27,18 @@ MAX_UI_TEXT_LENGTH = 10000
 MAX_DIALOGUE_TEXT_LENGTH = 2000
 MAX_CHRONICLE_TEXT_LENGTH = 2000
 ALLOWED_RICH_TEXT_TAGS = {"b", "i", "color"}
+ALLOWED_DIALOGUE_EMOTIONS = {
+    "neutral", "joy", "affection", "hope", "relief", "sadness", "grief",
+    "anger", "anxiety", "fear", "guilt", "embarrassment", "exhaustion",
+}
+ALLOWED_DIALOGUE_INTENSITIES = {"calm", "mild", "strong", "breaking"}
+ALLOWED_DIALOGUE_STANCES = {
+    "open", "supportive", "intimate", "awkward", "guarded", "defensive", "hostile",
+}
+ALLOWED_DIALOGUE_VOICES = {
+    "hothead", "crybaby", "loud", "eater", "nervous", "jumpy", "gentle",
+    "curious", "slow", "early", "night", "sleepy",
+}
 ALLOWED_PERSON_FORMS = {
     "subject", "object", "possessive", "possessiveCapitalized",
     "pairSubject", "pairObject",
@@ -728,20 +741,34 @@ def validate_catalog(root: Path) -> list[str]:
         seen_candidates.add(cid)
         dialogue_by_id[cid] = candidate
         storylet_id = str(candidate.get("storyletId") or "")
-        variant = candidate.get("variant") or {}
-        variant_kind = variant.get("kind")
-        variant_value = variant.get("value")
-        if storylet_id.lower() == "fallback":
-            if variant_kind != "category" or variant_value not in ("ordinary", "breaking"):
-                errors.append(
-                    f"{cid}: fallback dialogue must use category ordinary or breaking"
-                )
-        elif variant_kind == "category":
-            errors.append(f"{cid}: category variants are reserved for fallback dialogue")
-        elif variant_kind == "initiatorTag" and not variant_value:
-            errors.append(f"{cid}: initiatorTag variant requires a non-empty value")
-        elif variant_kind == "base" and variant_value is not None:
-            errors.append(f"{cid}: base variant must not declare a value")
+        selection = candidate.get("selection") or {}
+        actors = selection.get("actors") or []
+        slots: set[int] = set()
+        for actor in actors:
+            slot = actor.get("slot")
+            if not isinstance(slot, int) or slot < -1:
+                errors.append(f"{cid}: selection actor slot must be -1 or greater")
+                continue
+            if slot in slots:
+                errors.append(f"{cid}: duplicate selection actor slot {slot}")
+            slots.add(slot)
+            for key, allowed in (
+                ("emotions", ALLOWED_DIALOGUE_EMOTIONS),
+                ("intensities", ALLOWED_DIALOGUE_INTENSITIES),
+                ("stances", ALLOWED_DIALOGUE_STANCES),
+            ):
+                unknown = set(actor.get(key) or []) - allowed
+                if unknown:
+                    errors.append(f"{cid}: unknown {key} {sorted(unknown)!r}")
+            voices = actor.get("voices") or []
+            if any(not isinstance(item, str) or not item for item in voices):
+                errors.append(f"{cid}: voices must be non-empty strings")
+            unknown_voices = set(voices) - ALLOWED_DIALOGUE_VOICES
+            if unknown_voices:
+                errors.append(f"{cid}: unknown voices {sorted(unknown_voices)!r}")
+        weight = candidate.get("weight")
+        if not isinstance(weight, int) or weight < 1 or weight > 100:
+            errors.append(f"{cid}: weight must be an integer from 1 to 100")
         turns = candidate.get("turns") or []
         if not turns:
             errors.append(f"{cid}: candidate has no turns")
@@ -1331,10 +1358,8 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
     if locale != SOURCE_LOCALE:
         locale_map = {item["candidateId"]: item for item in load_dialogue_locale(root, locale)}
 
-    storylets: dict[str, Any] = {}
-    fallback: dict[str, list[list[str]]] = {"ordinary": [], "breaking": []}
     runtime_candidates: list[dict[str, Any]] = []
-    ordinals: dict[tuple[str, str, str], int] = {}
+    ordinals: dict[str, int] = {}
 
     for candidate in sources:
         cid = candidate["candidateId"]
@@ -1354,39 +1379,21 @@ def compact_dialogue(root: Path, locale: str) -> dict[str, Any]:
                  "text": turn["text"]}
                 for turn in loc["turns"]
             ]
-        variant = candidate.get("variant") or {"kind": "base"}
-        variant_kind = variant.get("kind") or "base"
-        variant_value = variant.get("value") or ""
-        ordinal_key = (candidate["storyletId"], variant_kind, variant_value)
+        selection = candidate.get("selection") or {}
+        ordinal_key = candidate["storyletId"]
         ordinals[ordinal_key] = ordinals.get(ordinal_key, 0) + 1
         runtime_candidates.append({
             "candidateId": cid,
             "storyletId": candidate["storyletId"],
-            "variantKind": variant_kind,
-            "variantValue": variant_value,
+            "selection": selection,
+            "weight": candidate.get("weight", 1),
             "ordinal": ordinals[ordinal_key],
             "turns": runtime_turns,
         })
 
-        if candidate.get("family") == "fallback" or str(candidate.get("storyletId", "")).lower() == "fallback":
-            category = (candidate.get("variant") or {}).get("value") or "ordinary"
-            fallback.setdefault(category, []).append([text for _, text in turn_texts])
-            continue
-
-        storylet_id = candidate["storyletId"]
-        bucket = storylets.setdefault(storylet_id, {"base": [], "tags": {}})
-        compact_turns = [{"slot": slot, "text": text} for slot, text in turn_texts]
-        if variant.get("kind") == "initiatorTag":
-            tag = variant["value"]
-            bucket["tags"].setdefault(tag, []).append(compact_turns)
-        else:
-            bucket["base"].append(compact_turns)
-
     return {
-        "schemaVersion": SCHEMA_VERSION,
+        "schemaVersion": DIALOGUE_SCHEMA_VERSION,
         "locale": locale,
-        "storylets": storylets,
-        "fallback": fallback,
         "runtimeCandidates": runtime_candidates,
     }
 

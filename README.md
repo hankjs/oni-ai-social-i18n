@@ -8,6 +8,16 @@ Public catalog for ONI Social Life player-visible strings.
 - `python3 tools/export.py` regenerates `dist/`
 - `python3 tools/validate.py` checks uniqueness, tokens, dialogue structure, and chronicle pools
 
+## Structured dialogue copy
+
+Dialogue source lives in `catalog/dialogue/` and translations in
+`locales/<locale>/dialogue/`. Every candidate belongs to a real `storyletId`, contains its full
+ordered turn plan, and declares a `selection` over actor slot (`-1` means any actor), primary or
+secondary emotion, intensity, social stance, personality voice, relationship state, and cause.
+The shared runtime always chooses the highest-specificity matching tier, then applies candidate
+weight and its recent-use window. Empty selection is the storylet's base candidate, not a second
+fallback pipeline. All dimension values are schema-enumerated so authoring typos fail validation.
+
 ## Structured chronicle copy
 
 Detailed chronicle sentences are not UI `LocString` keys. Their Chinese source lives in

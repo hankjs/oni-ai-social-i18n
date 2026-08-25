@@ -3,9 +3,37 @@
   "entries": [
     {
       "promptId": "prompt.conversation.instruction",
-      "source": "现在写出他们的简短对话。",
+      "source": "在不改变事件、人物情绪和说话者顺序的前提下润色草稿。",
       "description": "Final conversation instruction.",
       "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "source": "已经由游戏引擎确定的事件：[[storylet]]；起因：[[cause]]。",
+      "description": "Immutable resolved storylet and cause.",
+      "requiredSlots": [
+        "cause",
+        "storylet"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "source": "当前情绪：[[nameA]]=[[emotionA]]；[[nameB]]=[[emotionB]]。",
+      "description": "Per-speaker affect projection.",
+      "requiredSlots": [
+        "emotionA",
+        "emotionB",
+        "nameA",
+        "nameB"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "source": "已匹配的本地文案草稿：[[draft]]",
+      "description": "Authored semantic fallback that the model may rewrite.",
+      "requiredSlots": [
+        "draft"
+      ]
     },
     {
       "promptId": "prompt.conversation.no-traits",
@@ -56,7 +84,7 @@
     },
     {
       "promptId": "prompt.conversation.system",
-      "source": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 生成复制人之间的对话。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条],\"affinity_delta\":整数(-5到10)}",
+      "source": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 润色复制人之间的对话。事件、关系结果、双方情绪和说话顺序均已由游戏引擎确定，禁止改写这些事实。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条]}。",
       "description": "System contract for generated conversations.",
       "requiredSlots": []
     },

@@ -1,7 +1,8 @@
 # Contributing to oni-ai-social-i18n
 
 This repository is the **only edit source** for player-visible UI strings and
-storylet/fallback dialogue for ONI Social Life. Git is the only persistence.
+Storylet dialogue for ONI Social Life. Git is the only persistence. Dialogue source
+candidates carry explicit actor affect/voice/scene selection and a same-tier weight.
 
 ## Locales
 
@@ -25,11 +26,12 @@ storylet/fallback dialogue for ONI Social Life. Git is the only persistence.
 7. Only when the maintainer explicitly starts a release do they tag the reviewed `main` commit as
    `i18n-vX.Y.Z`. The suffix must equal the manifest and tags are immutable.
 
-Fork/PR from GitHub remains a valid contribution path. The web editor (Phase 2)
-does not replace this workflow.
+Fork/PR from GitHub remains a valid contribution path. The web editor uses the same files and
+validator; it does not replace review through Git.
 
 ## What not to change here
 
-Gameplay rules, probabilities, speaker selection, trait-tag matching, and LLM
-output protocols stay in the private Mod repository. Prompt locked-token
-migration is Phase 4 and is not open as a pure translation change.
+Gameplay rules, event-to-affect classification, numeric relationship effects, and LLM output
+protocols stay in the private Mod repository. Content authors may declare which classified
+emotion, intensity, stance, voice, relationship, cause, or actor slot a candidate is written for;
+those declarations only select copy and never change gameplay state.

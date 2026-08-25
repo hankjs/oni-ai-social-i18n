@@ -3,8 +3,25 @@
   "locale": "en",
   "entries": [
     {
+      "promptId": "prompt.conversation.affect",
+      "text": "Current affect: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
+      "requiredSlots": [
+        "emotionA",
+        "emotionB",
+        "nameA",
+        "nameB"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "Matched authored draft: [[draft]]",
+      "requiredSlots": [
+        "draft"
+      ]
+    },
+    {
       "promptId": "prompt.conversation.instruction",
-      "text": "Write their short conversation now.",
+      "text": "Polish the draft without changing the event, either speaker's affect, or the speaker order.",
       "requiredSlots": []
     },
     {
@@ -44,13 +61,21 @@
       ]
     },
     {
+      "promptId": "prompt.conversation.scene",
+      "text": "Resolved game event: [[storylet]]; cause: [[cause]].",
+      "requiredSlots": [
+        "cause",
+        "storylet"
+      ]
+    },
+    {
       "promptId": "prompt.conversation.stress-hint",
       "text": "Stress \"breaking\" means on the verge of an emotional breakdown: let the strain show in that duplicant's lines (short temper, weary, barely holding on).",
       "requiredSlots": []
     },
     {
       "promptId": "prompt.conversation.system",
-      "text": "You are writing dialogue between duplicants in the survival sim Oxygen Not Included. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries],\"affinity_delta\":integer(-5 to 10)}",
+      "text": "You are polishing dialogue between duplicants in the survival sim Oxygen Not Included. The game engine has already resolved the event, relationship outcome, each speaker's affect, and speaker order; do not change those facts. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, and caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries]}.",
       "requiredSlots": []
     },
     {

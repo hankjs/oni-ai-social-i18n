@@ -178,19 +178,20 @@ class I18nValidationTests(unittest.TestCase):
                 any("declared arguments" in error for error in validate_catalog(root))
             )
 
-    def test_dialogue_initiator_tag_requires_a_value(self) -> None:
+    def test_dialogue_voice_requires_a_non_empty_value(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
             path = root / "catalog" / "dialogue" / "casual.json"
             payload = json.loads(path.read_text(encoding="utf-8"))
             candidate = next(
                 item for item in payload["candidates"]
-                if item["variant"]["kind"] == "initiatorTag"
+                if (item.get("selection", {}).get("actors") or [{}])[0].get("voices")
             )
-            candidate["variant"].pop("value")
+            candidate["selection"]["actors"][0]["voices"] = [""]
             path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             self.assertTrue(
-                any("initiatorTag variant requires" in error for error in validate_catalog(root))
+                any("voices must be non-empty strings" in error
+                    for error in validate_catalog(root))
             )
 
     def test_negative_dialogue_speaker_slot_is_rejected(self) -> None:

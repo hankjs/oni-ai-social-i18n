@@ -3,8 +3,25 @@
   "locale": "zh",
   "entries": [
     {
+      "promptId": "prompt.conversation.affect",
+      "text": "当前情绪：[[nameA]]=[[emotionA]]；[[nameB]]=[[emotionB]]。",
+      "requiredSlots": [
+        "emotionA",
+        "emotionB",
+        "nameA",
+        "nameB"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "已匹配的本地文案草稿：[[draft]]",
+      "requiredSlots": [
+        "draft"
+      ]
+    },
+    {
       "promptId": "prompt.conversation.instruction",
-      "text": "现在写出他们的简短对话。",
+      "text": "在不改变事件、人物情绪和说话者顺序的前提下润色草稿。",
       "requiredSlots": []
     },
     {
@@ -44,13 +61,21 @@
       ]
     },
     {
+      "promptId": "prompt.conversation.scene",
+      "text": "已经由游戏引擎确定的事件：[[storylet]]；起因：[[cause]]。",
+      "requiredSlots": [
+        "cause",
+        "storylet"
+      ]
+    },
+    {
       "promptId": "prompt.conversation.stress-hint",
       "text": "压力“濒临崩溃”表示复制人快要情绪崩溃；让这种紧绷体现在其台词里，例如易怒、疲惫或勉强支撑。",
       "requiredSlots": []
     },
     {
       "promptId": "prompt.conversation.system",
-      "text": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 生成复制人之间的对话。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条],\"affinity_delta\":整数(-5到10)}",
+      "text": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 润色复制人之间的对话。事件、关系结果、双方情绪和说话顺序均已由游戏引擎确定，禁止改写这些事实。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条]}。",
       "requiredSlots": []
     },
     {

@@ -4,10 +4,17 @@
     {
       "candidateId": "storylet.argument.crybaby.001",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -24,10 +31,17 @@
     {
       "candidateId": "storylet.argument.crybaby.002",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -44,10 +58,17 @@
     {
       "candidateId": "storylet.argument.crybaby.003",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -64,10 +85,17 @@
     {
       "candidateId": "storylet.argument.crybaby.004",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -84,10 +112,17 @@
     {
       "candidateId": "storylet.argument.gentle.001",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "gentle"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -104,10 +139,17 @@
     {
       "candidateId": "storylet.argument.gentle.002",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "gentle"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -124,10 +166,17 @@
     {
       "candidateId": "storylet.argument.gentle.003",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "gentle"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -144,10 +193,17 @@
     {
       "candidateId": "storylet.argument.gentle.004",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "gentle"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -164,10 +220,17 @@
     {
       "candidateId": "storylet.argument.hothead.001",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -184,10 +247,17 @@
     {
       "candidateId": "storylet.argument.hothead.002",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -204,10 +274,17 @@
     {
       "candidateId": "storylet.argument.hothead.003",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -224,10 +301,17 @@
     {
       "candidateId": "storylet.argument.hothead.004",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -244,9 +328,8 @@
     {
       "candidateId": "storylet.argument.base.001",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -263,9 +346,8 @@
     {
       "candidateId": "storylet.argument.base.002",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -282,9 +364,8 @@
     {
       "candidateId": "storylet.argument.base.003",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -301,9 +382,8 @@
     {
       "candidateId": "storylet.argument.base.004",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -320,9 +400,8 @@
     {
       "candidateId": "storylet.argument.base.005",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -339,9 +418,8 @@
     {
       "candidateId": "storylet.argument.base.006",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -358,9 +436,8 @@
     {
       "candidateId": "storylet.argument.base.007",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -377,9 +454,8 @@
     {
       "candidateId": "storylet.argument.base.008",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -396,9 +472,8 @@
     {
       "candidateId": "storylet.argument.base.009",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -415,9 +490,8 @@
     {
       "candidateId": "storylet.argument.base.010",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -434,9 +508,8 @@
     {
       "candidateId": "storylet.argument.base.011",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -453,9 +526,8 @@
     {
       "candidateId": "storylet.argument.base.012",
       "storyletId": "Argument",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",

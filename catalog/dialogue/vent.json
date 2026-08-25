@@ -4,10 +4,17 @@
     {
       "candidateId": "storylet.vent.crybaby.001",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -29,10 +36,17 @@
     {
       "candidateId": "storylet.vent.crybaby.002",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -54,10 +68,17 @@
     {
       "candidateId": "storylet.vent.crybaby.003",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -79,10 +100,17 @@
     {
       "candidateId": "storylet.vent.crybaby.004",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "crybaby"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -104,10 +132,17 @@
     {
       "candidateId": "storylet.vent.hothead.001",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -129,10 +164,17 @@
     {
       "candidateId": "storylet.vent.hothead.002",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -154,10 +196,17 @@
     {
       "candidateId": "storylet.vent.hothead.003",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -179,10 +228,17 @@
     {
       "candidateId": "storylet.vent.hothead.004",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "hothead"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -204,10 +260,17 @@
     {
       "candidateId": "storylet.vent.nervous.001",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "nervous"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -229,10 +292,17 @@
     {
       "candidateId": "storylet.vent.nervous.002",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "nervous"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -254,10 +324,17 @@
     {
       "candidateId": "storylet.vent.nervous.003",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "nervous"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -279,10 +356,17 @@
     {
       "candidateId": "storylet.vent.nervous.004",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "initiatorTag",
-        "value": "nervous"
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
       },
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -304,9 +388,8 @@
     {
       "candidateId": "storylet.vent.base.001",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -328,9 +411,8 @@
     {
       "candidateId": "storylet.vent.base.002",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -352,9 +434,8 @@
     {
       "candidateId": "storylet.vent.base.003",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -376,9 +457,8 @@
     {
       "candidateId": "storylet.vent.base.004",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -400,9 +480,8 @@
     {
       "candidateId": "storylet.vent.base.005",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -424,9 +503,8 @@
     {
       "candidateId": "storylet.vent.base.006",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -448,9 +526,8 @@
     {
       "candidateId": "storylet.vent.base.007",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -472,9 +549,8 @@
     {
       "candidateId": "storylet.vent.base.008",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -496,9 +572,8 @@
     {
       "candidateId": "storylet.vent.base.009",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -520,9 +595,8 @@
     {
       "candidateId": "storylet.vent.base.010",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",
@@ -544,9 +618,8 @@
     {
       "candidateId": "storylet.vent.base.011",
       "storyletId": "Vent",
-      "variant": {
-        "kind": "base"
-      },
+      "selection": {},
+      "weight": 1,
       "turns": [
         {
           "turnId": "a",

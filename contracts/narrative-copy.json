@@ -10,58 +10,210 @@
     "Keep ONI's black humor, but direct frustration at concrete mishaps, schedules and infrastructure rather than rejecting the Duplicants' shared origin."
   ],
   "dialogue": {
-    "anniversary": { "baseline": 5, "target": 10 },
-    "anniversarymissed": { "baseline": 3, "target": 6 },
-    "apology": { "baseline": 15, "target": 30 },
-    "apologybond": { "baseline": 4, "target": 8 },
-    "argument": { "baseline": 24, "target": 48 },
-    "bestfriend": { "baseline": 7, "target": 14 },
-    "brawlbond": { "baseline": 5, "target": 10 },
-    "breakdownbinge": { "baseline": 5, "target": 10 },
-    "breakdowncomfort": { "baseline": 6, "target": 12 },
-    "breakdowncry": { "baseline": 5, "target": 10 },
-    "breakdowndestroy": { "baseline": 5, "target": 10 },
-    "breakdownshock": { "baseline": 5, "target": 10 },
-    "breakdownvomit": { "baseline": 5, "target": 10 },
-    "breakdownwail": { "baseline": 5, "target": 10 },
-    "breakup": { "baseline": 4, "target": 8 },
-    "care": { "baseline": 6, "target": 12 },
-    "casual": { "baseline": 45, "target": 90 },
-    "comfort": { "baseline": 6, "target": 12 },
-    "confession": { "baseline": 6, "target": 12 },
-    "confessionfail": { "baseline": 5, "target": 10 },
-    "confessionrekindle": { "baseline": 4, "target": 8 },
-    "crushloss": { "baseline": 3, "target": 6 },
-    "date": { "baseline": 8, "target": 16 },
-    "fallback": { "baseline": 26, "target": 52 },
-    "fallout": { "baseline": 4, "target": 8 },
-    "famineaverted": { "baseline": 2, "target": 4 },
-    "faminecull": { "baseline": 4, "target": 8 },
-    "faminelastone": { "baseline": 1, "target": 2 },
-    "famineover": { "baseline": 3, "target": 6 },
-    "faminewarning": { "baseline": 3, "target": 6 },
-    "hazardcomrade": { "baseline": 5, "target": 10 },
-    "hazardeased": { "baseline": 5, "target": 10 },
-    "hazardgratitude": { "baseline": 5, "target": 10 },
-    "hazardresent": { "baseline": 5, "target": 10 },
-    "jealousy": { "baseline": 5, "target": 10 },
-    "partnerloss": { "baseline": 4, "target": 8 },
-    "party": { "baseline": 10, "target": 20 },
-    "reconcile": { "baseline": 4, "target": 8 },
-    "rival": { "baseline": 5, "target": 10 },
-    "rivaldied": { "baseline": 5, "target": 10 },
-    "sharedmeal": { "baseline": 14, "target": 28 },
-    "teach": { "baseline": 7, "target": 14 },
-    "vent": { "baseline": 23, "target": 46 },
-    "welcome": { "baseline": 8, "target": 16 },
-    "wrathblame": { "baseline": 5, "target": 10 },
-    "wrathfaded": { "baseline": 5, "target": 10 },
-    "wrathisolated": { "baseline": 5, "target": 10 },
-    "wrathpunch": { "baseline": 5, "target": 10 },
-    "wrathrescue": { "baseline": 5, "target": 10 },
-    "wrathsawcrying": { "baseline": 5, "target": 10 },
-    "wrathspeakup": { "baseline": 5, "target": 10 },
-    "wrathwitness": { "baseline": 5, "target": 10 }
+    "anniversary": {
+      "baseline": 5,
+      "target": 10
+    },
+    "anniversarymissed": {
+      "baseline": 3,
+      "target": 6
+    },
+    "apology": {
+      "baseline": 15,
+      "target": 30
+    },
+    "apologybond": {
+      "baseline": 4,
+      "target": 8
+    },
+    "argument": {
+      "baseline": 24,
+      "target": 48
+    },
+    "bestfriend": {
+      "baseline": 7,
+      "target": 14
+    },
+    "brawlbond": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdownbinge": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdowncomfort": {
+      "baseline": 6,
+      "target": 12
+    },
+    "breakdowncry": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdowndestroy": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdownshock": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdownvomit": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakdownwail": {
+      "baseline": 5,
+      "target": 10
+    },
+    "breakup": {
+      "baseline": 4,
+      "target": 8
+    },
+    "care": {
+      "baseline": 6,
+      "target": 12
+    },
+    "casual": {
+      "baseline": 45,
+      "target": 90
+    },
+    "comfort": {
+      "baseline": 6,
+      "target": 12
+    },
+    "confession": {
+      "baseline": 6,
+      "target": 12
+    },
+    "confessionfail": {
+      "baseline": 5,
+      "target": 10
+    },
+    "confessionrekindle": {
+      "baseline": 4,
+      "target": 8
+    },
+    "crushloss": {
+      "baseline": 3,
+      "target": 6
+    },
+    "date": {
+      "baseline": 8,
+      "target": 16
+    },
+    "fallout": {
+      "baseline": 4,
+      "target": 8
+    },
+    "famineaverted": {
+      "baseline": 2,
+      "target": 4
+    },
+    "faminecull": {
+      "baseline": 4,
+      "target": 8
+    },
+    "faminelastone": {
+      "baseline": 1,
+      "target": 2
+    },
+    "famineover": {
+      "baseline": 3,
+      "target": 6
+    },
+    "faminewarning": {
+      "baseline": 3,
+      "target": 6
+    },
+    "hazardcomrade": {
+      "baseline": 5,
+      "target": 10
+    },
+    "hazardeased": {
+      "baseline": 5,
+      "target": 10
+    },
+    "hazardgratitude": {
+      "baseline": 5,
+      "target": 10
+    },
+    "hazardresent": {
+      "baseline": 5,
+      "target": 10
+    },
+    "jealousy": {
+      "baseline": 5,
+      "target": 10
+    },
+    "partnerloss": {
+      "baseline": 4,
+      "target": 8
+    },
+    "party": {
+      "baseline": 10,
+      "target": 20
+    },
+    "reconcile": {
+      "baseline": 4,
+      "target": 8
+    },
+    "rival": {
+      "baseline": 5,
+      "target": 10
+    },
+    "rivaldied": {
+      "baseline": 5,
+      "target": 10
+    },
+    "sharedmeal": {
+      "baseline": 14,
+      "target": 28
+    },
+    "teach": {
+      "baseline": 7,
+      "target": 14
+    },
+    "vent": {
+      "baseline": 23,
+      "target": 46
+    },
+    "welcome": {
+      "baseline": 8,
+      "target": 16
+    },
+    "wrathblame": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathfaded": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathisolated": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathpunch": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathrescue": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathsawcrying": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathspeakup": {
+      "baseline": 5,
+      "target": 10
+    },
+    "wrathwitness": {
+      "baseline": 5,
+      "target": 10
+    }
   },
   "requiredDialoguePersonalityTags": [
     "hothead",
@@ -72,12 +224,30 @@
     "jumpy"
   ],
   "chronicle": {
-    "colony": { "baseline": 65, "target": 130 },
-    "connective": { "baseline": 126, "target": 252 },
-    "dark": { "baseline": 132, "target": 264 },
-    "relationship": { "baseline": 150, "target": 300 },
-    "routine": { "baseline": 406, "target": 812 },
-    "support": { "baseline": 97, "target": 194 }
+    "colony": {
+      "baseline": 65,
+      "target": 130
+    },
+    "connective": {
+      "baseline": 126,
+      "target": 252
+    },
+    "dark": {
+      "baseline": 132,
+      "target": 264
+    },
+    "relationship": {
+      "baseline": 150,
+      "target": 300
+    },
+    "routine": {
+      "baseline": 406,
+      "target": 812
+    },
+    "support": {
+      "baseline": 97,
+      "target": 194
+    }
   },
   "forbiddenPrintingPodPhrases": [
     "打印舱又吐出",
@@ -93,5 +263,10 @@
     "welcome. it gets worse",
     "ask me again in three cycles"
   ],
-  "mockForbiddenRawCodes": ["RecRoom", "MessHall", "bedroom", "chat"]
+  "mockForbiddenRawCodes": [
+    "RecRoom",
+    "MessHall",
+    "bedroom",
+    "chat"
+  ]
 }

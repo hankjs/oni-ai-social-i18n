@@ -5,8 +5,26 @@
     {
       "promptId": "prompt.conversation.instruction",
       "status": "reviewed",
-      "text": "Write their short conversation now.",
-      "sourceHash": "sha256:3312b0e4783d29962d938c7907569cde4e50c03a9cca008b0c15047b66edd808"
+      "text": "Polish the draft without changing the event, either speaker's affect, or the speaker order.",
+      "sourceHash": "sha256:60ac307004f433d8e42e3101221a0136bebe787033dbdebf96f014eb60a355ae"
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "status": "reviewed",
+      "text": "Resolved game event: [[storylet]]; cause: [[cause]].",
+      "sourceHash": "sha256:09e4410f7465f6ac6834c4ca87c9242a77ea488d1af0d03196111a34072d4ed6"
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "status": "reviewed",
+      "text": "Current affect: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
+      "sourceHash": "sha256:7e859c4b7e61116c7b65f27ad271b0423e5d2c1e03576f6e9bc9f9523c62f38f"
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "status": "reviewed",
+      "text": "Matched authored draft: [[draft]]",
+      "sourceHash": "sha256:12906e4b250fd8151f6ea073df6317b5b2f61a5674a38c2c7decc8a6b6325015"
     },
     {
       "promptId": "prompt.conversation.no-traits",
@@ -47,8 +65,8 @@
     {
       "promptId": "prompt.conversation.system",
       "status": "reviewed",
-      "text": "You are writing dialogue between duplicants in the survival sim Oxygen Not Included. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries],\"affinity_delta\":integer(-5 to 10)}",
-      "sourceHash": "sha256:f1d1e9d9a29d4bc00f7f80a3ad27bb4785b52801a1f36538fa93de6bf6d8e600"
+      "text": "You are polishing dialogue between duplicants in the survival sim Oxygen Not Included. The game engine has already resolved the event, relationship outcome, each speaker's affect, and speaker order; do not change those facts. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, and caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries]}.",
+      "sourceHash": "sha256:2f865275333e32348524c428b7a12bbcb629afe03031af6954d72ad3df9cb240"
     },
     {
       "promptId": "prompt.narrative.cause",
