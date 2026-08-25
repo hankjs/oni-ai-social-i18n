@@ -1,0 +1,236 @@
+{
+  "namespace": "social",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "meaning": "Final conversation instruction.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "meaning": "Immutable resolved storylet and cause.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "cause",
+        "storylet"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "meaning": "Per-speaker affect projection.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "emotionA",
+        "emotionB",
+        "nameA",
+        "nameB"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "meaning": "Authored semantic fallback that the model may rewrite.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "draft"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "meaning": "Empty trait fallback.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "meaning": "First participant.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "meaning": "Second participant.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "profile"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "meaning": "One immutable duplicant profile.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "name",
+        "stress",
+        "traits"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "meaning": "Frozen relationship state.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "affinity",
+        "stage"
+      ]
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "meaning": "Conditional high-stress writing direction.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "meaning": "System contract for generated conversations.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "meaning": "Cause label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "meaning": "Colony state label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "meaning": "Combined colony tone.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "meaning": "Famine tone.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "meaning": "Wrath tone.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "meaning": "Current relationship label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "meaning": "Event label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "meaning": "History heading.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "meaning": "History row.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "cycle",
+        "event"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "meaning": "Final Chronicle instruction.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "meaning": "New relationship label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "meaning": "First person label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "meaning": "Second person label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "meaning": "Place label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "value"
+      ]
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "meaning": "System contract for Chronicle rewriting.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": []
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "meaning": "Witness count label.",
+      "contractRevision": 1,
+      "importance": "critical",
+      "requiredSlots": [
+        "count"
+      ]
+    }
+  ]
+}

@@ -1,37 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://oni-ai-social.local/schemas/manifest.schema.json",
-  "title": "oni-ai-social-i18n manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "schemaVersion",
-    "contentVersion",
-    "sourceLocale",
-    "fallbackLocale",
-    "publishedLocales",
-    "exports"
-  ],
+  "required": ["schemaVersion", "contentVersion", "defaultLocale", "fallbackLocale", "locales", "exports"],
   "properties": {
-    "schemaVersion": { "type": "integer", "const": 1 },
-    "contentVersion": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$" },
-    "sourceLocale": { "type": "string", "const": "zh" },
-    "fallbackLocale": { "type": "string", "const": "en" },
-    "publishedLocales": {
-      "type": "array",
-      "minItems": 2,
-      "items": { "type": "string", "minLength": 2 },
-      "uniqueItems": true
-    },
-    "exports": {
-      "type": "object",
-      "required": ["ui", "dialogue", "chronicle", "prompts"],
-      "additionalProperties": false,
+    "schemaVersion": { "const": 2 },
+    "contentVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "defaultLocale": { "type": "string", "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$" },
+    "fallbackLocale": { "type": "string", "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$" },
+    "locales": { "type": "array", "minItems": 1, "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "status", "ship"],
       "properties": {
-        "ui": { "type": "string", "const": "po" },
-        "dialogue": { "type": "string", "const": "json" },
-        "chronicle": { "type": "string", "const": "json" },
-        "prompts": { "type": "string", "const": "json" }
+        "id": { "type": "string", "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$" },
+        "status": { "enum": ["stable", "preview", "draft"] }, "ship": { "type": "boolean" }
+      }
+    }},
+    "exports": { "type": "object", "additionalProperties": false,
+      "required": ["ui", "dialogue", "chronicle", "prompts"], "properties": {
+        "ui": { "const": "po+json" }, "dialogue": { "const": "json" },
+        "chronicle": { "const": "json" }, "prompts": { "const": "json" }
       }
     }
   }

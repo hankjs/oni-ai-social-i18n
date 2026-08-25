@@ -4,73 +4,85 @@
   "candidates": [
     {
       "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Stay back.",
-          "sourceHash": "sha256:614f1711bb93421651d350ad5afb0930cfa9a82e038646e5bb05bacf070cc672"
+          "text": "Stay back."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Only one of us walks away from this.",
-          "sourceHash": "sha256:5a34fd8cc9dd1807a386789d623e2719b6801414a4f99bbf721f2a928c48c619"
+          "text": "Only one of us walks away from this."
         }
       ]
     },
     {
       "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I don't want to do this.",
-          "sourceHash": "sha256:34490b5dcad0869c5b6954fa9b13b5d422fd3bf9d9a590fee6c4da261731a08b"
+          "text": "I don't want to do this."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Neither do I. But I'm hungry.",
-          "sourceHash": "sha256:8baa81aff05de29ef99c89d06174ab3a85c66b3eaacb619ba2eb7efd39e8dce5"
+          "text": "Neither do I. But I'm hungry."
         }
       ]
     },
     {
       "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I'm sorry.",
-          "sourceHash": "sha256:953b736005c0cb98a5053144c6cb4a7ddfb41b20c048ae8c16e6a517aa601ba3"
+          "text": "I'm sorry."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Don't apologise. Just do it.",
-          "sourceHash": "sha256:10c44ab2fac3c78e80bd164dc89777b131ea9d1ecc6a0816a743f8e98b669911"
+          "text": "Don't apologise. Just do it."
         }
       ]
     },
     {
       "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Why us?",
-          "sourceHash": "sha256:7ecfe37cd2e3abafa71df8ad3a88535d4308da0905dc08c06a8eccf2469f6986"
+          "text": "Why us?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Because nobody likes either of us.",
-          "sourceHash": "sha256:5b2210a2c10a5156cb4c4c1e934717915f03936885f7d1bf513ca4a8d615b767"
+          "text": "Because nobody likes either of us."
         }
       ]
     }

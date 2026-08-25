@@ -4,91 +4,100 @@
   "candidates": [
     {
       "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The food tastes worse after days of silence.",
-          "sourceHash": "sha256:f7480dde2d1b0941df242893a4212baacd69f727a5c6619b0f7ae594d0ad5c82"
+          "text": "The food tastes worse after days of silence."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...I'm sorry. I overreacted.",
-          "sourceHash": "sha256:af0cd0464f963bc4008d16ecd1bccf4a9655670c4df2ad19acc3c9aead40b061"
+          "text": "...I'm sorry. I overreacted."
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "Truce. Talk to me next time.",
-          "sourceHash": "sha256:e8e8b4efa5f4590866315de4112ade3c79c728c63df32692f55c278ece9722e8"
+          "text": "Truce. Talk to me next time."
         }
       ]
     },
     {
       "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You covered my shift yesterday. I know it was you.",
-          "sourceHash": "sha256:31467941425bdf3fea371792717092bb2ab8b0d32b9db59459a03eb2a17753ad"
+          "text": "You covered my shift yesterday. I know it was you."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Hmph. It was on my way.",
-          "sourceHash": "sha256:93b499aebea5c3aa1ea03df55cd8cca66aab7eb19d668d92f3cef68b8ee783a9"
+          "text": "...Hmph. It was on my way."
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "On your way. So is making up. Come on.",
-          "sourceHash": "sha256:c472a76674d08fa014e7b928e8e2a0b276c1c62d27fc729d9269280832f8c576"
+          "text": "On your way. So is making up. Come on."
         }
       ]
     },
     {
       "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Even the hatches avoid us lately.",
-          "sourceHash": "sha256:de5586fd6de5a1213e9ca31ee007f51a9bfa08609eab9c168e70485619d146e2"
+          "text": "Even the hatches avoid us lately."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "We've been that scary, huh. ...I'll go first: I'm sorry.",
-          "sourceHash": "sha256:d0fbeca6c9692f90153b7324b720f28ddf250f01f04db2dfd6f5ff2287987c31"
+          "text": "We've been that scary, huh. ...I'll go first: I'm sorry."
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "Accepted. Let's go eat.",
-          "sourceHash": "sha256:e460a9961900bc86bf03aa3b37be3a6cdc9680338adb720c5a83b5b7bbd78f1c"
+          "text": "Accepted. Let's go eat."
         }
       ]
     },
     {
       "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Here. Espresso. I queued half an hour for the machine.",
-          "sourceHash": "sha256:6ef1de3d5204b14f58cc309036cfc06e18adf1d96a40ef30932594225748bea7"
+          "text": "Here. Espresso. I queued half an hour for the machine."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "This is bribery. ...I accept.",
-          "sourceHash": "sha256:c3f70a84deafe8b4d52662a1de0838658f39216741638e9d83ab44bee589edbe"
+          "text": "This is bribery. ...I accept."
         }
       ]
     }

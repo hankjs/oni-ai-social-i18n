@@ -1,0 +1,1830 @@
+{
+  "locale": "zh",
+  "namespace": "social.log_story",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "text": "{0} 和 {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "text": "我",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "text": "{pair}擦肩而过,互相点了点头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "text": "{pair}在走廊里打了个招呼。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "text": "{pair}碰面时寒暄了两句。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "text": "{pair}远远地挥了挥手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "text": "{pair}隔着半条走廊对视了一眼,心照不宣。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "text": "{pair}在打印舱前排着队,顺便打了招呼。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "text": "{pair}聊了会儿天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "text": "{pair}凑在一起闲聊,气氛不错。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "text": "{pair}聊起了家长里短。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "text": "{pair}聊起了{topic}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "text": "{pair}交换了今天的见闻。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "text": "{pair}有一搭没一搭地聊着,时间过得飞快。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "text": "{actor}向{other}倒了一肚子苦水。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "text": "{other}听{actor}倾诉了很久。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "text": "{actor}把今天的糟心事一件一件数给{other}听。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "text": "{actor}问{other}这日子什么时候是个头,{other}答不上来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "text": "苦水倒完了,{actor}觉得肩上的浮土都轻了些。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "text": "{actor}的情绪快压不住了,{other}陪他坐了一会儿。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "text": "{actor}手把手教{other}干活。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "text": "{actor}给{other}讲了些独门窍门。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "text": "{actor}演示了一遍,{other}看得眼睛都不眨。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "text": "{actor}说只教一遍,{other}决定回去自己偷偷练。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "text": "有些手艺是排班表上学不到的,{actor}传给了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "text": "{pair}聊到深夜,成了彼此的挚友。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "text": "{pair}说了些从没对别人说过的话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "text": "{pair}交换了彼此的秘密,从此不分你我。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "text": "那晚{pair}聊到天亮,谁也没提该睡觉的事。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "text": "有些人认识很久才是朋友,{pair}只花了一个晚上。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "text": "{actor}照顾了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "text": "{actor}帮{other}处理了伤势。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "text": "{actor}给{other}换了绷带,动作很轻。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "text": "{other}嘴上说着没事,还是让{actor}照看了一整天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "text": "{actor}守在{other}旁边,连药都提前晾温了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "text": "{actor}陪着{other},直到他缓过来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "text": "{other}在{actor}的陪伴下平静了下来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "text": "{actor}没说什么大道理,只是陪着{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "text": "{other}想说谢谢,{actor}摆摆手让他省点力气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "text": "有些夜晚只能熬过去,好在{other}不是一个人熬。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "text": "{pair}在{place}一起吃了顿饭。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "text": "{pair}边吃边聊,很放松。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "text": "{pair}拼了一桌,聊了很久。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "text": "{pair}端着餐盘坐到了一起。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "text": "{pair}分食了一份软泥糕,谁也没嫌弃谁。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "text": "饭菜还是老样子,但{pair}这桌的笑声是新的。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "text": "{pair}隔着一张桌子,谁也没先开口。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "text": "{pair}挨着坐下,这顿饭吃得很甜。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "text": "{pair}同屋睡了一晚,作息很合拍。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "text": "{pair}的床铺挨着,夜里翻身都怕吵到对方。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "text": "熄灯之后,{pair}又小声聊了一会儿才睡。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "text": "同一个屋檐下,{pair}连打鼾的节奏都磨合出来了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "text": "{pair}作息不合,谁都没睡好。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "text": "{pair}在{place}一起玩了一会儿。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "text": "{pair}在休息区碰头,玩得很开心。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "text": "{pair}在{place}消磨了一段好时光。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "text": "{pair}较量了几局,输赢已经不重要了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "text": "{pair}把一天的疲惫都玩没了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "text": "{pair}参加了{place}的聚会。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "text": "{pair}在聚会上玩开了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "text": "{pair}在聚会上碰了杯,果汁都快喝出酒味了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "text": "聚会的灯光下,{pair}比平时健谈了不少。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "text": "{pair}一直待到聚会散场,还意犹未尽。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "text": "{pair}约了一次会,气氛正好。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "text": "{pair}独处了一会儿,眼里只有彼此。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "text": "{pair}并肩散步,谁也没提回工作站的事。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "text": "{pair}在望远镜旁约会,轮流看同一片星空。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "text": "约会的规矩是{pair}定的:不许谈排班表。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "text": "{pair}纪念了在一起的日子。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "text": "{pair}又安稳地走过了一年,值得碰一杯。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "text": "在这个连日历都要自己记的地方,{pair}没有忘记今天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "text": "{pair}把纪念日过成了全殖民地的节日——至少他们自己是这么觉得的。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "text": "{actor}忘了和{other}的纪念日。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "text": "{actor}的排班表上唯独漏掉了和{other}的纪念日。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "text": "{other}等了一晚上,{actor}在矿井里浑然不觉。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "text": "日子一忙就糊涂,{actor}把最重要的那天忘了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "text": "{actor}向{other}表明了心意——{other}答应了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "text": "{actor}鼓起勇气告白,{other}红着脸点了头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "text": "{actor}把练习了十遍的话说到一半,{other}就答应了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "text": "在打印舱的见证下,{actor}和{other}牵起了手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "text": "{other}等这句话等了很久,{actor}终于说出口了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "text": "{pair}重新走到了一起。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "text": "{pair}绕了一圈,又回到了彼此身边。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "text": "有些分开只是为了想清楚,{pair}想清楚了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "text": "{pair}再次牵起手,比第一次还要用力。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "text": "{actor}向{other}表白了,但{other}没有答应。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "text": "{actor}的心意,{other}没能接住。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "text": "{actor}说完那句排练好的告白,{other}沉默了很久。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "text": "不是所有真心都有回音,{actor}今天明白了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "text": "{pair}分手了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "text": "{pair}的感情走到了尽头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "text": "{pair}把话说开,然后各自转身。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "text": "{pair}的关系,像气压服的氧气一样耗尽了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "text": "{other}还想挽回,{actor}已经不想再谈了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "text": "{pair}之间像隔着一层看不见的墙,关系停在了原地。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "text": "某种说不清的力量按住了{pair}的缘分,谁也没有再进一步。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "text": "{pair}的故事刚要翻页,又被无形的手轻轻按住。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "text": "命运在{pair}之间画了一条线,谁也没有跨过去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "text": "{pair}的关系起了波澜,又莫名其妙地平息了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "text": "{pair}大吵一架,从此形同陌路。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "text": "{pair}之间那点情分,一夜之间清了零。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "text": "从那天起,{pair}在走廊里遇见都绕着走。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "text": "朋友做到头,{pair}连招呼都省了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "text": "{pair}冰释前嫌,重归于好。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "text": "{pair}把旧账翻篇,重新坐到了一张桌上。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "text": "谁先开的口已经不重要,{pair}和好了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "text": "冷战结束的那天,{pair}都松了一口气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "text": "{actor}向{other}道了歉。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "text": "{actor}先低了头,{other}也就顺势原谅了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "text": "{actor}把「对不起」三个字说得磕磕绊绊,{other}收下了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "text": "{actor}递过去一块软泥糕,算是赔罪。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "text": "面子和{other}之间,{actor}选了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "text": "一场冲突反倒让{pair}成了好朋友。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "text": "{pair}把话说透,反倒成了朋友。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "text": "道完歉的{pair},比吵架前还要亲近。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "text": "{pair}先是吵了一架,然后成了朋友——事情就是这样。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "text": "{pair}吵了一架。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "text": "{pair}争执了起来,谁也不让谁。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "text": "{pair}的声音越抬越高,惊动了隔壁的哈奇。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "text": "{pair}为一点小事红了脸,事后想想都不值。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "text": "一场架吵完,{pair}都觉得是对方先不讲理的。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "text": "因为{cause},{pair}吵了起来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "text": "{pair}结下了梁子,成了宿敌。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "text": "{pair}的恩怨从此有了名字:宿敌。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "text": "往后很长一段日子,{pair}都不会给对方好脸色。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "text": "{pair}放下了宿怨。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "text": "{pair}握了握手,宿怨到此为止。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "text": "恨一个人也挺累的,{pair}决定算了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "text": "{other}死了,{actor}心里说不出是什么滋味。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "text": "宿敌死了,{actor}突然发现走廊安静了不少。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "text": "{actor}曾盼着赢过{other},如今再也没有对手了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "text": "{actor}看见{other}和{third}有说有笑,心里很不是滋味。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "text": "{actor}吃醋了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "text": "{third}和{other}聊得投机,{actor}在旁边数了很久的浮土。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "text": "那股酸劲儿,{actor}自己也说不清来由。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "text": "{actor}失去了{other},整个人都垮了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "text": "{other}的床铺空了下来,{actor}很久都不去看那个方向。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "text": "往后的排班表上再没有{other}的名字,{actor}的日子也空了一块。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "text": "{other}走了,{actor}把没说出口的话咽了回去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "text": "{other}没能等到{actor}鼓起勇气的那一天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "text": "{actor}把准备了好久的话,说给了{other}空着的床铺。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "text": "{actor}崩溃的样子,{other}都看在眼里。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "text": "{other}别过脸去,却没能忘掉{actor}崩溃的那一幕。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "text": "看着{actor}崩溃,{other}第一次觉得基地这么安静。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "text": "{subject}目睹了同伴的崩溃,心里很沉重。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "text": "{subject}撞见了同伴的崩溃,之后一整天都心不在焉。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "text": "{pair}打了起来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "text": "{pair}的争执升级成了拳脚。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "text": "{pair}扭作一团,工具散了一地。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "text": "这一架打得难看,{pair}都挂了彩。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "text": "劝架的都来了,{pair}才肯撒手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "text": "{actor}又下了一天危险区,对{other}的轻松差事有了怨气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "text": "同样是下矿井,凭什么{actor}总去危险的那头——{actor}越想越不是滋味。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "text": "{actor}数着{other}的清闲日子,心里的账越记越厚。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "text": "{actor}对{other}的那点怨气,慢慢散了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "text": "{actor}想通了:危险活总得有人干,不该怨{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "text": "时间把那点火气磨平了,{actor}看{other}顺眼多了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "text": "{other}替{actor}挡了危险活,{actor}记在了心里。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "text": "危险活落下来的时候,{other}先一步接了,{actor}不会忘。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "text": "{actor}欠{other}一个人情,还是拿命换的那种。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "text": "{pair}一起扛过了危险的活,有了过命的交情。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "text": "从危险区活着出来,{pair}看彼此的眼神都不一样了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "text": "生死关头上{pair}谁都没先跑,这交情假不了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "text": "{actor}带头把账算到了{other}头上。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "text": "出了事,总得有人背锅——{actor}领着大家选了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "text": "{actor}一句话,就把众人的怒火引向了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "text": "{other}被孤立了,没人愿意跟他说话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "text": "{other}走进餐厅,一整桌的人都收了声。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "text": "现在连哈奇都比{other}受欢迎。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "text": "{actor}当众替{other}说了句公道话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "text": "{actor}当着所有人的面替{other}说话,没人再吭声。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "text": "众怒汹汹的时候,{actor}是唯一肯替{other}开口的人。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "text": "{actor}向{other}伸出了援手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "text": "{actor}端着餐盘坐到{other}旁边,孤立的墙塌了一角。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "text": "所有人都绕开{other}的时候,{actor}偏偏走了过去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "text": "{actor}趁没人注意,揍了{other}一顿。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "text": "排班表的空档里,{actor}堵住了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "text": "{actor}挑了个四下无人的时候,把火气撒在了{other}身上。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "text": "{subject}看见了那场私刑。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "text": "{subject}撞见了那一幕,慌忙装作没看见。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "text": "有些事看见了也只能咽下去,{subject}把嘴闭得很紧。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "text": "{subject}撞见他一个人躲着哭。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "text": "{subject}路过时听见哭声,放轻了脚步。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "text": "躲在角落里的那个人哭了很久,{subject}没有上前。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "text": "针对{subject}的孤立,总算过去了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "text": "殖民地找到了新的谈资,{subject}的那档子事没人再提。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "text": "日子一长,连怒火也会过期——{subject}重新融进了人群。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "text": "粮仓见了底,恐慌在殖民地蔓延。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "text": "最后一块软泥糕也见了底,没人敢想明天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "text": "饿肚子的消息比氧气传得还快。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "text": "粮食补上了,大家松了一口气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "text": "储藏室重新有了存货,咀嚼声又回来了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "text": "危机解除了,没人追问粮食从哪来的。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "text": "{actor}和{other}为了最后一口吃的动了手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "text": "饿极了的人不讲道理,{actor}和{other}为了一口吃的撕破了脸。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "text": "{actor}盯上了{other}的那份口粮,拳头比理智先到。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "text": "断粮的日子终于过去了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "text": "粮仓重新满了,有些事大家心照不宣地不再提。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "text": "又能吃饱的日子来了,仿佛饥荒从没发生过。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "text": "{pair}迎接了新来的同伴。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "text": "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "text": "打印舱送来了一位新伙伴,{pair}第一个迎了上去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "text": "新人的第一顿饭,是{pair}陪着吃的。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "text": "{subject}的压力又重了一分。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "text": "{subject}的眉头又拧紧了一分。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "text": "弦绷得太久,{subject}自己都能听见响声。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "text": "{subject}松了一口气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "text": "{subject}睡了个好觉,脸色缓过来了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "text": "压在心口的那块浮土,{subject}总算掸掉了些。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "text": "{actor}大老远就冲{other}嚷了一嗓子问好。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "text": "{actor}打招呼跟下命令似的,{other}还是应了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "text": "{actor}左右看了看,才小声跟{other}打了招呼。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "text": "{actor}轻轻朝{other}点了点头,笑得很暖。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "text": "{actor}嘴里还嚼着米虱糕,含混地跟{other}打了招呼。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "text": "{actor}大着嗓门跟{other}聊了个痛快。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "text": "{actor}说着说着就提高了音量,{other}居然没介意。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "text": "{actor}越聊越激动,差点拍了桌子。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "text": "{actor}压低声音跟{other}嘀咕了半天,不知在担心什么。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "text": "{actor}说话轻声细语,{other}听得直点头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "text": "{actor}说着说着眼圈就红了,{other}赶紧岔开了话题。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "text": "{actor}边吃边聊,{other}的话头总被咀嚼声盖过去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "text": "{actor}把自己那份点心拨给了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "text": "{pair}的餐盘收得格外干净。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "text": "{actor}把热乎的那份让给了{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "text": "{pair}这桌最热闹,{actor}的嗓门半个餐厅都听得见。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "text": "{actor}嫌饭菜淡了,{other}默默把盐罐推了过去。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "text": "{actor}吃得心不在焉,{other}问了三遍才应声。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "text": "{actor}翻来覆去睡不着,{other}陪着说了会儿话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "text": "{actor}夜里掉了几滴眼泪,{other}装作没听见。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "text": "{actor}的呼噜声,{other}听了一整夜。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "text": "{actor}起夜轻手轻脚,生怕吵醒{other}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "text": "{actor}睡前又摸出一块点心,{other}闻着香味睡不着。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "text": "玩游戏时{actor}又急了眼,{other}笑着让了他一把。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "text": "就数{actor}的笑声最响,{other}的耳朵遭了殃。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "text": "{actor}输了游戏差点哭出来,{other}赶紧让了他一局。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "text": "{actor}总把输赢让给{other},两个人都玩得开心。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "text": "{actor}玩得提心吊胆,{other}一直在旁边打气。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "text": "{actor}说着说着就哭了,{other}默默递了张纸巾。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "text": "{actor}骂骂咧咧倒完苦水,{other}从头听到尾。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "text": "{actor}絮絮叨叨说了半天担心,{other}一条条帮他理清。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "text": "{actor}的苦水,半个休息区都听见了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "text": "{actor}连诉苦都轻声细语,{other}听得格外认真。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "text": "{pair}聊了几句,客气得像刚认识。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "text": "{pair}话里带刺,聊得像在过招。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "text": "{pair}聊着聊着,目光就躲到了别处。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "text": "{pair}僵着脖子,交换了几句必要的话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "text": "{pair}凑在一起说悄悄话,旁若无人。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "text": "{pair}同桌吃饭,各自盯着餐盘。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "text": "{pair}同桌吃饭,刀叉碰得格外响。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "text": "{pair}同桌吃饭,谁都吃得心不在焉。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "text": "{pair}同屋睡了一晚,谁也没提从前。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "text": "{pair}同屋睡了一晚,背对着背。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "text": "{pair}同屋睡了一晚,都睡得不踏实。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "text": "{pair}同屋睡了一晚,屋里冷得像冰窖。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "text": "{pair}挤一张床睡了一晚,醒来还牵着手。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "text": "{pair}一照面就乐了,谁还记得当初那一架。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "text": "{pair}聊得热络——不打不相识。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "text": "{pair}聊起那次死里逃生,话就没个完。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "text": "{pair}边吃边碰了碰杯,过命的交情都在里头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "text": "{pair}有说有笑,当初那次拒绝如今成了笑谈。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "text": "{pair}挨着坐下,这顿饭等了不止一天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "text": "继那次争吵之后,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "text": "上次的拒绝没有让{actor}放弃,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "text": "分开之后,他们还是放不下彼此,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "text": "目睹了那场崩溃之后,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "text": "冷战了这些日子,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "text": "那场争吵终究没收住,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "text": "积怨已久,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "text": "裂痕再也没能弥合,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "text": "又一次,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "text": "这已经是第{0}次了,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "text": "在断粮的阴影下,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "text": "在众怒未平的日子里,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "text": "消息很快传开,大家都在谈论他们。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "text": "整个殖民地都替他们高兴。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "text": "殖民地里的空气沉了几天。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "text": "大家看在眼里,都不好受。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "text": "{pair}这天凑在一起聊了好几回。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "text": "{pair}这一天有说不完的话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "text": "{pair}这一天打了不少照面,越来越熟络。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "text": "{pair}这天一起吃了好几顿饭。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "text": "{pair}这天一有空就凑在一块儿玩。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "text": "手上的活计",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "text": "彼此的差事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "text": "挖掘的进展",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "text": "建造的门道",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "text": "新琢磨的菜谱",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "text": "庄稼的长势",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "text": "小动物的脾气",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "text": "研究的新发现",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "text": "机器的维护",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "text": "包扎的手法",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "text": "搬货的路线",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "text": "新挂的装饰",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "text": "锻炼的心得",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "text": "穿气压服的窍门",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "text": "矿道里的事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "text": "新盖的走廊",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "text": "灶台上的新花样",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "text": "地里的收成",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "text": "圈里的小家伙们",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "text": "实验台前的发现",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "text": "机器的毛病",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "text": "医务室的药箱",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

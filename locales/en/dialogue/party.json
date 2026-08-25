@@ -4,241 +4,261 @@
   "candidates": [
     {
       "candidateId": "storylet.party.base.001",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Everyone over here! No work talk tonight!",
-          "sourceHash": "sha256:24d20a51f7ec1224033088ac007f6b8303bc84b3e8996ea12f43f4146f2e8931"
+          "text": "Everyone over here! No work talk tonight!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Then what do I talk about? Tomorrow's shifts?",
-          "sourceHash": "sha256:ada7f35abfb333086ebcec4e4330ce177ee4dee7db1d459d48c90baca5d9504f"
+          "text": "Then what do I talk about? Tomorrow's shifts?"
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Hahaha!",
-          "sourceHash": "sha256:df7d3109f296b7d47d274bb77e4a1860d93793d5d1364aed38bb32c0c63519be"
+          "text": "Hahaha!"
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.002",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Cheers to surviving another cycle!",
-          "sourceHash": "sha256:9a696631c433e51c635040b17805b344fc00cbc23cae388fc0c23a8b26a04bfb"
+          "text": "Cheers to surviving another cycle!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Cheers — with recycled water.",
-          "sourceHash": "sha256:10518a2c13313eeb025e326ce703f3796eed4cb13e91c3597760aef131c3f1f5"
+          "text": "Cheers — with recycled water."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Next time, filtered water!",
-          "sourceHash": "sha256:4024ba7dcb64456651ac70df5be2757975cde03476a69f36a3d59998bdcf3ea1"
+          "text": "Next time, filtered water!"
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.003",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Tonight's music: the manual generator!",
-          "sourceHash": "sha256:42a2f93ab2454979db3f36e59e9df3ff308cc95d974e405e359014edaf62b0b7"
+          "text": "Tonight's music: the manual generator!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "That's just someone doing overtime.",
-          "sourceHash": "sha256:c1478214262112df0a74cb9847eccc4cc075b533c6786ae78273b1a895f7b6bd"
+          "text": "That's just someone doing overtime."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Keep the tempo steady!",
-          "sourceHash": "sha256:fadfbc8d70f194eda2b49fefbbd4b79c9f4486390204cd230f09a60ec823e6c9"
+          "text": "Keep the tempo steady!"
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.004",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Everyone share their worst day here.",
-          "sourceHash": "sha256:ebbcd09abec3ef2e60b7ad9a502efacf98dbe6ea83dd7fe323dd85a1494c2563"
+          "text": "Everyone share their worst day here."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Me first: I fell into the polluted water tank.",
-          "sourceHash": "sha256:5cfe3a0a4f04e6628aeec8a8a1470ef329b4f5f8d7c54ab0e7563277eaf69ed3"
+          "text": "Me first: I fell into the polluted water tank."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "You win. Instantly.",
-          "sourceHash": "sha256:0e560e10d65da8a6afa224a6339547f58ddf885932cb1b56a70ebf231949cd80"
+          "text": "You win. Instantly."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.005",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "A toast! To the ceiling that hasn't collapsed!",
-          "sourceHash": "sha256:887355e1270e9f572758c5165311df31932bd2e0bb70c92ac0f7bdee618358f2"
+          "text": "A toast! To the ceiling that hasn't collapsed!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "To everyone still breathing!",
-          "sourceHash": "sha256:c704a4b5d5ee8428f171998705884458b298dc6ee42cac1983acb0bd67a9a3c1"
+          "text": "To everyone still breathing!"
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "To whoever's off early shift — no one? Party's over.",
-          "sourceHash": "sha256:16fa058ba81ec3cdb5a94f235b4677b07d05eaaaba02ee4d8e5e08f9731d4219"
+          "text": "To whoever's off early shift — no one? Party's over."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.006",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Who brought the harmonica?",
-          "sourceHash": "sha256:ffbabe8eb7fbdde3d6ebc3815fc9b82c6fc8c30f7cfe590549c6f8a01c8cd95d"
+          "text": "Who brought the harmonica?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "No harmonica. Just the gas vents.",
-          "sourceHash": "sha256:9a14525ed197dcb7e5d9c4bf334f2d0ee239142642449443ced248202983f7e1"
+          "text": "No harmonica. Just the gas vents."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Close enough. Very rock and roll.",
-          "sourceHash": "sha256:1ad6405bda8e5609e46881a07dbb0be592531bdbc2ee4ec189c6bbdb2f9204af"
+          "text": "Close enough. Very rock and roll."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.007",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You're at the party but facing the wall.",
-          "sourceHash": "sha256:4e4ea66d75246eb1027052901ef4f8fad8ca74ada313598c85eb0c90c7c5ba9d"
+          "text": "You're at the party but facing the wall."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I'm here in spirit. The wall and I are close.",
-          "sourceHash": "sha256:070213d631fe684fc7b7667aeb58d5ec1639f4bd620ed7ec7208997e12411112"
+          "text": "I'm here in spirit. The wall and I are close."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "One drink. The wall will wait.",
-          "sourceHash": "sha256:2e49ad4ec7a3d35f33a9f3fa3da487bad5067adc1df2fc9ce88da2a4280f148d"
+          "text": "One drink. The wall will wait."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.008",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Vibe check: how are we all doing?",
-          "sourceHash": "sha256:8335f02130a9308f8750f231e3b97e130e69d6de4f94fffbfa6411f001306bff"
+          "text": "Vibe check: how are we all doing?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Alive.",
-          "sourceHash": "sha256:ab8b276badc4bc29c56961d1d88cc83daf67b07811dc727be0781bbf84acbddd"
+          "text": "Alive."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Employed. ...Passing grade, barely.",
-          "sourceHash": "sha256:4be8114fd94ad5e111e35aea3c054025e0b97eac970b498f04ea76c5337eee67"
+          "text": "Employed. ...Passing grade, barely."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.009",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "New rule: tonight's dance contest has no rules.",
-          "sourceHash": "sha256:cdd4329ffa95633c60d4417da8ee943a06f9c5c530a647075052f910d78a8cfb"
+          "text": "New rule: tonight's dance contest has no rules."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Then how do we win?",
-          "sourceHash": "sha256:d9d41c9ef9485ec59ab80fca2058987f2deb09a5d74797a5befb69349762b4d4"
+          "text": "Then how do we win?"
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "Nobody knows. We're a room full of huh-cats.",
-          "sourceHash": "sha256:df9231581656e3a2fe9493024baf14c107062bda871163e3a22bc95b76c367ec"
+          "text": "Nobody knows. We're a room full of huh-cats."
         }
       ]
     },
     {
       "candidateId": "storylet.party.base.010",
+      "storyletId": "Party",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "There's a green blob vibing by the jukebot.",
-          "sourceHash": "sha256:38ef0c785555d095c390d63838688a86aeece1186931aebb7b8e6a46444d45a5"
+          "text": "There's a green blob vibing by the jukebot."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "That's a morb. How did it get in here?",
-          "sourceHash": "sha256:f46855387b8c01f052dddd21fdd8713e07e3128bdc727a0589e6c1a741729b35"
+          "text": "That's a morb. How did it get in here?"
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "It glorped in. It stays for one song.",
-          "sourceHash": "sha256:fb2b8dd92a2152c2fd807990e78e9641dd6aa053e3291c8d8b40d578d10e789d"
+          "text": "It glorped in. It stays for one song."
         }
       ]
     }

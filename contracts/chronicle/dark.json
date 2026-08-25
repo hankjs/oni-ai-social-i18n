@@ -1,0 +1,278 @@
+{
+  "family": "dark",
+  "pools": [
+    {
+      "poolId": "chronicle.brawl.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.famine-averted.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.famine-cull.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.famine-over.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.famine-warning.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.hazard-eased.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.hazard-resent.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.loss-crush.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.loss-partner.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rival-died.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rival-over.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rival.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-blame.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-faded.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "solo",
+      "allowedSlots": [
+        "subject"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-punch.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "solo",
+      "allowedSlots": [
+        "subject"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.wrath-witness.baseline",
+      "family": "dark",
+      "angle": "base",
+      "participantMode": "solo",
+      "allowedSlots": [
+        "subject"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    }
+  ]
+}

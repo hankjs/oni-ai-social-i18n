@@ -4,37 +4,49 @@
   "candidates": [
     {
       "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "There is food again. Nobody asks what it is.",
-          "sourceHash": "sha256:fb7e8623c6023792b97182c8899169debbb893253725e9d4a019428661e6f8d8"
+          "text": "There is food again. Nobody asks what it is."
         }
       ]
     },
     {
       "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The crisis is over. People sit a little further apart than they used to.",
-          "sourceHash": "sha256:a21665abcff5b9290b25bbe5752161656218ecc3ed7b21273ba76b6ac00d3b19"
+          "text": "The crisis is over. People sit a little further apart than they used to."
         }
       ]
     },
     {
       "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The larder is full again. Nobody checked the label.",
-          "sourceHash": "sha256:f880517e2fd8379e301ecc822fe905ba47fcf61e87837ce6d9bf346b0494773b"
+          "text": "The larder is full again. Nobody checked the label."
         }
       ]
     }

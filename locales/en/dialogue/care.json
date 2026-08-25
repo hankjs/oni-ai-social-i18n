@@ -4,115 +4,132 @@
   "candidates": [
     {
       "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Hold still. Let me redo that bandage.",
-          "sourceHash": "sha256:f6d8d177a7919ef76768e4cecbbe75a1d7e150318eaf1997562eec699e618358"
+          "text": "Hold still. Let me redo that bandage."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Easy... but thank you.",
-          "sourceHash": "sha256:edd75f2d09ac1bd45b76d58002f42e3d80c2a4524c9a4335df5f824630b5b1f3"
+          "text": "Easy... but thank you."
         }
       ]
     },
     {
       "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Rest today. We will handle the remaining work.",
-          "sourceHash": "sha256:84c430bdd4753ad3fb059c64a7e98a4b8469830c2d5904d223c8995bfe4782fe"
+          "text": "Rest today. We will handle the remaining work."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Hearing that, I can finally close my eyes.",
-          "sourceHash": "sha256:a608a512ff88df6b68e075ee45c5db860e97125b731de83474937242244e1a7d"
+          "text": "Hearing that, I can finally close my eyes."
         }
       ]
     },
     {
       "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The medicine is bitter, so here's half a candied berry.",
-          "sourceHash": "sha256:f0f176b646646e3e95408b54469eca58f211f9ef5268b80553e5171007ae072a"
+          "text": "The medicine is bitter, so here's half a candied berry."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Half? ...Fine. Nurse's orders.",
-          "sourceHash": "sha256:edbd00013c4bf61c81371fe04d734104750850c0668c161646389bbb670cff14"
+          "text": "Half? ...Fine. Nurse's orders."
         }
       ]
     },
     {
       "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Fever's gone, but you're staying down today.",
-          "sourceHash": "sha256:57b862350a67caf95d7e1e5e751433dfbdca844f112f0dc72a293ea49b9c083f"
+          "text": "Fever's gone, but you're staying down today."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "This cot is fusing to my back. ...Okay, you win.",
-          "sourceHash": "sha256:79bdc00f5c0bbdd21b25984e707505f925cba7ca799f8aa79024bdffe10d9b8f"
+          "text": "This cot is fusing to my back. ...Okay, you win."
         }
       ]
     },
     {
       "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I checked the germ overlay. Your bedside is spotless.",
-          "sourceHash": "sha256:de9f35694f9d33bc038628dbec0427bc43a88d441ed7ecdcf45e47d1e9b702d6"
+          "text": "I checked the germ overlay. Your bedside is spotless."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Great, I can cough freely. ...Kidding.",
-          "sourceHash": "sha256:c59f389cb558deff899864ff9f7ff737698785cbcae14d320f95347c2e5006ed"
+          "text": "Great, I can cough freely. ...Kidding."
         }
       ]
     },
     {
       "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I measured the dose myself. Drink up.",
-          "sourceHash": "sha256:87a35eb6efb715db89fb930e60325f0052b3683d9061bfa22fcf8e1eb95e1fdb"
+          "text": "I measured the dose myself. Drink up."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Who poured a double last time, again?",
-          "sourceHash": "sha256:a2f70628c8b980112ff697961526aaf88cce4731755a6648b26b44112c244b6b"
+          "text": "Who poured a double last time, again?"
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "...Which is why I weighed it three times.",
-          "sourceHash": "sha256:a0a638450a3a1d3f8d8ce3b58703de734242daffce2e403b22c2571dbf3b8bcf"
+          "text": "...Which is why I weighed it three times."
         }
       ]
     }

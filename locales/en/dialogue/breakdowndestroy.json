@@ -4,91 +4,106 @@
   "candidates": [
     {
       "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I fixed that yesterday.",
-          "sourceHash": "sha256:766f8da7d35730284f155e782c07c3e403d2bcad7d64df8dcbcac38505a9e765"
+          "text": "I fixed that yesterday."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "You fixed it well. It rang for ages.",
-          "sourceHash": "sha256:e97b3a7affde2ac56a54613e3b23d21d657ec513569ca7ac790424e9e083e237"
+          "text": "You fixed it well. It rang for ages."
         }
       ]
     },
     {
       "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Stop—that's the oxygen unit.",
-          "sourceHash": "sha256:a979e494534f7098c9d5ec0bb9180d8ad3f9adec5a51d529ca83d9a5f7aef125"
+          "text": "Stop—that's the oxygen unit."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Which one.",
-          "sourceHash": "sha256:d6b7af944fc15b72c846fa35b40dff6f276a34fd02d14573f4b7ff3e11f2864d"
+          "text": "...Which one."
         }
       ]
     },
     {
       "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You're smashing our stuff.",
-          "sourceHash": "sha256:b3bd5d225a8a04172f1666806da0af564b6523a9677869da3403b08e07b5937d"
+          "text": "You're smashing our stuff."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "What in here is mine?",
-          "sourceHash": "sha256:931b13bdc33ce2e28f38f38856a36b15bfbabe97d165eac09cb4ae5cf76de0d4"
+          "text": "What in here is mine?"
         }
       ]
     },
     {
       "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Are you done.",
-          "sourceHash": "sha256:e3d498048f1e6ff20c5143214d1596e3ded2bf778205602f64029e12e34aafce"
+          "text": "Are you done."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "No. But my hand hurts.",
-          "sourceHash": "sha256:1ea74a3ac7718a01390fddd7ee6d1490b4f89c9166f415ba76a966e084e9181f"
+          "text": "No. But my hand hurts."
         }
       ]
     },
     {
       "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The wall is harder than you are.",
-          "sourceHash": "sha256:e339edce9aecd9bb71345f1f0f71881a5f0f5e25187319fd82ecc46fefa5c680"
+          "text": "The wall is harder than you are."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "The wall has never let me down.",
-          "sourceHash": "sha256:7debd6f7c18a6910fdc99790d343260301314918bfa2b9deb53751be52033bd5"
+          "text": "The wall has never let me down."
         }
       ]
     }

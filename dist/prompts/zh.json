@@ -1,183 +1,241 @@
 {
-  "schemaVersion": 1,
-  "locale": "zh",
+  "schemaVersion": 2,
+  "requestedLocale": "zh",
+  "fallbackChain": [
+    "zh",
+    "en"
+  ],
   "entries": [
     {
       "promptId": "prompt.conversation.affect",
       "text": "当前情绪：[[nameA]]=[[emotionA]]；[[nameB]]=[[emotionB]]。",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "emotionA",
         "emotionB",
         "nameA",
         "nameB"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.draft",
       "text": "已匹配的本地文案草稿：[[draft]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "draft"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.instruction",
       "text": "在不改变事件、人物情绪和说话者顺序的前提下润色草稿。",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.no-traits",
       "text": "没有显著特质",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.participant-a",
       "text": "甲：[[profile]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "profile"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.participant-b",
       "text": "乙：[[profile]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "profile"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.profile",
       "text": "[[name]]（特质：[[traits]]；压力：[[stress]]）",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "name",
         "stress",
         "traits"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.relationship",
       "text": "关系：[[stage]]，好感 [[affinity]]。",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "affinity",
         "stage"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.scene",
       "text": "已经由游戏引擎确定的事件：[[storylet]]；起因：[[cause]]。",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "cause",
         "storylet"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.stress-hint",
       "text": "压力“濒临崩溃”表示复制人快要情绪崩溃；让这种紧绷体现在其台词里，例如易怒、疲惫或勉强支撑。",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.system",
       "text": "你在为生存模拟游戏《缺氧》(Oxygen Not Included) 润色复制人之间的对话。事件、关系结果、双方情绪和说话顺序均已由游戏引擎确定，禁止改写这些事实。复制人是 3D 打印出来的小人，在太空殖民地里挖资源、建基地、努力生存。对话要符合游戏氛围：黑色幽默、吐槽工作、关心彼此，口语化，每句不超过 30 字。严格只输出 JSON，不要输出任何其他内容。格式：\n{\"turns\":[{\"speaker\":\"名字\",\"text\":\"台词\"},...2到4条]}。",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.cause",
       "text": "起因：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony",
       "text": "殖民地：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony-both",
       "text": "断粮中、众怒中",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony-famine",
       "text": "断粮中",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony-wrath",
       "text": "众怒中",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.current-state",
       "text": "关系近况：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.event",
       "text": "事件：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.history-heading",
       "text": "两人往事：",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.history-line",
       "text": "周期[[cycle]] · [[event]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "cycle",
         "event"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.instruction",
       "text": "请改写成一句编年史。",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.new-state",
       "text": "新关系：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.person-a",
       "text": "甲：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.person-b",
       "text": "乙：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.place",
       "text": "地点：[[value]]",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "value"
-      ]
+      ],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.system",
       "text": "你是殖民地编年史的作者。把给定的社交事件改写成一句话，不超过40字。白描、克制、有历史感；不得改变人名与事实，不要引号，不要emoji，不要数值。只输出这句话本身。",
-      "requiredSlots": []
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.witnesses",
       "text": "目击者：[[count]]人",
+      "resolvedLocale": "zh",
       "requiredSlots": [
         "count"
-      ]
+      ],
+      "contractRevision": 1
     }
   ]
 }

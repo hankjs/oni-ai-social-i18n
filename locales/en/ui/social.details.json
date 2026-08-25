@@ -5,901 +5,901 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
       "text": "Social overview",
-      "sourceHash": "sha256:34e96c18795a14b0cb28f6a1e0c5b9a69dc1cb213929e79ce0423c7adcdcb587",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE",
       "text": "Relationships",
-      "sourceHash": "sha256:78f4e555140fbb07a6da9a6f6cf51c1013851281ca059245f36a3ca787b65bb1",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL",
       "text": "Affinity",
-      "sourceHash": "sha256:a707943bf558839b0227bc6a839b1d69008e653919113f770d67df5f01f5a826",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK",
       "text": "Best friend",
-      "sourceHash": "sha256:8187ce5e5211530b17dc9e073be14edda7b5895a3e8a599bb0ffca7a187de0e2",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
       "text": "Reputation (observation only)",
-      "sourceHash": "sha256:10a0f32303e874698abf31a56a9ef67a27224f9d90821e770da361f82b6f6bd5",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "Average affinity with all living duplicants. For now it only reflects popularity and affects nothing; reputation gameplay is planned for a later version.",
-      "sourceHash": "sha256:b20ddb242f5a03384dc605d39c43c454ae52ec04a1708c39e0624ce57d334736",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.COLONY_LABEL",
       "text": "Colony",
-      "sourceHash": "sha256:8b2dd385c74ffb366a768452403445e1d649ae42b5b0a8d3fc0ab11041629b2a",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP",
       "text": "Average pairwise affinity across all living duplicants. At 40+, Colony Cohesion grants +1 morale to everyone; multiple cold wars trigger Colony Discord (-1 morale, more arguments). Shared meals, parties and matchmaking all help.",
-      "sourceHash": "sha256:f70e3052dd2b1fa002b989c993d7ffc1b5f75cae115b1c07c6c0c0a0aa5187f0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE",
       "text": "The social system is not ready",
-      "sourceHash": "sha256:422ef14c0c621a45098b6ab9a860584fcfe7d231e30988db99de58ebcddceb58",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP",
       "text": "Enter a colony and wait for the social system to initialize",
-      "sourceHash": "sha256:150161e7ce80d35b8bcfe8d4f692d007a59f6ef61d276491975c8be698d858af",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT",
       "text": "Fallen duplicant",
-      "sourceHash": "sha256:b74128b02588ce5656e19415cee37f1e96dc75f632786a513d52c4ce29bc5e16",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "No relationships recorded yet",
-      "sourceHash": "sha256:0a46408356ecea0af887238716165a9d5ebeae693fce135c8855898583baba21",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP",
       "text": "Relationships and affinity appear here after duplicants interact",
-      "sourceHash": "sha256:37b1345eab9e32da1510656c47e882fcb8a9203a9b576a6336ac002740b25921",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
       "text": "Mood log",
-      "sourceHash": "sha256:0aeb21db0b989c86d7837d5fd2dcfbfd0ebe5f49a498cb295171fbb9cab0d1c5",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
       "text": "No recent mood entries",
-      "sourceHash": "sha256:917205e1d080ca8c3700ffceec81e7aa5cf446dca80e20a06fb8f7134427aa8a",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
       "text": "This duplicant's recent social events and their effect on affinity and mood",
-      "sourceHash": "sha256:d4b6ee444d613b15b6ca9e69f8315cf9d4569353f1d43ccfa844ad6c997f4603",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAITS_LABEL",
       "text": "Traits",
-      "sourceHash": "sha256:23c1ceb21eae4c1dc24f949a94a2da1b69de1a0be8a34d493f4076f810d592b4",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP",
       "text": "Some traits affect socializing: fewer arguments and brawls, better or worse reactions to mentoring, and grumpier shared sleep when schedules clash. The parenthesis after a name is that trait's effect.",
-      "sourceHash": "sha256:bcaa4d72ab8036d9894a45aa154bcd415dc2e341300bbe1d95b34f437f52fe9b",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT",
       "text": "hates arguments",
-      "sourceHash": "sha256:07b77d4f4a04e20fa844e7f846f43aa4dd0fcd89b930b7e0ef086c0277223172",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER",
       "text": "appreciates being taught",
-      "sourceHash": "sha256:4290a46d892a7e90c05b5fcc25a53470a220baa5ff5043c701e60b4b8ed099bb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER",
       "text": "doesn't take mentoring well",
-      "sourceHash": "sha256:fb0b2422def95eeb9dbac7c136b5b3b0b660072edf508b455c29b26fb2fe74dd",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD",
       "text": "early riser, steady schedule",
-      "sourceHash": "sha256:527b86881d95450d089d565b7fb5ad284f7109563090d15006cc2de6fa03cee9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL",
       "text": "night owl, hard to share a bunk with",
-      "sourceHash": "sha256:b95e4e903f6f19b56c93a8012e0534b90e1cff331537cb802c1c4d1303297104",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY",
       "text": "falls asleep anytime, schedule never matches",
-      "sourceHash": "sha256:240085fa5323d981641c342e488c8670645ed2d9557ca759ad5bb4e5a7d52c56",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
       "text": "Temperament history",
-      "sourceHash": "sha256:4d7756cdb1a647e8efcce128d56fd4f31eab5700b43488062a5a417ccb114441",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT",
       "text": "Current temperament: {0}",
-      "sourceHash": "sha256:54a503fdadb6a29c9fac5038a6bb75f5749efde0278c7d05ffd4e86ea525ff3d",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE",
       "text": "Change temperament",
-      "sourceHash": "sha256:23810726f4859c5b7a8741c94197afeadea3885a851ae0633fe6b0bd351bb323",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
       "text": "Guide this duplicant into a different social temperament. The old one stays on the history list for display only and no longer takes part in later social rolls.",
-      "sourceHash": "sha256:62e8c938de575ea0b1c8d22f874a7fb7432daa490189dc79bb2a326ec9630783",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY",
       "text": "No temperament changes yet",
-      "sourceHash": "sha256:6fd20be26d1e4921254059b7de192239e7b431256e0163f63bff2f1f8050d6e0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE",
       "text": "Change temperament",
-      "sourceHash": "sha256:23810726f4859c5b7a8741c94197afeadea3885a851ae0633fe6b0bd351bb323",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY",
       "text": "Choose a new temperament for {0}. The old one stays on the history list for display only.",
-      "sourceHash": "sha256:4fdbd366383b1d9b957e61f2b758dab731abc4ccab7c313e9c1378c2270c1e7d",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE",
       "text": "Cycle {0} · {1}",
-      "sourceHash": "sha256:384e5bc6e16d6b2ac2c0dfec564a0ad10d453233ddd97ef49e3cd1e5cd1f2cf7",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED",
       "text": "Already that temperament",
-      "sourceHash": "sha256:cc97e2356608c37ed7bc39783d8050e2dffab020518d893ae67d7e2e37908c13",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED",
       "text": "Couldn't change temperament: the social system is not ready",
-      "sourceHash": "sha256:b33d34f33d7ef0c9fe7facdfeb15a7039c54aaf25cda74abb0f554986fe3a769",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD",
       "text": "hotheaded",
-      "sourceHash": "sha256:d9a29b52ed08e720d73a0c044d789a54820ceca4337d5f9f027e9da71d8671d3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY",
       "text": "tearful",
-      "sourceHash": "sha256:5ebb18c23e4b26c65e2eec7f4392a84d83e30f21574a90c3a3148af6b02970ae",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD",
       "text": "loud",
-      "sourceHash": "sha256:460cf085b1cfc0c36357c56523b8cd40228160442e851cbece3adad829bdf04e",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER",
       "text": "greedy",
-      "sourceHash": "sha256:1eed5a854c9fb3c87a2d93610dab23430bb76fe6cfc409a3eccffef052ef3cb9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS",
       "text": "nervous",
-      "sourceHash": "sha256:57a39d18bc15d628be2522828fc083bde68616bf800d7c4debe4a94fd479ce2f",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY",
       "text": "jumpy",
-      "sourceHash": "sha256:8d9336a2e72926f47c5ce9a083a4c544e4bb04c9b743f51fe0f0104e6e6952a3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE",
       "text": "gentle",
-      "sourceHash": "sha256:77967971d80561062151ca2134cbe6f7ac59a2a2f214ba39a6036c060e941d0a",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS",
       "text": "curious",
-      "sourceHash": "sha256:84d49cbcee69059e85b052e8604afb251aa2b3245e7a8feb7a5d56aa60d821c1",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW",
       "text": "slow",
-      "sourceHash": "sha256:3ebed9c407844f3a121d8d92b87ddad8836666242b193465c97cbe154d88ae37",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY",
       "text": "early-rising",
-      "sourceHash": "sha256:b0b18ea30eca27fab972a0a45e4b7635d11536bf8e4e597187442d8d4795a248",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT",
       "text": "nocturnal",
-      "sourceHash": "sha256:9ecc5c87790045948b0b63749e10cd15f460ad80541fd5fd7f776a90a4994402",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY",
       "text": "sleepy",
-      "sourceHash": "sha256:e461e49c7886e1375baae253b3c80332c1a289eb274b86eb468a62fcd57832be",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE",
       "text": "athletic",
-      "sourceHash": "sha256:21ff95342d56c35fd61abe3a2e01c8f518d52f48ea34b4403a33e2dd36ecd186",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN",
       "text": "original",
-      "sourceHash": "sha256:c65415748805b1de1e37583f82257cf0848c52999e3bf3714c9b75126a2e3db5",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
       "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
-      "sourceHash": "sha256:0e510108e08ab30c4d543f3aa11bbe6debff82f719f98baf3746ff6349935f84",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
       "text": "{0} changed dramatically: {1} temperament became {2}.",
-      "sourceHash": "sha256:3d76da7bc7a9f22bc4b36f1489cb609db43ca5dc7e771281bd5429b15c1f5f10",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED",
       "text": "Beloved",
-      "sourceHash": "sha256:2037d653a20e9d31fbd8f5eba4e317405cf964a9f2262ba34d3fc300c2913e23",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR",
       "text": "Popular",
-      "sourceHash": "sha256:c61fd1a0fa2bf88e6dc26a65fc096c2164d684222b93a2905612b0bbb547b250",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN",
       "text": "Known",
-      "sourceHash": "sha256:f596bfa307ad57034962409df113fdf9ab295cc360f44bb6621c7a49227c2c13",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST",
       "text": "Outcast",
-      "sourceHash": "sha256:46350eb025784b117438bb1566e35f2d74d8ac388cb6aa4c1acadb9e3f0d4f76",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE",
       "text": "Invisible",
-      "sourceHash": "sha256:697fad3aace6b3ac17943ac6f952d3bd48fed4ce14d1505d0b2be34a5a97edb0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION",
       "text": "Cohesion",
-      "sourceHash": "sha256:b92419323594b2a80d8707a18bcd949b45a1abf9c9ef1e8d00e3a85f92fd09d4",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD",
       "text": "Discord",
-      "sourceHash": "sha256:e64c67aede67c65ebce02c7487707b559c7cfc5be0506b2a96a44273c4cdb9f9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL",
       "text": "Neutral",
-      "sourceHash": "sha256:932af9fb91d0ffb2c828df0498732d735e26d34dd59bab3c90aa1a426c64fa72",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS",
       "text": "Strangers",
-      "sourceHash": "sha256:fa0f475e25f8a7854fede99234fa5b3042bc0e984790146280ab9cc5ef6b39f2",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
       "text": "Acquainted",
-      "sourceHash": "sha256:c9d40e9fee5667ee0eacecc5c2d5f56b0982101c9bd3381f1728f4c5cf405c01",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS",
       "text": "Friends",
-      "sourceHash": "sha256:7b89058315f35960750e53eb3f8a4049bb1318608a11ded6b467452d4f3bdc2d",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH",
       "text": "Crush",
-      "sourceHash": "sha256:2778c6fa5bd74f0fa45cb57ab489d0e14b3a11332c067a96cf1cebb74b9728d1",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE",
       "text": "Couple",
-      "sourceHash": "sha256:7ac9c16a45c6008a7b25e3cf517355dfdc0be917d4e3dff18f31b0d3e4c0946e",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR",
       "text": "Cold War",
-      "sourceHash": "sha256:d066b264d0035e437d82439db079e6e9cd199bc9f510fe41b8b289b572833c66",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP",
       "text": "Broken Up",
-      "sourceHash": "sha256:a787fbadadc2ed2892f7898afe638a4772f94871907276320d28ca0229c5fec9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING",
       "text": "Grieving",
-      "sourceHash": "sha256:01144eb9c278e593401fb7cff990bfafa0ebde118fde60adf60f9c1342ba92b7",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING",
       "text": "Mourning",
-      "sourceHash": "sha256:9887f36604fe1733b68d918f1d861bdeb34712dc3a9145f5a8e8a470f7b2e22e",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL",
       "text": "Rivals",
-      "sourceHash": "sha256:4f2012733e8580d60fe342ef5e51dbf2fd39412d3824156f952f60076fdfb652",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
       "text": "Unknown social event",
-      "sourceHash": "sha256:54bb3316980164a8deed5e0534246d0b3211c71105e24bc9b3c33a23bdc24b1c",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT",
       "text": "Argument",
-      "sourceHash": "sha256:ecd00f9a2ff2f84c3a5f9683de90d129264240bcac8f4f81d069b1670377f6c8",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY",
       "text": "Apology",
-      "sourceHash": "sha256:41b2d0558f583a88d34edad572f2dfc6c7aacf367c4cffbc57bf15dffcf74fa9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.VENT",
       "text": "Vented",
-      "sourceHash": "sha256:3cf6e742544cc7e9985080481921fa85dfa42c3772beb9af1eb6d53a9bb29e19",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.TEACH",
       "text": "Mentoring",
-      "sourceHash": "sha256:4b02b54238036e2af3f3a6d26a60707706fb364e605c4440b006421c097f1c7d",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND",
       "text": "Heart-to-heart",
-      "sourceHash": "sha256:da64955280e6751da92aa54ad4feac55045a38410c8041990efc39dea16f8fef",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION",
       "text": "Confession accepted",
-      "sourceHash": "sha256:96df7c067367c47ea36865332842a561cddfb8fbe90ef37c727eeadaa3da6acb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED",
       "text": "Confession rejected",
-      "sourceHash": "sha256:29fe8fe0ae6d18998c49d87471c51a096e4e4a087f55d4ff17d77023665b9023",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.DATE",
       "text": "Date",
-      "sourceHash": "sha256:d5920be0abb2fe193a60db93eb16c958731820b96d318176367ec083f6c5c4e8",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
       "text": "Shared meal",
-      "sourceHash": "sha256:7193a33b96193887aafc9ae9cbceb91b8b1e5f6402aa8b4587dde4f5a0a6779e",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.CARE",
       "text": "Medical care",
-      "sourceHash": "sha256:50110ec5a3e77c7cfc5360065defd82a593c4206d4f1b5775c21fe014625d8f0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY",
       "text": "Jealousy",
-      "sourceHash": "sha256:2b2654ba594cab4632282196c6bc39dbf79a1cbad904a26bc751cecb9ee39db0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE",
       "text": "Reconciled",
-      "sourceHash": "sha256:bff9a3719973e34964d37ee503dde01d7547ae57f542ad02a1167493899d19e3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP",
       "text": "Breakup",
-      "sourceHash": "sha256:a787fbadadc2ed2892f7898afe638a4772f94871907276320d28ca0229c5fec9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED",
       "text": "Lost partner",
-      "sourceHash": "sha256:9cf63ad2a5e49d226fef5c55c763a898a03293a66c9c748b3f440b52730178b3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED",
       "text": "Unspoken loss",
-      "sourceHash": "sha256:e197f95f9d9bd79597daa446e53eb6ca9d48b0a18592650a2392fabdb6e8c1bc",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WELCOME",
       "text": "Welcomed newcomer",
-      "sourceHash": "sha256:8a1fff95df24c760dc05fcee1116cb08bbff077c49bab98e3db255f44e5c1a72",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTY",
       "text": "Party",
-      "sourceHash": "sha256:08cd448f9a8997f6e9739cd752db579ca0b7490986e82ba339ec8c9a7837a131",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
       "text": "Stood by them",
-      "sourceHash": "sha256:1d2abef8435116952b36fdfb8c1e165dc3f470eb5f1fd7fbf934e9ab042ad4e5",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT",
       "text": "Falling-out",
-      "sourceHash": "sha256:eede4f6601073c45aee6223e9e44d79f107f9a71e17a0abe2fffced43e5b3b13",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED",
       "text": "Comfort in grief",
-      "sourceHash": "sha256:12bc229a9af7fd8cb397fe7bb0bd1b77a154dfb748a9188ac731915926191848",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY",
       "text": "Anniversary",
-      "sourceHash": "sha256:28dd18496795d98eea04cc1a545c3e1fca3eaa2d41cd2f8cc004b4cf003889ba",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED",
       "text": "Missed anniversary",
-      "sourceHash": "sha256:58249752862124fd74ee21bdaf4d2ac3403f07ce26ea3257db0b5d6327124cf6",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.GREETING",
       "text": "Greeting",
-      "sourceHash": "sha256:c201a8553fbd305bbd4c864831c54b18646a66dd2f63fd9589f45e4f2a0d0348",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.CHAT",
       "text": "Chat",
-      "sourceHash": "sha256:7dd0fd6c210aaceaba7b00dd30c09eca0243d8f5b676599f1aa4aee8f71f5168",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE",
       "text": "Socializing",
-      "sourceHash": "sha256:f8009cb309b443e9c4189e5fdaf26d471ab725ef90c5c112dae54a0c39f1f119",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST",
       "text": "Shared quarters",
-      "sourceHash": "sha256:aa66efb78439ebf6e4c8141a397fd23541576645a9fe11847c6904934afecd75",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE",
       "text": "Stress shift",
-      "sourceHash": "sha256:52c9c811706f20701f120bb8a80401634a3eeada00972abea672c86bdb8605fc",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
       "text": "Cleared the air",
-      "sourceHash": "sha256:6ced5e2cc658eaaca640ee86ea3c68f2c3195bfcbbd176db433c07e0c1e3c470",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL",
       "text": "Became rivals",
-      "sourceHash": "sha256:12d1739aee740f51b79e8047b231f8ff2b28714be47b2d564e862f00c21ad7bd",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER",
       "text": "Rivalry settled",
-      "sourceHash": "sha256:894734b9ec3f61092591ef735a66c84104904c6c8e448c160a5dcc1a7a37b69e",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED",
       "text": "Rival died",
-      "sourceHash": "sha256:0f0cdb7b090afadec2147910fe691c0fee66e31ab3ebe5706ff2317e90dc3eec",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BRAWL",
       "text": "Came to blows",
-      "sourceHash": "sha256:7a835336d2c7325d8436e509748a8005026ee44034c3682ce4ab1dc6fb3642a8",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING",
       "text": "The pantry ran dry",
-      "sourceHash": "sha256:51b6c6a538bab07ae6129d18c91709fedf79a31c7c80a1e0acbe582b457ea3b8",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED",
       "text": "Crisis averted",
-      "sourceHash": "sha256:bd650a00e5084ecff7c111a10b3c3969d825f781010155dd1bc4819e90681cd6",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL",
       "text": "Famine killing",
-      "sourceHash": "sha256:fbbdd0677b6db9c8f1fc455ce30aed0058c4d8ad07e668ed07205840e2db0c01",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER",
       "text": "Famine ended",
-      "sourceHash": "sha256:2d2abcfb97e314bbfdeaad295e52620a5c6b4eba6110d32a2b473ced37696098",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BLAMED",
       "text": "Blamed after the disaster",
-      "sourceHash": "sha256:d983335c5e12bee0ef5301e5038b5b6e0d6447c437e3617f0c960be0a07fe1ab",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED",
       "text": "Frozen out",
-      "sourceHash": "sha256:4138999af7bbcbf1e592b22e07ada83da338b912e0ac20bcfa47385065d495a9",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR",
       "text": "Somebody spoke up for them",
-      "sourceHash": "sha256:5e3ceadf26f4dd73352334c5c9848be12f7583e2230a2b0c5f907670ceb75ac0",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
       "text": "The first one to sit down",
-      "sourceHash": "sha256:7494e2293b72d4072cb14315d2358221d167225e28b2420b4b494b7837de3d3d",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
       "text": "Hit where nobody could see",
-      "sourceHash": "sha256:a85df51a709d56d632f73952e2cc62821c78a34c71ecb0d31e3155aab0f9a227",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
       "text": "I saw them throw that punch",
-      "sourceHash": "sha256:b3a90040c58b252106a97fe14f279fe7c50a34e768d686a28a77ce9028d71677",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
       "text": "Caught them crying alone",
-      "sourceHash": "sha256:a47c53bf5df71eac2550b14417c1ce23bd97e792d9cd18aaf98eac0474b9b81a",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED",
       "text": "Faded with time",
-      "sourceHash": "sha256:0cd70a3deb3b50c1a1077aac786cf00e3d6c786a446289c9499daf9132208ecb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN",
       "text": "I saw them at their worst",
-      "sourceHash": "sha256:b31f84ac64a8a92da73705196dbfe345c5ce1c5b96f9b5b70a2ae5fe6409eca7",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED",
       "text": "They came over first",
-      "sourceHash": "sha256:48a1d0ede3236781675fdce8b22617f865d9509f0292b6a80dd268b4fb59befb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY",
       "text": "burst into ugly sobbing",
-      "sourceHash": "sha256:4c6958af7a003c2c462a0275d73d44aec87715b5d6f40947d0897cfe8dbb0bbe",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL",
       "text": "started screaming",
-      "sourceHash": "sha256:73fd87a12b14a3ade0860c27d10b0f44aba1bcace64c7ab04c0c3ced0d697441",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT",
       "text": "threw up",
-      "sourceHash": "sha256:dbf447a7d619592d3140eb250f78fcf9578b8c6c537e4877092495dd1548b727",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE",
       "text": "started binge eating",
-      "sourceHash": "sha256:1e2f8c5847d491a759cdc379683c486821898c5822d36eebf366d98183c2481b",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY",
       "text": "started smashing things",
-      "sourceHash": "sha256:3189b935a754a6c35ec7ad274107c128012354bc7843304fa76700378f41dc35",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK",
       "text": "started throwing sparks",
-      "sourceHash": "sha256:d54af09e3f7558abf9e378a1c497a1bf20473522d802cb4bfd7d095bbdbdeb74",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED",
       "text": "Why is it always me down there",
-      "sourceHash": "sha256:d3bd5ae130df58b2825da88b97bdfb26d5463253a1a7416413ce23d24495a2a3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
       "text": "They've been going down too lately",
-      "sourceHash": "sha256:9b68381e7b399e393bd84869a2a6b65f9cf7e0d755ef4989462d833c0d66565c",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE",
       "text": "They went down in my place",
-      "sourceHash": "sha256:2ee4c3e0227e7b57e4d5ccf3eb9f4bcfcd3867c7b059adce6b3deb1a989dca43",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
       "text": "We were both down there",
-      "sourceHash": "sha256:ed44415da09c6426b2d32100cc57cfc2e819a9973381497bbd4e05678cf94cbb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
       "text": "Administrator matchmaking",
-      "sourceHash": "sha256:758cc96fec4b3673697d3bced837c75775f49f4a1a2944036f00af3b61f18c07",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
       "text": "Administrator separation",
-      "sourceHash": "sha256:034d9b7dadcc19620bddd6359f991fd9c05af260b9894959df38dd66df116c09",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
       "text": "Administrator cleared mark",
-      "sourceHash": "sha256:696346baed8488649d7feff50d07e883ec76ec4a30e6f7c70de4ac3b4b2f2e1a",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
       "text": "Bound in the way",
-      "sourceHash": "sha256:1fb4a7af84ec813bb93ccf2ff6a7ad37d61c9bdbc437016ca74eec87890378ad",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CAUSE.STRESS",
       "text": "over stress",
-      "sourceHash": "sha256:817b8cb96a3d46036a0263bdd871d3bf5132fcc22d298843803537526eaa141c",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY",
       "text": "old grudges",
-      "sourceHash": "sha256:6dd9ea55b9d61169f90a7b8867f4888600152bc70c6771d1ee38cbdf87af3b77",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH",
       "text": "clashing traits",
-      "sourceHash": "sha256:8fae74bfb6f7f04734f3023a75a659814426fa6f61925325d1b589dca7e563a3",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD",
       "text": "colony discord",
-      "sourceHash": "sha256:982105196656904bab9062ad8a3ea315d0439545f0d3b81389f4051314d7d450",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY",
       "text": "bad chemistry",
-      "sourceHash": "sha256:0013df716b0b2c5f3bb3757b7d6ebe6e1c3fe292752b663bdf42dab2e16687c2",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2",
       "text": "Perfect match",
-      "sourceHash": "sha256:478d1679b5d4b2dc0d7300361613423b45614e980bcaaf840aa45810238db154",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1",
       "text": "Good chemistry",
-      "sourceHash": "sha256:6261c616863499bd3743b67c5aafbaea6f17d970819ad3b632beaea8cf6fcc65",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1",
       "text": "Bad chemistry",
-      "sourceHash": "sha256:0013df716b0b2c5f3bb3757b7d6ebe6e1c3fe292752b663bdf42dab2e16687c2",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2",
       "text": "Oil and water",
-      "sourceHash": "sha256:e8b4a6f7cbd25cb670e5217cdee5c4a1572568dff8cc608e5e83dd916b07c04f",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD",
       "text": "in sync",
-      "sourceHash": "sha256:4a8a56a0a25aa0c9bfa45d3135838fc9a192eb1a5d4631ed11b7ed00d5538265",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD",
       "text": "clashing",
-      "sourceHash": "sha256:ad8bf1d0c79cb9a764674288c0090c9bb90c7196cf4c26977f8c43d9ae4442be",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE",
       "text": "Affinity: {0}; conflicts: {1}{2}",
-      "sourceHash": "sha256:069f95e769a7c7f242823bd5ea1d2a697fb4dec48503dc674a38a5de98eec04c",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL",
       "text": "; awkward until cycle {0}",
-      "sourceHash": "sha256:b6fac6e87d153eb8ea3f371671e112358363d52a55274dc7c0c015a3ea9de733",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS",
       "text": "\nRecent events:",
-      "sourceHash": "sha256:648dd55b2075390cf1a7dd062898094e9c19436ecca747b9b522be1731b27e67",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE",
       "text": "\nCycle {0}: ",
-      "sourceHash": "sha256:00e3025e549530501c1b1bceb46c80fae87c205ff611ac5bfc2cd9c8e31a0132",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
       "text": "Matchmaking mark: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats",
-      "sourceHash": "sha256:19fe20c013b4a2f2aeff134dbe1411c94d920b202c148ad63cbf0de121db50ed",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
       "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
-      "sourceHash": "sha256:53eefe5704f62133a2a317c4aef7c7769378f521b6b9175bbda8712d2d104196",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN",
       "text": "Rivals - frozen: negative affinity no longer drifts back toward zero, so this relationship will not heal on its own. Set a matchmaking mark to step in and thaw it.",
-      "sourceHash": "sha256:cabb157582b13a7dda085151e59dfc94f1580a3cba5d3a69a17b03f48d18acdb",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER",
       "text": "Hazard duty: {0} {1} · {2} {3} - same trade, same stretch of days, only one of them went down (for {4} cycles now)",
-      "sourceHash": "sha256:dbfc7e1890e42416c672923e3b0c0b0153fe529b2288bc513f759aef632acdb7",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING",
       "text": "Rivals - mediating: the matchmaking mark has thawed the freeze and affinity is recovering. The rivalry ends once it climbs back past the threshold.",
-      "sourceHash": "sha256:3bd83ab5f3c32839a88446c63f7fac09430a52b7a3a56c2e10b4b71acaeeed42",
+      "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
       "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
-      "sourceHash": "sha256:97c8e895cf47cfbd914d32933a8658d4c725e0ee9ec8fbfc2ace2a1779f13e14",
+      "contractRevision": 1,
       "status": "reviewed"
     }
   ]

@@ -4,165 +4,165 @@
   "entries": [
     {
       "promptId": "prompt.conversation.instruction",
-      "status": "reviewed",
       "text": "Polish the draft without changing the event, either speaker's affect, or the speaker order.",
-      "sourceHash": "sha256:60ac307004f433d8e42e3101221a0136bebe787033dbdebf96f014eb60a355ae"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.scene",
-      "status": "reviewed",
       "text": "Resolved game event: [[storylet]]; cause: [[cause]].",
-      "sourceHash": "sha256:09e4410f7465f6ac6834c4ca87c9242a77ea488d1af0d03196111a34072d4ed6"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.affect",
-      "status": "reviewed",
       "text": "Current affect: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
-      "sourceHash": "sha256:7e859c4b7e61116c7b65f27ad271b0423e5d2c1e03576f6e9bc9f9523c62f38f"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.draft",
-      "status": "reviewed",
       "text": "Matched authored draft: [[draft]]",
-      "sourceHash": "sha256:12906e4b250fd8151f6ea073df6317b5b2f61a5674a38c2c7decc8a6b6325015"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.no-traits",
-      "status": "reviewed",
       "text": "no notable traits",
-      "sourceHash": "sha256:da5d6758ad5c22a24aeef7c0a0479b336cf8d17fc6b44c6fa4e272a42f552a29"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.participant-a",
-      "status": "reviewed",
       "text": "A: [[profile]]",
-      "sourceHash": "sha256:816ed347142405cece9667547cca8c71b55da6b40c4a3ae4f65808868cea05e1"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.participant-b",
-      "status": "reviewed",
       "text": "B: [[profile]]",
-      "sourceHash": "sha256:f16fa4cbb107dae54622aaf8a8dcf2ced3aaaaec6220c6488a4c07c6e2fca217"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.profile",
-      "status": "reviewed",
       "text": "[[name]] (traits: [[traits]]; stress: [[stress]])",
-      "sourceHash": "sha256:5e152ce60b48f41ca779368596ec339474c8c2a68c5bb20034c1d1816e4cc245"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.relationship",
-      "status": "reviewed",
       "text": "Relationship: [[stage]], affinity [[affinity]].",
-      "sourceHash": "sha256:99189dc3fc93ffc68aefa637bf14c574f36a8998f2eea44281ec837d0aea3c71"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.stress-hint",
-      "status": "reviewed",
       "text": "Stress \"breaking\" means on the verge of an emotional breakdown: let the strain show in that duplicant's lines (short temper, weary, barely holding on).",
-      "sourceHash": "sha256:6a1dcdbcd0fd0371afd3e4a2fece011984eb1889a8f924600a56fcf93eb378ec"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.conversation.system",
-      "status": "reviewed",
       "text": "You are polishing dialogue between duplicants in the survival sim Oxygen Not Included. The game engine has already resolved the event, relationship outcome, each speaker's affect, and speaker order; do not change those facts. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, and caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries]}.",
-      "sourceHash": "sha256:2f865275333e32348524c428b7a12bbcb629afe03031af6954d72ad3df9cb240"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.cause",
-      "status": "reviewed",
       "text": "Cause: [[value]]",
-      "sourceHash": "sha256:11c5529c25b7c4557a49dd9d639262c72322b48e715925cde76a78a358e4ae3d"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.colony",
-      "status": "reviewed",
       "text": "Colony: [[value]]",
-      "sourceHash": "sha256:2d5b150773cf5d071e38da0301abf1f562839bedfa0bfac9921d0310ae5de883"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.colony-both",
-      "status": "reviewed",
       "text": "famine ongoing, collective wrath ongoing",
-      "sourceHash": "sha256:dde320f01d64ca7af23eb3656863e30822a42bc765d1d9185bc177cc5a7d4194"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.colony-famine",
-      "status": "reviewed",
       "text": "famine ongoing",
-      "sourceHash": "sha256:f6a0e7a6c414dce692258f21f95976eefa7fa8e0e0e144dddc5eb8f96ff73f80"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.colony-wrath",
-      "status": "reviewed",
       "text": "collective wrath ongoing",
-      "sourceHash": "sha256:fec217a176b1262f72fc654fbb6e646f9fba64bfd4786d0bdfe43c2e36a8b609"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.current-state",
-      "status": "reviewed",
       "text": "Current relationship: [[value]]",
-      "sourceHash": "sha256:472596f8d3e2cee98af6ea89bd93c63b2cefb1ddf770afa869d4ea5324810207"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.event",
-      "status": "reviewed",
       "text": "Event: [[value]]",
-      "sourceHash": "sha256:074c99a3e2a25d8b03d4c3e55f1f36c2ac9089889efc240947e7a015c05f3102"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.history-heading",
-      "status": "reviewed",
       "text": "Their recent history:",
-      "sourceHash": "sha256:dc738a8673ae7bbc7f5cd6a69d6e1040591cc771ef54b3dbb72fd1d470d2f18f"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.history-line",
-      "status": "reviewed",
       "text": "Cycle [[cycle]] · [[event]]",
-      "sourceHash": "sha256:4b83b4e64ddfd8866edea918741b2f379275df898471ffea67d45e6c08013627"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.instruction",
-      "status": "reviewed",
       "text": "Rewrite it as one chronicle sentence.",
-      "sourceHash": "sha256:588f0fe96b95d0ba925197069492c947fc0e5b164d01614a90823ed2b24c399a"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.new-state",
-      "status": "reviewed",
       "text": "New relationship: [[value]]",
-      "sourceHash": "sha256:6f25c83003a9835a31d45fa316eeb84b4e7294e117cb1a72ffc1a0883147d8d7"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.person-a",
-      "status": "reviewed",
       "text": "A: [[value]]",
-      "sourceHash": "sha256:4d159ad377986d4168745534c9ede285bdf72e09671de12c6fcc0d918c936424"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.person-b",
-      "status": "reviewed",
       "text": "B: [[value]]",
-      "sourceHash": "sha256:50b2eb45f44a2e77e44bcbac8e04670b26f9f6705112f5b1ac84b5a2a50eed07"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.place",
-      "status": "reviewed",
       "text": "Place: [[value]]",
-      "sourceHash": "sha256:3a2183833934a20e3b0c3fb318ee0851f4ac3945e8bb1cb383df1cf3dda30652"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.system",
-      "status": "reviewed",
       "text": "You are the chronicler of a space colony. Rewrite the given social event as a single sentence of at most 25 words: plain, restrained, with a sense of history. Never change names or facts; no quotes, no emoji, no numbers. Output only the sentence.",
-      "sourceHash": "sha256:4bcb7114f49aa6207ff7d7f5166f450fedf3fdae18f47c958f115d0133f1020c"
+      "contractRevision": 1,
+      "status": "reviewed"
     },
     {
       "promptId": "prompt.narrative.witnesses",
-      "status": "reviewed",
       "text": "Witnesses: [[count]]",
-      "sourceHash": "sha256:fda1ba84c464401130936f5086575a7d00810fda692c68d69e297dbdac6df259"
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

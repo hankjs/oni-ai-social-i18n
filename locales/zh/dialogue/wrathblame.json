@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathblame",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathblame.base.001",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这事总得有人负责吧。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……为什么是我。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.002",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我没说是他干的。我只是说，不是我。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你已经说完了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.003",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "名单上总要写一个名字。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "于是就写最好写的那个。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.004",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "大家心里都有数。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那是心里，不是证据。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.005",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你那天在场吧？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我那天在睡觉。这基地谁不在场。"
+        }
+      ]
+    }
+  ]
+}

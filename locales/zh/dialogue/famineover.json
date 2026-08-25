@@ -1,0 +1,54 @@
+{
+  "locale": "zh",
+  "family": "famineover",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "有得吃了。没有人问那是什么。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "危机过去了。大家坐得比以前远了一点。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "储藏室重新满了。谁都没去看标签。"
+        }
+      ]
+    }
+  ]
+}

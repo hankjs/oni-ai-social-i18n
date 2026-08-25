@@ -1,0 +1,90 @@
+{
+  "locale": "zh",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "别过来。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我们两个……只能活一个。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我不想这样。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我也不想。可是我饿。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "对不起。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "别道歉。动手吧。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "为什么是我们？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "因为没有人喜欢我们。"
+        }
+      ]
+    }
+  ]
+}

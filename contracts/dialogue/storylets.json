@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 2,
+  "storylets": [
+    {
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 3,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 7,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 12,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BestFriend",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 7,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 6,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 6,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 25,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 6,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Confession",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 6,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 3,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Date",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 8,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 2,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "FamineLastOne",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 1,
+      "actorSlots": [
+        0
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 3,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 3,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "HazardComrade",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1,
+        2
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "PartnerLoss",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Party",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 10,
+      "actorSlots": [
+        0,
+        1,
+        2
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 4,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "RivalDied",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 14,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Teach",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 7,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 11,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 8,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathFaded",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    },
+    {
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 5,
+      "actorSlots": [
+        0,
+        1
+      ],
+      "selectionDimensions": [
+        "emotions",
+        "intensities",
+        "stances",
+        "voices",
+        "relationshipStates",
+        "causes"
+      ]
+    }
+  ]
+}

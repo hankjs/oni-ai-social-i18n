@@ -1,47 +1,36 @@
 # oni-ai-social-i18n
 
-Public catalog for ONI Social Life player-visible strings.
+Public schema-v2 content for ONI Social Life. There is no source language: `zh`, `en`, and
+future locales use the same authoring model.
 
-- Source locale: `zh`
-- Published locales: `zh`, `en`
-- Edit `catalog/` and `locales/`; never hand-edit `dist/`
-- `python3 tools/export.py` regenerates `dist/`
-- `python3 tools/validate.py` checks uniqueness, tokens, dialogue structure, and chronicle pools
+- `contracts/` owns language-neutral UI keys, prompt IDs, storylets, Chronicle pools and slots.
+- `locales/<locale>/` owns that locale's complete text, Dialogue candidates and Chronicle
+  templates. Candidate/template IDs are stable only within their locale.
+- `links/` records optional translation/adaptation provenance and never enters runtime identity.
+- `dist/` is deterministic generated runtime input. Never edit it by hand.
+- `manifest.json` alone controls locale lifecycle and shipping. `stable` and `preview` may ship;
+  `draft` never does.
 
-## Structured dialogue copy
+Run `python3 tools/validate.py` for authoring plus release-quality validation,
+`python3 tools/export.py` to regenerate the frozen files, and `make check` before review.
 
-Dialogue source lives in `catalog/dialogue/` and translations in
-`locales/<locale>/dialogue/`. Every candidate belongs to a real `storyletId`, contains its full
-ordered turn plan, and declares a `selection` over actor slot (`-1` means any actor), primary or
-secondary emotion, intensity, social stance, personality voice, relationship state, and cause.
-The shared runtime always chooses the highest-specificity matching tier, then applies candidate
-weight and its recent-use window. Empty selection is the storylet's base candidate, not a second
-fallback pipeline. All dimension values are schema-enumerated so authoring typos fail validation.
+## Fallback boundaries
 
-## Structured chronicle copy
+UI and Prompt resolve one key at a time. Dialogue resolves one complete `storyletId` pool;
+Chronicle resolves one complete `poolId`. Resolved exports always record `resolvedLocale`, so a
+fallback pool cannot masquerade as requested-locale content or mix languages inside one unit.
 
-Detailed chronicle sentences are not UI `LocString` keys. Their Chinese source lives in
-`catalog/chronicle/`, translations in `locales/<locale>/chronicle/`, and deterministic runtime
-catalogs in `dist/chronicle/`.
+Stable locales require 100% native critical UI/Prompt content, at least 95% native standard
+content, and native minimums for every required Dialogue/Chronicle pool. Preview locales may
+fallback by unit. Draft and stale entries are structurally validated but excluded from dist.
 
-Each pool declares a stable `poolId`, a release-blocking `minimumPublished`, and its allowed slot
-contract. Each complete sentence has a permanent `templateId`; published ids may be deprecated
-but are never reused, so old saves remain readable. `contracts/chronicle-stability.json` records
-the allocated id high-water mark for every persisted pool; removing an id or adding one without
-registering it fails validation. Locale entries must preserve placeholders, carry a current
-`sourceHash`, and be reviewed.
+## Chronicle stability and compatibility
 
-The canonical Chronicle authoring layout contains six active family files (`routine`, `support`,
-`relationship`, `colony`, `dark`, `connective`) plus
-`compatibility/legacy-pair.json`. The current complete snapshot has 137 pools, 976 reviewed active
-templates and 120 deprecated `{pair}` templates retained only for persisted IDs. Parallel `v2-*`
-or `routine-more` files are rejected rather than treated as another catalog. Run `make check`
-before review; it validates sources and translations, runs negative contract tests, and checks
-that committed `dist/` is reproducible.
+Each locale has `stability/chronicle.json`. Published `(locale, templateId)` identities are never
+reused; retired templates stay present with `deprecated: true`. Old-save mappings live under
+`contracts/compatibility/` and the frozen compatibility dist. Compatibility does not require a
+new locale to copy historical zh/en IDs.
 
-During development, `contentVersion` follows the tracked development version and the private
-repository imports a reviewed `main` snapshot with `make sync-i18n-dev`; this does not create a
-tag or claim that the version is online. The private `version-state.json` separately records the
-published and development versions. Only the maintainer's explicit release operation creates
-`i18n-vX.Y.Z` and lets the private Mod import that immutable tag with `make sync-i18n
-I18N_VERSION=X.Y.Z`.
+During development, `contentVersion` follows the tracked Mod/i18n pairing. Only the maintainer's
+explicit release operation creates immutable `i18n-vX.Y.Z` tags; Mod and i18n must be released as
+one reviewed pairing.

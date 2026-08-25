@@ -4,73 +4,85 @@
   "candidates": [
     {
       "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Maybe... we should call it off.",
-          "sourceHash": "sha256:8588a3050180508cbb4f6aa79a488a50957cf2329b3fcbcd61f05f6fecc2c7e0"
+          "text": "Maybe... we should call it off."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "No hard feelings. Take care.",
-          "sourceHash": "sha256:a0f2e952f5cdcf113581466b3c2a10c6a1b993f2d01070fa5e89fdf58e77e75e"
+          "text": "No hard feelings. Take care."
         }
       ]
     },
     {
       "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "We can fix any pipe on this base. Not this.",
-          "sourceHash": "sha256:906ac8b0de403693b1bf0d26d335236184e3a8be052cb7d93d426fa8a25ae994"
+          "text": "We can fix any pipe on this base. Not this."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Yeah. At least the pipes are fine.",
-          "sourceHash": "sha256:46ca21299e9d99f8b87326de987c2ab97bc5c076d6b9a1e2eb1fc1018f974700"
+          "text": "...Yeah. At least the pipes are fine."
         }
       ]
     },
     {
       "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I'll take the east tables. You take the west.",
-          "sourceHash": "sha256:6561404fbca2680de099bba346a649ec1bf37a92267b2acab8dc7db690771381"
+          "text": "I'll take the east tables. You take the west."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Okay. ...Take care of yourself.",
-          "sourceHash": "sha256:b5b5d58df6b15b95f2f5614aca93c684ad8129f987483c4a40e295a81a8a82d3"
+          "text": "Okay. ...Take care of yourself."
         }
       ]
     },
     {
       "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Here's your oxygen canister back. All of it.",
-          "sourceHash": "sha256:59d90390c8cacc4a2bddf2cb89e9b651f040ba4bd5e0eb915c60aa0881ce8e50"
+          "text": "Here's your oxygen canister back. All of it."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Keep it. Call it... a gift from a friend.",
-          "sourceHash": "sha256:c0d2dcea7361dab220e69a7ca32cd47f078c8e7d3d44e5f478e78d45d10880c6"
+          "text": "Keep it. Call it... a gift from a friend."
         }
       ]
     }

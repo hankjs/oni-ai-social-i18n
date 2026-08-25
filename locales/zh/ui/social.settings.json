@@ -1,0 +1,618 @@
+{
+  "locale": "zh",
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "社交生活 · 设置",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "设置",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "打开「复制人社交生活」的设置面板",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "保存",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "取消",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "恢复默认",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "已保存，并已对当前会话生效。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "保存失败，详情见日志。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "已恢复默认值，点「保存」后生效。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": "（重启后生效）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "开",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "关",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "AI 对话",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "启用 AI 生成对话",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "API 地址",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API Key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "模型",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "粘贴你的 API Key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "模型名称",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "对话语言",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "跟随游戏",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "中文",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA_PREVIEW",
+      "text": "日本語（预览，内容不完整）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "每周期 AI 对话上限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "同一对复制人的对话冷却（秒）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "AI 请求超时（秒）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "单次生成上限（token）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key 已填写，保存后立即生效",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "未填写 Key，AI 对话不会发起，仅使用内置台词",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "社交系统",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "观察原生社交事件（关系引擎输入）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": "（本版本固定开启）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "F9/F10/F11 牵线热键",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "关系大事通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "关系事件演出",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "简洁",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "标准",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "聚焦",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "重大事件自动暂停",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "独立开关，默认关闭。打开后重大关系事件发生时暂停游戏。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "待发生窗口",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "待发生等待周期",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "关系里程碑通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "悲伤与失去通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "冲突与危险通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "日常纪念通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "仅封存",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "即时通知",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "一件重要的事即将发生",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "同一对复制人的好感进账间隔（秒）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "纪事容量（条）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "黑暗内容（人性考验）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "启用黑暗内容",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "（黑暗内容总开关关闭中，下列项目暂不生效）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "允许断粮相残",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "把崩溃演成一场戏",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "危险工时会积怨",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "允许集体迁怒",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "允许宿敌互殴",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "调快原生对话节奏",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "原生对话冷却倍率",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "原生对话距离倍率",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "界面与反馈",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "对话台词浮动文字",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "台词停留秒数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "好感增减飘字",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "本地玩法数据",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "记录匿名社交遥测",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "平衡",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "戏剧强度预设（读档后生效）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "安静",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "默认",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "戏剧",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "自定义",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "预设调整争执/吃醋/道歉的概率与代价；「安静」少吵少醋，「戏剧」冲突更密",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "社交压力软上限（0 = 关闭）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "「情绪紧绷」阈值",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "调试（仅开发版可见）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "以下是技术性参数，改坏了用「恢复默认」拉回来",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "每周期 AI 润色上限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "同一复制人的日常闲聊冷却（秒）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "每周期收录的日常纪事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "每对每周期原生聊天进账上限（次）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

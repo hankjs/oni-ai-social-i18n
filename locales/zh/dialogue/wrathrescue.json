@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathrescue",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我坐这儿。没别的意思。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……这几天没人坐这儿。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我带了两份饭。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你不怕别人看见？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那伤谁弄的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……摔的。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "别人怎么讲我不管。你还欠我一次夜班。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……记着呢。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "哭完了就吃饭，凉了更难吃。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……嗯。"
+        }
+      ]
+    }
+  ]
+}

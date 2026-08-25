@@ -1,0 +1,1446 @@
+{
+  "locale": "zh",
+  "family": "compatibility",
+  "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}趁着换班的空当聊了几句。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}碰面后交换了今天的见闻。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一路说着话，直到各自去忙。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}凑在一起闲聊了一阵。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊到兴起，差点忘了下一项工作。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}用几句闲话打发了等待的时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊了些殖民地里的新鲜事。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}说了会儿话，心情都轻快了一些。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}你一句我一句，聊得很是自然。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}停下脚步，认真听完了彼此的话。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在忙碌中挤出了一小段聊天时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}从一句随口的问候聊到了别的事情。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊得不算久，却都听得很专心。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}趁手头清闲，互相说起了近况。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊过一阵后，才重新投入各自的工作。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}说起琐碎日常，时间也过得快了些。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊了几件无关紧要却有趣的小事。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}短短聊了一会儿，气氛很是融洽。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把各自遇到的趣事说给了对方听。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一边赶路，一边断断续续地聊着。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聊得平淡，却没有谁急着结束。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}分享了几件最近留意到的小事。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}说说笑笑，给忙碌的一天添了点轻松。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}结束交谈时，还意犹未尽地多说了两句。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.001",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}打了个照面，彼此点头致意。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.002",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}迎面遇见，顺势问候了一声。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.003",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}擦肩而过时交换了一个眼神。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.004",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}隔着一段距离朝对方挥了挥手。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.005",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}停下脚步，简短地寒暄了两句。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.006",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}匆匆碰面，也没忘记向对方问好。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.007",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}用一个熟悉的手势互相招呼。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.008",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}见到对方时都露出了笑意。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.009",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}互相报了声平安，随后继续赶路。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.010",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}路过彼此身边时轻声打了招呼。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.011",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}远远认出了对方，便抬手示意。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.012",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}碰面时互相问了问近况。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.013",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}以一句简单的问候开始了这次碰面。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.014",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在各自忙碌前先向对方致意。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.015",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}短暂驻足，确认对方一切如常。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.016",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}默契地同时抬手打了招呼。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.017",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一见面便自然地互相问好。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.018",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}从人群中看见彼此，交换了问候。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.019",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}用一句玩笑般的招呼活跃了气氛。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.020",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}相遇时放慢脚步，向彼此道了声好。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.021",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}忙里偷闲地互相问候了一句。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.022",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}经过对方身旁时友好地笑了笑。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.023",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}用简短的招呼确认了彼此的存在。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.024",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在一天的忙碌中又碰了一次面。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.001",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}坐到了一起，安稳地吃完这顿饭。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.002",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把用餐时间也变成了相处的时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.003",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}边吃边聊，谁也没有急着离开。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.004",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}碰巧赶上同一顿饭，便坐在了一处。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.005",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一起歇下手头的事，专心吃了顿饭。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.006",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在进餐的间隙交换了几句闲话。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.007",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}肩并肩坐着，分享了一段清静的用餐时光。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.008",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}吃饭时有一搭没一搭地说着话。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.009",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}选了相近的位置，一同解决了这顿饭。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.010",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}暂时放下工作，共享了一顿寻常的饭。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.011",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在同一时间坐下，也在同一时间吃完。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.012",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}用一顿饭的工夫互相陪伴。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.013",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}吃得不紧不慢，偶尔抬头说上两句。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.014",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在忙碌之间凑到了一起用餐。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.015",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一同吃饭，让短暂的休息显得更从容。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.016",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在这顿饭里保持着轻松的交谈。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.017",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}默契地坐到附近，一起开始用餐。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.018",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}吃完后又坐了一会儿，才各自离开。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.019",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把一顿普通的饭吃得颇为热闹。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.020",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}安静地同桌进餐，气氛并不尴尬。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.021",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在饭间聊了聊各自接下来的安排。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.022",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}相互等了一会儿，然后一道开始吃饭。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.023",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}共享了片刻不用赶工的用餐时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.024",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}吃完同一顿饭，又精神十足地去忙了。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.001",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在同一段休息时间里渐渐安静下来。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.002",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}结束一天的忙碌，一同歇了下来。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.003",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}共享了一段难得平静的休息时光。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.004",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}累了一天，很快便各自沉入梦乡。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.005",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在休息前简短地互道了晚安。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.006",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}先后停下工作，迎来了同一段安静。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.007",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在彼此的陪伴下安心休息。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.008",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}没再多说什么，只安静地歇着。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.009",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把忙碌留到明天，暂且一同休息。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.010",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在短暂的清闲里恢复着精神。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.011",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}安顿下来，周围也慢慢归于平静。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.012",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}难得同时闲下来，便好好歇了一阵。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.013",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在相近的作息里分享了片刻安宁。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.014",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}带着一天的疲惫，一同进入休息时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.015",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}各自放松下来，没有打扰彼此。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.016",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在休息的间隙享受了一会儿清静。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.017",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}平稳地度过了这段共同休息的时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.018",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}结束交谈后，很快便安静下来。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.019",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在疲惫中互相道过晚安。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.020",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}同时迎来休息，也同时卸下了紧张。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.021",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把这一刻留给休息，没有再谈工作。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.022",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在规律的作息中又共同休息了一次。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.023",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}安静相处了一阵，各自恢复了精神。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.024",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在下一轮忙碌前，一起睡了个安稳觉。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.001",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一起消磨了些闲暇时光。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.002",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}暂时放下工作，轻松相处了一阵。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.003",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}凑到一起，给自己找了点乐子。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.004",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在闲暇里分享了不少笑声。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.005",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把短暂的休闲时间过得颇为热闹。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.006",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}结伴放松了一会儿，精神好了许多。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.007",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}很自然地加入了彼此的休闲时光。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.008",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}玩闹了一阵，暂时忘掉了手头的烦恼。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.009",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在轻松的气氛里待了好一会儿。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.010",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一同休闲，让这段空闲没有白过。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.011",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}互相逗趣，把疲惫冲淡了一些。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.012",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}难得不用赶工，便结伴放松起来。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.013",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在一阵说笑中度过了休闲时间。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.014",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}给平常的一天添上了一段小小的消遣。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.015",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一起找了点事情做，气氛很轻松。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.016",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把工作之外的时间留给了彼此。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.017",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}聚在一处，兴致勃勃地消遣了一阵。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.018",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在短暂的自由时间里玩得很投入。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.019",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}没有谈工作，只顾着轻松了一会儿。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.020",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}一起打发时间，也更熟悉了彼此。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.021",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}相约放松片刻，随后才各自散去。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.022",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}把一小段空闲变成了愉快的相处。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.023",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}在玩笑和笑声里恢复了些精神。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.024",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}尽兴消遣了一番，才重新回到日常。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    }
+  ]
+}

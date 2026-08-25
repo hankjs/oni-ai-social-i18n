@@ -4,37 +4,49 @@
   "candidates": [
     {
       "candidateId": "storylet.faminewarning.base.001",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The pantry is empty. Nobody is talking, but everybody is counting heads.",
-          "sourceHash": "sha256:fd959be7c8f186c3c1d2b59f93f2245e40558d0104fc7da78b75164229f58800"
+          "text": "The pantry is empty. Nobody is talking, but everybody is counting heads."
         }
       ]
     },
     {
       "candidateId": "storylet.faminewarning.base.002",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Three days without food. Today, people started looking at each other differently.",
-          "sourceHash": "sha256:dac27018d7b5ef274a5ed51bb59136d639da998ea63f0f9c4fbdc6d04daa5707"
+          "text": "Three days without food. Today, people started looking at each other differently."
         }
       ]
     },
     {
       "candidateId": "storylet.faminewarning.base.003",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The last ration is gone. What gets shared out next, nobody will say out loud.",
-          "sourceHash": "sha256:e5a1380c019911430b693e92e3c82fddb127566f8cf9dec6d4e32c2552f7c86e"
+          "text": "The last ration is gone. What gets shared out next, nobody will say out loud."
         }
       ]
     }

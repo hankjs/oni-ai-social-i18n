@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我看见了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你看见什么了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "手放下。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……关你什么事。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你动手之前，会先看一眼有没有人。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "闭嘴。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我会记住今天。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "随你便。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你打他的时候，我在通风管里。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……那你听见的比看见的多。"
+        }
+      ]
+    }
+  ]
+}

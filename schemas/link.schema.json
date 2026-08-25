@@ -1,0 +1,14 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["schemaVersion", "links"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "links": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["from", "relation", "to", "targetRevision"],
+      "properties": {
+        "from": { "type": "object" }, "to": { "type": "object" },
+        "relation": { "enum": ["translationOf", "adaptationOf", "inspiredBy"] },
+        "targetRevision": { "type": "integer", "minimum": 1 }, "note": { "type": "string" }
+      }
+    }}
+  }
+}
