@@ -81,6 +81,72 @@
             "b"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.007",
+          "ordinal": 7,
+          "source": "{a} 和 {b}打了起来。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.001; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.008",
+          "ordinal": 8,
+          "source": "{a} 和 {b}的争执升级成了拳脚。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.002; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.009",
+          "ordinal": 9,
+          "source": "{a} 和 {b}扭作一团，工具散了一地。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.003; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.010",
+          "ordinal": 10,
+          "source": "这一架打得难看，{a} 和 {b}都挂了彩。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.004; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.011",
+          "ordinal": 11,
+          "source": "劝架的都来了，{a} 和 {b}才肯撒手。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.005; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.brawl.baseline.012",
+          "ordinal": 12,
+          "source": "{a}和{b}彻底失去克制，争吵最终变成了一场打斗。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.brawl.baseline.006; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -139,6 +205,54 @@
           "ordinal": 6,
           "source": "最紧张的缺粮时刻过去了，大家终于不必再计算最后几口食物。",
           "description": "Reviewed event expansion; pool=chronicle.famine-averted.baseline; angle=base; participantMode=none; requiredSlots=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.007",
+          "ordinal": 7,
+          "source": "粮食补上了，大家松了一口气。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.001; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.008",
+          "ordinal": 8,
+          "source": "储藏室重新有了存货，咀嚼声又回来了。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.002; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.009",
+          "ordinal": 9,
+          "source": "危机解除了，没人追问粮食从哪来的。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.003; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.010",
+          "ordinal": 10,
+          "source": "及时补上的食物止住了恐慌，殖民地避开了最坏的结果。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.004; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.011",
+          "ordinal": 11,
+          "source": "粮食储备重新越过危险线，饥荒威胁暂时退去。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.005; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-averted.baseline.012",
+          "ordinal": 12,
+          "source": "最紧张的缺粮时刻过去了，大家终于不必再计算最后几口食物。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-averted.baseline.006; setting=ONI; angle=base; participantMode=none.",
           "requiredSlots": [],
           "deprecated": false
         }
@@ -222,6 +336,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}和{other}为了最后一口吃的动了手。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.008",
+          "ordinal": 8,
+          "source": "饿极了的人不讲道理，{actor}和{other}为了一口吃的撕破了脸。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}盯上了{other}的那份口粮，拳头比理智先到。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.010",
+          "ordinal": 10,
+          "source": "饥饿逼到极限时，{actor}向{other}发起了致命的争夺。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.011",
+          "ordinal": 11,
+          "source": "最后的食物不足以让两个人活下去，{actor}和{other}之间爆发了惨烈冲突。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-cull.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}在绝境里把{other}当成了争夺食物的对手，事情再也无法挽回。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-cull.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -282,6 +462,54 @@
           "description": "Reviewed event expansion; pool=chronicle.famine-over.baseline; angle=base; participantMode=none; requiredSlots=none.",
           "requiredSlots": [],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.007",
+          "ordinal": 7,
+          "source": "断粮的日子终于过去了。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.001; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.008",
+          "ordinal": 8,
+          "source": "粮仓重新满了，有些事大家心照不宣地不再提。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.002; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.009",
+          "ordinal": 9,
+          "source": "又能吃饱的日子来了，仿佛饥荒从没发生过。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.003; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.010",
+          "ordinal": 10,
+          "source": "食物供应重新稳定，持续笼罩殖民地的饥荒状态宣告结束。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.004; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.011",
+          "ordinal": 11,
+          "source": "大家终于能按正常份量进食，断粮留下的紧张却没有立刻消失。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.005; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-over.baseline.012",
+          "ordinal": 12,
+          "source": "饥荒结束了，幸存者开始重新安排被缺粮打乱的生活。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-over.baseline.006; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
         }
       ]
     },
@@ -340,6 +568,54 @@
           "ordinal": 6,
           "source": "粮食缺口越过危险线，恐慌随着空下来的储藏格蔓延。",
           "description": "Reviewed event expansion; pool=chronicle.famine-warning.baseline; angle=base; participantMode=none; requiredSlots=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.007",
+          "ordinal": 7,
+          "source": "粮仓见了底，恐慌在殖民地蔓延。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.001; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.008",
+          "ordinal": 8,
+          "source": "最后一块软泥糕也见了底，没人敢想明天。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.002; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.009",
+          "ordinal": 9,
+          "source": "饿肚子的消息比氧气传得还快。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.003; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.010",
+          "ordinal": 10,
+          "source": "现有储备已经无法保障所有人，殖民地进入了明确的断粮警告。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.004; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.011",
+          "ordinal": 11,
+          "source": "可食用的存货迅速减少，每个人都开始留意下一餐还能剩下什么。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.005; setting=ONI; angle=base; participantMode=none.",
+          "requiredSlots": [],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.famine-warning.baseline.012",
+          "ordinal": 12,
+          "source": "粮食缺口越过危险线，恐慌随着空下来的储藏格蔓延。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.famine-warning.baseline.006; setting=ONI; angle=base; participantMode=none.",
           "requiredSlots": [],
           "deprecated": false
         }
@@ -418,6 +694,72 @@
           "ordinal": 6,
           "source": "危险没有因为有人陪伴而减少，但{a}和{b}都知道自己不是独自面对。",
           "description": "Reviewed event expansion; pool=chronicle.hazard-comrade.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.007",
+          "ordinal": 7,
+          "source": "{a} 和 {b}一起扛过了危险的活，有了过命的交情。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.001; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.008",
+          "ordinal": 8,
+          "source": "从危险区活着出来，{a} 和 {b}看彼此的眼神都不一样了。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.002; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.009",
+          "ordinal": 9,
+          "source": "生死关头上{a} 和 {b}谁都没先跑，这交情假不了。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.003; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.010",
+          "ordinal": 10,
+          "source": "{a}和{b}在危险劳动中互相照应，平安回来后多了一份牢靠的信任。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.004; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.011",
+          "ordinal": 11,
+          "source": "{a}与{b}一起承担了高风险任务，共同熬过的过程把两人拉近。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.005; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-comrade.baseline.012",
+          "ordinal": 12,
+          "source": "危险没有因为有人陪伴而减少，但{a}和{b}都知道自己不是独自面对。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-comrade.baseline.006; setting=ONI; angle=base; participantMode=symmetricPair.",
           "requiredSlots": [
             "a",
             "b"
@@ -504,6 +846,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}对{other}的那点怨气，慢慢散了。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}想通了：危险活总得有人干，不该怨{other}。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.009",
+          "ordinal": 9,
+          "source": "时间把那点火气磨平了，{actor}看{other}顺眼多了。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.010",
+          "ordinal": 10,
+          "source": "工作安排变得公平以后，{actor}对{other}积累的危险劳动怨气开始消退。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}看见{other}也承担了应有的风险，长期的不满终于有所缓和。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-eased.baseline.012",
+          "ordinal": 12,
+          "source": "危险差距不再继续扩大，{actor}愿意停止把责任归到{other}身上。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-eased.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -585,6 +993,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.007",
+          "ordinal": 7,
+          "source": "{other}替{actor}挡了危险活，{actor}记在了心里。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.008",
+          "ordinal": 8,
+          "source": "危险活落下来的时候，{other}先一步接了，{actor}不会忘。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}欠{other}一个人情，还是拿命换的那种。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.010",
+          "ordinal": 10,
+          "source": "{other}主动承担了更危险的工作，{actor}因此真诚地记下这份帮助。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.011",
+          "ordinal": 11,
+          "source": "风险落到眼前时，{other}替{actor}分担了一部分，{actor}没有把这当作理所当然。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-gratitude.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}看到{other}走进危险区域，明白自己这次被实实在在地照顾了。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-gratitude.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -660,6 +1134,71 @@
           "ordinal": 6,
           "source": "{actor}再次从危险工作中回来，看见{other}安然无恙时已经无法保持平静。",
           "description": "Reviewed event expansion; pool=chronicle.hazard-resent.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}又下了一天危险区，对{other}的轻松差事有了怨气。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.008",
+          "ordinal": 8,
+          "source": "同样是下矿井，凭什么{actor}总去危险的那头——{actor}越想越不是滋味。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}数着{other}的清闲日子，心里的账越记越厚。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}连续承担危险任务，而{other}的工作相对安全，怨气因此积累。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.011",
+          "ordinal": 11,
+          "source": "风险差距长期没有改善，{actor}开始把不公平归咎于{other}。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.hazard-resent.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}再次从危险工作中回来，看见{other}安然无恙时已经无法保持平静。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.hazard-resent.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
           "requiredSlots": [
             "actor",
             "other"
@@ -746,6 +1285,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.007",
+          "ordinal": 7,
+          "source": "{other}走了，{actor}把没说出口的话咽了回去。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.008",
+          "ordinal": 8,
+          "source": "{other}没能等到{actor}鼓起勇气的那一天。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}把准备了好久的话，说给了{other}空着的床铺。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.010",
+          "ordinal": 10,
+          "source": "{other}离世以后，{actor}再也没有机会确认那份未说清的感情。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}失去了曾经暗自喜欢的{other}，连告别都显得太迟。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-crush.baseline.012",
+          "ordinal": 12,
+          "source": "{other}的死亡让{actor}一直藏着的心意成了永远无法送达的话。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-crush.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -827,6 +1432,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}失去了{other}，整个人都垮了。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.008",
+          "ordinal": 8,
+          "source": "{other}的床铺空了下来，{actor}很久都不去看那个方向。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.009",
+          "ordinal": 9,
+          "source": "往后的排班表上再没有{other}的名字，{actor}的日子也空了一块。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.010",
+          "ordinal": 10,
+          "source": "{other}离世后，{actor}失去了共同生活的伴侣，悲痛久久没有缓解。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}仍会本能地寻找{other}，随后才一次次想起伴侣已经不在。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.loss-partner.baseline.012",
+          "ordinal": 12,
+          "source": "{other}留下的日常痕迹到处都在，让{actor}无法轻易避开失去的事实。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.loss-partner.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -902,6 +1573,71 @@
           "ordinal": 6,
           "source": "{other}的离世终止了宿怨，{actor}面对结果时只剩下复杂的沉默。",
           "description": "Reviewed event expansion; pool=chronicle.rival-died.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.007",
+          "ordinal": 7,
+          "source": "{other}死了，{actor}心里说不出是什么滋味。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.008",
+          "ordinal": 8,
+          "source": "宿敌死了，{actor}突然发现走廊安静了不少。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}曾盼着赢过{other}，如今再也没有对手了。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.010",
+          "ordinal": 10,
+          "source": "宿敌{other}死后，{actor}失去了长期对抗的对象，情绪并没有想象中轻松。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}曾经盼着胜过{other}，死亡却让这场较量永远没有了下一回。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-died.baseline.012",
+          "ordinal": 12,
+          "source": "{other}的离世终止了宿怨，{actor}面对结果时只剩下复杂的沉默。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-died.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
           "requiredSlots": [
             "actor",
             "other"
@@ -988,6 +1724,72 @@
             "b"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.007",
+          "ordinal": 7,
+          "source": "{a} 和 {b}放下了宿怨。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.001; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.008",
+          "ordinal": 8,
+          "source": "{a} 和 {b}握了握手，宿怨到此为止。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.002; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.009",
+          "ordinal": 9,
+          "source": "恨一个人也挺累的，{a} 和 {b}决定算了。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.003; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.010",
+          "ordinal": 10,
+          "source": "{a}和{b}都不再维持敌意，长期的宿敌关系终于结束。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.004; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.011",
+          "ordinal": 11,
+          "source": "{a}与{b}停止把每次相处都当成较量，关系从宿敌状态退了出来。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.005; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival-over.baseline.012",
+          "ordinal": 12,
+          "source": "{a}和{b}承认继续敌对已经没有意义，决定结束彼此的宿怨。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival-over.baseline.006; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -1064,6 +1866,72 @@
           "ordinal": 6,
           "source": "{a}和{b}不再掩饰对彼此的厌恶，一段宿敌关系由此形成。",
           "description": "Reviewed event expansion; pool=chronicle.rival.baseline; angle=base; participantMode=symmetricPair; requiredSlots=a,b.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.007",
+          "ordinal": 7,
+          "source": "{a} 和 {b}结下了梁子，成了宿敌。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.001; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.008",
+          "ordinal": 8,
+          "source": "{a} 和 {b}的恩怨从此有了名字：宿敌。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.002; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.009",
+          "ordinal": 9,
+          "source": "往后很长一段日子，{a} 和 {b}都不会给对方好脸色。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.003; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.010",
+          "ordinal": 10,
+          "source": "{a}和{b}的冲突累积到无法忽视，彼此正式成了宿敌。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.004; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.011",
+          "ordinal": 11,
+          "source": "{a}与{b}都把对方视为必须压过的对手，敌意从此稳定下来。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.005; setting=ONI; angle=base; participantMode=symmetricPair.",
+          "requiredSlots": [
+            "a",
+            "b"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.rival.baseline.012",
+          "ordinal": 12,
+          "source": "{a}和{b}不再掩饰对彼此的厌恶，一段宿敌关系由此形成。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.rival.baseline.006; setting=ONI; angle=base; participantMode=symmetricPair.",
           "requiredSlots": [
             "a",
             "b"
@@ -1150,6 +2018,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}带头把账算到了{other}头上。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.008",
+          "ordinal": 8,
+          "source": "出了事，总得有人背锅——{actor}领着大家选了{other}。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}一句话，就把众人的怒火引向了{other}。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}公开指认{other}应该为灾难负责，把群体的怒气引向了一个人。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}把无法解决的损失归罪于{other}，并带动更多人接受了这个说法。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-blame.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}需要一个承担众怒的对象，最终选择让{other}背负这份指责。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-blame.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -1224,6 +2158,66 @@
             "subject"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.007",
+          "ordinal": 7,
+          "source": "针对{subject}的孤立，总算过去了。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.001; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.008",
+          "ordinal": 8,
+          "source": "殖民地找到了新的谈资，{subject}的那档子事没人再提。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.002; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.009",
+          "ordinal": 9,
+          "source": "日子一长，连怒火也会过期——{subject}重新融进了人群。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.003; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.010",
+          "ordinal": 10,
+          "source": "针对{subject}的集体怒气逐渐失去力量，日常接触开始恢复。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.004; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.011",
+          "ordinal": 11,
+          "source": "殖民地不再把每件坏事都归到{subject}身上，孤立状态随之消退。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.005; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-faded.baseline.012",
+          "ordinal": 12,
+          "source": "{subject}终于不再承受持续的敌视，众怒事件走到了结束。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-faded.baseline.006; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -1294,6 +2288,66 @@
           "ordinal": 6,
           "source": "{other}走到哪里都遇到回避，这场孤立已经扩散到整个殖民地。",
           "description": "Reviewed event expansion; pool=chronicle.wrath-isolated.baseline; angle=base; participantMode=directedPair; requiredSlots=other.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.007",
+          "ordinal": 7,
+          "source": "{other}被孤立了，没人愿意跟他说话。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.008",
+          "ordinal": 8,
+          "source": "{other}走进餐厅，一整桌的人都收了声。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.009",
+          "ordinal": 9,
+          "source": "现在连哈奇都比{other}受欢迎。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.010",
+          "ordinal": 10,
+          "source": "{other}被大家从日常交往里隔离出去，连普通的招呼也很少得到回应。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.011",
+          "ordinal": 11,
+          "source": "周围的人纷纷保持距离，{other}的日常活动因此变得孤立。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-isolated.baseline.012",
+          "ordinal": 12,
+          "source": "{other}走到哪里都遇到回避，这场孤立已经扩散到整个殖民地。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-isolated.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
           "requiredSlots": [
             "other"
           ],
@@ -1374,6 +2428,72 @@
           "ordinal": 6,
           "source": "{other}遭到{actor}的私下殴打，孤立事件升级成了暴力。",
           "description": "Reviewed event expansion; pool=chronicle.wrath-punch.baseline; angle=base; participantMode=directedPair; requiredSlots=actor,other.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}趁没人注意，揍了{other}一顿。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.008",
+          "ordinal": 8,
+          "source": "排班表的空档里，{actor}堵住了{other}。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.009",
+          "ordinal": 9,
+          "source": "{actor}挑了个四下无人的时候，把火气撒在了{other}身上。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}把针对{other}的怒气变成了突然一拳，造成了真实的伤害。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}趁{other}没有准备发动袭击，众怒因此越过了言语界线。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-punch.baseline.012",
+          "ordinal": 12,
+          "source": "{other}遭到{actor}的私下殴打，孤立事件升级成了暴力。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-punch.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
           "requiredSlots": [
             "actor",
             "other"
@@ -1460,6 +2580,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}向{other}伸出了援手。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}端着餐盘坐到{other}旁边，孤立的墙塌了一角。氧气照旧流动，没有带走这件事留下的沉重。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.009",
+          "ordinal": 9,
+          "source": "所有人都绕开{other}的时候，{actor}偏偏走了过去。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}拒绝继续排斥{other}，主动让对方重新回到正常交往中。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}在众人回避时站到{other}身边，用行动打破了孤立。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-rescue.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}向被排斥的{other}提供帮助，让殖民地看见仍有人愿意接纳。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-rescue.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -1530,6 +2716,66 @@
           "ordinal": 6,
           "source": "{subject}撞见那场无人旁观的眼泪，之后再也无法把孤立当成小事。",
           "description": "Reviewed event expansion; pool=chronicle.wrath-saw-crying.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.007",
+          "ordinal": 7,
+          "source": "{subject}撞见他一个人躲着哭。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.001; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.008",
+          "ordinal": 8,
+          "source": "{subject}路过时听见哭声，放轻了脚步。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.002; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.009",
+          "ordinal": 9,
+          "source": "躲在角落里的那个人哭了很久，{subject}没有上前。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.003; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.010",
+          "ordinal": 10,
+          "source": "{subject}意外看见被孤立的人独自哭泣，原有的判断开始动摇。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.004; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.011",
+          "ordinal": 11,
+          "source": "躲起来的哭声被{subject}听见，众怒背后的痛苦第一次变得具体。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.005; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-saw-crying.baseline.012",
+          "ordinal": 12,
+          "source": "{subject}撞见那场无人旁观的眼泪，之后再也无法把孤立当成小事。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-saw-crying.baseline.006; setting=ONI; angle=base; participantMode=solo.",
           "requiredSlots": [
             "subject"
           ],
@@ -1615,6 +2861,72 @@
             "other"
           ],
           "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.007",
+          "ordinal": 7,
+          "source": "{actor}当众替{other}说了句公道话。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.001; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.008",
+          "ordinal": 8,
+          "source": "{actor}当着所有人的面替{other}说话，没人再吭声。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.002; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.009",
+          "ordinal": 9,
+          "source": "众怒汹汹的时候，{actor}是唯一肯替{other}开口的人。打印舱的光仍旧温暖，却照不散基地里短暂的沉默。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.003; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.010",
+          "ordinal": 10,
+          "source": "{actor}公开质疑对{other}的集体指责，要求大家停止没有根据的排斥。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.004; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.011",
+          "ordinal": 11,
+          "source": "{actor}在众人面前替{other}说明事实，让沉默的反对终于有了声音。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.005; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-speak-up.baseline.012",
+          "ordinal": 12,
+          "source": "{actor}承担了得罪群体的风险，坚持让{other}得到公平对待。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-speak-up.baseline.006; setting=ONI; angle=base; participantMode=directedPair.",
+          "requiredSlots": [
+            "actor",
+            "other"
+          ],
+          "deprecated": false
         }
       ]
     },
@@ -1685,6 +2997,66 @@
           "ordinal": 6,
           "source": "{subject}看清袭击发生的经过，之后再也无法假装什么都不知道。",
           "description": "Reviewed event expansion; pool=chronicle.wrath-witness.baseline; angle=base; participantMode=solo; requiredSlots=subject.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.007",
+          "ordinal": 7,
+          "source": "{subject}看见了那场私刑。警报灯最终安静下来，殖民地却再也回不到事发之前。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.001; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.008",
+          "ordinal": 8,
+          "source": "{subject}撞见了那一幕，慌忙装作没看见。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.002; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.009",
+          "ordinal": 9,
+          "source": "有些事看见了也只能咽下去，{subject}把嘴闭得很紧。机器仍按排班运转，留下的人只能带着这件事继续生活。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.003; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.010",
+          "ordinal": 10,
+          "source": "{subject}亲眼看见被孤立者遭到袭击，意识到众怒已经变成暴力。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.004; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.011",
+          "ordinal": 11,
+          "source": "{subject}撞见那次私下殴打，却因为震惊一时没有出声。自动门又开又合，经过这里的人却都放轻了脚步。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.005; setting=ONI; angle=base; participantMode=solo.",
+          "requiredSlots": [
+            "subject"
+          ],
+          "deprecated": false
+        },
+        {
+          "templateId": "chronicle.wrath-witness.baseline.012",
+          "ordinal": 12,
+          "source": "{subject}看清袭击发生的经过，之后再也无法假装什么都不知道。这颗小行星没有给人太多哀悼时间，记忆只能跟着下一班工作继续。",
+          "description": "Reviewed doubling expansion; basedOn=chronicle.wrath-witness.baseline.006; setting=ONI; angle=base; participantMode=solo.",
           "requiredSlots": [
             "subject"
           ],

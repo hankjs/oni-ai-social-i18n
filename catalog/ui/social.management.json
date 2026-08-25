@@ -981,6 +981,74 @@
       "description": "Pending-safe event label; must not reveal the locked confession outcome.",
       "arguments": [],
       "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "seq": 235,
+      "source": "第{0}章 · {1}",
+      "description": "{0}: chapter number; {1}: localized anchor event name.",
+      "arguments": [
+        { "token": "0", "name": "chapter number", "kind": "number" },
+        { "token": "1", "name": "anchor event name", "kind": "text" }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "seq": 236,
+      "source": "周期{0}—{1}",
+      "description": "{0}: first cycle; {1}: last cycle.",
+      "arguments": [
+        { "token": "0", "name": "first cycle", "kind": "number" },
+        { "token": "1", "name": "last cycle", "kind": "number" }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "seq": 237,
+      "source": "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。",
+      "description": "{0}: subject name; {1}: chapter start cycle; {2}: anchor cycle; {3}: anchor event name.",
+      "arguments": [
+        { "token": "0", "name": "subject name", "kind": "text" },
+        { "token": "1", "name": "chapter start cycle", "kind": "number" },
+        { "token": "2", "name": "anchor cycle", "kind": "number" },
+        { "token": "3", "name": "anchor event name", "kind": "text" }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "seq": 238,
+      "source": "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。",
+      "description": "{0}: subject name; {1}: chapter start cycle; {2}: chapter end cycle.",
+      "arguments": [
+        { "token": "0", "name": "subject name", "kind": "text" },
+        { "token": "1", "name": "chapter start cycle", "kind": "number" },
+        { "token": "2", "name": "chapter end cycle", "kind": "number" }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "seq": 239,
+      "source": "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。",
+      "description": "Closing line after a chapter with a turning point. {0}: localized anchor event name; {1}: subject name.",
+      "arguments": [
+        { "token": "0", "name": "anchor event name", "kind": "text" },
+        { "token": "1", "name": "subject name", "kind": "text" }
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "seq": 240,
+      "source": "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。",
+      "description": "{0}: subject name.",
+      "arguments": [
+        { "token": "0", "name": "subject name", "kind": "text" }
+      ],
+      "richText": false
     }
   ]
 }

@@ -960,25 +960,49 @@ msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SOLO"
 msgid "周期{0} · {1} [{2}]{3}"
 msgstr "Cycle {0} · {1} [{2}]{3}"
 
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE"
+msgid "第{0}章 · {1}"
+msgstr "Chapter {0} · {1}"
+
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_WITH"
 msgid "周期{0} · 与 {1} [{2}]{3}"
 msgstr "Cycle {0} · with {1} [{2}]{3}"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE"
+msgid "周期{0}—{1}"
+msgstr "Cycles {0}–{1}"
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.ENTRY_SELF"
 msgid "周期{0} · [{1}]{2}"
 msgstr "Cycle {0} · [{1}]{2}"
 
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING"
+msgid "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。"
+msgstr "From cycle {1}, {0}'s ordinary days slowly accumulated; by cycle {2}, {3} gave this part of life a turning point."
+
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_AFFINITY"
 msgid " 好感{0:+#;-#;0}"
 msgstr " Affinity {0:+#;-#;0}"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET"
+msgid "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。"
+msgstr "From cycle {1} to {2}, {0} built a life among the people nearby, between work, meals and rest."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_STRESS"
 msgid " 压力{0:+#.#;-#.#;0}"
 msgstr " Stress {0:+#.#;-#.#;0}"
 
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING"
+msgid "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。"
+msgstr "After {0}, {1} carried its effects into the next part of life."
+
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR"
 msgid " 压力{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}"
 msgstr " Stress {0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}"
+
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET"
+msgid "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。"
+msgstr "No milestone recorded these ordinary moments, but together they became {0}'s life in the colony."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG.VALUE_MORALE"
 msgid " 士气{0:+#.#;-#.#;0}"
@@ -1801,8 +1825,8 @@ msgid "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。"
 msgstr "{pair} helped the newcomer settle in and explained the base's rules."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_3"
-msgid "打印舱又吐出一个新人,{pair}第一个迎了上去。"
-msgstr "The printing pod spat out another newcomer, and {pair} were the first to greet them."
+msgid "打印舱送来了一位新伙伴,{pair}第一个迎了上去。"
+msgstr "The Printing Pod delivered a new companion, and {pair} were the first to welcome them."
 
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.WELCOME_4"
 msgid "新人的第一顿饭,是{pair}陪着吃的。"

@@ -36,7 +36,7 @@ SEMANTIC_FORM_RE = re.compile(
     r"(?<!\{)\{([A-Za-z_][A-Za-z0-9_]*):([A-Za-z_][A-Za-z0-9_]*)\}(?!\})"
 )
 MIN_ACTIVE_CHRONICLE_TEMPLATES = 900
-MAX_ACTIVE_CHRONICLE_TEMPLATES = 1200
+MAX_ACTIVE_CHRONICLE_TEMPLATES = 2200
 CHRONICLE_ACTIVE_FAMILIES = (
     "routine", "support", "relationship", "colony", "dark", "connective",
 )

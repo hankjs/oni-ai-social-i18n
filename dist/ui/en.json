@@ -1575,6 +1575,15 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "Chapter {0} · {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
       "text": "Cycle {0} · with {1} [{2}]{3}",
       "requiredSlots": [
@@ -1582,6 +1591,15 @@
         "1",
         "2",
         "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "Cycles {0}–{1}",
+      "requiredSlots": [
+        "0",
+        "1"
       ],
       "richText": false
     },
@@ -1596,10 +1614,31 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "From cycle {1}, {0}'s ordinary days slowly accumulated; by cycle {2}, {3} gave this part of life a turning point.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
       "text": " Affinity {0:+#;-#;0}",
       "requiredSlots": [
         "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "From cycle {1} to {2}, {0} built a life among the people nearby, between work, meals and rest.",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
       ],
       "richText": false
     },
@@ -1612,11 +1651,28 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "After {0}, {1} carried its effects into the next part of life.",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
       "text": " Stress {0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
       "requiredSlots": [
         "0",
         "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "No milestone recorded these ordinary moments, but together they became {0}'s life in the colony.",
+      "requiredSlots": [
+        "0"
       ],
       "richText": false
     },
@@ -3320,7 +3376,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
-      "text": "The printing pod spat out another newcomer, and {pair} were the first to greet them.",
+      "text": "The Printing Pod delivered a new companion, and {pair} were the first to welcome them.",
       "requiredSlots": [
         "pair"
       ],

@@ -85,7 +85,13 @@ class I18nValidationTests(unittest.TestCase):
     def test_chronicle_total_capacity_is_a_release_gate(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
-            remaining = 77
+            active = 0
+            for path in sorted((root / "catalog" / "chronicle").glob("*.json")):
+                payload = json.loads(path.read_text(encoding="utf-8"))
+                active += sum(not template.get("deprecated", False)
+                              for pool in payload["pools"]
+                              for template in pool["templates"])
+            remaining = active - 899
             for path in sorted((root / "catalog" / "chronicle").glob("*.json")):
                 payload = json.loads(path.read_text(encoding="utf-8"))
                 for pool in payload["pools"]:
@@ -97,13 +103,21 @@ class I18nValidationTests(unittest.TestCase):
                 path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
                                 encoding="utf-8")
             self.assertEqual(0, remaining)
-            self.assertTrue(any("outside release range 900–1200" in error
+            self.assertTrue(any("outside release range 900–2200" in error
                                 for error in validate_catalog(root)))
 
     def test_chronicle_semantic_angle_floors_are_release_gates(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
-            remaining = 25
+            base_active = 0
+            for path in sorted((root / "catalog" / "chronicle").glob("*.json")):
+                payload = json.loads(path.read_text(encoding="utf-8"))
+                if payload.get("family") == "routine":
+                    base_active += sum(
+                        not template.get("deprecated", False)
+                        for pool in payload["pools"] if pool.get("angle") == "base"
+                        for template in pool["templates"])
+            remaining = base_active - 119
             for path in sorted((root / "catalog" / "chronicle").glob("*.json")):
                 payload = json.loads(path.read_text(encoding="utf-8"))
                 if payload.get("family") != "routine":
