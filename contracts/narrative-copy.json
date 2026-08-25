@@ -1,5 +1,5 @@
 {
-  "contractVersion": 1,
+  "contractVersion": 2,
   "baselineDate": "2026-08-25",
   "scope": "Every active Chronicle family and every Dialogue event family present when the expansion was requested.",
   "loreRules": [
@@ -63,6 +63,14 @@
     "wrathspeakup": { "baseline": 5, "target": 10 },
     "wrathwitness": { "baseline": 5, "target": 10 }
   },
+  "requiredDialoguePersonalityTags": [
+    "hothead",
+    "crybaby",
+    "loud",
+    "eater",
+    "nervous",
+    "jumpy"
+  ],
   "chronicle": {
     "colony": { "baseline": 65, "target": 130 },
     "connective": { "baseline": 126, "target": 252 },
