@@ -1575,6 +1575,15 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "第{0}章 · {1}",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
       "text": "周期{0} · 与 {1} [{2}]{3}",
       "requiredSlots": [
@@ -1582,6 +1591,15 @@
         "1",
         "2",
         "3"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "周期{0}—{1}",
+      "requiredSlots": [
+        "0",
+        "1"
       ],
       "richText": false
     },
@@ -1596,10 +1614,31 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
       "text": " 好感{0:+#;-#;0}",
       "requiredSlots": [
         "0"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。",
+      "requiredSlots": [
+        "0",
+        "1",
+        "2"
       ],
       "richText": false
     },
@@ -1612,11 +1651,28 @@
       "richText": false
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false
+    },
+    {
       "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
       "text": " 压力{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
       "requiredSlots": [
         "0",
         "1"
+      ],
+      "richText": false
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。",
+      "requiredSlots": [
+        "0"
       ],
       "richText": false
     },
@@ -3320,7 +3376,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
-      "text": "打印舱又吐出一个新人,{pair}第一个迎了上去。",
+      "text": "打印舱送来了一位新伙伴,{pair}第一个迎了上去。",
       "requiredSlots": [
         "pair"
       ],

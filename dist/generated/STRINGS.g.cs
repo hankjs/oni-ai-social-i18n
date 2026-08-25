@@ -292,6 +292,12 @@ namespace ONIAiSocial
                 public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";
                 public static LocString TELEMETRY_EXPORT_FAILED = "诊断报告导出失败：{0}";
                 public static LocString PENDING_CONFESSION = "告白";
+                public static LocString STORY_CHAPTER_TITLE = "第{0}章 · {1}";
+                public static LocString STORY_CHAPTER_RANGE = "周期{0}—{1}";
+                public static LocString STORY_CHAPTER_LEAD_TURNING = "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。";
+                public static LocString STORY_CHAPTER_LEAD_QUIET = "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。";
+                public static LocString STORY_CHAPTER_CLOSING_TURNING = "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。";
+                public static LocString STORY_CHAPTER_CLOSING_QUIET = "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。";
             }
 
             public class LOG
@@ -512,7 +518,7 @@ namespace ONIAiSocial
                 public static LocString FAMINE_OVER_3 = "又能吃饱的日子来了,仿佛饥荒从没发生过。";
                 public static LocString WELCOME_1 = "{pair}迎接了新来的同伴。";
                 public static LocString WELCOME_2 = "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。";
-                public static LocString WELCOME_3 = "打印舱又吐出一个新人,{pair}第一个迎了上去。";
+                public static LocString WELCOME_3 = "打印舱送来了一位新伙伴,{pair}第一个迎了上去。";
                 public static LocString WELCOME_4 = "新人的第一顿饭,是{pair}陪着吃的。";
                 public static LocString STRESS_BAD_1 = "{subject}的压力又重了一分。";
                 public static LocString STRESS_BAD_2 = "{subject}的眉头又拧紧了一分。";
