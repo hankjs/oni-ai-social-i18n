@@ -227,10 +227,37 @@
       "maxLength": 10000
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA_PREVIEW",
-      "meaning": "Dialogue-language choice for the shipped Japanese preview; explicitly warns that content is incomplete",
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_KO",
+      "meaning": "Korean language choice, shown using the language's native name",
       "contractRevision": 1,
-      "importance": "critical",
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_RU",
+      "meaning": "Russian language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA",
+      "meaning": "Japanese language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_VI",
+      "meaning": "Vietnamese language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
       "arguments": [],
       "richText": false,
       "maxLength": 60

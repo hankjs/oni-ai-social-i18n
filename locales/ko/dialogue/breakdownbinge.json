@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "breakdownbinge",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownbinge.base.001",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그건 세 사람 몫이야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "계산 중이야, 시끄럽게 하지 마."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.002",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "밤 근무 몫은 남겨."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "밤 근무는 이해해 줄 거야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.003",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "너 전혀 안 씹고 있잖아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "씹으면 시간이 들거든."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.004",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "냉장고가 비었어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그래야지, 빈 건 내가 읽을 수 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.005",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "다 먹으면 후회할 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그건 조금 뒤의 내가 할 일이야."
+        }
+      ]
+    }
+  ]
+}

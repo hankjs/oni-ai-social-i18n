@@ -1,0 +1,54 @@
+{
+  "locale": "ko",
+  "family": "famineover",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "먹을 건 생겼어. 그게 뭔지 묻는 사람은 없어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "위기는 지나갔어. 다들 예전보다 조금 더 멀리 앉아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "창고가 다시 찼어. 라벨을 확인한 사람은 없어."
+        }
+      ]
+    }
+  ]
+}

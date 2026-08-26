@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "breakdowndestroy",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ту машину я вчера починил."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Значит, хорошо починил. Долго орала."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Стой. Это кислородный аппарат."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Который из них."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты крушишь наше."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "А что тут моё?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Долбанул уже?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Нет. Но рука болит."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Стена твёрже тебя."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Стена меня ещё ни разу не подводила."
+        }
+      ]
+    }
+  ]
+}

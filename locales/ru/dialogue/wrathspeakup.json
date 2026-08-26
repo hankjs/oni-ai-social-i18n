@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathspeakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathspeakup.base.001",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я смотрел записи. В тот день он был на другом конце базы."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Ты ходил смотреть записи?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.002",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Винить — вини меня. Смены расставлял я."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тебе не обязательно так за меня."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.003",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Нам нужна починенная машина, а не человек, на которого можно орать."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Спасибо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.004",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Моё слово на этой базе ещё что-то весит, да? Он не виноват."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я думал, меня уже все забыли."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.005",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В следующий раз кто захочет повесить на кого-то всех собак — сначала ко мне."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Тогда тебе самому поосторожнее."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "breakdownbinge",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownbinge.base.001",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "それは三人分だ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "計算中だ。邪魔するな。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.002",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "夜勤に少し残せ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "夜勤は分かってくれる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.003",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "お前、全然噛んでないだろ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "噛むと時間がかかる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.004",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "冷蔵庫が空だ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "それでいい。空っぽなものなら、俺にも分かる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.005",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食べ終わったら後悔するぞ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "それは、あとの俺の問題だ。"
+        }
+      ]
+    }
+  ]
+}

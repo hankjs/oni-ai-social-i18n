@@ -1,0 +1,1446 @@
+{
+  "locale": "ja",
+  "family": "compatibility",
+  "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は交代の合間に二言三言交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は顔を合わせ、その日の見聞を交換した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は道すがら話し、それぞれ忙しくなるまで続いた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょにしばらく雑談した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は話に興じて、次の仕事を忘れかけた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は待ち時間を雑談で過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はコロニーの新しい出来事を話した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばらく話し、気持ちがいくらか軽くなった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互い違いに言葉を交わし、ごく自然に話した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は足を止め、互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は忙しさの中からわずかな会話の時間を搾り出した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は何気ない挨拶から、別の話にまで及んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}の会話は長くはなかったが、どちらもよく耳を傾けた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は手が空いた隙に、近況を語り合った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばらく話してから、またそれぞれの仕事に戻った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}が日常の些細な話をするうち、時間もいくらか早く過ぎた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は取るに足りないが面白い小さな出来事をいくつか話した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短く話したが、空気はなごやかだった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はそれぞれが出会った面白い話を相手に聞かせた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は急ぎ足のまま、切れ切れに話し続けた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}の話は淡々としていたが、どちらも急いで終えようとはしなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は最近気づいた小さな出来事をいくつか分け合った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は笑い話を交わし、忙しい一日にわずかな気楽さを足した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は会話を終えるとき、名残を惜しんでもう二言足した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.001",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は顔を合わせ、互いに会釈した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.002",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は正面から出会い、ついでに一声かけた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.003",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はすれ違いざまに目配せを交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.004",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は少し離れたところから相手に手を振った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.005",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は足を止め、短く挨拶を交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.006",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は慌ただしく出会っても、相手への挨拶を忘れなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.007",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は慣れた手振りで互いに挨拶した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.008",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は相手を見て、どちらも笑みを浮かべた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.009",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互いに無事を告げ、それからまた急いだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.010",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互いのそばを通るとき、低く挨拶した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.011",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は遠くから相手だと分かり、手を上げて示した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.012",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は出会ったとき、互いに近況を尋ねた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.013",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はこの出会いを、簡単な挨拶から始めた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.014",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はそれぞれ忙しくなる前に、まず相手へ会釈した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.015",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばし足を止め、相手がいつも通りかを確かめた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.016",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は息を合わせて同時に手を上げ、挨拶した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.017",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は会うなり、自然に互いに挨拶した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.018",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は人々の中で互いを認め、挨拶を交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.019",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は冗談めいた一声で場を和ませた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.020",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は出会うとき歩みを緩め、互いに挨拶した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.021",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は忙しさの合間に、互いに一声かけた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.022",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は相手のそばを通るとき、親しげに微笑んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.023",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短い挨拶で、互いの存在を確かめた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.024",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一日の忙しさのなかで、また一度顔を合わせた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.001",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は並んで座り、落ち着いてその食事を終えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.002",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食事の時間を、共にいる時間にもした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.003",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食べながら話し、どちらも急いで去ろうとしなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.004",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は同じ食事の時間にたまたま重なり、同じ場所に座った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.005",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はそろって手元の仕事を置き、食事に専念した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.006",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食事の合間に雑談を交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.007",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は肩を並べて座り、静かな食事のひとときを分け合った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.008",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食事のあいだ、とぎれとぎれに話した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.009",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は近い席を選び、いっしょにその食事を済ませた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.010",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばらく仕事を置き、ありふれた食事を共にした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.011",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は同じときに座り、同じときに食べ終えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.012",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一食のあいだ、互いに傍にいた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.013",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は急がず食べ、ときおり顔を上げて二言三言交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.014",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は忙しさの合間に寄り、いっしょに食事した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.015",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}がいっしょに食べたことで、短い休みがいっそう落ち着いて見えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.016",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はこの食事のあいだ、気楽な会話を保った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.017",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は息を合わせて近くに座り、いっしょに食事を始めた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.018",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食べ終えたあともしばらく座り、それからそれぞれ去った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.019",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はありふれた食事を、かなり賑やかに済ませた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.020",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は静かに同じ卓で食事し、空気は気詰まりではなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.021",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は食事のあいだ、それぞれのこの先の予定を話した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.022",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互いに少し待ち、それからいっしょに食べ始めた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.023",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は急かされない食事のひとときを共にした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.024",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は同じ食事を終え、また元気よく仕事へ向かった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.001",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は同じ休みの時間のなかで、次第に静かになっていった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.002",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一日の忙しさを終え、そろって休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.003",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は得がたい静かな休みのひとときを共にした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.004",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一日の疲れで、すぐにそれぞれ眠りへ落ちた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.005",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は休む前に、短く夜の挨拶を交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.006",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は前後して仕事を止め、同じ静けさを迎えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.007",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互いの傍らで、安心して休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.008",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はそれ以上話さず、ただ静かに休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.009",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は忙しさを明日に残し、とりあえずそろって休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.010",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短い閑暇のなかで、元気を取り戻していた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.011",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}が落ち着くと、周囲も次第に静けさへ戻った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.012",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は珍しく同時に手が空き、しっかりしばらく休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.013",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は近い生活リズムのなかで、しばしの安寧を分け合った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.014",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一日の疲れを抱えたまま、そろって休みの時間に入った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.015",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はそれぞれ力を抜き、互いを妨げなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.016",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は休みの合間に、しばしの静けさを味わった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.017",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はこの共同の休みを、穏やかに過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.018",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は会話を終えると、すぐに静かになった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.019",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は疲れのなかで、互いに夜の挨拶を交わした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.020",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は同時に休みを迎え、同時に張りを解いた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.021",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はこのときを休みに充て、仕事の話はしなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.022",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は規則正しいリズムのなかで、また一度いっしょに休んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.023",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばらく静かに共にいて、それぞれ元気を取り戻した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.024",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は次の忙しさの前に、そろって穏やかに眠った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.001",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょに閑な時間を過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.002",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいったん仕事を置き、気楽にしばらく過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.003",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は寄り合い、自分たちに少しの楽しみを見つけた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.004",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は閑な時間に、少なからぬ笑い声を分け合った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.005",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短い余暇を、かなり賑やかに過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.006",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょにしばらく力を抜き、元気がかなり戻った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.007",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はごく自然に、互いの余暇へ入り込んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.008",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばらくはしゃぎ、手元の悩みを一時忘れた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.009",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は気楽な空気のなかに、かなりのあいだいた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.010",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょに余暇を過ごし、その空き時間を無駄にしなかった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.011",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は互いに冗談を言い、疲れをいくらか薄めた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.012",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は珍しく急かされず、連れ立って力を抜いた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.013",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は冗談と笑いのなかで、余暇を過ごした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.014",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は平凡な一日に、小さな気晴らしを足した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.015",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょに何かすることを見つけ、空気は気楽だった。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.016",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は仕事以外の時間を互いのために使った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.017",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は一箇所に集まり、興に乗ってしばらく気を紛らした。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.018",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短い自由時間に、熱中して遊んだ。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.019",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は仕事の話をせず、しばらく気楽でいることだけに気を取られた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.020",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はいっしょに時間を過ごし、互いにもっと慣れた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.021",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}はしばし力を抜くことにし、そのあとそれぞれ散った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.022",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は短い空き時間を、快い付き合いに変えた。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.023",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は冗談と笑い声のなかで、いくらか元気を取り戻した。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.024",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}は十分に気を紛らしてから、また日常へ戻った。",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    }
+  ]
+}

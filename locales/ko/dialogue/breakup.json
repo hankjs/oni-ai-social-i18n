@@ -1,0 +1,90 @@
+{
+  "locale": "ko",
+  "family": "breakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "우리…… 이만 하자."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "좋게 헤어지자. 잘 지내."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "우린 파이프는 고칠 수 있어도, 이건 더는 못 고쳐."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……응. 적어도 파이프는 멀쩡하잖아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "앞으로 식당, 넌 동쪽, 난 서쪽."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그래.…… 몸 잘 챙겨."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "산소통 돌려줄게. 다 돌려줄게."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "가지고 있어. 그냥…… 친구가 준 걸로."
+        }
+      ]
+    }
+  ]
+}

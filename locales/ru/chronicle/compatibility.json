@@ -1,0 +1,1446 @@
+{
+  "locale": "ru",
+  "family": "compatibility",
+  "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} перекинулись словами в паузу между сменами.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} встретились и обменялись сегодняшними вестями.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} говорили всю дорогу, пока каждый не ушёл к своим делам.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сошлись и некоторое время болтали.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} разговорились так, что чуть не забыли следующую работу.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} коротали ожидание несколькими праздными фразами.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} говорили о новостях колонии.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поговорили немного, и на душе у обоих стало легче.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} перебрасывались репликами — разговор шёл сам собой.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} остановились и дослушали друг друга всерьёз.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} выкроили из суеты короткий разговор.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} от случайного приветствия перешли к другому.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} говорили недолго, но слушали очень внимательно.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} при свободных руках рассказали друг другу, как идут дела.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поговорили немного и лишь потом снова взялись каждый за своё.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} заговорили о мелочах дня, и время пошло быстрее.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} пересказали несколько пустяков — неважных, но занятных.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} коротко поговорили, и воздух между ними был тёплым.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} рассказали друг другу забавное, что каждому попадалось.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} шли по делам и между тем говорили урывками.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} говорили ровно, и никто не спешил кончать.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поделились несколькими мелочами, которые недавно приметили.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} шутили и смеялись, добавив суетливому дню немного лёгкости.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} закончили разговор и всё же добавили пару фраз — будто не наговорились.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.001",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} пересеклись и кивнули друг другу.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.002",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} встретились лицом к лицу и заодно поздоровались.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.003",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} прошли вплотную и обменялись взглядом.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.004",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} махнули друг другу рукой через расстояние.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.005",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} остановились и коротко перебросились любезностями.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.006",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} столкнулись наспех и всё же не забыли поздороваться.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.007",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поздоровались знакомым жестом.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.008",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} при виде друг друга оба улыбнулись.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.009",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сообщили друг другу, что целы, и пошли дальше.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.010",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} проходили мимо и тихо поздоровались.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.011",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} издали узнали друг друга и подняли руку.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.012",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} при встрече спросили друг у друга, как дела.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.013",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} начали эту встречу простой фразой приветствия.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.014",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} прежде чем снова разойтись по делам, сначала поздоровались.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.015",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ненадолго остановились, чтобы убедиться: у другого всё как всегда.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.016",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} заодно, в один миг, подняли руки в приветствии.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.017",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} едва встретившись, сами собой поздоровались.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.018",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} заметили друг друга в толпе и обменялись приветствиями.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.019",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} шутливым приветствием оживили воздух вокруг.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.020",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} при встрече сбавили шаг и сказали друг другу «здравствуй».",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.021",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} среди суеты всё же нашли миг перекинуться приветствием.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.022",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} проходили рядом и дружески улыбнулись.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.023",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} коротким приветствием подтвердили, что видят друг друга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.024",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в суете дня ещё раз столкнулись.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.001",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сели вместе и спокойно доели эту трапезу.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.002",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} превратили час еды ещё и в час общения.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.003",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ели и говорили, и никто не спешил уйти.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.004",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} случайно попали на одну трапезу и сели рядом.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.005",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} вместе отложили дела и сосредоточенно поели.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.006",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} между ложками обменялись несколькими праздными фразами.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.007",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сидели плечом к плечу и разделили тихий час трапезы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.008",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} за едой говорили урывками, без нужды держать нить.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.009",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} выбрали места рядом и вместе разделались с этой трапезой.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.010",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ненадолго отложили работу и разделили самую обычную еду.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.011",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сели в один час и в один час же закончили.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.012",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} составили друг другу компанию на время трапезы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.013",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ели не спеша и лишь изредка поднимали глаза, чтобы сказать пару слов.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.014",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} между делами сошлись вместе поесть.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.015",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ели вместе, и короткий отдых от этого стал спокойнее.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.016",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} за этой трапезой держали лёгкий разговор.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.017",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сами собой сели рядом и вместе принялись за еду.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.018",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} доели, ещё посидели и лишь потом разошлись.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.019",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} обычную еду сделали довольно шумной.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.020",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} молча ели за одним столом, и в воздухе не было неловкости.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.021",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} за едой говорили о том, что каждому предстоит дальше.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.022",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} немного подождали друг друга и затем вместе принялись за еду.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.023",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} разделили краткий час еды, когда не нужно было спешить к станкам.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.024",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поели одно и то же и снова ушли к делам — уже бодрее.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.001",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в одном и том же часе отдыха понемногу стихали.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.002",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} закончили дневную суету и вместе остановились отдохнуть.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.003",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} разделили редкий тихий час покоя.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.004",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} устали за день и вскоре каждый канул в сон.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.005",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} перед отдыхом коротко пожелали друг другу спокойной ночи.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.006",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} один за другим отложили работу и вошли в одну и ту же тишину.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.007",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} спокойно отдыхали в обществе друг друга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.008",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} больше ничего не говорили — только тихо отдыхали.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.009",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} оставили суету на завтра и пока отдыхали вместе.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.010",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в короткой передышке восстанавливали силы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.011",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} устроились, и вокруг тоже понемногу стало тихо.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.012",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} редко оказались свободными сразу и как следует отдохнули.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.013",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} при близком распорядке разделили краткий покой.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.014",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} с усталостью дня вместе вошли в час отдыха.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.015",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} каждый сам по себе отпустил напряжение и не мешал другому.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.016",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в паузе отдыха немного насладились тишиной.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.017",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ровно провели этот общий час покоя.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.018",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} закончили разговор и быстро стихли.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.019",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сквозь усталость пожелали друг другу спокойной ночи.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.020",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} разом встретили отдых и разом сняли напряжение.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.021",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} отдали этот миг покою и больше не говорили о работе.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.022",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в ровном распорядке ещё раз отдыхали вместе.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.023",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} тихо побыли рядом и каждый восстановил силы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.024",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} перед следующим кругом суеты вместе выспались спокойным сном.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.001",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} вместе скоротали немного досуга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.002",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ненадолго отложили работу и легко побыли вместе.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.003",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сошлись и нашли себе немного веселья.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.004",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} на досуге разделили немало смеха.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.005",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} короткий досуг провели довольно шумно.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.006",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} вместе немного размяли душу, и сил стало больше.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.007",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} сами собой вошли в досуг друг друга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.008",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} порезвились и на время забыли текущие заботы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.009",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} довольно долго пробыли в лёгком воздухе этой встречи.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.010",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} отдыхали вместе, и этот простой не пропал даром.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.011",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} поддразнивали друг друга, и усталость чуть отступила.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.012",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} редко оказались без спешки к станкам и вместе позволили себе ослабить плечи.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.013",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} провели досуг среди шуток и смеха.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.014",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} добавили к обычному дню маленькое развлечение.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.015",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} вместе нашли себе занятие, и воздух был лёгким.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.016",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} время вне работы оставили друг другу.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.017",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} собрались вместе и с охотой скоротали досуг.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.018",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} в короткой свободе играли очень всерьёз.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.019",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} не говорили о работе — только позволили себе немного лёгкости.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.020",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} вместе коротали время и стали чуть лучше знать друг друга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.021",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} условились ненадолго отпустить себя и лишь потом разошлись.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.022",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} превратили короткий простой в приятное общество друг друга.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.023",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} среди шуток и смеха чуть вернули себе силы.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.024",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} повеселились вволю и лишь потом вернулись к обычным делам.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    }
+  ]
+}

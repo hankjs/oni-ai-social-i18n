@@ -1,0 +1,72 @@
+{
+  "locale": "ja",
+  "namespace": "social.log",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "サイクル{0} · {1} と {2} [{3}]{4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "サイクル{0} · {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "サイクル{0} · {1}とともに [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "サイクル{0} · [{1}]{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " 好感度{0:+#;-#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " ストレス{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " ストレス{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " 士気{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "サイクル{0} · {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— 重大記録 ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— 最近 ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

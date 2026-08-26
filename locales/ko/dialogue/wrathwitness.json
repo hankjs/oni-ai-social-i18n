@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "봤어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "뭘 봤는데."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "손 내려."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……네가 상관할 바 아니야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "손을 쓰기 전에, 사람 있는지부터 슬쩍 확인하더라."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "닥쳐."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "오늘을 기억할 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "마음대로 해."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네가 그 사람을 칠 때, 난 환기 덕트 안에 있었어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……그럼 본 것보다 들은 게 더 많겠네."
+        }
+      ]
+    }
+  ]
+}

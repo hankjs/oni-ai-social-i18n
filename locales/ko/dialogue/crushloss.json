@@ -1,0 +1,54 @@
+{
+  "locale": "ko",
+  "family": "crushloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.crushloss.base.001",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "아직 못 한 말이 있는데, 이젠 기회가 없어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.002",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네가 어떤 빵을 좋아하는지조차 못 물어봤어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.003",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "예전엔 근무표가 우릴 갈라놓았다고 원망했어. 이번엔, 그걸 탓할 수가 없어."
+        }
+      ]
+    }
+  ]
+}

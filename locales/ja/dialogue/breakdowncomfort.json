@@ -1,0 +1,132 @@
+{
+  "locale": "ja",
+  "family": "breakdowncomfort",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncomfort.base.001",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ここに座る。話さなくていい。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……うん。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.002",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "俺もあった。二つ前のサイクルに。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "お前は人に見せなかった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.003",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あいつら、みんな散った。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "お前は散ってない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.004",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "水、飲むか。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "飲む。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.005",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "少し良くなったら戻ろう。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "それ、かなりかかるかも。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.006",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "何も外には言わない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "言うだろう。でも、ありがとう。"
+        }
+      ]
+    }
+  ]
+}

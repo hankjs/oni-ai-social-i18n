@@ -1,0 +1,2508 @@
+{
+  "locale": "ja",
+  "family": "support",
+  "templates": [
+    {
+      "templateId": "chronicle.bestfriend.baseline.001",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は深夜まで語り、互いの親友となった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.002",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、誰にも話したことのない言葉を交わした。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.003",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いの秘密を交わし、それ以来隔てはなくなった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.004",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "あの夜{a}と{b}は夜明けまで語り、寝るべきだとは誰も口にしなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.005",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "長いこと知ってから友達になる者もいるが、{a}と{b}は一晩で足りた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.006",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は口にしにくい心配を互いに打ち明け、信頼も相手に預けた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.007",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は言葉を言い切らずとも、相手が本当に気にすることを理解できた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.008",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、次の勤務がどれほど忙しくても互いを少し見守ると約束した。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.009",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は共に経てきたことを振り返り、すでに最も頼れる相手だと気づいた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.010",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}はずっと秘めていた小さな秘密を{b}に打ち明け、{b}も自身の秘密で応えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.011",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は長く静かに座り、口を開かずとも傍に人がいると分かっていた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.012",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、難関では誰もひとりで我慢し通してはならないと本気で決めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.013",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は深夜まで語り、互いの親友となった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.014",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、誰にも話したことのない言葉を交わした。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.015",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いの秘密を交わし、それ以来隔てはなくなった。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.016",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "あの夜{a}と{b}は夜明けまで語り、寝るべきだとは誰も口にしなかった。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.017",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "長いこと知ってから友達になる者もいるが、{a}と{b}は一晩で足りた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.018",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は口にしにくい心配を互いに打ち明け、信頼も相手に預けた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.019",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は言葉を言い切らずとも、相手が本当に気にすることを理解できた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.020",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、次の勤務がどれほど忙しくても互いを少し見守ると約束した。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.021",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は共に経てきたことを振り返り、すでに最も頼れる相手だと気づいた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.022",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}はずっと秘めていた小さな秘密を{b}に打ち明け、{b}も自身の秘密で応えた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.023",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は長く静かに座り、口を開かずとも傍に人がいると分かっていた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.024",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は、難関では誰もひとりで我慢し通してはならないと本気で決めた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.001",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の世話をした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.002",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傷の手当てをした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.003",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の包帯を替え、その手つきはごく軽かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.004",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は大丈夫だと言いながらも、一日中{actor}に看てもらった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.005",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傍に付き添い、薬まであらかじめぬるくしておいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.006",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傷を調べ、手当て漏れがないかも確かめた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.007",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は看護用品を揃え、根気よく{other}の手当てに付き添った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.008",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の動きが不自由なとき、{actor}は必要なものを一つずつ手元へ運んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.009",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に休みを促し、落ち着いたのを見届けてから離れた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.010",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の緩んだ包帯を結び直し、その手つきは安定して丁寧だった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.011",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}をしばらく見守り、悪化していないことを確かめた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.012",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は手当て手順を{other}に説明し、この先どう回復すべきかを知らせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.013",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の世話をした。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.014",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傷の手当てをした。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.015",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の包帯を替え、その手つきはごく軽かった。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.016",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は大丈夫だと言いながらも、一日中{actor}に看てもらった。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.017",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傍に付き添い、薬まであらかじめぬるくしておいた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.018",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の傷を調べ、手当て漏れがないかも確かめた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.019",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は看護用品を揃え、根気よく{other}の手当てに付き添った。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.020",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の動きが不自由なとき、{actor}は必要なものを一つずつ手元へ運んだ。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.021",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に休みを促し、落ち着いたのを見届けてから離れた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.022",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の緩んだ包帯を結び直し、その手つきは安定して丁寧だった。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.023",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}をしばらく見守り、悪化していないことを確かめた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.024",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は手当て手順を{other}に説明し、この先どう回復すべきかを知らせた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.001",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}が落ち着くまで傍にいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.002",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の付き添いで落ち着いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.003",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は大層な道理は語らず、ただ{other}に付き添った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.004",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が礼を言おうとすると、{actor}は手を振り、力を残しておくよう促した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.005",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "ただ耐えねばならない夜もあるが、幸い{other}はひとりではなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.006",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に気を取り直せと急かさず、いちばん辛いひとときを付き添って乗り切った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.007",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の途切れがちな言葉を聞き終え、一句一句を丁寧に受け止めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.008",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はしばらく言葉が出ず、{actor}は静かに傍らで待った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.009",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に水を一杯渡し、周囲を十分に静かに保った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.010",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}にゆっくり息をするよう促し、急なリズムがようやく落ち着くのを待った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.011",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に、今回の取り乱しを嘲笑には使わず、ひとりで背負わなくてよいと知らせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.012",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の乱れた気持ちを少しずつ整理し、最後にそろって立ち上がった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.013",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}が落ち着くまで傍にいた。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.014",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の付き添いで落ち着いた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.015",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は大層な道理は語らず、ただ{other}に付き添った。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.016",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が礼を言おうとすると、{actor}は手を振り、力を残しておくよう促した。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.017",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "ただ耐えねばならない夜もあるが、幸い{other}はひとりではなかった。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.018",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に気を取り直せと急かさず、いちばん辛いひとときを付き添って乗り切った。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.019",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の途切れがちな言葉を聞き終え、一句一句を丁寧に受け止めた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.020",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はしばらく言葉が出ず、{actor}は静かに傍らで待った。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.021",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に水を一杯渡し、周囲を十分に静かに保った。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.022",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}にゆっくり息をするよう促し、急なリズムがようやく落ち着くのを待った。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.023",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に、今回の取り乱しを嘲笑には使わず、ひとりで背負わなくてよいと知らせた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.024",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の乱れた気持ちを少しずつ整理し、最後にそろって立ち上がった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.001",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に手取り足取り仕事を教えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.002",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に独自のコツをいくつか伝えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.003",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が一通り見せると、{other}は瞬きもせず見つめた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.004",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は一度しか教えないと言い、{other}は戻ってひとりでこっそり練習すると決めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.005",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "勤務表では学べない技もあり、{actor}はそれを{other}に伝えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.006",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はまず一通り実演し、それから{other}に自分で試させた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.007",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が一手を誤ると、{actor}は止まって問題を指摘し、代わりにやり遂げはしなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.008",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は複雑な手順をいくつかに分け、{other}が一段ずつ練習できるようにした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.009",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の動きを観察し、すぐに使える改善策を一つ示した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.010",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}がようやく正しくできたとき、{actor}は明確な肯定の言葉を惜しまなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.011",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は誤りやすい箇所を二度繰り返し、{other}が本当に覚えたか確かめた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.012",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}にもう一度最初からやり遂げさせ、必要なときだけ声をかけて注意した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.013",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に手取り足取り仕事を教えた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.014",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に独自のコツをいくつか伝えた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.015",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が一通り見せると、{other}は瞬きもせず見つめた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.016",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は一度しか教えないと言い、{other}は戻ってひとりでこっそり練習すると決めた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.017",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "勤務表では学べない技もあり、{actor}はそれを{other}に伝えた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.018",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はまず一通り実演し、それから{other}に自分で試させた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.019",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が一手を誤ると、{actor}は止まって問題を指摘し、代わりにやり遂げはしなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.020",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は複雑な手順をいくつかに分け、{other}が一段ずつ練習できるようにした。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.021",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の動きを観察し、すぐに使える改善策を一つ示した。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.022",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}がようやく正しくできたとき、{actor}は明確な肯定の言葉を惜しまなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.023",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は誤りやすい箇所を二度繰り返し、{other}が本当に覚えたか確かめた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.024",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}にもう一度最初からやり遂げさせ、必要なときだけ声をかけて注意した。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.001",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.002",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。{actor}の目元はすぐ潤み、{other}はそのことを冗談にはしなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.003",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。感情は{actor}の顔に出て、{other}は一目で読み取った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.004",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。{actor}はしばらくして声を落ち着かせ、{other}は傍を離れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.005",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。涙で途切れることはなく、{actor}と{other}はただ少しペースを落とした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.006",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.007",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。{actor}の目元はすぐ潤み、{other}はそのことを冗談にはしなかった。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.008",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。感情は{actor}の顔に出て、{other}は一目で読み取った。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.009",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。{actor}はしばらくして声を落ち着かせ、{other}は傍を離れなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.010",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話しているうちに泣き、{other}は黙ってティッシュを渡した。涙で途切れることはなく、{actor}と{other}はただ少しペースを落とした。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.001",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.002",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は{other}が楽でいるかを常に気にかけ、加減をごく軽く保った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.003",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は急かさず、{other}に十分な返事の間を残した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.004",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。ごく小さな動作にも気遣いがあり、{other}には自然と分かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.005",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は声も動きも弱め、そのやり取りにストレスを一切残さなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.006",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.007",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は{other}が楽でいるかを常に気にかけ、加減をごく軽く保った。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.008",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は急かさず、{other}に十分な返事の間を残した。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.009",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。ごく小さな動作にも気遣いがあり、{other}には自然と分かった。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.010",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は愚痴さえも穏やかな声で漏らし、{other}はことのほか真剣に聞いた。{actor}は声も動きも弱め、そのやり取りにストレスを一切残さなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.001",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.002",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{actor}の動きは言葉より早く、{other}はしばらくしてようやく追いついた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.003",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。感情は突然湧き、{actor}はまもなく注意を{other}へ戻した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.004",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{other}は{actor}の一時の短気に乱されず、事はそのまま滞りなく進んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.005",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{actor}の反応は単刀直入で、間さえ余分に見えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.006",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.007",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{actor}の動きは言葉より早く、{other}はしばらくしてようやく追いついた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.008",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。感情は突然湧き、{actor}はまもなく注意を{other}へ戻した。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.009",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{other}は{actor}の一時の短気に乱されず、事はそのまま滞りなく進んだ。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.010",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は悪態混じりに愚痴を吐き終え、{other}は最初から最後まで聞いた。{actor}の反応は単刀直入で、間さえ余分に見えた。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.001",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.002",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。その大きな物音で、近くの者は二人がともに過ごしていると知った。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.003",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。{actor}はことさらに声を潜めず、離れた周囲にも聞き取れた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.004",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。声は遠くまで届いたが、そのやり取りはそれで途切れはしなかった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.005",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。周囲が再び静まっても、{actor}の先ほどの声は空気に残っているようだった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.006",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.007",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。その大きな物音で、近くの者は二人がともに過ごしていると知った。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.008",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。{actor}はことさらに声を潜めず、離れた周囲にも聞き取れた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.009",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。声は遠くまで届いたが、そのやり取りはそれで途切れはしなかった。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.010",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の愚痴は、休憩室の半分にまで届いた。周囲が再び静まっても、{actor}の先ほどの声は空気に残っているようだった。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.001",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.002",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。{actor}は{other}の反応を繰り返し確かめ、ようやく少しずつ力を抜いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.003",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。わずかな物音でも{actor}は気が散り、{other}は注意が戻るのを根気よく待った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.004",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。{actor}は一つ一つの動きをことのほか慎重にし、{other}は急かさなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.005",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。事が終わってようやく、{actor}の張り詰めた肩が緩んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.006",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.007",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。{actor}は{other}の反応を繰り返し確かめ、ようやく少しずつ力を抜いた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.008",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。わずかな物音でも{actor}は気が散り、{other}は注意が戻るのを根気よく待った。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.009",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。{actor}は一つ一つの動きをことのほか慎重にし、{other}は急かさなかった。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.010",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は心配をくどくどと長く話し、{other}は一つずつ整理するのを助けた。事が終わってようやく、{actor}の張り詰めた肩が緩んだ。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.001",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に腹いっぱいの愚痴を吐いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.002",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の打ち明けを長く聞いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.003",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は今日の嫌なことを一件ずつ{other}に数えて聞かせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.004",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に、この暮らしはいつ終わるのかと問い、{other}は答えられなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.005",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "愚痴を吐き終えると、{actor}は肩の土まで少し軽くなったように感じた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.006",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は一日溜めた悶々を{other}に話し、ようやく抱え込まずに済んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.007",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は急いで助言せず、{actor}にこぼしたいことをすべて言わせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.008",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はごく小さな不首尾から話し始め、最後になって初めて胸に重くのっていたことを口にした。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.009",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は長く話し続け、{other}はいっときも苛立ちを顔に出さなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.010",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は折々一句問い、{actor}に自分の言葉が確かに聞かれていると知らせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.011",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は入り混じった鬱屈と怒りを分けて話し、気持ちもゆっくり和らいだ。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.012",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}がもう愚痴る力がないところまで話すと、{other}はなおしばらく付き添って座った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.013",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に腹いっぱいの愚痴を吐いた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.014",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の打ち明けを長く聞いた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.015",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は今日の嫌なことを一件ずつ{other}に数えて聞かせた。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.016",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に、この暮らしはいつ終わるのかと問い、{other}は答えられなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.017",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "愚痴を吐き終えると、{actor}は肩の土まで少し軽くなったように感じた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.018",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は一日溜めた悶々を{other}に話し、ようやく抱え込まずに済んだ。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.019",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は急いで助言せず、{actor}にこぼしたいことをすべて言わせた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.020",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はごく小さな不首尾から話し始め、最後になって初めて胸に重くのっていたことを口にした。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.021",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は長く話し続け、{other}はいっときも苛立ちを顔に出さなかった。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.022",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は折々一句問い、{actor}に自分の言葉が確かに聞かれていると知らせた。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.023",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は入り混じった鬱屈と怒りを分けて話し、気持ちもゆっくり和らいだ。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.024",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}がもう愚痴る力がないところまで話すと、{other}はなおしばらく付き添って座った。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.001",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の気持ちは抑えきれなくなりかけ、{other}はしばらく付き添って座った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.002",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話すあいだ両手を握りしめ、{other}は今回のストレスが並の苛立ちではないと見て取った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.003",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は何度か言葉に詰まり、{other}はペースを落として一句ずつ待った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.004",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の呼吸はますます急ぎ、{other}はまず気持ちを落ち着かせてから聞き続けた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.005",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はもう持ちこたえられないと認め、{other}はその言葉を弱さとはしなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.006",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は最悪の心配をすべて口にし、{other}は確かめられる事実だけを返した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.007",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の感情は何度か込み上げ、{other}は最後まで離れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.008",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の代わりに無関係な邪魔を退け、今回の打ち明けが急いで終わらずに済むようにした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.009",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話し終えてなお長く黙り、{other}は張りが少し緩むまで付き添った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.010",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は自分が取り乱すのではないかと繰り返し案じ、{other}は目の前でできる小事に注意を置いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.011",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はようやくストレスの本当の出所を口にし、声はすでに明らかに震えていた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.012",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はすべてが良くなるとは約束せず、ひとりで向き合わなくてよいと{actor}に真剣に伝えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.013",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の気持ちは抑えきれなくなりかけ、{other}はしばらく付き添って座った。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.014",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話すあいだ両手を握りしめ、{other}は今回のストレスが並の苛立ちではないと見て取った。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.015",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は何度か言葉に詰まり、{other}はペースを落として一句ずつ待った。酸素も時間も貴重な場所では、立ち止まること自体が得難かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.016",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の呼吸はますます急ぎ、{other}はまず気持ちを落ち着かせてから聞き続けた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.017",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はもう持ちこたえられないと認め、{other}はその言葉を弱さとはしなかった。管内の気体はなお勢いよく流れ、ふたりはようやく互いの話をきちんと聞き終えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.018",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は最悪の心配をすべて口にし、{other}は確かめられる事実だけを返した。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.019",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の感情は何度か込み上げ、{other}は最後まで離れなかった。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.020",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}の代わりに無関係な邪魔を退け、今回の打ち明けが急いで終わらずに済むようにした。コロニーはすべての難題を解けないが、少なくともここではともに背負おうとする者がいた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.021",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は話し終えてなお長く黙り、{other}は張りが少し緩むまで付き添った。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.022",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は自分が取り乱すのではないかと繰り返し案じ、{other}は目の前でできる小事に注意を置いた。警報灯はまもなく静まり、その好意は確かに記された。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.023",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はようやくストレスの本当の出所を口にし、声はすでに明らかに震えていた。遠くではまだ仕事が待っていたが、その気遣いでまず立て直すことができた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.024",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はすべてが良くなるとは約束せず、ひとりで向き合わなくてよいと{actor}に真剣に伝えた。次の勤務が始まる前、ふたりは先ほどよりそれに向き合う力があった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    }
+  ]
+}

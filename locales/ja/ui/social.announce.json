@@ -1,0 +1,444 @@
+{
+  "locale": "ja",
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "社交生活が始まりました",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "複製人間に社交生活が生まれました。雑談、交友、恋愛、言い争いが自然に起こります。上部の管理メニューの「社交」で全体を眺め、取り持ちもできます。複製人間の詳細にある「社交」タブでは、一人ひとりの関係を確認できます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "結ばれました",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0} が {1} への告白に成功し、二人は正式に恋人になりました！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "別れました",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0} と {1} の愛情は終わりを迎えました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": "関係を壊した最後の一滴：{0}（サイクル {1}）。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "伴侶を失った",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0} は伴侶 {1} を失い、悲嘆に暮れています。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "冷戦",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0} と {1} は冷戦に入り、関係が危うくなっています。取り持ちマークを付ければ和解を促せます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "元どおりに仲直り",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0} と {1} はわだかまりを解き、仲直りしました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "静かな哀悼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0} は心の中で亡くなった {1} を哀悼しています。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "親友",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0} と {1} は互いの親友になりました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "コロニーの絆",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "コロニーの人心がひとつになり、全員の士気が上がります。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "コロニーの不和",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "コロニーの空気が張りつめ、全員の士気が下がります。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "空気が落ち着いた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "コロニーの集団的な気分は、いつもの状態に戻りました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "記念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0} と {1} の記念日デートは滞りなく終わり、甘さが倍増しました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "逃した記念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0} と {1} の記念日は忙しさのなかで流れ去り、二人とも少し沈んでいます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "決裂",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0} と {1} の積もった恨みが爆発し、正式に決裂しました——しばらくは関係が温まりにくく、一度の謝罪で帳尻を合わせられます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "どん底の寄り添い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0} は {1} のそばに座り、悲嘆に暮れる仲間に黙って寄り添いました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "長年の連れ合い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0} と {1} は長く連れ添い、感情は細く長く続く段階に入りました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "宿敵となった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0} と {1} の恨みは底まで達し、正式に宿敵となりました——この関係は自然には温まりません。取り持ちで仲裁しない限り。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "宿敵の和解",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0} と {1} の宿怨がようやく解け、関係は通常の軌道に戻りました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "殴り合いだ！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "{0} と {1} の言い争いが殴り合いに発展しました。手加減はしていますが、二人とも傷を負います。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "誰かが責任を取らねば",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "コロニーで何かが起きたばかりで、{0} は人望がいちばん底の者だった——だからその帳尻はその人に回されました。今のうちに人望のある同僚と取り持ちすれば、その人が公正な一言を口にしてくれます。この機会を逃すと、孤立させられます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "誰も話しかけなくなった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "誰も {0} をかばいませんでした。これからは同僚が通りすがりに顔をそむけ、同じ席の者は先に席を立ちます。誰か一人でも世話をしたり、話をしたり、一緒に食事をしたりすれば、この件はここで終わります。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "公正な一言が出た",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0} は皆の前で {1} をかばいました。もう誰もこの件を口にしません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "最初に腰を下ろした人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0} は {1} の隣に座りました。孤立はここで終わります——こういうことは、いつも誰か一人が先に動くだけで足ります。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "誰も見ていない",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "あたりに誰もいないとき、{0} は {1} に手を出しました。同僚は誰も知りません——これを見たのはあなただけです。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "忘れ去られた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "{0} を救った者はいませんでしたが、その件を覚えている者もいなくなりました。日々は続きます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "部屋中が見ていた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0} はその場で{2}、{1} 人が足を止めて見守りました。この数サイクルのうちに、誰かがそばに座ってくれれば、一生忘れません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "最初に腰を下ろした人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0} は {1} のそばにしばらく座りました。たいした話はしませんでした——だが {1} は、最初に来たのが誰かをずっと覚えています。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "殴り合ってこそ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0} と {1} はこの一戦のあとで相手を認め、宿怨はここで終わりました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "食糧庫が底をついた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "貯蔵庫は空で、複数人が飢えています。このままでは自分たちで手段を講じ始めます——今なら食糧を補充すれば間に合います。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "危機解除",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "食料が間に合い、コロニーは瀬戸際から戻ってきました。ここ数日何を考えていたかは、誰も口にしません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "生き残れ！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "{0} と {1} のあいだで起きたことは、もう言い争いではありません。飢えが最後の体面まで奪い去りました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "飢饉は過ぎた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "貯蔵庫に再び食料が入りました。それが何だったかは、誰も尋ねません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "最後の植民者",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "一人だけが残りました。基地は静かで、食料も足りています。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "かたきがいなくなった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1} はいなくなりました。{0} は口では何も言いませんでしたが、しばらくのあいだ気分はよかったです。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "text": "告白を拒まれた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "text": "{0} は {1} に気持ちを伝えましたが、返事は得られませんでした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "text": "再び手を取った",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "text": "{0} と {1} はやり直すことにしました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

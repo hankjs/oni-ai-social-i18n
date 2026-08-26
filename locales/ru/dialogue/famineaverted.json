@@ -1,0 +1,38 @@
+{
+  "locale": "ru",
+  "family": "famineaverted",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Еда пришла. Никто не вспоминает, о чём думали несколько дней назад."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Амбар снова полный. Все молча договорились больше об этом не говорить."
+        }
+      ]
+    }
+  ]
+}

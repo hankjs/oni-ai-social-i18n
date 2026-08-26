@@ -1,0 +1,618 @@
+{
+  "locale": "ru",
+  "family": "argument",
+  "candidates": [
+    {
+      "candidateId": "storylet.argument.crybaby.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "С какой стати ты на меня орёшь… уа-а-а —"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не плачь, не плачь! Не ору больше, ладно?!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Дело не в том, что я спор проигрываю. Я, я — просто накрыло…"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Сначала вытри слёзы. Потом поругаемся заново."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Вся база меня обижает! И ты тоже!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не обижаю! …От тебя у меня Стресс зашкаливает."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Чего орёшь! Слёзы — не вентиль, не закроешь по щелчку!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ладно-ладно-ладно, виноват, салфетка!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не хочу ругаться… но тут ты правда не прав."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Хоть бы обругал. А так — ещё хуже."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Может, сядем? Стоя ругаться — только отношения портить."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Ладно, сядем. Только сначала скажи, где я не прав."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Потише. Хэтча уже напугали."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "И тебе сейчас Хэтч важнее?!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я с тобой не ругаюсь. Но счёт заведу. Тихонько заведу."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Твоё «тихонько заведу» страшнее любой ругани."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я что, не быстрее всех это делаю? Есть претензии?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Быстро — быстро. Стену тоже насквозь пробил!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Да, валите всё на меня! База взорвётся — тоже я!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Никто про базу не… ну вот, опять завёлся."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Считаю до трёх — верни мою лопату. Раз! Два!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "А три? — а, уже выхватил."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "У меня просто голос громкий! Не злюсь! Совсем нет!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Реголит с потолка сыплется. И это у тебя «не злюсь»?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Можешь не сваливать все хвосты на остальных?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я и так кручусь без остановки. Тебе ещё чего?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Опять ты табель перепутал."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да ну тебя. Это ты сам не разглядел!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Мне сейчас совсем не до твоих речей."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Отлично. Тогда больше друг другу не нужны."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Храпишь как несмазанная камнедробилка!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я храплю? Так ты всю ночь во сне координаты диктовал!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.005",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Где моя последняя ягода? Одна была!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "На ней твоё имя не написано!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.006",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Завал в коридоре — можно уже вычистить?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это запчасти! Каждая ещё пригодится!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.007",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Туалет забился — это ты трубы не туда воткнул!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "На чертеже так и было. Я виноват?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.008",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Батарея опять пустая. Ночную смену вёл ты!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Провод Хэтч перегрыз. На него и жалуйся!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.009",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Чего это ты весь красный?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не жара. Я закипел! Кто утащил газовый резервуар?!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.010",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В табеле твоего имени вообще нет!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Завелся. Завелся — значит, я попал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.011",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты меня на планёрке смен в лоб назвал?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Бью в упор, наотмашь. Не прячусь."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.012",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Кто закачал углекислый газ в спальню?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Классика. Вечно трубы как попало соединяет."
+        }
+      ]
+    }
+  ]
+}

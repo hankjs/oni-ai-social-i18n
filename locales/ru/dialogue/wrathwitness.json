@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я видел."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Что ты видел."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Руки убери."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Тебе какое дело."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Значит, перед тем как ударить, ты всё-таки глядишь, есть ли кто."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Заткнись."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я сегодняшний день запомню."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Как хочешь."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Когда ты его бил, я был в вентиляционной трубе."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Тогда ты больше слышал, чем видел."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "locale": "ko",
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "사교 생활이 시작되었습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "복제인간에게 사교 생활이 생겼습니다. 대화, 교우, 연애, 말다툼이 자연히 일어납니다. 상단 관리 메뉴의 「사교」에서 전체를 지켜보고 중매할 수 있고, 복제인간 상세의 「사교」 탭에서 각자의 관계를 볼 수 있습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "백년가약",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0}가 {1}에게 고백하여 성공했고, 두 사람은 정식으로 연인이 되었습니다!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "이별했다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0}와 {1}의 정이 끝에 닿았습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": "관계를 무너뜨린 마지막 한 방울: {0}(사이클 {1}).",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "반려를 잃다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0}가 반려 {1}를 잃고 비탄에 빠졌습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "냉전",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0}와 {1}가 냉전에 들어가 관계가 위태롭습니다. 중매 표시를 주면 화해를 도울 수 있습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "예전처럼 화해",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0}와 {1}가 앙금을 풀고 다시 사이가 좋아졌습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "말없이 애도",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0}가 마음속으로 떠난 {1}를 애도합니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "절친",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0}와 {1}가 서로의 절친이 되었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "식민지 유대",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "식민지 마음이 모였고, 전원 사기가 오릅니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "식민지 불화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "식민지 공기가 팽팽하고, 전원 사기가 꺾입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "공기가 평온으로",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "식민지의 집단 감정은 평소 상태로 돌아갔습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "기념일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0}와 {1}의 기념일 데이트가 순조롭게 끝나, 달콤함이 배가되었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "놓친 기념일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0}와 {1}의 기념일이 바쁨 속에 흘러가, 둘 다 조금 울적합니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "결렬",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0}와 {1}의 쌓인 원한이 터져 정식으로 결렬했습니다. 한동안 정이 오르기 어렵고, 사과 한 번이면 장부를 청산하고 화해합니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "바닥에서의 동행",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0}가 {1} 곁에 앉아, 비탄 속의 동료를 말없이 지켰습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "정든 부부",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0}와 {1}가 오래 함께하며, 정은 가늘고 길게 흐르는 단계로 들어갔습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "숙적을 맺다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0}와 {1}의 원한이 바닥에 닿아 정식으로 숙적이 되었습니다. 이 관계는 스스로 다시 따뜻해지지 않으며, 당신이 중매로 중재하지 않으면 안 됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "숙적 화해",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0}와 {1}의 숙원이 마침내 풀려, 관계가 평범한 궤도로 돌아갔습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "주먹다짐이다!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "{0}와 {1}의 말다툼이 주먹다짐으로 번졌습니다. 선을 지키지만, 둘 다 상처를 입습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "누군가는 책임져야 한다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "식민지에 일이 막 터졌고, {0}은 인기가 바닥인 사람입니다. 그 책임은 그렇게 그 사람에게 돌아갔습니다. 지금 그 사람과 존경받는 동료를 중매하면, 그 동료가 나서서 공정한 한 마디를 합니다. 이 시기를 놓치면 그 사람은 고립됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "아무도 말을 걸지 않는다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "아무도 {0}을 변호하지 않았습니다. 이제부터 동료는 지나가며 얼굴을 돌리고, 같은 자리의 사람은 먼저 일어납니다. 누구든 그 사람을 돌보거나, 말을 걸거나, 함께 식사하면 이 일은 여기서 끝입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "공정한 한 마디가 나왔다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0}가 사람들 앞에서 {1}를 변호했습니다. 더는 아무도 그 일을 꺼내지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "먼저 앉은 사람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0}가 {1} 옆에 앉았습니다. 고립은 여기서 끝입니다. 이런 일은 언제나 한 사람이 먼저 움직이면 충분합니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "아무도 보지 못했다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "사방에 사람이 없을 때, {0}가 {1}를 때렸습니다. 동료는 아무도 모릅니다. 이 일을 본 것은 당신뿐입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "잊혀졌다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "아무도 {0}를 구하지 않았지만, 그 일을 기억하는 사람도 없어졌습니다. 날은 그대로 갑니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "방 전체가 보고 있다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0}가 그 자리에서 {2}, {1}명이 멈춰 서서 그를 봤습니다. 이후 몇 사이클 안에 누군가 가서 앉아 준다면, 그는 평생 기억할 것입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "먼저 앉은 사람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0}가 {1} 곁에 잠시 앉아 주었습니다. 중요한 말은 하지 않았습니다. 하지만 {1}은 누가 먼저 왔는지를 오래 기억할 것입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "싸우고 친해지다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0}와 {1}는 이 한 판을 치르고 오히려 서로를 인정했고, 숙원은 이로써 끝났습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "식량고가 바닥났다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "창고가 비었고, 여럿이 굶고 있습니다. 이대로면 스스로 방법을 찾기 시작합니다. 지금 식량을 보충하면 아직 늦지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "위기 해제",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "식량이 제때 도착해, 식민지는 가장자리에서 물러났습니다. 앞날에 무엇을 생각했는지는 아무도 꺼내지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "살아남아라!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "{0}와 {1} 사이의 일은 이미 말다툼이 아닙니다. 굶주림이 마지막 체면까지 가져갔습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "기근이 지나갔다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "창고에 다시 식량이 있습니다. 그것이 무엇인지 묻는 사람은 없습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "마지막 식민자",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "한 사람만 남았습니다. 기지는 조용하고, 식량도 충분합니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "상대가 없다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1}이 떠났습니다. {0}은 입으로는 아무 말도 없었지만, 기분은 한동안 좋았습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "text": "고백이 거절됨",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "text": "{0}가 {1}에게 마음을 밝혔지만, 대답을 얻지 못했습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "text": "다시 손을 잡다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "text": "{0}와 {1}가 다시 시작하기로 했습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

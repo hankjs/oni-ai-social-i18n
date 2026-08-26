@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathrescue",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я сяду здесь. Без задней мысли."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Тут эти дни никто не садился."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я принёс две порции."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не боишься, что увидят?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Эту рану кто сделал."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Упал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Что болтают другие — не моё дело. Ты мне ещё должен одну ночную."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Помню."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Доревел — ешь. Остынет, ещё противнее."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Угу."
+        }
+      ]
+    }
+  ]
+}

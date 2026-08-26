@@ -838,7 +838,10 @@ namespace ONIAiSocial
                 public static LocString LANGUAGE = "对话语言";
                 public static LocString LANGUAGE_EN = "English";
                 public static LocString LANGUAGE_FOLLOW = "跟随游戏";
-                public static LocString LANGUAGE_JA_PREVIEW = "日本語（预览，内容不完整）";
+                public static LocString LANGUAGE_JA = "日本語";
+                public static LocString LANGUAGE_KO = "한국어";
+                public static LocString LANGUAGE_RU = "Русский";
+                public static LocString LANGUAGE_VI = "Tiếng Việt";
                 public static LocString LANGUAGE_ZH = "中文";
                 public static LocString LOCKED_SUFFIX = "（本版本固定开启）";
                 public static LocString LOG_CAPACITY = "纪事容量（条）";

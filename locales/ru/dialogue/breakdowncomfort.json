@@ -1,0 +1,132 @@
+{
+  "locale": "ru",
+  "family": "breakdowncomfort",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncomfort.base.001",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я сяду тут. Тебе не обязательно говорить."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Ладно."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.002",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "У меня тоже было. Позапрошлый цикл."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ты людям не показал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.003",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Они все разошлись."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ты не разошёлся."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.004",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Воды хочешь?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Хочу."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.005",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Как чуть отпустит — вернёмся."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это может быть очень долго."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.006",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я ничего никому не скажу."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Скажешь. Но спасибо."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "locale": "ja",
+  "family": "famineaverted",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食料が届いた。この数日、何を考えていたか、誰も口にしない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "穀倉がまたいっぱいになった。みんな、暗黙のうちにこの話はしない。"
+        }
+      ]
+    }
+  ]
+}

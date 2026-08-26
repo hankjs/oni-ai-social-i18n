@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "またお前が降りたのか。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "肺がマシなだけだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "次はあの層、私が行く。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "それ、三回目だぞ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "借りができた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "覚えておけばいい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "毎回代わりに行かなくていい。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ、お前が行くのを見てろって？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "助かった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "その話はなし。"
+        }
+      ]
+    }
+  ]
+}

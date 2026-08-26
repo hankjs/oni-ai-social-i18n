@@ -1,0 +1,54 @@
+{
+  "locale": "ko",
+  "family": "faminewarning",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminewarning.base.001",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "식량고가 바닥났어. 아무도 말 안 하지만, 다들 몇 사람이 남았는지 세고 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.002",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "냉장고가 사흘째 비었어. 오늘부터, 누군가는 남을 노려보기 시작했어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.003",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "마지막 배급이 끝났어. 다음엔 뭘 나눌지, 아무도 입 밖에 내지 못해."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "locale": "ja",
+  "family": "reconcile",
+  "candidates": [
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "この数日の冷戦で、食堂の飯が余計まずくなった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……ごめん。私が勝手に怒った。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "仲直りしよう。次ははっきり言って。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日、代わりにシフト入ってくれただろ。知ってるよ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……ふん、ついでだ。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "ついで。じゃあ仲直りも、ついでで。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "この数日、ハッチまで私たちを避けて通る。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "こっちが怖すぎたんだ。……先に頭下げるよ、いい？"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "いいよ。飯、行こう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ほら。エスプレッソ、三十分並んだ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "賄賂だな。……でも、もらう。"
+        }
+      ]
+    }
+  ]
+}

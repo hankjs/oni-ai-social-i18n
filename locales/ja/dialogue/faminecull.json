@@ -1,0 +1,90 @@
+{
+  "locale": "ja",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "来るな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "二人のうち……生きられるのは一人だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "こんなこと、したくない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "したくないよ。でも、腹が減ってる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ごめん。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "謝るな。やれ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "なんで私たちなの？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "誰にも好かれてないから。"
+        }
+      ]
+    }
+  ]
+}

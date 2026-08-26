@@ -1,0 +1,90 @@
+{
+  "locale": "ru",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "То дело… это я был не прав."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Проговорили — и ладно. После этой ссоры я тебя даже лучше понял."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Сказал слишком жёстко. Прости."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Оба хороши. Без драки не узнаешь. Пошли есть."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ещё злишься?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Отпустило. Раз поругались — значит, оба всерьёз."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В следующий раз сначала дослушаю тебя."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "В следующий раз я поору на две фразы меньше. Руку? Руку."
+        }
+      ]
+    }
+  ]
+}

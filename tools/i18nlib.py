@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
@@ -24,6 +25,8 @@ ALLOWED_RELATIONSHIP_STATES = {"Strangers", "Acquainted", "Friends", "Crush", "C
 ALLOWED_ARGUMENT_CAUSES = {"Unknown", "Stress", "LowAffinity", "TraitClash", "Discord", "Chemistry", "HazardDuty"}
 ALLOWED_PERSON_FORMS = {"subject", "object", "possessive", "possessiveCapitalized", "pairSubject", "pairObject", "pairPossessive", "pairReflexive"}
 PERSON_SLOTS = {"actor", "other", "third", "subject", "a", "b"}
+REPEATED_WORD_RE = re.compile(
+    r"\b([^\W\d_]{2,})(?:[\s,.;:!?—–-]+\1){2,}\b", re.IGNORECASE)
 
 
 def normalize_locale(value: str) -> str:
@@ -96,6 +99,20 @@ def rich_text_error(text: str, enabled: bool) -> str | None:
         return "rich-text markup is not allowed by the contract"
     unknown = sorted({tag.lower() for tag in tags} - ALLOWED_RICH_TEXT_TAGS)
     return "unsupported rich-text tag(s): " + ", ".join(unknown) if unknown else None
+
+
+def translation_artifact_error(text: str) -> str | None:
+    """Reject obvious runaway MT output without imposing cross-locale sentence shapes."""
+    value = text or ""
+    if unicodedata.normalize("NFC", value) != value:
+        return "text must use NFC-normalized Unicode"
+    if len(value) > 4000:
+        return "text exceeds the translation-artifact safety ceiling"
+    # Short onomatopoeia such as "ha-ha-ha" is legitimate dialogue. Repeated words inside a
+    # longer sentence are instead a strong signal of a stuck decoder and must be reviewed.
+    if len(value) >= 80 and REPEATED_WORD_RE.search(value):
+        return "probable repeated-word translation artifact"
+    return None
 
 
 def _sha(value: str) -> str:
@@ -209,11 +226,16 @@ def load_chronicle_locale(root: Path, locale: str) -> list[dict[str, Any]]:
 
 def _schema_routes(root: Path) -> list[tuple[Path, str, str | None]]:
     routes: list[tuple[Path, str, str | None]] = [(root / "manifest.json", "manifest", None)]
+    routes.append((root / "glossary.json", "glossary", None))
     routes += [(path, "ui-contract", None) for path in iter_ui_contract_files(root)]
     routes += [(path, "prompt-contract", None) for path in iter_prompt_contract_files(root)]
     routes += [(root / "contracts" / "dialogue" / "storylets.json", "dialogue-contract", None)]
     routes += [(path, "chronicle-contract", None) for path in iter_chronicle_contract_files(root)]
     routes += [(path, "link", None) for path in sorted_paths(root / "links", "*.json")]
+    routes += [(path, "provenance", normalize_locale(path.stem))
+               for path in sorted_paths(root / "provenance", "*.json")]
+    routes += [(path, "review-overrides", normalize_locale(path.stem))
+               for path in sorted_paths(root / "review-overrides", "*.json")]
     locales_root = root / "locales"
     if locales_root.is_dir():
         for locale_dir in sorted((item for item in locales_root.iterdir() if item.is_dir()), key=lambda item: item.name):
@@ -244,8 +266,11 @@ def validate_schema_files(root: Path) -> list[str]:
             errors.append(f"schemas/{schema_name}.schema.json: required schema is missing")
             continue
         errors.extend(validate_json_schema(payload, schema, label))
-        if expected_locale is not None and isinstance(payload, dict) and normalize_locale(payload.get("locale", "")) != expected_locale:
-            errors.append(f"{label}: locale {payload.get('locale')!r} does not match directory {expected_locale!r}")
+        if expected_locale is not None and isinstance(payload, dict):
+            locale_field = "targetLocale" if schema_name == "provenance" else "locale"
+            if normalize_locale(payload.get(locale_field, "")) != expected_locale:
+                errors.append(f"{label}: {locale_field} {payload.get(locale_field)!r} "
+                              f"does not match file/directory {expected_locale!r}")
     return errors
 
 
@@ -296,6 +321,8 @@ def _validate_ui(root: Path, locales: list[str], errors: list[str]) -> None:
             markup = rich_text_error(text, contract["richText"])
             if markup: errors.append(f"locales/{locale}/ui {key}: {markup}")
             if len(text) > contract["maxLength"]: errors.append(f"locales/{locale}/ui {key}: text exceeds maxLength {contract['maxLength']}")
+            artifact = translation_artifact_error(text)
+            if artifact: errors.append(f"locales/{locale}/ui {key}: {artifact}")
 
 
 def _validate_prompts(root: Path, locales: list[str], errors: list[str]) -> None:
@@ -310,6 +337,8 @@ def _validate_prompts(root: Path, locales: list[str], errors: list[str]) -> None
             syntax = prompt_syntax_error(item.get("text", ""))
             if syntax: errors.append(f"locales/{locale}/prompts {prompt_id}: {syntax}")
             if prompt_slots(item.get("text", "")) != set(contract["requiredSlots"]): errors.append(f"locales/{locale}/prompts {prompt_id}: prompt slots differ from contract")
+            artifact = translation_artifact_error(item.get("text", ""))
+            if artifact: errors.append(f"locales/{locale}/prompts {prompt_id}: {artifact}")
 
 
 def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: str,
@@ -367,6 +396,8 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
                 if turn.get("speakerSlot") not in contract["actorSlots"]: errors.append(f"locales/{locale}/dialogue {candidate_id}: speakerSlot outside contract")
                 syntax = placeholder_syntax_error(turn.get("text", ""))
                 if syntax: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {syntax}")
+                artifact = translation_artifact_error(turn.get("text", ""))
+                if artifact: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {artifact}")
 
 
 def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> None:
@@ -391,8 +422,17 @@ def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> No
             slots = semantic_slots(text)
             if slots != set(item.get("requiredSlots", [])): errors.append(f"locales/{locale}/chronicle {template_id}: requiredSlots must exactly match text placeholders")
             if not slots.issubset(set(contract["allowedSlots"])): errors.append(f"locales/{locale}/chronicle {template_id}: placeholder is outside pool allowedSlots")
+            artifact = translation_artifact_error(text)
+            if artifact: errors.append(f"locales/{locale}/chronicle {template_id}: {artifact}")
         stability_path = root / "locales" / locale / "stability" / "chronicle.json"
         if not stability_path.is_file():
+            spec = locale_specs.get(locale, {})
+            locale_root = root / "locales" / locale
+            if spec.get("status") == "draft" and spec.get("ship") is False and not locale_root.exists():
+                # A registered target locale may intentionally have no authoring tree while a
+                # clean-room translation is pending. Once any locale tree exists, its ledger is
+                # mandatory again.
+                continue
             errors.append(f"locales/{locale}/stability/chronicle.json: required locale-owned stability ledger is missing")
             continue
         stability_items = load_json(stability_path)["pools"]
@@ -443,6 +483,88 @@ def _validate_links(root: Path, locales: list[str], warnings: list[str]) -> None
             if target_revision < 1: warnings.append(f"{path.relative_to(root)} links[{index}]: stale target revision")
 
 
+def _locale_content_files(root: Path, locale: str) -> dict[str, Path]:
+    base = root / "locales" / normalize_locale(locale)
+    result: dict[str, Path] = {}
+    for family in ("ui", "dialogue", "chronicle", "prompts"):
+        for path in sorted_paths(base / family, "*.json"):
+            result[path.relative_to(base).as_posix()] = path
+    return result
+
+
+def _content_identity(path: Path) -> tuple[Any, ...]:
+    payload = load_json(path)
+    if "entries" in payload:
+        id_name = "key" if payload["entries"] and "key" in payload["entries"][0] else "promptId"
+        return tuple(item[id_name] for item in payload["entries"])
+    if "candidates" in payload:
+        return tuple((item["candidateId"], item["storyletId"],
+                      tuple((turn["turnId"], turn["speakerSlot"])
+                            for turn in item["turns"]))
+                     for item in payload["candidates"])
+    if "templates" in payload:
+        return tuple((item["templateId"], item["poolId"], item["ordinal"],
+                      tuple(item["requiredSlots"])) for item in payload["templates"])
+    return ()
+
+
+def _content_hash(path: Path) -> str:
+    return _sha(canonical_json(load_json(path)))
+
+
+def _validate_provenance(root: Path, locales: list[str], errors: list[str]) -> None:
+    manifest = load_manifest(root)
+    source_locale = normalize_locale(manifest["defaultLocale"])
+    source_files = _locale_content_files(root, source_locale)
+    specs = _locale_specs(root)
+    for locale in locales:
+        if locale == source_locale:
+            continue
+        path = root / "provenance" / f"{locale}.json"
+        required = specs.get(locale, {}).get("ship") or specs.get(locale, {}).get("status") == "stable"
+        if not path.is_file():
+            if required:
+                errors.append(f"provenance/{locale}.json: stable/shipped locale requires "
+                              f"{source_locale}-based provenance")
+            continue
+        payload = load_json(path)
+        if normalize_locale(payload.get("sourceLocale", "")) != source_locale:
+            errors.append(f"provenance/{locale}.json: sourceLocale must be {source_locale!r}")
+        if normalize_locale(payload.get("targetLocale", "")) != locale:
+            errors.append(f"provenance/{locale}.json: targetLocale must be {locale!r}")
+        rows = payload.get("files", [])
+        by_path = {item.get("path", ""): item for item in rows}
+        if len(by_path) != len(rows):
+            errors.append(f"provenance/{locale}.json: duplicate content path")
+        target_files = _locale_content_files(root, locale)
+        expected = set(source_files)
+        if set(target_files) != expected:
+            missing = sorted(expected - set(target_files))
+            extra = sorted(set(target_files) - expected)
+            if missing:
+                errors.append(f"provenance/{locale}.json: missing target content file {missing[0]}")
+            if extra:
+                errors.append(f"provenance/{locale}.json: unexpected target content file {extra[0]}")
+        if set(by_path) != expected:
+            missing = sorted(expected - set(by_path))
+            extra = sorted(set(by_path) - expected)
+            if missing:
+                errors.append(f"provenance/{locale}.json: missing provenance row {missing[0]}")
+            if extra:
+                errors.append(f"provenance/{locale}.json: unexpected provenance row {extra[0]}")
+        for relative in sorted(expected & set(target_files) & set(by_path)):
+            row = by_path[relative]
+            source_path = source_files[relative]
+            target_path = target_files[relative]
+            if row.get("sourceHash") != _content_hash(source_path):
+                errors.append(f"provenance/{locale}.json {relative}: stale Chinese source hash")
+            if row.get("targetHash") != _content_hash(target_path):
+                errors.append(f"provenance/{locale}.json {relative}: target hash does not match translation")
+            if required and row.get("reviewStatus") != "reviewed":
+                errors.append(f"provenance/{locale}.json {relative}: stable/shipped translation "
+                              "must be reviewed")
+
+
 def authoring_report(root: Path) -> tuple[list[str], list[str]]:
     errors = validate_schema_files(root); warnings: list[str] = []
     try:
@@ -451,6 +573,7 @@ def authoring_report(root: Path) -> tuple[list[str], list[str]]:
         _validate_ui(root, locales, errors); _validate_prompts(root, locales, errors)
         _validate_dialogue(root, locales, errors); _validate_chronicle(root, locales, errors)
         _validate_links(root, locales, warnings)
+        _validate_provenance(root, locales, errors)
     except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as error:
         errors.append(f"authoring: cannot complete semantic validation ({error})")
     return sorted(set(errors)), sorted(set(warnings))
@@ -510,25 +633,27 @@ def release_quality_errors(root: Path) -> list[str]:
         status = specs[requested]["status"]
         for family, contracts, maps, id_name in (("ui", ui_c, ui, "key"), ("prompts", prompt_c, prompts, "promptId")):
             if status != "stable": continue
-            for importance in ("critical", "standard"):
-                units = [unit for unit, contract in contracts.items() if contract["importance"] == importance]
-                native = sum(_source_kind(requested, _resolve_unit(unit, maps, chain)[0]) in {"exact", "base"} for unit in units)
-                ratio = 1.0 if not units else native / len(units)
-                threshold = 1.0 if importance == "critical" else .95
-                if ratio + 1e-12 < threshold: errors.append(f"release.{requested}.{family}.{importance}: native coverage {ratio:.2%} is below {threshold:.0%}")
+            exact = sum(_resolve_unit(unit, maps, chain)[0] == requested for unit in contracts)
+            if exact != len(contracts):
+                errors.append(f"release.{requested}.{family}: exact native coverage "
+                              f"{exact}/{len(contracts)} is below 100%")
         if status == "stable":
             for storylet_id, contract in dialogue_c.items():
-                if not contract["requiredForStable"]: continue
                 resolved, candidates = _resolve_unit(storylet_id, dialogue, chain)
-                native = _source_kind(requested, resolved) in {"exact", "base"}
+                native = resolved == requested
                 base_count = sum(".base." in item["candidateId"] for item in (candidates or []))
-                if not native or base_count < contract["minimumBaseCandidates"]: errors.append(f"release.{requested}.dialogue.{storylet_id}: requires native pool with {contract['minimumBaseCandidates']} base candidates (got {base_count} from {resolved or 'unavailable'})")
+                if not native or base_count < contract["minimumBaseCandidates"]:
+                    errors.append(f"release.{requested}.dialogue.{storylet_id}: requires exact native "
+                                  f"pool with {contract['minimumBaseCandidates']} base candidates "
+                                  f"(got {base_count} from {resolved or 'unavailable'})")
             for pool_id, contract in chronicle_c.items():
-                if not contract["requiredForStable"]: continue
                 resolved, templates = _resolve_unit(pool_id, chronicle, chain)
-                native = _source_kind(requested, resolved) in {"exact", "base"}
+                native = resolved == requested
                 active = sum(not item["deprecated"] for item in (templates or []))
-                if not native or active < contract["minimumStable"]: errors.append(f"release.{requested}.chronicle.{pool_id}: requires native pool with {contract['minimumStable']} templates (got {active} from {resolved or 'unavailable'})")
+                if not native or active < contract["minimumStable"]:
+                    errors.append(f"release.{requested}.chronicle.{pool_id}: requires exact native "
+                                  f"pool with {contract['minimumStable']} templates "
+                                  f"(got {active} from {resolved or 'unavailable'})")
     default = manifest["defaultLocale"]
     for unit, contract in {**ui_c, **prompt_c}.items():
         if contract["importance"] in {"critical", "standard"}:
@@ -539,8 +664,14 @@ def release_quality_errors(root: Path) -> list[str]:
 
 def validate_catalog(root: Path) -> list[str]:
     errors, _ = authoring_report(root)
-    if errors: return errors
-    return release_quality_errors(root)
+    # Provenance/schema diagnostics and release coverage answer different questions. Report both
+    # whenever the catalog remains readable so a stale hash cannot hide the actual release
+    # regression that caused it. Truly malformed input is already explained by authoring_report.
+    try:
+        errors.extend(release_quality_errors(root))
+    except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+        pass
+    return sorted(set(errors))
 
 
 def escape_cs(text: str) -> str:

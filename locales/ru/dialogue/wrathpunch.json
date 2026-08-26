@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathpunch",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathpunch.base.001",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тут никого нет."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "— Ты что делаешь!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.002",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не ор. Всё равно никто не придёт."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Я знаю."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.003",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Этот удар — за прошлую неделю."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Прошлую неделю я на медицинской койке лежал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.004",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Вытрись, потом выходи. Чтобы никто не видел."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "И ты чтобы никто не видел."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.005",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Это не против тебя. На базе нужен какой-то выход."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда бей стену."
+        }
+      ]
+    }
+  ]
+}

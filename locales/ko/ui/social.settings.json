@@ -1,0 +1,636 @@
+{
+  "locale": "ko",
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "사교 생활 · 설정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "설정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "「복제인간 사교 생활」 설정 패널을 엽니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "저장",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "취소",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "기본값 복원",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "저장되었고, 현재 세션에 바로 적용되었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "저장에 실패했습니다. 자세한 내용은 로그를 보세요.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "기본값을 복원했습니다. 「저장」을 눌러야 적용됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": "(재시작 후 적용)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "켬",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "끔",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "AI 대화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "AI 생성 대화 사용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "AI 대사는 아직 충분히 다듬이지 않아 기본값은 끔입니다. 끄면 전 구간 내장 대사를 쓰며, 플레이는 완전합니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "API 주소",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API Key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "모델",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "API Key를 붙여 넣으세요",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "모델 이름",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "대화 언어",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "게임 따름",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "중국어",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_KO",
+      "text": "한국어",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_RU",
+      "text": "Русский",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA",
+      "text": "日本語",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_VI",
+      "text": "Tiếng Việt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "사이클당 AI 대화 상한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "같은 복제인간 쌍의 대화 쿨다운(초)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "AI 요청 시간 초과(초)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "한 번 생성 상한(token)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key가 채워졌습니다. 저장 후 바로 적용됩니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "Key가 없어 AI 대화는 시작되지 않고, 내장 대사만 씁니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key는 채워졌지만 API 주소나 모델이 비었거나 유효하지 않아, AI 대화는 시작되지 않습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "사교 시스템",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "원본 사교 이벤트 관찰(관계 엔진 입력)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": "(이 버전은 고정 켜짐)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "관계 엔진은 지금 전적으로 원본 사교 이벤트 위에 세워져, 아직은 끌 수 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "F9/F10/F11 중매 단축키",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "관계 큰일 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "관계 이벤트 연출",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "간결",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "표준",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "집중",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "표준은 화면을 빼앗지 않습니다. 자동으로 카메라를 움직이는 것은 집중뿐입니다. 이벤트가 일어날지, 수치도 바꾸지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "중대 이벤트 자동 일시정지",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "독립 스위치이며 기본값은 끔입니다. 켜면 중대한 관계 이벤트가 일어날 때 게임을 멈춥니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "대기 창",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "끄면 고백 같은 이벤트가 바로 일어나지만, 연출과 알림은 그대로입니다. 결과는 바꾸지 않고 타이밍만 바꿉니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "대기 사이클",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "관계 이정표 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "비탄과 상실 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "충돌과 위험 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "일상 기념 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "끄기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "보관만",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "즉시 알림",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "중요한 일이 곧 일어납니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0}가 {1}에게 중요한 말을 하려 하며, {2}사이클 남았습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "같은 복제인간 쌍의 호감 적립 간격(초)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "원본 대화가 호감과 모드 대사로 바뀌는 쌍당 최단 간격입니다. 기본 15초이며, 쌍당 사이클 적립 상한에도 묶여 간격을 줄여도 사이클 상한은 넘지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "연대기 용량(줄)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "이벤트 로그 스크롤 구역의 줄 수 상한입니다. 기본 5000줄 ≈ 세이브 공간 약 1MB 예약(비압축 추정, 압축 후 훨씬 작음). 고백/죽음 같은 이정표는 큰일에 따로 저장되어 이 한도를 쓰지 않습니다. 불러오기나 새 판 이후에 적용됩니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "어두운 내용(인간성 시험)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "어두운 내용 사용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "총 스위치이며 기본값은 끔입니다. 켠 뒤에야 아래의 어두운 이벤트가 적용됩니다. 주먹다짐, 식량 단절 상잔, 그리고 이후에 더해질 인간성 시험 이벤트입니다. 이 내용은 복제인간 사이의 폭력과 죽음을 다룹니다. 원하지 않으면 꺼 두면 되며, 나머지 사교 기능은 전혀 영향받지 않습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "(어두운 내용 총 스위치가 꺼져 있어, 아래 항목은 당분간 적용되지 않습니다)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "식량 단절 상잔 허용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "식량고가 바닥나고 여럿이 굶을 때, 식민지는 서로 죽이는 지경에 빠지고 죽은 자는 식량이 됩니다. 사전에 경고와 카운트다운이 있어, 그 동안 식량을 보충하면 해제됩니다. 한 이벤트에서 죽는 사람은 한 명뿐이고, 식량이 돌아오면 멈춥니다. 문제가 풀리지 않으면 다시 발동합니다. 이 Mod에서 가장 어두운 내용이며, 총 스위치도 함께 켜야 합니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "붕괴를 한 편의 극으로 연출",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "복제인간의 스트레스가 가득 차 진짜 붕괴할 때(목놓아 울음／비명／구토／폭식／물건 파괴／방전), 같은 방의 사람들이 멈춰 서서 그를 보고, 이후 관계에 「그 최악의 모습을 봤다」가 남습니다. 이어지는 몇 사이클 안에 먼저 가서 말을 걸거나／돌보거나／함께 식사하는 사람이 그를 붕괴에서 끌어냅니다. 둘의 호감은 크게 오르고, 그 사람은 스트레스를 조금 받습니다. 중매로 누구를 보낼지 직접 지정해도 됩니다. **수치는 전혀 바꾸지 않습니다**: 붕괴 빈도, 스트레스, 사망률은 모두 그대로이며, 이 항목은 연출·기억·그 출구만 더합니다. 기본값은 켬입니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "위험 근무가 원한을 쌓음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "같은 직무에서 누군가 계속 위험한 곳(저산소, 호흡 불가 기체, 질식·화상·동상 중)으로 보내지고 다른 사람은 한 번도 내려간 적이 없으면, 전자는 후자를 원망하기 시작합니다. 호감은 떨어지기만 하고, 이대로면 숙적이 될 수도 있습니다. 대기복을 입고 일한 경우는 세지 않습니다. 그래서 「누가 대기복을 가졌는가」가 그대로 사교 문제가 됩니다. [b]출구는 당신에게 있습니다[/b]: 우선순위를 바꾸면 됩니다. 옛 근무는 집계 창에서 밀려 나가고, 불공평은 자연히 옅어지며 「그도 요즘은 내려온다」가 남습니다. 이것은 모드 전체에서 유일하게 [b]당신이 관리 방식을 바꾸는 것[/b]으로 푸는 내용이며, 게임 본래의 조작만 쓰고 새 화면은 없습니다. 두 사람이 [b]함께[/b] 위험에 있는 경우도 세며, 그때는 전우애가 됩니다. 같은 일이 친구 사이에서는 다른 결과입니다. 「그 사람이 나 대신 내려갔다」가 되어 호감은 오히려 오릅니다. [b]스트레스를 더하지 않고, 아무것도 깎지 않습니다[/b]: 열악한 환경의 스트레스는 게임이 이미 주고 있습니다. 식민지 전체에서 동시에 불공평한 쌍은 최대 두 쌍입니다. 기본값은 켬입니다. 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "집단 화풀이 허용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "식민지에 큰일이 난 뒤(누군가의 죽음／여러 명의 붕괴／식량고 바닥), 전원은 인기가 가장 낮은 사람에게 책임을 돌립니다. 그 사람 잘못인지는 따지지 않습니다. 호감이 한 번에 떨어지고, 이어서 고립 상태로 미끄러집니다. 하위 세 명은 그 사람에 대한 호감이 떨어지기만 하고, 나머지는 지나가며 혐오를 보이고, 같은 자리의 사람은 먼저 일어납니다. 출구 두 가지는 모두 플레이어의 도구입니다. 1막에서는 그 사람과 명성이 높은 사람을 중매하면 그 사람이 의리를 세워 말해 줍니다. 2막에서는 누구든 돌봄／털어놓기／함께 식사가 국면을 깹니다. 아무도 건드리지 않아도 영구히 멈추지 않으며, 시간이 흐리면 옅어집니다. 총 스위치도 함께 켜야 하며, 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "숙적 주먹다짐 허용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 이간 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "원본 대화 리듬을 빠르게",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "원본 대화 쿨다운 배율",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "원본 대화 거리 배율",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "인터페이스와 피드백",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "대화 대사 떠다니는 글자",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "대사가 머무는 초",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "호감 증감 떠다니는 숫자",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "로컬 플레이 데이터",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "익명 사교 원격측정 기록",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "기본값은 끔입니다. 켜면 이 기기에서만 이벤트 빈도, 관계 분포, Mod 스트레스 효과, 일정 비율, 성능 소요를 기록합니다. 복제인간은 익명 번호로 남고, API Key·AI 주소·세이브 본문은 기록하지 않으며 자동 업로드도 없습니다. 판 안에서 「사교 → 이벤트 로그」로 진단 보고서를 내보낼 수 있습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "균형",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "극적 강도 프리셋(불러오기 후 적용)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "조용",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "기본",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "극적",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "사용자 지정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "프리셋은 말다툼/질투/사과의 확률과 대가를 조정합니다. 「조용」은 싸움과 질투가 적고, 「극적」은 충돌이 더 빽빽합니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "사교 스트레스 소프트 상한(0 = 끄기)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "「감정 팽팽」 임계값",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "디버그(개발판에서만 보임)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "아래는 기술 매개변수입니다. 망가뜨렸으면 「기본값 복원」으로 되돌리세요",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "사이클당 AI 윤색 상한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "같은 복제인간의 일상 잡담 쿨다운(초)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "사이클당 수록하는 일상 연대기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "쌍당 사이클 원본 대화 적립 상한(회)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "기본 3회입니다. 상한에 닿으면 이 쌍의 이번 사이클 이후 원본 발언은 게임 본래 표현을 유지하되, 모드 대사·호감·사교 이벤트는 다시 트리거하지 않습니다. 다음 사이클에 초기화됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

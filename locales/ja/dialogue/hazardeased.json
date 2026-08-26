@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "hazardeased",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日も降りたんだな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "番が回ってきただけだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "酸素マスクが曇ったとき、悪態つくか？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "つく。かなり汚い。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あの層、実はそんなにひどくない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "ひどいよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "もういい。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……うん。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "次は一緒に降りよう。もっと早く。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いいよ。"
+        }
+      ]
+    }
+  ]
+}

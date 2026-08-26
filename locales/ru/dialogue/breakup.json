@@ -1,0 +1,90 @@
+{
+  "locale": "ru",
+  "family": "breakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Мы… пожалуй, не стоит."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Давай разойдёмся по-хорошему. Береги себя."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Трубы мы чинить умеем. Это — уже нет."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Угу. Зато трубы ещё целы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Дальше в столовой: ты на восток, я на запад."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Хорошо. …Береги себя."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Кислородный баллон тебе. Всё тебе."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Оставь. Считай… подарком от друга."
+        }
+      ]
+    }
+  ]
+}

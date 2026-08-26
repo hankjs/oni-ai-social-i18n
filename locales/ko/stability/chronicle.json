@@ -1,5 +1,691 @@
 {
   "locale": "ko",
   "schemaVersion": 2,
-  "pools": []
+  "pools": [
+    {
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.anniversary.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.apology-bond.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.apology.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.argument.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.argument.with-cause",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.bestfriend.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.bound-block.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 26
+    },
+    {
+      "poolId": "chronicle.brawl.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.breakup.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.care.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.chat.actor.crybaby",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.actor.eater",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.actor.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.actor.hothead",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.actor.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.actor.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.chat.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.chat.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.chat.relationship.cold",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.relationship.couple",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.relationship.crush",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.relationship.ex",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.relationship.rival",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.brawl-bond",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.comrade",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.waited",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.chat.with-topic",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 2
+    },
+    {
+      "poolId": "chronicle.comfort.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.confession-fail.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.confession.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.connective.lead.era-famine",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.recur-again",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.recur-many",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.date.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.fallout.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.famine-averted.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.famine-cull.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.famine-over.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.famine-warning.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.greet.actor.eater",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.greet.actor.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.greet.actor.hothead",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.greet.actor.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.greet.actor.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.greet.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.greet.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.greet.shared-history.brawl-bond",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.hazard-eased.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.hazard-resent.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.jealousy.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.jealousy.with-third",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.loss-crush.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.loss-partner.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.actor.eater",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.meal.actor.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.meal.actor.hothead",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.meal.actor.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.meal.actor.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.meal.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.meal.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.meal.relationship.cold",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.relationship.couple",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.relationship.crush",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.relationship.ex",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.relationship.rival",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.shared-history.comrade",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.shared-history.waited",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.meal.with-place",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 2
+    },
+    {
+      "poolId": "chronicle.party.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.party.with-place",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 2
+    },
+    {
+      "poolId": "chronicle.reconcile.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.rekindle.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 20
+    },
+    {
+      "poolId": "chronicle.rest.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.rest.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.rest.event.clash",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 2
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.crybaby",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.eater",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.rest.relationship.cold",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rest.relationship.couple",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rest.relationship.crush",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rest.relationship.ex",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rest.relationship.rival",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rival-died.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rival-over.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.rival.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.socialize.actor.crybaby",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.socialize.actor.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.socialize.actor.hothead",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.socialize.actor.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.socialize.actor.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.socialize.base",
+      "introducedIn": "0.13.0",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.socialize.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 48
+    },
+    {
+      "poolId": "chronicle.socialize.with-place",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 4
+    },
+    {
+      "poolId": "chronicle.stress.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 26
+    },
+    {
+      "poolId": "chronicle.teach.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.vent.actor.crybaby",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.vent.actor.gentle",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.vent.actor.hothead",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.vent.actor.loud",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.vent.actor.nervous",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 10
+    },
+    {
+      "poolId": "chronicle.vent.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.vent.event.stress",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 24
+    },
+    {
+      "poolId": "chronicle.welcome.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 26
+    },
+    {
+      "poolId": "chronicle.witness.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 26
+    },
+    {
+      "poolId": "chronicle.witness.event.solo",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 26
+    },
+    {
+      "poolId": "chronicle.wrath-blame.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-faded.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-punch.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    },
+    {
+      "poolId": "chronicle.wrath-witness.baseline",
+      "introducedIn": "0.14.1",
+      "highestStableNumber": 12
+    }
+  ]
 }

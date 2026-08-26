@@ -9,8 +9,8 @@
   "entries": [
     {
       "promptId": "prompt.conversation.affect",
-      "text": "Current affect: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
-      "resolvedLocale": "en",
+      "text": "現在の感情：[[nameA]]=[[emotionA]]；[[nameB]]=[[emotionB]]。",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "emotionA",
         "emotionB",
@@ -21,8 +21,8 @@
     },
     {
       "promptId": "prompt.conversation.draft",
-      "text": "Matched authored draft: [[draft]]",
-      "resolvedLocale": "en",
+      "text": "照合済みのローカル草稿：[[draft]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "draft"
       ],
@@ -30,22 +30,22 @@
     },
     {
       "promptId": "prompt.conversation.instruction",
-      "text": "Polish the draft without changing the event, either speaker's affect, or the speaker order.",
-      "resolvedLocale": "en",
+      "text": "イベント、人物の感情、話者の順を変えずに草稿を整えよ。",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.no-traits",
-      "text": "no notable traits",
-      "resolvedLocale": "en",
+      "text": "顕著な特性なし",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.participant-a",
-      "text": "A: [[profile]]",
-      "resolvedLocale": "en",
+      "text": "話者甲：[[profile]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "profile"
       ],
@@ -53,8 +53,8 @@
     },
     {
       "promptId": "prompt.conversation.participant-b",
-      "text": "B: [[profile]]",
-      "resolvedLocale": "en",
+      "text": "話者乙：[[profile]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "profile"
       ],
@@ -62,8 +62,8 @@
     },
     {
       "promptId": "prompt.conversation.profile",
-      "text": "[[name]] (traits: [[traits]]; stress: [[stress]])",
-      "resolvedLocale": "en",
+      "text": "[[name]]（特性：[[traits]]；ストレス：[[stress]]）",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "name",
         "stress",
@@ -73,8 +73,8 @@
     },
     {
       "promptId": "prompt.conversation.relationship",
-      "text": "Relationship: [[stage]], affinity [[affinity]].",
-      "resolvedLocale": "en",
+      "text": "関係：[[stage]]、好感度 [[affinity]]。",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "affinity",
         "stage"
@@ -83,8 +83,8 @@
     },
     {
       "promptId": "prompt.conversation.scene",
-      "text": "Resolved game event: [[storylet]]; cause: [[cause]].",
-      "resolvedLocale": "en",
+      "text": "ゲームエンジンが確定したイベント：[[storylet]]；きっかけ：[[cause]]。",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "cause",
         "storylet"
@@ -93,22 +93,22 @@
     },
     {
       "promptId": "prompt.conversation.stress-hint",
-      "text": "Stress \"breaking\" means on the verge of an emotional breakdown: let the strain show in that duplicant's lines (short temper, weary, barely holding on).",
-      "resolvedLocale": "en",
+      "text": "ストレス「崩壊寸前」は複製人間がまもなく感情崩壊することを示す。その張り詰めた状態を台詞に出せ。たとえば短気、疲労、かろうじて持ちこたえている様子。",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.conversation.system",
-      "text": "You are polishing dialogue between duplicants in the survival sim Oxygen Not Included. The game engine has already resolved the event, relationship outcome, each speaker's affect, and speaker order; do not change those facts. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, and caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries]}.",
-      "resolvedLocale": "en",
+      "text": "生存シミュレーションゲーム《Oxygen Not Included》の複製人間同士の会話を整えよ。イベント、関係の結果、双方の感情、話者の順はいずれもゲームエンジンが確定済みである。これらの事実を書き換えるな。複製人間は3Dプリントされた小人であり、宇宙コロニーで資源を掘り、基地を建て、生存に励む。会話はゲームの雰囲気に合わせよ。ブラックユーモア、仕事へのぼやき、互いへの気遣い、口語体。各台詞は30字以内。厳密にJSONのみを出力し、他は一切出力するな。形式：\n{\"turns\":[{\"speaker\":\"名前\",\"text\":\"台詞\"},...2から4件]}。",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.cause",
-      "text": "Cause: [[value]]",
-      "resolvedLocale": "en",
+      "text": "きっかけ：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -116,8 +116,8 @@
     },
     {
       "promptId": "prompt.narrative.colony",
-      "text": "Colony: [[value]]",
-      "resolvedLocale": "en",
+      "text": "コロニー：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -125,29 +125,29 @@
     },
     {
       "promptId": "prompt.narrative.colony-both",
-      "text": "famine ongoing, collective wrath ongoing",
-      "resolvedLocale": "en",
+      "text": "食糧途絶中と衆怒中",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony-famine",
-      "text": "famine ongoing",
-      "resolvedLocale": "en",
+      "text": "食糧途絶中",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.colony-wrath",
-      "text": "collective wrath ongoing",
-      "resolvedLocale": "en",
+      "text": "衆怒中",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.current-state",
-      "text": "Current relationship: [[value]]",
-      "resolvedLocale": "en",
+      "text": "関係の近況：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -155,8 +155,8 @@
     },
     {
       "promptId": "prompt.narrative.event",
-      "text": "Event: [[value]]",
-      "resolvedLocale": "en",
+      "text": "イベント：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -164,15 +164,15 @@
     },
     {
       "promptId": "prompt.narrative.history-heading",
-      "text": "Their recent history:",
-      "resolvedLocale": "en",
+      "text": "二人の往事：",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.history-line",
-      "text": "Cycle [[cycle]] · [[event]]",
-      "resolvedLocale": "en",
+      "text": "サイクル[[cycle]] · [[event]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "cycle",
         "event"
@@ -181,15 +181,15 @@
     },
     {
       "promptId": "prompt.narrative.instruction",
-      "text": "Rewrite it as one chronicle sentence.",
-      "resolvedLocale": "en",
+      "text": "一文の編年史に書き直せ。",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.new-state",
-      "text": "New relationship: [[value]]",
-      "resolvedLocale": "en",
+      "text": "新たな関係：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -197,8 +197,8 @@
     },
     {
       "promptId": "prompt.narrative.person-a",
-      "text": "A: [[value]]",
-      "resolvedLocale": "en",
+      "text": "人物甲：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -206,8 +206,8 @@
     },
     {
       "promptId": "prompt.narrative.person-b",
-      "text": "B: [[value]]",
-      "resolvedLocale": "en",
+      "text": "人物乙：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -215,8 +215,8 @@
     },
     {
       "promptId": "prompt.narrative.place",
-      "text": "Place: [[value]]",
-      "resolvedLocale": "en",
+      "text": "場所：[[value]]",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "value"
       ],
@@ -224,15 +224,15 @@
     },
     {
       "promptId": "prompt.narrative.system",
-      "text": "You are the chronicler of a space colony. Rewrite the given social event as a single sentence of at most 25 words: plain, restrained, with a sense of history. Never change names or facts; no quotes, no emoji, no numbers. Output only the sentence.",
-      "resolvedLocale": "en",
+      "text": "コロニー編年史の著者として、与えられた社交イベントを一文に書き直せ。40字以内。白描で、抑制し、歴史の趣を出せ。人名と事実を変えるな。引用符を使うな。emojiを使うな。数値を使うな。その一文のみを出力せよ。",
+      "resolvedLocale": "ja",
       "requiredSlots": [],
       "contractRevision": 1
     },
     {
       "promptId": "prompt.narrative.witnesses",
-      "text": "Witnesses: [[count]]",
-      "resolvedLocale": "en",
+      "text": "目撃者：[[count]]人",
+      "resolvedLocale": "ja",
       "requiredSlots": [
         "count"
       ],

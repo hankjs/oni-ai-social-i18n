@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Опять ты спускался."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Лёгкие у меня крепче."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тот ярус в следующий раз мой."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ты это уже трижды говорил."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я тебе должен."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Главное — помни."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не обязательно каждый раз идти вместо меня."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "А ты хочешь, чтобы я смотрел, как идёшь ты?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Спасибо."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не говори этого."
+        }
+      ]
+    }
+  ]
+}

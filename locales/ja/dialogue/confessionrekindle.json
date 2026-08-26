@@ -1,0 +1,90 @@
+{
+  "locale": "ja",
+  "family": "confessionrekindle",
+  "candidates": [
+    {
+      "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "別れてから分かった。言い争いのほうが、君を想うより楽だった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……今度は、ちゃんと言い争って。もう行かないで。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "君が置き忘れたレンチ、直して返してきた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "バカ、あれはわざと置いていったんだよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食堂の西側、寂しすぎる。戻って座ってもいい？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……とっくに席、空けてあったよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "古い問題、全部点検し直そう。配管を点検するように。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "今度は図面どおりにいこう。図面はもう描いてある。"
+        }
+      ]
+    }
+  ]
+}

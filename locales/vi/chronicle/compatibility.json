@@ -1,0 +1,1446 @@
+{
+  "locale": "vi",
+  "family": "compatibility",
+  "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tranh lúc đổi ca nói vài câu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} gặp nhau, đổi những điều thấy hôm nay.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói chuyện suốt đường, đến khi mỗi người đi làm việc của mình.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cụm lại tán gẫu một lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói đến hứng, suýt quên việc kế.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lấy vài câu nhàn để qua lúc chờ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói vài chuyện mới trong thuộc địa.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói chuyện một lúc, lòng đều nhẹ hơn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} câu qua câu lại, nói rất tự nhiên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} dừng bước, nghe hết lời của nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc bận vẫn nặn ra một đoạn nói chuyện.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} từ một câu chào miệng nói sang chuyện khác.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói không lâu, nhưng đều nghe rất chăm.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lúc tay rảnh, kể nhau tình hình gần đây.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói một lúc rồi mới trở lại việc của mỗi người.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói chuyện vụn vặt thường ngày, thời gian cũng trôi nhanh hơn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} kể vài chuyện nhỏ chẳng quan trọng nhưng thú vị.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói ngắn một lúc, không khí rất hòa.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} kể cho nhau chuyện thú vị mình gặp.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} vừa vội đường vừa nói chuyện đứt quãng.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói chuyện bình lặng, chẳng ai vội kết.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} chia vài chuyện nhỏ gần đây để ý thấy.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nói cười, thêm chút nhẹ cho ngày bận.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} kết chuyện, vẫn lưu luyến nói thêm hai câu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.001",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} đụng mặt, gật đầu chào nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.002",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} gặp đối diện, nhân đó hỏi một tiếng.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.003",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} khi ngang vai đổi một ánh mắt.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.004",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cách một đoạn vẫy tay với nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.005",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} dừng bước, xã giao ngắn hai câu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.006",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} gặp vội, cũng không quên chào nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.007",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lấy một cử chỉ quen mà gọi nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.008",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} thấy nhau đều lộ nụ cười.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.009",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} báo nhau tiếng bình an, rồi tiếp tục vội đường.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.010",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} khi đi ngang bên nhau chào khẽ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.011",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nhận ra nhau từ xa, bèn giơ tay ra hiệu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.012",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} gặp nhau, hỏi thăm tình hình gần đây.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.013",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} bắt đầu lần gặp này bằng một câu chào đơn giản.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.014",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trước khi mỗi người bận, đã chào nhau trước.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.015",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} dừng ngắn, xác nhận đối phương vẫn như thường.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.016",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn ý giơ tay chào cùng lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.017",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} vừa gặp đã chào nhau tự nhiên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.018",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} thấy nhau trong đám người, đổi lời chào.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.019",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lấy một câu chào như đùa cho không khí sống.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.020",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} khi gặp chậm bước, chào nhau một tiếng.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.021",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tranh lúc bận hỏi nhau một câu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.022",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} khi đi ngang bên nhau cười thân.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.023",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} bằng lời chào ngắn xác nhận sự có mặt của nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.024",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong ngày bận lại đụng mặt một lần.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.001",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ngồi cùng, thong thả ăn xong bữa này.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.002",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} biến giờ ăn cũng thành giờ ở bên nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.003",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} vừa ăn vừa nói, chẳng ai vội đi.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.004",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tình cờ cùng bữa, bèn ngồi một chỗ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.005",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng dừng việc đang làm, chuyên tâm ăn một bữa.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.006",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc ăn đổi vài câu nhàn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.007",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ngồi vai kề vai, chia một khoảng ăn yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.008",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lúc ăn nói chuyện chắp vá.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.009",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} chọn chỗ gần nhau, cùng xong bữa này.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.010",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tạm đặt việc, cùng một bữa cơm thường.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.011",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ngồi cùng lúc, cũng ăn xong cùng lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.012",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lấy thì giờ một bữa để ở bên nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.013",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn không vội, thỉnh thoảng ngẩng nói hai câu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.014",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc bận cụm lại cùng ăn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.015",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng ăn, khiến lúc nghỉ ngắn thêm thong thả.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.016",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} giữ chuyện trò nhẹ trong bữa này.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.017",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn ý ngồi gần, cùng bắt đầu ăn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.018",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn xong còn ngồi thêm, rồi mỗi người đi.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.019",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn một bữa thường khá rôm rả.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.020",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} yên lặng cùng bàn, không khí chẳng ngượng.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.021",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong bữa nói về việc mỗi người sắp tới.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.022",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} đợi nhau một lúc, rồi cùng bắt đầu ăn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.023",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} chia khoảnh khắc ăn không phải gấp việc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.024",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ăn xong cùng một bữa, lại hăng hái đi bận.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.001",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong cùng một khoảng nghỉ dần yên lại.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.002",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} kết thúc ngày bận, cùng nghỉ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.003",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} chia một khoảng nghỉ yên khó có.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.004",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} mệt cả ngày, sớm chìm vào giấc mỗi người.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.005",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trước khi nghỉ chào đêm ngắn với nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.006",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} lần lượt dừng việc, đón cùng một khoảng yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.007",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} nghỉ yên lòng trong sự có mặt của nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.008",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} không nói thêm, chỉ nghỉ yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.009",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} để sự bận sang ngày mai, tạm cùng nghỉ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.010",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc rảnh ngắn hồi tinh thần.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.011",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} an vị, xung quanh cũng dần về yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.012",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} hiếm khi rảnh cùng lúc, bèn nghỉ hẳn một lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.013",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong nhịp sinh hoạt gần nhau chia khoảnh khắc yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.014",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} mang mệt cả ngày, cùng vào giờ nghỉ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.015",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} mỗi người nới ra, không làm phiền nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.016",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong khoảng nghỉ hưởng một lúc thanh tĩnh.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.017",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trải êm khoảng nghỉ chung này.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.018",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} dứt chuyện, sớm yên lại.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.019",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong mệt mỏi chào đêm với nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.020",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng lúc đón nghỉ, cũng cùng lúc bỏ sự căng.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.021",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} để khoảnh khắc này cho nghỉ, không nói việc nữa.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.022",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong nhịp đều lại cùng nghỉ một lần.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.023",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ở bên nhau yên một lúc, mỗi người hồi tinh thần.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.024",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trước vòng bận kế, cùng ngủ một giấc yên.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.001",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng tiêu một ít thì giờ rảnh.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.002",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tạm đặt việc, ở bên nhau nhẹ một lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.003",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cụm lại, tìm chút thú cho mình.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.004",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc rảnh chia không ít tiếng cười.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.005",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trải khoảng nhàn ngắn khá rôm rả.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.006",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng nới một lúc, tinh thần khá hơn nhiều.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.007",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} rất tự nhiên bước vào thì giờ nhàn của nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.008",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} đùa nghịch một lúc, tạm quên phiền trước tay.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.009",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} ở trong không khí nhẹ khá lâu.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.010",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng nhàn, để khoảng trống này không trôi phí.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.011",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trêu nhau, làm mệt nhạt đi một chút.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.012",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} hiếm khi không phải gấp việc, bèn cùng nới ra.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.013",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trải thì giờ nhàn trong một trận nói cười.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.014",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} thêm vào ngày thường một chút tiêu khiển nhỏ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.015",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng tìm chút việc làm, không khí rất nhẹ.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.016",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} để thì giờ ngoài việc cho nhau.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.017",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tụ một chỗ, hứng thú tiêu khiển một lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.018",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong lúc tự do ngắn chơi rất nhập.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.019",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} không bàn việc, chỉ lo nới một lúc.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.020",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} cùng tiêu thì giờ, cũng quen nhau hơn.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.021",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} hẹn nới một lát, rồi mới mỗi người tan.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.022",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} biến một khoảng trống nhỏ thành lúc bên nhau vui.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.023",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} trong đùa và tiếng cười hồi được chút tinh thần.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.024",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair} tiêu khiển đã thỏa, mới trở lại ngày thường.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    }
+  ]
+}

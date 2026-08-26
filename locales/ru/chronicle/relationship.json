@@ -1,0 +1,3920 @@
+{
+  "locale": "ru",
+  "family": "relationship",
+  "templates": [
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.001",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} забыл годовщину с {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.002",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В расписании смен {actor} не оказалось только годовщины с {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.003",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ждал всю ночь, а {actor} в шахте ничего не заметил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.004",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В суете дней {actor} забыл самый важный день.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.005",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вспомнил о годовщине лишь к концу дня и перед {other} уже не успел притвориться, будто ничего не случилось.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.006",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ждал весь день знака, и {actor} наконец понял, что что-то упустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.007",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} отлично помнил обычные смены, но забыл как раз тот важный день, общий с {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.008",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} произнёс запоздалое поздравление, у {other} уже не было желания праздновать.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.009",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} попытался добавить «с годовщиной», а {other} лишь тихо взглянул в ответ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.010",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} в одиночку убирает заготовленный знак внимания, и понял, что пропустил годовщину.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.011",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} забыл годовщину с {other}. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.012",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В расписании смен {actor} не оказалось только годовщины с {other}. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.013",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ждал всю ночь, а {actor} в шахте ничего не заметил. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.014",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В суете дней {actor} забыл самый важный день. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.015",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вспомнил о годовщине лишь к концу дня и перед {other} уже не успел притвориться, будто ничего не случилось. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.016",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ждал весь день знака, и {actor} наконец понял, что что-то упустил. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.017",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} отлично помнил обычные смены, но забыл как раз тот важный день, общий с {other}. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.018",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} произнёс запоздалое поздравление, у {other} уже не было желания праздновать. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.019",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} попытался добавить «с годовщиной», а {other} лишь тихо взглянул в ответ. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.020",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} в одиночку убирает заготовленный знак внимания, и понял, что пропустил годовщину. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.001",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} отметили день своей совместной жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.002",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова спокойно прожили год — стоит чокнуться.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.003",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В месте, где даже календарь ведёшь сам, {a} и {b} сегодняшний день не забыли.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.004",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} превратили годовщину в праздник всей колонии — по крайней мере, им так казалось.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.005",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе вспомнили день, когда впервые сошлись, и подняли кружку за ещё одну годовщину.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.006",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ненадолго отложили суету и всерьёз выделили время почтить друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.007",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обменялись заготовленными знаками внимания, и никто этот день не забыл.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.008",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} считали пройденные вместе циклы и увидели, как много уже стоит помнить.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.009",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не устраивали большого торжества и лишь тихо оставили этот день друг другу.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.010",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в годовщину снова произнесли прежнее обещание, на этот раз твёрже.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.011",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} отметили день своей совместной жизни. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.012",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова спокойно прожили год — стоит чокнуться. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.013",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В месте, где даже календарь ведёшь сам, {a} и {b} сегодняшний день не забыли. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.014",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} превратили годовщину в праздник всей колонии — по крайней мере, им так казалось. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.015",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе вспомнили день, когда впервые сошлись, и подняли кружку за ещё одну годовщину. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.016",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ненадолго отложили суету и всерьёз выделили время почтить друг друга. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.017",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обменялись заготовленными знаками внимания, и никто этот день не забыл. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.018",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} считали пройденные вместе циклы и увидели, как много уже стоит помнить. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.019",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не устраивали большого торжества и лишь тихо оставили этот день друг другу. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.020",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в годовщину снова произнесли прежнее обещание, на этот раз твёрже. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.001",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ссора, напротив, сделала {a} и {b} друзьями.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.002",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} всё проговорили до конца и стали друзьями.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.003",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После извинений {a} и {b} стали ближе, чем до ссоры.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.004",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сначала поссорились, а потом стали друзьями — вот так это и вышло.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.005",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} разобрали конфликт с самого начала и увидели, что оба готовы уступить ради отношений.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.006",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не обошли неловкое, и прямота лишь углубила доверие.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.007",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, в чём каждый был неправ, и извинение стало новым безмолвным согласием.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.008",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} хотели лишь закончить ссору, а в итоге впервые по-настоящему поняли друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.009",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После примирения {a} и {b} ещё долго сидели и сказали всё, что прежде не решались.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.010",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в конфликте увидели, что другой готов остаться, и отношения стали крепче прежнего.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.011",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ссора, напротив, сделала {a} и {b} друзьями. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.012",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} всё проговорили до конца и стали друзьями. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.013",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После извинений {a} и {b} стали ближе, чем до ссоры. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.014",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сначала поссорились, а потом стали друзьями — вот так это и вышло. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.015",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} разобрали конфликт с самого начала и увидели, что оба готовы уступить ради отношений. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.016",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не обошли неловкое, и прямота лишь углубила доверие. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.017",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, в чём каждый был неправ, и извинение стало новым безмолвным согласием. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.018",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} хотели лишь закончить ссору, а в итоге впервые по-настоящему поняли друг друга. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.019",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После примирения {a} и {b} ещё долго сидели и сказали всё, что прежде не решались. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.020",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в конфликте увидели, что другой готов остаться, и отношения стали крепче прежнего. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.001",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} извинился перед {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.002",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым опустил голову, и {other} простил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.003",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} с запинкой произнёс «прости», и {other} это принял.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.004",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул каша-батончик в знак искупления.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.005",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Между самолюбием и {other} {actor} выбрал {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.006",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не искал себе оправданий и ясно сказал {other}, в чём был неправ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.007",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дождался, пока {other} выскажет всю обиду, и лишь тогда всерьёз попросил прощения.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.008",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался {other}, что те слова ранили, и пообещал впредь поступать иначе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.009",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} произносил извинение медленно, чтобы {other} услышал искренность, а не отписку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.010",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сам нашёл {other} и склонил голову, не дожидаясь, пока время всё сгладит.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.011",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} извинился перед {other}. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.012",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым опустил голову, и {other} простил. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.013",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} с запинкой произнёс «прости», и {other} это принял. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.014",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул каша-батончик в знак искупления. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.015",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Между самолюбием и {other} {actor} выбрал {other}. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.016",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не искал себе оправданий и ясно сказал {other}, в чём был неправ. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.017",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дождался, пока {other} выскажет всю обиду, и лишь тогда всерьёз попросил прощения. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.018",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался {other}, что те слова ранили, и пообещал впредь поступать иначе. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.019",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} произносил извинение медленно, чтобы {other} услышал искренность, а не отписку. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.020",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сам нашёл {other} и склонил голову, не дожидаясь, пока время всё сгладит. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.001",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} поссорились.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.002",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} вступили в ссору, и никто не уступил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.003",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} повышали голос всё громче и вспугнули соседнего Хэтча.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.004",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} покраснели из-за пустяка и потом сами видели, что оно того не стоило.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.005",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда ссора стихла, и {actor}, и {other} считали, что первым вышел из себя другой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.006",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым повысил голос, {other} не отступил, и ссора быстро стала резкой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.007",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} упрекнул {other}, что тот не дослушал, и они тут же поссорились.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.008",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал накопившуюся обиду разом, и {other} возражал по каждому пункту.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.009",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался заставить {other} признать вину, и в итоге оба слышали лишь собственный гнев.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.010",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Резкое слово {actor} перешло меру, и {other} больше не хотел сохранять спокойствие.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.011",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} поссорились. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.012",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} вступили в ссору, и никто не уступил. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.013",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} повышали голос всё громче и вспугнули соседнего Хэтча. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.014",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} покраснели из-за пустяка и потом сами видели, что оно того не стоило. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.015",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда ссора стихла, и {actor}, и {other} считали, что первым вышел из себя другой. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.016",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым повысил голос, {other} не отступил, и ссора быстро стала резкой. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.017",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} упрекнул {other}, что тот не дослушал, и они тут же поссорились. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.018",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал накопившуюся обиду разом, и {other} возражал по каждому пункту. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.019",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался заставить {other} признать вину, и в итоге оба слышали лишь собственный гнев. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.020",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Резкое слово {actor} перешло меру, и {other} больше не хотел сохранять спокойствие. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.001",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Из-за {cause} {actor} и {other} поссорились.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.002",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Из-за {cause} {actor} сам потребовал ответа у {other}, и сразу началась ссора.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.003",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} свалил недовольство {cause} на {other}, и {other} тотчас возразил.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.004",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Вокруг {cause} {actor} и {other} стояли на своём, и никто никого не переубедил.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.005",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потребовал у {other} объяснения {cause}, и ответ лишь сильнее разозлил.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.006",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} стал запалом: {actor} ударил первым, и {other} вытащил старые счета.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.007",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} решил, что {other} должен отвечать за {cause}, и из-за этого они разругались без конца.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.008",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Заговорив о {cause}, {actor} потерял терпение, и {other} тоже отказался уступать.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.009",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} хотел объяснить {other} {cause}, но чувства превратили объяснение в упрёк.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.010",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} оба считали себя обиженными в {cause}, и спор оттого уходил всё глубже.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.011",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Из-за {cause} {actor} и {other} поссорились. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.012",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Из-за {cause} {actor} сам потребовал ответа у {other}, и сразу началась ссора. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.013",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} свалил недовольство {cause} на {other}, и {other} тотчас возразил. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.014",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Вокруг {cause} {actor} и {other} стояли на своём, и никто никого не переубедил. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.015",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потребовал у {other} объяснения {cause}, и ответ лишь сильнее разозлил. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.016",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} стал запалом: {actor} ударил первым, и {other} вытащил старые счета. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.017",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} решил, что {other} должен отвечать за {cause}, и из-за этого они разругались без конца. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.018",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Заговорив о {cause}, {actor} потерял терпение, и {other} тоже отказался уступать. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.019",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} хотел объяснить {other} {cause}, но чувства превратили объяснение в упрёк. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.020",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} оба считали себя обиженными в {cause}, и спор оттого уходил всё глубже. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.001",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} расстались.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.002",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувства {actor} и {other} дошли до конца.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.003",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} всё проговорили и повернулись прочь.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.004",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Отношения {actor} и {other} иссякли, как кислород в атмокостюме.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.005",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ещё хотел всё вернуть, а {actor} уже не желал говорить.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.006",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал {other}, что эти отношения нельзя продолжать, и сам оборвал их как пару.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.007",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} произнёс слово о расставании, {other} долго молчал, прежде чем принять.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.008",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признал, что уже не может смотреть на {other} как прежде, и они разошлись.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.009",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не оставил двусмысленности и ясно сказал {other}, что отношения на этом кончены.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.010",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} поговорили в последний раз и решили больше не быть парой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.011",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} расстались. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.012",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувства {actor} и {other} дошли до конца. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.013",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} всё проговорили и повернулись прочь. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.014",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Отношения {actor} и {other} иссякли, как кислород в атмокостюме. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.015",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ещё хотел всё вернуть, а {actor} уже не желал говорить. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.016",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал {other}, что эти отношения нельзя продолжать, и сам оборвал их как пару. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.017",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} произнёс слово о расставании, {other} долго молчал, прежде чем принять. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.018",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признал, что уже не может смотреть на {other} как прежде, и они разошлись. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.019",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не оставил двусмысленности и ясно сказал {other}, что отношения на этом кончены. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.020",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} поговорили в последний раз и решили больше не быть парой. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.001",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался {other}, но {other} не ответил согласием.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.002",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувство {actor} {other} не смог принять.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.003",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} договорил заученное признание, и {other} долго молчал.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.004",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Не всякое сердце слышит ответ; сегодня {actor} это понял.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.005",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал чувство и долго ждал, но {other} всё же покачал головой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.006",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} внимательно выслушал признание {actor}, но не мог ответить тем же чувством.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.007",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} попытался скрыть разочарование и всё же поблагодарил {other} за честный ответ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.008",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Набранная {actor} смелость не дала жданного итога, и осталось принять отказ {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.009",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} мягко, но ясно отказал {actor} и не оставил надежды, которую можно понять неверно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.010",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} приготовил много слов, а услышав ответ {other}, смог сказать лишь «понял».",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.011",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался {other}, но {other} не ответил согласием. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.012",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувство {actor} {other} не смог принять. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.013",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} договорил заученное признание, и {other} долго молчал. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.014",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Не всякое сердце слышит ответ; сегодня {actor} это понял. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.015",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал чувство и долго ждал, но {other} всё же покачал головой. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.016",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} внимательно выслушал признание {actor}, но не мог ответить тем же чувством. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.017",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} попытался скрыть разочарование и всё же поблагодарил {other} за честный ответ. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.018",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Набранная {actor} смелость не дала жданного итога, и осталось принять отказ {other}. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.019",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} мягко, но ясно отказал {actor} и не оставил надежды, которую можно понять неверно. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.020",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} приготовил много слов, а услышав ответ {other}, смог сказать лишь «понял». Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.001",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} открыл {other} своё чувство — и {other} согласился.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.002",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} набрался смелости для признания, и {other} кивнул, покраснев.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.003",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не договорил слова, повторённые десять раз, как {other} уже согласился.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.004",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Перед Печатным станком как свидетелем {actor} и {other} взялись за руки.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.005",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} давно ждал этих слов, и {actor} наконец их произнёс.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.006",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} целиком сказал {other} чувство, что долго прятал, и дождался согласия.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.007",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался, что хочет идти дальше вместе с {other}, и {other} всерьёз согласился.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.008",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} к концу так разволновался, что замолк, и {other} сам взял его за руку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.009",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не готовил красивых слов и лишь честно сказал {other} об этом чувстве — и всё же получил ответ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.010",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} спросил {other}, согласен ли тот стать парой, и ответ рассмешил обоих.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.011",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} открыл {other} своё чувство — и {other} согласился. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.012",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} набрался смелости для признания, и {other} кивнул, покраснев. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.013",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не договорил слова, повторённые десять раз, как {other} уже согласился. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.014",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Перед Печатным станком как свидетелем {actor} и {other} взялись за руки. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.015",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} давно ждал этих слов, и {actor} наконец их произнёс. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.016",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} целиком сказал {other} чувство, что долго прятал, и дождался согласия. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.017",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признался, что хочет идти дальше вместе с {other}, и {other} всерьёз согласился. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.018",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} к концу так разволновался, что замолк, и {other} сам взял его за руку. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.019",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не готовил красивых слов и лишь честно сказал {other} об этом чувстве — и всё же получил ответ. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.020",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} спросил {other}, согласен ли тот стать парой, и ответ рассмешил обоих. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.001",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сходили на свидание, и настроение пришлось как раз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.002",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} побыли наедине, и в глазах был только другой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.003",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} шли рядом, и никто не заговорил о возвращении к рабочему месту.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.004",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} были на свидании у телескопа и по очереди смотрели на одно небо.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.005",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Правило свидания задали {a} и {b}: о расписании смен ни слова.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.006",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили свободный час только друг другу и тихо провели свидание.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.007",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ненадолго отложили работу и спросили лишь о том, что каждого сейчас по-настоящему занимает.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.008",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} долго стояли рядом, и никто не спешил планировать следующее.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.009",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} тщательно привели себя в порядок к свиданию и при встрече оба увидели чужую заботу.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.010",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова прошли детали, от которых когда-то явилась влюблённость, и воздух снова стал мягче.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.011",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сходили на свидание, и настроение пришлось как раз. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.012",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} побыли наедине, и в глазах был только другой. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.013",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} шли рядом, и никто не заговорил о возвращении к рабочему месту. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.014",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} были на свидании у телескопа и по очереди смотрели на одно небо. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.015",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Правило свидания задали {a} и {b}: о расписании смен ни слова. Этот астероид по-прежнему опасен, но им больше не приходится встречать всё в одиночку.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.016",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили свободный час только друг другу и тихо провели свидание. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.017",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ненадолго отложили работу и спросили лишь о том, что каждого сейчас по-настоящему занимает. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.018",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} долго стояли рядом, и никто не спешил планировать следующее. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.019",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} тщательно привели себя в порядок к свиданию и при встрече оба увидели чужую заботу. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.020",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова прошли детали, от которых когда-то явилась влюблённость, и воздух снова стал мягче. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.001",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сильно поссорились и с тех пор стали как незнакомцы.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.002",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та малая привязанность между {a} и {b} за ночь обнулилась.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.003",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "С того дня {a} и {b} в коридоре обходили друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.004",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Как друзья {a} и {b} дошли до конца и экономили даже на приветствии.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.005",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сказали самые ранящие слова, и прежнее доверие оборвалось совсем.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.006",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} никто не хотел брать упрёк назад, и после ссоры осталась лишь отчуждённость.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.007",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Конфликт {a} и {b} перешёл черту, за которой легко помириться, и отношения рухнули.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.008",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} больше не хотели верить чужим объяснениям и с тех пор нарочно обходили друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.009",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в гневе отреклись от прежней привязанности и, остыв, так и не подошли снова.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.010",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} кончили ссору без примирения и оставили друг друга за порогом отношений.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.011",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сильно поссорились и с тех пор стали как незнакомцы. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.012",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та малая привязанность между {a} и {b} за ночь обнулилась. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.013",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "С того дня {a} и {b} в коридоре обходили друг друга. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.014",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Как друзья {a} и {b} дошли до конца и экономили даже на приветствии. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.015",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сказали самые ранящие слова, и прежнее доверие оборвалось совсем. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.016",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} никто не хотел брать упрёк назад, и после ссоры осталась лишь отчуждённость. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.017",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Конфликт {a} и {b} перешёл черту, за которой легко помириться, и отношения рухнули. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.018",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} больше не хотели верить чужим объяснениям и с тех пор нарочно обходили друг друга. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.019",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} в гневе отреклись от прежней привязанности и, остыв, так и не подошли снова. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.020",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} кончили ссору без примирения и оставили друг друга за порогом отношений. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.001",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} приревновал.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.002",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Откуда взялась эта кислая ревность, {actor} и сам не мог объяснить.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.003",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} заметил, что слишком следит, куда уходит внимание другого, и ревность уже не спрятать.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.004",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался делать вид, что ему всё равно, но недовольство в голосе выдало настоящее.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.005",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как близкий человек отдаёт мысль другому месту, и в молчании мало-помалу явилась ревность.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.006",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова и снова твердил себе, что не следует задеваться, но чувство от этого не исчезло.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.007",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не вспыхнул на месте и лишь унёс ту горечь дальше.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.008",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вдруг стал необычайно тих, и даже обычный ответ нёс в себе дистанцию.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.009",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} понял, что собственничество уже поднимает голову, и пока не знал, как это сказать.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.010",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} огорчился, не получив жданного внимания, и эта досада быстро стала ревностью.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.011",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} приревновал. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.012",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Откуда взялась эта кислая ревность, {actor} и сам не мог объяснить. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.013",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} заметил, что слишком следит, куда уходит внимание другого, и ревность уже не спрятать. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.014",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался делать вид, что ему всё равно, но недовольство в голосе выдало настоящее. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.015",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как близкий человек отдаёт мысль другому месту, и в молчании мало-помалу явилась ревность. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.016",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова и снова твердил себе, что не следует задеваться, но чувство от этого не исчезло. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.017",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не вспыхнул на месте и лишь унёс ту горечь дальше. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.018",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вдруг стал необычайно тих, и даже обычный ответ нёс в себе дистанцию. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.019",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} понял, что собственничество уже поднимает голову, и пока не знал, как это сказать. В столовой по-прежнему шумно, но рядом с ними воздух похолодел.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.020",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} огорчился, не получив жданного внимания, и эта досада быстро стала ревностью. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.001",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} смеётся в разговоре с {third}, и на сердце стало солоно.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.002",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} и {other} разговорились запросто, а {actor} рядом долго перебирал грязь.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.003",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, что {other} отдаёт всё внимание {third}, и недовольство на лице становилось всё явнее.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.004",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} и {other} ушли в разговор с головой, и {actor} несколько раз хотел вставить слово — и останавливался.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.005",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} следил за каждым ответом {other} {third} и чем дальше, тем труднее было оставаться спокойным.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.006",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не заметил молчания {actor} и лишь продолжал близкий разговор с {third}.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.007",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался верить, что {other} и {third} просто обычным образом проводят время, но кислота в груди всё не отступала.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.008",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {third} ушёл, {actor} глядел на {other} всё ещё с невысказанной обидой.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.009",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел улыбку {other} из-за {third} и вдруг почувствовал, что его оставили снаружи.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.010",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не винил {third}, но не мог не видеть, что {other} отдал близость другому.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.011",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} смеётся в разговоре с {third}, и на сердце стало солоно. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.012",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} и {other} разговорились запросто, а {actor} рядом долго перебирал грязь. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.013",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, что {other} отдаёт всё внимание {third}, и недовольство на лице становилось всё явнее. Кислород по-прежнему шёл по трубам и не унёс слов, что остались у них на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.014",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} и {other} ушли в разговор с головой, и {actor} несколько раз хотел вставить слово — и останавливался. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.015",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} следил за каждым ответом {other} {third} и чем дальше, тем труднее было оставаться спокойным. Машины работали как обычно, а между ними осталась лишь тишина.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.016",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не заметил молчания {actor} и лишь продолжал близкий разговор с {third}. Сигнал смены уже прозвучал, но это ещё далеко не кончилось.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.017",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пытался верить, что {other} и {third} просто обычным образом проводят время, но кислота в груди всё не отступала. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.018",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {third} ушёл, {actor} глядел на {other} всё ещё с невысказанной обидой. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.019",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел улыбку {other} из-за {third} и вдруг почувствовал, что его оставили снаружи. Свет Печатного станка всё так же тёплый, но они больше не смотрели друг на друга.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.020",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не винил {third}, но не мог не видеть, что {other} отдал близость другому. Каждый вернулся к своей работе, и никто по-настоящему это не отпустил.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.001",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили старые обиды и помирились.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.002",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} закрыли старые счета и снова сели за один стол.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.003",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Кто заговорил первым, уже неважно: {a} и {b} помирились.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.004",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В день, когда холодная война кончилась, и {a}, и {b} выдохнули.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.005",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} наконец согласились дослушать друг друга, и с этой минуты холодная война начала слабеть.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.006",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что дальше держаться в тупике будет лишь больнее, и решили снова работать вместе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.007",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} по пунктам прояснили самое обидное и больше не карали друг друга молчанием.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.008",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} попробовали начать с простого приветствия, и у отношений наконец явилось место для тепла.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.009",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба сделали шаг назад и наконец дали выход противоречию, что долго стояло на месте.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.010",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не делали вид, будто ссоры не было, и лишь решили больше не давать ей править дальше.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.011",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили старые обиды и помирились. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.012",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} закрыли старые счета и снова сели за один стол. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.013",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Кто заговорил первым, уже неважно: {a} и {b} помирились. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.014",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В день, когда холодная война кончилась, и {a}, и {b} выдохнули. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.015",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} наконец согласились дослушать друг друга, и с этой минуты холодная война начала слабеть. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.016",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что дальше держаться в тупике будет лишь больнее, и решили снова работать вместе. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.017",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} по пунктам прояснили самое обидное и больше не карали друг друга молчанием. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.018",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} попробовали начать с простого приветствия, и у отношений наконец явилось место для тепла. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.019",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба сделали шаг назад и наконец дали выход противоречию, что долго стояло на месте. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.020",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не делали вид, будто ссоры не было, и лишь решили больше не давать ей править дальше. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.001",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова сошлись.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.002",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обошли кругом и снова оказались рядом.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.003",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иное расставание нужно лишь затем, чтобы понять; {a} и {b} поняли.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.004",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова взялись за руки — крепче, чем в первый раз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.005",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что и врозь всё равно думают друг о друге, и решили дать отношениям ещё один шанс.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.006",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова заговорили о причине прежнего расставания и на этот раз нашли, что можно изменить вместе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.007",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} попробовали снова взять друг друга за руку, и знакомое чувство не дало разжать пальцы.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.008",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не требовали вернуть прежнее и лишь обещали узнать друг друга заново с этой минуты.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.009",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обошли долгую отчуждённость и всё же выбрали снова встать рядом.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.010",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} говорили о воссоединении осторожно, но желания снова стать ближе не скрывали.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.011",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова сошлись. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.012",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обошли кругом и снова оказались рядом. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.013",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иное расставание нужно лишь затем, чтобы понять; {a} и {b} поняли. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.014",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова взялись за руки — крепче, чем в первый раз. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.015",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что и врозь всё равно думают друг о друге, и решили дать отношениям ещё один шанс. Когда шум машин снова перекрыл голоса, оба поняли, что всё уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.016",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} снова заговорили о причине прежнего расставания и на этот раз нашли, что можно изменить вместе. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.017",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} попробовали снова взять друг друга за руку, и знакомое чувство не дало разжать пальцы. Колония ни для кого не остановилась, но этот миг изменил их дальнейшие будни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.018",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} не требовали вернуть прежнее и лишь обещали узнать друг друга заново с этой минуты. Свет Печатного станка скользнул издалека и осветил новую страницу их общей жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.019",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обошли долгую отчуждённость и всё же выбрали снова встать рядом. Машины базы работали как обычно, но расстояние между ними уже было иным.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.020",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} говорили о воссоединении осторожно, но желания снова стать ближе не скрывали. После сигнала смены эти отношения так и не встали на прежнее место.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    }
+  ]
+}

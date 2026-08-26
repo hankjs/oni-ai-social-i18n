@@ -1,0 +1,174 @@
+{
+  "locale": "ru",
+  "family": "welcome",
+  "candidates": [
+    {
+      "candidateId": "storylet.welcome.base.001",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Всем привет! Печатный станок прислал меня к вам."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "С возвращением домой! Мы тебе место за столом оставили."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.002",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тут… куда живее, чем в инструкции."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Живее — так и надо. Что непонятно — спрашивай у нас."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.003",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Свет Печатного станка тёплый. Вышел — и сразу вас увидел."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Впредь каждый раз, как он загорится, будем вместе встречать новичков."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.004",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Подскажите, где туалет?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Правильный вопрос! Это самое важное знание для новичка."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.005",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "У меня три навыка. Резюме вот."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Умеешь дышать — уже хорошо. Остальному научим по ходу."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.006",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Печатный станок только что меня прислал. Хочу сначала осмотреться."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда начнём с нас. С возвращением домой. Потом не спеша покажем базу."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.007",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Всем привет! Когда Печатный станок только вспыхнул, я уже ждал встречи с вами."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "И мы рады. Каждый раз, как загорается Печатный станок, на базе прибывает ещё одна родня."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.welcome.base.008",
+      "storyletId": "Welcome",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Этот зелёный малыш тоже тут живёт?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это зверёк-сосед по базе. Потом познакомлю, и вокруг Печатного станка покажу."
+        }
+      ]
+    }
+  ]
+}

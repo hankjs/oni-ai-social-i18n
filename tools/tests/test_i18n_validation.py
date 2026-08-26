@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import gzip
 import json
 import shutil
 import subprocess
@@ -13,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
-from i18nlib import authoring_report, export_dist, validate_catalog
+from i18nlib import _content_hash, authoring_report, export_dist, validate_catalog
 
 
 class I18nValidationTests(unittest.TestCase):
@@ -26,6 +27,12 @@ class I18nValidationTests(unittest.TestCase):
     def rewrite(path: Path, edit) -> None:
         payload = json.loads(path.read_text(encoding="utf-8")); edit(payload)
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    def refresh_target_provenance(self, root: Path, locale: str, relative: str) -> None:
+        path = root / "provenance" / f"{locale}.json"
+        self.rewrite(path, lambda value: next(item for item in value["files"]
+            if item["path"] == relative).update(targetHash=_content_hash(
+                root / "locales" / locale / relative)))
 
     def test_committed_catalog_is_valid(self) -> None:
         self.assertEqual([], validate_catalog(ROOT))
@@ -46,6 +53,7 @@ class I18nValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/dialogue/casual.json"
             self.rewrite(path, lambda value: value["candidates"][0]["turns"].pop())
+            self.refresh_target_provenance(root, "en", "dialogue/casual.json")
             self.assertEqual([], validate_catalog(root))
 
     def test_dialogue_candidate_ids_are_not_cross_locale_required(self) -> None:
@@ -56,6 +64,7 @@ class I18nValidationTests(unittest.TestCase):
                 item["ordinal"] = 999
                 value["candidates"].append(item)
             self.rewrite(path, edit)
+            self.refresh_target_provenance(root, "en", "dialogue/casual.json")
             self.assertEqual([], validate_catalog(root))
 
     def test_chronicle_template_ids_are_not_cross_locale_required(self) -> None:
@@ -69,6 +78,7 @@ class I18nValidationTests(unittest.TestCase):
             self.rewrite(stability, lambda value: next(item for item in value["pools"]
                 if item["poolId"] == "chronicle.socialize.with-place").update(
                     highestStableNumber=5))
+            self.refresh_target_provenance(root, "en", "chronicle/routine.json")
             self.assertEqual([], validate_catalog(root))
 
     def test_chronicle_slots_only_follow_local_text_and_pool(self) -> None:
@@ -76,6 +86,7 @@ class I18nValidationTests(unittest.TestCase):
             root = self.copied_catalog(temporary); path = root / "locales/en/chronicle/routine.json"
             def edit(value): value["templates"][0].update(text="A quiet moment.", requiredSlots=[])
             self.rewrite(path, edit)
+            self.refresh_target_provenance(root, "en", "chronicle/routine.json")
             self.assertEqual([], validate_catalog(root))
 
     def test_chronicle_rejects_local_placeholder_mismatch(self) -> None:
@@ -94,10 +105,55 @@ class I18nValidationTests(unittest.TestCase):
     def test_ui_rejects_contract_max_length(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/ui/social.settings.json"
-            key = "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA_PREVIEW"
+            key = "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA"
             self.rewrite(path, lambda value: next(item for item in value["entries"]
                 if item["key"] == key).update(text="x" * 61))
             self.assertTrue(any("exceeds maxLength 60" in error
+                                for error in validate_catalog(root)))
+
+    def test_probable_repeated_word_translation_artifact_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/prompts/social.json"
+            self.rewrite(path, lambda value: value["entries"][0].update(
+                text="Keep the established facts, but the decoder repeats repeats repeats "
+                     "inside an otherwise long player-facing sentence that needs review."))
+            self.assertTrue(any("repeated-word translation artifact" in error
+                                for error in validate_catalog(root)))
+
+    def test_decomposed_unicode_translation_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/prompts/social.json"
+            self.rewrite(path, lambda value: value["entries"][0].update(
+                text=value["entries"][0]["text"] + " a\u0301"))
+            self.assertTrue(any("NFC-normalized Unicode" in error
+                                for error in validate_catalog(root)))
+
+    def test_chinese_source_change_marks_target_provenance_stale(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/zh/ui/social.tab.json"
+            self.rewrite(path, lambda value: value["entries"][0].update(
+                text=value["entries"][0]["text"] + "。"))
+            self.assertTrue(any("stale Chinese source hash" in error
+                                for error in validate_catalog(root)))
+
+    def test_target_edit_requires_matching_provenance_hash(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/ui/social.tab.json"
+            self.rewrite(path, lambda value: value["entries"][0].update(
+                text=value["entries"][0]["text"] + " updated"))
+            self.assertTrue(any("target hash does not match translation" in error
+                                for error in validate_catalog(root)))
+
+    def test_glossary_term_requires_all_six_languages(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "glossary.json"
+            self.rewrite(path, lambda value: value["terms"][0].pop("vi"))
+            self.assertTrue(any("missing required property 'vi'" in error
                                 for error in validate_catalog(root)))
 
     def test_stale_and_draft_entries_are_filtered_not_exported(self) -> None:
@@ -105,7 +161,7 @@ class I18nValidationTests(unittest.TestCase):
             root = self.copied_catalog(temporary); path = root / "locales/en/ui/social.tab.json"
             key = json.loads(path.read_text())["entries"][0]["key"]
             self.rewrite(path, lambda value: value["entries"][0].update(status="draft"))
-            self.assertEqual([], validate_catalog(root))
+            self.assertTrue(any("release.en.ui" in error for error in validate_catalog(root)))
             payload = json.loads(export_dist(root)["ui/en.json"])
             self.assertEqual("zh", next(item for item in payload["entries"] if item["key"] == key)["resolvedLocale"])
 
@@ -113,8 +169,12 @@ class I18nValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
             manifest = root / "manifest.json"
-            self.rewrite(manifest, lambda value: value["locales"].append(
-                {"id": "ko-kr", "status": "preview", "ship": True}))
+            def edit_manifest(value):
+                next(item for item in value["locales"] if item["id"] == "ko").update(
+                    status="draft", ship=False)
+                value["locales"].append(
+                    {"id": "ko-kr", "status": "preview", "ship": True})
+            self.rewrite(manifest, edit_manifest)
             source = json.loads((root / "locales/en/ui/social.tab.json").read_text())
             source["locale"] = "ko"
             source["entries"][0]["text"] = "초안 소셜"
@@ -133,15 +193,15 @@ class I18nValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/prompts/social.json"
             self.rewrite(path, lambda value: value["entries"].pop())
-            self.assertTrue(any("prompts.critical" in error for error in validate_catalog(root)))
+            self.assertTrue(any("release.en.prompts" in error for error in validate_catalog(root)))
 
     def test_stable_ui_critical_missing_is_a_release_error(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/ui/social.settings.json"
-            key = "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA_PREVIEW"
+            key = "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA"
             self.rewrite(path, lambda value: value.update(entries=[item
                 for item in value["entries"] if item["key"] != key]))
-            self.assertTrue(any("release.en.ui.critical" in error
+            self.assertTrue(any("release.en.ui" in error
                                 for error in validate_catalog(root)))
 
     def test_stable_dialogue_required_pool_missing_is_a_release_error(self) -> None:
@@ -209,28 +269,33 @@ class I18nValidationTests(unittest.TestCase):
             self.assertTrue(any("published ordinal was removed: 1" in error
                                 for error in validate_catalog(root)))
 
-    def test_preview_resolves_each_unit_and_reports_provenance(self) -> None:
-        payloads = export_dist(ROOT); ui = json.loads(payloads["ui/ja.json"]); dialogue = json.loads(payloads["dialogue/ja.json"])
-        language = next(item for item in ui["entries"]
-                        if item["key"] == "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA_PREVIEW")
-        self.assertEqual("ja", language["resolvedLocale"])
-        self.assertEqual("日本語（プレビュー・未完成）", language["text"])
-        self.assertEqual({"en", "ja"}, {item["resolvedLocale"] for item in ui["entries"]})
-        self.assertEqual({"en"}, {item["resolvedLocale"] for item in dialogue["storylets"].values()})
-        ja = next(item for item in json.loads(payloads["manifest.json"])["locales"] if item["id"] == "ja")
-        self.assertEqual("preview", ja["status"])
-        native_count = sum(item["resolvedLocale"] == "ja" for item in ui["entries"])
-        self.assertEqual(14, native_count)
-        self.assertEqual(native_count, ja["coverage"]["ui"]["exact"])
-        self.assertEqual(len(ui["entries"]) - native_count,
-                         ja["coverage"]["ui"]["fallback"])
-        self.assertNotIn("ui/ko.json", payloads)
-        self.assertNotIn("translations/ko.po", payloads)
+    def test_every_shipped_locale_resolves_every_family_exactly(self) -> None:
+        payloads = export_dist(ROOT)
+        manifest = json.loads(payloads["manifest.json"])
+        self.assertEqual({"zh", "en", "ko", "ru", "ja", "vi"},
+                         {item["id"] for item in manifest["locales"]})
+        for item in manifest["locales"]:
+            locale = item["id"]
+            self.assertEqual("stable", item["status"])
+            for family in ("ui", "prompts", "dialogue", "chronicle"):
+                self.assertEqual(0, item["coverage"][family]["fallback"],
+                                 f"{locale}/{family}")
+                self.assertTrue(item["coverage"][family]["exact"] > 0)
+                self.assertEqual({locale}, set(item["resolutions"][family].values()))
+            self.assertIn(f"translations/{locale}.po", payloads)
+        encoded = [value if isinstance(value, bytes) else value.encode("utf-8")
+                   for value in payloads.values()]
+        self.assertLessEqual(sum(map(len, encoded)), 15 * 1024 * 1024,
+                             "the complete six-language dist exceeds 15 MiB")
+        self.assertLessEqual(sum(len(gzip.compress(value, compresslevel=9, mtime=0))
+                                 for value in encoded),
+                             int(1.5 * 1024 * 1024),
+                             "the complete six-language dist exceeds 1.5 MiB compressed")
 
     def test_every_registered_locale_owns_a_stability_ledger(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
-            (root / "locales/ja/stability/chronicle.json").unlink()
+            (root / "locales/en/stability/chronicle.json").unlink()
             self.assertTrue(any("stability ledger is missing" in error for error in validate_catalog(root)))
 
     def test_broken_provenance_link_is_warning_only(self) -> None:

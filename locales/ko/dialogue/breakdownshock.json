@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "breakdownshock",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "건드리지 마."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "떨어져, 나 제어가 안 돼."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "전선이 튀고 있어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "알아. 나야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "저 사람이 전구 한 줄 다 껐어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "절전."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그러면 너 다쳐."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "이미 다치고 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "기계가 널 무서워해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "기계는 똑똑하지."
+        }
+      ]
+    }
+  ]
+}
