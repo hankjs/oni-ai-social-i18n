@@ -339,12 +339,20 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
 def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> None:
     contracts = load_dialogue_contracts(root); by_id = {item["storyletId"]: item for item in contracts}
     errors.extend(_duplicate_errors(contracts, "storyletId", "contracts/dialogue"))
+    diversity_by_candidate: dict[str, str] = {}
     for locale in locales:
         candidates = load_dialogue_locale(root, locale); errors.extend(_duplicate_errors(candidates, "candidateId", f"locales/{locale}/dialogue"))
         ordinals: set[tuple[str, int]] = set()
         for item in candidates:
             candidate_id = item.get("candidateId", ""); contract = by_id.get(item.get("storyletId", ""))
             if contract is None: errors.append(f"locales/{locale}/dialogue {candidate_id}: unknown storyletId"); continue
+            diversity_key = item.get("diversityKey")
+            if diversity_key is not None and (not isinstance(diversity_key, str) or not diversity_key.strip()):
+                errors.append(f"locales/{locale}/dialogue {candidate_id}: diversityKey must be a non-empty string")
+            resolved_diversity = _dialogue_diversity_key(item)
+            previous_diversity = diversity_by_candidate.setdefault(candidate_id, resolved_diversity)
+            if previous_diversity != resolved_diversity:
+                errors.append(f"locales/{locale}/dialogue {candidate_id}: diversityKey differs across locales")
             if item.get("contractRevision", 0) > contract["contractRevision"]: errors.append(f"locales/{locale}/dialogue {candidate_id}: future contract revision")
             ordinal_key = (item["storyletId"], item.get("ordinal", 0))
             if ordinal_key in ordinals: errors.append(f"locales/{locale}/dialogue {item['storyletId']}: duplicate ordinal {item.get('ordinal')}")
@@ -622,6 +630,24 @@ def parse_po_catalog(path: Path) -> tuple[dict[str, str], list[str]]:
     return result, errors
 
 
+def _dialogue_diversity_key(item: dict[str, Any]) -> str:
+    """Return a stable semantic key while preserving an explicit authoring override.
+
+    personality-authored candidates use
+    storylet.<scene>.personality.<voice>.<content-number>.  The voice is a rendition,
+    not new content, so all six voices for the same content-number share one key.
+    Other authored candidates default to their exact id until authors deliberately group them.
+    """
+    explicit = item.get("diversityKey")
+    if isinstance(explicit, str) and explicit.strip():
+        return explicit.strip()
+    candidate_id = item["candidateId"]
+    parts = candidate_id.split(".")
+    if len(parts) >= 5 and parts[-3] == "personality":
+        return ".".join(parts[:-2] + [parts[-1]])
+    return candidate_id
+
+
 def _resolved_catalogs(root: Path):
     manifest = load_manifest(root); shipped = shipped_locales(root)
     specs, ui_c, prompt_c, dialogue_c, chronicle_c, ui, prompts, dialogue, chronicle = _eligible_maps(root)
@@ -645,8 +671,13 @@ def _resolved_catalogs(root: Path):
         for storylet_id, contract in sorted(dialogue_c.items()):
             resolved, items = _resolve_unit(storylet_id, dialogue, chain)
             if items is None: continue
+            frozen_candidates = []
+            for item in items:
+                frozen = dict(item)
+                frozen["diversityKey"] = _dialogue_diversity_key(item)
+                frozen_candidates.append(frozen)
             storylets[storylet_id] = {"resolvedLocale": resolved, "contractRevision": contract["contractRevision"],
-                                      "candidates": sorted(items, key=lambda item: (item["ordinal"], item["candidateId"]))}
+                                      "candidates": sorted(frozen_candidates, key=lambda item: (item["ordinal"], item["candidateId"]))}
         pools = {}
         for pool_id, contract in sorted(chronicle_c.items()):
             resolved, items = _resolve_unit(pool_id, chronicle, chain)

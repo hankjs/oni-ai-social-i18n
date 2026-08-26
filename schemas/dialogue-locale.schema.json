@@ -6,7 +6,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["candidateId", "storyletId", "contractRevision", "status", "selection", "weight", "ordinal", "turns"],
       "properties": {
-        "candidateId": { "type": "string", "minLength": 1 }, "storyletId": { "type": "string", "minLength": 1 },
+        "candidateId": { "type": "string", "minLength": 1 }, "diversityKey": { "type": "string", "minLength": 1 }, "storyletId": { "type": "string", "minLength": 1 },
         "contractRevision": { "type": "integer", "minimum": 1 }, "status": { "enum": ["reviewed", "draft"] },
         "selection": { "type": "object" }, "weight": { "type": "number", "minimum": 0.000001 },
         "ordinal": { "type": "integer", "minimum": 1 },
