@@ -200,11 +200,11 @@ namespace ONIAiSocial
                 }
                 public static LocString FALLEN_DUPLICANT = "已故的复制人";
                 public static LocString MOOD_LOG_EMPTY = "最近没有心情记录";
-                public static LocString MOOD_LOG_TITLE = "心情日志";
+                public static LocString MOOD_LOG_TITLE = "心情日记";
                 public static LocString MOOD_LOG_TOOLTIP = "这名复制人最近的社交事件，以及对好感和心情的影响";
                 public static LocString NO_RELATIONSHIPS = "尚无关系记录";
                 public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
-                public static LocString OVERVIEW_TITLE = "社交概况";
+                public static LocString OVERVIEW_TITLE = "社交近况";
                 public class PERSONALITY
                 {
                     public static LocString ATHLETE = "好动";
@@ -235,7 +235,7 @@ namespace ONIAiSocial
                 public static LocString PERSONALITY_EMPTY = "尚未经历性格变化";
                 public static LocString PERSONALITY_FAILED = "没法改性格：社交系统尚未就绪";
                 public static LocString PERSONALITY_HISTORY_LINE = "周期{0} · {1}";
-                public static LocString PERSONALITY_SECTION = "性格履历";
+                public static LocString PERSONALITY_SECTION = "性格小记";
                 public static LocString PERSONALITY_UNCHANGED = "已经是这种性格了";
                 public static LocString RELATIONSHIPS_TITLE = "人际关系";
                 public class RELATIONSHIP_STATE
