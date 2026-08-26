@@ -835,7 +835,7 @@ namespace ONIAiSocial
                 public static LocString HAZARD_RESENTMENT = "危险工时会积怨";
                 public static LocString HAZARD_RESENTMENT_HINT = "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭";
                 public static LocString HOTKEYS = "F9/F10/F11 牵线热键";
-                public static LocString LANGUAGE = "对话语言";
+                public static LocString LANGUAGE = "模组语言";
                 public static LocString LANGUAGE_EN = "English";
                 public static LocString LANGUAGE_FOLLOW = "跟随游戏";
                 public static LocString LANGUAGE_JA = "日本語";
