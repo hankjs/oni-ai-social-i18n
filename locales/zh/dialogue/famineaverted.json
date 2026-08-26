@@ -1,0 +1,38 @@
+{
+  "locale": "zh",
+  "family": "famineaverted",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食物送到了。没有人提起前几天在想什么。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "粮仓又满了。大家默契地不再谈这件事。"
+        }
+      ]
+    }
+  ]
+}

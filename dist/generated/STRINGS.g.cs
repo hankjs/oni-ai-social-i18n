@@ -5,386 +5,374 @@ namespace ONIAiSocial
     {
         public class SOCIAL
         {
+            public class ANNOUNCE
+            {
+                public static LocString ANNIVERSARY_BODY = "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。";
+                public static LocString ANNIVERSARY_MISSED_BODY = "{0} 和 {1} 的纪念日在忙碌中溜走了，两人都有点闷闷不乐。";
+                public static LocString ANNIVERSARY_MISSED_TITLE = "错过的纪念日";
+                public static LocString ANNIVERSARY_TITLE = "纪念日";
+                public static LocString BESTFRIEND_BODY = "{0} 和 {1} 成为彼此的挚友。";
+                public static LocString BESTFRIEND_TITLE = "挚友";
+                public static LocString BRAWL_BODY = "{0} 和 {1} 从争吵升级成互殴。点到为止，但两人都要挂彩。";
+                public static LocString BRAWL_BOND_BODY = "{0} 和 {1} 打完这一架反而认了对方，宿怨就此了结。";
+                public static LocString BRAWL_BOND_TITLE = "不打不相识";
+                public static LocString BRAWL_TITLE = "打起来了！";
+                public static LocString BREAKDOWN_BODY = "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。";
+                public static LocString BREAKDOWN_COMFORT_BODY = "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。";
+                public static LocString BREAKDOWN_COMFORT_TITLE = "第一个坐下来的人";
+                public static LocString BREAKDOWN_TITLE = "整个房间都看着";
+                public static LocString BREAKUP_BODY = "{0} 和 {1} 的感情走到了尽头。";
+                public static LocString BREAKUP_TITLE = "分手了";
+                public static LocString COHESION_OFF_BODY = "殖民地的集体情绪回到了平常状态。";
+                public static LocString COHESION_OFF_TITLE = "气氛回归平静";
+                public static LocString COHESION_ON_BODY = "殖民地人心凝聚，全员士气提升。";
+                public static LocString COHESION_ON_TITLE = "殖民地羁绊";
+                public static LocString COLDWAR_BODY = "{0} 和 {1} 进入冷战，关系岌岌可危。给他们一个牵线标记可以促成和解。";
+                public static LocString COLDWAR_TITLE = "冷战";
+                public static LocString COMFORT_BODY = "{0} 坐在 {1} 身边，默默陪伴着悲伤中的伙伴。";
+                public static LocString COMFORT_TITLE = "低谷陪伴";
+                public static LocString CONFESSION_BODY = "{0} 向 {1} 告白成功，两人正式成为恋人！";
+                public static LocString CONFESSION_FAIL_BODY = "{0} 向 {1} 表明了心意，但没有得到回应。";
+                public static LocString CONFESSION_FAIL_TITLE = "告白被拒";
+                public static LocString CONFESSION_TITLE = "喜结连理";
+                public static LocString DISCORD_ON_BODY = "殖民地气氛紧张，全员士气受挫。";
+                public static LocString DISCORD_ON_TITLE = "殖民地不和";
+                public static LocString FALLOUT_BODY = "{0} 和 {1} 积怨爆发，正式闹掰——一段时间内感情难以升温，一次道歉就能和好清账。";
+                public static LocString FALLOUT_TITLE = "闹掰了";
+                public static LocString FAMINE_AVERTED_BODY = "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。";
+                public static LocString FAMINE_AVERTED_TITLE = "危机解除";
+                public static LocString FAMINE_CULL_BODY = "{0} 和 {1} 之间的事已经不是吵架了。饥饿把最后一点体面也拿走了。";
+                public static LocString FAMINE_CULL_TITLE = "活下去！";
+                public static LocString FAMINE_LAST_ONE_BODY = "只剩一个人了。基地很安静，食物也够了。";
+                public static LocString FAMINE_LAST_ONE_TITLE = "最后的殖民者";
+                public static LocString FAMINE_OVER_BODY = "储藏室重新有了食物。没有人问那是什么。";
+                public static LocString FAMINE_OVER_TITLE = "饥荒过去了";
+                public static LocString FAMINE_WARNING_BODY = "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。";
+                public static LocString FAMINE_WARNING_TITLE = "粮仓见底了";
+                public static LocString INTRO_BODY = "复制人有了自己的社交生活：聊天、交友、恋爱、争执都会自然发生。顶部管理菜单的「社交」可以旁观全局并牵线搭桥；复制人详情的「社交」标签可以查看每个人的关系。";
+                public static LocString INTRO_TITLE = "社交生活已开始";
+                public static LocString LOVE_MATURE_BODY = "{0} 和 {1} 相伴日久，感情进入细水长流的阶段。";
+                public static LocString LOVE_MATURE_TITLE = "老夫老妻";
+                public static LocString MOURNING_BODY = "{0} 在心里悼念逝去的 {1}。";
+                public static LocString MOURNING_TITLE = "默默哀悼";
+                public static LocString RECONCILE_BODY = "{0} 和 {1} 冰释前嫌，重归于好。";
+                public static LocString RECONCILE_TITLE = "和好如初";
+                public static LocString REKINDLE_BODY = "{0} 和 {1} 决定重新开始。";
+                public static LocString REKINDLE_TITLE = "重新牵起手";
+                public static LocString RIVAL_BODY = "{0} 和 {1} 积怨到底，正式结下宿敌——这段关系不再自行回暖，除非你出手牵线调解。";
+                public static LocString RIVAL_DIED_BODY = "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。";
+                public static LocString RIVAL_DIED_TITLE = "对头不在了";
+                public static LocString RIVAL_OVER_BODY = "{0} 和 {1} 的宿怨终于化开，关系回到了正常轨道。";
+                public static LocString RIVAL_OVER_TITLE = "宿敌和解";
+                public static LocString RIVAL_TITLE = "结下宿敌";
+                public static LocString STRAW_SUFFIX = "压垮感情的最后一根稻草：{0}（周期 {1}）。";
+                public static LocString WIDOWED_BODY = "{0} 失去了伴侣 {1}，陷入悲伤。";
+                public static LocString WIDOWED_TITLE = "失去了伴侣";
+                public static LocString WRATH_BLAME_BODY = "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。";
+                public static LocString WRATH_BLAME_TITLE = "总得有人负责";
+                public static LocString WRATH_FADED_BODY = "没人救 {0}，但也没人再记得那件事了。日子照过。";
+                public static LocString WRATH_FADED_TITLE = "被淡忘了";
+                public static LocString WRATH_ISOLATED_BODY = "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。";
+                public static LocString WRATH_ISOLATED_TITLE = "没人跟他说话了";
+                public static LocString WRATH_PUNCH_BODY = "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。";
+                public static LocString WRATH_PUNCH_TITLE = "没人看见";
+                public static LocString WRATH_RESCUE_BODY = "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。";
+                public static LocString WRATH_RESCUE_TITLE = "第一个坐下来的人";
+                public static LocString WRATH_SPEAK_UP_BODY = "{0} 当众替 {1} 说了话。没人再提这件事了。";
+                public static LocString WRATH_SPEAK_UP_TITLE = "有人说了句公道话";
+            }
             public class CHRONICLE
             {
-                public static LocString SELF_SUBJECT = "我";
+                public static LocString PAIR_OTHER_OBJECT = "他们";
+                public static LocString PAIR_OTHER_POSSESSIVE = "他们的";
+                public static LocString PAIR_OTHER_REFLEXIVE = "他们自己";
+                public static LocString PAIR_OTHER_SUBJECT = "他们";
+                public static LocString PAIR_SELF_OBJECT = "我们";
+                public static LocString PAIR_SELF_POSSESSIVE = "我们的";
+                public static LocString PAIR_SELF_REFLEXIVE = "我们自己";
+                public static LocString PAIR_SELF_SUBJECT = "我们";
+                public static LocString PERSON_POSSESSIVE = "{0}的";
                 public static LocString SELF_OBJECT = "我";
+                public static LocString SELF_POSSESSIVE = "我的";
+                public static LocString SELF_POSSESSIVE_CAPITALIZED = "我的";
+                public static LocString SELF_SUBJECT = "我";
             }
-
-            public class TAB
+            public class DEATHS
             {
-                public static LocString TITLE = "社交";
-                public static LocString TOOLTIP = "查看这名复制人的声望和人际关系";
+                public class SURVIVE
+                {
+                    public static LocString DESC = "在粮仓见底的日子里，被同伴夺去了性命。";
+                    public static LocString NAME = "活下去";
+                }
             }
-
             public class DETAILS
             {
-                public static LocString OVERVIEW_TITLE = "社交概况";
-                public static LocString RELATIONSHIPS_TITLE = "人际关系";
                 public static LocString AFFINITY_LABEL = "好感";
                 public static LocString BEST_FRIEND_MARK = "挚友";
-                public static LocString REPUTATION_LABEL = "声望（仅供观察）";
-                public static LocString REPUTATION_TOOLTIP = "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。";
-                public static LocString COLONY_LABEL = "殖民地";
-                public static LocString COLONY_TOOLTIP = "全体存活复制人两两好感的平均值。≥40 触发殖民地羁绊（全员士气 +1）；多对冷战会触发殖民地不和（全员士气 -1，争执更频繁）。共餐、聚会和牵线都能提升羁绊。";
-                public static LocString SYSTEM_UNAVAILABLE = "社交系统尚未就绪";
-                public static LocString SYSTEM_UNAVAILABLE_TOOLTIP = "进入对局并等待社交系统完成初始化";
-                public static LocString FALLEN_DUPLICANT = "已故的复制人";
-                public static LocString NO_RELATIONSHIPS = "尚无关系记录";
-                public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
-                public static LocString MOOD_LOG_TITLE = "心情日志";
-                public static LocString MOOD_LOG_EMPTY = "最近没有心情记录";
-                public static LocString MOOD_LOG_TOOLTIP = "这名复制人最近的社交事件，以及对好感和心情的影响";
-                public static LocString TRAITS_LABEL = "特质";
-                public static LocString TRAITS_TOOLTIP = "有些特质会影响社交：争执与互殴更少、被请教时的好感更多或更少、作息不合时同寝更容易闹别扭。名字后括号里是该特质的具体影响。";
-                public static LocString TRAIT_EFFECT_SCAREDYCAT = "不爱争执";
-                public static LocString TRAIT_EFFECT_FASTLEARNER = "被请教时更领情";
-                public static LocString TRAIT_EFFECT_SLOWLEARNER = "被请教时不太领情";
-                public static LocString TRAIT_EFFECT_EARLYBIRD = "作息规律的早睡者";
-                public static LocString TRAIT_EFFECT_NIGHTOWL = "夜猫子，作息难合拍";
-                public static LocString TRAIT_EFFECT_NARCOLEPSY = "随时睡着，作息难合拍";
-                public static LocString PERSONALITY_SECTION = "性格履历";
-                public static LocString PERSONALITY_CURRENT = "当前性格：{0}";
-                public static LocString PERSONALITY_CHANGE = "修改性格";
-                public static LocString PERSONALITY_CHANGE_TOOLTIP = "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。";
-                public static LocString PERSONALITY_EMPTY = "尚未经历性格变化";
-                public static LocString PERSONALITY_DIALOG_TITLE = "修改性格";
-                public static LocString PERSONALITY_DIALOG_BODY = "选择 {0} 的新性格。旧性格会留在履历里，只做展示。";
-                public static LocString PERSONALITY_HISTORY_LINE = "周期{0} · {1}";
-                public static LocString PERSONALITY_UNCHANGED = "已经是这种性格了";
-                public static LocString PERSONALITY_FAILED = "没法改性格：社交系统尚未就绪";
-
-                public class PERSONALITY
+                public class CAUSE
                 {
-                    public static LocString HOTHEAD = "暴躁";
-                    public static LocString CRYBABY = "爱哭";
-                    public static LocString LOUD = "大嗓门";
-                    public static LocString EATER = "贪吃";
-                    public static LocString NERVOUS = "神经质";
-                    public static LocString JUMPY = "易惊";
-                    public static LocString GENTLE = "温和";
-                    public static LocString CURIOUS = "好学";
-                    public static LocString SLOW = "迟钝";
-                    public static LocString EARLY = "早起";
-                    public static LocString NIGHT = "夜猫";
-                    public static LocString SLEEPY = "嗜睡";
-                    public static LocString ATHLETE = "好动";
-                    public static LocString UNKNOWN = "原本";
-
-                    public class CAUSE
-                    {
-                        public static LocString ADMIN = "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。";
-                        public static LocString UPHEAVAL = "{0} 性格大变，{1}性格 变成了 {2}性格。";
-                    }
+                    public static LocString CHEMISTRY = "气场不合";
+                    public static LocString DISCORD = "殖民地不和";
+                    public static LocString LOW_AFFINITY = "积怨已久";
+                    public static LocString STRESS = "压力太大";
+                    public static LocString TRAIT_CLASH = "特质不合";
                 }
-
-                public class REPUTATION_TIER
+                public class CHEMISTRY
                 {
-                    public static LocString BELOVED = "万人迷";
-                    public static LocString POPULAR = "受欢迎";
-                    public static LocString KNOWN = "熟脸";
-                    public static LocString OUTCAST = "孤狼";
-                    public static LocString INVISIBLE = "透明人";
+                    public static LocString BAD1 = "气场不合";
+                    public static LocString BAD2 = "天生犯冲";
+                    public static LocString GOOD1 = "气场相合";
+                    public static LocString GOOD2 = "天作之合";
+                    public static LocString ROW_BAD = "犯冲";
+                    public static LocString ROW_GOOD = "合拍";
                 }
-
                 public class COHESION_STATE
                 {
                     public static LocString COHESION = "羁绊";
                     public static LocString DISCORD = "不和";
                     public static LocString NEUTRAL = "中立";
                 }
-
-                public class RELATIONSHIP_STATE
-                {
-                    public static LocString STRANGERS = "陌生";
-                    public static LocString ACQUAINTED = "熟络";
-                    public static LocString FRIENDS = "朋友";
-                    public static LocString CRUSH = "心动";
-                    public static LocString COUPLE = "恋人";
-                    public static LocString COLD_WAR = "冷战";
-                    public static LocString BROKEN_UP = "分手";
-                    public static LocString GRIEVING = "悲伤";
-                    public static LocString MOURNING = "悼念";
-                    public static LocString RIVAL = "宿敌";
-                }
-
+                public static LocString COLONY_LABEL = "殖民地";
+                public static LocString COLONY_TOOLTIP = "全体存活复制人两两好感的平均值。≥40 触发殖民地羁绊（全员士气 +1）；多对冷战会触发殖民地不和（全员士气 -1，争执更频繁）。共餐、聚会和牵线都能提升羁绊。";
                 public class EVENT
                 {
-                    public static LocString UNKNOWN = "未知社交事件";
-                    public static LocString ARGUMENT = "争执";
-                    public static LocString APOLOGY = "道歉";
-                    public static LocString VENT = "倾诉";
-                    public static LocString TEACH = "请教";
-                    public static LocString BEST_FRIEND = "挚友谈心";
-                    public static LocString CONFESSION = "告白成功";
-                    public static LocString CONFESSION_FAILED = "告白被拒";
-                    public static LocString DATE = "约会";
-                    public static LocString SHARED_MEAL = "共同进食";
-                    public static LocString CARE = "医疗照顾";
-                    public static LocString JEALOUSY = "吃醋";
-                    public static LocString RECONCILE = "和解";
-                    public static LocString BREAKUP = "分手";
-                    public static LocString PARTNER_DIED = "失去伴侣";
-                    public static LocString CRUSH_DIED = "未说出口的遗憾";
-                    public static LocString WELCOME = "欢迎新人";
-                    public static LocString PARTY = "参加聚会";
-                    public static LocString WITNESSED_BREAKDOWN = "陪伴低谷";
-                    public static LocString FALLOUT = "闹掰";
-                    public static LocString COMFORTED = "悲伤中的陪伴";
                     public static LocString ANNIVERSARY = "纪念日";
                     public static LocString ANNIVERSARY_MISSED = "错过的纪念日";
-                    public static LocString GREETING = "打招呼";
-                    public static LocString CHAT = "聊天";
-                    public static LocString SOCIALIZE = "休闲社交";
-                    public static LocString SHARED_REST = "同寝共眠";
-                    public static LocString STRESS_CHANGE = "压力波动";
+                    public static LocString APOLOGY = "道歉";
                     public static LocString APOLOGY_BOND = "不打不相识";
-                    public static LocString RIVAL = "结下宿敌";
-                    public static LocString RIVAL_OVER = "宿敌和解";
-                    public static LocString RIVAL_DIED = "对头身故";
+                    public static LocString ARGUMENT = "争执";
+                    public static LocString BEST_FRIEND = "挚友谈心";
+                    public static LocString BLAMED = "灾后被迁怒";
+                    public static LocString BOUND_BLOCKED = "界限·受阻";
                     public static LocString BRAWL = "互殴";
-                    public static LocString FAMINE_WARNING = "粮仓见底";
+                    public static LocString BREAKDOWN_COMFORTED = "他第一个过来";
+                    public static LocString BREAKDOWN_KIND_BINGE = "开始暴食";
+                    public static LocString BREAKDOWN_KIND_CRY = "嚎啕大哭";
+                    public static LocString BREAKDOWN_KIND_DESTROY = "砸起了东西";
+                    public static LocString BREAKDOWN_KIND_SHOCK = "放起了电";
+                    public static LocString BREAKDOWN_KIND_VOMIT = "吐了出来";
+                    public static LocString BREAKDOWN_KIND_WAIL = "尖叫";
+                    public static LocString BREAKUP = "分手";
+                    public static LocString CARE = "医疗照顾";
+                    public static LocString CHAT = "聊天";
+                    public static LocString COMFORTED = "悲伤中的陪伴";
+                    public static LocString CONFESSION = "告白成功";
+                    public static LocString CONFESSION_FAILED = "告白被拒";
+                    public static LocString CRUSH_DIED = "未说出口的遗憾";
+                    public static LocString DATE = "约会";
+                    public static LocString FALLOUT = "闹掰";
                     public static LocString FAMINE_AVERTED = "危机解除";
                     public static LocString FAMINE_CULL = "断粮相残";
                     public static LocString FAMINE_OVER = "饥荒结束";
-                    public static LocString BLAMED = "灾后被迁怒";
-                    public static LocString WRATH_ISOLATED = "被孤立";
-                    public static LocString WRATH_SPOKEN_FOR = "有人替他说话";
-                    public static LocString WRATH_RESCUED = "第一个坐下来的人";
-                    public static LocString WRATH_PUNCHED = "被偷揍";
-                    public static LocString WRATH_WITNESSED = "我看见他打人";
-                    public static LocString WRATH_SAW_CRYING = "撞见他一个人在哭";
-                    public static LocString WRATH_FADED = "时间冲淡";
-                    public static LocString SAW_BREAKDOWN = "我看过他最糟的样子";
-                    public static LocString BREAKDOWN_COMFORTED = "他第一个过来";
-                    public static LocString BREAKDOWN_KIND_CRY = "嚎啕大哭";
-                    public static LocString BREAKDOWN_KIND_WAIL = "尖叫";
-                    public static LocString BREAKDOWN_KIND_VOMIT = "吐了出来";
-                    public static LocString BREAKDOWN_KIND_BINGE = "开始暴食";
-                    public static LocString BREAKDOWN_KIND_DESTROY = "砸起了东西";
-                    public static LocString BREAKDOWN_KIND_SHOCK = "放起了电";
-                    public static LocString HAZARD_RESENTED = "为什么总是我下去";
+                    public static LocString FAMINE_WARNING = "粮仓见底";
+                    public static LocString GREETING = "打招呼";
+                    public static LocString HAZARD_COMRADE = "一起在下面待过";
                     public static LocString HAZARD_EASED = "他最近也下来了";
                     public static LocString HAZARD_GRATITUDE = "他替我下去了";
-                    public static LocString HAZARD_COMRADE = "一起在下面待过";
-                    public static LocString MARK_MATCH = "管理员牵线";
+                    public static LocString HAZARD_RESENTED = "为什么总是我下去";
+                    public static LocString JEALOUSY = "吃醋";
                     public static LocString MARK_BLOCK = "管理员拆散";
                     public static LocString MARK_CLEAR = "管理员取消标记";
-                    public static LocString BOUND_BLOCKED = "界限·受阻";
+                    public static LocString MARK_MATCH = "管理员牵线";
+                    public static LocString PARTNER_DIED = "失去伴侣";
+                    public static LocString PARTY = "参加聚会";
+                    public static LocString RECONCILE = "和解";
+                    public static LocString RIVAL = "结下宿敌";
+                    public static LocString RIVAL_DIED = "对头身故";
+                    public static LocString RIVAL_OVER = "宿敌和解";
+                    public static LocString SAW_BREAKDOWN = "我看过他最糟的样子";
+                    public static LocString SHARED_MEAL = "共同进食";
+                    public static LocString SHARED_REST = "同寝共眠";
+                    public static LocString SOCIALIZE = "休闲社交";
+                    public static LocString STRESS_CHANGE = "压力波动";
+                    public static LocString TEACH = "请教";
+                    public static LocString UNKNOWN = "未知社交事件";
+                    public static LocString VENT = "倾诉";
+                    public static LocString WELCOME = "欢迎新人";
+                    public static LocString WITNESSED_BREAKDOWN = "陪伴低谷";
+                    public static LocString WRATH_FADED = "时间冲淡";
+                    public static LocString WRATH_ISOLATED = "被孤立";
+                    public static LocString WRATH_PUNCHED = "被偷揍";
+                    public static LocString WRATH_RESCUED = "第一个坐下来的人";
+                    public static LocString WRATH_SAW_CRYING = "撞见他一个人在哭";
+                    public static LocString WRATH_SPOKEN_FOR = "有人替他说话";
+                    public static LocString WRATH_WITNESSED = "我看见他打人";
                 }
-
-                public class CAUSE
+                public static LocString FALLEN_DUPLICANT = "已故的复制人";
+                public static LocString MOOD_LOG_EMPTY = "最近没有心情记录";
+                public static LocString MOOD_LOG_TITLE = "心情日志";
+                public static LocString MOOD_LOG_TOOLTIP = "这名复制人最近的社交事件，以及对好感和心情的影响";
+                public static LocString NO_RELATIONSHIPS = "尚无关系记录";
+                public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
+                public static LocString OVERVIEW_TITLE = "社交概况";
+                public class PERSONALITY
                 {
-                    public static LocString STRESS = "压力太大";
-                    public static LocString LOW_AFFINITY = "积怨已久";
-                    public static LocString TRAIT_CLASH = "特质不合";
-                    public static LocString DISCORD = "殖民地不和";
-                    public static LocString CHEMISTRY = "气场不合";
+                    public static LocString ATHLETE = "好动";
+                    public class CAUSE
+                    {
+                        public static LocString ADMIN = "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。";
+                        public static LocString UPHEAVAL = "{0} 性格大变，{1}性格 变成了 {2}性格。";
+                    }
+                    public static LocString CRYBABY = "爱哭";
+                    public static LocString CURIOUS = "好学";
+                    public static LocString EARLY = "早起";
+                    public static LocString EATER = "贪吃";
+                    public static LocString GENTLE = "温和";
+                    public static LocString HOTHEAD = "暴躁";
+                    public static LocString JUMPY = "易惊";
+                    public static LocString LOUD = "大嗓门";
+                    public static LocString NERVOUS = "神经质";
+                    public static LocString NIGHT = "夜猫";
+                    public static LocString SLEEPY = "嗜睡";
+                    public static LocString SLOW = "迟钝";
+                    public static LocString UNKNOWN = "原本";
                 }
-
-                public class CHEMISTRY
+                public static LocString PERSONALITY_CHANGE = "修改性格";
+                public static LocString PERSONALITY_CHANGE_TOOLTIP = "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。";
+                public static LocString PERSONALITY_CURRENT = "当前性格：{0}";
+                public static LocString PERSONALITY_DIALOG_BODY = "选择 {0} 的新性格。旧性格会留在履历里，只做展示。";
+                public static LocString PERSONALITY_DIALOG_TITLE = "修改性格";
+                public static LocString PERSONALITY_EMPTY = "尚未经历性格变化";
+                public static LocString PERSONALITY_FAILED = "没法改性格：社交系统尚未就绪";
+                public static LocString PERSONALITY_HISTORY_LINE = "周期{0} · {1}";
+                public static LocString PERSONALITY_SECTION = "性格履历";
+                public static LocString PERSONALITY_UNCHANGED = "已经是这种性格了";
+                public static LocString RELATIONSHIPS_TITLE = "人际关系";
+                public class RELATIONSHIP_STATE
                 {
-                    public static LocString GOOD2 = "天作之合";
-                    public static LocString GOOD1 = "气场相合";
-                    public static LocString BAD1 = "气场不合";
-                    public static LocString BAD2 = "天生犯冲";
-                    public static LocString ROW_GOOD = "合拍";
-                    public static LocString ROW_BAD = "犯冲";
+                    public static LocString ACQUAINTED = "熟络";
+                    public static LocString BROKEN_UP = "分手";
+                    public static LocString COLD_WAR = "冷战";
+                    public static LocString COUPLE = "恋人";
+                    public static LocString CRUSH = "心动";
+                    public static LocString FRIENDS = "朋友";
+                    public static LocString GRIEVING = "悲伤";
+                    public static LocString MOURNING = "悼念";
+                    public static LocString RIVAL = "宿敌";
+                    public static LocString STRANGERS = "陌生";
                 }
-
+                public static LocString REPUTATION_LABEL = "声望（仅供观察）";
+                public class REPUTATION_TIER
+                {
+                    public static LocString BELOVED = "万人迷";
+                    public static LocString INVISIBLE = "透明人";
+                    public static LocString KNOWN = "熟脸";
+                    public static LocString OUTCAST = "孤狼";
+                    public static LocString POPULAR = "受欢迎";
+                }
+                public static LocString REPUTATION_TOOLTIP = "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。";
+                public static LocString SYSTEM_UNAVAILABLE = "社交系统尚未就绪";
+                public static LocString SYSTEM_UNAVAILABLE_TOOLTIP = "进入对局并等待社交系统完成初始化";
                 public class TOOLTIP
                 {
                     public static LocString AFFINITY_LINE = "好感：{0}；冲突：{1}{2}";
                     public static LocString AWKWARD_UNTIL = "；尴尬持续至周期 {0}";
-                    public static LocString RECENT_EVENTS = "\n最近事件：";
-                    public static LocString MEMORY_LINE = "\n周期 {0}：";
-                    public static LocString MARK_MATCH = "牵线标记：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍";
-                    public static LocString MARK_BLOCK = "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话";
-                    public static LocString RIVAL_FROZEN = "宿敌·冻结中：负好感不会随时间回零，这段关系不会自行修复。用牵线标记介入可以解冻，让好感慢慢回暖";
-                    public static LocString HAZARD_LEDGER = "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只有一个人下去（已经 {4} 个周期）";
-                    public static LocString RIVAL_THAWING = "宿敌·调解中：牵线标记已解冻衰减，好感正在回暖；回到门槛之上就会解除宿敌";
                     public static LocString CHEMISTRY_LINE = "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2}）";
+                    public static LocString HAZARD_LEDGER = "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只有一个人下去（已经 {4} 个周期）";
+                    public static LocString MARK_BLOCK = "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话";
+                    public static LocString MARK_MATCH = "牵线标记：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍";
+                    public static LocString MEMORY_LINE = "\n周期 {0}：";
+                    public static LocString RECENT_EVENTS = "\n最近事件：";
+                    public static LocString RIVAL_FROZEN = "宿敌·冻结中：负好感不会随时间回零，这段关系不会自行修复。用牵线标记介入可以解冻，让好感慢慢回暖";
+                    public static LocString RIVAL_THAWING = "宿敌·调解中：牵线标记已解冻衰减，好感正在回暖；回到门槛之上就会解除宿敌";
+                }
+                public static LocString TRAITS_LABEL = "特质";
+                public static LocString TRAITS_TOOLTIP = "有些特质会影响社交：争执与互殴更少、被请教时的好感更多或更少、作息不合时同寝更容易闹别扭。名字后括号里是该特质的具体影响。";
+                public static LocString TRAIT_EFFECT_EARLYBIRD = "作息规律的早睡者";
+                public static LocString TRAIT_EFFECT_FASTLEARNER = "被请教时更领情";
+                public static LocString TRAIT_EFFECT_NARCOLEPSY = "随时睡着，作息难合拍";
+                public static LocString TRAIT_EFFECT_NIGHTOWL = "夜猫子，作息难合拍";
+                public static LocString TRAIT_EFFECT_SCAREDYCAT = "不爱争执";
+                public static LocString TRAIT_EFFECT_SLOWLEARNER = "被请教时不太领情";
+            }
+            public class EFFECTS
+            {
+                public class CANNIBAL
+                {
+                    public static LocString DESC = "那顿饭是谁，心里清楚。有些事情吃下去就吐不出来了。";
+                    public static LocString NAME = "吃了同事";
+                }
+                public class COLONY_COHESION
+                {
+                    public static LocString DESC = "殖民地上下一条心，全员士气提升。";
+                    public static LocString NAME = "殖民地羁绊";
+                }
+                public class COLONY_DISCORD
+                {
+                    public static LocString DESC = "殖民地关系紧张，全员士气下降。";
+                    public static LocString NAME = "殖民地不和";
+                }
+                public class DATE_AFTERGLOW
+                {
+                    public static LocString DESC = "刚度过愉快的约会，士气提升。";
+                    public static LocString NAME = "约会余韵";
+                }
+                public class GRIEF
+                {
+                    public static LocString DESC = "失去了心上人，士气下降。";
+                    public static LocString NAME = "丧偶悲伤";
+                }
+                public class GRIEF_SOFT
+                {
+                    public static LocString DESC = "失去了心上人，但殖民地的陪伴减轻了痛苦。";
+                    public static LocString NAME = "丧偶悲伤（有人陪着）";
+                }
+                public class LOVE
+                {
+                    public static LocString DESC = "有心上人了，士气提升。";
+                    public static LocString NAME = "恋爱中";
+                }
+                public class LOVE_MATURE
+                {
+                    public static LocString DESC = "相伴已久,是彼此最安心的存在。士气大幅提升。";
+                    public static LocString NAME = "老夫老妻";
+                }
+                public class RIVAL_DIED
+                {
+                    public static LocString DESC = "看不顺眼的那个人不在了。嘴上不说，心情确实不错。";
+                    public static LocString NAME = "幸灾乐祸";
+                }
+                public class SIDE_BY_SIDE
+                {
+                    public static LocString DESC = "和要好的人一起干活，效率提升。";
+                    public static LocString NAME = "并肩作战";
+                }
+                public class STRAINED
+                {
+                    public static LocString BUBBLE = "深吸一口气……忍住了";
+                    public static LocString DESC = "压力已经逼近极限，随时可能崩溃。找人聊聊、吃顿好的，或者让 TA 歇一歇。";
+                    public static LocString NAME = "情绪紧绷";
+                }
+                public class WRATH_ISOLATED
+                {
+                    public static LocString DESC = "殖民地出了事，而 TA 是人缘垫底的那个——所以帐算在 TA 头上了，跟事情是不是 TA 做的无关。有人愿意照顾 TA、找 TA 说话或跟 TA 一起吃顿饭，这个状态就会解除；再久一点，事情也会被淡忘。";
+                    public static LocString NAME = "被孤立";
                 }
             }
-
-            public class MANAGEMENT
+            public class FOOD
             {
-                public static LocString MENU_TITLE = "社交";
-                public static LocString MENU_TOOLTIP = "查看殖民地关系并管理牵线和拆散标记";
-                public static LocString MATCH_BUTTON = "牵线";
-                public static LocString BLOCK_BUTTON = "拆散";
-                public static LocString CLEAR_BUTTON = "清除标记";
-                public static LocString BOUNDS_BUTTON = "界限";
-                public static LocString OVERVIEW_BUTTON = "关系总览";
-                public static LocString PENDING_BUTTON = "待发生";
-                public static LocString PENDING_TITLE = "待发生的社交事件";
-                public static LocString PENDING_HINT = "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。";
-                public static LocString PENDING_EMPTY = "目前没有待发生的社交事件。";
-                public static LocString PENDING_ROW = "【{0}】{1} → {2} · 还剩 {3} 周期";
-                public static LocString PENDING_REQUESTED_ROW = "【{0}】{1} → {2} · 正在等待安全会合";
-                public static LocString PENDING_HAPPEN_NOW = "现在发生";
-                public static LocString PENDING_ACTION_ROW = "{0}　[{1}]";
-                public static LocString PENDING_REQUESTED = "事件已请求，正在等待安全时机";
-                public static LocString OVERVIEW_TITLE = "殖民地关系";
-                public static LocString RELATIONSHIP_COUNT = "{0} 段关系";
-                public static LocString SEARCH_PLACEHOLDER = "搜索复制人姓名";
-                public static LocString FILTER_RELATIONSHIP = "关系：{0}";
-                public static LocString FILTER_ALL = "全部";
-                public static LocString FILTER_FRIENDLY = "友好";
-                public static LocString FILTER_ROMANCE = "恋爱";
-                public static LocString FILTER_CONFLICT = "冲突";
-                public static LocString FILTER_MARK = "标记：{0}";
-                public static LocString FILTER_UNMARKED = "未标记";
-                public static LocString GROUP_SORT = "排序：{0}";
-                public static LocString SORT_NAME = "姓名";
-                public static LocString SORT_RELATIONSHIP_COUNT = "关系数";
-                public static LocString SORT_HIGHEST_AFFINITY = "最高好感";
-                public static LocString NO_FILTER_RESULTS = "没有符合筛选条件的关系";
-                public static LocString CLOSE_BUTTON = "关闭";
-                public static LocString BACK_BUTTON = "返回";
-                public static LocString PREVIOUS_PAGE = "上一页";
-                public static LocString NEXT_PAGE = "下一页";
-                public static LocString PAGE_LABEL = "第 {0}/{1} 页";
-                public static LocString NO_DUPLICANTS = "没有可选的复制人。";
-                public static LocString ACTION_UNAVAILABLE = "操作失败：社交系统尚未就绪";
-                public static LocString PICKER_CHOOSE_SECOND = "{0} · 选择第二人";
-                public static LocString PICKER_SELECTED = "已选择 {0}。请选择另一名复制人完成操作。";
-                public static LocString PICKER_MATCH_MESSAGE = "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。";
-                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。";
-                public static LocString PICKER_CLEAR_MESSAGE = "选择一名复制人，清除所有与其有关的牵线和拆散标记。";
-                public static LocString PICKER_BOUNDS_TITLE = "界限";
-                public static LocString PICKER_BOUNDS_MESSAGE = "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。";
-                public static LocString BOUNDS_MAX_LABEL = "最好关系:{0}";
-                public static LocString BOUNDS_MIN_LABEL = "最差关系:{0}";
-                public static LocString BOUNDS_UNLIMITED = "不限";
-                public static LocString BOUNDS_BEST_PICKER = "选择最好关系";
-                public static LocString BOUNDS_WORST_PICKER = "选择最差关系";
-                public static LocString BOUNDS_PICKER_HINT = "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。";
-                public static LocString BOUNDS_SET = "界限: {0} × {1} → 最好 {2} · 最差 {3}";
-                public static LocString BOUNDS_INVALID = "设置失败:最差关系不能好过最好关系";
-                public static LocString OVERVIEW_SUMMARY = "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}";
-                public static LocString ROW_BREAKUP_IN = "{0} 周期后分手";
-                public static LocString ROW_FALLOUT_LEFT = "闹掰还剩 {0} 周期";
-                public static LocString ROW_RIVAL_FROZEN = "宿敌·冻结中";
-                public static LocString ROW_EX_LEFT = "前任期还剩 {0} 周期";
-                public static LocString ROW_ANNIVERSARY_TODAY = "今天是纪念日！";
-                public static LocString ROW_ANNIVERSARY_IN = "纪念日还有 {0} 周期";
-                public static LocString STATE_SUMMARY = "恋人 {0} 对 · 冷战 {1} 对 · 挚友 {2} 对";
-                public static LocString COMPLETED = "[完成] {0}";
-                public static LocString CLEARED_MARKS = "[完成] 已清除 {0} 的 {1} 个标记";
-                public static LocString MARK_SET_MATCH = "牵线: {0} × {1}";
-                public static LocString MARK_SET_BLOCK = "拆散: {0} × {1}";
-                public static LocString MARK_SET_CLEARED = "取消标记: {0} × {1}";
-                public static LocString MARK_PICK_HINT = "已选 {0}，选中另一名复制人后再按一次同一热键";
-                public static LocString MARK_CANCEL_HINT = "已取消选择 {0}";
-                public static LocString MARK_CLEARED_FEEDBACK = "已清除 {0} 的 {1} 个标记";
-                public static LocString EVENT_LOG_BUTTON = "纪事";
-                public static LocString EVENT_LOG_TITLE = "殖民地纪事";
-                public static LocString EVENT_LOG_EMPTY = "暂无事件记录";
-                public static LocString LOG_NAME_GONE = "{0} 已不在殖民地,无法跳转";
-                public static LocString LOG_FILTER_ALL = "人物:全部";
-                public static LocString LOG_FILTER_PERSON = "人物:{0}";
-                public static LocString LOG_FILTER_CLEAR = "清除";
-                public static LocString PICKER_FILTER_TITLE = "查看谁的故事?";
-                public static LocString PICKER_FILTER_MESSAGE = "选一名复制人,日志只显示他参与的事件——他的一段人生。";
-                public static LocString TELEMETRY_EXPORT = "导出诊断报告";
-                public static LocString TELEMETRY_DISABLED = "请先在 Mod 设置中开启「本地玩法数据」";
-                public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";
-                public static LocString TELEMETRY_EXPORT_FAILED = "诊断报告导出失败：{0}";
-                public static LocString PENDING_CONFESSION = "告白";
-                public static LocString STORY_CHAPTER_TITLE = "第{0}章 · {1}";
-                public static LocString STORY_CHAPTER_RANGE = "周期{0}—{1}";
-                public static LocString STORY_CHAPTER_LEAD_TURNING = "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。";
-                public static LocString STORY_CHAPTER_LEAD_QUIET = "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。";
-                public static LocString STORY_CHAPTER_CLOSING_TURNING = "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。";
-                public static LocString STORY_CHAPTER_CLOSING_QUIET = "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。";
+                public class CANNIBAL_MEAT
+                {
+                    public static LocString DESC = "断粮那几天留下来的。没有人问这是谁，也没有人愿意先动筷子。";
+                    public static LocString NAME = "「同事」肉";
+                }
             }
-
             public class LOG
             {
                 public static LocString ENTRY_PAIR = "周期{0} · {1} 和 {2} [{3}]{4}";
-                public static LocString ENTRY_SOLO = "周期{0} · {1} [{2}]{3}";
-                public static LocString ENTRY_WITH = "周期{0} · 与 {1} [{2}]{3}";
                 public static LocString ENTRY_SELF = "周期{0} · [{1}]{2}";
-                public static LocString VALUE_AFFINITY = " 好感{0:+#;-#;0}";
-                public static LocString VALUE_STRESS = " 压力{0:+#.#;-#.#;0}";
-                public static LocString VALUE_STRESS_PAIR = " 压力{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}";
-                public static LocString VALUE_MORALE = " 士气{0:+#.#;-#.#;0}";
+                public static LocString ENTRY_SOLO = "周期{0} · {1} [{2}]{3}";
                 public static LocString ENTRY_STORY = "周期{0} · {1}{2}";
+                public static LocString ENTRY_WITH = "周期{0} · 与 {1} [{2}]{3}";
                 public static LocString SECTION_MILESTONES = "—— 大事记 ——";
                 public static LocString SECTION_RECENT = "—— 最近 ——";
+                public static LocString VALUE_AFFINITY = " 好感{0:+#;-#;0}";
+                public static LocString VALUE_MORALE = " 士气{0:+#.#;-#.#;0}";
+                public static LocString VALUE_STRESS = " 压力{0:+#.#;-#.#;0}";
+                public static LocString VALUE_STRESS_PAIR = " 压力{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}";
             }
-
             public class LOG_STORY
             {
-                public static LocString PAIR_JOINER = "{0} 和 {1}";
-                public static LocString SELF_NAME = "我";
-                public static LocString GREET_1 = "{pair}擦肩而过,互相点了点头。";
-                public static LocString GREET_2 = "{pair}在走廊里打了个招呼。";
-                public static LocString GREET_3 = "{pair}碰面时寒暄了两句。";
-                public static LocString GREET_4 = "{pair}远远地挥了挥手。";
-                public static LocString GREET_5 = "{pair}隔着半条走廊对视了一眼,心照不宣。";
-                public static LocString GREET_6 = "{pair}在打印舱前排着队,顺便打了招呼。";
-                public static LocString CHAT_1 = "{pair}聊了会儿天。";
-                public static LocString CHAT_2 = "{pair}凑在一起闲聊,气氛不错。";
-                public static LocString CHAT_3 = "{pair}聊起了家长里短。";
-                public static LocString CHAT_4 = "{pair}聊起了{topic}。";
-                public static LocString CHAT_5 = "{pair}交换了今天的见闻。";
-                public static LocString CHAT_6 = "{pair}有一搭没一搭地聊着,时间过得飞快。";
-                public static LocString VENT_1 = "{actor}向{other}倒了一肚子苦水。";
-                public static LocString VENT_2 = "{other}听{actor}倾诉了很久。";
-                public static LocString VENT_3 = "{actor}把今天的糟心事一件一件数给{other}听。";
-                public static LocString VENT_4 = "{actor}问{other}这日子什么时候是个头,{other}答不上来。";
-                public static LocString VENT_5 = "苦水倒完了,{actor}觉得肩上的浮土都轻了些。";
-                public static LocString VENT_STRESS_1 = "{actor}的情绪快压不住了,{other}陪他坐了一会儿。";
-                public static LocString TEACH_1 = "{actor}手把手教{other}干活。";
-                public static LocString TEACH_2 = "{actor}给{other}讲了些独门窍门。";
-                public static LocString TEACH_3 = "{actor}演示了一遍,{other}看得眼睛都不眨。";
-                public static LocString TEACH_4 = "{actor}说只教一遍,{other}决定回去自己偷偷练。";
-                public static LocString TEACH_5 = "有些手艺是排班表上学不到的,{actor}传给了{other}。";
-                public static LocString BESTFRIEND_1 = "{pair}聊到深夜,成了彼此的挚友。";
-                public static LocString BESTFRIEND_2 = "{pair}说了些从没对别人说过的话。";
-                public static LocString BESTFRIEND_3 = "{pair}交换了彼此的秘密,从此不分你我。";
-                public static LocString BESTFRIEND_4 = "那晚{pair}聊到天亮,谁也没提该睡觉的事。";
-                public static LocString BESTFRIEND_5 = "有些人认识很久才是朋友,{pair}只花了一个晚上。";
-                public static LocString CARE_1 = "{actor}照顾了{other}。";
-                public static LocString CARE_2 = "{actor}帮{other}处理了伤势。";
-                public static LocString CARE_3 = "{actor}给{other}换了绷带,动作很轻。";
-                public static LocString CARE_4 = "{other}嘴上说着没事,还是让{actor}照看了一整天。";
-                public static LocString CARE_5 = "{actor}守在{other}旁边,连药都提前晾温了。";
-                public static LocString COMFORT_1 = "{actor}陪着{other},直到他缓过来。";
-                public static LocString COMFORT_2 = "{other}在{actor}的陪伴下平静了下来。";
-                public static LocString COMFORT_3 = "{actor}没说什么大道理,只是陪着{other}。";
-                public static LocString COMFORT_4 = "{other}想说谢谢,{actor}摆摆手让他省点力气。";
-                public static LocString COMFORT_5 = "有些夜晚只能熬过去,好在{other}不是一个人熬。";
-                public static LocString MEAL_1 = "{pair}在{place}一起吃了顿饭。";
-                public static LocString MEAL_2 = "{pair}边吃边聊,很放松。";
-                public static LocString MEAL_3 = "{pair}拼了一桌,聊了很久。";
-                public static LocString MEAL_4 = "{pair}端着餐盘坐到了一起。";
-                public static LocString MEAL_5 = "{pair}分食了一份软泥糕,谁也没嫌弃谁。";
-                public static LocString MEAL_6 = "饭菜还是老样子,但{pair}这桌的笑声是新的。";
-                public static LocString MEAL_COLD_1 = "{pair}隔着一张桌子,谁也没先开口。";
-                public static LocString MEAL_COUPLE_1 = "{pair}挨着坐下,这顿饭吃得很甜。";
-                public static LocString REST_1 = "{pair}同屋睡了一晚,作息很合拍。";
-                public static LocString REST_2 = "{pair}的床铺挨着,夜里翻身都怕吵到对方。";
-                public static LocString REST_3 = "熄灯之后,{pair}又小声聊了一会儿才睡。";
-                public static LocString REST_4 = "同一个屋檐下,{pair}连打鼾的节奏都磨合出来了。";
-                public static LocString REST_CLASH_1 = "{pair}作息不合,谁都没睡好。";
-                public static LocString SOCIALIZE_1 = "{pair}在{place}一起玩了一会儿。";
-                public static LocString SOCIALIZE_2 = "{pair}在休息区碰头,玩得很开心。";
-                public static LocString SOCIALIZE_3 = "{pair}在{place}消磨了一段好时光。";
-                public static LocString SOCIALIZE_4 = "{pair}较量了几局,输赢已经不重要了。";
-                public static LocString SOCIALIZE_5 = "{pair}把一天的疲惫都玩没了。";
-                public static LocString PARTY_1 = "{pair}参加了{place}的聚会。";
-                public static LocString PARTY_2 = "{pair}在聚会上玩开了。";
-                public static LocString PARTY_3 = "{pair}在聚会上碰了杯,果汁都快喝出酒味了。";
-                public static LocString PARTY_4 = "聚会的灯光下,{pair}比平时健谈了不少。";
-                public static LocString PARTY_5 = "{pair}一直待到聚会散场,还意犹未尽。";
-                public static LocString DATE_1 = "{pair}约了一次会,气氛正好。";
-                public static LocString DATE_2 = "{pair}独处了一会儿,眼里只有彼此。";
-                public static LocString DATE_3 = "{pair}并肩散步,谁也没提回工作站的事。";
-                public static LocString DATE_4 = "{pair}在望远镜旁约会,轮流看同一片星空。";
-                public static LocString DATE_5 = "约会的规矩是{pair}定的:不许谈排班表。";
                 public static LocString ANNIVERSARY_1 = "{pair}纪念了在一起的日子。";
                 public static LocString ANNIVERSARY_2 = "{pair}又安稳地走过了一年,值得碰一杯。";
                 public static LocString ANNIVERSARY_3 = "在这个连日历都要自己记的地方,{pair}没有忘记今天。";
@@ -393,37 +381,6 @@ namespace ONIAiSocial
                 public static LocString ANNIVERSARY_MISSED_2 = "{actor}的排班表上唯独漏掉了和{other}的纪念日。";
                 public static LocString ANNIVERSARY_MISSED_3 = "{other}等了一晚上,{actor}在矿井里浑然不觉。";
                 public static LocString ANNIVERSARY_MISSED_4 = "日子一忙就糊涂,{actor}把最重要的那天忘了。";
-                public static LocString CONFESSION_1 = "{actor}向{other}表明了心意——{other}答应了。";
-                public static LocString CONFESSION_2 = "{actor}鼓起勇气告白,{other}红着脸点了头。";
-                public static LocString CONFESSION_3 = "{actor}把练习了十遍的话说到一半,{other}就答应了。";
-                public static LocString CONFESSION_4 = "在打印舱的见证下,{actor}和{other}牵起了手。";
-                public static LocString CONFESSION_5 = "{other}等这句话等了很久,{actor}终于说出口了。";
-                public static LocString REKINDLE_1 = "{pair}重新走到了一起。";
-                public static LocString REKINDLE_2 = "{pair}绕了一圈,又回到了彼此身边。";
-                public static LocString REKINDLE_3 = "有些分开只是为了想清楚,{pair}想清楚了。";
-                public static LocString REKINDLE_4 = "{pair}再次牵起手,比第一次还要用力。";
-                public static LocString CONFESSION_FAIL_1 = "{actor}向{other}表白了,但{other}没有答应。";
-                public static LocString CONFESSION_FAIL_2 = "{actor}的心意,{other}没能接住。";
-                public static LocString CONFESSION_FAIL_3 = "{actor}说完那句排练好的告白,{other}沉默了很久。";
-                public static LocString CONFESSION_FAIL_4 = "不是所有真心都有回音,{actor}今天明白了。";
-                public static LocString BREAKUP_1 = "{pair}分手了。";
-                public static LocString BREAKUP_2 = "{pair}的感情走到了尽头。";
-                public static LocString BREAKUP_3 = "{pair}把话说开,然后各自转身。";
-                public static LocString BREAKUP_4 = "{pair}的关系,像气压服的氧气一样耗尽了。";
-                public static LocString BREAKUP_5 = "{other}还想挽回,{actor}已经不想再谈了。";
-                public static LocString BOUND_BLOCK_1 = "{pair}之间像隔着一层看不见的墙,关系停在了原地。";
-                public static LocString BOUND_BLOCK_2 = "某种说不清的力量按住了{pair}的缘分,谁也没有再进一步。";
-                public static LocString BOUND_BLOCK_3 = "{pair}的故事刚要翻页,又被无形的手轻轻按住。";
-                public static LocString BOUND_BLOCK_4 = "命运在{pair}之间画了一条线,谁也没有跨过去。";
-                public static LocString BOUND_BLOCK_5 = "{pair}的关系起了波澜,又莫名其妙地平息了。";
-                public static LocString FALLOUT_1 = "{pair}大吵一架,从此形同陌路。";
-                public static LocString FALLOUT_2 = "{pair}之间那点情分,一夜之间清了零。";
-                public static LocString FALLOUT_3 = "从那天起,{pair}在走廊里遇见都绕着走。";
-                public static LocString FALLOUT_4 = "朋友做到头,{pair}连招呼都省了。";
-                public static LocString RECONCILE_1 = "{pair}冰释前嫌,重归于好。";
-                public static LocString RECONCILE_2 = "{pair}把旧账翻篇,重新坐到了一张桌上。";
-                public static LocString RECONCILE_3 = "谁先开的口已经不重要,{pair}和好了。";
-                public static LocString RECONCILE_4 = "冷战结束的那天,{pair}都松了一口气。";
                 public static LocString APOLOGY_1 = "{actor}向{other}道了歉。";
                 public static LocString APOLOGY_2 = "{actor}先低了头,{other}也就顺势原谅了。";
                 public static LocString APOLOGY_3 = "{actor}把「对不起」三个字说得磕磕绊绊,{other}收下了。";
@@ -439,74 +396,77 @@ namespace ONIAiSocial
                 public static LocString ARGUMENT_4 = "{pair}为一点小事红了脸,事后想想都不值。";
                 public static LocString ARGUMENT_5 = "一场架吵完,{pair}都觉得是对方先不讲理的。";
                 public static LocString ARGUMENT_CAUSE_1 = "因为{cause},{pair}吵了起来。";
-                public static LocString RIVAL_1 = "{pair}结下了梁子,成了宿敌。";
-                public static LocString RIVAL_2 = "{pair}的恩怨从此有了名字:宿敌。";
-                public static LocString RIVAL_3 = "往后很长一段日子,{pair}都不会给对方好脸色。";
-                public static LocString RIVAL_OVER_1 = "{pair}放下了宿怨。";
-                public static LocString RIVAL_OVER_2 = "{pair}握了握手,宿怨到此为止。";
-                public static LocString RIVAL_OVER_3 = "恨一个人也挺累的,{pair}决定算了。";
-                public static LocString RIVAL_DIED_1 = "{other}死了,{actor}心里说不出是什么滋味。";
-                public static LocString RIVAL_DIED_2 = "宿敌死了,{actor}突然发现走廊安静了不少。";
-                public static LocString RIVAL_DIED_3 = "{actor}曾盼着赢过{other},如今再也没有对手了。";
-                public static LocString JEALOUSY_1 = "{actor}看见{other}和{third}有说有笑,心里很不是滋味。";
-                public static LocString JEALOUSY_2 = "{actor}吃醋了。";
-                public static LocString JEALOUSY_3 = "{third}和{other}聊得投机,{actor}在旁边数了很久的浮土。";
-                public static LocString JEALOUSY_4 = "那股酸劲儿,{actor}自己也说不清来由。";
-                public static LocString LOSS_PARTNER_1 = "{actor}失去了{other},整个人都垮了。";
-                public static LocString LOSS_PARTNER_2 = "{other}的床铺空了下来,{actor}很久都不去看那个方向。";
-                public static LocString LOSS_PARTNER_3 = "往后的排班表上再没有{other}的名字,{actor}的日子也空了一块。";
-                public static LocString LOSS_CRUSH_1 = "{other}走了,{actor}把没说出口的话咽了回去。";
-                public static LocString LOSS_CRUSH_2 = "{other}没能等到{actor}鼓起勇气的那一天。";
-                public static LocString LOSS_CRUSH_3 = "{actor}把准备了好久的话,说给了{other}空着的床铺。";
-                public static LocString WITNESS_1 = "{actor}崩溃的样子,{other}都看在眼里。";
-                public static LocString WITNESS_2 = "{other}别过脸去,却没能忘掉{actor}崩溃的那一幕。";
-                public static LocString WITNESS_3 = "看着{actor}崩溃,{other}第一次觉得基地这么安静。";
-                public static LocString WITNESS_SOLO_1 = "{subject}目睹了同伴的崩溃,心里很沉重。";
-                public static LocString WITNESS_SOLO_2 = "{subject}撞见了同伴的崩溃,之后一整天都心不在焉。";
+                public static LocString BESTFRIEND_1 = "{pair}聊到深夜,成了彼此的挚友。";
+                public static LocString BESTFRIEND_2 = "{pair}说了些从没对别人说过的话。";
+                public static LocString BESTFRIEND_3 = "{pair}交换了彼此的秘密,从此不分你我。";
+                public static LocString BESTFRIEND_4 = "那晚{pair}聊到天亮,谁也没提该睡觉的事。";
+                public static LocString BESTFRIEND_5 = "有些人认识很久才是朋友,{pair}只花了一个晚上。";
+                public static LocString BOUND_BLOCK_1 = "{pair}之间像隔着一层看不见的墙,关系停在了原地。";
+                public static LocString BOUND_BLOCK_2 = "某种说不清的力量按住了{pair}的缘分,谁也没有再进一步。";
+                public static LocString BOUND_BLOCK_3 = "{pair}的故事刚要翻页,又被无形的手轻轻按住。";
+                public static LocString BOUND_BLOCK_4 = "命运在{pair}之间画了一条线,谁也没有跨过去。";
+                public static LocString BOUND_BLOCK_5 = "{pair}的关系起了波澜,又莫名其妙地平息了。";
                 public static LocString BRAWL_1 = "{pair}打了起来。";
                 public static LocString BRAWL_2 = "{pair}的争执升级成了拳脚。";
                 public static LocString BRAWL_3 = "{pair}扭作一团,工具散了一地。";
                 public static LocString BRAWL_4 = "这一架打得难看,{pair}都挂了彩。";
                 public static LocString BRAWL_5 = "劝架的都来了,{pair}才肯撒手。";
-                public static LocString HAZARD_RESENT_1 = "{actor}又下了一天危险区,对{other}的轻松差事有了怨气。";
-                public static LocString HAZARD_RESENT_2 = "同样是下矿井,凭什么{actor}总去危险的那头——{actor}越想越不是滋味。";
-                public static LocString HAZARD_RESENT_3 = "{actor}数着{other}的清闲日子,心里的账越记越厚。";
-                public static LocString HAZARD_EASED_1 = "{actor}对{other}的那点怨气,慢慢散了。";
-                public static LocString HAZARD_EASED_2 = "{actor}想通了:危险活总得有人干,不该怨{other}。";
-                public static LocString HAZARD_EASED_3 = "时间把那点火气磨平了,{actor}看{other}顺眼多了。";
-                public static LocString HAZARD_GRATITUDE_1 = "{other}替{actor}挡了危险活,{actor}记在了心里。";
-                public static LocString HAZARD_GRATITUDE_2 = "危险活落下来的时候,{other}先一步接了,{actor}不会忘。";
-                public static LocString HAZARD_GRATITUDE_3 = "{actor}欠{other}一个人情,还是拿命换的那种。";
-                public static LocString HAZARD_COMRADE_1 = "{pair}一起扛过了危险的活,有了过命的交情。";
-                public static LocString HAZARD_COMRADE_2 = "从危险区活着出来,{pair}看彼此的眼神都不一样了。";
-                public static LocString HAZARD_COMRADE_3 = "生死关头上{pair}谁都没先跑,这交情假不了。";
-                public static LocString WRATH_BLAME_1 = "{actor}带头把账算到了{other}头上。";
-                public static LocString WRATH_BLAME_2 = "出了事,总得有人背锅——{actor}领着大家选了{other}。";
-                public static LocString WRATH_BLAME_3 = "{actor}一句话,就把众人的怒火引向了{other}。";
-                public static LocString WRATH_ISOLATED_1 = "{other}被孤立了,没人愿意跟他说话。";
-                public static LocString WRATH_ISOLATED_2 = "{other}走进餐厅,一整桌的人都收了声。";
-                public static LocString WRATH_ISOLATED_3 = "现在连哈奇都比{other}受欢迎。";
-                public static LocString WRATH_SPEAK_UP_1 = "{actor}当众替{other}说了句公道话。";
-                public static LocString WRATH_SPEAK_UP_2 = "{actor}当着所有人的面替{other}说话,没人再吭声。";
-                public static LocString WRATH_SPEAK_UP_3 = "众怒汹汹的时候,{actor}是唯一肯替{other}开口的人。";
-                public static LocString WRATH_RESCUE_1 = "{actor}向{other}伸出了援手。";
-                public static LocString WRATH_RESCUE_2 = "{actor}端着餐盘坐到{other}旁边,孤立的墙塌了一角。";
-                public static LocString WRATH_RESCUE_3 = "所有人都绕开{other}的时候,{actor}偏偏走了过去。";
-                public static LocString WRATH_PUNCH_1 = "{actor}趁没人注意,揍了{other}一顿。";
-                public static LocString WRATH_PUNCH_2 = "排班表的空档里,{actor}堵住了{other}。";
-                public static LocString WRATH_PUNCH_3 = "{actor}挑了个四下无人的时候,把火气撒在了{other}身上。";
-                public static LocString WRATH_WITNESS_1 = "{subject}看见了那场私刑。";
-                public static LocString WRATH_WITNESS_2 = "{subject}撞见了那一幕,慌忙装作没看见。";
-                public static LocString WRATH_WITNESS_3 = "有些事看见了也只能咽下去,{subject}把嘴闭得很紧。";
-                public static LocString WRATH_SAW_CRYING_1 = "{subject}撞见他一个人躲着哭。";
-                public static LocString WRATH_SAW_CRYING_2 = "{subject}路过时听见哭声,放轻了脚步。";
-                public static LocString WRATH_SAW_CRYING_3 = "躲在角落里的那个人哭了很久,{subject}没有上前。";
-                public static LocString WRATH_FADED_1 = "针对{subject}的孤立,总算过去了。";
-                public static LocString WRATH_FADED_2 = "殖民地找到了新的谈资,{subject}的那档子事没人再提。";
-                public static LocString WRATH_FADED_3 = "日子一长,连怒火也会过期——{subject}重新融进了人群。";
-                public static LocString FAMINE_WARNING_1 = "粮仓见了底,恐慌在殖民地蔓延。";
-                public static LocString FAMINE_WARNING_2 = "最后一块软泥糕也见了底,没人敢想明天。";
-                public static LocString FAMINE_WARNING_3 = "饿肚子的消息比氧气传得还快。";
+                public static LocString BREAKUP_1 = "{pair}分手了。";
+                public static LocString BREAKUP_2 = "{pair}的感情走到了尽头。";
+                public static LocString BREAKUP_3 = "{pair}把话说开,然后各自转身。";
+                public static LocString BREAKUP_4 = "{pair}的关系,像气压服的氧气一样耗尽了。";
+                public static LocString BREAKUP_5 = "{other}还想挽回,{actor}已经不想再谈了。";
+                public static LocString CARE_1 = "{actor}照顾了{other}。";
+                public static LocString CARE_2 = "{actor}帮{other}处理了伤势。";
+                public static LocString CARE_3 = "{actor}给{other}换了绷带,动作很轻。";
+                public static LocString CARE_4 = "{other}嘴上说着没事,还是让{actor}照看了一整天。";
+                public static LocString CARE_5 = "{actor}守在{other}旁边,连药都提前晾温了。";
+                public static LocString CHAT_1 = "{pair}聊了会儿天。";
+                public static LocString CHAT_2 = "{pair}凑在一起闲聊,气氛不错。";
+                public static LocString CHAT_3 = "{pair}聊起了家长里短。";
+                public static LocString CHAT_4 = "{pair}聊起了{topic}。";
+                public static LocString CHAT_5 = "{pair}交换了今天的见闻。";
+                public static LocString CHAT_6 = "{pair}有一搭没一搭地聊着,时间过得飞快。";
+                public static LocString CHAT_BRAWL_BOND_1 = "{pair}聊得热络——不打不相识。";
+                public static LocString CHAT_COLD_1 = "{pair}僵着脖子,交换了几句必要的话。";
+                public static LocString CHAT_COMRADE_1 = "{pair}聊起那次死里逃生,话就没个完。";
+                public static LocString CHAT_COUPLE_1 = "{pair}凑在一起说悄悄话,旁若无人。";
+                public static LocString CHAT_CRUSH_1 = "{pair}聊着聊着,目光就躲到了别处。";
+                public static LocString CHAT_CRYBABY_1 = "{actor}说着说着眼圈就红了,{other}赶紧岔开了话题。";
+                public static LocString CHAT_EATER_1 = "{actor}边吃边聊,{other}的话头总被咀嚼声盖过去。";
+                public static LocString CHAT_EX_1 = "{pair}聊了几句,客气得像刚认识。";
+                public static LocString CHAT_GENTLE_1 = "{actor}说话轻声细语,{other}听得直点头。";
+                public static LocString CHAT_HOTHEAD_1 = "{actor}说着说着就提高了音量,{other}居然没介意。";
+                public static LocString CHAT_HOTHEAD_2 = "{actor}越聊越激动,差点拍了桌子。";
+                public static LocString CHAT_LOUD_1 = "{actor}大着嗓门跟{other}聊了个痛快。";
+                public static LocString CHAT_NERVOUS_1 = "{actor}压低声音跟{other}嘀咕了半天,不知在担心什么。";
+                public static LocString CHAT_RIVAL_1 = "{pair}话里带刺,聊得像在过招。";
+                public static LocString CHAT_WAITED_1 = "{pair}有说有笑,当初那次拒绝如今成了笑谈。";
+                public static LocString COMFORT_1 = "{actor}陪着{other},直到他缓过来。";
+                public static LocString COMFORT_2 = "{other}在{actor}的陪伴下平静了下来。";
+                public static LocString COMFORT_3 = "{actor}没说什么大道理,只是陪着{other}。";
+                public static LocString COMFORT_4 = "{other}想说谢谢,{actor}摆摆手让他省点力气。";
+                public static LocString COMFORT_5 = "有些夜晚只能熬过去,好在{other}不是一个人熬。";
+                public static LocString CONFESSION_1 = "{actor}向{other}表明了心意——{other}答应了。";
+                public static LocString CONFESSION_2 = "{actor}鼓起勇气告白,{other}红着脸点了头。";
+                public static LocString CONFESSION_3 = "{actor}把练习了十遍的话说到一半,{other}就答应了。";
+                public static LocString CONFESSION_4 = "在打印舱的见证下,{actor}和{other}牵起了手。";
+                public static LocString CONFESSION_5 = "{other}等这句话等了很久,{actor}终于说出口了。";
+                public static LocString CONFESSION_FAIL_1 = "{actor}向{other}表白了,但{other}没有答应。";
+                public static LocString CONFESSION_FAIL_2 = "{actor}的心意,{other}没能接住。";
+                public static LocString CONFESSION_FAIL_3 = "{actor}说完那句排练好的告白,{other}沉默了很久。";
+                public static LocString CONFESSION_FAIL_4 = "不是所有真心都有回音,{actor}今天明白了。";
+                public static LocString DATE_1 = "{pair}约了一次会,气氛正好。";
+                public static LocString DATE_2 = "{pair}独处了一会儿,眼里只有彼此。";
+                public static LocString DATE_3 = "{pair}并肩散步,谁也没提回工作站的事。";
+                public static LocString DATE_4 = "{pair}在望远镜旁约会,轮流看同一片星空。";
+                public static LocString DATE_5 = "约会的规矩是{pair}定的:不许谈排班表。";
+                public static LocString ERA_FAMINE = "在断粮的阴影下,";
+                public static LocString ERA_WRATH = "在众怒未平的日子里,";
+                public static LocString FALLOUT_1 = "{pair}大吵一架,从此形同陌路。";
+                public static LocString FALLOUT_2 = "{pair}之间那点情分,一夜之间清了零。";
+                public static LocString FALLOUT_3 = "从那天起,{pair}在走廊里遇见都绕着走。";
+                public static LocString FALLOUT_4 = "朋友做到头,{pair}连招呼都省了。";
                 public static LocString FAMINE_AVERTED_1 = "粮食补上了,大家松了一口气。";
                 public static LocString FAMINE_AVERTED_2 = "储藏室重新有了存货,咀嚼声又回来了。";
                 public static LocString FAMINE_AVERTED_3 = "危机解除了,没人追问粮食从哪来的。";
@@ -516,409 +476,433 @@ namespace ONIAiSocial
                 public static LocString FAMINE_OVER_1 = "断粮的日子终于过去了。";
                 public static LocString FAMINE_OVER_2 = "粮仓重新满了,有些事大家心照不宣地不再提。";
                 public static LocString FAMINE_OVER_3 = "又能吃饱的日子来了,仿佛饥荒从没发生过。";
-                public static LocString WELCOME_1 = "{pair}迎接了新来的同伴。";
-                public static LocString WELCOME_2 = "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。";
-                public static LocString WELCOME_3 = "打印舱送来了一位新伙伴,{pair}第一个迎了上去。";
-                public static LocString WELCOME_4 = "新人的第一顿饭,是{pair}陪着吃的。";
+                public static LocString FAMINE_WARNING_1 = "粮仓见了底,恐慌在殖民地蔓延。";
+                public static LocString FAMINE_WARNING_2 = "最后一块软泥糕也见了底,没人敢想明天。";
+                public static LocString FAMINE_WARNING_3 = "饿肚子的消息比氧气传得还快。";
+                public static LocString GREET_1 = "{pair}擦肩而过,互相点了点头。";
+                public static LocString GREET_2 = "{pair}在走廊里打了个招呼。";
+                public static LocString GREET_3 = "{pair}碰面时寒暄了两句。";
+                public static LocString GREET_4 = "{pair}远远地挥了挥手。";
+                public static LocString GREET_5 = "{pair}隔着半条走廊对视了一眼,心照不宣。";
+                public static LocString GREET_6 = "{pair}在打印舱前排着队,顺便打了招呼。";
+                public static LocString GREET_BRAWL_BOND_1 = "{pair}一照面就乐了,谁还记得当初那一架。";
+                public static LocString GREET_EATER_1 = "{actor}嘴里还嚼着米虱糕,含混地跟{other}打了招呼。";
+                public static LocString GREET_GENTLE_1 = "{actor}轻轻朝{other}点了点头,笑得很暖。";
+                public static LocString GREET_HOTHEAD_1 = "{actor}打招呼跟下命令似的,{other}还是应了。";
+                public static LocString GREET_LOUD_1 = "{actor}大老远就冲{other}嚷了一嗓子问好。";
+                public static LocString GREET_NERVOUS_1 = "{actor}左右看了看,才小声跟{other}打了招呼。";
+                public static LocString HAZARD_COMRADE_1 = "{pair}一起扛过了危险的活,有了过命的交情。";
+                public static LocString HAZARD_COMRADE_2 = "从危险区活着出来,{pair}看彼此的眼神都不一样了。";
+                public static LocString HAZARD_COMRADE_3 = "生死关头上{pair}谁都没先跑,这交情假不了。";
+                public static LocString HAZARD_EASED_1 = "{actor}对{other}的那点怨气,慢慢散了。";
+                public static LocString HAZARD_EASED_2 = "{actor}想通了:危险活总得有人干,不该怨{other}。";
+                public static LocString HAZARD_EASED_3 = "时间把那点火气磨平了,{actor}看{other}顺眼多了。";
+                public static LocString HAZARD_GRATITUDE_1 = "{other}替{actor}挡了危险活,{actor}记在了心里。";
+                public static LocString HAZARD_GRATITUDE_2 = "危险活落下来的时候,{other}先一步接了,{actor}不会忘。";
+                public static LocString HAZARD_GRATITUDE_3 = "{actor}欠{other}一个人情,还是拿命换的那种。";
+                public static LocString HAZARD_RESENT_1 = "{actor}又下了一天危险区,对{other}的轻松差事有了怨气。";
+                public static LocString HAZARD_RESENT_2 = "同样是下矿井,凭什么{actor}总去危险的那头——{actor}越想越不是滋味。";
+                public static LocString HAZARD_RESENT_3 = "{actor}数着{other}的清闲日子,心里的账越记越厚。";
+                public static LocString JEALOUSY_1 = "{actor}看见{other}和{third}有说有笑,心里很不是滋味。";
+                public static LocString JEALOUSY_2 = "{actor}吃醋了。";
+                public static LocString JEALOUSY_3 = "{third}和{other}聊得投机,{actor}在旁边数了很久的浮土。";
+                public static LocString JEALOUSY_4 = "那股酸劲儿,{actor}自己也说不清来由。";
+                public static LocString LOSS_CRUSH_1 = "{other}走了,{actor}把没说出口的话咽了回去。";
+                public static LocString LOSS_CRUSH_2 = "{other}没能等到{actor}鼓起勇气的那一天。";
+                public static LocString LOSS_CRUSH_3 = "{actor}把准备了好久的话,说给了{other}空着的床铺。";
+                public static LocString LOSS_PARTNER_1 = "{actor}失去了{other},整个人都垮了。";
+                public static LocString LOSS_PARTNER_2 = "{other}的床铺空了下来,{actor}很久都不去看那个方向。";
+                public static LocString LOSS_PARTNER_3 = "往后的排班表上再没有{other}的名字,{actor}的日子也空了一块。";
+                public static LocString MEAL_1 = "{pair}在{place}一起吃了顿饭。";
+                public static LocString MEAL_2 = "{pair}边吃边聊,很放松。";
+                public static LocString MEAL_3 = "{pair}拼了一桌,聊了很久。";
+                public static LocString MEAL_4 = "{pair}端着餐盘坐到了一起。";
+                public static LocString MEAL_5 = "{pair}分食了一份软泥糕,谁也没嫌弃谁。";
+                public static LocString MEAL_6 = "饭菜还是老样子,但{pair}这桌的笑声是新的。";
+                public static LocString MEAL_COLD_1 = "{pair}隔着一张桌子,谁也没先开口。";
+                public static LocString MEAL_COMRADE_1 = "{pair}边吃边碰了碰杯,过命的交情都在里头。";
+                public static LocString MEAL_COUPLE_1 = "{pair}挨着坐下,这顿饭吃得很甜。";
+                public static LocString MEAL_CRUSH_1 = "{pair}同桌吃饭,谁都吃得心不在焉。";
+                public static LocString MEAL_EATER_1 = "{actor}把自己那份点心拨给了{other}。";
+                public static LocString MEAL_EATER_2 = "{pair}的餐盘收得格外干净。";
+                public static LocString MEAL_EX_1 = "{pair}同桌吃饭,各自盯着餐盘。";
+                public static LocString MEAL_GENTLE_1 = "{actor}把热乎的那份让给了{other}。";
+                public static LocString MEAL_HOTHEAD_1 = "{actor}嫌饭菜淡了,{other}默默把盐罐推了过去。";
+                public static LocString MEAL_LOUD_1 = "{pair}这桌最热闹,{actor}的嗓门半个餐厅都听得见。";
+                public static LocString MEAL_NERVOUS_1 = "{actor}吃得心不在焉,{other}问了三遍才应声。";
+                public static LocString MEAL_RIVAL_1 = "{pair}同桌吃饭,刀叉碰得格外响。";
+                public static LocString MEAL_WAITED_1 = "{pair}挨着坐下,这顿饭等了不止一天。";
+                public static LocString MERGE_CHAT_1 = "{pair}这天凑在一起聊了好几回。";
+                public static LocString MERGE_CHAT_2 = "{pair}这一天有说不完的话。";
+                public static LocString MERGE_GREET_1 = "{pair}这一天打了不少照面,越来越熟络。";
+                public static LocString MERGE_MEAL_1 = "{pair}这天一起吃了好几顿饭。";
+                public static LocString MERGE_SOCIALIZE_1 = "{pair}这天一有空就凑在一块儿玩。";
+                public static LocString PAIR_JOINER = "{0} 和 {1}";
+                public static LocString PARTY_1 = "{pair}参加了{place}的聚会。";
+                public static LocString PARTY_2 = "{pair}在聚会上玩开了。";
+                public static LocString PARTY_3 = "{pair}在聚会上碰了杯,果汁都快喝出酒味了。";
+                public static LocString PARTY_4 = "聚会的灯光下,{pair}比平时健谈了不少。";
+                public static LocString PARTY_5 = "{pair}一直待到聚会散场,还意犹未尽。";
+                public static LocString REACT_BAD_1 = "殖民地里的空气沉了几天。";
+                public static LocString REACT_BAD_2 = "大家看在眼里,都不好受。";
+                public static LocString REACT_GOOD_1 = "消息很快传开,大家都在谈论他们。";
+                public static LocString REACT_GOOD_2 = "整个殖民地都替他们高兴。";
+                public static LocString RECONCILE_1 = "{pair}冰释前嫌,重归于好。";
+                public static LocString RECONCILE_2 = "{pair}把旧账翻篇,重新坐到了一张桌上。";
+                public static LocString RECONCILE_3 = "谁先开的口已经不重要,{pair}和好了。";
+                public static LocString RECONCILE_4 = "冷战结束的那天,{pair}都松了一口气。";
+                public static LocString RECUR_AGAIN = "又一次,";
+                public static LocString RECUR_MANY = "这已经是第{0}次了,";
+                public static LocString REKINDLE_1 = "{pair}重新走到了一起。";
+                public static LocString REKINDLE_2 = "{pair}绕了一圈,又回到了彼此身边。";
+                public static LocString REKINDLE_3 = "有些分开只是为了想清楚,{pair}想清楚了。";
+                public static LocString REKINDLE_4 = "{pair}再次牵起手,比第一次还要用力。";
+                public static LocString REST_1 = "{pair}同屋睡了一晚,作息很合拍。";
+                public static LocString REST_2 = "{pair}的床铺挨着,夜里翻身都怕吵到对方。";
+                public static LocString REST_3 = "熄灯之后,{pair}又小声聊了一会儿才睡。";
+                public static LocString REST_4 = "同一个屋檐下,{pair}连打鼾的节奏都磨合出来了。";
+                public static LocString REST_CLASH_1 = "{pair}作息不合,谁都没睡好。";
+                public static LocString REST_COLD_1 = "{pair}同屋睡了一晚,屋里冷得像冰窖。";
+                public static LocString REST_COUPLE_1 = "{pair}挤一张床睡了一晚,醒来还牵着手。";
+                public static LocString REST_CRUSH_1 = "{pair}同屋睡了一晚,都睡得不踏实。";
+                public static LocString REST_CRYBABY_1 = "{actor}夜里掉了几滴眼泪,{other}装作没听见。";
+                public static LocString REST_EATER_1 = "{actor}睡前又摸出一块点心,{other}闻着香味睡不着。";
+                public static LocString REST_EX_1 = "{pair}同屋睡了一晚,谁也没提从前。";
+                public static LocString REST_GENTLE_1 = "{actor}起夜轻手轻脚,生怕吵醒{other}。";
+                public static LocString REST_LOUD_1 = "{actor}的呼噜声,{other}听了一整夜。";
+                public static LocString REST_NERVOUS_1 = "{actor}翻来覆去睡不着,{other}陪着说了会儿话。";
+                public static LocString REST_RIVAL_1 = "{pair}同屋睡了一晚,背对着背。";
+                public static LocString RIVAL_1 = "{pair}结下了梁子,成了宿敌。";
+                public static LocString RIVAL_2 = "{pair}的恩怨从此有了名字:宿敌。";
+                public static LocString RIVAL_3 = "往后很长一段日子,{pair}都不会给对方好脸色。";
+                public static LocString RIVAL_DIED_1 = "{other}死了,{actor}心里说不出是什么滋味。";
+                public static LocString RIVAL_DIED_2 = "宿敌死了,{actor}突然发现走廊安静了不少。";
+                public static LocString RIVAL_DIED_3 = "{actor}曾盼着赢过{other},如今再也没有对手了。";
+                public static LocString RIVAL_OVER_1 = "{pair}放下了宿怨。";
+                public static LocString RIVAL_OVER_2 = "{pair}握了握手,宿怨到此为止。";
+                public static LocString RIVAL_OVER_3 = "恨一个人也挺累的,{pair}决定算了。";
+                public static LocString SELF_NAME = "我";
+                public static LocString SEQ_APOLOGY = "继那次争吵之后,";
+                public static LocString SEQ_BRAWL = "那场争吵终究没收住,";
+                public static LocString SEQ_BREAKUP = "裂痕再也没能弥合,";
+                public static LocString SEQ_COMFORT = "目睹了那场崩溃之后,";
+                public static LocString SEQ_CONFESSION_AFTER_FAIL = "上次的拒绝没有让{actor}放弃,";
+                public static LocString SEQ_RECONCILE = "冷战了这些日子,";
+                public static LocString SEQ_REKINDLE = "分开之后,他们还是放不下彼此,";
+                public static LocString SEQ_RIVAL = "积怨已久,";
+                public static LocString SOCIALIZE_1 = "{pair}在{place}一起玩了一会儿。";
+                public static LocString SOCIALIZE_2 = "{pair}在休息区碰头,玩得很开心。";
+                public static LocString SOCIALIZE_3 = "{pair}在{place}消磨了一段好时光。";
+                public static LocString SOCIALIZE_4 = "{pair}较量了几局,输赢已经不重要了。";
+                public static LocString SOCIALIZE_5 = "{pair}把一天的疲惫都玩没了。";
+                public static LocString SOCIALIZE_CRYBABY_1 = "{actor}输了游戏差点哭出来,{other}赶紧让了他一局。";
+                public static LocString SOCIALIZE_GENTLE_1 = "{actor}总把输赢让给{other},两个人都玩得开心。";
+                public static LocString SOCIALIZE_HOTHEAD_1 = "玩游戏时{actor}又急了眼,{other}笑着让了他一把。";
+                public static LocString SOCIALIZE_LOUD_1 = "就数{actor}的笑声最响,{other}的耳朵遭了殃。";
+                public static LocString SOCIALIZE_NERVOUS_1 = "{actor}玩得提心吊胆,{other}一直在旁边打气。";
                 public static LocString STRESS_BAD_1 = "{subject}的压力又重了一分。";
                 public static LocString STRESS_BAD_2 = "{subject}的眉头又拧紧了一分。";
                 public static LocString STRESS_BAD_3 = "弦绷得太久,{subject}自己都能听见响声。";
                 public static LocString STRESS_GOOD_1 = "{subject}松了一口气。";
                 public static LocString STRESS_GOOD_2 = "{subject}睡了个好觉,脸色缓过来了。";
                 public static LocString STRESS_GOOD_3 = "压在心口的那块浮土,{subject}总算掸掉了些。";
-                public static LocString GREET_LOUD_1 = "{actor}大老远就冲{other}嚷了一嗓子问好。";
-                public static LocString GREET_HOTHEAD_1 = "{actor}打招呼跟下命令似的,{other}还是应了。";
-                public static LocString GREET_NERVOUS_1 = "{actor}左右看了看,才小声跟{other}打了招呼。";
-                public static LocString GREET_GENTLE_1 = "{actor}轻轻朝{other}点了点头,笑得很暖。";
-                public static LocString GREET_EATER_1 = "{actor}嘴里还嚼着米虱糕,含混地跟{other}打了招呼。";
-                public static LocString CHAT_LOUD_1 = "{actor}大着嗓门跟{other}聊了个痛快。";
-                public static LocString CHAT_HOTHEAD_1 = "{actor}说着说着就提高了音量,{other}居然没介意。";
-                public static LocString CHAT_HOTHEAD_2 = "{actor}越聊越激动,差点拍了桌子。";
-                public static LocString CHAT_NERVOUS_1 = "{actor}压低声音跟{other}嘀咕了半天,不知在担心什么。";
-                public static LocString CHAT_GENTLE_1 = "{actor}说话轻声细语,{other}听得直点头。";
-                public static LocString CHAT_CRYBABY_1 = "{actor}说着说着眼圈就红了,{other}赶紧岔开了话题。";
-                public static LocString CHAT_EATER_1 = "{actor}边吃边聊,{other}的话头总被咀嚼声盖过去。";
-                public static LocString MEAL_EATER_1 = "{actor}把自己那份点心拨给了{other}。";
-                public static LocString MEAL_EATER_2 = "{pair}的餐盘收得格外干净。";
-                public static LocString MEAL_GENTLE_1 = "{actor}把热乎的那份让给了{other}。";
-                public static LocString MEAL_LOUD_1 = "{pair}这桌最热闹,{actor}的嗓门半个餐厅都听得见。";
-                public static LocString MEAL_HOTHEAD_1 = "{actor}嫌饭菜淡了,{other}默默把盐罐推了过去。";
-                public static LocString MEAL_NERVOUS_1 = "{actor}吃得心不在焉,{other}问了三遍才应声。";
-                public static LocString REST_NERVOUS_1 = "{actor}翻来覆去睡不着,{other}陪着说了会儿话。";
-                public static LocString REST_CRYBABY_1 = "{actor}夜里掉了几滴眼泪,{other}装作没听见。";
-                public static LocString REST_LOUD_1 = "{actor}的呼噜声,{other}听了一整夜。";
-                public static LocString REST_GENTLE_1 = "{actor}起夜轻手轻脚,生怕吵醒{other}。";
-                public static LocString REST_EATER_1 = "{actor}睡前又摸出一块点心,{other}闻着香味睡不着。";
-                public static LocString SOCIALIZE_HOTHEAD_1 = "玩游戏时{actor}又急了眼,{other}笑着让了他一把。";
-                public static LocString SOCIALIZE_LOUD_1 = "就数{actor}的笑声最响,{other}的耳朵遭了殃。";
-                public static LocString SOCIALIZE_CRYBABY_1 = "{actor}输了游戏差点哭出来,{other}赶紧让了他一局。";
-                public static LocString SOCIALIZE_GENTLE_1 = "{actor}总把输赢让给{other},两个人都玩得开心。";
-                public static LocString SOCIALIZE_NERVOUS_1 = "{actor}玩得提心吊胆,{other}一直在旁边打气。";
-                public static LocString VENT_CRYBABY_1 = "{actor}说着说着就哭了,{other}默默递了张纸巾。";
-                public static LocString VENT_HOTHEAD_1 = "{actor}骂骂咧咧倒完苦水,{other}从头听到尾。";
-                public static LocString VENT_NERVOUS_1 = "{actor}絮絮叨叨说了半天担心,{other}一条条帮他理清。";
-                public static LocString VENT_LOUD_1 = "{actor}的苦水,半个休息区都听见了。";
-                public static LocString VENT_GENTLE_1 = "{actor}连诉苦都轻声细语,{other}听得格外认真。";
-                public static LocString CHAT_EX_1 = "{pair}聊了几句,客气得像刚认识。";
-                public static LocString CHAT_RIVAL_1 = "{pair}话里带刺,聊得像在过招。";
-                public static LocString CHAT_CRUSH_1 = "{pair}聊着聊着,目光就躲到了别处。";
-                public static LocString CHAT_COLD_1 = "{pair}僵着脖子,交换了几句必要的话。";
-                public static LocString CHAT_COUPLE_1 = "{pair}凑在一起说悄悄话,旁若无人。";
-                public static LocString MEAL_EX_1 = "{pair}同桌吃饭,各自盯着餐盘。";
-                public static LocString MEAL_RIVAL_1 = "{pair}同桌吃饭,刀叉碰得格外响。";
-                public static LocString MEAL_CRUSH_1 = "{pair}同桌吃饭,谁都吃得心不在焉。";
-                public static LocString REST_EX_1 = "{pair}同屋睡了一晚,谁也没提从前。";
-                public static LocString REST_RIVAL_1 = "{pair}同屋睡了一晚,背对着背。";
-                public static LocString REST_CRUSH_1 = "{pair}同屋睡了一晚,都睡得不踏实。";
-                public static LocString REST_COLD_1 = "{pair}同屋睡了一晚,屋里冷得像冰窖。";
-                public static LocString REST_COUPLE_1 = "{pair}挤一张床睡了一晚,醒来还牵着手。";
-                public static LocString GREET_BRAWL_BOND_1 = "{pair}一照面就乐了,谁还记得当初那一架。";
-                public static LocString CHAT_BRAWL_BOND_1 = "{pair}聊得热络——不打不相识。";
-                public static LocString CHAT_COMRADE_1 = "{pair}聊起那次死里逃生,话就没个完。";
-                public static LocString MEAL_COMRADE_1 = "{pair}边吃边碰了碰杯,过命的交情都在里头。";
-                public static LocString CHAT_WAITED_1 = "{pair}有说有笑,当初那次拒绝如今成了笑谈。";
-                public static LocString MEAL_WAITED_1 = "{pair}挨着坐下,这顿饭等了不止一天。";
-                public static LocString SEQ_APOLOGY = "继那次争吵之后,";
-                public static LocString SEQ_CONFESSION_AFTER_FAIL = "上次的拒绝没有让{actor}放弃,";
-                public static LocString SEQ_REKINDLE = "分开之后,他们还是放不下彼此,";
-                public static LocString SEQ_COMFORT = "目睹了那场崩溃之后,";
-                public static LocString SEQ_RECONCILE = "冷战了这些日子,";
-                public static LocString SEQ_BRAWL = "那场争吵终究没收住,";
-                public static LocString SEQ_RIVAL = "积怨已久,";
-                public static LocString SEQ_BREAKUP = "裂痕再也没能弥合,";
-                public static LocString RECUR_AGAIN = "又一次,";
-                public static LocString RECUR_MANY = "这已经是第{0}次了,";
-                public static LocString ERA_FAMINE = "在断粮的阴影下,";
-                public static LocString ERA_WRATH = "在众怒未平的日子里,";
-                public static LocString REACT_GOOD_1 = "消息很快传开,大家都在谈论他们。";
-                public static LocString REACT_GOOD_2 = "整个殖民地都替他们高兴。";
-                public static LocString REACT_BAD_1 = "殖民地里的空气沉了几天。";
-                public static LocString REACT_BAD_2 = "大家看在眼里,都不好受。";
-                public static LocString MERGE_CHAT_1 = "{pair}这天凑在一起聊了好几回。";
-                public static LocString MERGE_CHAT_2 = "{pair}这一天有说不完的话。";
-                public static LocString MERGE_GREET_1 = "{pair}这一天打了不少照面,越来越熟络。";
-                public static LocString MERGE_MEAL_1 = "{pair}这天一起吃了好几顿饭。";
-                public static LocString MERGE_SOCIALIZE_1 = "{pair}这天一有空就凑在一块儿玩。";
-                public static LocString TOPIC_WORK = "手上的活计";
-                public static LocString TOPIC_ROLE = "彼此的差事";
-                public static LocString TOPIC_MINING = "挖掘的进展";
-                public static LocString TOPIC_BUILDING = "建造的门道";
-                public static LocString TOPIC_COOKING = "新琢磨的菜谱";
-                public static LocString TOPIC_FARMING = "庄稼的长势";
-                public static LocString TOPIC_RANCHING = "小动物的脾气";
-                public static LocString TOPIC_RESEARCH = "研究的新发现";
-                public static LocString TOPIC_OPERATING = "机器的维护";
-                public static LocString TOPIC_DOCTORING = "包扎的手法";
-                public static LocString TOPIC_HAULING = "搬货的路线";
+                public static LocString TEACH_1 = "{actor}手把手教{other}干活。";
+                public static LocString TEACH_2 = "{actor}给{other}讲了些独门窍门。";
+                public static LocString TEACH_3 = "{actor}演示了一遍,{other}看得眼睛都不眨。";
+                public static LocString TEACH_4 = "{actor}说只教一遍,{other}决定回去自己偷偷练。";
+                public static LocString TEACH_5 = "有些手艺是排班表上学不到的,{actor}传给了{other}。";
                 public static LocString TOPIC_ART = "新挂的装饰";
                 public static LocString TOPIC_ATHLETICS = "锻炼的心得";
-                public static LocString TOPIC_SUITS = "穿气压服的窍门";
-                public static LocString TOPIC_JOB_MINER = "矿道里的事";
+                public static LocString TOPIC_BUILDING = "建造的门道";
+                public static LocString TOPIC_COOKING = "新琢磨的菜谱";
+                public static LocString TOPIC_DOCTORING = "包扎的手法";
+                public static LocString TOPIC_FARMING = "庄稼的长势";
+                public static LocString TOPIC_HAULING = "搬货的路线";
                 public static LocString TOPIC_JOB_BUILDER = "新盖的走廊";
                 public static LocString TOPIC_JOB_COOK = "灶台上的新花样";
+                public static LocString TOPIC_JOB_DOCTOR = "医务室的药箱";
                 public static LocString TOPIC_JOB_FARMER = "地里的收成";
+                public static LocString TOPIC_JOB_MINER = "矿道里的事";
+                public static LocString TOPIC_JOB_OPERATOR = "机器的毛病";
                 public static LocString TOPIC_JOB_RANCHER = "圈里的小家伙们";
                 public static LocString TOPIC_JOB_RESEARCHER = "实验台前的发现";
-                public static LocString TOPIC_JOB_OPERATOR = "机器的毛病";
-                public static LocString TOPIC_JOB_DOCTOR = "医务室的药箱";
+                public static LocString TOPIC_MINING = "挖掘的进展";
+                public static LocString TOPIC_OPERATING = "机器的维护";
+                public static LocString TOPIC_RANCHING = "小动物的脾气";
+                public static LocString TOPIC_RESEARCH = "研究的新发现";
+                public static LocString TOPIC_ROLE = "彼此的差事";
+                public static LocString TOPIC_SUITS = "穿气压服的窍门";
+                public static LocString TOPIC_WORK = "手上的活计";
+                public static LocString VENT_1 = "{actor}向{other}倒了一肚子苦水。";
+                public static LocString VENT_2 = "{other}听{actor}倾诉了很久。";
+                public static LocString VENT_3 = "{actor}把今天的糟心事一件一件数给{other}听。";
+                public static LocString VENT_4 = "{actor}问{other}这日子什么时候是个头,{other}答不上来。";
+                public static LocString VENT_5 = "苦水倒完了,{actor}觉得肩上的浮土都轻了些。";
+                public static LocString VENT_CRYBABY_1 = "{actor}说着说着就哭了,{other}默默递了张纸巾。";
+                public static LocString VENT_GENTLE_1 = "{actor}连诉苦都轻声细语,{other}听得格外认真。";
+                public static LocString VENT_HOTHEAD_1 = "{actor}骂骂咧咧倒完苦水,{other}从头听到尾。";
+                public static LocString VENT_LOUD_1 = "{actor}的苦水,半个休息区都听见了。";
+                public static LocString VENT_NERVOUS_1 = "{actor}絮絮叨叨说了半天担心,{other}一条条帮他理清。";
+                public static LocString VENT_STRESS_1 = "{actor}的情绪快压不住了,{other}陪他坐了一会儿。";
+                public static LocString WELCOME_1 = "{pair}迎接了新来的同伴。";
+                public static LocString WELCOME_2 = "{pair}帮新来的同伴安顿下来,讲了讲基地的规矩。";
+                public static LocString WELCOME_3 = "打印舱送来了一位新伙伴,{pair}第一个迎了上去。";
+                public static LocString WELCOME_4 = "新人的第一顿饭,是{pair}陪着吃的。";
+                public static LocString WITNESS_1 = "{actor}崩溃的样子,{other}都看在眼里。";
+                public static LocString WITNESS_2 = "{other}别过脸去,却没能忘掉{actor}崩溃的那一幕。";
+                public static LocString WITNESS_3 = "看着{actor}崩溃,{other}第一次觉得基地这么安静。";
+                public static LocString WITNESS_SOLO_1 = "{subject}目睹了同伴的崩溃,心里很沉重。";
+                public static LocString WITNESS_SOLO_2 = "{subject}撞见了同伴的崩溃,之后一整天都心不在焉。";
+                public static LocString WRATH_BLAME_1 = "{actor}带头把账算到了{other}头上。";
+                public static LocString WRATH_BLAME_2 = "出了事,总得有人背锅——{actor}领着大家选了{other}。";
+                public static LocString WRATH_BLAME_3 = "{actor}一句话,就把众人的怒火引向了{other}。";
+                public static LocString WRATH_FADED_1 = "针对{subject}的孤立,总算过去了。";
+                public static LocString WRATH_FADED_2 = "殖民地找到了新的谈资,{subject}的那档子事没人再提。";
+                public static LocString WRATH_FADED_3 = "日子一长,连怒火也会过期——{subject}重新融进了人群。";
+                public static LocString WRATH_ISOLATED_1 = "{other}被孤立了,没人愿意跟他说话。";
+                public static LocString WRATH_ISOLATED_2 = "{other}走进餐厅,一整桌的人都收了声。";
+                public static LocString WRATH_ISOLATED_3 = "现在连哈奇都比{other}受欢迎。";
+                public static LocString WRATH_PUNCH_1 = "{actor}趁没人注意,揍了{other}一顿。";
+                public static LocString WRATH_PUNCH_2 = "排班表的空档里,{actor}堵住了{other}。";
+                public static LocString WRATH_PUNCH_3 = "{actor}挑了个四下无人的时候,把火气撒在了{other}身上。";
+                public static LocString WRATH_RESCUE_1 = "{actor}向{other}伸出了援手。";
+                public static LocString WRATH_RESCUE_2 = "{actor}端着餐盘坐到{other}旁边,孤立的墙塌了一角。";
+                public static LocString WRATH_RESCUE_3 = "所有人都绕开{other}的时候,{actor}偏偏走了过去。";
+                public static LocString WRATH_SAW_CRYING_1 = "{subject}撞见他一个人躲着哭。";
+                public static LocString WRATH_SAW_CRYING_2 = "{subject}路过时听见哭声,放轻了脚步。";
+                public static LocString WRATH_SAW_CRYING_3 = "躲在角落里的那个人哭了很久,{subject}没有上前。";
+                public static LocString WRATH_SPEAK_UP_1 = "{actor}当众替{other}说了句公道话。";
+                public static LocString WRATH_SPEAK_UP_2 = "{actor}当着所有人的面替{other}说话,没人再吭声。";
+                public static LocString WRATH_SPEAK_UP_3 = "众怒汹汹的时候,{actor}是唯一肯替{other}开口的人。";
+                public static LocString WRATH_WITNESS_1 = "{subject}看见了那场私刑。";
+                public static LocString WRATH_WITNESS_2 = "{subject}撞见了那一幕,慌忙装作没看见。";
+                public static LocString WRATH_WITNESS_3 = "有些事看见了也只能咽下去,{subject}把嘴闭得很紧。";
             }
-
-            public class ANNOUNCE
+            public class MANAGEMENT
             {
-                public static LocString INTRO_TITLE = "社交生活已开始";
-                public static LocString INTRO_BODY = "复制人有了自己的社交生活：聊天、交友、恋爱、争执都会自然发生。顶部管理菜单的「社交」可以旁观全局并牵线搭桥；复制人详情的「社交」标签可以查看每个人的关系。";
-                public static LocString CONFESSION_TITLE = "喜结连理";
-                public static LocString CONFESSION_BODY = "{0} 向 {1} 告白成功，两人正式成为恋人！";
-                public static LocString BREAKUP_TITLE = "分手了";
-                public static LocString BREAKUP_BODY = "{0} 和 {1} 的感情走到了尽头。";
-                public static LocString STRAW_SUFFIX = "压垮感情的最后一根稻草：{0}（周期 {1}）。";
-                public static LocString WIDOWED_TITLE = "失去了伴侣";
-                public static LocString WIDOWED_BODY = "{0} 失去了伴侣 {1}，陷入悲伤。";
-                public static LocString COLDWAR_TITLE = "冷战";
-                public static LocString COLDWAR_BODY = "{0} 和 {1} 进入冷战，关系岌岌可危。给他们一个牵线标记可以促成和解。";
-                public static LocString RECONCILE_TITLE = "和好如初";
-                public static LocString RECONCILE_BODY = "{0} 和 {1} 冰释前嫌，重归于好。";
-                public static LocString MOURNING_TITLE = "默默哀悼";
-                public static LocString MOURNING_BODY = "{0} 在心里悼念逝去的 {1}。";
-                public static LocString BESTFRIEND_TITLE = "挚友";
-                public static LocString BESTFRIEND_BODY = "{0} 和 {1} 成为彼此的挚友。";
-                public static LocString COHESION_ON_TITLE = "殖民地羁绊";
-                public static LocString COHESION_ON_BODY = "殖民地人心凝聚，全员士气提升。";
-                public static LocString DISCORD_ON_TITLE = "殖民地不和";
-                public static LocString DISCORD_ON_BODY = "殖民地气氛紧张，全员士气受挫。";
-                public static LocString COHESION_OFF_TITLE = "气氛回归平静";
-                public static LocString COHESION_OFF_BODY = "殖民地的集体情绪回到了平常状态。";
-                public static LocString ANNIVERSARY_TITLE = "纪念日";
-                public static LocString ANNIVERSARY_BODY = "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。";
-                public static LocString ANNIVERSARY_MISSED_TITLE = "错过的纪念日";
-                public static LocString ANNIVERSARY_MISSED_BODY = "{0} 和 {1} 的纪念日在忙碌中溜走了，两人都有点闷闷不乐。";
-                public static LocString FALLOUT_TITLE = "闹掰了";
-                public static LocString FALLOUT_BODY = "{0} 和 {1} 积怨爆发，正式闹掰——一段时间内感情难以升温，一次道歉就能和好清账。";
-                public static LocString COMFORT_TITLE = "低谷陪伴";
-                public static LocString COMFORT_BODY = "{0} 坐在 {1} 身边，默默陪伴着悲伤中的伙伴。";
-                public static LocString LOVE_MATURE_TITLE = "老夫老妻";
-                public static LocString LOVE_MATURE_BODY = "{0} 和 {1} 相伴日久，感情进入细水长流的阶段。";
-                public static LocString RIVAL_TITLE = "结下宿敌";
-                public static LocString RIVAL_BODY = "{0} 和 {1} 积怨到底，正式结下宿敌——这段关系不再自行回暖，除非你出手牵线调解。";
-                public static LocString RIVAL_OVER_TITLE = "宿敌和解";
-                public static LocString RIVAL_OVER_BODY = "{0} 和 {1} 的宿怨终于化开，关系回到了正常轨道。";
-                public static LocString BRAWL_TITLE = "打起来了！";
-                public static LocString BRAWL_BODY = "{0} 和 {1} 从争吵升级成互殴。点到为止，但两人都要挂彩。";
-                public static LocString WRATH_BLAME_TITLE = "总得有人负责";
-                public static LocString WRATH_BLAME_BODY = "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。";
-                public static LocString WRATH_ISOLATED_TITLE = "没人跟他说话了";
-                public static LocString WRATH_ISOLATED_BODY = "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。";
-                public static LocString WRATH_SPEAK_UP_TITLE = "有人说了句公道话";
-                public static LocString WRATH_SPEAK_UP_BODY = "{0} 当众替 {1} 说了话。没人再提这件事了。";
-                public static LocString WRATH_RESCUE_TITLE = "第一个坐下来的人";
-                public static LocString WRATH_RESCUE_BODY = "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。";
-                public static LocString WRATH_PUNCH_TITLE = "没人看见";
-                public static LocString WRATH_PUNCH_BODY = "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。";
-                public static LocString WRATH_FADED_TITLE = "被淡忘了";
-                public static LocString WRATH_FADED_BODY = "没人救 {0}，但也没人再记得那件事了。日子照过。";
-                public static LocString BREAKDOWN_TITLE = "整个房间都看着";
-                public static LocString BREAKDOWN_BODY = "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。";
-                public static LocString BREAKDOWN_COMFORT_TITLE = "第一个坐下来的人";
-                public static LocString BREAKDOWN_COMFORT_BODY = "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。";
-                public static LocString BRAWL_BOND_TITLE = "不打不相识";
-                public static LocString BRAWL_BOND_BODY = "{0} 和 {1} 打完这一架反而认了对方，宿怨就此了结。";
-                public static LocString FAMINE_WARNING_TITLE = "粮仓见底了";
-                public static LocString FAMINE_WARNING_BODY = "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。";
-                public static LocString FAMINE_AVERTED_TITLE = "危机解除";
-                public static LocString FAMINE_AVERTED_BODY = "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。";
-                public static LocString FAMINE_CULL_TITLE = "活下去！";
-                public static LocString FAMINE_CULL_BODY = "{0} 和 {1} 之间的事已经不是吵架了。饥饿把最后一点体面也拿走了。";
-                public static LocString FAMINE_OVER_TITLE = "饥荒过去了";
-                public static LocString FAMINE_OVER_BODY = "储藏室重新有了食物。没有人问那是什么。";
-                public static LocString FAMINE_LAST_ONE_TITLE = "最后的殖民者";
-                public static LocString FAMINE_LAST_ONE_BODY = "只剩一个人了。基地很安静，食物也够了。";
-                public static LocString RIVAL_DIED_TITLE = "对头不在了";
-                public static LocString RIVAL_DIED_BODY = "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。";
-                public static LocString CONFESSION_FAIL_TITLE = "告白被拒";
-                public static LocString CONFESSION_FAIL_BODY = "{0} 向 {1} 表明了心意，但没有得到回应。";
-                public static LocString REKINDLE_TITLE = "重新牵起手";
-                public static LocString REKINDLE_BODY = "{0} 和 {1} 决定重新开始。";
+                public static LocString ACTION_UNAVAILABLE = "操作失败：社交系统尚未就绪";
+                public static LocString BACK_BUTTON = "返回";
+                public static LocString BLOCK_BUTTON = "拆散";
+                public static LocString BOUNDS_BEST_PICKER = "选择最好关系";
+                public static LocString BOUNDS_BUTTON = "界限";
+                public static LocString BOUNDS_INVALID = "设置失败:最差关系不能好过最好关系";
+                public static LocString BOUNDS_MAX_LABEL = "最好关系:{0}";
+                public static LocString BOUNDS_MIN_LABEL = "最差关系:{0}";
+                public static LocString BOUNDS_PICKER_HINT = "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。";
+                public static LocString BOUNDS_SET = "界限: {0} × {1} → 最好 {2} · 最差 {3}";
+                public static LocString BOUNDS_UNLIMITED = "不限";
+                public static LocString BOUNDS_WORST_PICKER = "选择最差关系";
+                public static LocString CLEARED_MARKS = "[完成] 已清除 {0} 的 {1} 个标记";
+                public static LocString CLEAR_BUTTON = "清除标记";
+                public static LocString CLOSE_BUTTON = "关闭";
+                public static LocString COMPLETED = "[完成] {0}";
+                public static LocString EVENT_LOG_BUTTON = "纪事";
+                public static LocString EVENT_LOG_EMPTY = "暂无事件记录";
+                public static LocString EVENT_LOG_TITLE = "殖民地纪事";
+                public static LocString FILTER_ALL = "全部";
+                public static LocString FILTER_CONFLICT = "冲突";
+                public static LocString FILTER_FRIENDLY = "友好";
+                public static LocString FILTER_MARK = "标记：{0}";
+                public static LocString FILTER_RELATIONSHIP = "关系：{0}";
+                public static LocString FILTER_ROMANCE = "恋爱";
+                public static LocString FILTER_UNMARKED = "未标记";
+                public static LocString GROUP_SORT = "排序：{0}";
+                public static LocString LOG_FILTER_ALL = "人物:全部";
+                public static LocString LOG_FILTER_CLEAR = "清除";
+                public static LocString LOG_FILTER_PERSON = "人物:{0}";
+                public static LocString LOG_NAME_GONE = "{0} 已不在殖民地,无法跳转";
+                public static LocString MARK_CANCEL_HINT = "已取消选择 {0}";
+                public static LocString MARK_CLEARED_FEEDBACK = "已清除 {0} 的 {1} 个标记";
+                public static LocString MARK_PICK_HINT = "已选 {0}，选中另一名复制人后再按一次同一热键";
+                public static LocString MARK_SET_BLOCK = "拆散: {0} × {1}";
+                public static LocString MARK_SET_CLEARED = "取消标记: {0} × {1}";
+                public static LocString MARK_SET_MATCH = "牵线: {0} × {1}";
+                public static LocString MATCH_BUTTON = "牵线";
+                public static LocString MENU_TITLE = "社交";
+                public static LocString MENU_TOOLTIP = "查看殖民地关系并管理牵线和拆散标记";
+                public static LocString NEXT_PAGE = "下一页";
+                public static LocString NO_DUPLICANTS = "没有可选的复制人。";
+                public static LocString NO_FILTER_RESULTS = "没有符合筛选条件的关系";
+                public static LocString OVERVIEW_BUTTON = "关系总览";
+                public static LocString OVERVIEW_SUMMARY = "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}";
+                public static LocString OVERVIEW_TITLE = "殖民地关系";
+                public static LocString PAGE_LABEL = "第 {0}/{1} 页";
+                public static LocString PENDING_ACTION_ROW = "{0}　[{1}]";
+                public static LocString PENDING_BUTTON = "待发生";
+                public static LocString PENDING_CONFESSION = "告白";
+                public static LocString PENDING_EMPTY = "目前没有待发生的社交事件。";
+                public static LocString PENDING_HAPPEN_NOW = "现在发生";
+                public static LocString PENDING_HINT = "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。";
+                public static LocString PENDING_REQUESTED = "事件已请求，正在等待安全时机";
+                public static LocString PENDING_REQUESTED_ROW = "【{0}】{1} → {2} · 正在等待安全会合";
+                public static LocString PENDING_ROW = "【{0}】{1} → {2} · 还剩 {3} 周期";
+                public static LocString PENDING_TITLE = "待发生的社交事件";
+                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。";
+                public static LocString PICKER_BOUNDS_MESSAGE = "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。";
+                public static LocString PICKER_BOUNDS_TITLE = "界限";
+                public static LocString PICKER_CHOOSE_SECOND = "{0} · 选择第二人";
+                public static LocString PICKER_CLEAR_MESSAGE = "选择一名复制人，清除所有与其有关的牵线和拆散标记。";
+                public static LocString PICKER_FILTER_MESSAGE = "选一名复制人,日志只显示他参与的事件——他的一段人生。";
+                public static LocString PICKER_FILTER_TITLE = "查看谁的故事?";
+                public static LocString PICKER_MATCH_MESSAGE = "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。";
+                public static LocString PICKER_SELECTED = "已选择 {0}。请选择另一名复制人完成操作。";
+                public static LocString PREVIOUS_PAGE = "上一页";
+                public static LocString RELATIONSHIP_COUNT = "{0} 段关系";
+                public static LocString ROW_ANNIVERSARY_IN = "纪念日还有 {0} 周期";
+                public static LocString ROW_ANNIVERSARY_TODAY = "今天是纪念日！";
+                public static LocString ROW_BREAKUP_IN = "{0} 周期后分手";
+                public static LocString ROW_EX_LEFT = "前任期还剩 {0} 周期";
+                public static LocString ROW_FALLOUT_LEFT = "闹掰还剩 {0} 周期";
+                public static LocString ROW_RIVAL_FROZEN = "宿敌·冻结中";
+                public static LocString SEARCH_PLACEHOLDER = "搜索复制人姓名";
+                public static LocString SORT_HIGHEST_AFFINITY = "最高好感";
+                public static LocString SORT_NAME = "姓名";
+                public static LocString SORT_RELATIONSHIP_COUNT = "关系数";
+                public static LocString STATE_SUMMARY = "恋人 {0} 对 · 冷战 {1} 对 · 挚友 {2} 对";
+                public static LocString STORY_CHAPTER_CLOSING_QUIET = "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。";
+                public static LocString STORY_CHAPTER_CLOSING_TURNING = "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。";
+                public static LocString STORY_CHAPTER_LEAD_QUIET = "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。";
+                public static LocString STORY_CHAPTER_LEAD_TURNING = "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。";
+                public static LocString STORY_CHAPTER_RANGE = "周期{0}—{1}";
+                public static LocString STORY_CHAPTER_TITLE = "第{0}章 · {1}";
+                public static LocString TELEMETRY_DISABLED = "请先在 Mod 设置中开启「本地玩法数据」";
+                public static LocString TELEMETRY_EXPORT = "导出诊断报告";
+                public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";
+                public static LocString TELEMETRY_EXPORT_FAILED = "诊断报告导出失败：{0}";
             }
-
-            public class DEATHS
-            {
-                public class SURVIVE
-                {
-                    public static LocString NAME = "活下去";
-                    public static LocString DESC = "在粮仓见底的日子里，被同伴夺去了性命。";
-                }
-            }
-
-            public class FOOD
-            {
-                public class CANNIBAL_MEAT
-                {
-                    public static LocString NAME = "「同事」肉";
-                    public static LocString DESC = "断粮那几天留下来的。没有人问这是谁，也没有人愿意先动筷子。";
-                }
-            }
-
-            public class EFFECTS
-            {
-                public class LOVE
-                {
-                    public static LocString NAME = "恋爱中";
-                    public static LocString DESC = "有心上人了，士气提升。";
-                }
-
-                public class LOVE_MATURE
-                {
-                    public static LocString NAME = "老夫老妻";
-                    public static LocString DESC = "相伴已久,是彼此最安心的存在。士气大幅提升。";
-                }
-
-                public class DATE_AFTERGLOW
-                {
-                    public static LocString NAME = "约会余韵";
-                    public static LocString DESC = "刚度过愉快的约会，士气提升。";
-                }
-
-                public class CANNIBAL
-                {
-                    public static LocString NAME = "吃了同事";
-                    public static LocString DESC = "那顿饭是谁，心里清楚。有些事情吃下去就吐不出来了。";
-                }
-
-                public class RIVAL_DIED
-                {
-                    public static LocString NAME = "幸灾乐祸";
-                    public static LocString DESC = "看不顺眼的那个人不在了。嘴上不说，心情确实不错。";
-                }
-
-                public class GRIEF
-                {
-                    public static LocString NAME = "丧偶悲伤";
-                    public static LocString DESC = "失去了心上人，士气下降。";
-                }
-
-                public class GRIEF_SOFT
-                {
-                    public static LocString NAME = "丧偶悲伤（有人陪着）";
-                    public static LocString DESC = "失去了心上人，但殖民地的陪伴减轻了痛苦。";
-                }
-
-                public class COLONY_COHESION
-                {
-                    public static LocString NAME = "殖民地羁绊";
-                    public static LocString DESC = "殖民地上下一条心，全员士气提升。";
-                }
-
-                public class COLONY_DISCORD
-                {
-                    public static LocString NAME = "殖民地不和";
-                    public static LocString DESC = "殖民地关系紧张，全员士气下降。";
-                }
-
-                public class SIDE_BY_SIDE
-                {
-                    public static LocString NAME = "并肩作战";
-                    public static LocString DESC = "和要好的人一起干活，效率提升。";
-                }
-
-                public class STRAINED
-                {
-                    public static LocString NAME = "情绪紧绷";
-                    public static LocString DESC = "压力已经逼近极限，随时可能崩溃。找人聊聊、吃顿好的，或者让 TA 歇一歇。";
-                    public static LocString BUBBLE = "深吸一口气……忍住了";
-                }
-
-                public class WRATH_ISOLATED
-                {
-                    public static LocString NAME = "被孤立";
-                    public static LocString DESC = "殖民地出了事，而 TA 是人缘垫底的那个——所以帐算在 TA 头上了，跟事情是不是 TA 做的无关。有人愿意照顾 TA、找 TA 说话或跟 TA 一起吃顿饭，这个状态就会解除；再久一点，事情也会被淡忘。";
-                }
-            }
-
-            public class SETTINGS
-            {
-                public static LocString TITLE = "社交生活 · 设置";
-                public static LocString BUTTON = "设置";
-                public static LocString BUTTON_TOOLTIP = "打开「复制人社交生活」的设置面板";
-                public static LocString SAVE = "保存";
-                public static LocString CANCEL = "取消";
-                public static LocString RESET = "恢复默认";
-                public static LocString SAVED_FEEDBACK = "已保存，并已对当前会话生效。";
-                public static LocString SAVE_FAILED = "保存失败，详情见日志。";
-                public static LocString RESET_FEEDBACK = "已恢复默认值，点「保存」后生效。";
-                public static LocString RESTART_SUFFIX = "（重启后生效）";
-                public static LocString ON = "开";
-                public static LocString OFF = "关";
-                public static LocString SECTION_AI = "AI 对话";
-                public static LocString ENABLE_AI = "启用 AI 生成对话";
-                public static LocString AI_WIP_HINT = "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整";
-                public static LocString BASE_URL = "API 地址";
-                public static LocString API_KEY = "API Key";
-                public static LocString MODEL = "模型";
-                public static LocString BASE_URL_PLACEHOLDER = "https://api.example.com/v1";
-                public static LocString API_KEY_PLACEHOLDER = "粘贴你的 API Key";
-                public static LocString MODEL_PLACEHOLDER = "模型名称";
-                public static LocString LANGUAGE = "对话语言";
-                public static LocString LANGUAGE_FOLLOW = "跟随游戏";
-                public static LocString LANGUAGE_ZH = "中文";
-                public static LocString LANGUAGE_EN = "English";
-                public static LocString MAX_CONVERSATIONS = "每周期 AI 对话上限";
-                public static LocString PAIR_COOLDOWN = "同一对复制人的对话冷却（秒）";
-                public static LocString TIMEOUT = "AI 请求超时（秒）";
-                public static LocString MAX_TOKENS = "单次生成上限（token）";
-                public static LocString API_KEY_SET = "Key 已填写，保存后立即生效";
-                public static LocString API_KEY_MISSING = "未填写 Key，AI 对话不会发起，仅使用内置台词";
-                public static LocString API_ENDPOINT_MISSING = "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起";
-                public static LocString SECTION_SOCIAL = "社交系统";
-                public static LocString OBSERVE_NATIVE = "观察原生社交事件（关系引擎输入）";
-                public static LocString LOCKED_SUFFIX = "（本版本固定开启）";
-                public static LocString OBSERVE_NATIVE_HINT = "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭";
-                public static LocString HOTKEYS = "F9/F10/F11 牵线热键";
-                public static LocString NOTIFICATIONS = "关系大事通知";
-                public static LocString PRESENTATION_MODE = "关系事件演出";
-                public static LocString PRESENTATION_COMPACT = "简洁";
-                public static LocString PRESENTATION_STANDARD = "标准";
-                public static LocString PRESENTATION_FOCUS = "聚焦";
-                public static LocString PRESENTATION_HINT = "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。";
-                public static LocString AUTO_PAUSE = "重大事件自动暂停";
-                public static LocString AUTO_PAUSE_HINT = "独立开关，默认关闭。打开后重大关系事件发生时暂停游戏。";
-                public static LocString PENDING_WINDOW = "待发生窗口";
-                public static LocString PENDING_WINDOW_HINT = "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。";
-                public static LocString PENDING_CYCLES = "待发生等待周期";
-                public static LocString NOTIFY_MILESTONES = "关系里程碑通知";
-                public static LocString NOTIFY_GRIEF = "悲伤与失去通知";
-                public static LocString NOTIFY_CONFLICT = "冲突与危险通知";
-                public static LocString NOTIFY_EVERYDAY = "日常纪念通知";
-                public static LocString DELIVERY_OFF = "关闭";
-                public static LocString DELIVERY_ARCHIVE = "仅封存";
-                public static LocString DELIVERY_INSTANT = "即时通知";
-                public static LocString PENDING_TITLE = "一件重要的事即将发生";
-                public static LocString PENDING_BODY = "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。";
-                public static LocString CHAT_FEED_COOLDOWN = "同一对复制人的好感进账间隔（秒）";
-                public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。";
-                public static LocString LOG_CAPACITY = "纪事容量（条）";
-                public static LocString LOG_CAPACITY_HINT = "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效";
-                public static LocString SECTION_DARK = "黑暗内容（人性考验）";
-                public static LocString DARK_CONTENT = "启用黑暗内容";
-                public static LocString DARK_CONTENT_HINT = "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响";
-                public static LocString DARK_GATE_CLOSED = "（黑暗内容总开关关闭中，下列项目暂不生效）";
-                public static LocString FAMINE = "允许断粮相残";
-                public static LocString FAMINE_HINT = "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关";
-                public static LocString BREAKDOWN_DRAMA = "把崩溃演成一场戏";
-                public static LocString BREAKDOWN_DRAMA_HINT = "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启";
-                public static LocString HAZARD_RESENTMENT = "危险工时会积怨";
-                public static LocString HAZARD_RESENTMENT_HINT = "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭";
-                public static LocString COLLECTIVE_WRATH = "允许集体迁怒";
-                public static LocString COLLECTIVE_WRATH_HINT = "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭";
-                public static LocString BRAWLS = "允许宿敌互殴";
-                public static LocString BRAWLS_HINT = "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发";
-                public static LocString BOOST_NATIVE = "调快原生对话节奏";
-                public static LocString COOLDOWN_MULT = "原生对话冷却倍率";
-                public static LocString DISTANCE_MULT = "原生对话距离倍率";
-                public static LocString SECTION_UI = "界面与反馈";
-                public static LocString TEXT_POPUPS = "对话台词浮动文字";
-                public static LocString POPUP_SECONDS = "台词停留秒数";
-                public static LocString AFFINITY_POPUPS = "好感增减飘字";
-                public static LocString SECTION_TELEMETRY = "本地玩法数据";
-                public static LocString ENABLE_TELEMETRY = "记录匿名社交遥测";
-                public static LocString TELEMETRY_HINT = "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告";
-                public static LocString SECTION_BALANCE = "平衡";
-                public static LocString PRESET = "戏剧强度预设（读档后生效）";
-                public static LocString PRESET_QUIET = "安静";
-                public static LocString PRESET_DEFAULT = "默认";
-                public static LocString PRESET_DRAMA = "戏剧";
-                public static LocString PRESET_CUSTOM = "自定义";
-                public static LocString PRESET_HINT = "预设调整争执/吃醋/道歉的概率与代价；「安静」少吵少醋，「戏剧」冲突更密";
-                public static LocString STRESS_SOFT_CAP = "社交压力软上限（0 = 关闭）";
-                public static LocString STRAINED_THRESHOLD = "「情绪紧绷」阈值";
-                public static LocString SECTION_DEBUG = "调试（仅开发版可见）";
-                public static LocString DEBUG_HINT = "以下是技术性参数，改坏了用「恢复默认」拉回来";
-                public static LocString MAX_AI_REWRITES_PER_CYCLE = "每周期 AI 润色上限";
-                public static LocString AMBIENT_CHAT_COOLDOWN = "同一复制人的日常闲聊冷却（秒）";
-                public static LocString ROUTINE_CHRONICLE_LIMIT = "每周期收录的日常纪事";
-                public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天进账上限（次）";
-                public static LocString CHAT_FEED_LIMIT_HINT = "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
-            }
-
             public class SCENE
             {
+                public static LocString BREAKUP_KEY = "我们还是到这里吧。";
+                public static LocString BREAKUP_REPLY = "……我知道了。";
+                public static LocString CHAT_KEY = "嗨。";
+                public static LocString CONFESSION_FAIL_REPLY = "对不起，我不能答应。";
+                public static LocString CONFESSION_FAIL_RESULT = "……我明白了。";
                 public static LocString CONFESSION_INTRO = "我有件重要的事想告诉你。";
                 public static LocString CONFESSION_KEY = "我喜欢你。";
                 public static LocString CONFESSION_REPLY = "我也一直喜欢你。";
                 public static LocString CONFESSION_RESULT = "那就一起走下去吧。";
+                public static LocString GRIEF_KEY = "我会记得你的。";
+                public static LocString RECONCILE_KEY = "别再这样僵下去了。";
+                public static LocString RECONCILE_REPLY = "好，我们重新来过。";
                 public static LocString REKINDLE_INTRO = "有些话，我还是想再说一次。";
                 public static LocString REKINDLE_KEY = "我们能重新开始吗？";
                 public static LocString REKINDLE_REPLY = "这次别再错过了。";
                 public static LocString REKINDLE_RESULT = "重新认识彼此吧。";
-                public static LocString CONFESSION_FAIL_REPLY = "对不起，我不能答应。";
-                public static LocString CONFESSION_FAIL_RESULT = "……我明白了。";
-                public static LocString BREAKUP_KEY = "我们还是到这里吧。";
-                public static LocString BREAKUP_REPLY = "……我知道了。";
-                public static LocString RECONCILE_KEY = "别再这样僵下去了。";
-                public static LocString RECONCILE_REPLY = "好，我们重新来过。";
-                public static LocString GRIEF_KEY = "我会记得你的。";
-                public static LocString CHAT_KEY = "嗨。";
                 public static LocString RIVAL_KEY = "这笔账，我不会就这么算了。";
                 public static LocString RIVAL_REPLY = "正好，我也没打算和你和解。";
+            }
+            public class SETTINGS
+            {
+                public static LocString AFFINITY_POPUPS = "好感增减飘字";
+                public static LocString AI_WIP_HINT = "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整";
+                public static LocString AMBIENT_CHAT_COOLDOWN = "同一复制人的日常闲聊冷却（秒）";
+                public static LocString API_ENDPOINT_MISSING = "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起";
+                public static LocString API_KEY = "API Key";
+                public static LocString API_KEY_MISSING = "未填写 Key，AI 对话不会发起，仅使用内置台词";
+                public static LocString API_KEY_PLACEHOLDER = "粘贴你的 API Key";
+                public static LocString API_KEY_SET = "Key 已填写，保存后立即生效";
+                public static LocString AUTO_PAUSE = "重大事件自动暂停";
+                public static LocString AUTO_PAUSE_HINT = "独立开关，默认关闭。打开后重大关系事件发生时暂停游戏。";
+                public static LocString BASE_URL = "API 地址";
+                public static LocString BASE_URL_PLACEHOLDER = "https://api.example.com/v1";
+                public static LocString BOOST_NATIVE = "调快原生对话节奏";
+                public static LocString BRAWLS = "允许宿敌互殴";
+                public static LocString BRAWLS_HINT = "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发";
+                public static LocString BREAKDOWN_DRAMA = "把崩溃演成一场戏";
+                public static LocString BREAKDOWN_DRAMA_HINT = "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启";
+                public static LocString BUTTON = "设置";
+                public static LocString BUTTON_TOOLTIP = "打开「复制人社交生活」的设置面板";
+                public static LocString CANCEL = "取消";
+                public static LocString CHAT_FEED_COOLDOWN = "同一对复制人的好感进账间隔（秒）";
+                public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。";
+                public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天进账上限（次）";
+                public static LocString CHAT_FEED_LIMIT_HINT = "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
+                public static LocString COLLECTIVE_WRATH = "允许集体迁怒";
+                public static LocString COLLECTIVE_WRATH_HINT = "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭";
+                public static LocString COOLDOWN_MULT = "原生对话冷却倍率";
+                public static LocString DARK_CONTENT = "启用黑暗内容";
+                public static LocString DARK_CONTENT_HINT = "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响";
+                public static LocString DARK_GATE_CLOSED = "（黑暗内容总开关关闭中，下列项目暂不生效）";
+                public static LocString DEBUG_HINT = "以下是技术性参数，改坏了用「恢复默认」拉回来";
+                public static LocString DELIVERY_ARCHIVE = "仅封存";
+                public static LocString DELIVERY_INSTANT = "即时通知";
+                public static LocString DELIVERY_OFF = "关闭";
+                public static LocString DISTANCE_MULT = "原生对话距离倍率";
+                public static LocString ENABLE_AI = "启用 AI 生成对话";
+                public static LocString ENABLE_TELEMETRY = "记录匿名社交遥测";
+                public static LocString FAMINE = "允许断粮相残";
+                public static LocString FAMINE_HINT = "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关";
+                public static LocString HAZARD_RESENTMENT = "危险工时会积怨";
+                public static LocString HAZARD_RESENTMENT_HINT = "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭";
+                public static LocString HOTKEYS = "F9/F10/F11 牵线热键";
+                public static LocString LANGUAGE = "对话语言";
+                public static LocString LANGUAGE_EN = "English";
+                public static LocString LANGUAGE_FOLLOW = "跟随游戏";
+                public static LocString LANGUAGE_JA = "日本語";
+                public static LocString LANGUAGE_KO = "한국어";
+                public static LocString LANGUAGE_RU = "Русский";
+                public static LocString LANGUAGE_VI = "Tiếng Việt";
+                public static LocString LANGUAGE_ZH = "中文";
+                public static LocString LOCKED_SUFFIX = "（本版本固定开启）";
+                public static LocString LOG_CAPACITY = "纪事容量（条）";
+                public static LocString LOG_CAPACITY_HINT = "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效";
+                public static LocString MAX_AI_REWRITES_PER_CYCLE = "每周期 AI 润色上限";
+                public static LocString MAX_CONVERSATIONS = "每周期 AI 对话上限";
+                public static LocString MAX_TOKENS = "单次生成上限（token）";
+                public static LocString MODEL = "模型";
+                public static LocString MODEL_PLACEHOLDER = "模型名称";
+                public static LocString NOTIFICATIONS = "关系大事通知";
+                public static LocString NOTIFY_CONFLICT = "冲突与危险通知";
+                public static LocString NOTIFY_EVERYDAY = "日常纪念通知";
+                public static LocString NOTIFY_GRIEF = "悲伤与失去通知";
+                public static LocString NOTIFY_MILESTONES = "关系里程碑通知";
+                public static LocString OBSERVE_NATIVE = "观察原生社交事件（关系引擎输入）";
+                public static LocString OBSERVE_NATIVE_HINT = "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭";
+                public static LocString OFF = "关";
+                public static LocString ON = "开";
+                public static LocString PAIR_COOLDOWN = "同一对复制人的对话冷却（秒）";
+                public static LocString PENDING_BODY = "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。";
+                public static LocString PENDING_CYCLES = "待发生等待周期";
+                public static LocString PENDING_TITLE = "一件重要的事即将发生";
+                public static LocString PENDING_WINDOW = "待发生窗口";
+                public static LocString PENDING_WINDOW_HINT = "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。";
+                public static LocString POPUP_SECONDS = "台词停留秒数";
+                public static LocString PRESENTATION_COMPACT = "简洁";
+                public static LocString PRESENTATION_FOCUS = "聚焦";
+                public static LocString PRESENTATION_HINT = "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。";
+                public static LocString PRESENTATION_MODE = "关系事件演出";
+                public static LocString PRESENTATION_STANDARD = "标准";
+                public static LocString PRESET = "戏剧强度预设（读档后生效）";
+                public static LocString PRESET_CUSTOM = "自定义";
+                public static LocString PRESET_DEFAULT = "默认";
+                public static LocString PRESET_DRAMA = "戏剧";
+                public static LocString PRESET_HINT = "预设调整争执/吃醋/道歉的概率与代价；「安静」少吵少醋，「戏剧」冲突更密";
+                public static LocString PRESET_QUIET = "安静";
+                public static LocString RESET = "恢复默认";
+                public static LocString RESET_FEEDBACK = "已恢复默认值，点「保存」后生效。";
+                public static LocString RESTART_SUFFIX = "（重启后生效）";
+                public static LocString ROUTINE_CHRONICLE_LIMIT = "每周期收录的日常纪事";
+                public static LocString SAVE = "保存";
+                public static LocString SAVED_FEEDBACK = "已保存，并已对当前会话生效。";
+                public static LocString SAVE_FAILED = "保存失败，详情见日志。";
+                public static LocString SECTION_AI = "AI 对话";
+                public static LocString SECTION_BALANCE = "平衡";
+                public static LocString SECTION_DARK = "黑暗内容（人性考验）";
+                public static LocString SECTION_DEBUG = "调试（仅开发版可见）";
+                public static LocString SECTION_SOCIAL = "社交系统";
+                public static LocString SECTION_TELEMETRY = "本地玩法数据";
+                public static LocString SECTION_UI = "界面与反馈";
+                public static LocString STRAINED_THRESHOLD = "「情绪紧绷」阈值";
+                public static LocString STRESS_SOFT_CAP = "社交压力软上限（0 = 关闭）";
+                public static LocString TELEMETRY_HINT = "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告";
+                public static LocString TEXT_POPUPS = "对话台词浮动文字";
+                public static LocString TIMEOUT = "AI 请求超时（秒）";
+                public static LocString TITLE = "社交生活 · 设置";
+            }
+            public class TAB
+            {
+                public static LocString TITLE = "社交";
+                public static LocString TOOLTIP = "查看这名复制人的声望和人际关系";
             }
         }
     }

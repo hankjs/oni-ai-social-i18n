@@ -4,73 +4,85 @@
   "candidates": [
     {
       "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Being apart taught me arguing beats missing you.",
-          "sourceHash": "sha256:b401ef3aae909623bf3f00c2e291f8438dc2f8d39bc86e159258ab2b31d474d3"
+          "text": "Being apart taught me arguing beats missing you."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Then argue properly this time. And stay.",
-          "sourceHash": "sha256:f3c1cba63a4dae52937eeb94faa8cef0485e1472bef6bbc987b47a3797066f2e"
+          "text": "Then argue properly this time. And stay."
         }
       ]
     },
     {
       "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I fixed the wrench you left behind. Here.",
-          "sourceHash": "sha256:397f9a4aa26e90142404233159cbf3ef8ac865d4d57dadb0fe1b39821adc4608"
+          "text": "I fixed the wrench you left behind. Here."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "You dope. I left it on purpose.",
-          "sourceHash": "sha256:22b39a596e423f90dfedbff64df7497b818df41567c898d4505928a6cd78999f"
+          "text": "You dope. I left it on purpose."
         }
       ]
     },
     {
       "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The west tables are too quiet. Can I come back?",
-          "sourceHash": "sha256:cb90b15c342a024f32bb61e0e2f469c54fdb76e51a18ef163e5abcf0db2a6615"
+          "text": "The west tables are too quiet. Can I come back?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Your seat's been waiting this whole time.",
-          "sourceHash": "sha256:b10ffd50b60fb028d5cfc66170d959787b7117a3ec32c3602d83dc1ba1298f2f"
+          "text": "...Your seat's been waiting this whole time."
         }
       ]
     },
     {
       "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Let's overhaul the old problems, like servicing pipes.",
-          "sourceHash": "sha256:3a87d50ee6a5181e72e7c2fd57aec4e0095a49233adddf2e7b3d9e708fc09343"
+          "text": "Let's overhaul the old problems, like servicing pipes."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "By the blueprint this time. I already drew it.",
-          "sourceHash": "sha256:47c7b284c4f6195626156d7c6cfbbe3cca5ddc076c923cf420c44b4967f24e3b"
+          "text": "By the blueprint this time. I already drew it."
         }
       ]
     }

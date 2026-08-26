@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "wrathrescue",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "여기 앉을게. 다른 뜻은 없어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……요며칠 여기 앉는 사람 없었어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "밥 두 사람 분 가져왔어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "남들 보는 거 안 두려워?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 상처 누가 낸 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……넘어진 거야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "남들이 뭐든 상관없어. 넌 아직 나한테 밤 근무 하나 빚졌어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……기억하고 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "울음 끝났으면 밥 먹어, 식으면 더 맛없어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……응."
+        }
+      ]
+    }
+  ]
+}

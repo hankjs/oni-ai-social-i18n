@@ -1,0 +1,3278 @@
+{
+  "locale": "ko",
+  "family": "dark",
+  "templates": [
+    {
+      "templateId": "chronicle.brawl.baseline.001",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 주먹다짐을 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.002",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 말다툼은 주먹과 발길로 번졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.003",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 뒤엉켰고, 도구가 바닥에 흩어졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.004",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그 싸움은 볼품없었고, {a}와 {b}는 모두 상처를 입었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.005",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "말리는 사람들이 모여들고 나서야, {a}와 {b}는 손을 놓았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.006",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 자제를 완전히 잃었고, 말다툼은 끝내 한판 싸움이 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.007",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 주먹다짐을 했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.008",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 말다툼은 주먹과 발길로 번졌다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.009",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 뒤엉켰고, 도구가 바닥에 흩어졌다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.010",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그 싸움은 볼품없었고, {a}와 {b}는 모두 상처를 입었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.011",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "말리는 사람들이 모여들고 나서야, {a}와 {b}는 손을 놓았다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.012",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 자제를 완전히 잃었고, 말다툼은 끝내 한판 싸움이 되었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.001",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량이 채워지자, 모두 한숨을 돌렸다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.002",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "저장고에 다시 재고가 생겼고, 씹는 소리도 돌아왔다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.003",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위기는 걷혔고, 식량이 어디서 왔는지는 아무도 따지지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.004",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "제때 채워진 음식이 공황을 막았고, 식민지는 최악의 결과를 피했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.005",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 비축이 다시 위험선을 넘었고, 기근의 위협은 잠시 물러났다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.006",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "가장 팽팽했던 식량 부족의 순간이 지나, 더는 마지막 몇 입을 셀 필요가 없어졌다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.007",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량이 채워지자, 모두 한숨을 돌렸다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.008",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "저장고에 다시 재고가 생겼고, 씹는 소리도 돌아왔다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.009",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위기는 걷혔고, 식량이 어디서 왔는지는 아무도 따지지 않았다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.010",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "제때 채워진 음식이 공황을 막았고, 식민지는 최악의 결과를 피했다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.011",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 비축이 다시 위험선을 넘었고, 기근의 위협은 잠시 물러났다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.012",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "가장 팽팽했던 식량 부족의 순간이 지나, 더는 마지막 몇 입을 셀 필요가 없어졌다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.001",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 마지막 한 입을 두고 손을 썼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.002",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "극도로 굶주린 사람은 이치를 따지지 않았고, {actor}와 {other}는 한 입 때문에 체면을 버리고 맞섰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.003",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 그 배급에 눈을 두었고, 주먹이 이성보다 먼저 닿았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.004",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "굶주림이 한계까지 몰아붙이자, {actor}는 {other}를 향해 치명적인 쟁탈을 시작했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.005",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "마지막 음식으로는 두 사람이 살 수 없었고, {actor}와 {other} 사이에 처절한 충돌이 터졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.006",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 막다른 곳에서 {other}를 음식을 다툴 상대로 보았고, 일은 더는 되돌릴 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.007",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 마지막 한 입을 두고 손을 썼다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.008",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "극도로 굶주린 사람은 이치를 따지지 않았고, {actor}와 {other}는 한 입 때문에 체면을 버리고 맞섰다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.009",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 그 배급에 눈을 두었고, 주먹이 이성보다 먼저 닿았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.010",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "굶주림이 한계까지 몰아붙이자, {actor}는 {other}를 향해 치명적인 쟁탈을 시작했다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.011",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "마지막 음식으로는 두 사람이 살 수 없었고, {actor}와 {other} 사이에 처절한 충돌이 터졌다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.012",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 막다른 곳에서 {other}를 음식을 다툴 상대로 보았고, 일은 더는 되돌릴 수 없었다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.001",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량이 끊겼던 날들은 마침내 지나갔다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.002",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 창고가 다시 찼고, 어떤 일은 모두가 말하지 않고 덮었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.003",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "다시 배불리 먹을 날이 왔고, 기근은 없었던 듯했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.004",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 공급이 다시 안정되었고, 식민지를 오래 덮었던 기근 상태는 끝났다고 선언되었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.005",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모두 마침내 평소 분량으로 먹을 수 있게 되었지만, 식량 단절이 남긴 긴장은 바로 사라지지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.006",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "기근은 끝났고, 살아남은 사람들은 식량 부족이 흐트러뜨린 생활을 다시 짜기 시작했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.007",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량이 끊겼던 날들은 마침내 지나갔다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.008",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 창고가 다시 찼고, 어떤 일은 모두가 말하지 않고 덮었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.009",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "다시 배불리 먹을 날이 왔고, 기근은 없었던 듯했다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.010",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 공급이 다시 안정되었고, 식민지를 오래 덮었던 기근 상태는 끝났다고 선언되었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.011",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모두 마침내 평소 분량으로 먹을 수 있게 되었지만, 식량 단절이 남긴 긴장은 바로 사라지지 않았다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.012",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "기근은 끝났고, 살아남은 사람들은 식량 부족이 흐트러뜨린 생활을 다시 짜기 시작했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.001",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 창고가 바닥을 드러내자, 공황이 식민지에 퍼졌다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.002",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "마지막 머시 바조차 바닥이 났고, 내일을 감히 떠올리는 사람은 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.003",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "굶주린다는 소식은 산소보다 빨리 퍼졌다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.004",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "남은 비축으로는 모두를 지킬 수 없었고, 식민지는 분명한 식량 단절 경고에 들어갔다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.005",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "먹을 수 있는 재고가 빠르게 줄어, 저마다 다음 끼니에 무엇이 남을지 살피기 시작했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.006",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 부족이 위험선을 넘었고, 공황은 비워진 보관칸을 따라 퍼졌다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.007",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 창고가 바닥을 드러내자, 공황이 식민지에 퍼졌다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.008",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "마지막 머시 바조차 바닥이 났고, 내일을 감히 떠올리는 사람은 없었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.009",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "굶주린다는 소식은 산소보다 빨리 퍼졌다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.010",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "남은 비축으로는 모두를 지킬 수 없었고, 식민지는 분명한 식량 단절 경고에 들어갔다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.011",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "먹을 수 있는 재고가 빠르게 줄어, 저마다 다음 끼니에 무엇이 남을지 살피기 시작했다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.012",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식량 부족이 위험선을 넘었고, 공황은 비워진 보관칸을 따라 퍼졌다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.001",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 위험한 일을 함께 버텨 냈고, 목숨을 나눈 정이 생겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.002",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험 구역에서 살아 나오자, {a}와 {b}가 서로를 보는 눈빛이 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.003",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "생사의 고비에서 {a}와 {b}는 누구도 먼저 달아나지 않았고, 그 정은 거짓일 수 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.004",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 위험한 노동에서 서로를 살폈고, 무사히 돌아온 뒤에는 단단한 신뢰가 더해졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.005",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 고위험 임무를 함께 맡았고, 함께 버틴 과정이 두 사람을 가깝게 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.006",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험이 곁에 사람이 있다고 줄어들지는 않았지만, {a}와 {b}는 홀로 마주하는 것이 아님을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.007",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 위험한 일을 함께 버텨 냈고, 목숨을 나눈 정이 생겼다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.008",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험 구역에서 살아 나오자, {a}와 {b}가 서로를 보는 눈빛이 달라져 있었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.009",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "생사의 고비에서 {a}와 {b}는 누구도 먼저 달아나지 않았고, 그 정은 거짓일 수 없었다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.010",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 위험한 노동에서 서로를 살폈고, 무사히 돌아온 뒤에는 단단한 신뢰가 더해졌다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.011",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 고위험 임무를 함께 맡았고, 함께 버틴 과정이 두 사람을 가깝게 했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.012",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험이 곁에 사람이 있다고 줄어들지는 않았지만, {a}와 {b}는 홀로 마주하는 것이 아님을 알았다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.001",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 {other}에게 품었던 그 원망은, 천천히 흩어졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.002",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 납득했다: 위험한 일은 누군가 해야 하니, {other}를 원망할 일은 아니다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.003",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "시간이 그 화를 닳게 했고, {actor}는 {other}가 한결 눈에 들어왔다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.004",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "업무 배분이 공정해진 뒤, {actor}가 {other}에게 쌓아 온 위험 노동의 원망은 잦아들기 시작했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.005",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}도 마땅한 위험을 짊어지는 것을 보았고, 오래 쌓인 불만이 마침내 누그러졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.006",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험의 격차가 더는 벌어지지 않자, {actor}는 책임을 {other}에게 돌리기를 멈추려 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.007",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 {other}에게 품었던 그 원망은, 천천히 흩어졌다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.008",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 납득했다: 위험한 일은 누군가 해야 하니, {other}를 원망할 일은 아니다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.009",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "시간이 그 화를 닳게 했고, {actor}는 {other}가 한결 눈에 들어왔다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.010",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "업무 배분이 공정해진 뒤, {actor}가 {other}에게 쌓아 온 위험 노동의 원망은 잦아들기 시작했다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.011",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}도 마땅한 위험을 짊어지는 것을 보았고, 오래 쌓인 불만이 마침내 누그러졌다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.012",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험의 격차가 더는 벌어지지 않자, {actor}는 책임을 {other}에게 돌리기를 멈추려 했다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.001",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 {actor} 대신 위험한 일을 막아주자, {actor}는 그것을 마음에 새겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.002",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험한 일이 떨어졌을 때, {other}가 한발 먼저 받았고, {actor}는 잊지 않을 것이다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.003",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 빚을 졌고, 목숨으로 바꾼 그런 빚이었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.004",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 더 위험한 일을 먼저 맡았고, {actor}는 그 도움을 진심으로 마음에 남겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.005",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험이 눈앞에 떨어졌을 때, {other}가 {actor} 몫을 나누어 졌고, {actor}는 그것을 당연한 일로 여기지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.006",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 위험 구역으로 들어가는 것을 보고, 이번에 참으로 돌봄을 받았음을 알았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.007",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 {actor} 대신 위험한 일을 막아주자, {actor}는 그것을 마음에 새겼다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.008",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험한 일이 떨어졌을 때, {other}가 한발 먼저 받았고, {actor}는 잊지 않을 것이다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.009",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 빚을 졌고, 목숨으로 바꾼 그런 빚이었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.010",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 더 위험한 일을 먼저 맡았고, {actor}는 그 도움을 진심으로 마음에 남겼다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.011",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험이 눈앞에 떨어졌을 때, {other}가 {actor} 몫을 나누어 졌고, {actor}는 그것을 당연한 일로 여기지 않았다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.012",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 위험 구역으로 들어가는 것을 보고, 이번에 참으로 돌봄을 받았음을 알았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.001",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 또 하루 위험 구역에 내려갔고, {other}의 편한 일에 원망이 일었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.002",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "같은 갱도인데 왜 {actor}만 늘 위험한 쪽으로 가는지—{actor}는 생각할수록 마음이 편치 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.003",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 한가한 날을 세었고, 마음속 장부는 점점 두꺼워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.004",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 잇달아 위험 임무를 맡았고 {other}의 일은 상대적으로 안전해, 원망이 쌓였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.005",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험의 격차가 오래도록 나아지지 않자, {actor}는 불공평을 {other} 탓으로 돌리기 시작했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.006",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 다시 위험한 일에서 돌아와 {other}가 아무 일 없는 것을 보았을 때, 이미 평정을 지킬 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.007",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 또 하루 위험 구역에 내려갔고, {other}의 편한 일에 원망이 일었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.008",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "같은 갱도인데 왜 {actor}만 늘 위험한 쪽으로 가는지—{actor}는 생각할수록 마음이 편치 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.009",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 한가한 날을 세었고, 마음속 장부는 점점 두꺼워졌다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.010",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 잇달아 위험 임무를 맡았고 {other}의 일은 상대적으로 안전해, 원망이 쌓였다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.011",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "위험의 격차가 오래도록 나아지지 않자, {actor}는 불공평을 {other} 탓으로 돌리기 시작했다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.012",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 다시 위험한 일에서 돌아와 {other}가 아무 일 없는 것을 보았을 때, 이미 평정을 지킬 수 없었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.001",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 떠났고, {actor}는 꺼내지 못한 말을 삼켰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.002",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}가 용기를 내는 날을 기다리지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.003",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오래 준비해 둔 말을, {other}의 빈 침상에 건넸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.004",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 세상을 떠난 뒤, {actor}에게는 그 말하지 못한 감정을 확인할 기회가 더는 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.005",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 몰래 좋아했던 {other}를 잃었고, 작별조차 너무 늦어 보였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.006",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 죽음으로 {actor}가 줄곧 감춰 둔 마음은, 영원히 전할 수 없는 말이 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.007",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 떠났고, {actor}는 꺼내지 못한 말을 삼켰다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.008",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}가 용기를 내는 날을 기다리지 못했다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.009",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오래 준비해 둔 말을, {other}의 빈 침상에 건넸다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.010",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 세상을 떠난 뒤, {actor}에게는 그 말하지 못한 감정을 확인할 기회가 더는 없었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.011",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 몰래 좋아했던 {other}를 잃었고, 작별조차 너무 늦어 보였다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.012",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 죽음으로 {actor}가 줄곧 감춰 둔 마음은, 영원히 전할 수 없는 말이 되었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.001",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 잃었고, 완전히 무너졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.002",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 침상이 비었고, {actor}는 오래도록 그쪽을 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.003",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "이후 근무표에는 {other}의 이름이 더는 없었고, {actor}의 날에도 한 칸이 비었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.004",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 세상을 떠난 뒤, {actor}는 함께 살던 연인을 잃었고, 비탄은 오래 가시지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.005",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 여전히 본능적으로 {other}를 찾다가, 그때마다 연인이 이미 없음을 떠올렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.006",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 남긴 일상의 흔적이 곳곳에 있어, {actor}는 잃은 사실을 쉽게 피할 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.007",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 잃었고, 완전히 무너졌다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.008",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 침상이 비었고, {actor}는 오래도록 그쪽을 보지 않았다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.009",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "이후 근무표에는 {other}의 이름이 더는 없었고, {actor}의 날에도 한 칸이 비었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.010",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 세상을 떠난 뒤, {actor}는 함께 살던 연인을 잃었고, 비탄은 오래 가시지 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.011",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 여전히 본능적으로 {other}를 찾다가, 그때마다 연인이 이미 없음을 떠올렸다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.012",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 남긴 일상의 흔적이 곳곳에 있어, {actor}는 잃은 사실을 쉽게 피할 수 없었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.001",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 죽었고, {actor}의 마음은 뭐라 형용할 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.002",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숙적이 죽자, {actor}는 복도가 꽤 조용해졌음을 문득 알았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.003",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 이기기를 바랐지만, 이제 상대는 더는 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.004",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숙적 {other}가 죽은 뒤, {actor}는 오래 맞서 온 상대를 잃었고, 기분은 생각한 만큼 가볍지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.005",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 앞서기를 바랐지만, 죽음은 그 겨룸에 다음을 영원히 남기지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.006",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 죽음이 묵은 원한을 끊었고, {actor}는 그 결과를 마주한 채 복잡한 침묵만 남겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.007",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 죽었고, {actor}의 마음은 뭐라 형용할 수 없었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.008",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숙적이 죽자, {actor}는 복도가 꽤 조용해졌음을 문득 알았다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.009",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 이기기를 바랐지만, 이제 상대는 더는 없었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.010",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숙적 {other}가 죽은 뒤, {actor}는 오래 맞서 온 상대를 잃었고, 기분은 생각한 만큼 가볍지 않았다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.011",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 앞서기를 바랐지만, 죽음은 그 겨룸에 다음을 영원히 남기지 않았다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.012",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}의 죽음이 묵은 원한을 끊었고, {actor}는 그 결과를 마주한 채 복잡한 침묵만 남겼다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.001",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 묵은 원한을 내려놓았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.002",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 악수했고, 묵은 원한은 거기에서 끝났다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.003",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한 사람을 미워하는 일도 지치는 법이라, {a}와 {b}는 그만두기로 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.004",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 더는 적의를 유지하지 않았고, 오랜 숙적 관계는 마침내 끝났다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.005",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 만날 때마다 겨루지 않기로 했고, 관계는 숙적 상태에서 빠져나왔다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.006",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 적대를 이어 갈 의미가 없음을 인정하고, 서로의 묵은 원한을 끝내기로 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.007",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 묵은 원한을 내려놓았다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.008",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 악수했고, 묵은 원한은 거기에서 끝났다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.009",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한 사람을 미워하는 일도 지치는 법이라, {a}와 {b}는 그만두기로 했다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.010",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 더는 적의를 유지하지 않았고, 오랜 숙적 관계는 마침내 끝났다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.011",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 만날 때마다 겨루지 않기로 했고, 관계는 숙적 상태에서 빠져나왔다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.012",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 적대를 이어 갈 의미가 없음을 인정하고, 서로의 묵은 원한을 끝내기로 했다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.001",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 앙금을 쌓아, 숙적이 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.002",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 원한에는 그때부터 이름이 붙었다: 숙적.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.003",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "앞으로 꽤 긴 날 동안, {a}와 {b}는 상대에게 고운 얼굴을 보이지 않을 것이다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.004",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 충돌이 무시할 수 없을 만큼 쌓여, 서로는 정식으로 숙적이 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.005",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로를 눌러야 할 상대로 보았고, 적의는 그때부터 자리를 잡았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.006",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로에 대한 혐오를 더는 감추지 않았고, 숙적 관계는 그렇게 생겨났다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.007",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 앙금을 쌓아, 숙적이 되었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.008",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 원한에는 그때부터 이름이 붙었다: 숙적. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.009",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "앞으로 꽤 긴 날 동안, {a}와 {b}는 상대에게 고운 얼굴을 보이지 않을 것이다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.010",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 충돌이 무시할 수 없을 만큼 쌓여, 서로는 정식으로 숙적이 되었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.011",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로를 눌러야 할 상대로 보았고, 적의는 그때부터 자리를 잡았다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.012",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로에 대한 혐오를 더는 감추지 않았고, 숙적 관계는 그렇게 생겨났다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.001",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 앞장서서 그 빚을 {other}에게 돌렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.002",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "일이 터지면 누군가는 뒤집어써야 했고—{actor}는 모두를 이끌어 {other}를 골랐다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.003",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 한 마디가, 뭇사람의 분노를 {other}에게로 이끌었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.004",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 재난의 책임을 져야 한다고 공개적으로 지목했고, 무리의 분노를 한 사람에게 돌렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.005",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 해결할 수 없는 손실을 {other}의 죄로 돌렸고, 더 많은 사람이 그 말을 받아들이게 이끌었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.006",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}에게는 뭇사람의 분노를 질 대상이 필요했고, 끝내 {other}에게 그 비난을 지우게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.007",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 앞장서서 그 빚을 {other}에게 돌렸다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.008",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "일이 터지면 누군가는 뒤집어써야 했고—{actor}는 모두를 이끌어 {other}를 골랐다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.009",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 한 마디가, 뭇사람의 분노를 {other}에게로 이끌었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.010",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 재난의 책임을 져야 한다고 공개적으로 지목했고, 무리의 분노를 한 사람에게 돌렸다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.011",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 해결할 수 없는 손실을 {other}의 죄로 돌렸고, 더 많은 사람이 그 말을 받아들이게 이끌었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.012",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}에게는 뭇사람의 분노를 질 대상이 필요했고, 끝내 {other}에게 그 비난을 지우게 했다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.001",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}를 향한 고립은, 겨우 지나갔다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.002",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식민지는 새로운 화제를 찾았고, {subject}의 그 일은 더는 아무도 꺼내지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.003",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "날이 길어지면 분노도 기한이 있어—{subject}는 다시 사람들 속으로 스며들었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.004",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}를 향한 집단의 분노는 점점 힘을 잃었고, 일상적인 접촉이 되살아나기 시작했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.005",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식민지는 나쁜 일마다 {subject}에게 돌리지 않게 되었고, 고립은 그에 따라 잦아들었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.006",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 마침내 이어지던 적대를 더는 지지 않게 되었고, 뭇사람의 분노는 끝에 이르렀다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.007",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}를 향한 고립은, 겨우 지나갔다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.008",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식민지는 새로운 화제를 찾았고, {subject}의 그 일은 더는 아무도 꺼내지 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.009",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "날이 길어지면 분노도 기한이 있어—{subject}는 다시 사람들 속으로 스며들었다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.010",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}를 향한 집단의 분노는 점점 힘을 잃었고, 일상적인 접촉이 되살아나기 시작했다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.011",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "식민지는 나쁜 일마다 {subject}에게 돌리지 않게 되었고, 고립은 그에 따라 잦아들었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.012",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 마침내 이어지던 적대를 더는 지지 않게 되었고, 뭇사람의 분노는 끝에 이르렀다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.001",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 고립되었고, 그와 말하려는 사람은 없었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.002",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 식당에 들어서자, 한 테이블이 모두 입을 닫았다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.003",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "이제는 해치조차 {other}보다 환영받았다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.004",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 일상 교류에서 격리되었고, 평범한 인사조차 거의 답을 받지 못했다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.005",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "주변 사람들이 잇달아 거리를 두어, {other}의 일상은 그로 고립되었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.006",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 어디를 가든 회피를 만났고, 그 고립은 이미 식민지 전체로 퍼져 있었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.007",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 고립되었고, 그와 말하려는 사람은 없었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.008",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 식당에 들어서자, 한 테이블이 모두 입을 닫았다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.009",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "이제는 해치조차 {other}보다 환영받았다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.010",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 일상 교류에서 격리되었고, 평범한 인사조차 거의 답을 받지 못했다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.011",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "주변 사람들이 잇달아 거리를 두어, {other}의 일상은 그로 고립되었다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.012",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 어디를 가든 회피를 만났고, 그 고립은 이미 식민지 전체로 퍼져 있었다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.001",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 아무도 보지 않을 때, {other}를 한바탕 때렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.002",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "근무표의 빈틈에서, {actor}는 {other}를 막아섰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.003",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사방이 비었을 때를 골라, 화를 {other}에게 쏟았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.004",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 향한 분노를 갑작스러운 한 방으로 바꿨고, 실제 상처를 남겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.005",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 준비되지 않은 틈에 습격했고, 뭇사람의 분노는 그로 말의 선을 넘었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.006",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}에게 몰래 구타당했고, 고립 사건은 폭력으로 번졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.007",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 아무도 보지 않을 때, {other}를 한바탕 때렸다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.008",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "근무표의 빈틈에서, {actor}는 {other}를 막아섰다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.009",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사방이 비었을 때를 골라, 화를 {other}에게 쏟았다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.010",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 향한 분노를 갑작스러운 한 방으로 바꿨고, 실제 상처를 남겼다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.011",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 준비되지 않은 틈에 습격했고, 뭇사람의 분노는 그로 말의 선을 넘었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.012",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}에게 몰래 구타당했고, 고립 사건은 폭력으로 번졌다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.001",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 손을 내밀었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.002",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 식판을 들고 {other} 곁에 앉았고, 고립의 벽이 한 모서리 무너졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.003",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모두가 {other}를 피해 갈 때, {actor}만은 그리로 걸어갔다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.004",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 계속 배척하기를 거부하고, 상대가 다시 평범한 교류로 돌아오게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.005",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뭇사람이 피할 때 {other} 곁에 섰고, 행동으로 고립을 깨뜨렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.006",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 배척당한 {other}에게 도움을 주어, 식민지에도 아직 받아들이려는 사람이 있음을 보이게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.007",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 손을 내밀었다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.008",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 식판을 들고 {other} 곁에 앉았고, 고립의 벽이 한 모서리 무너졌다. 산소는 여느 때처럼 흘렀지만, 이 일이 남긴 무거움은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.009",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모두가 {other}를 피해 갈 때, {actor}만은 그리로 걸어갔다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.010",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 계속 배척하기를 거부하고, 상대가 다시 평범한 교류로 돌아오게 했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.011",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뭇사람이 피할 때 {other} 곁에 섰고, 행동으로 고립을 깨뜨렸다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.012",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 배척당한 {other}에게 도움을 주어, 식민지에도 아직 받아들이려는 사람이 있음을 보이게 했다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.001",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그가 혼자 숨어 우는 것을 마주쳤다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.002",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 지나가다 울음소리를 듣고, 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.003",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "구석에 숨은 그 사람은 오래 울었고, {subject}는 다가가지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.004",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 고립된 사람이 혼자 우는 것을 뜻밖에 보았고, 기존의 판단이 흔들리기 시작했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.005",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숨어 우는 소리를 {subject}가 들었고, 뭇사람의 분노 뒤의 고통이 처음으로 뚜렷해졌다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.006",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 아무도 보지 않던 그 눈물을 마주쳤고, 이후 고립을 작은 일로 여길 수 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.007",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그가 혼자 숨어 우는 것을 마주쳤다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.008",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 지나가다 울음소리를 듣고, 발소리를 낮추었다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.009",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "구석에 숨은 그 사람은 오래 울었고, {subject}는 다가가지 않았다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.010",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 고립된 사람이 혼자 우는 것을 뜻밖에 보았고, 기존의 판단이 흔들리기 시작했다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.011",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "숨어 우는 소리를 {subject}가 들었고, 뭇사람의 분노 뒤의 고통이 처음으로 뚜렷해졌다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.012",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 아무도 보지 않던 그 눈물을 마주쳤고, 이후 고립을 작은 일로 여길 수 없었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.001",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사람들 앞에서 {other}를 위해 공정한 한 마디를 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.002",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 모두의 앞에서 {other}를 위해 말하자, 더는 입을 여는 사람이 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.003",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "뭇사람의 분노가 거셀 때, {actor}는 {other}를 위해 입을 연 유일한 사람이었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.004",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 향한 집단 비난에 공개적으로 의문을 달고, 근거 없는 배척을 멈추라고 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.005",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뭇사람 앞에서 {other}를 위해 사실을 설명했고, 침묵하던 반대에 마침내 소리가 생겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.006",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 무리를 거스를 위험을 감수하고, {other}가 공정한 대우를 받게 하려 버텼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.007",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사람들 앞에서 {other}를 위해 공정한 한 마디를 했다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.008",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 모두의 앞에서 {other}를 위해 말하자, 더는 입을 여는 사람이 없었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.009",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "뭇사람의 분노가 거셀 때, {actor}는 {other}를 위해 입을 연 유일한 사람이었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 기지에 내린 짧은 침묵은 걷히지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.010",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 향한 집단 비난에 공개적으로 의문을 달고, 근거 없는 배척을 멈추라고 했다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.011",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뭇사람 앞에서 {other}를 위해 사실을 설명했고, 침묵하던 반대에 마침내 소리가 생겼다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.012",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 무리를 거스를 위험을 감수하고, {other}가 공정한 대우를 받게 하려 버텼다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.001",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 린치를 보았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.002",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 장면을 마주치고, 황급히 보지 않은 척했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.003",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 일은 보아도 삼킬 수밖에 없었고, {subject}는 입을 단단히 다물었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.004",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 고립된 자가 습격당하는 것을 직접 보았고, 뭇사람의 분노가 이미 폭력이 되었음을 알았다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.005",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 몰래 한 구타를 마주쳤지만, 충격에 한동안 소리를 내지 못했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.006",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 습격이 일어난 경위를 뚜렷이 보았고, 이후 아무것도 모른 척할 수 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.007",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 린치를 보았다. 경보등은 마침내 잠잠해졌지만, 식민지는 더 이상 사건 전으로 돌아가지 못했다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.008",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 장면을 마주치고, 황급히 보지 않은 척했다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.009",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 일은 보아도 삼킬 수밖에 없었고, {subject}는 입을 단단히 다물었다. 기계는 근무표대로 돌아갔고, 남은 사람들은 이 일을 안고 살아갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.010",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 고립된 자가 습격당하는 것을 직접 보았고, 뭇사람의 분노가 이미 폭력이 되었음을 알았다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.011",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 그 몰래 한 구타를 마주쳤지만, 충격에 한동안 소리를 내지 못했다. 자동문은 열리고 닫혔지만, 여기를 지나는 사람들은 모두 발소리를 낮추었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.012",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}는 습격이 일어난 경위를 뚜렷이 보았고, 이후 아무것도 모른 척할 수 없었다. 이 소행성은 애도할 시간을 많이 주지 않았고, 기억은 다음 근무를 따라갈 수밖에 없었다.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    }
+  ]
+}

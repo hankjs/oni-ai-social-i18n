@@ -4,439 +4,618 @@
   "candidates": [
     {
       "candidateId": "storylet.argument.crybaby.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Why are you yelling at me... waaah—",
-          "sourceHash": "sha256:2c9eb564af644138776249b8481879677fc392a82c0f5b91f6c704a683af9966"
+          "text": "Why are you yelling at me... waaah—"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Don't cry! I'm not yelling anymore, see!",
-          "sourceHash": "sha256:f6ee2e2ff07dad2f46efb839d75e7d240bfe3193978d069b4bc7e58fe8c7f0cf"
+          "text": "Don't cry! I'm not yelling anymore, see!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.crybaby.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I'm not losing this argument, I'm just... having emotions.",
-          "sourceHash": "sha256:570b4dcd7fcdbc139b48c82d7843b5b0974e2fc8bd0f15e142f558aaa5609bcd"
+          "text": "I'm not losing this argument, I'm just... having emotions."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Wipe your eyes first. We'll restart the fight.",
-          "sourceHash": "sha256:dce4ed16c60b83c65b026e63945e7dabc0b387f855119c9b31135029868d33d5"
+          "text": "Wipe your eyes first. We'll restart the fight."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.crybaby.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The whole colony bullies me! Now you too!",
-          "sourceHash": "sha256:1474d80955756acd348f2af13697c9ae865054dd411ef4de4a568973043f7787"
+          "text": "The whole colony bullies me! Now you too!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I don't! ...This is a lot of pressure, honestly.",
-          "sourceHash": "sha256:033e7b0672228b71d4e9d6309dc211a2a239c88c1a74f71e2d291dc874fb800b"
+          "text": "I don't! ...This is a lot of pressure, honestly."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.crybaby.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Stop being mean! My tears don't have a valve!",
-          "sourceHash": "sha256:0514bad2ecdfd71576872d0e3d019742d37a6f6d4323d7956852e526a8d62c05"
+          "text": "Stop being mean! My tears don't have a valve!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Okay okay, I'm sorry, here's a tissue!",
-          "sourceHash": "sha256:978b8dccd7271c5d69a8b315dfc4f3e8c8b379fc02d8bc067a5d768d1e0daa93"
+          "text": "Okay okay, I'm sorry, here's a tissue!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.gentle.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I don't want to fight... but you really did this one wrong.",
-          "sourceHash": "sha256:c00d5bafc58bf096309b2f59b52d77ab96759b77c3fa4add5ab1ac213e7eed5b"
+          "text": "I don't want to fight... but you really did this one wrong."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Just yell at me once. This calm thing hurts worse.",
-          "sourceHash": "sha256:189f5594f3bc81053766cce9f4e469567dd54bec155293fb7f280b05c0c5ec53"
+          "text": "Just yell at me once. This calm thing hurts worse."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.gentle.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Can we argue sitting down? Standing feels too hostile.",
-          "sourceHash": "sha256:3a3fcb2dd01466648048f3a4defb015aeaa949bded91c4076bdfd008780c4fa5"
+          "text": "Can we argue sitting down? Standing feels too hostile."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Fine. Sitting. You start.",
-          "sourceHash": "sha256:ca216502ff41a310865c49b9fba2959adb5574e17d5f9881d76ac402f425660f"
+          "text": "...Fine. Sitting. You start."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.gentle.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Lower your voice. You're scaring the hatch.",
-          "sourceHash": "sha256:d0553e4a7485f0a739ad2825d14cf860546ac022d45077ec4134e947bf0698fd"
+          "text": "Lower your voice. You're scaring the hatch."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "The hatch?! Now of all times?!",
-          "sourceHash": "sha256:8aeaf917cda71fbd8011e6b3ac4e1a718083b80a8a33b104fb7384a4ef2186bb"
+          "text": "The hatch?! Now of all times?!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.gentle.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I won't fight you. But I'm writing this down. Gently.",
-          "sourceHash": "sha256:520beb69b9e5f985bcb6b4726bd4f04ab1c6e14115aebd031d81ac582a05ed11"
+          "text": "I won't fight you. But I'm writing this down. Gently."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Your 'gently' is scarier than shouting.",
-          "sourceHash": "sha256:99473dafb9be9d1fd168dce72556058f76455a297a94de3a74995bdb6b792752"
+          "text": "Your 'gently' is scarier than shouting."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.hothead.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I'm faster than anyone at this! Got a problem?!",
-          "sourceHash": "sha256:0d9f7a0a86d4e4bf33422c88b7028b3cf4d33b19f0b8550aaa4a3ab8ea14750e"
+          "text": "I'm faster than anyone at this! Got a problem?!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fast, yes. You also broke the wall!",
-          "sourceHash": "sha256:3459cb0216b9a2cefae9b5506c9146bba602bdde6116d964b679454946f12b6f"
+          "text": "Fast, yes. You also broke the wall!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.hothead.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Fine, blame me! Blame me for the whole base!",
-          "sourceHash": "sha256:d633548a4df40d9b08382c0a2652d9f003fe3eb93f8a358236a63f6fecb441fe"
+          "text": "Fine, blame me! Blame me for the whole base!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Nobody said— there you go again.",
-          "sourceHash": "sha256:bd1def58b2bf386ca2e45dcd57d4494110d644c15b7d4b58fa1f38e8f6668b05"
+          "text": "Nobody said— there you go again."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.hothead.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Three counts. Give back my shovel. One! Two!!",
-          "sourceHash": "sha256:c99320cc039137a7ed5e86903fa738ad84c9fab073d8672c311235160cb8f5c2"
+          "text": "Three counts. Give back my shovel. One! Two!!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "What happened to three? — Oh. You already grabbed it.",
-          "sourceHash": "sha256:ca96581c4461476a2fac0646d875ea2f8d158fa84402124969892976595c17c7"
+          "text": "What happened to three? — Oh. You already grabbed it."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.hothead.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I'm not angry! This is just my voice!!",
-          "sourceHash": "sha256:8d92bea326c7f6e7a28989feb55b2bca3136663d4feaad41d69f34ff75d78128"
+          "text": "I'm not angry! This is just my voice!!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "The ceiling regolith disagrees.",
-          "sourceHash": "sha256:8f6099418fb7d3d72a6581dd7acae12732b9a15a0255d6b877f1dd3d09a70cdc"
+          "text": "The ceiling regolith disagrees."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Could you stop leaving every mess for someone else?",
-          "sourceHash": "sha256:dcb98777d8f4f5b17df1963711249bbb90d5f9c686e5b34e41bea6c6dd826028"
+          "text": "Could you stop leaving every mess for someone else?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I'm already run off my feet. What more do you want?",
-          "sourceHash": "sha256:945ef45db0ea055e1c9f35ac580bcd07dd5cad5c30dea8e9796601703a41e916"
+          "text": "I'm already run off my feet. What more do you want?"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You scrambled the schedule again.",
-          "sourceHash": "sha256:e3fd202225032ebff876e512c7182abffc832ca6ed7f70aeb72fa104bf68b57b"
+          "text": "You scrambled the schedule again."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "No, you just didn't read it!",
-          "sourceHash": "sha256:4970d29ae1c7def9e9740415d1acf0dc5effb8f6dd8d32efd8f68c72af758712"
+          "text": "No, you just didn't read it!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I really cannot deal with this right now.",
-          "sourceHash": "sha256:c320509fbe83ea7cd859ac0413cd4830539881dc3f40c092463ac3ee8966d893"
+          "text": "I really cannot deal with this right now."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fine. Then we stay out of each other's way.",
-          "sourceHash": "sha256:0bed4c348b5d3e519451ff4c440aefc286bd42f25e59d753ea3ae6deaffc3078"
+          "text": "Fine. Then we stay out of each other's way."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You snore like an unoiled rock crusher!",
-          "sourceHash": "sha256:27673477fe4bedfa3ae9d70fe4f39951afbe75ff99f1dc7a6e75be19467ee428"
+          "text": "You snore like an unoiled rock crusher!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Me? You recited coordinates in your sleep all night!",
-          "sourceHash": "sha256:a10aab10aff100fa4f7dfaa7a33b440d77349beee54dca4f86e35c761eb08f55"
+          "text": "Me? You recited coordinates in your sleep all night!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.005",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 17,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Where's the berry I was saving? The single berry!",
-          "sourceHash": "sha256:b6fc279895e028895af31c0e39f5be61e44469862ea25a18286ef8b2d7c78686"
+          "text": "Where's the berry I was saving? The single berry!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It didn't have your name on it!",
-          "sourceHash": "sha256:02628a43442798f4fd3152e3ecd6dcb33545a65ac7ca4a38b0c20d61ab53aeec"
+          "text": "It didn't have your name on it!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.006",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 18,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Can you clear that junk pile in the corridor?",
-          "sourceHash": "sha256:434eab8bff53c386683490f8ab4eed44577ea399e27e59ea5c28e3e0c5a4cffd"
+          "text": "Can you clear that junk pile in the corridor?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Those are spare parts! Every single one is useful!",
-          "sourceHash": "sha256:d57b273901402a9550427048d4d52d1e620f76364d36699b7269d4a7cae009a5"
+          "text": "Those are spare parts! Every single one is useful!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.007",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 19,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The lavatory is clogged because you crossed the pipes!",
-          "sourceHash": "sha256:7371fa7cb10383c1e24fe7651f03285496b2adca82fd38f3681338a6870a4d95"
+          "text": "The lavatory is clogged because you crossed the pipes!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I followed the blueprint. Blame the blueprint!",
-          "sourceHash": "sha256:917f0ae5da15fb954deb92bbadc8d8968b5c14f7daaaac9376dd7f578219441c"
+          "text": "I followed the blueprint. Blame the blueprint!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.008",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 20,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The battery is dead and it was your shift!",
-          "sourceHash": "sha256:cb639b08ec2c4d7e07bb218d5aa61a5824255ccaf41c9cdee9a85e377d928365"
+          "text": "The battery is dead and it was your shift!"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "A hatch chewed the wire. Take it up with the hatch!",
-          "sourceHash": "sha256:5d4f884cbd04af467c21b228542614fdd7b76dae2913452e985de9b7a04ee9d7"
+          "text": "A hatch chewed the wire. Take it up with the hatch!"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.009",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 21,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You left the airlock open on purpose so I would yell about it.",
-          "sourceHash": "sha256:c008fd189b255d4726eb1b99144bc8d075259da95ac2d8ac7fbc79224bb789f7"
+          "text": "You left the airlock open on purpose so I would yell about it."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "And yet. Here you are. Yelling.",
-          "sourceHash": "sha256:afa729c053092223e43c590edd5d0961e1e56de0623f2f0405b26505b1beca5c"
+          "text": "And yet. Here you are. Yelling."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.010",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 22,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You have been 'inspecting' that ladder for an hour.",
-          "sourceHash": "sha256:1c83e8aec9f3c28f244775a5d51d405dd6a6f45c7537ab0e7fe9cf1fadd585ff"
+          "text": "You have been 'inspecting' that ladder for an hour."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Inspection is work. Ask anyone who isn't you.",
-          "sourceHash": "sha256:3b3c6913f9fae93941c5473bd749a03daeda4efabd1333c517ed0da59c0519a9"
+          "text": "Inspection is work. Ask anyone who isn't you."
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.011",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 23,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Your tunnel is genius. Visionary. Historic.",
-          "sourceHash": "sha256:e7c4ba50a0705ce044a684659fa31eb92469f127ea750dc800c9245f85611e46"
+          "text": "Your tunnel is genius. Visionary. Historic."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It's a hole. You want my rations, don't you?",
-          "sourceHash": "sha256:7893718cd9636c2de53afe2a76f0a16258a1fa7565beb48a9344ff161b858d26"
+          "text": "It's a hole. You want my rations, don't you?"
         }
       ]
     },
     {
       "candidateId": "storylet.argument.base.012",
+      "storyletId": "Argument",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 24,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "How's my new great hall?",
-          "sourceHash": "sha256:7a33004983c72280b5cf1340cbf2625d2de1198929bd20bdc20053e107894afd"
+          "text": "How's my new great hall?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Mid.",
-          "sourceHash": "sha256:926bd9debe10ed1a441cf357e77531b0eb02dd4d8bf0b79a4e4c0194b5900d01"
+          "text": "Mid."
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "MID? There's a water fountain!",
-          "sourceHash": "sha256:407055ff66810d5eedb0db9e830b8ed2feb94d4d519351c01a3639416cc9786a"
+          "text": "MID? There's a water fountain!"
         }
       ]
     }

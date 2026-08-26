@@ -4,91 +4,106 @@
   "candidates": [
     {
       "candidateId": "storylet.wrathpunch.base.001",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Nobody down here.",
-          "sourceHash": "sha256:2eddc4bc17975e145d398a24f3e77cc95a9c8229762571206a02950f1d36b2da"
+          "text": "Nobody down here."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "—What are you doing!",
-          "sourceHash": "sha256:c0c6108052216acd7b04fb4eca0575c9fa1f90fbd2bee9b8549bbe476bebf3c1"
+          "text": "—What are you doing!"
         }
       ]
     },
     {
       "candidateId": "storylet.wrathpunch.base.002",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Don't shout. Nobody's coming anyway.",
-          "sourceHash": "sha256:0713dd8edf355b3a7d4aa33559a6fa337eaedce3573c452d4621ed484cf42224"
+          "text": "Don't shout. Nobody's coming anyway."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...I know.",
-          "sourceHash": "sha256:c4ef2cf180e96480ee714de72e782b556ced2c147b4e8823c6483da9aaa0c657"
+          "text": "...I know."
         }
       ]
     },
     {
       "candidateId": "storylet.wrathpunch.base.003",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "That one's for last week.",
-          "sourceHash": "sha256:0f3cdd3faee361809759a4eeca11efbbdbfe5a264f4b609f69c208e97595a4e3"
+          "text": "That one's for last week."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Last week I was in a med bed.",
-          "sourceHash": "sha256:8504fa722ce28b782e419f07be023afb5d08af54189b35560118c07fbf712210"
+          "text": "Last week I was in a med bed."
         }
       ]
     },
     {
       "candidateId": "storylet.wrathpunch.base.004",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Clean up before you go out. Don't let them see.",
-          "sourceHash": "sha256:b5825b2daf719ec06c7b6307fa696e3102f7f1684fd9e6a57d2ba8ea7562ba8e"
+          "text": "Clean up before you go out. Don't let them see."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "You don't let them see either.",
-          "sourceHash": "sha256:382b8821beaeecb378cf664d5802608c4811e26537e3efe70d0cb6b965134362"
+          "text": "You don't let them see either."
         }
       ]
     },
     {
       "candidateId": "storylet.wrathpunch.base.005",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "It isn't personal. This place needs somewhere to vent.",
-          "sourceHash": "sha256:220a06f847482b713234a0e6ad58f9c418136a767bcdf53d77f4d8a2335d1776"
+          "text": "It isn't personal. This place needs somewhere to vent."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Then go find a wall.",
-          "sourceHash": "sha256:ad2b980e8ba3111128aeacbc9135f508a2519e21c6b3d4aa0edd06804d80f8b0"
+          "text": "Then go find a wall."
         }
       ]
     }

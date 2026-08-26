@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "breakdowndestroy",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那台是我昨天修好的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那你修得很好，响很久。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "住手，那是氧气机。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……哪一台。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你砸的是我们的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "这里有什么是我的？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你打完了吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "没有。但手痛了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "墙比你硬。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "墙从来没让我失望过。"
+        }
+      ]
+    }
+  ]
+}

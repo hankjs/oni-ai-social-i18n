@@ -4,91 +4,106 @@
   "candidates": [
     {
       "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You went down yesterday too.",
-          "sourceHash": "sha256:cbbd6edcd3ac7efcec09df3e819dd09b8a5aa302e8b3e66aea0f50ce34891793"
+          "text": "You went down yesterday too."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It was my turn.",
-          "sourceHash": "sha256:d30c3cd6003f3f4fe8b09385afbda1f8f4b578c28cb6348eadb2b67223da9eac"
+          "text": "It was my turn."
         }
       ]
     },
     {
       "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Do you swear when the visor fogs up?",
-          "sourceHash": "sha256:e166641dda6215992ef27a5570f9897920ae4af08ce302b93c0c760018cbb853"
+          "text": "Do you swear when the visor fogs up?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Yes. Badly.",
-          "sourceHash": "sha256:0c9f70f570791020f9f53155a3c0474e7abcebfc9d0ff59abf9bd03566735c8f"
+          "text": "Yes. Badly."
         }
       ]
     },
     {
       "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "That level isn't so bad actually.",
-          "sourceHash": "sha256:8dd76384a4ff010ca3fdbb7eaa17dc330a2d820e638064620e004461f94f2c9c"
+          "text": "That level isn't so bad actually."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It is that bad.",
-          "sourceHash": "sha256:c9b7036e69be72246174fe05377e83661f56edf7bba01729bb2666266bc8a019"
+          "text": "It is that bad."
         }
       ]
     },
     {
       "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Forget it.",
-          "sourceHash": "sha256:49b90ca1ca0ffe69ac74f9d95464480c53a96708ed21662e06183f05420ffdc3"
+          "text": "Forget it."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Yeah.",
-          "sourceHash": "sha256:a4de5262074ee69ddc5cdc53f61e87ec28616a5d40f1e4763ec2e1346cdcb954"
+          "text": "...Yeah."
         }
       ]
     },
     {
       "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Next time we go together. It's faster.",
-          "sourceHash": "sha256:595dac6db36f2c87539182f4c62834bc9ae2afd32203e710a8ef2cfdea57a670"
+          "text": "Next time we go together. It's faster."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fine.",
-          "sourceHash": "sha256:4be2947ba388ce746d7679e42ec51bc7dcd7057a05693ca17d155ee9c75f3d94"
+          "text": "Fine."
         }
       ]
     }

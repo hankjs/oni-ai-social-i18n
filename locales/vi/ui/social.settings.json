@@ -1,0 +1,636 @@
+{
+  "locale": "vi",
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "Đời sống xã hội · Cài đặt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "Cài đặt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "Mở bảng cài đặt «Đời sống xã hội của người nhân bản»",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "Lưu",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "Hủy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "Khôi phục mặc định",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "Đã lưu, và đã có hiệu lực với phiên hiện tại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "Lưu thất bại, xem chi tiết trong nhật ký.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "Đã khôi phục giá trị mặc định, bấm «Lưu» mới có hiệu lực.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": "(có hiệu lực sau khi khởi động lại)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "Bật",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "Tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "Hội thoại AI",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "Bật hội thoại do AI tạo",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "Lời AI chưa hoàn thiện, mặc định tắt; khi tắt dùng toàn bộ lời có sẵn, lối chơi vẫn đủ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "Địa chỉ API",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API Key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "Mô hình",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "Dán API Key của bạn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "Tên mô hình",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "Ngôn ngữ hội thoại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "Theo trò chơi",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "tiếng Trung",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_KO",
+      "text": "한국어",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_RU",
+      "text": "Русский",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA",
+      "text": "日本語",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_VI",
+      "text": "Tiếng Việt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "Trần hội thoại AI mỗi chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "Hồi chiêu hội thoại cùng một cặp người nhân bản (giây)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "Hết giờ yêu cầu AI (giây)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "Trần mỗi lần tạo (token)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key đã điền, lưu xong có hiệu lực ngay",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "Chưa điền Key, hội thoại AI sẽ không gửi, chỉ dùng lời có sẵn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key đã điền, nhưng địa chỉ API hoặc mô hình chưa điền/không hợp lệ, hội thoại AI sẽ không gửi",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "Hệ thống xã hội",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "Quan sát sự kiện xã hội gốc (đầu vào động cơ quan hệ)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": "(bản này luôn bật)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "Động cơ quan hệ hiện dựng hoàn toàn trên sự kiện xã hội gốc, tạm không hỗ trợ tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "Phím tắt se duyên F9/F10/F11",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "Thông báo đại sự quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "Dựng sự kiện quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "Gọn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "Chuẩn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "Tập trung",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "Chuẩn không cướp ống kính; chỉ Tập trung mới tự dịch camera. Không đổi sự kiện có xảy ra hay không, cũng không đổi số liệu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "Tự tạm dừng khi đại sự",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "Công tắc độc lập, mặc định tắt. Bật thì khi sự kiện quan hệ lớn xảy ra sẽ tạm dừng trò chơi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "Cửa sổ chờ xảy ra",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "Tắt thì tỏ tình và sự kiện tương tự xảy ra ngay, vẫn còn dựng và thông báo. Không đổi kết quả, chỉ đổi thời điểm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "Chu kỳ chờ xảy ra",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "Thông báo cột mốc quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "Thông báo đau buồn và mất mát",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "Thông báo xung đột và nguy hiểm",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "Thông báo kỷ niệm thường ngày",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "Tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "Chỉ lưu",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "Thông báo tức thì",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "Một chuyện quan trọng sắp xảy ra",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0} chuẩn bị nói với {1} một chuyện quan trọng, còn {2} chu kỳ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "Khoảng cách cộng thiện cảm cùng một cặp người nhân bản (giây)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "Khoảng ngắn nhất mỗi cặp khi chat gốc thành thiện cảm và lời mod. Mặc định 15 giây; còn bị trần cộng mỗi cặp mỗi chu kỳ, rút khoảng cách không vượt trần chu kỳ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "Dung lượng biên niên (mục)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "Trần số mục vùng cuộn nhật ký sự kiện. Mặc định 5000 mục ≈ dành khoảng 1MB chỗ lưu (ước lượng chưa nén, nén xong nhỏ hơn nhiều); cột mốc tỏ tình/chết lưu riêng, không chiếm hạn mức này. Có hiệu lực sau khi đọc lưu hoặc ván mới",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "Nội dung tối (thử thách nhân tính)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "Bật nội dung tối",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "Công tắc tổng, mặc định tắt. Bật thì sự kiện tối bên dưới mới có hiệu lực — đánh nhau, tương tàn vì hết lương, và các thử thách nhân tính thêm sau. Nội dung này gồm bạo lực và cái chết giữa người nhân bản; không muốn thì để tắt, chức năng xã hội còn lại hoàn toàn không bị ảnh hưởng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "(công tắc tổng nội dung tối đang tắt, các mục dưới tạm chưa có hiệu lực)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "Cho phép tương tàn vì hết lương",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "Khi kho lương cạn đáy và nhiều người đang đói, thuộc địa rơi vào tương tàn, người chết bị làm thành thức ăn. Có cảnh báo và đếm ngược trước, khoảng đó bổ sung lương là gỡ; mỗi sự kiện chỉ chết một người, lương trở lại thì dừng; vấn đề chưa giải sẽ kích lại. Đây là nội dung tối nhất của Mod này, cần bật đồng thời công tắc tổng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "Dựng sụp đổ thành một màn kịch",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "Khi người nhân bản căng thẳng đầy thang thật sự sụp đổ (gào khóc／thét／nôn／ăn vô độ／đập phá／phóng điện), người cùng phòng sẽ dừng lại nhìn, sau đó để lại trong quan hệ «tôi đã thấy lúc tệ nhất của họ». Vài chu kỳ sau, người đầu tiên tới nói／chăm／ăn cùng bàn sẽ kéo họ ra khỏi sụp đổ — thiện cảm hai người tăng mạnh, người ấy chịu thêm một ít căng thẳng. Bạn cũng có thể se duyên chỉ định ai đi. **Không đổi bất kỳ số liệu nào**: tần suất sụp đổ, căng thẳng, tỷ lệ chết đều như cũ, mục này chỉ thêm dựng, ký ức và lối thoát ấy. Mặc định bật",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "Giờ làm nguy hiểm sẽ chất oán",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "Trong cùng một nghề, nếu có người luôn bị cử tới chỗ nguy hiểm (oxy thấp, khí không thở được, đang ngạt hoặc bỏng lạnh), mà người kia chưa bao giờ xuống, người trước sẽ bắt đầu ghét người sau: thiện cảm chỉ giảm không tăng, đi tiếp thậm chí kết thù địch. Làm việc khi mặc bộ đồ áp suất không tính — nên «ai có bộ đồ áp suất» tự thành vấn đề xã hội. [b]Lối thoát nằm ở bạn[/b]: hãy đổi độ ưu tiên. Sổ cũ trượt khỏi cửa sổ thống kê, bất bình tự nguôi, còn để lại «gần đây họ cũng xuống». Đây là mục duy nhất trong cả mod mà [b]bạn thay đổi cách quản lý của mình[/b] để gỡ, và dùng thao tác gốc của trò chơi, không giao diện mới. Hai người [b]cùng[/b] trong nguy hiểm cũng tính: thành tình chiến hữu. Cùng chuyện ấy giữa bạn bè lại ra kết khác — «họ xuống thay tôi», thiện cảm ngược lại tăng. [b]Không thêm căng thẳng, không trừ bất cứ thứ gì[/b]: căng thẳng môi trường xấu trò chơi đã cho rồi. Cả thuộc địa cùng lúc tối đa hai cặp bất bình. Mặc định bật; «cường độ kịch» đặt «Yên lặng» thì buộc tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "Cho phép đổ tội tập thể",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "Sau đại sự thuộc địa (có người chết／nhiều người sụp đổ／kho lương cạn đáy), cả nhóm tính món lên đầu người duyên kém nhất, bất kể có phải lỗi của họ: thiện cảm giảm một lần, rồi trượt vào trạng thái bị cô lập — ba người đáy chỉ giảm thiện cảm với họ, người khác đi qua nháy chán ghét, người cùng bàn đứng dậy sớm. Hai lối thoát đều là công cụ của người chơi: màn một se duyên họ với người uy tín cao, người ấy sẽ nói lời nghĩa khí; màn hai bất kỳ ai tới chăm／tâm sự／ăn chung đều phá thế. Không ai lo cũng không kẹt vĩnh viễn, thời gian sẽ xóa nhòa. Cần bật đồng thời công tắc tổng; «cường độ kịch» đặt «Yên lặng» thì buộc tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "Cho phép thù địch đánh nhau",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "Cãi vã giữa thù địch có tỷ lệ nâng thành đánh thật: đánh nhau theo lượt, dừng khi vừa đủ (một bên xuống nửa máu thì cả hai thu tay), thù địch đánh nhau không đánh chết (tương tàn vì hết lương là chuyện khác, xem dưới). Mặc định tắt — muốn xem kịch thì tự bật. Đánh dấu tách rời cấm hẳn một cặp đánh nhau; «cường độ kịch» đặt «Yên lặng» thì dù bật cũng không kích",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "Tăng nhịp hội thoại gốc",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "Hệ số hồi chiêu hội thoại gốc",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "Hệ số khoảng cách hội thoại gốc",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "Giao diện và phản hồi",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "Chữ nổi lời thoại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "Giây lời thoại ở lại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "Số nổi thiện cảm",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "Dữ liệu chơi trên máy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "Ghi đo xa xã hội ẩn danh",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "Mặc định tắt. Bật thì chỉ ghi trên máy này tần suất sự kiện, phân bố quan hệ, hiệu ứng căng thẳng của Mod, tỷ lệ lịch trình và thời gian hiệu năng; người nhân bản được đánh số ẩn danh, không ghi API Key, địa chỉ AI hay nội dung bản lưu, cũng không tự tải lên. Có thể xuất báo cáo chẩn đoán trong ván tại «Xã hội → Nhật ký sự kiện»",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "Cân bằng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "Mẫu cường độ kịch (có hiệu lực sau khi đọc lưu)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "Yên lặng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "Mặc định",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "Kịch",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "Tùy chỉnh",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "Mẫu chỉnh xác suất và cái giá của cãi vã/ghen/xin lỗi; «Yên lặng» ít cãi ít ghen, «Kịch» xung đột dày hơn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "Trần mềm căng thẳng xã hội (0 = tắt)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "Ngưỡng «căng thẳng tột độ»",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "Gỡ lỗi (chỉ hiện ở bản dev)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "Dưới đây là thông số kỹ thuật, chỉnh hỏng thì «Khôi phục mặc định» kéo lại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "Trần AI chỉnh lời mỗi chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "Hồi chiêu tán gẫu cùng một người nhân bản (giây)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "Biên niên thường ngày ghi mỗi chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "Trần cộng thiện cảm chat gốc mỗi cặp mỗi chu kỳ (lần)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "Mặc định 3 lần. Đạt trần thì các lần nói gốc còn lại của cặp này trong chu kỳ giữ biểu hiện gốc của trò chơi, nhưng không kích lại lời mod, thiện cảm và sự kiện xã hội; chu kỳ sau đặt lại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

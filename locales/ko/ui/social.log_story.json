@@ -1,0 +1,1830 @@
+{
+  "locale": "ko",
+  "namespace": "social.log_story",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "text": "{0}와 {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "text": "나",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "text": "{pair}는 스쳐 지나가며 가볍게 고개를 끄덕였다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "text": "{pair}는 복도에서 인사를 나눴다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "text": "{pair}는 마주치자 두어 마디 안부를 건넸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "text": "{pair}는 멀리서 손을 흔들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "text": "{pair}는 복도 한가운데를 사이에 두고 눈을 맞추고, 말하지 않아도 통했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "text": "{pair}는 인쇄 포드 앞에 줄을 서며 인사를 건넸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "text": "{pair}는 잠시 이야기를 나눴다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "text": "{pair}는 모여 잡담했고, 분위기는 나쁘지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "text": "{pair}는 시시콜콜한 이야기를 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "text": "{pair}는 {topic} 이야기를 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "text": "{pair}는 오늘의 보고 들은 것을 주고받았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "text": "{pair}는 되는 대로 이야기하다 보니 시간이 금세 갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "text": "{actor}는 {other}에게 쌓인 푸념을 쏟아냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "text": "{other}는 {actor}의 속마음을 오래 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "text": "{actor}는 오늘의 재수 없는 일을 하나하나 {other}에게 세어 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "text": "{actor}는 {other}에게 이런 날이 언제 끝나냐고 물었지만, {other}는 대답하지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "text": "푸념을 다 쏟고 나니, {actor}는 어깨의 흙이 조금 가벼워진 듯했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "text": "{actor}의 감정이 곧 넘칠 듯해, {other}가 곁에 잠시 앉아 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "text": "{actor}는 {other}에게 손수 일을 가르쳤다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "text": "{actor}는 {other}에게 자신만의 비법을 몇 가지 전했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "text": "{actor}가 한 번 보여 주자, {other}는 눈도 깜빡이지 않고 보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "text": "{actor}는 한 번만 가르친다고 했고, {other}는 돌아가 몰래 연습하기로 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "text": "일정표에서는 배울 수 없는 손재주를, {actor}는 {other}에게 전했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "text": "{pair}는 밤늦게까지 이야기하다 서로의 절친이 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "text": "{pair}는 남에게는 한 번도 하지 않은 말을 나누었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "text": "{pair}는 서로의 비밀을 주고받고, 그때부터 너와 내가 없어졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "text": "그날 밤 {pair}는 동이 틀 때까지 이야기했고, 아무도 잠 이야기를 꺼내지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "text": "오래 알아야 친구가 되는 사람도 있지만, {pair}는 하룻밤이면 됐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "text": "{actor}는 {other}를 돌보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "text": "{actor}는 {other}의 상처를 치료했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "text": "{actor}는 {other}의 붕대를 아주 살살 갈아 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "text": "{other}는 입으로는 괜찮다 하면서도, 결국 {actor}에게 하루 종일 보살핌을 받았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "text": "{actor}는 {other} 곁을 지키며, 약까지 미리 미지근하게 식혀 두었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "text": "{actor}는 {other}가 가라앉을 때까지 곁에 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "text": "{other}는 {actor}의 곁에서 차분해졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "text": "{actor}는 큰 도리를 말하지 않고, 그저 {other} 곁에 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "text": "{other}가 고맙다고 하려 하자, {actor}는 손을 저으며 힘을 아끼라 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "text": "어떤 밤은 그저 넘기는 수밖에 없지만, 다행히 {other}는 혼자 넘기지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "text": "{pair}는 {place}에서 함께 식사했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "text": "{pair}는 먹으며 이야기했고, 꽤 편했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "text": "{pair}는 한 상에 모여 오래 이야기했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "text": "{pair}는 식판을 들고 나란히 앉았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "text": "{pair}는 머시 바 하나를 나눠 먹었고, 누구도 서로를 꺼리지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "text": "밥은 여전했지만, {pair} 상의 웃음소리는 새로웠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "text": "{pair}는 식탁을 사이에 두고, 아무도 먼저 입을 열지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "text": "{pair}는 바짝 붙어 앉아, 그 식사는 달콤했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "text": "{pair}는 한 방에서 밤을 보냈고, 생활 리듬이 잘 맞았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "text": "{pair}의 침대는 맞닿아, 밤에 뒤척일 때도 상대를 깨울까 조심했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "text": "소등 뒤에 {pair}는 또 한동안 작은 소리로 이야기하고 나서 잠들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "text": "같은 지붕 아래서 {pair}는 코 고는 박자까지 맞춰 냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "text": "{pair}는 생활 리듬이 안 맞아, 누구도 잘 자지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "text": "{pair}는 {place}에서 잠시 함께 놀았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "text": "{pair}는 휴게 구역에서 만나 즐겁게 놀았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "text": "{pair}는 {place}에서 좋은 시간을 보냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "text": "{pair}는 몇 판을 겨루었고, 이기고 짐은 이미 중요하지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "text": "{pair}는 하루의 피로를 놀이로 씻어 냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "text": "{pair}는 {place}의 파티에 참가했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "text": "{pair}는 파티에서 신나게 놀았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "text": "{pair}는 파티에서 잔을 부딪쳤고, 주스가 거의 술 맛이 날 뻔했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "text": "파티 불빛 아래서 {pair}는 평소보다 말이 많아졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "text": "{pair}는 파티가 끝날 때까지 남아, 아직도 아쉬워했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "text": "{pair}는 데이트를 했고, 분위기는 딱 좋았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "text": "{pair}는 잠시 둘만 있었고, 눈에는 서로뿐이었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "text": "{pair}는 나란히 걸었고, 작업대로 돌아가자는 말은 아무도 하지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "text": "{pair}는 망원경 곁에서 데이트하며, 같은 밤하늘을 번갈아 보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "text": "데이트 규칙은 {pair}가 정했다. 일정표 이야기는 금지.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "text": "{pair}는 함께한 날을 기념했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "text": "{pair}는 또 한 해를 무탈히 넘겼고, 잔을 부딪칠 만했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "text": "달력조차 스스로 적어야 하는 이곳에서, {pair}는 오늘을 잊지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "text": "{pair}는 기념일을 식민지 전체의 축제로 만들었다. 적어도 그들 스스로는 그렇게 여겼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "text": "{actor}는 {other}와의 기념일을 잊었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "text": "{actor}의 일정표에서 {other}와의 기념일만 빠져 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "text": "{other}는 저녁 내내 기다렸고, {actor}는 갱도 안에서 전혀 몰랐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "text": "바빠지면 머리가 흐려져, {actor}는 가장 중요한 날을 잊었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "text": "{actor}는 {other}에게 마음을 밝혔다. {other}는 받아들였다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "text": "{actor}는 용기를 내어 고백했고, {other}는 얼굴이 붉어진 채 고개를 끄덕였다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "text": "{actor}가 열 번 연습한 말을 반도 하기 전에, {other}가 승낙했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "text": "인쇄 포드의 목격 아래, {actor}와 {other}는 손을 잡았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "text": "{other}는 그 말을 오래 기다렸고, {actor}가 마침내 꺼냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "text": "{pair}는 다시 함께 걸었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "text": "{pair}는 한 바퀴 돌아, 다시 서로의 곁으로 왔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "text": "어떤 이별은 생각하기 위한 것이었고, {pair}는 생각이 끝났다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "text": "{pair}는 다시 손을 잡았고, 처음보다 더 세게 잡았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "text": "{actor}는 {other}에게 고백했지만, {other}는 받아들이지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "text": "{actor}의 마음을 {other}는 받아 내지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "text": "{actor}가 연습해 둔 고백을 마치자, {other}는 오래 침묵했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "text": "모든 진심에 메아리가 있는 것은 아님을, {actor}는 오늘 알았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "text": "{pair}는 이별했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "text": "{pair}의 정이 끝에 닿았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "text": "{pair}는 할 말을 마치고, 각자 돌아섰다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "text": "{pair}의 관계는 대기복의 산소처럼 바닥났다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "text": "{other}는 아직 붙잡고 싶었지만, {actor}는 더 이야기하고 싶지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "text": "{pair} 사이에는 보이지 않는 벽이 있어, 관계는 그 자리에 멈췄다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "text": "형언할 수 없는 힘이 {pair}의 인연을 눌러, 누구도 한 걸음 더 나아가지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "text": "{pair}의 이야기가 막 장을 넘기려다, 보이지 않는 손에 다시 눌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "text": "운명이 {pair} 사이에 선을 그었고, 누구도 넘지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "text": "{pair}의 관계에 파문이 일었다가, 영문 없이 가라앉았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "text": "{pair}는 크게 싸우고, 그때부터 남남이 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "text": "{pair} 사이의 그 적은 정은, 하룻밤 사이에 제로가 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "text": "그날부터 {pair}는 복도에서 마주쳐도 돌아 갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "text": "친구는 거기까지였고, {pair}는 인사조차 생략했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "text": "{pair}는 앙금을 풀고 다시 사이가 좋아졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "text": "{pair}는 옛 장부를 덮고, 다시 한 상에 앉았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "text": "누가 먼저 입을 열었는지는 이미 중요하지 않았고, {pair}는 화해했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "text": "냉전이 끝난 날, {pair}는 모두 한숨을 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "text": "{actor}는 {other}에게 사과했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "text": "{actor}가 먼저 고개를 숙이자, {other}도 그에 따라 용서했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "text": "{actor}는 「미안해」 세 글자를 더듬더듬 말했고, {other}는 받아 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "text": "{actor}는 머시 바 하나를 건네며, 그것으로 사죄했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "text": "체면과 {other} 사이에서, {actor}는 {other}를 골랐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "text": "한 차례 충돌이 오히려 {pair}를 좋은 친구로 만들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "text": "{pair}는 할 말을 다 하고, 오히려 친구가 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "text": "사과를 마친 {pair}는, 싸우기 전보다 더 가까워졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "text": "{pair}는 먼저 한바탕 싸우고, 그다음 친구가 되었다. 일은 그런 것이었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "text": "{pair}는 한바탕 싸웠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "text": "{pair}는 말다툼을 시작했고, 누구도 양보하지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "text": "{pair}의 목소리가 점점 높아져, 옆의 해치까지 놀랐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "text": "{pair}는 사소한 일로 얼굴이 빨개졌고, 나중에 생각하면 그럴 일도 아니었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "text": "한 판을 끝내고, {pair}는 모두 상대가 먼저 이치를 저버렸다고 여겼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "text": "{cause} 때문에 {pair}가 싸움을 시작했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "text": "{pair}는 앙심을 품고 숙적이 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "text": "{pair}의 원한이 그때부터 이름을 얻었다. 숙적.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "text": "앞으로 꽤 긴 날 동안, {pair}는 서로에게 좋은 얼굴을 하지 않을 것이다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "text": "{pair}는 숙원을 내려놓았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "text": "{pair}는 악수를 했고, 숙원은 여기까지였다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "text": "한 사람을 미워하는 것도 꽤 지치는 일이라, {pair}는 그만두기로 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "text": "{other}가 죽었고, {actor}의 속마음은 뭐라 형언하기 어려웠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "text": "숙적이 죽자, {actor}는 복도가 꽤 조용해졌음을 문득 알아차렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "text": "{actor}는 {other}를 이기고 싶었지만, 이제 상대가 없다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "text": "{actor}는 {other}와 {third}가 웃으며 이야기하는 것을 보고, 속이 편치 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "text": "{actor}는 질투했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "text": "{third}와 {other}의 이야기가 잘 맞아, {actor}는 옆에서 흙을 오래 세었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "text": "그 신 맛의 출처를, {actor} 스스로도 분명히 말하지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "text": "{actor}는 {other}를 잃고, 사람 전체가 무너졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "text": "{other}의 침대가 비었고, {actor}는 오래도록 그 쪽을 보지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "text": "이후의 일정표에 {other}의 이름은 없었고, {actor}의 날도 한 칸이 비었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "text": "{other}가 떠났고, {actor}는 꺼내지 못한 말을 다시 삼켰다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "text": "{other}는 {actor}가 용기를 내는 날을 기다리지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "text": "{actor}는 오래 준비한 말을, {other}의 빈 침대에 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "text": "{actor}가 붕괴하는 모습을 {other}는 다 보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "text": "{other}는 얼굴을 돌렸지만, {actor}가 붕괴한 그 장면은 잊지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "text": "{actor}의 붕괴를 보며, {other}는 기지가 이렇게 조용한 줄 처음 알았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "text": "{subject}는 동료의 붕괴를 목격하고, 마음이 무거웠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "text": "{subject}는 동료의 붕괴를 우연히 보고, 그 후로 하루 종일 한눈을 팔았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "text": "{pair}는 주먹다짐을 시작했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "text": "{pair}의 말다툼이 주먹으로 번졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "text": "{pair}는 한데 엉겼고, 도구가 바닥에 흩어졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "text": "그 싸움은 볼품없었고, {pair}는 모두 상처를 입었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "text": "말리는 사람들이 모여서야, {pair}는 손을 놓았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "text": "{actor}는 또 하루 위험 구역에 내려갔고, {other}의 편한 일에 원망이 일었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "text": "같은 갱도 근무인데 왜 {actor}만 위험한 쪽으로 가는지——{actor}는 생각하면 생각할수록 씁쓸했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "text": "{actor}는 {other}의 한가한 날을 세며, 마음의 장부가 점점 두꺼워졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "text": "{actor}가 {other}에게 품었던 그 원망은, 천천히 흩어졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "text": "{actor}는 깨달았다. 위험한 일은 누군가는 해야 하니, {other}를 원망할 일이 아니라고.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "text": "시간이 그 화를 갈아 없애, {actor}는 {other}가 한결 눈에 들어왔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "text": "{other}가 {actor} 대신 위험한 일을 막았고, {actor}는 그것을 마음에 새겼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "text": "위험한 일이 떨어질 때 {other}가 한발 먼저 받았고, {actor}는 잊지 않을 것이다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "text": "{actor}는 {other}에게 빚을 졌고, 목숨으로 바꾼 그런 빚이었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "text": "{pair}는 함께 위험한 일을 버텨, 목숨을 나눈 정이 생겼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "text": "위험 구역에서 살아 나오자, {pair}가 서로를 보는 눈이 달라졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "text": "생사의 고비에서 {pair}는 아무도 먼저 달아나지 않았고, 그 정은 가짜가 아니었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "text": "{actor}가 앞장서 {other}에게 책임을 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "text": "일이 터지면 누군가는 뒤집어써야 한다. {actor}가 모두를 이끌어 {other}를 골랐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "text": "{actor}의 한 마디가, 뭇사람의 화를 {other}에게로 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "text": "{other}는 고립되었고, 아무도 그와 말하고 싶어 하지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "text": "{other}가 식당에 들어서자, 한 상 가득 사람들이 입을 닫았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "text": "이제는 해치가 {other}보다 인기가 있다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "text": "{actor}는 사람들 앞에서 {other}를 위해 공정한 한 마디를 했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "text": "{actor}가 모두 앞에서 {other}를 변호하자, 더는 아무도 입을 열지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "text": "뭇사람의 화가 거셀 때, {actor}는 {other}를 위해 입을 연 유일한 사람이었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "text": "{actor}는 {other}에게 손을 내밀었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "text": "{actor}는 식판을 들고 {other} 옆에 앉았고, 고립의 벽이 한 모서리 무너졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "text": "모두가 {other}를 피해 갈 때, {actor}만은 오히려 걸어갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "text": "{actor}는 아무도 보지 않을 때를 타 {other}를 한바탕 때렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "text": "일정표의 빈틈에서, {actor}는 {other}를 막아섰다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "text": "{actor}는 사방에 사람이 없을 때를 골라, 화를 {other}에게 쏟았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "text": "{subject}는 그 사적 폭력을 보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "text": "{subject}는 그 장면을 우연히 보고, 황급히 못 본 척했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "text": "어떤 일은 보아도 삼킬 수밖에 없어, {subject}는 입을 꼭 다물었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "text": "{subject}는 그가 혼자 숨어 우는 것을 우연히 보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "text": "{subject}는 지나가다 울음소리를 듣고, 발소리를 낮췄다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "text": "구석에 숨은 그 사람은 오래 울었고, {subject}는 다가가지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "text": "{subject}를 향한 고립은, 마침내 지나갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "text": "식민지가 새 화제를 찾았고, {subject}의 그 일은 더는 아무도 꺼내지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "text": "날이 길면 화조차 기한이 있다. {subject}는 다시 무리에 녹아들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "text": "식량고가 바닥났고, 공포가 식민지에 번졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "text": "마지막 머시 바조차 바닥났고, 내일은 아무도 감히 생각하지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "text": "배고프다는 소문은 산소보다 빨랐다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "text": "식량이 보충되었고, 모두 한숨을 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "text": "창고에 다시 재고가 생겼고, 씹는 소리가 돌아왔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "text": "위기가 풀렸고, 식량이 어디서 왔는지는 아무도 캐묻지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "text": "{actor}와 {other}는 마지막 한 입을 두고 손을 썼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "text": "극도로 굶주린 사람은 이치를 따지지 않았고, {actor}와 {other}는 한 입을 두고 얼굴을 찢었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "text": "{actor}는 {other}의 그 몫을 노렸고, 주먹이 이성보다 먼저 닿았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "text": "식량이 끊긴 날이 마침내 지나갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "text": "식량고가 다시 찼고, 어떤 일은 모두가 말하지 않기로 암묵했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "text": "다시 배불리 먹는 날이 와, 기근은 없었던 듯했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "text": "{pair}는 새로 온 동료를 맞았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "text": "{pair}는 새로 온 동료가 자리를 잡도록 돕고, 기지의 규칙을 알려 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "text": "인쇄 포드가 새 동료를 보냈고, {pair}가 제일 먼저 마중 나갔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "text": "새사람의 첫 식사는, {pair}가 곁에서 함께했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "text": "{subject}의 스트레스가 또 한 줌 무거워졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "text": "{subject}의 미간이 또 한 줄 조여졌다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "text": "줄이 너무 오래 팽팽해, {subject}는 그 소리까지 스스로 들을 수 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "text": "{subject}는 한숨을 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "text": "{subject}는 잠을 잘 자, 얼굴빛이 가라앉았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "text": "가슴을 누르던 그 흙을, {subject}는 겨우 조금 털어 냈다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "text": "{actor}는 멀리서부터 {other}에게 큰 소리로 안부를 외쳤다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "text": "{actor}의 인사는 명령 같았지만, {other}는 그래도 대답했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "text": "{actor}는 좌우를 살피고 나서야, 작은 소리로 {other}에게 인사했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "text": "{actor}는 {other}에게 가볍게 고개를 끄덕였고, 미소가 따뜻했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "text": "{actor}는 입에 라이스로프를 문 채, 우물거리며 {other}에게 인사했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "text": "{actor}는 큰 목소리로 {other}와 실컷 이야기했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "text": "{actor}는 이야기하다 목소리가 커졌지만, {other}는 의외로 개의치 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "text": "{actor}는 이야기할수록 흥분하여, 식탁을 칠 뻔했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "text": "{actor}는 목소리를 낮춰 {other}와 한참 속삭였고, 무엇을 걱정하는지는 알 수 없었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "text": "{actor}는 나지막이 말했고, {other}는 고개를 끄덕이며 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "text": "{actor}는 이야기하다 눈가가 붉어졌고, {other}는 서둘러 화제를 돌렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "text": "{actor}는 먹으며 이야기했고, {other}의 말은 늘 씹는 소리에 묻혔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "text": "{actor}는 자기 몫의 간식을 {other}에게 밀어 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "text": "{pair}의 식판은 유난히 깨끗이 비었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "text": "{actor}는 따뜻한 몫을 {other}에게 양보했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "text": "{pair}의 상이 가장 떠들썩했고, {actor}의 목소리는 식당 절반에 들렸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "text": "{actor}는 밥이 싱겁다 했고, {other}는 말없이 소금단지를 밀어 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "text": "{actor}는 한눈팔며 먹었고, {other}가 세 번을 묻고 나서야 대답했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "text": "{actor}는 뒤척이며 잠들지 못했고, {other}가 곁에서 잠시 이야기해 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "text": "{actor}는 밤에 눈물 몇 방울을 흘렸고, {other}는 못 들은 척했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "text": "{actor}의 코 고는 소리를, {other}는 밤새 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "text": "{actor}는 밤에 일어날 때 발소리를 낮춰, {other}를 깨울까 봐 조심했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "text": "{actor}는 잠들기 전 간식을 또 꺼냈고, {other}는 그 냄새에 잠이 안 왔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "text": "놀이에서 {actor}가 또 눈이 뒤집혔고, {other}는 웃으며 한 판 양보했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "text": "{actor}의 웃음이 제일 컸고, {other}의 귀가 고달팠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "text": "{actor}는 게임에 져 울 뻔했고, {other}는 서둘러 한 판을 양보했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "text": "{actor}는 이기고 짐을 늘 {other}에게 양보했고, 둘 다 즐겁게 놀았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "text": "{actor}는 조마조마하게 놀았고, {other}는 옆에서 계속 기운을 넣었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "text": "{actor}는 이야기하다 울었고, {other}는 말없이 휴지를 건넸다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "text": "{actor}는 욕을 섞어 푸념을 쏟았고, {other}는 처음부터 끝까지 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "text": "{actor}는 걱정을 한참 중얼거렸고, {other}는 하나하나 정리해 주었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "text": "{actor}의 푸념은, 휴게 구역 절반이 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "text": "{actor}는 푸념조차 나지막했고, {other}는 유난히 진지하게 들었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "text": "{pair}는 몇 마디 나누었고, 방금 만난 사람처럼 공손했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "text": "{pair}의 말에는 가시가 있어, 이야기하는 것이 수 겨루기 같았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "text": "{pair}는 이야기하다 시선이 다른 곳으로 피했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "text": "{pair}는 목을 굳힌 채, 필요한 몇 마디만 주고받았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "text": "{pair}는 붙어 속삭였고, 주위는 안중에도 없었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "text": "{pair}는 같은 상에서 식사하며, 각자 식판만 바라보았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "text": "{pair}는 같은 상에서 식사하며, 식기가 유난히 시끄럽게 부딪쳤다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "text": "{pair}는 같은 상에서 식사하며, 누구도 한눈팔며 먹었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "text": "{pair}는 한 방에서 밤을 보냈고, 누구도 예전 일을 꺼내지 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "text": "{pair}는 한 방에서 밤을 보냈고, 등을 맞댔다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "text": "{pair}는 한 방에서 밤을 보냈고, 둘 다 편히 자지 못했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "text": "{pair}는 한 방에서 밤을 보냈고, 방은 얼음 창고처럼 차가웠다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "text": "{pair}는 한 침대에 붙어 밤을 보냈고, 깨어서도 손을 잡고 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "text": "{pair}는 마주치자마자 웃었고, 예전의 그 싸움은 누가 기억하랴.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "text": "{pair}는 정겹게 이야기했다. 싸우고 친해진 사이였다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "text": "{pair}는 그 생환을 이야기하다 보면, 말이 끝이 없었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "text": "{pair}는 먹으며 잔을 살짝 부딪쳤고, 목숨을 나눈 정이 그 안에 있었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "text": "{pair}는 웃으며 이야기했고, 예전의 그 거절은 이제 웃음거리가 되었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "text": "{pair}는 바짝 붙어 앉았고, 이 식사는 하루만 기다린 것이 아니었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "text": "그 말다툼 이후로, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "text": "지난번 거절에도 {actor}는 포기하지 않았고, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "text": "헤어진 뒤에도 서로를 놓지 못했고, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "text": "그 붕괴를 목격한 뒤, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "text": "그동안의 냉전 끝에, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "text": "그 말다툼은 결국 멈추지 않았고, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "text": "원한이 오래 쌓여, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "text": "균열은 다시 메워지지 않았고, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "text": "또다시, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "text": "이미 {0}번째이고, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "text": "식량 단절의 그늘 아래, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "text": "뭇사람의 화가 가시지 않은 날들에, ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "text": "소문은 금세 퍼져, 모두가 그들을 이야기했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "text": "식민지 전체가 그들을 위해 기뻐했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "text": "식민지의 공기가 며칠 가라앉았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "text": "모두가 눈에 담았고, 마음이 편치 않았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "text": "{pair}는 그날 여러 번 모여 이야기했다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "text": "{pair}는 그날 할 말이 끝이 없었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "text": "{pair}는 그날 여러 번 마주쳐, 점점 안면이 생겼다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "text": "{pair}는 그날 여러 끼를 함께 먹었다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "text": "{pair}는 그날 틈만 나면 모여 놀았다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "text": "손에 쥔 일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "text": "서로의 맡은 일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "text": "채굴의 진척",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "text": "건축의 요령",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "text": "새로 궁리한 레시피",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "text": "작물의 성장",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "text": "작은 동물들의 성미",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "text": "연구의 새 발견",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "text": "기계 정비",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "text": "붕대 감는 손",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "text": "운반 경로",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "text": "새로 건 장식",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "text": "단련의 요령",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "text": "대기복 입는 요령",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "text": "갱도 안의 일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "text": "새로 지은 복도",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "text": "화덕 위의 새 재주",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "text": "밭의 수확",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "text": "우리 안의 작은 것들",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "text": "실험대 앞의 발견",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "text": "기계의 고장",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "text": "의무실의 약상자",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

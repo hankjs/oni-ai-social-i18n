@@ -1,0 +1,68 @@
+{
+  "family": "colony",
+  "pools": [
+    {
+      "poolId": "chronicle.bound-block.baseline",
+      "family": "colony",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 13,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.stress.baseline",
+      "family": "colony",
+      "angle": "base",
+      "participantMode": "solo",
+      "allowedSlots": [
+        "subject"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 13,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.welcome.baseline",
+      "family": "colony",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 13,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.witness.baseline",
+      "family": "colony",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 13,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.witness.event.solo",
+      "family": "colony",
+      "angle": "eventSpecific",
+      "participantMode": "solo",
+      "allowedSlots": [
+        "subject"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 13,
+      "contractRevision": 1
+    }
+  ]
+}

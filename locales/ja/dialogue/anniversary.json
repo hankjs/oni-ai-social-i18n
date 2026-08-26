@@ -1,0 +1,121 @@
+{
+  "locale": "ja",
+  "family": "anniversary",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversary.base.001",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "覚えてる？十サイクル前の今日だよ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "覚えてるよ。緊張してマッシュバーを握りつぶしたよね。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "今夜の星も、君のために握りつぶす。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.002",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "また一年……コロニーの計算だとね。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "酸素がある限り、ずっと一緒に数えていくよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.003",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "プレゼントは、シフトを三回替えて手に入れたマッサージテーブルの券。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "私のプレゼントは、君のシフトを全部日勤にしたこと。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "……私たち、本当にぴったりだね。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.004",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "百サイクル経ったよ。まだいびきで嫌いになってないんだ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "嫌ってるよ。でも嫌ってるうちに慣れちゃった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.005",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "記念日おめでとう。基地は爆発してないし、私たちは散っていない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "この星じゃ、それが最高の成績だよ。"
+        }
+      ]
+    }
+  ]
+}

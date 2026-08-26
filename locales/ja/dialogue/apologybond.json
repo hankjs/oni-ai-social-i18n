@@ -1,0 +1,90 @@
+{
+  "locale": "ja",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あの件……僕が悪かった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "話せば済む。言い争いのあと、かえってお前のことが分かった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "言い方がキツかった。ごめん。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "お互いさま。喧嘩しなきゃ知り合えない。ほら、飯行こう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "まだ怒ってる？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "もう収まった。言い争いできたってことは、お互い本気だったってことだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "次は先にお前の話を聞き終わる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "次はこっちも、怒鳴るのを二言減らす。握手？握手。"
+        }
+      ]
+    }
+  ]
+}

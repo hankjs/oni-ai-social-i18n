@@ -1,40 +1,20 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://oni-ai-social.local/schemas/dialogue-locale.schema.json",
-  "title": "Dialogue locale family file",
-  "type": "object",
-  "additionalProperties": false,
-  "required": ["locale", "family", "candidates"],
+  "type": "object", "additionalProperties": false, "required": ["locale", "family", "candidates"],
   "properties": {
-    "locale": { "type": "string" },
-    "family": { "type": "string" },
-    "candidates": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["candidateId", "status", "turns"],
-        "properties": {
-          "candidateId": { "type": "string", "minLength": 1 },
-          "status": { "type": "string", "enum": ["draft", "reviewed"] },
-          "turns": {
-            "type": "array",
-            "minItems": 1,
-            "items": {
-              "type": "object",
-              "additionalProperties": false,
-              "required": ["turnId", "speakerSlot", "text", "sourceHash"],
-              "properties": {
-                "turnId": { "type": "string", "minLength": 1 },
-                "speakerSlot": { "type": "integer", "minimum": 0 },
-                "text": { "type": "string", "minLength": 1, "maxLength": 2000 },
-                "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
-              }
-            }
-          }
-        }
+    "locale": { "type": "string", "minLength": 2 }, "family": { "type": "string", "minLength": 1 },
+    "candidates": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidateId", "storyletId", "contractRevision", "status", "selection", "weight", "ordinal", "turns"],
+      "properties": {
+        "candidateId": { "type": "string", "minLength": 1 }, "diversityKey": { "type": "string", "minLength": 1 }, "storyletId": { "type": "string", "minLength": 1 },
+        "contractRevision": { "type": "integer", "minimum": 1 }, "status": { "enum": ["reviewed", "draft"] },
+        "selection": { "type": "object" }, "weight": { "type": "number", "minimum": 0.000001 },
+        "ordinal": { "type": "integer", "minimum": 1 },
+        "turns": { "type": "array", "minItems": 1, "items": {
+          "type": "object", "additionalProperties": false, "required": ["turnId", "speakerSlot", "text"],
+          "properties": { "turnId": { "type": "string", "minLength": 1 }, "speakerSlot": { "type": "integer", "minimum": 0 }, "text": { "type": "string", "minLength": 1 } }
+        }}
       }
-    }
+    }}
   }
 }

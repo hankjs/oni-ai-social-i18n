@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "breakdownvomit",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownvomit.base.001",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我刚拖过那块地。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我知道。对不起。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.002",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "有人去拿桶。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "太晚了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.003",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这不是食物中毒吧。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "不是。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.004",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你们别围着看啊。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "他们没在看我，在看地板。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.005",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "等一下要不要吃点东西。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你认真的？"
+        }
+      ]
+    }
+  ]
+}

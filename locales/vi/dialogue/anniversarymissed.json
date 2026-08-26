@@ -1,0 +1,74 @@
+{
+  "locale": "vi",
+  "family": "anniversarymissed",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hôm qua... là ngày của tụi mình."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tớ biết. Ca đội đào, không ai dám nhắc."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tớ đợi nhà ăn tắt đèn mới về."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Xin lỗi. Đường hầm sập, tớ không ra được."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Người không sao là được. Ngày đó, năm sau bù."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Mứt tớ để hai ngày, cuối cùng tự ăn."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Kỷ niệm lần sau, xé bảng ca tớ cũng về."
+        }
+      ]
+    }
+  ]
+}

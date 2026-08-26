@@ -1,0 +1,14 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["locale", "namespace", "entries"],
+  "properties": {
+    "locale": { "type": "string", "minLength": 2 }, "namespace": { "type": "string", "minLength": 1 },
+    "entries": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["text", "contractRevision", "status"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 }, "promptId": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 }, "contractRevision": { "type": "integer", "minimum": 1 },
+        "status": { "enum": ["reviewed", "draft"] }
+      }
+    }}
+  }
+}

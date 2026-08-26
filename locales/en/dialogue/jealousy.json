@@ -4,103 +4,116 @@
   "candidates": [
     {
       "candidateId": "storylet.jealousy.base.001",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I saw you two. Having a lovely chat, were we?",
-          "sourceHash": "sha256:c6f0c250a314a33a6a8567b784b2d913a28eb38b285cf054d6fdc4052a5be283"
+          "text": "I saw you two. Having a lovely chat, were we?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It's not what you think!",
-          "sourceHash": "sha256:0bb7bcabe16e3640856192be9a09bc08a8a8d2bbc3afcfba47b96be81d2075cf"
+          "text": "It's not what you think!"
         }
       ]
     },
     {
       "candidateId": "storylet.jealousy.base.002",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I see. I'm on the schedule, but someone's in your heart.",
-          "sourceHash": "sha256:015f03afd55bfd0a3f2688aefdafdb1a43be72ba6c53fc0a86f7d7f78a614d59"
+          "text": "I see. I'm on the schedule, but someone's in your heart."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Let me explain...",
-          "sourceHash": "sha256:a017986fb50d08910a31b50a6e2c0b80efe01687a1d798ecb7cf61a89d813876"
+          "text": "Let me explain..."
         }
       ]
     },
     {
       "candidateId": "storylet.jealousy.base.003",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Does wire repair really require standing that close?",
-          "sourceHash": "sha256:a3d040f1d01b7ac3e1614a6fa65b122c01bd94958365c53c8d60d2be4abca4fc"
+          "text": "Does wire repair really require standing that close?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "That's standard operating distance!",
-          "sourceHash": "sha256:638a00c2dc3bc1dfc7ef57d5735a0d3e9687b5b6b0fd82027407a8d50459b3ed"
+          "text": "That's standard operating distance!"
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "I... hear a pipe leaking somewhere. Bye.",
-          "sourceHash": "sha256:894003d17dd1fb6d71a5d6065de056a2ecc6b191e20099986f15fe7b6bee6b69"
+          "text": "I... hear a pipe leaking somewhere. Bye."
         }
       ]
     },
     {
       "candidateId": "storylet.jealousy.base.004",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "A whole shift away, and I come back to this.",
-          "sourceHash": "sha256:0875efc483fe166438bdfa3e9551165d7a64b918b8dcdf4ac17a6bedebd38f98"
+          "text": "A whole shift away, and I come back to this."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "We were literally just counting hatches!",
-          "sourceHash": "sha256:a97ae014db008778b948ea2ccd06f7e1ca0cbb9f993092fe0ef7ffd624169ca5"
+          "text": "We were literally just counting hatches!"
         }
       ]
     },
     {
       "candidateId": "storylet.jealousy.base.005",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "You laughed at their airlock joke. You never laugh at mine.",
-          "sourceHash": "sha256:994db6b5ad3c84041f8d993802cf3a98bf6d8eedc1509b9de954c1424b6ebba3"
+          "text": "You laughed at their airlock joke. You never laugh at mine."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Theirs was about a DIFFERENT airlock.",
-          "sourceHash": "sha256:b372072d83f19a29370be21eafeb4c2b19ec0a1725cb1070ba6ed87f4b63b7f3"
+          "text": "Theirs was about a DIFFERENT airlock."
         },
         {
           "turnId": "c",
           "speakerSlot": 2,
-          "text": "I'll just... see myself out.",
-          "sourceHash": "sha256:ab87addeab85646490a41722d166299a73ad7205009a2bb3d1f644654fd86bb5"
+          "text": "I'll just... see myself out."
         }
       ]
     }

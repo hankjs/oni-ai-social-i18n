@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "見たぞ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "何を見た。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "手を下ろせ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……お前に関係ない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "手を出す前に、人がいないか一目見るんだな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "黙れ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今日のことは覚える。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "好きにしろ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "お前があいつを殴ってるとき、私は通気管の中にいた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……なら、見た分より聞いた分のほうが多いな。"
+        }
+      ]
+    }
+  ]
+}

@@ -4,73 +4,85 @@
   "candidates": [
     {
       "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Enough. Don't talk to me for a while.",
-          "sourceHash": "sha256:64f9fd1d8d7f4d346ab5399d428a868f12327f69cf6f57ab2a8922943f0f6809"
+          "text": "Enough. Don't talk to me for a while."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Gladly. And don't sit next to me at meals.",
-          "sourceHash": "sha256:c3c46cd70d13e5539873693f28e65f9f409365656230da670d2e7ef84b71b79f"
+          "text": "Gladly. And don't sit next to me at meals."
         }
       ]
     },
     {
       "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Let's just cool off for a while.",
-          "sourceHash": "sha256:d47714ce733a1a664a73ba1dc4655d2fa03348b08a82c60a8cb3d7a86275b8e7"
+          "text": "Let's just cool off for a while."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fine. The pipes are your problem now.",
-          "sourceHash": "sha256:74fd86f84f8a97ba09fede984c7d4494e9e6d370d9f18b6ef7b756c4735d961f"
+          "text": "Fine. The pipes are your problem now."
         }
       ]
     },
     {
       "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I left your tools on your locker.",
-          "sourceHash": "sha256:3e43d806d75e53db676633da0cc0f54fa9ff5e7c241b46b0c72407e11b1f9049"
+          "text": "I left your tools on your locker."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fine. We'll use our own from now on.",
-          "sourceHash": "sha256:13aa7dfab6a68bafa0e809fa04e0363466dd7d7c909a252aa31592064aeafddd"
+          "text": "Fine. We'll use our own from now on."
         }
       ]
     },
     {
       "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "So that's what you really thought of me.",
-          "sourceHash": "sha256:b8402cf011d6f88a00b8dda9d565cb3a8b097120d7852dfd786dc0786eef3956"
+          "text": "So that's what you really thought of me."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Likewise. Let's leave it there.",
-          "sourceHash": "sha256:2df9523613e32fd7bc52e997801577c950e3ba6c2ce054486de3bf21a4e13f92"
+          "text": "...Likewise. Let's leave it there."
         }
       ]
     }

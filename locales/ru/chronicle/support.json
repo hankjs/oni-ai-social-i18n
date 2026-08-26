@@ -1,0 +1,2508 @@
+{
+  "locale": "ru",
+  "family": "support",
+  "templates": [
+    {
+      "templateId": "chronicle.bestfriend.baseline.001",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} проговорили до глубокой ночи и стали друг другу лучшими друзьями.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.002",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сказали друг другу то, чего никому больше не говорили.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.003",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обменялись тайнами и с тех пор между ними не стало границ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.004",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В ту ночь {a} и {b} проговорили до рассвета, и никто не напомнил, что пора спать.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.005",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иным нужны годы, чтобы стать друзьями; {a} и {b} хватило одной ночи.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.006",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} открыли друг другу самые трудные тревоги и отдали вместе с ними доверие.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.007",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} понимали, что на самом деле задевает другого, даже не договаривая.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.008",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} условились: какой бы ни была следующая смена, чуть присмотреть друг за другом.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.009",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вспомнили общий путь и поняли, что давно уже стали друг для друга самыми надёжными.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.010",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} открыл {b} маленький секрет, который берег так долго, и {b} ответил своим.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.011",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} долго сидели молча и всё равно знали, что рядом есть кто-то.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.012",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} всерьёз постановили: на крутом месте никто не смеет держаться в одиночку.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.013",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} проговорили до глубокой ночи и стали друг другу лучшими друзьями. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.014",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сказали друг другу то, чего никому больше не говорили. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.015",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} обменялись тайнами и с тех пор между ними не стало границ. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.016",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В ту ночь {a} и {b} проговорили до рассвета, и никто не напомнил, что пора спать. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.017",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иным нужны годы, чтобы стать друзьями; {a} и {b} хватило одной ночи. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.018",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} открыли друг другу самые трудные тревоги и отдали вместе с ними доверие. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.019",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} понимали, что на самом деле задевает другого, даже не договаривая. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.020",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} условились: какой бы ни была следующая смена, чуть присмотреть друг за другом. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.021",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вспомнили общий путь и поняли, что давно уже стали друг для друга самыми надёжными. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.022",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} открыл {b} маленький секрет, который берег так долго, и {b} ответил своим. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.023",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} долго сидели молча и всё равно знали, что рядом есть кто-то. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.024",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} всерьёз постановили: на крутом месте никто не смеет держаться в одиночку. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.001",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ухаживал за {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.002",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} обработал раны {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.003",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сменил повязку {other} — очень осторожно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.004",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} твердил, что всё в порядке, и всё же весь день оставался на попечении {actor}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.005",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дежурил рядом с {other} и заранее остудил даже лекарство.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.006",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} осмотрел раны {other} и ещё раз убедился, что ничего нужного не упущено.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.007",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} собрал всё для ухода и терпеливо прошёл с {other} всю перевязку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.008",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} было трудно двигаться, {actor} подавал всё нужное по одной вещи.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.009",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напоминал {other} отдыхать вовремя и ушёл, лишь своими глазами увидев, что тот устроился.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.010",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} заново закрепил сползшую повязку {other} — ровно и тщательно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.011",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} побыл рядом с {other} и смотрел, пока не убедился, что хуже не становится.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.012",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} объяснил {other} порядок ухода, чтобы тот знал, как дальше поправляться.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.013",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ухаживал за {other}. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.014",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} обработал раны {other}. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.015",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сменил повязку {other} — очень осторожно. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.016",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} твердил, что всё в порядке, и всё же весь день оставался на попечении {actor}. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.017",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дежурил рядом с {other} и заранее остудил даже лекарство. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.018",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} осмотрел раны {other} и ещё раз убедился, что ничего нужного не упущено. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.019",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} собрал всё для ухода и терпеливо прошёл с {other} всю перевязку. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.020",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} было трудно двигаться, {actor} подавал всё нужное по одной вещи. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.021",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напоминал {other} отдыхать вовремя и ушёл, лишь своими глазами увидев, что тот устроился. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.022",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} заново закрепил сползшую повязку {other} — ровно и тщательно. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.023",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} побыл рядом с {other} и смотрел, пока не убедился, что хуже не становится. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.024",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} объяснил {other} порядок ухода, чтобы тот знал, как дальше поправляться. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.001",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} оставался с {other}, пока тот не пришёл в себя.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.002",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} успокоился в обществе {actor}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.003",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не говорил высоких слов — просто оставался рядом с {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.004",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} хотел поблагодарить, но {actor} махнул рукой, велев беречь силы.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.005",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иные ночи можно только перетерпеть; хорошо, что {other} терпел не один.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.006",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не торопил {other} взять себя в руки — просто пересидел вместе самую тяжёлую волну.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.007",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выслушал обрывки речи {other} и каждую фразу принял всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.008",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} на время потерял слова, и {actor} тихо сел рядом ждать.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.009",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул {other} стакан воды и оставил вокруг достаточно тишины.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.010",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напомнил {other} дышать медленнее, пока рваный ритм наконец не выровнялся.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.011",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дал {other} понять: этот срыв не станет насмешкой и его не придётся нести в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.012",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} помог {other} понемногу распутать смятение, и лишь потом они встали вместе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.013",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} оставался с {other}, пока тот не пришёл в себя. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.014",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} успокоился в обществе {actor}. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.015",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не говорил высоких слов — просто оставался рядом с {other}. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.016",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} хотел поблагодарить, но {actor} махнул рукой, велев беречь силы. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.017",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иные ночи можно только перетерпеть; хорошо, что {other} терпел не один. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.018",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} не торопил {other} взять себя в руки — просто пересидел вместе самую тяжёлую волну. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.019",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выслушал обрывки речи {other} и каждую фразу принял всерьёз. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.020",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} на время потерял слова, и {actor} тихо сел рядом ждать. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.021",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул {other} стакан воды и оставил вокруг достаточно тишины. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.022",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напомнил {other} дышать медленнее, пока рваный ритм наконец не выровнялся. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.023",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дал {other} понять: этот срыв не станет насмешкой и его не придётся нести в одиночку. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.024",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} помог {other} понемногу распутать смятение, и лишь потом они встали вместе. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.001",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} шаг за шагом учил {other} работе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.002",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} открыл {other} несколько своих особых приёмов.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.003",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} показал раз, и {other} смотрел, не моргая.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.004",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал, что покажет лишь раз, и {other} решил потом тайком потренироваться.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.005",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иному мастерству не научишься по расписанию смен — {actor} передал его {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.006",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сначала показал целиком, потом дал {other} попробовать самому.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.007",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} ошибся на шаге, {actor} остановился и указал на промах, не делая работу за него.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.008",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} разбил сложный порядок на части, чтобы {other} мог отрабатывать их по одной.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.009",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} следил за движениями {other} и дал совет, которым можно было воспользоваться сразу.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.010",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} наконец сделал верно, {actor} не поскупился на ясную похвалу.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.011",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дважды повторил места, где легко ошибиться, пока не убедился, что {other} запомнил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.012",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} велел {other} пройти всё сначала и подавал голос лишь когда было нужно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.013",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} шаг за шагом учил {other} работе. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.014",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} открыл {other} несколько своих особых приёмов. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.015",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} показал раз, и {other} смотрел, не моргая. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.016",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал, что покажет лишь раз, и {other} решил потом тайком потренироваться. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.017",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иному мастерству не научишься по расписанию смен — {actor} передал его {other}. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.018",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сначала показал целиком, потом дал {other} попробовать самому. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.019",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} ошибся на шаге, {actor} остановился и указал на промах, не делая работу за него. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.020",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} разбил сложный порядок на части, чтобы {other} мог отрабатывать их по одной. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.021",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} следил за движениями {other} и дал совет, которым можно было воспользоваться сразу. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.022",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {other} наконец сделал верно, {actor} не поскупился на ясную похвалу. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.023",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} дважды повторил места, где легко ошибиться, пока не убедился, что {other} запомнил. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.024",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} велел {other} пройти всё сначала и подавал голос лишь когда было нужно. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.001",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.002",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Глаза у {actor} быстро увлажнились, и {other} не стал шутить об этом.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.003",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Чувства читались на лице {actor}, и {other} понял это с первого взгляда.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.004",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. {actor} некоторое время собирался с голосом, а {other} так и оставался рядом.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.005",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Слёзы не прервали дела: {actor} и {other} лишь чуть сбавили ритм.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.006",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.007",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Глаза у {actor} быстро увлажнились, и {other} не стал шутить об этом. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.008",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Чувства читались на лице {actor}, и {other} понял это с первого взгляда. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.009",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. {actor} некоторое время собирался с голосом, а {other} так и оставался рядом. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.010",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил — и заплакал; {other} молча протянул салфетку. Слёзы не прервали дела: {actor} и {other} лишь чуть сбавили ритм. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.001",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.002",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} всё время следил, удобно ли {other}, и держал меру совсем лёгкой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.003",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} не торопил и оставил {other} довольно времени на ответ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.004",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. Даже в самом малом движении была забота, и {other} это сразу замечал.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.005",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} приглушил и голос, и движения, чтобы в этой встрече не осталось Стресса.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.006",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.007",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} всё время следил, удобно ли {other}, и держал меру совсем лёгкой. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.008",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} не торопил и оставил {other} довольно времени на ответ. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.009",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. Даже в самом малом движении была забота, и {other} это сразу замечал. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.010",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Даже жалуясь, {actor} говорил тихо, и {other} слушал особенно внимательно. {actor} приглушил и голос, и движения, чтобы в этой встрече не осталось Стресса. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.001",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.002",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. Движения {actor} опережали слова, и {other} понадобилось время, чтобы поспеть.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.003",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. Вспышка пришла внезапно, но {actor} быстро вернул внимание к {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.004",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. {other} не дал вспышке {actor} сбить ход дела, и оно продолжилось ровно.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.005",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. {actor} отвечал напрямик, и даже пауза казалась лишней.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.006",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.007",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. Движения {actor} опережали слова, и {other} понадобилось время, чтобы поспеть. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.008",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. Вспышка пришла внезапно, но {actor} быстро вернул внимание к {other}. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.009",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. {other} не дал вспышке {actor} сбить ход дела, и оно продолжилось ровно. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.010",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выплеснул всё сквозь брань, а {other} слушал от начала до конца. {actor} отвечал напрямик, и даже пауза казалась лишней. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.001",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.002",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Этот громкий шум дал понять всем окрест, что они проводят время вместе.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.003",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. {actor} нарочно не понижал голоса, и его было слышно даже на расстоянии.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.004",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Звук разнёсся далеко, но встреча от этого не оборвалась.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.005",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Когда вокруг снова стихло, голос {actor} будто ещё держался в воздухе.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.006",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.007",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Этот громкий шум дал понять всем окрест, что они проводят время вместе. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.008",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. {actor} нарочно не понижал голоса, и его было слышно даже на расстоянии. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.009",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Звук разнёсся далеко, но встреча от этого не оборвалась. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.010",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Жалобы {actor} слышала добрая половина зоны отдыха. Когда вокруг снова стихло, голос {actor} будто ещё держался в воздухе. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.001",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.002",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. {actor} снова и снова сверялся с реакцией {other} и лишь затем понемногу расслабился.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.003",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. Малейший шорох отвлекал {actor}, а {other} терпеливо ждал, пока внимание вернётся.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.004",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. {actor} делал каждое движение особенно осторожно, и {other} не торопил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.005",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. Лишь когда дело закончилось, напряжённые плечи {actor} наконец опустились.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.006",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.007",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. {actor} снова и снова сверялся с реакцией {other} и лишь затем понемногу расслабился. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.008",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. Малейший шорох отвлекал {actor}, а {other} терпеливо ждал, пока внимание вернётся. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.009",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. {actor} делал каждое движение особенно осторожно, и {other} не торопил. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.010",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} долго бормотал свои тревоги, а {other} разбирал их по одной. Лишь когда дело закончилось, напряжённые плечи {actor} наконец опустились. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.001",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вылил {other} все накопившиеся жалобы.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.002",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} долго слушал исповедь {actor}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.003",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} перечислил {other} все сегодняшние неприятности по одной.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.004",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} спросил {other}, когда же этим дням будет конец; {other} не нашёл ответа.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.005",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда жалобы были сказаны, {actor} почувствовал, что сыпучий грунт на плечах стал легче.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.006",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал {other} всю накопленную за день тягость и наконец перестал её держать.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.007",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не спешил советовать — лишь дал {actor} выговорить все жалобы до конца.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.008",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} начал с мелких неудач и лишь под конец назвал то, что давило по-настоящему.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.009",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил долго подряд, а {other} так и не показал нетерпения.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.010",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} изредка задавал вопрос, чтобы {actor} знал: его слова вправду слышат.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.011",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} разделил перемешанные обиду и злость — и чувство понемногу отпустило.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.012",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} уже не мог жаловаться дальше, {other} всё равно посидел рядом.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.013",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} вылил {other} все накопившиеся жалобы. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.014",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} долго слушал исповедь {actor}. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.015",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} перечислил {other} все сегодняшние неприятности по одной. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.016",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} спросил {other}, когда же этим дням будет конец; {other} не нашёл ответа. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.017",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда жалобы были сказаны, {actor} почувствовал, что сыпучий грунт на плечах стал легче. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.018",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал {other} всю накопленную за день тягость и наконец перестал её держать. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.019",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не спешил советовать — лишь дал {actor} выговорить все жалобы до конца. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.020",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} начал с мелких неудач и лишь под конец назвал то, что давило по-настоящему. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.021",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} говорил долго подряд, а {other} так и не показал нетерпения. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.022",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} изредка задавал вопрос, чтобы {actor} знал: его слова вправду слышат. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.023",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} разделил перемешанные обиду и злость — и чувство понемногу отпустило. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.024",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда {actor} уже не мог жаловаться дальше, {other} всё равно посидел рядом. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.001",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} уже почти не сдерживал чувства, и {other} посидел с ним рядом.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.002",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Говоря, {actor} всё сжимал кулаки, и {other} понял: этот Стресс уже не обычная раздражительность.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.003",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} несколько раз не мог продолжить, и {other} сбавил ритм, ожидая фразу за фразой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.004",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дыхание {actor} становилось всё чаще, и {other} сначала помог успокоиться и лишь потом слушал дальше.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.005",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признал, что уже почти не держится, и {other} не принял эти слова за слабость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.006",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал самые худшие опасения, а {other} отвечал лишь тем, что можно было утверждать наверняка.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.007",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувства {actor} несколько раз накатывали, но {other} так и не ушёл.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.008",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} отвёл от {actor} лишние помехи, чтобы исповедь не оборвалась наспех.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.009",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После слов {actor} ещё долго молчал, и {other} ждал рядом, пока напряжение чуть не спало.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.010",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова и снова боялся потерять контроль, и {other} держал внимание на мелочах, которые можно сделать сейчас.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.011",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} наконец назвал, откуда на самом деле идёт Стресс, — голос уже явно дрожал.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.012",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не обещал, что всё устроится, — лишь всерьёз сказал {actor}, что не нужно встречаться с этим в одиночку.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.013",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} уже почти не сдерживал чувства, и {other} посидел с ним рядом. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.014",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Говоря, {actor} всё сжимал кулаки, и {other} понял: этот Стресс уже не обычная раздражительность. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.015",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} несколько раз не мог продолжить, и {other} сбавил ритм, ожидая фразу за фразой. Там, где кислород и время на вес золота, сама готовность остановиться — редкость.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.016",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дыхание {actor} становилось всё чаще, и {other} сначала помог успокоиться и лишь потом слушал дальше. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.017",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} признал, что уже почти не держится, и {other} не принял эти слова за слабость. Газ в трубах всё ещё нёсся вперёд, а они наконец нашли время дослушать друг друга.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.018",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} высказал самые худшие опасения, а {other} отвечал лишь тем, что можно было утверждать наверняка. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.019",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Чувства {actor} несколько раз накатывали, но {other} так и не ушёл. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.020",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} отвёл от {actor} лишние помехи, чтобы исповедь не оборвалась наспех. Колония не решит всех трудностей, но здесь хотя бы есть кто-то, кто готов разделить их.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.021",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После слов {actor} ещё долго молчал, и {other} ждал рядом, пока напряжение чуть не спало. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.022",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова и снова боялся потерять контроль, и {other} держал внимание на мелочах, которые можно сделать сейчас. Сигнальные огни вскоре утихли, но эту доброту записали всерьёз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.023",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} наконец назвал, откуда на самом деле идёт Стресс, — голос уже явно дрожал. Вдалеке ещё ждала работа, но эта забота сначала дала снова встать на ноги.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.024",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не обещал, что всё устроится, — лишь всерьёз сказал {actor}, что не нужно встречаться с этим в одиночку. До начала следующей смены оба были уже сильнее, чем минуту назад.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    }
+  ]
+}

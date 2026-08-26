@@ -1,0 +1,90 @@
+{
+  "locale": "vi",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Chuyện đó... là tớ sai."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nói ra là được. Cãi xong trận này, tớ ngược lại hiểu cậu hơn."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tớ nói nặng, xin lỗi."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đôi bên như nhau. Không đánh không quen, đi, ăn thôi."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Còn giận không?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Giận tan rồi. Cãi được với nhau, chứng tỏ hai đứa đều coi trọng."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Lần sau tớ nghe cậu nói hết đã."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Lần sau tớ cũng bớt gào hai câu. Bắt tay? Bắt tay."
+        }
+      ]
+    }
+  ]
+}

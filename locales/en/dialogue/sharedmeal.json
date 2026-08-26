@@ -4,253 +4,295 @@
   "candidates": [
     {
       "candidateId": "storylet.sharedmeal.base.001",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Is this seat taken?",
-          "sourceHash": "sha256:1d5609eb585900846c3cdbab7921c11dc18e6ece5a4076a21a94e550069bcf0f"
+          "text": "Is this seat taken?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It is now. Sit down, I saved the least burnt piece.",
-          "sourceHash": "sha256:5882f10bd327cea69b2ea96173a42a4b8e2ddaa74550792fa465f285674f8fef"
+          "text": "It is now. Sit down, I saved the least burnt piece."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.002",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "The mush bar is almost soft today.",
-          "sourceHash": "sha256:82c8dd433dee3e7529a236ac246dfc0db56f89ad72c51a2310f16b8650d38fcb"
+          "text": "The mush bar is almost soft today."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Don't celebrate. It might just be damp.",
-          "sourceHash": "sha256:edfaf7a95bc04219e256c14c63ddd38d0c9259c7e14d7d5726ed412262b282e9"
+          "text": "Don't celebrate. It might just be damp."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.003",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 17,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Eating alone is too quiet.",
-          "sourceHash": "sha256:69ffc3e418f4c679695c10dcbab78680d73fbeba0df9b1fbd783ac6ed1de62ad"
+          "text": "Eating alone is too quiet."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Perfect timing. I have a whole shift's worth of complaints.",
-          "sourceHash": "sha256:c3821b69ad7ff767ec3bb3a8793a97664c3fbd2d437dd2a8315542f6af5b076d"
+          "text": "Perfect timing. I have a whole shift's worth of complaints."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.004",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 18,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Today's liceloaf is extra... structural.",
-          "sourceHash": "sha256:890e0aad63ebaaad6ef69e8dea704503214f19933d24a63b656ad31a66c2fbf8"
+          "text": "Today's liceloaf is extra... structural."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Chef calls it texture. I call it jaw day.",
-          "sourceHash": "sha256:4bce9dfa9e01e21d9207aeef16786bcc12ea1ef1eb1dd86aa340def954a12e9d"
+          "text": "Chef calls it texture. I call it jaw day."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.005",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 19,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "My dessert for your wall seat.",
-          "sourceHash": "sha256:22c243ba47f4600922b5ddb731e7276c0b8f0fc0044ca7d590ec9e5ccca39037"
+          "text": "My dessert for your wall seat."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Deal. Friend price: half the dessert.",
-          "sourceHash": "sha256:b9d572771f8c3007ccb5b6a19bd3b4306759ef8e9d0ad7dc54dcd0e07f5a1120"
+          "text": "Deal. Friend price: half the dessert."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.006",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 20,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Slow down, nobody is stealing your plate.",
-          "sourceHash": "sha256:4fafafd6373964501020fb31ff4f74e2163d39a99ac2f427f0a73a970b1171e3"
+          "text": "Slow down, nobody is stealing your plate."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "You don't get it. Chew fast and you can't taste it.",
-          "sourceHash": "sha256:cf0bd112caab2517af0edbd006499e48a1d36b1e97c640a35dd2a335abeed19f"
+          "text": "You don't get it. Chew fast and you can't taste it."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.007",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 21,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "They say table talk aids digestion.",
-          "sourceHash": "sha256:3f89ac5632a672f742b86fc5383b928f95ab5c1971453b1934cedc152f7f26ce"
+          "text": "They say table talk aids digestion."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Then this meal needs a very long conversation.",
-          "sourceHash": "sha256:ee57474e3d05c13700dbc04bc079d7ce89eb5df30f584689492fc9c11dcaa001"
+          "text": "Then this meal needs a very long conversation."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.008",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 22,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "A wash basin in the mess hall. Fancy.",
-          "sourceHash": "sha256:5d7643efce184bca4725c34e8ddf0069d572771fad9a8a2a4e16215f7aec68bf"
+          "text": "A wash basin in the mess hall. Fancy."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Fewer germs, same amount of complaining.",
-          "sourceHash": "sha256:cabe08cdaec308a39d46f0dacbaa9dbead1253741e57afa73fc23ee99bd8a3cb"
+          "text": "Fewer germs, same amount of complaining."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.009",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 23,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "What's the scientific name for this?",
-          "sourceHash": "sha256:9cd96ae98e4eff52b656b7ff26ba24a3472e465908ccfd894fe2af12be7d1bda"
+          "text": "What's the scientific name for this?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "The menu just says 'surprise'.",
-          "sourceHash": "sha256:c04b0468843c1c9f99e2335f5af4cf6e5470be8971058a23774ed50e06e22793"
+          "text": "The menu just says 'surprise'."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.010",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 24,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Should we stop him? That's the third bristle berry on the grill.",
-          "sourceHash": "sha256:c68eed397c91a2c30fe35019bb6e80a99ef3c31eaa90b5730abe71e8e9b1d72c"
+          "text": "Should we stop him? That's the third bristle berry on the grill."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "No. Let him cook. Literally, for once.",
-          "sourceHash": "sha256:d5592aad3dce822992d3651515099efa83f18e0674d82360c1f3aa0aa5ec394e"
+          "text": "No. Let him cook. Literally, for once."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.011",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 25,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Three berries and a pickled meal lice. That's dinner?",
-          "sourceHash": "sha256:4e26083468f0063125e456906e9ffe82b39e3eae23d6879956fd556aa1738707"
+          "text": "Three berries and a pickled meal lice. That's dinner?"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "It's a curated plate. Don't look at it too long.",
-          "sourceHash": "sha256:58e6a4f02d0181557864e80f3e280f62efc4fa04abe5f29925b21a5d4d51cfe0"
+          "text": "It's a curated plate. Don't look at it too long."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.012",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 26,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Half of every meal you cook goes missing.",
-          "sourceHash": "sha256:ea49c01e1bf201db3017d4b50c0fa55275639ed1ea0db5b515ae0ec173cb2ce8"
+          "text": "Half of every meal you cook goes missing."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "Kitchen tax. The chef eats first. That's civilization.",
-          "sourceHash": "sha256:dd96dcaa4a6ed38b775c50490a90787f508555bd0a95af5c4e4de761093c83f4"
+          "text": "Kitchen tax. The chef eats first. That's civilization."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.013",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 27,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "They swapped the barbeque for mush bars.",
-          "sourceHash": "sha256:ffd588fd71b20a440d93d27c4b3493a73040feeefeb37c7847f45582496ce29e"
+          "text": "They swapped the barbeque for mush bars."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I'm eating it and crying. Full banana cat.",
-          "sourceHash": "sha256:0ba4a58e72acb4386829abc8e649c5b1919a3dfb8fe89347218ac6b8f284c893"
+          "text": "I'm eating it and crying. Full banana cat."
         }
       ]
     },
     {
       "candidateId": "storylet.sharedmeal.base.014",
+      "storyletId": "SharedMeal",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 28,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "That's your third helping tonight.",
-          "sourceHash": "sha256:0ded626023002f20a3ddc22bfbe9ed2816a7469333177ccbc2e35ea44ce6eba1"
+          "text": "That's your third helping tonight."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "The chonk chart doesn't judge me. Neither should you.",
-          "sourceHash": "sha256:253203d5b335b50c9e19e0689bd6f8fb5ef9af8d0c206742d3420174a9ec2ae5"
+          "text": "The chonk chart doesn't judge me. Neither should you."
         }
       ]
     }

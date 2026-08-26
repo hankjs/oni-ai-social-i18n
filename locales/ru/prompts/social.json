@@ -1,0 +1,168 @@
+{
+  "locale": "ru",
+  "namespace": "social",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "Отшлифуй черновик, не меняя событие, эмоции персонажей и порядок говорящих.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "text": "Событие, уже установленное игровым движком: [[storylet]]; причина: [[cause]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "text": "Текущие эмоции: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "Сопоставленный местный черновик: [[draft]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "Нет заметных черт",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "А: [[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "Б: [[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]] (черты: [[traits]]; Стресс: [[stress]])",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "Отношения: [[stage]], симпатия [[affinity]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "Стресс «на грани срыва» значит, что Дубликант вот-вот эмоционально сорвётся; пусть эта натянутость звучит в его репликах, например вспыльчивость, усталость или едва удерживаемое равновесие.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "Отшлифуй диалог между Дубликантами для симулятора выживания Oxygen Not Included. Событие, исход отношений, эмоции обеих сторон и порядок говорящих уже установлены игровым движком, эти факты переписывать запрещено. Дубликанты — маленькие люди, напечатанные в 3D; в космической колонии они добывают ресурсы, строят базу и держатся за жизнь. Диалог должен совпадать с атмосферой игры: чёрный юмор, ворчание на работу, забота друг о друге, разговорная речь, каждая реплика — не более 30 знаков. Строго выводи только JSON, не выводи ничего другого. Формат:\n{\"turns\":[{\"speaker\":\"имя\",\"text\":\"реплика\"},...2–4 записи]}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "Причина: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "Колония: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "Голод, всеобщий гнев",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "Голод",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "Всеобщий гнев",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "Недавние отношения: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "Событие: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "Прошлое двоих:",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "цикл [[cycle]] · [[event]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "Перепиши в одно предложение хроники.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "Новые отношения: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "А: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "Б: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "Место: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "Пиши как автор хроники колонии. Перепиши данное социальное событие в одно предложение, не более 40 знаков. Скупо, сдержанно, с историческим тоном; имена и факты менять нельзя, без кавычек, без emoji, без чисел. Выводи только само это предложение.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "Свидетели: [[count]] человек",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

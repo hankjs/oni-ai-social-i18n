@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "hazardeased",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你昨天也下去了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "轮到我了而已。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "面罩起雾的时候你会骂人吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "会。骂得很难听。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那层其实没那么糟。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "有那么糟。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "算了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……嗯。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "下次一起下去，快一点。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "行。"
+        }
+      ]
+    }
+  ]
+}

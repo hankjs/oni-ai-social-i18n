@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "wrathisolated",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathisolated.base.001",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "이 테이블은 찼어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……이 테이블엔 너 혼자 앉아 있잖아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.002",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "나한테 말 걸지 마, 오늘 재수 잡고 싶지 않아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "나도 그래."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.003",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "근무표 바뀌었어, 네가 봐."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……봤어. 전부 밤 근무야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.004",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "너는 저쪽으로 가."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "저쪽은 벽이야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.005",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "누구 저 사람이랑 한 조? ……그래, 그럼 아무도 없지."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "나 혼자도 다 해."
+        }
+      ]
+    }
+  ]
+}

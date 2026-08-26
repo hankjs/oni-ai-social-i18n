@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "breakdownbinge",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownbinge.base.001",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Это на троих."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я считаю. Не мешай."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.002",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Оставь чуть-чуть ночной смене."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ночная поймёт."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.003",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты даже не жуёшь."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Жевать — время тратить."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.004",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Холодильник пуст."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Так и надо. Пустое я понимаю."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownbinge.base.005",
+      "storyletId": "BreakdownBinge",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Доешь — пожалеешь."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это уже дело меня-через-минуту."
+        }
+      ]
+    }
+  ]
+}

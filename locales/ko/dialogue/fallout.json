@@ -1,0 +1,90 @@
+{
+  "locale": "ko",
+  "family": "fallout",
+  "candidates": [
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "됐어, 당분간 나한테 말 걸지 마."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "바라던 바야. 식탁도 내 옆에 앉지 마."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "우리 잠깐 진정하자."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그래. 파이프 일은, 네가 알아서 해."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네가 빌린 공구, 네 보관함 위에 올려뒀어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "응. 이제부터 각자 거 쓰자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "원래 날 그렇게 보고 있었구나."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……너도 마찬가지야. 여기까지 하자."
+        }
+      ]
+    }
+  ]
+}

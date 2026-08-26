@@ -1,0 +1,1830 @@
+{
+  "locale": "ja",
+  "namespace": "social.log_story",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "text": "{0}と{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "text": "私",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "text": "{pair}はすれ違いざまに、軽く会釈を交わした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "text": "{pair}は廊下で挨拶を交わした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "text": "{pair}は顔を合わせ、二言三言挨拶した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "text": "{pair}は遠くから手を振った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "text": "{pair}は廊下の半ばを隔てて目を合わせ、黙って通じ合った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "text": "{pair}は印刷ポッドの前に並びながら、ついでに挨拶した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "text": "{pair}はしばらく雑談した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "text": "{pair}は肩を寄せて雑談し、雰囲気は悪くなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "text": "{pair}は他愛ない世間話をした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "text": "{pair}は{topic}について話した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "text": "{pair}は今日の見聞きを交換した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "text": "{pair}は気ままに話し込み、時間があっという間に過ぎた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "text": "{actor}は{other}に、腹に溜まった愚痴を吐き出した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "text": "{other}は{actor}の打ち明けを長いあいだ聴いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "text": "{actor}は今日の嫌なことを一つずつ{other}に話した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "text": "{actor}は{other}に、この暮らしはいつ終わるのかと尋ねたが、{other}は答えられなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "text": "不満を吐き終えると、{actor}は肩の土が少し軽くなった気がした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "text": "{actor}の感情が今にも溢れそうで、{other}はしばらく隣に座って付き合った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "text": "{actor}は{other}に、手取り足取り仕事を教えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "text": "{actor}は{other}に、独自のコツをいくつか伝えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "text": "{actor}が一通り実演すると、{other}はまばたきもせず見入った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "text": "{actor}は一度しか教えないと言い、{other}は戻ってこっそり練習すると決めた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "text": "スケジュールでは学べない技を、{actor}は{other}に伝えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "text": "{pair}は夜更けまで話し込み、互いに親友となった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "text": "{pair}は誰にも話したことのない言葉を交わした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "text": "{pair}は互いの秘密を打ち明け合い、それ以来隔てがなくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "text": "その夜、{pair}は明け方まで話し、誰も寝る話をしなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "text": "長い付き合いの末に友達になる人もいるが、{pair}は一晩で済んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "text": "{actor}は{other}の世話をした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "text": "{actor}は{other}の傷の手当てをした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "text": "{actor}は{other}の包帯を、そっと取り替えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "text": "{other}は平気だと言いながらも、結局一日中{actor}に面倒を見てもらった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "text": "{actor}は{other}のそばを離れず、薬まであらかじめ人肌に冷ましておいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "text": "{actor}は{other}が落ち着くまで、そばに付き添った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "text": "{other}は{actor}に付き添われ、落ち着きを取り戻した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "text": "{actor}は説教がましいことは言わず、ただ{other}に付き添った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "text": "{other}は礼を言おうとしたが、{actor}は手を振って力を温存するよう促した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "text": "ただやり過ごすしかない夜もあるが、幸い{other}は一人ではなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "text": "{pair}は{place}で一緒に食事をした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "text": "{pair}は食べながら話し、くつろいでいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "text": "{pair}は席を合わせ、長いあいだ話し込んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "text": "{pair}はトレイを持って隣同士に座った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "text": "{pair}はマッシュバーを分け合って食べ、どちらも相手を嫌がらなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "text": "食事は相変わらずだったが、{pair}の席の笑い声は新しかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "text": "{pair}はテーブルを挟み、誰も先に口を開かなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "text": "{pair}は寄り添って座り、その食事は甘かった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "text": "{pair}は同室で一夜を過ごし、生活リズムはよく合っていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "text": "{pair}の寝床は隣り合い、夜の寝返りも相手を起こしそうで遠慮がちだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "text": "消灯のあと、{pair}はもうしばらく小声で話してから眠った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "text": "同じ屋根の下で、{pair}はいびきのリズムまで噛み合ってきた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "text": "{pair}の生活リズムは合わず、どちらもよく眠れなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "text": "{pair}は{place}でしばらく一緒に遊んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "text": "{pair}は休憩所で落ち合い、楽しく遊んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "text": "{pair}は{place}で、よい時間を過ごした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "text": "{pair}は数局勝負したが、勝敗はもうどうでもよかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "text": "{pair}は遊びで、一日の疲れを洗い流した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "text": "{pair}は{place}の宴会に参加した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "text": "{pair}は宴会で打ち解けて遊んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "text": "{pair}は宴会で杯を交わし、果汁が酒の味になりかけた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "text": "宴会の明かりの下で、{pair}は普段よりずっとよく話した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "text": "{pair}は宴会が散会するまで残り、なお名残惜しそうだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "text": "{pair}はデートをし、雰囲気はちょうどよかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "text": "{pair}はしばらく二人きりで、目に映るのは互いだけだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "text": "{pair}は肩を並べて歩き、持ち場へ戻る話は誰もしなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "text": "{pair}は望遠鏡のそばでデートし、同じ星空を交代で見た。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "text": "デートの決まりは{pair}が決めた。スケジュールの話は禁止。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "text": "{pair}は一緒にいる日々を記念した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "text": "{pair}はまた穏やかに一年を越え、杯を合わせる価値があった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "text": "暦さえ自分で記さねばならないこの場所で、{pair}は今日を忘れなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "text": "{pair}は記念日をコロニー全体の祝日にした——少なくとも本人たちはそう思っていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "text": "{actor}は{other}との記念日を忘れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "text": "{actor}のスケジュールに、{other}との記念日だけが抜けていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "text": "{other}は一晩待ち、{actor}は坑道の中でまったく気づかなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "text": "忙しくなると頭がぼやけ、{actor}はいちばん大事な日を忘れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "text": "{actor}は{other}に気持ちを伝えた——{other}はそれを受け入れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "text": "{actor}は勇気を出して告白し、{other}は顔を赤らめてうなずいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "text": "{actor}が十回練習した言葉を半分まで言うと、{other}はもう承諾した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "text": "印刷ポッドの見届けのもと、{actor}と{other}は手を取り合った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "text": "{other}はずっとその言葉を待っており、{actor}はようやく口にした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "text": "{pair}は再び一緒になった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "text": "{pair}は遠回りした末、また互いのそばへ戻った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "text": "別れは考えをまとめるためだけのこともあり、{pair}は考えがまとまった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "text": "{pair}は再び手を取り合い、最初のときより強く握った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "text": "{actor}は{other}に告白したが、{other}は受け入れなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "text": "{actor}の気持ちを、{other}は受け止められなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "text": "{actor}がリハーサルした告白を言い終えると、{other}は長いあいだ沈黙した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "text": "すべての真心に反響があるわけではないと、{actor}は今日悟った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "text": "{pair}は別れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "text": "{pair}の想いは、行き着くところまで行った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "text": "{pair}は話をはっきりさせ、それから別々に背を向けた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "text": "{pair}の関係は、アトモスーツの酸素のように尽き果てた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "text": "{other}はまだやり直したかったが、{actor}はもう話す気がなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "text": "{pair}のあいだには見えない壁があり、関係はその場で止まった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "text": "何か言い難い力が{pair}の縁を押さえ、誰も先へ進まなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "text": "{pair}の物語がページをめくりかけたところで、また見えない手にそっと押さえられた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "text": "運命が{pair}のあいだに線を引き、誰も越えなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "text": "{pair}の関係に波風が立ったが、わけもなくまた静まった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "text": "{pair}は大喧嘩し、それ以来他人のようになった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "text": "{pair}のあいだのわずかな情は、一夜でゼロになった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "text": "その日から、{pair}は廊下で会っても遠回りした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "text": "友達もここまでで、{pair}は挨拶さえ省いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "text": "{pair}はわだかまりを氷解させ、仲直りした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "text": "{pair}は古い帳面を閉じ、また同じテーブルに座った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "text": "どちらが先に口を開いたかはもうどうでもよく、{pair}は仲直りした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "text": "冷戦が終わった日、{pair}はどちらも安堵のため息をついた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "text": "{actor}は{other}に謝罪した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "text": "{actor}が先に頭を下げると、{other}も流れで許した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "text": "{actor}は「ごめん」の三文字をたどたどしく言い、{other}はそれを受け取った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "text": "{actor}はマッシュバーを一つ渡し、それで詫びとした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "text": "面子と{other}のあいだで、{actor}は{other}を選んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "text": "一度の衝突が、かえって{pair}を仲のいい友達にした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "text": "{pair}は話を突き合わせ、かえって友達になった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "text": "謝罪を終えた{pair}は、喧嘩前より親しくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "text": "{pair}はまず喧嘩し、それから友達になった——物事とはそういうものだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "text": "{pair}は喧嘩した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "text": "{pair}は言い争いを始め、どちらも譲らなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "text": "{pair}の声はどんどん大きくなり、隣のハッチを驚かせた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "text": "{pair}は些細なことで顔を赤くし、あとから思えば取るに足らなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "text": "喧嘩が終わると、{pair}はどちらも相手が先に無理を通したと思っていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "text": "{cause}が原因で、{pair}は言い争いを始めた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "text": "{pair}は因縁を結び、宿敵となった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "text": "{pair}の因縁は、それ以来名前を持った。宿敵。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "text": "これから長いあいだ、{pair}は相手にいい顔をしないだろう。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "text": "{pair}は長年の恨みを手放した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "text": "{pair}は握手し、恨みはここで終わりにした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "text": "誰かを憎むのも疲れるもので、{pair}はもういいと決めた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "text": "{other}は死に、{actor}の胸の内は何とも言い難い味だった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "text": "宿敵が死に、{actor}は廊下が急に静かになったことに気づいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "text": "{actor}は{other}に勝ちたいと願っていたが、今や相手はいなくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "text": "{actor}は{other}と{third}が談笑しているのを見て、胸がざわついた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "text": "{actor}は焼きもちを焼いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "text": "{third}と{other}は話が弾み、{actor}はそばで長いあいだ土を数えていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "text": "その酸っぱさの出所を、{actor}自身も説明できなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "text": "{actor}は{other}を失い、全身が崩れ落ちた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "text": "{other}の寝床は空になり、{actor}は長いあいだその方向を見なかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "text": "これからのスケジュールに{other}の名前はなく、{actor}の日々にも欠けた場所ができた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "text": "{other}はいなくなり、{actor}は口に出せなかった言葉を飲み込んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "text": "{other}は、{actor}が勇気を出す日まで待てなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "text": "{actor}は長いあいだ用意していた言葉を、{other}の空の寝床に向けて言った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "text": "{actor}が崩壊する様子を、{other}は残らず見ていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "text": "{other}は顔を背けたが、{actor}が崩壊したあの場面を忘れられなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "text": "{actor}の崩壊を見て、{other}は初めて基地がこんなに静かだと思った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "text": "{subject}は仲間の崩壊を目の当たりにし、胸が重かった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "text": "{subject}は仲間の崩壊に出くわしてから、一日中うわの空だった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "text": "{pair}は殴り合いになった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "text": "{pair}の言い争いは殴り合いに発展した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "text": "{pair}はもみ合いになり、道具が床に散らばった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "text": "その喧嘩は見苦しく、{pair}はどちらも傷を負った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "text": "仲裁に入る者が揃って、ようやく{pair}は手を離した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "text": "{actor}はまた一日危険区域へ下り、{other}の楽な仕事に恨みを募らせた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "text": "同じく坑道へ降りるのに、なぜ{actor}ばかり危険なほうへ行くのか——{actor}は考えるほどやりきれなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "text": "{actor}は{other}の暇な日々を数え、胸の帳面はどんどん厚くなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "text": "{actor}の{other}へのわずかな恨みは、ゆっくりと散っていった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "text": "{actor}は納得した。危険な仕事は誰かがやらねばならず、{other}を恨むべきではない。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "text": "時間がその小さな怒りを削り、{actor}は{other}を見る目がだいぶ穏やかになった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "text": "{other}が{actor}の代わりに危険な仕事を引き受け、{actor}はそれを胸に刻んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "text": "危険な仕事が降りてきたとき、{other}が先に受け、{actor}は忘れない。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "text": "{actor}は{other}に借りがある。それも命で払った種類の借りだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "text": "{pair}は危険な仕事を共に乗り越え、命がけの付き合いができた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "text": "危険区域から生きて出ると、{pair}が互いを見る目はもう違っていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "text": "生死の瀬戸際で{pair}は誰も先に逃げず、この付き合いは偽りではない。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "text": "{actor}は率先して、責任を{other}になすりつけた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "text": "何かあれば、誰かが矢面に立たねばならない——{actor}は皆を率い、{other}を選んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "text": "{actor}の一言で、皆の怒りは{other}へ向かった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "text": "{other}は孤立し、誰も口を利こうとしなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "text": "{other}が食堂に入ると、テーブルいっぱいの人たちが口を閉ざした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "text": "今ではハッチのほうが、{other}より人気がある。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "text": "{actor}は皆の前で、{other}のために公正な一言を述べた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "text": "{actor}は全員の前で{other}のために口を開き、それ以上誰も声を出さなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "text": "皆の怒りが渦巻くなか、{actor}だけが{other}のために口を開いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "text": "{actor}は{other}に救いの手を伸ばした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "text": "{actor}はトレイを持って{other}の隣に座り、孤立の壁が一部崩れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "text": "誰もが{other}を避けているとき、{actor}だけはあえて近づいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "text": "{actor}は人目のない隙に、{other}を殴りつけた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "text": "スケジュールの空き時間に、{actor}は{other}の行く手を塞いだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "text": "{actor}は誰もいないときを選び、怒りを{other}にぶつけた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "text": "{subject}はその私刑を見た。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "text": "{subject}はその場面に出くわし、慌てて見ていないふりをした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "text": "見ても飲み込むしかないこともあり、{subject}は口を固く閉ざした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "text": "{subject}は、一人で隠れて泣く姿に出くわした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "text": "{subject}は通りがかりに泣き声を聞き、足を忍ばせた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "text": "隅に隠れたその人は長いあいだ泣き、{subject}は近づかなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "text": "{subject}に向けられた孤立は、ようやく過ぎた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "text": "コロニーは新しい噂話を見つけ、{subject}の件は誰も口にしなくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "text": "日が経てば、怒りさえ賞味期限が切れる——{subject}は再び人混みに溶けた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "text": "食糧庫は底をつき、恐慌がコロニーに広がった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "text": "最後のマッシュバーも底をつき、誰も明日のことを考える勇気がなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "text": "空腹の知らせは、酸素より早く伝わった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "text": "食糧が補充され、皆が安堵のため息をついた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "text": "貯蔵庫に再び在庫が戻り、咀嚼の音も戻ってきた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "text": "危機は去り、食糧がどこから来たか誰も追及しなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "text": "{actor}と{other}は、最後の一口のために手を出した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "text": "飢えきった人間に道理はなく、{actor}と{other}は一口のために顔を潰し合った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "text": "{actor}は{other}の配給に目をつけ、拳が理性より先に届いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "text": "食糧が尽きた日々は、ようやく過ぎた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "text": "食糧庫は再び満ち、いくつかのことは皆が暗黙のうちに口にしなくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "text": "また腹を満たせる日が来て、飢饉などなかったかのようだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "text": "{pair}は新しく来た仲間を出迎えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "text": "{pair}は新入りの仲間を落ち着かせ、基地の決まりを話して聞かせた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "text": "印刷ポッドが新しい仲間を送り、{pair}が最初に迎えに出た。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "text": "新入りの最初の食事は、{pair}が付き添って食べた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "text": "{subject}のストレスは、また少し重くなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "text": "{subject}の眉は、また少し強く寄った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "text": "張り詰めた弦は長く、{subject}自身にもその音が聞こえた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "text": "{subject}は安堵のため息をついた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "text": "{subject}はよく眠り、顔色が落ち着きを取り戻した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "text": "胸に乗っていた土の塊を、{subject}はやっと少し払い落とした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "text": "{actor}は遠くから{other}に向かって、大声で挨拶を飛ばした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "text": "{actor}の挨拶は命令のようだったが、{other}はそれでも応じた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "text": "{actor}は左右を確かめてから、ようやく小声で{other}に挨拶した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "text": "{actor}は{other}にそっと会釈し、温かい笑みを見せた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "text": "{actor}はライスローフを噛みながら、不明瞭に{other}へ挨拶した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "text": "{actor}は大声で{other}と、存分に話し込んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "text": "{actor}は話しているうちに声を上げたが、{other}は案外気にしなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "text": "{actor}は話すほど熱くなり、もう少しで机を叩くところだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "text": "{actor}は声を潜めて{other}に長いあいだ囁き、何を心配しているのか分からなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "text": "{actor}の話し方は穏やかで、{other}はうなずきながら聴いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "text": "{actor}は話しているうちに目尻が赤くなり、{other}は急いで話題を変えた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "text": "{actor}は食べながら話し、{other}の話はいつも咀嚼の音にかき消された。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "text": "{actor}は自分のおやつを、{other}のほうへ分けてやった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "text": "{pair}のトレイは、ことのほかきれいに空になっていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "text": "{actor}は温かいほうを{other}に譲った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "text": "{pair}の席がいちばん賑やかで、{actor}の声は食堂の半分に届いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "text": "{actor}は食事が薄いと文句を言い、{other}は黙って塩入れを押しやった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "text": "{actor}は上の空で食べ、{other}が三度呼んでようやく返事をした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "text": "{actor}は何度も寝返りして眠れず、{other}はしばらく話し相手になった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "text": "{actor}は夜に涙を数滴落とし、{other}は聞こえないふりをした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "text": "{actor}のいびきを、{other}は一晩中聴いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "text": "{actor}は夜中に起きるときも足音を殺し、{other}を起こすのを恐れた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "text": "{actor}は寝る前にまたおやつを取り出し、{other}はその香りで眠れなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "text": "遊んでいると{actor}はまたカッとなり、{other}は笑って一手譲った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "text": "{actor}の笑い声がいちばん大きく、{other}の耳が災難だった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "text": "{actor}はゲームに負けて泣きそうになり、{other}は急いで一局譲った。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "text": "{actor}は勝敗をいつも{other}に譲り、二人とも楽しく遊んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "text": "{actor}はビクビクしながら遊び、{other}はずっとそばで励ました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "text": "{actor}は話しているうちに泣き出し、{other}は黙ってティッシュを渡した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "text": "{actor}は悪態をつきながら不満を吐き終え、{other}は最初から最後まで聴いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "text": "{actor}は心配ごとをくどくど話し、{other}は一つずつ整理してやった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "text": "{actor}の不満は、休憩所の半分に聞こえた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "text": "{actor}の愚痴さえ穏やかで、{other}はことのほか真剣に聴いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "text": "{pair}は二言三言交わし、初対面のように遠慮がちだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "text": "{pair}の言葉には棘があり、会話は手合わせのようだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "text": "{pair}は話しているうちに、視線をほかへ逸らした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "text": "{pair}は首をこわばらせ、必要な言葉だけを交わした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "text": "{pair}は肩を寄せて内緒話をし、周囲など眼中になかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "text": "{pair}は同じテーブルで食事し、それぞれトレイを見つめていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "text": "{pair}は同じテーブルで食事し、カトラリーの音がことのほか響いた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "text": "{pair}は同じテーブルで食事し、どちらも上の空で食べていた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "text": "{pair}は同室で一夜を過ごし、誰も昔の話をしなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "text": "{pair}は同室で一夜を過ごし、背中合わせだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "text": "{pair}は同室で一夜を過ごし、どちらも落ち着いて眠れなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "text": "{pair}は同室で一夜を過ごし、部屋は氷室のように冷たかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "text": "{pair}は一つのベッドに詰め合って一夜を過ごし、目が覚めても手を繋いでいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "text": "{pair}は顔を合わせただけで笑い、最初の喧嘩など誰が覚えているだろう。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "text": "{pair}は打ち解けて話した——殴り合ってこそ知り合える。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "text": "{pair}はあの死地からの生還の話を始めると、止まらなくなった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "text": "{pair}は食べながら杯を合わせ、命がけの付き合いはその中にあった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "text": "{pair}は笑いながら話し、かつての拒絶は今や笑い話になった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "text": "{pair}は寄り添って座り、この食事は一日以上待ったものだった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "text": "あの言い争いのあと、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "text": "前回の拒絶でも{actor}は諦めず、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "text": "別れたあとも、二人は互いを手放せず、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "text": "あの崩壊を目の当たりにしたあと、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "text": "冷戦の日々を経て、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "text": "あの言い争いは結局収まらず、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "text": "恨みは長く積もり、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "text": "亀裂はもう埋まらず、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "text": "またしても、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "text": "これで{0}回目になる、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "text": "食糧が尽きた影の下で、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "text": "皆の怒りがまだ収まらない日々に、",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "text": "知らせはすぐに広まり、皆が二人のことを話していた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "text": "コロニー全体が、二人のために喜んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "text": "コロニーの空気は、数日沈んでいた。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "text": "皆が目に留め、誰も気持ちよくはなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "text": "{pair}はこの日、何度も肩を寄せて話した。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "text": "{pair}はこの日、話が尽きなかった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "text": "{pair}はこの日何度も顔を合わせ、ますます顔見知りになった。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "text": "{pair}はこの日、何度も一緒に食事をした。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "text": "{pair}はこの日、空きさえあれば肩を寄せて遊んだ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "text": "手元の仕事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "text": "互いの役目",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "text": "採掘の進み具合",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "text": "建設のコツ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "text": "新しく練ったレシピ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "text": "作物の育ち",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "text": "小動物の気性",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "text": "研究の新しい発見",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "text": "機械の手入れ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "text": "包帯の手技",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "text": "運搬の経路",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "text": "新しく掛けた装飾",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "text": "鍛錬の心得",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "text": "アトモスーツを着るコツ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "text": "坑道の中のこと",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "text": "新しく造った廊下",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "text": "調理台の新しい工夫",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "text": "畑の収穫",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "text": "囲いの中の小さな連中",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "text": "実験台の前での発見",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "text": "機械の不具合",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "text": "医務室の薬箱",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

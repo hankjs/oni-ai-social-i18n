@@ -1,0 +1,90 @@
+{
+  "locale": "ko",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 일…… 내 잘못이야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "풀고 나니 됐어. 그 말다툼 하고 나니, 오히려 네가 더 이해돼."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "말을 너무 세게 했어, 미안해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "서로 그래. 안 싸워 보면 모르지, 가자, 밥 먹으러."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "아직 화났어?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "풀렸어. 싸울 수 있었다는 건, 둘 다 진지했다는 거야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "다음엔 네 말 먼저 끝까지 들을게."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "다음엔 나도 두 마디 덜 지를게. 악수? 악수."
+        }
+      ]
+    }
+  ]
+}

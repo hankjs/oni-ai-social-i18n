@@ -1,0 +1,128 @@
+{
+  "namespace": "social.chronicle",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_SUBJECT",
+      "meaning": "结构化纪事中作为主语的第一人称。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_OBJECT",
+      "meaning": "结构化纪事中作为宾语或第三者的第一人称。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_POSSESSIVE",
+      "meaning": "结构化纪事中第一人称的所有格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.SELF_POSSESSIVE_CAPITALIZED",
+      "meaning": "结构化纪事中句首第一人称的所有格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_SELF_SUBJECT",
+      "meaning": "心情视角中包含自己的两人组主格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_SELF_OBJECT",
+      "meaning": "心情视角中包含自己的两人组宾格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_SELF_POSSESSIVE",
+      "meaning": "心情视角中包含自己的两人组所有格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_SELF_REFLEXIVE",
+      "meaning": "心情视角中包含自己的两人组反身形式。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_OTHER_SUBJECT",
+      "meaning": "第三人称两人组主格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_OTHER_OBJECT",
+      "meaning": "第三人称两人组宾格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_OTHER_POSSESSIVE",
+      "meaning": "第三人称两人组所有格。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PAIR_OTHER_REFLEXIVE",
+      "meaning": "第三人称两人组反身形式。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.CHRONICLE.PERSON_POSSESSIVE",
+      "meaning": "{0}: display name. Named person's possessive form.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "display name",
+          "kind": "person"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    }
+  ]
+}

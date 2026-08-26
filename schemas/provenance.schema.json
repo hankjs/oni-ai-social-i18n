@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "sourceLocale", "targetLocale", "files"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "sourceLocale": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
+    },
+    "targetLocale": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sourceHash", "targetHash", "reviewStatus"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^(ui|dialogue|chronicle|prompts)/[^/]+\\.json$"
+          },
+          "sourceHash": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "targetHash": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "reviewStatus": { "enum": ["reviewed", "draft"] }
+        }
+      }
+    }
+  }
+}

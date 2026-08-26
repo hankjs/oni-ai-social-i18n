@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "breakdownwail",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Весь коридор слышно."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Так и надо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Он не нас зовёт."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я знаю, что вы все тут."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Дверь закрыть, ладно?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Закроешь — я всё равно внутри."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Такую высоту я в шахте слышал."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Шахта хотя бы эхом отвечает."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Как покричишь — легче станет?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Нет. Но молчать ещё хуже."
+        }
+      ]
+    }
+  ]
+}

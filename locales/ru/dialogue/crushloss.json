@@ -1,0 +1,54 @@
+{
+  "locale": "ru",
+  "family": "crushloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.crushloss.base.001",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Некоторые слова так и не успел сказать. Теперь уже некому."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.002",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я даже не спросил, какую кашу ты любишь."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.003",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Раньше винил табель, что нас разводит. В этот раз его уже не обвинишь."
+        }
+      ]
+    }
+  ]
+}

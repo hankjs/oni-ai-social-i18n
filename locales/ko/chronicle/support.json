@@ -1,0 +1,2508 @@
+{
+  "locale": "ko",
+  "family": "support",
+  "templates": [
+    {
+      "templateId": "chronicle.bestfriend.baseline.001",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 밤늦도록 이야기하다 서로의 절친이 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.002",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 남에게는 한 번도 하지 못한 말을 나누었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.003",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로의 비밀을 교환하고, 그 뒤로는 너와 나를 가르지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.004",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그날 밤 {a}와 {b}는 동이 틀 때까지 이야기했고, 잠들 일이라 말하는 이는 없었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.005",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 이는 오래 알고 나서야 친구가 되지만, {a}와 {b}는 하룻밤이면 족했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.006",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 꺼내 놓기 어려운 걱정을 서로에게 맡기고, 신뢰 또한 건넸다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.007",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말을 다 끝내지 않아도 상대가 진짜로 꺼리는 것을 알아차렸다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.008",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다음 근무가 아무리 바빠도 서로를 조금은 살피기로 약속했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.009",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께 겪은 일들을 되짚다, 이미 가장 믿을 만한 상대가 되어 있음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.010",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}는 오래 간직해 온 작은 비밀을 {b}에게 털어놓았고, {b}도 제 비밀로 화답했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.011",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 오래 고요히 앉아, 말이 없어도 곁에 사람이 있음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.012",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 난관에서는 누구도 혼자 버티지 않기로 진지하게 정했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.013",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 밤늦도록 이야기하다 서로의 절친이 되었다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.014",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 남에게는 한 번도 하지 못한 말을 나누었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.015",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 서로의 비밀을 교환하고, 그 뒤로는 너와 나를 가르지 않았다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.016",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그날 밤 {a}와 {b}는 동이 틀 때까지 이야기했고, 잠들 일이라 말하는 이는 없었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.017",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 이는 오래 알고 나서야 친구가 되지만, {a}와 {b}는 하룻밤이면 족했다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.018",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 꺼내 놓기 어려운 걱정을 서로에게 맡기고, 신뢰 또한 건넸다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.019",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말을 다 끝내지 않아도 상대가 진짜로 꺼리는 것을 알아차렸다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.020",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다음 근무가 아무리 바빠도 서로를 조금은 살피기로 약속했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.021",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께 겪은 일들을 되짚다, 이미 가장 믿을 만한 상대가 되어 있음을 알았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.022",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}는 오래 간직해 온 작은 비밀을 {b}에게 털어놓았고, {b}도 제 비밀로 화답했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.023",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 오래 고요히 앉아, 말이 없어도 곁에 사람이 있음을 알았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.024",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 난관에서는 누구도 혼자 버티지 않기로 진지하게 정했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.001",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 돌보았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.002",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 상처를 손보았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.003",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 붕대를 갈아 주었고, 손길은 아주 가벼웠다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.004",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 입으로는 괜찮다 하면서도, 하루 종일 {actor}에게 보살핌을 받았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.005",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other} 곁을 지키며, 약까지 미리 미지근하게 식혀 두었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.006",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 상처를 살피고, 손볼 곳이 빠지지 않았는지도 확인했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.007",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 간호 용품을 빠짐없이 준비하고, 참을성 있게 {other}의 처치를 곁에서 마쳤다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.008",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 움직이기 불편할 때, {actor}는 필요한 것을 하나씩 손 닿는 곳에 가져다 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.009",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 제때 쉬라 일렀고, 제 눈으로 자리를 잡은 것을 보고 나서야 떠났다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.010",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 풀린 붕대를 다시 고정했고, 손길은 단단하고 세심했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.011",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 한동안 지키며 살펴, 상태가 더 나빠지지 않음을 확인했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.012",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 돌봄의 순서를 {other}에게 설명하여, 앞으로 어떻게 회복할지 알게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.013",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 돌보았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.014",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 상처를 손보았다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.015",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 붕대를 갈아 주었고, 손길은 아주 가벼웠다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.016",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 입으로는 괜찮다 하면서도, 하루 종일 {actor}에게 보살핌을 받았다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.017",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other} 곁을 지키며, 약까지 미리 미지근하게 식혀 두었다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.018",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 상처를 살피고, 손볼 곳이 빠지지 않았는지도 확인했다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.019",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 간호 용품을 빠짐없이 준비하고, 참을성 있게 {other}의 처치를 곁에서 마쳤다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.020",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 움직이기 불편할 때, {actor}는 필요한 것을 하나씩 손 닿는 곳에 가져다 주었다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.021",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 제때 쉬라 일렀고, 제 눈으로 자리를 잡은 것을 보고 나서야 떠났다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.022",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 풀린 붕대를 다시 고정했고, 손길은 단단하고 세심했다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.023",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}를 한동안 지키며 살펴, 상태가 더 나빠지지 않음을 확인했다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.024",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 돌봄의 순서를 {other}에게 설명하여, 앞으로 어떻게 회복할지 알게 했다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.001",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 가라앉을 때까지 곁에 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.002",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 동행 아래 고요해졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.003",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 큰 이치를 말하지 않고, 다만 {other}의 곁에 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.004",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 고맙다 하려 하자, {actor}는 손을 저어 힘을 아끼라 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.005",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 밤은 견디는 수밖에 없고, 다행히 {other}는 혼자 견디지 않았다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.006",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 기운을 내라 재촉하지 않고, 가장 견디기 힘든 한때를 함께 넘겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.007",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 끊기는 말을 끝까지 듣고, 한 마디 한 마디를 진지하게 받아 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.008",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 한동안 말을 잇지 못하자, {actor}는 곁에 고요히 앉아 기다렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.009",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 물 한 잔을 건네고, 주위를 충분히 고요하게 남겨 두었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.010",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 천천히 숨쉬라 일렀고, 가쁜 박자가 이내 고르게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.011",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게, 이번 통제 상실이 놀림감이 되지 않으며 혼자 짊어질 일도 아님을 알게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.012",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 함께 뒤섞인 감정을 조금씩 가다듬고, 그제야 함께 일어섰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.013",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 가라앉을 때까지 곁에 있었다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.014",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 동행 아래 고요해졌다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.015",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 큰 이치를 말하지 않고, 다만 {other}의 곁에 있었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.016",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 고맙다 하려 하자, {actor}는 손을 저어 힘을 아끼라 했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.017",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 밤은 견디는 수밖에 없고, 다행히 {other}는 혼자 견디지 않았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.018",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 기운을 내라 재촉하지 않고, 가장 견디기 힘든 한때를 함께 넘겼다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.019",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 끊기는 말을 끝까지 듣고, 한 마디 한 마디를 진지하게 받아 주었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.020",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 한동안 말을 잇지 못하자, {actor}는 곁에 고요히 앉아 기다렸다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.021",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 물 한 잔을 건네고, 주위를 충분히 고요하게 남겨 두었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.022",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 천천히 숨쉬라 일렀고, 가쁜 박자가 이내 고르게 되었다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.023",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게, 이번 통제 상실이 놀림감이 되지 않으며 혼자 짊어질 일도 아님을 알게 했다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.024",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 함께 뒤섞인 감정을 조금씩 가다듬고, 그제야 함께 일어섰다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.001",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 일을 손수 가르쳤다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.002",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 남다른 요령을 일러 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.003",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 한 번 보여 주자, {other}는 눈도 깜빡이지 않고 보았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.004",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 한 번만 가르친다 했고, {other}는 돌아가 몰래 연습하기로 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.005",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 손재주는 근무표에서는 배울 수 없고, {actor}는 그것을 {other}에게 전했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.006",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 먼저 처음부터 끝까지 보여 준 뒤, {other}가 손수 해 보게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.007",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 한 걸음을 그르치자, {actor}는 멈춰 문제를 짚었을 뿐 대신 끝내지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.008",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 복잡한 순서를 몇 토막으로 나누어, {other}가 한 토막씩 익히게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.009",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 동작을 살피고, 당장 쓸 수 있는 개선을 하나 일러 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.010",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 마침내 바르게 해내자, {actor}는 분명한 인정을 아끼지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.011",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 실수하기 쉬운 곳을 두 번 거듭 말해, {other}가 진짜로 기억했는지 확인했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.012",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 처음부터 다시 한 번 마치게 하고, 필요할 때에만 소리로 일렀다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.013",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 일을 손수 가르쳤다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.014",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 남다른 요령을 일러 주었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.015",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 한 번 보여 주자, {other}는 눈도 깜빡이지 않고 보았다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.016",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 한 번만 가르친다 했고, {other}는 돌아가 몰래 연습하기로 했다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.017",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 손재주는 근무표에서는 배울 수 없고, {actor}는 그것을 {other}에게 전했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.018",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 먼저 처음부터 끝까지 보여 준 뒤, {other}가 손수 해 보게 했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.019",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 한 걸음을 그르치자, {actor}는 멈춰 문제를 짚었을 뿐 대신 끝내지 않았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.020",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 복잡한 순서를 몇 토막으로 나누어, {other}가 한 토막씩 익히게 했다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.021",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}의 동작을 살피고, 당장 쓸 수 있는 개선을 하나 일러 주었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.022",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}가 마침내 바르게 해내자, {actor}는 분명한 인정을 아끼지 않았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.023",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 실수하기 쉬운 곳을 두 번 거듭 말해, {other}가 진짜로 기억했는지 확인했다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.024",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 처음부터 다시 한 번 마치게 하고, 필요할 때에만 소리로 일렀다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.001",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.002",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, {actor}의 눈시울이 이내 젖었으나 {other}는 그 일로 농담하지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.003",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, 감정이 {actor}의 얼굴에 쓰여 있었고 {other}는 한눈에 알아보았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.004",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, {actor}는 한동안이 지나서야 목소리를 가누었고 {other}는 줄곧 곁에 머물렀다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.005",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, 눈물이 일을 멈추게 하지는 않았고 {actor}와 {other}는 박자만 조금 늦추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.006",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.007",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, {actor}의 눈시울이 이내 젖었으나 {other}는 그 일로 농담하지 않았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.008",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, 감정이 {actor}의 얼굴에 쓰여 있었고 {other}는 한눈에 알아보았다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.009",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, {actor}는 한동안이 지나서야 목소리를 가누었고 {other}는 줄곧 곁에 머물렀다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.010",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하다 울음을 터뜨렸고, {other}는 말없이 휴지를 건넸다, 눈물이 일을 멈추게 하지는 않았고 {actor}와 {other}는 박자만 조금 늦추었다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.001",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.002",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 {other}가 편한지를 줄곧 살피며 정도를 아주 가볍게 잡았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.003",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 재촉하지 않고 {other}에게 대답할 시간을 충분히 남겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.004",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, 가장 작은 동작에도 보살핌이 실려 {other}는 자연히 알아차렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.005",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 목소리와 동작을 모두 낮추어 이 만남에 스트레스가 일지 않게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.006",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.007",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 {other}가 편한지를 줄곧 살피며 정도를 아주 가볍게 잡았다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.008",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 재촉하지 않고 {other}에게 대답할 시간을 충분히 남겼다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.009",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, 가장 작은 동작에도 보살핌이 실려 {other}는 자연히 알아차렸다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.010",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하소연조차 나직했고, {other}는 각별히 귀를 기울였다, {actor}는 목소리와 동작을 모두 낮추어 이 만남에 스트레스가 일지 않게 했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.001",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.002",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {actor}의 동작이 말보다 빨라 {other}는 한동안이 지나서야 따라잡았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.003",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, 감정이 갑자기 일었으나 {actor}는 이내 주의를 다시 {other}에게로 거두었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.004",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {other}는 {actor}의 한때의 조급함에 흐트러지지 않았고 일이 순히 이어졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.005",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {actor}의 반응은 단정했고 머뭇거림조차 덧없어 보였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.006",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.007",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {actor}의 동작이 말보다 빨라 {other}는 한동안이 지나서야 따라잡았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.008",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, 감정이 갑자기 일었으나 {actor}는 이내 주의를 다시 {other}에게로 거두었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.009",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {other}는 {actor}의 한때의 조급함에 흐트러지지 않았고 일이 순히 이어졌다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.010",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 투덜대며 속을 다 쏟았고, {other}는 처음부터 끝까지 들었다, {actor}의 반응은 단정했고 머뭇거림조차 덧없어 보였다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.001",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.002",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 그 큰 소란에 근처 사람들은 그들이 함께 있음을 알게 되었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.003",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, {actor}는 목소리를 애써 낮추지 않았고 한 칸 떨어진 이도 알아들을 수 있었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.004",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 소리는 멀리까지 갔으나 이 만남은 그 때문에 멈추지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.005",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 주위가 다시 고요해진 뒤에도 {actor}의 목소리는 공기에 남은 듯했다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.006",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.007",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 그 큰 소란에 근처 사람들은 그들이 함께 있음을 알게 되었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.008",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, {actor}는 목소리를 애써 낮추지 않았고 한 칸 떨어진 이도 알아들을 수 있었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.009",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 소리는 멀리까지 갔으나 이 만남은 그 때문에 멈추지 않았다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.010",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 하소연은 휴게 구역 절반이 들었다, 주위가 다시 고요해진 뒤에도 {actor}의 목소리는 공기에 남은 듯했다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.001",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.002",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, {actor}는 {other}의 반응을 거듭 확인한 뒤에야 천천히 풀어졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.003",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, 작은 기척에도 {actor}는 한눈을 팔았고 {other}는 주의가 돌아오기를 참을성 있게 기다렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.004",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, {actor}는 동작마다 유난히 조심했고 {other}는 재촉하지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.005",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, 일이 끝날 무렵에야 {actor}의 굳은 어깨가 비로소 풀렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.006",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.007",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, {actor}는 {other}의 반응을 거듭 확인한 뒤에야 천천히 풀어졌다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.008",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, 작은 기척에도 {actor}는 한눈을 팔았고 {other}는 주의가 돌아오기를 참을성 있게 기다렸다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.009",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, {actor}는 동작마다 유난히 조심했고 {other}는 재촉하지 않았다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.010",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 걱정을 장황히 늘어놓았고, {other}는 하나씩 가닥을 잡아 주었다, 일이 끝날 무렵에야 {actor}의 굳은 어깨가 비로소 풀렸다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.001",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 쌓인 속을 잔뜩 쏟았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.002",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 하소연을 오래 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.003",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오늘의 궂은일을 하나씩 {other}에게 세어 들려주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.004",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 이 나날이 언제 끝나겠느냐 물었고, {other}는 대답하지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.005",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "속을 다 쏟고 나자, {actor}는 어깨의 흙까지 조금 가벼워진 듯했다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.006",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하루 동안 쌓인 답답함을 {other}에게 말하고, 더는 꾹 쥐고 있지 않아도 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.007",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 조언을 서두르지 않고, {actor}가 토로하고 싶은 일을 모두 말하게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.008",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가장 작은 불운부터 이야기하다, 마지막에야 진짜로 마음을 누르던 일을 꺼냈다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.009",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 한참을 연이어 말했고, {other}는 끝내 짜증을 보이지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.010",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 가끔 한 마디 물어, {actor}에게 제 말이 참으로 들리고 있음을 알게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.011",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뒤섞인 억울함과 화를 나누어 말하니, 감정도 천천히 가라앉았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.012",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 더 토로할 힘조차 없을 때까지 말한 뒤에도, {other}는 한동안 곁에 앉아 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.013",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 쌓인 속을 잔뜩 쏟았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.014",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 하소연을 오래 들었다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.015",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오늘의 궂은일을 하나씩 {other}에게 세어 들려주었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.016",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 이 나날이 언제 끝나겠느냐 물었고, {other}는 대답하지 못했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.017",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "속을 다 쏟고 나자, {actor}는 어깨의 흙까지 조금 가벼워진 듯했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.018",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하루 동안 쌓인 답답함을 {other}에게 말하고, 더는 꾹 쥐고 있지 않아도 되었다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.019",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 조언을 서두르지 않고, {actor}가 토로하고 싶은 일을 모두 말하게 했다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.020",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가장 작은 불운부터 이야기하다, 마지막에야 진짜로 마음을 누르던 일을 꺼냈다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.021",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 한참을 연이어 말했고, {other}는 끝내 짜증을 보이지 않았다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.022",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 가끔 한 마디 물어, {actor}에게 제 말이 참으로 들리고 있음을 알게 했다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.023",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 뒤섞인 억울함과 화를 나누어 말하니, 감정도 천천히 가라앉았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.024",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 더 토로할 힘조차 없을 때까지 말한 뒤에도, {other}는 한동안 곁에 앉아 있었다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.001",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 감정이 거의 넘치려 하자, {other}는 한동안 곁에 앉아 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.002",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하는 내내 두 손을 움켜쥐었고, {other}는 이번 스트레스가 평범한 짜증이 아님을 알아보았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.003",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 몇 번이나 말을 잇지 못했고, {other}는 박자를 늦추어 한 마디씩 기다렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.004",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 숨이 갈수록 가빠지자, {other}는 먼저 감정을 가라앉힌 뒤에야 계속 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.005",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 이미 거의 버티지 못하겠다고 인정했고, {other}는 그 말을 나약함으로 치지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.006",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가장 나쁜 걱정까지 모두 꺼냈고, {other}는 확인할 수 있는 사실만 되돌려 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.007",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 감정이 몇 번이나 치밀었으나, {other}는 끝내 떠나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.008",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}를 대신해 상관없는 방해를 막아, 이번 하소연이 서둘러 끝나지 않게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.009",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말을 마친 뒤에도 오래 침묵했고, {other}는 긴장이 조금 풀릴 때까지 곁에 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.010",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 자신이 통제를 잃을까 거듭 걱정했고, {other}는 눈앞에서 할 수 있는 작은 일에 주의를 두었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.011",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 스트레스가 진짜로 어디서 오는지 마침내 말했고, 목소리는 이미 분명히 떨렸다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.012",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 모든 것이 좋아지리라 약속하지 않고, 혼자 마주하지 않아도 된다고 {actor}에게 진지하게 전했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.013",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 감정이 거의 넘치려 하자, {other}는 한동안 곁에 앉아 주었다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.014",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말하는 내내 두 손을 움켜쥐었고, {other}는 이번 스트레스가 평범한 짜증이 아님을 알아보았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.015",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 몇 번이나 말을 잇지 못했고, {other}는 박자를 늦추어 한 마디씩 기다렸다. 산소와 시간이 귀한 곳에서, 발길을 멈추는 일 자체가 드물었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.016",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 숨이 갈수록 가빠지자, {other}는 먼저 감정을 가라앉힌 뒤에야 계속 들었다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.017",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 이미 거의 버티지 못하겠다고 인정했고, {other}는 그 말을 나약함으로 치지 않았다. 관로 속 기체는 여전히 흘렀고, 그들은 마침내 서로의 말을 끝까지 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.018",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가장 나쁜 걱정까지 모두 꺼냈고, {other}는 확인할 수 있는 사실만 되돌려 주었다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.019",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 감정이 몇 번이나 치밀었으나, {other}는 끝내 떠나지 않았다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.020",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}를 대신해 상관없는 방해를 막아, 이번 하소연이 서둘러 끝나지 않게 했다. 식민지가 모든 난제를 풀 수는 없어도, 적어도 여기에는 함께 짊어지려는 이가 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.021",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 말을 마친 뒤에도 오래 침묵했고, {other}는 긴장이 조금 풀릴 때까지 곁에 있었다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.022",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 자신이 통제를 잃을까 거듭 걱정했고, {other}는 눈앞에서 할 수 있는 작은 일에 주의를 두었다. 경보등은 이내 고요해졌지만, 그 호의는 소중히 기록되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.023",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 스트레스가 진짜로 어디서 오는지 마침내 말했고, 목소리는 이미 분명히 떨렸다. 멀리서 일이 기다리고 있었으나, 그 보살핌이 먼저 다시 서게 해 주었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.024",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 모든 것이 좋아지리라 약속하지 않고, 혼자 마주하지 않아도 된다고 {actor}에게 진지하게 전했다. 다음 근무가 시작되기 전, 둘은 방금보다 더 힘이 나서 그 일을 마주했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    }
+  ]
+}

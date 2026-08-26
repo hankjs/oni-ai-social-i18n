@@ -1,0 +1,74 @@
+{
+  "locale": "zh",
+  "family": "anniversarymissed",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨天……是我们的日子。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我知道。挖掘队排班，谁都没敢提。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我等到食堂熄灯才走。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……对不起。矿道塌了，我出不来。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "人没事就好。日子，明年再补。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "蜜饯我留了两天，最后自己吃了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……下次纪念日，我把班撕了也回来。"
+        }
+      ]
+    }
+  ]
+}

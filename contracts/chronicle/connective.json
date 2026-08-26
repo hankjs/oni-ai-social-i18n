@@ -1,0 +1,234 @@
+{
+  "family": "connective",
+  "pools": [
+    {
+      "poolId": "chronicle.connective.lead.era-famine",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.recur-again",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.recur-many",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [
+        "count"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "family": "connective",
+      "angle": "connective",
+      "participantMode": "none",
+      "allowedSlots": [],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    }
+  ]
+}

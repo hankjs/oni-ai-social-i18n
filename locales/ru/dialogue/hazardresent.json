@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "hazardresent",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardresent.base.001",
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Хлорный ярус весь месяц на мне."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Табель составлял не я."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.002",
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты знаешь, чем там внизу пахнет?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Не знаю."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.003",
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я считал. Сорок циклов."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Зачем это считать."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.004",
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Когда ты в последний раз спускался."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Наверху у меня тоже работа."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardresent.base.005",
+      "storyletId": "HazardResent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Дело не в страхе. Дело в том, что каждый раз — я."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда иди, поговори с табелем."
+        }
+      ]
+    }
+  ]
+}

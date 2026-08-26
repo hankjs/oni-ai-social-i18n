@@ -4,1515 +4,2751 @@
   "templates": [
     {
       "templateId": "chronicle.connective.lead.era-famine.001",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 1,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In the shadow of the famine, ",
-      "sourceHash": "sha256:59c3a57121aa576946e545cd1223a6c1901590affb8d367f414a0cdeaab046f4"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.002",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 2,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While every bite of food had to be carefully rationed,",
-      "sourceHash": "sha256:56d83894e0237c1ec4bcde9bf478916c33d1f1e78fb33824b07fd15e4c645968"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.003",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 3,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As the storage bins grew emptier by the day,",
-      "sourceHash": "sha256:16b0f597132db6573cadec10b189e512c858ab26ff8d2d84e66cf8f12f440a2c"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.004",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 4,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In the days when the next meal was still uncertain,",
-      "sourceHash": "sha256:062206334ca34ed4fa55756579580ffadf4c77969f8e59739a5221270f2c5ac8"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.005",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 5,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When hunger became a worry shared by everyone,",
-      "sourceHash": "sha256:0870c9458505563aa71759a6de9809d84d4111ae49be30d094d36ed70c86057b"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.006",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 6,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While the colony held on and waited for a new food supply,",
-      "sourceHash": "sha256:73672a6e37772e8660d0118cc898089c0a4d41bdbbca56fade781e498952f66a"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.001",
-      "status": "reviewed",
-      "text": "In those days of unspent anger, ",
-      "sourceHash": "sha256:38f518b099ffd52c39b3f41a172babe42ab1356f5a9eb344846b48eb38579a08"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.002",
-      "status": "reviewed",
-      "text": "While everyone still resented what had happened,",
-      "sourceHash": "sha256:d76b52ee8a657ae4f05950e96dd344e0ac5f6b7ec2737f345465e35458d456f2"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.003",
-      "status": "reviewed",
-      "text": "While hostility in the colony had yet to subside,",
-      "sourceHash": "sha256:6351c3f241e28cc96ffc01c1af3c2a0b68588f49d8ae286ecd0eb55b496a39b8"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.004",
-      "status": "reviewed",
-      "text": "During the period when blame and avoidance became routine,",
-      "sourceHash": "sha256:2a1edb3fa415c3181b6cb629775692410575eb3d09d88a01842f22267ea79540"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.005",
-      "status": "reviewed",
-      "text": "While the colony's anger still shaped every interaction,",
-      "sourceHash": "sha256:f3210eaef6c83f81a92912e1344469d429e408af3bf7c4bad5b0fe0239805ee1"
-    },
-    {
-      "templateId": "chronicle.connective.lead.era-wrath.006",
-      "status": "reviewed",
-      "text": "In the days when everyone carefully avoided sensitive subjects,",
-      "sourceHash": "sha256:92683b0ca0ed6f2b993787cfa5fb8634e780da6a6a9b81050d78ddffbdaada0f"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.001",
-      "status": "reviewed",
-      "text": "Once again, ",
-      "sourceHash": "sha256:7517611299ece1090d15dbd525734f3a00082ead8c892a3e475b7511885b7348"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.002",
-      "status": "reviewed",
-      "text": "Before long,",
-      "sourceHash": "sha256:2e80c511770b29ffd3fa5402bfd331abb333429ec9ad37a9959300d2dde5a9d8"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.003",
-      "status": "reviewed",
-      "text": "When the same thing happened again,",
-      "sourceHash": "sha256:5470e864b235c6cf96141e41131b506b09c4c2af738692b5fd7dfa5d05dfdd4b"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.004",
-      "status": "reviewed",
-      "text": "After a short interval,",
-      "sourceHash": "sha256:f5f85a43851931d87cf935dda5d8bbc60f3af5d329e9e2687f2ab097a14eb169"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.005",
-      "status": "reviewed",
-      "text": "As if returning to a familiar rhythm,",
-      "sourceHash": "sha256:83f2cad477dcad85284544dd8d5e70f5e4f6b8c5084ae25abc2fa19ae3cbc312"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-again.006",
-      "status": "reviewed",
-      "text": "This was not the first time,",
-      "sourceHash": "sha256:d98745f65025b8775a12cdbb985b3bbf06c098c598f34e19bf88856d3e96029c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.001",
-      "status": "reviewed",
-      "text": "For the {count}th time, ",
-      "sourceHash": "sha256:fc68c08850bcdba12a31fecd7ea3eae4980bb065fb74eb0cdaf92fb6b4b2bdc9"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.002",
-      "status": "reviewed",
-      "text": "Including this occasion, the same thing had happened {count} times,",
-      "sourceHash": "sha256:256c63f6055a4be076628a56dbddf26d8bcb9267e948e766abacd7d1bcf4be54"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.003",
-      "status": "reviewed",
-      "text": "By the {count}th occurrence,",
-      "sourceHash": "sha256:dd8ff7298549883fafad354813603e07644e180847b6e46f5b507531d4eb06cd"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.004",
-      "status": "reviewed",
-      "text": "When this situation appeared for the {count}th time,",
-      "sourceHash": "sha256:0b4302053f6af9179a620efe0d13537466f3dedb3dedb85b954f34462cfa7dba"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.005",
-      "status": "reviewed",
-      "text": "After experiencing this {count} times,",
-      "sourceHash": "sha256:eed0969e0ddfc8b3302447f29b555628718bf4959f0c081eac6b2b8af730cdab"
-    },
-    {
-      "templateId": "chronicle.connective.lead.recur-many.006",
-      "status": "reviewed",
-      "text": "That day brought the {count}th entry in the record,",
-      "sourceHash": "sha256:a23dfbc8578cef84e80a5dd907078ee145788d4717a801222d81ccd7c869bb4c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.001",
-      "status": "reviewed",
-      "text": "After that argument, ",
-      "sourceHash": "sha256:51e3aa46e912328fbdfafb3885f55aa8cc3ac82facec41eab9499df2e102121c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.002",
-      "status": "reviewed",
-      "text": "Once both sides had calmed down,",
-      "sourceHash": "sha256:92c4821d17986e879ca535fee0397b435d86708f5bd5fee0b5cd0c4280715d47"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.003",
-      "status": "reviewed",
-      "text": "While the awkwardness left by the argument still lingered,",
-      "sourceHash": "sha256:a50467d7f4991d795effa05ee531cef57989c4fce5f7f33309a8d918e72a3cfe"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.004",
-      "status": "reviewed",
-      "text": "Remembering the harsh words from last time,",
-      "sourceHash": "sha256:e6619e6c110557893e07eb8b8e8606401a879e65eacf632d58a0994950a70d3d"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.005",
-      "status": "reviewed",
-      "text": "After the conflict had passed,",
-      "sourceHash": "sha256:b6ad8290f6905f3d5658907ef4e8fcabccb7cc3fc41a710d1920f5013c246e52"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-apology.006",
-      "status": "reviewed",
-      "text": "To keep the dispute from becoming a lasting grievance,",
-      "sourceHash": "sha256:0c28fe288c10e5bf59589e988f68e8aea6d8f6a8fd1ad3ea7f93d59a1fe73414"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.001",
-      "status": "reviewed",
-      "text": "That quarrel could not be contained, ",
-      "sourceHash": "sha256:70c1e40adfcb36a0aa7723335ea14c777f42cb5dd801d76b9816551faea0a13b"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.002",
-      "status": "reviewed",
-      "text": "As voices grew harsher,",
-      "sourceHash": "sha256:f59abe457c389ac431ac566e4251750e3e10aca0dd84508cb3f56fb5c81cfd7e"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.003",
-      "status": "reviewed",
-      "text": "With neither side willing to step back,",
-      "sourceHash": "sha256:355212e0144971d87463e80380bffacce6e9e7d2bf94c0310834fa6ef0d7cfbc"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.004",
-      "status": "reviewed",
-      "text": "As the dispute crossed beyond words,",
-      "sourceHash": "sha256:f91254b9067c0d4a900b4fb2f78d949cb0998f17dc68493b91c311b9a7115474"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.005",
-      "status": "reviewed",
-      "text": "When emotion finally overwhelmed reason,",
-      "sourceHash": "sha256:7a47aee289e05e4d35b53580f6f0d6107123db8c96f0242c389c916abe566f30"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-brawl.006",
-      "status": "reviewed",
-      "text": "After the last trace of restraint disappeared,",
-      "sourceHash": "sha256:c5922397f8efe0d07c75e21a2c24b9f00cdbe5404ba7035d9f266b1e645a0ddd"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.001",
-      "status": "reviewed",
-      "text": "The rift never healed, ",
-      "sourceHash": "sha256:4316487e133ebcbc9a3ee258880c7d2445984ff5007c361a03d064d2f0b8faf1"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.002",
-      "status": "reviewed",
-      "text": "When long-accumulated disappointment finally reached its limit,",
-      "sourceHash": "sha256:3d8724dfca8d6d6879d3be5dfaa68d98711882ff0b4b77a9d6825d8fce9dbf8b"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.003",
-      "status": "reviewed",
-      "text": "After attempts to repair the relationship still led nowhere,",
-      "sourceHash": "sha256:eb4d5a4c7cf6150389ede3884fec9e94292458a27c716beeb068634300670b57"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.004",
-      "status": "reviewed",
-      "text": "Once both realized there was no returning to how things were,",
-      "sourceHash": "sha256:2b8b82b51275d6acd4061b170ccfa6c3dc2675d442fb77068a8fd6058d45788d"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.005",
-      "status": "reviewed",
-      "text": "As the rift continued to widen,",
-      "sourceHash": "sha256:790cb9ab4113f947a1e21049ea6e4d04f4900462b2ba19c4eec1b325bc3af827"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-breakup.006",
-      "status": "reviewed",
-      "text": "After the final attempt to save things failed,",
-      "sourceHash": "sha256:2fa24c23d8733999655c10892ea0ae4df39a16c3da1c808e57782e506feb88c6"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.001",
-      "status": "reviewed",
-      "text": "After witnessing that breakdown, ",
-      "sourceHash": "sha256:529ce5d3642a108c5e4bbb247818603d3d73fa0a6fbf651d1915ed5b47ffbf1e"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.002",
-      "status": "reviewed",
-      "text": "With the sight of that breakdown still impossible to forget,",
-      "sourceHash": "sha256:cd1cddb8d828ace14ddfb356565b25e089172c31f18f81e5ca9bdba6dc849169"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.003",
-      "status": "reviewed",
-      "text": "After making sure the breakdown had passed,",
-      "sourceHash": "sha256:ce0b607355ab54cee75c56e687bf33ee3f6d4f050acf09368265e49a652ed4c2"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.004",
-      "status": "reviewed",
-      "text": "When that person most needed company,",
-      "sourceHash": "sha256:e024765a5c7f23c7be0147a7e0ec76d1851a536708f5335acb4c8e83672efc08"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.005",
-      "status": "reviewed",
-      "text": "As shock gradually turned into concern,",
-      "sourceHash": "sha256:6f48a8f1a5033c504d84cc78b1d0f25d28269e15492ad6ae976ffaa4273dbaa9"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-comfort.006",
-      "status": "reviewed",
-      "text": "So that the pain would not have to be carried alone,",
-      "sourceHash": "sha256:d84dbe706d33277e306e0c8852cb238aca1438d32c65a3625c8e83bab746df78"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.001",
-      "status": "reviewed",
-      "text": "The last rejection did not stop {actor}, ",
-      "sourceHash": "sha256:88952062b983e6c6ef9bd66e9cb96d6c2335720e589780595edd5da65837345c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.002",
-      "status": "reviewed",
-      "text": "After {actor} received no answer last time,",
-      "sourceHash": "sha256:3fb3c768f7c331650c263184fe35870d88d1d48acc92e9056bdbaa382a2417cd"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.003",
-      "status": "reviewed",
-      "text": "After {actor:possessive} failed attempt,",
-      "sourceHash": "sha256:59182142607632b339d62966594df74be120ab195d7a67cac9df6f992fa8da2d"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.004",
-      "status": "reviewed",
-      "text": "The rejection left {actor} quiet for a while, but eventually,",
-      "sourceHash": "sha256:8500c1f08b1b3ba5b37792de752217add382b3e7fc41b93e3bbb717e9fd9df9d"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.005",
-      "status": "reviewed",
-      "text": "When {actor} stopped treating the first setback as the end,",
-      "sourceHash": "sha256:a16e70a4a54b4f95b018ebf63c1527d21e95dfe1eec3409e1ccc2d8fb6bb0ba7"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-confession-after-fail.006",
-      "status": "reviewed",
-      "text": "After {actor} reconsidered what was said last time,",
-      "sourceHash": "sha256:b89bdc4f057645362724a611ba61df5e6b7e1f7fd7df88f26af5f0e25c8fd31f"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.001",
-      "status": "reviewed",
-      "text": "After all these days of silence, ",
-      "sourceHash": "sha256:def7d7d89dbb18f995970ba34c4d5685309ae8fa25023f04c3b56deb41f65ffa"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.002",
-      "status": "reviewed",
-      "text": "When silence became harder to bear than the argument,",
-      "sourceHash": "sha256:c57955ed75fb7382693ac30c134df02a5f29193774f2155b9f1854e43677030c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.003",
-      "status": "reviewed",
-      "text": "Once the first anger had slowly receded,",
-      "sourceHash": "sha256:bc9df489a1ca7ff2d45f2555d8c46345711b21cf4fc47d9572172f0b3aea78e3"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.004",
-      "status": "reviewed",
-      "text": "After time apart allowed both sides to reconsider,",
-      "sourceHash": "sha256:6a8aa173b741266ad686f8bc469d1eb8a85fafb3119202c4d26fe6bd2725a17c"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.005",
-      "status": "reviewed",
-      "text": "To end the long period of distance,",
-      "sourceHash": "sha256:f2ae30c8f31109c369017f687d4d82ae9c6ace95a3769a63d5be909311dfbefc"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-reconcile.006",
-      "status": "reviewed",
-      "text": "When both were finally willing to speak again,",
-      "sourceHash": "sha256:6d9cc6353c76a8784f72fb64950fb265427a1c317c1cb63a60a83d406796a59b"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.001",
-      "status": "reviewed",
-      "text": "After the time apart, they still could not let each other go, ",
-      "sourceHash": "sha256:b7d78b5dd7154b05584c221b3a25459cc8a563820796d4994d606cd410b0790e"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.002",
-      "status": "reviewed",
-      "text": "Time apart had not diminished the old feelings,",
-      "sourceHash": "sha256:800a4fc0159e67bc7eee6427c1e32299aefa8b4b6d762d8ca259c00c0a8a5199"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.003",
-      "status": "reviewed",
-      "text": "When they faced each other again, the familiar attachment returned,",
-      "sourceHash": "sha256:bb83df22b8465b309b36b7ad6c935303fe21c8ca07a4474f1cb7a92b5e8bb5dd"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.004",
-      "status": "reviewed",
-      "text": "After the relationship ended, neither could truly let go,",
-      "sourceHash": "sha256:77e05914593a122a9711a96e50035799f14b5ff9da34a8dd87b50759adbcb0f2"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.005",
-      "status": "reviewed",
-      "text": "After a long detour, they still returned to each other,",
-      "sourceHash": "sha256:b3b797eb8d15c7d1a0ffe32c8fff3f96bc65ade5d99c57a21ff144b1b95eb358"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rekindle.006",
-      "status": "reviewed",
-      "text": "When the old understanding emerged again,",
-      "sourceHash": "sha256:90bdd1a3aac05a24398f35bfc3fd349eaddc13a481cb5b70b60a46c353bd671f"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.001",
-      "status": "reviewed",
-      "text": "Resentment had been building for a long time, ",
-      "sourceHash": "sha256:f2c70e88f1fc19bd8a7054942baa39d7dfd295bdeab2aacacf7e45bf77cf0da2"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.002",
-      "status": "reviewed",
-      "text": "Repeated conflicts kept pushing the two farther apart,",
-      "sourceHash": "sha256:e0528030dd04c231ff4d6ef159113381af03f377b8648f5ed75e580a4472f7c5"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.003",
-      "status": "reviewed",
-      "text": "As competition gradually turned into hostility,",
-      "sourceHash": "sha256:5f8d7c40bcc9cc9fbf506009b1d45666a5a1245fb85f3ed61935d9d4ba42c90d"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.004",
-      "status": "reviewed",
-      "text": "With neither willing to end the contest,",
-      "sourceHash": "sha256:93cfa88e447f8c0c4b2fd0ec7784fdb9acbe7efbb693a6381fd06739411c118f"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.005",
-      "status": "reviewed",
-      "text": "As earlier conflicts remained unresolved,",
-      "sourceHash": "sha256:a3c7e7268ea9d75e6055f1d10336b9421b60e3bf64d79d038dc8461643028bf3"
-    },
-    {
-      "templateId": "chronicle.connective.lead.seq-rival.006",
-      "status": "reviewed",
-      "text": "When mutual resentment finally became open opposition,",
-      "sourceHash": "sha256:501d730d37dc02358e76678ecbdb0d7a58bfccbf0e7126983b0479668539d48b"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.001",
-      "status": "reviewed",
-      "text": "{a} and {b} kept finding each other to talk that day.",
-      "sourceHash": "sha256:151d25fcc82b05d1bd5edc2f7436ffc4377bd44deb5f28b761c4ff6f3770810f"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.002",
-      "status": "reviewed",
-      "text": "{a} and {b} talked several times that day and found a new subject every time.",
-      "sourceHash": "sha256:9570a251541e23eb336cee96f649d15e8dc6b6a9da34536a8eb896595b5a95a3"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.003",
-      "status": "reviewed",
-      "text": "{a} and {b} repeatedly found each other, filling the day with bits of conversation.",
-      "sourceHash": "sha256:28ef7b4d74e20182aaa220d5a67e5bced9bf2d355698f2508e257f31541e3916"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.004",
-      "status": "reviewed",
-      "text": "Every time {a} and {b} met that day, they stopped to talk and got along especially well.",
-      "sourceHash": "sha256:656bc90545dd6c17d9a39cbef1f5cc8e9966cf5ee5416e9155ff73b6f0c25758"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.005",
-      "status": "reviewed",
-      "text": "{a} and {b} always had something to say that day, with one brief meeting following another.",
-      "sourceHash": "sha256:9ba54656f428608f56c61b2edd1c8712f5bbb9c3d9230e30a2bf95e982fcf60b"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-1.006",
-      "status": "reviewed",
-      "text": "From work through rest, {a} and {b} kept their conversation going throughout the day.",
-      "sourceHash": "sha256:50ce03c958d759f504726ef0e7bb9919824525d8d7d7d594c81d7520ff74cfe3"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.001",
-      "status": "reviewed",
-      "text": "{a} and {b} had no end of things to say that day.",
-      "sourceHash": "sha256:7c6af5dbb6ec013be837d6f5aa05e501dde12aa6a4fabe0da59d5a0fa49d0e82"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.002",
-      "status": "reviewed",
-      "text": "One subject followed another for {a} and {b}, leaving scarcely a quiet moment that day.",
-      "sourceHash": "sha256:fc1b53653f6f5b9de71301e1b6f49286674dbbf85242cc791b25f4448fcb91d7"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.003",
-      "status": "reviewed",
-      "text": "{a} and {b} moved from daily matters to personal concerns and talked longer than either noticed.",
-      "sourceHash": "sha256:64ecdacd370ad1a300cf1c9a14409eafa38c730357bb9d5bca209b0bf4311a39"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.004",
-      "status": "reviewed",
-      "text": "That day, {a} and {b} seemed to say everything they had been saving up.",
-      "sourceHash": "sha256:d0bef9ff4373d6aaf9170c6cb3f727966d24f7e94c07b50505cc9b47133cb8e7"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.005",
-      "status": "reviewed",
-      "text": "Starting from one small subject, {a} and {b} talked until they forgot it was time to rest.",
-      "sourceHash": "sha256:ff58b627d0ff47a7b9e9b0eb4da1db4f938154f5879d22ba32de1566a938ce11"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-chat-2.006",
-      "status": "reviewed",
-      "text": "{a} and {b} spent the day absorbed in conversation and barely noticed the noise around them.",
-      "sourceHash": "sha256:96569c2a1619ece5308d3f084e2117e8509a9b976f4baccad0d319666529e312"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.001",
-      "status": "reviewed",
-      "text": "{a} and {b} kept crossing paths that day, and grew familiar.",
-      "sourceHash": "sha256:08190f833fb51539581e6ef038086f80502e933df2817a135688afb44477584a"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.002",
-      "status": "reviewed",
-      "text": "{a} and {b} crossed paths several times that day, and each greeting felt more natural than the last.",
-      "sourceHash": "sha256:88787ffa648c830cbd058a18cfdda17f2b4d36d3ba61a881366dfddab135b54a"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.003",
-      "status": "reviewed",
-      "text": "Repeated encounters through the day helped {a} and {b} learn each other's habits.",
-      "sourceHash": "sha256:19696132e301b0b9eb7f1a999b771215bfc735e29e4f067b369f42e8b221102b"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.004",
-      "status": "reviewed",
-      "text": "{a} and {b} greeted each other whenever they passed, and the unfamiliarity quickly faded.",
-      "sourceHash": "sha256:27210bdc91ccd1d4503f09bd04d0972952c4e3049d1b2b6fe7456b2cdb090f28"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.005",
-      "status": "reviewed",
-      "text": "Several chance meetings that day made {a} and {b} more familiar than simple nodding acquaintances.",
-      "sourceHash": "sha256:f29c102a394a0cb2ee5159635b2d9aa8a69fbb67d6c185655f28f73c48098bb3"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-greet-1.006",
-      "status": "reviewed",
-      "text": "{a} and {b} kept meeting around the colony, and their exchanged greetings brought them closer.",
-      "sourceHash": "sha256:2109a3eb587679643f322477d6923f755c02282e0c486c54d238281c550b0415"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.001",
-      "status": "reviewed",
-      "text": "{a} and {b} shared several meals that day.",
-      "sourceHash": "sha256:5487e3c6e1dd8fa87958a4250d4f7432f44d7c2858ac14c9954d56b680ff586a"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.002",
-      "status": "reviewed",
-      "text": "{a} and {b} shared a table more than once that day and gradually fell into an easy rhythm.",
-      "sourceHash": "sha256:ec127f0b96365b83084b6df06a31d4f323473a70870465e366cf204f8c48663c"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.003",
-      "status": "reviewed",
-      "text": "From the first meal to the last, {a} and {b} kept sitting together that day.",
-      "sourceHash": "sha256:869aa73d3699ccfa6f4959f03a471cba7b5a27c77e09e0abde0368cb64e74252"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.004",
-      "status": "reviewed",
-      "text": "{a} and {b} met over several meals and naturally shared what had happened during the day.",
-      "sourceHash": "sha256:0df4dcb89ee71cbcc6f93b349054141b30ee129cd71d272a3bc34233707e859c"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.005",
-      "status": "reviewed",
-      "text": "At mealtimes that day, {a} and {b} could usually be found at the same table.",
-      "sourceHash": "sha256:a9c6a1dcba6227b6517207fb1f9f8b811579e7cb51192194bb819a30b2557e53"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-meal-1.006",
-      "status": "reviewed",
-      "text": "{a} and {b} continued talking through meal after meal, making the relationship feel more natural.",
-      "sourceHash": "sha256:7e4ddeb5ffa715cfd3dc57fd0128373617ebf62be515b5d937a14bc445f0a38b"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.001",
-      "status": "reviewed",
-      "text": "{a} and {b} spent every spare moment together that day.",
-      "sourceHash": "sha256:84cb50e7fbd3e2e984f620765d04b1bc4974892bc0d19b5c0fbafdcaba153ae0"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.002",
-      "status": "reviewed",
-      "text": "{a} and {b} spent several breaks together that day and thoroughly enjoyed themselves.",
-      "sourceHash": "sha256:a6311100b2adf7ad5add3d246fc68637abe2d88e3116580f2f59eaf8d476ee33"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.003",
-      "status": "reviewed",
-      "text": "Whenever there was a spare moment, {a} and {b} found each other and made their own fun.",
-      "sourceHash": "sha256:7332eb6dce22789d8d7899bbc1534b0c3cb1c5ab8a8b3903a6502a8b38767d38"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.004",
-      "status": "reviewed",
-      "text": "{a} and {b} moved from one pastime to another, making the day's rest especially lively.",
-      "sourceHash": "sha256:485fa3b756ff90e06361b3fb627fe8ea6c6a238a1e488082327da95013f0ad2f"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.005",
-      "status": "reviewed",
-      "text": "During the day's free time, {a} and {b} kept appearing together, with laughter never far away.",
-      "sourceHash": "sha256:60c723b9bff125ceaf13e2cc1a5fed7a3c498b27220d72b38eadfb767166c3c1"
-    },
-    {
-      "templateId": "chronicle.connective.merge.merge-socialize-1.006",
-      "status": "reviewed",
-      "text": "{a} and {b} turned several short breaks into time for games together.",
-      "sourceHash": "sha256:c7a7f1dcc508409decc8802bcec27f51c25888d89da289f53d0e9f13a94fb6cd"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.001",
-      "status": "reviewed",
-      "text": " The air in the colony hung heavy for days.",
-      "sourceHash": "sha256:7c9e97642255f31907789f1d57986dd44ce0221616db9425b44ecc6af37aeb26"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.002",
-      "status": "reviewed",
-      "text": "For the next few days, everyone spoke more quietly than usual.",
-      "sourceHash": "sha256:3346a65ec73efcc9c06b92c70dcb712f794c5180bd5d485c5408301afa808b61"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.003",
-      "status": "reviewed",
-      "text": "The weight left by the event did not lift for a long time.",
-      "sourceHash": "sha256:703d3410d361e37584af9632c1168cbbea1c1d79ef963fc813789ace4ff02033"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.004",
-      "status": "reviewed",
-      "text": "The colony briefly lost its usual liveliness, and even rest periods stayed quiet.",
-      "sourceHash": "sha256:0f7153ca4d413b49b63925d3890722b436f99ccde83dd73f2d4a2785e885e944"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.005",
-      "status": "reviewed",
-      "text": "Everyone tried not to mention the event again, but the mood remained oppressive.",
-      "sourceHash": "sha256:90c47f86d99e24a5fe26f2756225f840856902a1f49c6fa85901f14381df9fb7"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-1.006",
-      "status": "reviewed",
-      "text": "Even ordinary work was affected, with unease lingering all around.",
-      "sourceHash": "sha256:7426b7117e2bdb9fd98f9c06abd84bea050e03469c3e1dcc67b0118afaee5f49"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.001",
-      "status": "reviewed",
-      "text": " Everyone saw it, and no one felt good about it.",
-      "sourceHash": "sha256:917e39a335a495f9e7f7c7877dbb26d99541e97e388ce28296957636b91d683c"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.002",
-      "status": "reviewed",
-      "text": "Those who witnessed it became much quieter and did not know what to say.",
-      "sourceHash": "sha256:67a869dcb95ae32995a3381bc97490d6763cfdeee5f75bc6db3c7ce4866914d2"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.003",
-      "status": "reviewed",
-      "text": "The event left an uncomfortable place in everyone's thoughts.",
-      "sourceHash": "sha256:c34d9ad45771c5307c4e3a25f4f69561e10197a25db2e78e3d389f039a4dbb3a"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.004",
-      "status": "reviewed",
-      "text": "No one wanted to turn it into gossip, and silence became the shared response.",
-      "sourceHash": "sha256:bf53b0b41b3bd700392b1b2a97bd8141ae3fecb2bd445004ccf2ef8e258ef0e2"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.005",
-      "status": "reviewed",
-      "text": "Those who were present still recalled the scene afterward, and their mood fell with it.",
-      "sourceHash": "sha256:530882980d86317bae7b48a96b99b0dde7d68d9a7882f6eb2e970ef517f7a2b1"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-bad-2.006",
-      "status": "reviewed",
-      "text": "Although everyone returned to work, they all carried the same heaviness.",
-      "sourceHash": "sha256:1f2582b3720c30ac6e1446b5f5b0e6afa531b6a31b6989cd727436427b4471ea"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.001",
-      "status": "reviewed",
-      "text": " Word spread quickly; everyone was talking about them.",
-      "sourceHash": "sha256:dbc6562066bda5a129383b3961b3aa26a8ecfb4dcf330f99b0ce69677295d77e"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.002",
-      "status": "reviewed",
-      "text": "The good news took little time to spread throughout the colony.",
-      "sourceHash": "sha256:337d70d160b943345b25c063385f2007762cde5e7b22a2decf7b5388f44840a3"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.003",
-      "status": "reviewed",
-      "text": "Everyone who heard about it wanted to ask more, and the conversation quickly grew lively.",
-      "sourceHash": "sha256:8cc2ef2d8f4c1e8fd3d3b30bf4b7e6c3c9c5a0a101602253ad20ea29332763a9"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.004",
-      "status": "reviewed",
-      "text": "From workplaces to dining tables, people mentioned the event with smiles.",
-      "sourceHash": "sha256:5b769c9e720ac20d36b8639a81774fa0aaf7028141c713131f5f90b403225451"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.005",
-      "status": "reviewed",
-      "text": "The event became everyone's newest shared subject, with fresh details each time it came up.",
-      "sourceHash": "sha256:f56fce1e92a5ab3945eaff21692b8fe3fadf8de895f48fedf8f42185e2a11b87"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-1.006",
-      "status": "reviewed",
-      "text": "Once the news spread, even those who were absent learned what had happened.",
-      "sourceHash": "sha256:02d154c71d8e9c26a67e67f0ba6e29cb306a78c0bd22707f7bae6ea49ccd553b"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.001",
-      "status": "reviewed",
-      "text": " The whole colony was happy for them.",
-      "sourceHash": "sha256:ef052a264b65dbb98e73b3167015ad194cb0d5beac26d2824ec57791feb0485c"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.002",
-      "status": "reviewed",
-      "text": "Good wishes arrived again and again, making the happiness feel more real.",
-      "sourceHash": "sha256:7556befb7b2a09c00d3d3844ff47531ab921497fb0045ccd120e74036421bf03"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.003",
-      "status": "reviewed",
-      "text": "The outcome brought a rare spell of easy laughter to the colony.",
-      "sourceHash": "sha256:e797ec693358f828752c4d405fe32eb9880f84984cc86437afe7fd1f31b4162e"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.004",
-      "status": "reviewed",
-      "text": "Everyone who heard the news offered sincere congratulations, and the happiness quickly spread.",
-      "sourceHash": "sha256:6aece0eeaa0026293096fb691b0710e5f9e9fe8df6e161316c0da4be15bf79b3"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.005",
-      "status": "reviewed",
-      "text": "The good event made everyday life in the colony feel a little brighter.",
-      "sourceHash": "sha256:fe649d93e998d0b1db17309980b065f6c1139506df9550e16a1903b1d4c81ef4"
-    },
-    {
-      "templateId": "chronicle.connective.tail.react-good-2.006",
-      "status": "reviewed",
-      "text": "Everyone made time to share the happiness, and the mood stayed warm for a long while.",
-      "sourceHash": "sha256:d0ea7bc2159ad8e39d2410fb030eab6e858cf02c04c3779a3fde97869be2e515"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.007",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In the shadow of the famine; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:9fa9cf7c88a771e6d9009310577c9eb0968d8f3ba33d665a6c29dfbbf149258d"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.008",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While every bite of food had to be carefully rationed; as the next shift began, ",
-      "sourceHash": "sha256:b2fdf8f7019424f48019fa064583f57aca1a86ad785194eed58670961fea3e40"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.009",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As the storage bins grew emptier by the day; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:ee88a32835872259164d27c7659c2ed2cbbd21485a04efa3b5213e378f230db2"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.010",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In the days when the next meal was still uncertain; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:b8c1ace0cb81b0cb1b29c784d38c2b5d5fba74016820e6a804b223206c022024"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.011",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When hunger became a worry shared by everyone; as the next shift began, ",
-      "sourceHash": "sha256:90a1607c63710301b9c207c53a1fee08ac4c88ffa6a33edc7e91988e50f358b2"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-famine.012",
+      "poolId": "chronicle.connective.lead.era-famine",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While the colony held on and waited for a new food supply; after the warning lights settled again, ",
-      "sourceHash": "sha256:d639e63d1db7d599e7011cfb4ead45820a271b956d5347ada4b3bedb58d88ff4"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.001",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In those days of unspent anger, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.002",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While everyone still resented what had happened,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.003",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While hostility in the colony had yet to subside,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.004",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "During the period when blame and avoidance became routine,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.005",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While the colony's anger still shaped every interaction,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.era-wrath.006",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In the days when everyone carefully avoided sensitive subjects,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.007",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In those days of unspent anger; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:a3579f3a9269d5d640cffcca743e040952d20c94bb8c6b90ab87184c18637bce"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.008",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While everyone still resented what had happened; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:21c00b837361ddfc65c1f06b202ff3d3b6a3a2e852d4a2ed57d2303b8e6a73d9"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.009",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While hostility in the colony had yet to subside; during their days inside the asteroid, ",
-      "sourceHash": "sha256:cf4c385ca066e85525eddd9315152045dac856e0f1ebbdbc70935a6789487fa0"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.010",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "During the period when blame and avoidance became routine; after the warning lights settled again, ",
-      "sourceHash": "sha256:719f4927eb4846030cf39615af5718a5d2a6f110917ba96111d355fd3c2f7887"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.011",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While the colony's anger still shaped every interaction; after the warning lights settled again, ",
-      "sourceHash": "sha256:14a8bbad00940172ee9ab9a2a7091c6db624254ffab2915bd431e754c74488db"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.era-wrath.012",
+      "poolId": "chronicle.connective.lead.era-wrath",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "In the days when everyone carefully avoided sensitive subjects; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:d2b616b9b7bd88ba9a8c9703c46c411e1520462cdebef127c91de9cbf9dd22f4"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.001",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Once again, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.002",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Before long,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.003",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When the same thing happened again,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.004",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After a short interval,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.005",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As if returning to a familiar rhythm,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-again.006",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "This was not the first time,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.007",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Once again; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:25e00906d44bf77db17ca8d7aef93862df77ae1293c8849510d4de78688bdd77"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.008",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Before long; as the next shift began, ",
-      "sourceHash": "sha256:1c00f717da990167309901c645de241d0d19e6044b5c6469e41290a632edb49e"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.009",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When the same thing happened again; after the warning lights settled again, ",
-      "sourceHash": "sha256:a47dbbd69d23abd7c414eb4703b19bc3ffb94cb59cc96e03c6c273cfc140439b"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.010",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After a short interval; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:a89d526d23d4d1a7b3afa521ff156858bd96d27a1329ab3c04622e7998862a84"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.011",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As if returning to a familiar rhythm; after the warning lights settled again, ",
-      "sourceHash": "sha256:0d1ef449e80df56bb966fe227f146e4ab3a2a23b72940e3731bd67defe78ba40"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-again.012",
+      "poolId": "chronicle.connective.lead.recur-again",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "This was not the first time; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:cca54291e28a555980492be2ebed3461c6c23c72fef3b779fdd697c60dae6ca9"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.001",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "For the {count}th time, ",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.002",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Including this occasion, the same thing had happened {count} times,",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.003",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "By the {count}th occurrence,",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.004",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When this situation appeared for the {count}th time,",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.005",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After experiencing this {count} times,",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.recur-many.006",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "That day brought the {count}th entry in the record,",
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.007",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "For the {count}th time; as the next shift began, ",
-      "sourceHash": "sha256:7a028ad112307fa39bddcc088cc64af26132461b6b5ce31ed90ff511bd51e86f"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.008",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Including this occasion, the same thing had happened {count} times; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:2cfd82aa1ebb0ac045b4ac78f5775beb198c2be17b35497e8d21255f151d4d1f"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.009",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "By the {count}th occurrence; as the next shift began, ",
-      "sourceHash": "sha256:f2d2a3839ad583fc3789f16ab013bd4c1f027e4082e9e451e3b4b9df0c2e3a8b"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.010",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When this situation appeared for the {count}th time; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:90af939427e377da35d108a06cb1a4406bd0a909a36d2162f2eb8caafb6616d1"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.011",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After experiencing this {count} times; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:d57b825370f634b357b6694c1fec323de70f5684d9e067a95581f5e3fb3c5ddf"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.recur-many.012",
+      "poolId": "chronicle.connective.lead.recur-many",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "That day brought the {count}th entry in the record; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:32179d11dff6ae8c2feb4ce485634962d2e9df17d7630492f78b11301c5198a1"
+      "requiredSlots": [
+        "count"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.001",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After that argument, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.002",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Once both sides had calmed down,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.003",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While the awkwardness left by the argument still lingered,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.004",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Remembering the harsh words from last time,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.005",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the conflict had passed,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-apology.006",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "To keep the dispute from becoming a lasting grievance,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.007",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After that argument; during their days inside the asteroid, ",
-      "sourceHash": "sha256:c3cf861fb553a92e4cd5556d44fa21937595090bc2e0a5d995a5aa33b2fab28d"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.008",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Once both sides had calmed down; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:8b83b23d6f173e3ff8684903a1b9e9cf0a13003c7ba0ab3419a4cbfe0d51cbdc"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.009",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "While the awkwardness left by the argument still lingered; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:ac88c9cd9f45744cf5c2b229936d6bbc7a802a4f16604904183c1a0d3e1be7a9"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.010",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Remembering the harsh words from last time; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:4c7f69986c979e058d8f7c425902f3a7e3e905ba35c7cc6cb25141a4f55bbcc2"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.011",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After the conflict had passed; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:872499ca34cdaaf8d07fe92b2ba3d32e921197da4bab02e9c9bec73f7df40b10"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-apology.012",
+      "poolId": "chronicle.connective.lead.seq-apology",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "To keep the dispute from becoming a lasting grievance; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:8f8d0aacbab274aef80dd02579080f2c0af83c460b13bf2f0314bc8b1f2bfc66"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.001",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "That quarrel could not be contained, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.002",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As voices grew harsher,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.003",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "With neither side willing to step back,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.004",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As the dispute crossed beyond words,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.005",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When emotion finally overwhelmed reason,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-brawl.006",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the last trace of restraint disappeared,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.007",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "That quarrel could not be contained; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:57f11150550a1ba0b6c8ad3a18a6bc112047dd09150380270ad92302bd7847f7"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.008",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As voices grew harsher; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:2d0bdc06c76bed0b891cc1af2daed09b469be6519cf0305b7c9dbfe6bd8142cb"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.009",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "With neither side willing to step back; after the warning lights settled again, ",
-      "sourceHash": "sha256:812960820147d38d5f0864a0071f5ba951837cded90a3c5694a0d9ec5c7c997c"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.010",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As the dispute crossed beyond words; during their days inside the asteroid, ",
-      "sourceHash": "sha256:f7628413d54c78744f773dfa12ea8a03274a4c54e87526abd6dcf9eb36c77d0c"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.011",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When emotion finally overwhelmed reason; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:176db5b0101d5723ec74e07105e9fb8029d468cf91ee62a11533e10bb738991a"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-brawl.012",
+      "poolId": "chronicle.connective.lead.seq-brawl",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After the last trace of restraint disappeared; during their days inside the asteroid, ",
-      "sourceHash": "sha256:22e1c82ecb03616462f33cd1ced3c5d313e7bd725c34c730c3db683aecae79bb"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.001",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The rift never healed, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.002",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When long-accumulated disappointment finally reached its limit,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.003",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After attempts to repair the relationship still led nowhere,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.004",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Once both realized there was no returning to how things were,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.005",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As the rift continued to widen,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-breakup.006",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the final attempt to save things failed,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.007",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The rift never healed; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:b3a9d7f15b6e042904aca3b3d5fab8960ad94ae0e368654a96c394a4fce2136b"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.008",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When long-accumulated disappointment finally reached its limit; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:20eecd58fedb335db123a361dacb3c0f85729b3d1b86fde450d6a28dba22d2c0"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.009",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After attempts to repair the relationship still led nowhere; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:2d3833e36f112dc26c1296ba61591f3c915c60c059fde71c9fc19b5da0978f2f"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.010",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Once both realized there was no returning to how things were; during their days inside the asteroid, ",
-      "sourceHash": "sha256:76663d86882636c07919efbf2d509d9e956c461c9b443906ec7faaef0db54235"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.011",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As the rift continued to widen; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:eb4c2bc827dccbafe61f89200e2edf72375c0cc042ca36975277b33be9938122"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-breakup.012",
+      "poolId": "chronicle.connective.lead.seq-breakup",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After the final attempt to save things failed; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:76a6444ec584d81501e009805fbd4496a85d5c3cdaa5ab759937636ba3ee62cd"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.001",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After witnessing that breakdown, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.002",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "With the sight of that breakdown still impossible to forget,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.003",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After making sure the breakdown had passed,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.004",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When that person most needed company,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.005",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As shock gradually turned into concern,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-comfort.006",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "So that the pain would not have to be carried alone,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.007",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After witnessing that breakdown; after the warning lights settled again, ",
-      "sourceHash": "sha256:6cdf49622d93e6e06f04a775c53630319cf70b10c31696470425a68c68e0330b"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.008",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "With the sight of that breakdown still impossible to forget; after the warning lights settled again, ",
-      "sourceHash": "sha256:b3d7c33573ac56c392844aadad5d85cc0baa356e46cc2a407abf6648c8ea95b4"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.009",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After making sure the breakdown had passed; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:df1874956669fa5385269a8b82e07a98a336e94e86388898f4b6d27764a870ab"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.010",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When that person most needed company; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:796392e543d9f779734f5ad52705f4f6fef0bdb23998d7cf7e9477187853055e"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.011",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As shock gradually turned into concern; after the warning lights settled again, ",
-      "sourceHash": "sha256:08d9242129b298fc632d186dba6efca039ac0c054461c53819fbea80ee5b40c3"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-comfort.012",
+      "poolId": "chronicle.connective.lead.seq-comfort",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "So that the pain would not have to be carried alone; as the next shift began, ",
-      "sourceHash": "sha256:5c32b6c7ae719e929fa695a9afa833eddfdb771b7302be3de4dae709c7868e43"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.001",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The last rejection did not stop {actor}, ",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.002",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} received no answer last time,",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.003",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor:possessive} failed attempt,",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.004",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The rejection left {actor} quiet for a while, but eventually,",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.005",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {actor} stopped treating the first setback as the end,",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-confession-after-fail.006",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} reconsidered what was said last time,",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.007",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The last rejection did not stop {actor}; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:d3c85b531791a8395d9e8a22d37b9f26bce75523088008e300a09ed5d49122e8"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.008",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After {actor} received no answer last time; under the Printing Pod's warm glow, ",
-      "sourceHash": "sha256:5d9481b14b9358e6c0430f73bcceabbf1863903b5becc103b4c7fb43d5e9ad1c"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.009",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After {actor:possessive} failed attempt; as the next shift began, ",
-      "sourceHash": "sha256:dd168fb915c0ecebbb286037c5b80b74989e7c599436911cf1d55517aa25459e"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.010",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The rejection left {actor} quiet for a while, but eventually; as the next shift began, ",
-      "sourceHash": "sha256:6a1c76423c34848f8d0ade6553a3a7aba664313fa1453d054bf086106372a0fd"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.011",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When {actor} stopped treating the first setback as the end; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:cb42636b56fb6a6c5977f17162e6adbd522b090525fc24825b6182fd6286e8f0"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-confession-after-fail.012",
+      "poolId": "chronicle.connective.lead.seq-confession-after-fail",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After {actor} reconsidered what was said last time; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:ecc039a45f3ee5ae07e62f8a4d355932e7d1ab2ec78ffebf6f5af0c7a45555a9"
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.001",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After all these days of silence, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.002",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When silence became harder to bear than the argument,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.003",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Once the first anger had slowly receded,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.004",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After time apart allowed both sides to reconsider,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.005",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "To end the long period of distance,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-reconcile.006",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When both were finally willing to speak again,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.007",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After all these days of silence; as the next shift began, ",
-      "sourceHash": "sha256:a584371284de016ed96a5b7d4387795e9073025ae20563c8995056d46f1c5853"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.008",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When silence became harder to bear than the argument; after the warning lights settled again, ",
-      "sourceHash": "sha256:7ae5034b134f4d0ce5fbe0d3627f183068a7fe29e7ba140f15dfcf544cdc8d62"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.009",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Once the first anger had slowly receded; during their days inside the asteroid, ",
-      "sourceHash": "sha256:e170d2891d2ddfebd2a373ed59c6bef0c83c8b6c0daf9d8d878f0fe7e5cb4256"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.010",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After time apart allowed both sides to reconsider; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:32b34d9b46f07a2098f1402ef5ee8cdb49803164a8e5db389c5022acfefa0ff3"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.011",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "To end the long period of distance; during their days inside the asteroid, ",
-      "sourceHash": "sha256:e42fe6631b0b62b2b9c08c37a65e937eae86d0ff432da8ad6e90c757a9adf3f3"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-reconcile.012",
+      "poolId": "chronicle.connective.lead.seq-reconcile",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When both were finally willing to speak again; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:bdbf7cdc29e2fb1fc2132f9bedf04914574d5e4c2b72ff90806796b38bf10357"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.001",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the time apart, they still could not let each other go, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.002",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Time apart had not diminished the old feelings,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.003",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When they faced each other again, the familiar attachment returned,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.004",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the relationship ended, neither could truly let go,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.005",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After a long detour, they still returned to each other,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rekindle.006",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When the old understanding emerged again,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.007",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After the time apart, they still could not let each other go; as the next shift began, ",
-      "sourceHash": "sha256:35b5299193a26e8b4626847bcafca4ca4b120e9865b40eb4e5f1565a9d36bce2"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.008",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Time apart had not diminished the old feelings; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:18ee03f1bb251f386bcb490f711822409249bce10706ef3299bc5763659b82fc"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.009",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When they faced each other again, the familiar attachment returned; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:045f7203707e5538fe00158f06aee73f8c486cf4021674e46d9180ea3235f458"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.010",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After the relationship ended, neither could truly let go; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:40a693aaa6049775b044b7b31cf315e6e6e407ac0b3e67411392597f40f8b502"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.011",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "After a long detour, they still returned to each other; while oxygen kept moving through the pipes, ",
-      "sourceHash": "sha256:4888df05ed88e3b51fb7b1b283cb64f9f53b5f6235a97ad8a0913078e27114e7"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rekindle.012",
+      "poolId": "chronicle.connective.lead.seq-rekindle",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When the old understanding emerged again; after the warning lights settled again, ",
-      "sourceHash": "sha256:56266ba010bdc1852c7f24f5b5a91ced4b28455b08ce1f99cf87e00ac5a03e83"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.001",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Resentment had been building for a long time, ",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.002",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Repeated conflicts kept pushing the two farther apart,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.003",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As competition gradually turned into hostility,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.004",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "With neither willing to end the contest,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.005",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As earlier conflicts remained unresolved,",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.lead.seq-rival.006",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When mutual resentment finally became open opposition,",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.007",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Resentment had been building for a long time; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:f4ecce299d9802acfc0022f5865bc8dedb5e1cda9939a5bd244bcb25c2f51748"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.008",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Repeated conflicts kept pushing the two farther apart; during their days inside the asteroid, ",
-      "sourceHash": "sha256:d1b47e61e8852a933cdb0ff4d7e291d2e99aae3e2bf95f9e928e9ab5667d3348"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.009",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As competition gradually turned into hostility; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:6c33df2c28aa21ad3a14cf0f42a414d8b1c996a63cdc4f162a623aa5dbf6f2b7"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.010",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "With neither willing to end the contest; amid the steady hum of machinery, ",
-      "sourceHash": "sha256:43f5e822692440c82bf86db9c128b0552b2e8838314b9eabe50052503ccb67e1"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.011",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "As earlier conflicts remained unresolved; after the warning lights settled again, ",
-      "sourceHash": "sha256:82e76a9b92133eca025427dc6770bb9aa95a82d18e2c5ce49ca4f7ed90512b78"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.lead.seq-rival.012",
+      "poolId": "chronicle.connective.lead.seq-rival",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "When mutual resentment finally became open opposition; after the warning lights settled again, ",
-      "sourceHash": "sha256:99ffa6582672507075179bf41ed6b69a21bfc963555410a237f87b04dbabcdeb"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.001",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} kept finding each other to talk that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.002",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked several times that day and found a new subject every time.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.003",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} repeatedly found each other, filling the day with bits of conversation.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.004",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Every time {a} and {b} met that day, they stopped to talk and got along especially well.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.005",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} always had something to say that day, with one brief meeting following another.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-1.006",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "From work through rest, {a} and {b} kept their conversation going throughout the day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.007",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} kept finding each other to talk that day. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:e1c8aa7faf4239400d908e0b1cf30e8cfd98f6cf9f2dcd750e80d81cca31267c"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.008",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} talked several times that day and found a new subject every time. as the next shift began",
-      "sourceHash": "sha256:64f20221d3817462588b3b251b35cc9289f0a0a7575773e4e60d2afb7c2f7fd9"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.009",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} repeatedly found each other, filling the day with bits of conversation. during their days inside the asteroid",
-      "sourceHash": "sha256:5904e96418b401a045ad637175628cdc4f1cabbb62ac14cba44f01108f2076c8"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.010",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Every time {a} and {b} met that day, they stopped to talk and got along especially well. after the warning lights settled again",
-      "sourceHash": "sha256:e6fbabfb32868172fb6ff9d69a60947f7a891d8fd1636c014b325a27f9e5f7ac"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.011",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} always had something to say that day, with one brief meeting following another. during their days inside the asteroid",
-      "sourceHash": "sha256:dea1bf6e0cfb37837f6ca1afca9c444a04e605cddc602d0dc2cf73b3dcd88a42"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-1.012",
+      "poolId": "chronicle.connective.merge.merge-chat-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "From work through rest, {a} and {b} kept their conversation going throughout the day. amid the steady hum of machinery",
-      "sourceHash": "sha256:9d047b980038e37f559976364fb3921a63a42516784a7f22597c1d3a7af287f7"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.001",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had no end of things to say that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.002",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "One subject followed another for {a} and {b}, leaving scarcely a quiet moment that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.003",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} moved from daily matters to personal concerns and talked longer than either noticed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.004",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "That day, {a} and {b} seemed to say everything they had been saving up.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.005",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Starting from one small subject, {a} and {b} talked until they forgot it was time to rest.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-chat-2.006",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} spent the day absorbed in conversation and barely noticed the noise around them.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.007",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} had no end of things to say that day. as the next shift began",
-      "sourceHash": "sha256:5018c4a9459316da9e7f83ff9759ffcee8c2d82a5979214d73b66c5f42e31106"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.008",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "One subject followed another for {a} and {b}, leaving scarcely a quiet moment that day. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:4b9dabd2718ef07d3f1dcbcf6611600d792cace15c179a94f41e3609e0b3b2d2"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.009",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} moved from daily matters to personal concerns and talked longer than either noticed. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:be2115b3e3b9945c7693cc3bf3e94081f3243cd55a3ba7a7945e6327093f57df"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.010",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "That day, {a} and {b} seemed to say everything they had been saving up. amid the steady hum of machinery",
-      "sourceHash": "sha256:9a04c488a1b3f1f48f7ebc693d57db3da0b54348e35dde8f2cad20ee32aed2e5"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.011",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Starting from one small subject, {a} and {b} talked until they forgot it was time to rest. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:9a3205c2c66fa9d927f24426dad57fa98709936f41589e139a454cd93ca0a365"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-chat-2.012",
+      "poolId": "chronicle.connective.merge.merge-chat-2",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} spent the day absorbed in conversation and barely noticed the noise around them. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:ad6017b479fe9c1b71467501917ccc5df7dbb51ae530e39944522611da9764b3"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.001",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} kept crossing paths that day, and grew familiar.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.002",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} crossed paths several times that day, and each greeting felt more natural than the last.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.003",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Repeated encounters through the day helped {a} and {b} learn each other's habits.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.004",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} greeted each other whenever they passed, and the unfamiliarity quickly faded.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.005",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Several chance meetings that day made {a} and {b} more familiar than simple nodding acquaintances.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-greet-1.006",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} kept meeting around the colony, and their exchanged greetings brought them closer.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.007",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} kept crossing paths that day, and grew familiar. during their days inside the asteroid",
-      "sourceHash": "sha256:74ed6e9ccd7a105545c922ad8770b0dd20697da5578993f6deb86bf450b9dde5"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.008",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} crossed paths several times that day, and each greeting felt more natural than the last. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:6ee31a04cbfdcfdbaf6314014cbcac743e440936306892cbe64fa55bf411ef68"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.009",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Repeated encounters through the day helped {a} and {b} learn each other's habits. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:6f9c38b1dc6dcffab948c5664ddd4e4b926a7ab9a9bdf985e7575f00bc27d035"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.010",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} greeted each other whenever they passed, and the unfamiliarity quickly faded. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:f1cb896e65263c545eefd57461f6e30d4489564ba70204a1d2de903ac8158044"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.011",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Several chance meetings that day made {a} and {b} more familiar than simple nodding acquaintances. after the warning lights settled again",
-      "sourceHash": "sha256:1ba4df0f13eb5739307e39a08cb146b17f1326624dee77afc2033c90ec886aaa"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-greet-1.012",
+      "poolId": "chronicle.connective.merge.merge-greet-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} kept meeting around the colony, and their exchanged greetings brought them closer. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:a22159583bcf7ab425f2004279f9af1b46a73260a695afe73286e31d20d9841e"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.001",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} shared several meals that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.002",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} shared a table more than once that day and gradually fell into an easy rhythm.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.003",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "From the first meal to the last, {a} and {b} kept sitting together that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.004",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} met over several meals and naturally shared what had happened during the day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.005",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "At mealtimes that day, {a} and {b} could usually be found at the same table.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-meal-1.006",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} continued talking through meal after meal, making the relationship feel more natural.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.007",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} shared several meals that day. after the warning lights settled again",
-      "sourceHash": "sha256:d420fe050d1980af9adaa7f7a693e2d75020cee77a976324d91643454dc56d8d"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.008",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} shared a table more than once that day and gradually fell into an easy rhythm. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:28b90571fd046acc2b9c1e7ce0274c74489e28985d0b560946c6e8a5b9d791fd"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.009",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "From the first meal to the last, {a} and {b} kept sitting together that day. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:2419a79e97a49a1b2124ea2b3f72db83e30ee7606c0553dde32f87b528f199e0"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.010",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} met over several meals and naturally shared what had happened during the day. amid the steady hum of machinery",
-      "sourceHash": "sha256:800949111164abe656e9762798aa35b95a3b47853a0111fad82b51871c0fb56d"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.011",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "At mealtimes that day, {a} and {b} could usually be found at the same table. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:be9d526716033add267acd7d394c58e6dbb4b3e60388270ec95b67f178a6b5cf"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-meal-1.012",
+      "poolId": "chronicle.connective.merge.merge-meal-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} continued talking through meal after meal, making the relationship feel more natural. during their days inside the asteroid",
-      "sourceHash": "sha256:7c7d3e41f5251d25dce01bd39f229d657fa2c7d70402118d9d671eefa6ab50ae"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.001",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} spent every spare moment together that day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.002",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} spent several breaks together that day and thoroughly enjoyed themselves.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.003",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Whenever there was a spare moment, {a} and {b} found each other and made their own fun.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.004",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} moved from one pastime to another, making the day's rest especially lively.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.005",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "During the day's free time, {a} and {b} kept appearing together, with laughter never far away.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.merge.merge-socialize-1.006",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} turned several short breaks into time for games together.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.007",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} spent every spare moment together that day. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:bee44700d361db7eb5d873b6228f38d69202890fc225fcadab0af5c40b71e185"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.008",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} spent several breaks together that day and thoroughly enjoyed themselves. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:9951e60c7f82ebf25836a327c7a073f80072a3a790fa8e55f8c83cd26dfc383c"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.009",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Whenever there was a spare moment, {a} and {b} found each other and made their own fun. during their days inside the asteroid",
-      "sourceHash": "sha256:08a04fda9455ec10884ab344bff380269f398ab752827fa59e52f9feb6e84e53"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.010",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} moved from one pastime to another, making the day's rest especially lively. amid the steady hum of machinery",
-      "sourceHash": "sha256:3ba794c5cd051e3a0f94288a51d1f778419d6bcc820f1b339aaae39f54131175"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.011",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "During the day's free time, {a} and {b} kept appearing together, with laughter never far away. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:74d8d931d32172ef63db731fbc6bf839484eb78b94f16502ad4c578cae3fc1d5"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.merge.merge-socialize-1.012",
+      "poolId": "chronicle.connective.merge.merge-socialize-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "{a} and {b} turned several short breaks into time for games together. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:83729e56746926c98b4200e60f6765fe4e3e8e2f2381c0e8fa8d7133a7643085"
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.001",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": " The air in the colony hung heavy for days.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.002",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "For the next few days, everyone spoke more quietly than usual.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.003",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The weight left by the event did not lift for a long time.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.004",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The colony briefly lost its usual liveliness, and even rest periods stayed quiet.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.005",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Everyone tried not to mention the event again, but the mood remained oppressive.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-1.006",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Even ordinary work was affected, with unease lingering all around.",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.007",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": " The air in the colony hung heavy for days. during their days inside the asteroid",
-      "sourceHash": "sha256:abe191510a0a1a682ea797864f03dfe129521e82f5e2e116388eb1cfe2c942a8"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.008",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "For the next few days, everyone spoke more quietly than usual. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:72218f06a0c69439e5379f337db2965cc2932bf31cf8d82ccfe3479029791ae8"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.009",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The weight left by the event did not lift for a long time. after the warning lights settled again",
-      "sourceHash": "sha256:abe07c82740b42f5e23dee2466c4925df655e5530fa7f3b355323b1b27099dc5"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.010",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The colony briefly lost its usual liveliness, and even rest periods stayed quiet. after the warning lights settled again",
-      "sourceHash": "sha256:72e936c11a150efdd802806e1308dda451a26cc1728420948113946f26e513e9"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.011",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Everyone tried not to mention the event again, but the mood remained oppressive. during their days inside the asteroid",
-      "sourceHash": "sha256:c2e18e853096e97d16e1c49c41d819534ae44def868634af16106c50b61d97b7"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-1.012",
+      "poolId": "chronicle.connective.tail.react-bad-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Even ordinary work was affected, with unease lingering all around. after the warning lights settled again",
-      "sourceHash": "sha256:69015287328a884454f18e058433dd8525f2c0f302a1eb47d6754e657e40e576"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.001",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": " Everyone saw it, and no one felt good about it.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.002",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Those who witnessed it became much quieter and did not know what to say.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.003",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The event left an uncomfortable place in everyone's thoughts.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.004",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "No one wanted to turn it into gossip, and silence became the shared response.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.005",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Those who were present still recalled the scene afterward, and their mood fell with it.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-bad-2.006",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Although everyone returned to work, they all carried the same heaviness.",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.007",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": " Everyone saw it, and no one felt good about it. after the warning lights settled again",
-      "sourceHash": "sha256:a5333a07896fc64c7dbc222b4fd53e3759ea86a8ed02b21b794c589cac4cb564"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.008",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Those who witnessed it became much quieter and did not know what to say. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:89756f7a7030de3ec369dfa3b8e4026f3c54b161f12bb2d2edaee90c2ee65607"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.009",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The event left an uncomfortable place in everyone's thoughts. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:4879a0b58cd24302331db6e6c08d7ec93876665cc4fe40eb6f74d00022ea635f"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.010",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "No one wanted to turn it into gossip, and silence became the shared response. during their days inside the asteroid",
-      "sourceHash": "sha256:12585402d80c61d6c1771bf038af6a8003b36288a94eb1ca01769c765c1d7709"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.011",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Those who were present still recalled the scene afterward, and their mood fell with it. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:1917a2a3b6a17d87fc7e15fad8a670e0f6d45777fe24c640f74ff2ffe02fbd60"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-bad-2.012",
+      "poolId": "chronicle.connective.tail.react-bad-2",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Although everyone returned to work, they all carried the same heaviness. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:bb7dc9a03ff3207954a36975f23e60a84f501f7938df1cf0c199058630b58e90"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.001",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": " Word spread quickly; everyone was talking about them.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.002",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The good news took little time to spread throughout the colony.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.003",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Everyone who heard about it wanted to ask more, and the conversation quickly grew lively.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.004",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "From workplaces to dining tables, people mentioned the event with smiles.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.005",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The event became everyone's newest shared subject, with fresh details each time it came up.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-1.006",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Once the news spread, even those who were absent learned what had happened.",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.007",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": " Word spread quickly; everyone was talking about them. during their days inside the asteroid",
-      "sourceHash": "sha256:a12b2b28f758b9d91a49284538b73b8338c3bbcc0627de7b8f7f5194c9d96219"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.008",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The good news took little time to spread throughout the colony. during their days inside the asteroid",
-      "sourceHash": "sha256:ae713b04e92fbae895e5d513a6e3e543b1dbadbecea42e13c4e749ce5d39c22a"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.009",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Everyone who heard about it wanted to ask more, and the conversation quickly grew lively. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:9186fb20890218d055ac6374043eb68660c7f6d1e3ee5261a5542039d1971f1b"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.010",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "From workplaces to dining tables, people mentioned the event with smiles. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:51a10ae31882a47356d360754a327f9fa228a993d847b7e60580dc0bc3807a94"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.011",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The event became everyone's newest shared subject, with fresh details each time it came up. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:0236ae9822508d979b9282470021032ee5b69d4c99f40f19a7827dcc7909e7ed"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-1.012",
+      "poolId": "chronicle.connective.tail.react-good-1",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Once the news spread, even those who were absent learned what had happened. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:7714cce7f461da8b375e35134d2a973fe5d346333cdaad54f61f5884f1b3efe9"
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.001",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": " The whole colony was happy for them.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.002",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Good wishes arrived again and again, making the happiness feel more real.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.003",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The outcome brought a rare spell of easy laughter to the colony.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.004",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Everyone who heard the news offered sincere congratulations, and the happiness quickly spread.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.005",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The good event made everyday life in the colony feel a little brighter.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.connective.tail.react-good-2.006",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Everyone made time to share the happiness, and the mood stayed warm for a long while.",
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.007",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 7,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": " The whole colony was happy for them. as the next shift began",
-      "sourceHash": "sha256:6e78bf61524002831aa21b6ff7faf4d5ddae33e32a22a39b4a2896c3dec006ac"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.008",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 8,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Good wishes arrived again and again, making the happiness feel more real. after the warning lights settled again",
-      "sourceHash": "sha256:ad1bb059923c8bba93546152899aee4cdfba4bbd667ff5012b78422794bcbbf2"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.009",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 9,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The outcome brought a rare spell of easy laughter to the colony. while oxygen kept moving through the pipes",
-      "sourceHash": "sha256:1ab26b3e12facbf543d893c1654ee91d880c10f953f272d694dcf9087e7bbd54"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.010",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 10,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Everyone who heard the news offered sincere congratulations, and the happiness quickly spread. under the Printing Pod's warm glow",
-      "sourceHash": "sha256:efd17a5af44de204549c0ae111fc03e3940cadabe53a9e2a72b7d06f243a153e"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.011",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 11,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "The good event made everyday life in the colony feel a little brighter. after the warning lights settled again",
-      "sourceHash": "sha256:2baa8ddef176907a7bdb806d29599c3bf41c0043b07e9bee3dd9b93f81f79e76"
+      "requiredSlots": [],
+      "deprecated": false
     },
     {
       "templateId": "chronicle.connective.tail.react-good-2.012",
+      "poolId": "chronicle.connective.tail.react-good-2",
+      "ordinal": 12,
+      "contractRevision": 1,
       "status": "reviewed",
       "text": "Everyone made time to share the happiness, and the mood stayed warm for a long while. as the next shift began",
-      "sourceHash": "sha256:b982986757513bb6f0ab309dc893f5a14d5602e5501e4bd57a7cb590146a4ca0"
+      "requiredSlots": [],
+      "deprecated": false
     }
   ]
 }

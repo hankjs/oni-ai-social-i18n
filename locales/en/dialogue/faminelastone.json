@@ -4,13 +4,17 @@
   "candidates": [
     {
       "candidateId": "storylet.faminelastone.base.001",
+      "storyletId": "FamineLastOne",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "One left. The base is very quiet now, and there is plenty to eat.",
-          "sourceHash": "sha256:0f054ba259fcb3fee094c8e7a808ae9defced22e5cdc1c1ede673f8b5383e794"
+          "text": "One left. The base is very quiet now, and there is plenty to eat."
         }
       ]
     }

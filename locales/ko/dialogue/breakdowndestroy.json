@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "breakdowndestroy",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그건 어제 내가 고친 기계야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 잘 고쳤네, 오래 울리잖아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "멈춰, 그건 산소 기계야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……어느 쪽."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네가 부수는 건 우리 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "여기 뭐가 내 건데?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "다 쳤어?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "아니. 근데 손이 아파."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "벽이 너보다 단단해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "벽은 날 한 번도 실망시킨 적 없어."
+        }
+      ]
+    }
+  ]
+}

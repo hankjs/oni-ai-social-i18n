@@ -1,35 +1,32 @@
 # Contributing to oni-ai-social-i18n
 
-This repository is the **only edit source** for player-visible UI strings and
-storylet/fallback dialogue for ONI Social Life. Git is the only persistence.
+Git is the only persistence for player-visible content. Schema v2 separates language-neutral
+contracts from locale-owned writing.
 
-## Locales
+## What to edit
 
-- Source locale is `zh`. Do not rename or delete keys.
-- Published locales (`manifest.json` `publishedLocales`) must be complete:
-  no missing, draft, or stale entries.
-- Translation token sets (`{0}`, `{actor}`, …) must match the source.
-- Dialogue translations align by `candidateId` + `turnId`, never by array index.
-  Candidate / turn / speaker-slot structure must match source.
+- Change `contracts/` only when gameplay meaning, slots, arguments, quality thresholds or a
+  contract revision changes.
+- Add visible copy under `locales/<locale>/`. A locale may have candidates/templates that no
+  other locale has, with different IDs, counts, turns, weights and slot choices.
+- Add optional provenance in `links/` with `translationOf`, `adaptationOf` or `inspiredBy`.
+- Never add placeholders for missing translations and never hand-edit `dist/`.
+
+UI/Prompt entries use their global key/ID and current `contractRevision`. Dialogue candidate
+identity is `(locale,candidateId)`; Chronicle identity is `(locale,templateId)`. Within a locale,
+IDs and ordinals are permanent. Retire a published Chronicle template with `deprecated: true`
+and preserve the locale stability high-water mark.
 
 ## Workflow
 
-1. Branch from `main` as `i18n/<locale>/<yyyyMMdd>-<slug>` or `source/<yyyyMMdd>-<slug>`.
-2. Edit `catalog/` (Chinese source) or `locales/<locale>/` (translations).
-   Do not hand-edit `dist/`.
-3. Run `python3 tools/export.py` and `python3 tools/validate.py`.
-4. Commit source JSON **and** regenerated `dist/` together.
-5. Open a pull request. `main` only accepts PRs.
-6. During development, `manifest.json` `contentVersion` follows the Mod's tracked development
-   version. Repeated commits may reuse that version and do not create tags or claim it is online.
-7. Only when the maintainer explicitly starts a release do they tag the reviewed `main` commit as
-   `i18n-vX.Y.Z`. The suffix must equal the manifest and tags are immutable.
+1. Branch from `main` as `i18n/<locale>/<yyyyMMdd>-<slug>` or
+   `contract/<yyyyMMdd>-<slug>`.
+2. Edit contracts or locale files.
+3. Run `python3 tools/validate.py` and `python3 tools/export.py`.
+4. Run `make check`; commit authoring and regenerated `dist/` together.
+5. Open a pull request. Missing cross-language counterparts are valid; structural, placeholder,
+   stability and locale quality failures are not.
+6. Only an explicit coordinated release creates the immutable `i18n-vX.Y.Z` tag.
 
-Fork/PR from GitHub remains a valid contribution path. The web editor (Phase 2)
-does not replace this workflow.
-
-## What not to change here
-
-Gameplay rules, probabilities, speaker selection, trait-tag matching, and LLM
-output protocols stay in the private Mod repository. Prompt locked-token
-migration is Phase 4 and is not open as a pure translation change.
+Gameplay rules and numeric effects remain in the private Mod repository. Locale selection
+criteria choose writing only and never modify SocialCore state or consume its RNG.

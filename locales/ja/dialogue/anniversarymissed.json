@@ -1,0 +1,74 @@
+{
+  "locale": "ja",
+  "family": "anniversarymissed",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日……私たちの日だった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "分かってる。採掘班のシフトで、誰も切り出せなかった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食堂の明かりが消えるまで待って、それから帰った。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……ごめん。坑道が崩れて、出られなかった。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "無事ならそれでいい。その日は、来年埋め合わせよう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "蜜漬けを二日取っといたけど、結局自分で食べた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……次の記念日は、シフト表を破ってでも戻る。"
+        }
+      ]
+    }
+  ]
+}

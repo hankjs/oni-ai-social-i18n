@@ -1,0 +1,17 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["family", "pools"],
+  "properties": {
+    "family": { "type": "string", "minLength": 1 },
+    "pools": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["poolId", "family", "angle", "participantMode", "allowedSlots", "requiredForStable", "minimumStable", "contractRevision"],
+      "properties": {
+        "poolId": { "type": "string", "minLength": 1 }, "family": { "type": "string", "minLength": 1 },
+        "angle": { "type": "string", "minLength": 1 }, "participantMode": { "type": "string", "minLength": 1 },
+        "allowedSlots": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "requiredForStable": { "type": "boolean" }, "minimumStable": { "type": "integer", "minimum": 0 },
+        "contractRevision": { "type": "integer", "minimum": 1 }
+      }
+    }}
+  }
+}

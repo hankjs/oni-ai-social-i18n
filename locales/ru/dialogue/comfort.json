@@ -1,0 +1,132 @@
+{
+  "locale": "ru",
+  "family": "comfort",
+  "candidates": [
+    {
+      "candidateId": "storylet.comfort.base.001",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Можно не говорить. Я просто тут посижу."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Спасибо. Сегодня шум вентилятора уже не такой злой."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.002",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Твою смену я пока закрыл. Иди передохни."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Он тоже всегда так говорил… спасибо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.003",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Принёс две порции. Не хочешь говорить — просто ешь."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Пока жуёшь, вроде и думать не надо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.004",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Сегодня ночью я в соседнем мешке. Не спится — стукни в стену."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Угу. Может, и стукну."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.005",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Что он не доделал — мы разделили. Ты не торопись."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Спасибо. Просто… кто-то должен не спешить со мной."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.006",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Говорить не надо. Я тебя ловлю. С сегодня до завтра — ловлю."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Угу. Облокочусь ненадолго."
+        }
+      ]
+    }
+  ]
+}

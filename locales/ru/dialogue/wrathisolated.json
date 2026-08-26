@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathisolated",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathisolated.base.001",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Этот стол занят."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…За этим столом сидишь только ты."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.002",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Со мной не разговаривай. Сегодня не хочу невезения."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я тоже не хочу."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.003",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Табель изменили. Сам смотри."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Вижу. Всё ночные смены."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.004",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Иди в ту сторону."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Там стена."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.005",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Кто с ним в пару? …Ладно, значит никто."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я и один доделаю."
+        }
+      ]
+    }
+  ]
+}

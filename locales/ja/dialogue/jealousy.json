@@ -1,0 +1,121 @@
+{
+  "locale": "ja",
+  "family": "jealousy",
+  "candidates": [
+    {
+      "candidateId": "storylet.jealousy.base.001",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "さっき見たよ。ずいぶん楽しそうに話してたじゃない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "そういうんじゃない！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.002",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ふうん。私はシフト表にいて、心の中には別の人がいるわけ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "聞いてよ……"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.003",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "電線の直し方を教えるのに、そんなに近づく必要ある？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "標準の作業距離だよ！"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "わ、私は先に配管を見てくる……"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.004",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "シフト一日やって戻ったら、これか。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "ハッチを数えてただけだって！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.005",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "午後ずっとあの人と配管直して、私は空気扱い？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "ただ……ついでに手伝っただけ。"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "先に行くね先に行くね。"
+        }
+      ]
+    }
+  ]
+}

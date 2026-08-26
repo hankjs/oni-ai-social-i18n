@@ -4,61 +4,69 @@
   "candidates": [
     {
       "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "Yesterday... was our day.",
-          "sourceHash": "sha256:7aa392b58cde277e1fe4102266754273214f55a8d41f59c35bbb28943d6a7a19"
+          "text": "Yesterday... was our day."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "I know. Dig shift. Neither of us dared bring it up.",
-          "sourceHash": "sha256:39b55c860704233e1a6631bdf94c5211f030d0b90a99716fad277c6cc4e5d4c8"
+          "text": "I know. Dig shift. Neither of us dared bring it up."
         }
       ]
     },
     {
       "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I waited until the mess hall lights went out.",
-          "sourceHash": "sha256:ac24a8b3e538b2f269ddd2376cb8819e4c74740a74a08d5303003a6ae47a5cf4"
+          "text": "I waited until the mess hall lights went out."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...I'm sorry. The tunnel collapsed. I couldn't get back.",
-          "sourceHash": "sha256:c35dea4477755a320654144e8576c36c1c0872d48f94ca2e8ac328d5b9bde730"
+          "text": "...I'm sorry. The tunnel collapsed. I couldn't get back."
         },
         {
           "turnId": "c",
           "speakerSlot": 0,
-          "text": "You're safe. The date can wait a year.",
-          "sourceHash": "sha256:e4ad76bc2061c90ed0be0d15bd4b05eddf99901f9be64d87ca9827691b354d8d"
+          "text": "You're safe. The date can wait a year."
         }
       ]
     },
     {
       "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
       "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
       "turns": [
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "I kept the candied berry two days. Then I ate it alone.",
-          "sourceHash": "sha256:e75e47b2b44d595c3bf03b9a1aeafed4d8d4170bfbfa62c4423d40d849b795e9"
+          "text": "I kept the candied berry two days. Then I ate it alone."
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "...Next anniversary, I'll tear up the schedule itself.",
-          "sourceHash": "sha256:6a1b8db7ba91da5e85ad90cfe269d1fd3c94515fd205b7ca8948aab22903bc6d"
+          "text": "...Next anniversary, I'll tear up the schedule itself."
         }
       ]
     }

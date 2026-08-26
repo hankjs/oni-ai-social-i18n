@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathspeakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathspeakup.base.001",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我看了记录。那天他在基地另一头。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……你去看了记录？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.002",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "要怪就怪我，班是我排的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你不用替我这样。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.003",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我们缺的是修好的机器，不是一个能骂的人。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……谢谢。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.004",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我在这基地说话还算数吧？他没做错。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我以为已经没人记得我了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.005",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "下次谁还想找人背锅，先来找我。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……那你可要小心点。"
+        }
+      ]
+    }
+  ]
+}

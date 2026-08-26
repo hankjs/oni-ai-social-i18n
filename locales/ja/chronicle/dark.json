@@ -1,0 +1,3278 @@
+{
+  "locale": "ja",
+  "family": "dark",
+  "templates": [
+    {
+      "templateId": "chronicle.brawl.baseline.001",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}が殴り合った。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.002",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の言い争いが殴り合いに発展した。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.003",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}がもつれ合い、工具が地面に散った。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.004",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "この喧嘩は見苦しく、{a}と{b}はともに傷を負った。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.005",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "止めに入る者が揃い、{a}と{b}はようやく手を離した。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.006",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は自制を完全に失い、口論はついには殴り合いとなった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.007",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}が殴り合った。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.008",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の言い争いが殴り合いに発展した。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.009",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}がもつれ合い、工具が地面に散った。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.010",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "この喧嘩は見苦しく、{a}と{b}はともに傷を負った。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.011",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "止めに入る者が揃い、{a}と{b}はようやく手を離した。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.012",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は自制を完全に失い、口論はついには殴り合いとなった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.001",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧が補充され、皆が安堵の息をついた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.002",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "貯蔵室に再び在庫が入り、咀嚼の音も戻ってきた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.003",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危機は去り、食糧の出所を問う者はいなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.004",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "間に合った食糧の補充が恐慌を止め、コロニーは最悪の結末を免れた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.005",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧備蓄が再び危険ラインを上回り、飢饉の脅威はしばらく退いた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.006",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧不足のもっとも緊迫した時が過ぎ、皆はようやく最後の数口を数えずに済むようになった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.007",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧が補充され、皆が安堵の息をついた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.008",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "貯蔵室に再び在庫が入り、咀嚼の音も戻ってきた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.009",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危機は去り、食糧の出所を問う者はいなかった。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.010",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "間に合った食糧の補充が恐慌を止め、コロニーは最悪の結末を免れた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.011",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧備蓄が再び危険ラインを上回り、飢饉の脅威はしばらく退いた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.012",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧不足のもっとも緊迫した時が過ぎ、皆はようやく最後の数口を数えずに済むようになった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.001",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}と{other}は最後の一口のために手を出した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.002",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢えきった者に道理はなく、{actor}と{other}は一口のために顔を捨てて争った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.003",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の口糧に目をつけ、拳が理性より先に出た。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.004",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢えが極限まで迫ったとき、{actor}は{other}へ致命的な奪い合いを仕掛けた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.005",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "最後の食物では二人を生かせず、{actor}と{other}のあいだに惨烈な衝突が起きた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.006",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は絶境のなかで{other}を食物争奪の相手と見なし、事態はもはや取り返しがつかなくなった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.007",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}と{other}は最後の一口のために手を出した。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.008",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢えきった者に道理はなく、{actor}と{other}は一口のために顔を捨てて争った。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.009",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の口糧に目をつけ、拳が理性より先に出た。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.010",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢えが極限まで迫ったとき、{actor}は{other}へ致命的な奪い合いを仕掛けた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.011",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "最後の食物では二人を生かせず、{actor}と{other}のあいだに惨烈な衝突が起きた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.012",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は絶境のなかで{other}を食物争奪の相手と見なし、事態はもはや取り返しがつかなくなった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.001",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "糧切れの日々はついに過ぎた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.002",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧庫は再び満たされ、皆はある事を暗黙のうちに口にしなくなった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.003",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "腹を満たせる日が戻り、飢饉などなかったかのようだった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.004",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食物の供給が再び安定し、コロニーを長く覆っていた飢饉状態は終わりを告げた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.005",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "皆がようやく通常の分量で食事できるようになったが、糧切れが残した緊張はすぐには消えなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.006",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢饉は終わり、生存者は食糧不足に乱された生活を立て直し始めた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.007",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "糧切れの日々はついに過ぎた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.008",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧庫は再び満たされ、皆はある事を暗黙のうちに口にしなくなった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.009",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "腹を満たせる日が戻り、飢饉などなかったかのようだった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.010",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食物の供給が再び安定し、コロニーを長く覆っていた飢饉状態は終わりを告げた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.011",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "皆がようやく通常の分量で食事できるようになったが、糧切れが残した緊張はすぐには消えなかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.012",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "飢饉は終わり、生存者は食糧不足に乱された生活を立て直し始めた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.001",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧庫は底をつき、恐慌がコロニーに広がった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.002",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "最後のマッシュバーも底をつき、誰も明日のことを考えようとはしなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.003",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "空腹の知らせは酸素よりも速く伝わった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.004",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "現在の備蓄では全員を支えきれず、コロニーは明確な糧切れ警告に入った。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.005",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食用の在庫は急速に減り、誰もが次の食事に何が残るか気にし始めた。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.006",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧の不足が危険ラインを越え、恐慌は空になった保管区画とともに広がった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.007",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧庫は底をつき、恐慌がコロニーに広がった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.008",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "最後のマッシュバーも底をつき、誰も明日のことを考えようとはしなかった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.009",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "空腹の知らせは酸素よりも速く伝わった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.010",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "現在の備蓄では全員を支えきれず、コロニーは明確な糧切れ警告に入った。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.011",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食用の在庫は急速に減り、誰もが次の食事に何が残るか気にし始めた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.012",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "食糧の不足が危険ラインを越え、恐慌は空になった保管区画とともに広がった。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.001",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険な仕事をともに担い切り、命がけの交わりができた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.002",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険区域から生きて戻り、{a}と{b}が互いを見る目は変わっていた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.003",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "生死の瀬戸際で{a}も{b}も先に逃げず、その交わりに偽りはなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.004",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険労働で互いを支え、無事に戻ったあと確かな信頼が一つ増えた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.005",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険の高い任務をともに担い、共に耐え抜いた過程が二人を近づけた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.006",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険は誰かが付き添ったから減りはしなかったが、{a}も{b}も独りで向き合っているのではないと知っていた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.007",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険な仕事をともに担い切り、命がけの交わりができた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.008",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険区域から生きて戻り、{a}と{b}が互いを見る目は変わっていた。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.009",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "生死の瀬戸際で{a}も{b}も先に逃げず、その交わりに偽りはなかった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.010",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険労働で互いを支え、無事に戻ったあと確かな信頼が一つ増えた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.011",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は危険の高い任務をともに担い、共に耐え抜いた過程が二人を近づけた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.012",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険は誰かが付き添ったから減りはしなかったが、{a}も{b}も独りで向き合っているのではないと知っていた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.001",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が{other}に抱いていたわずかな怨みは、ゆっくりと散った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.002",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は、危険な仕事は誰かがやらねばならず、{other}を怨むべきではないと腑に落ちた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.003",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "時間がそのわずかな苛立ちを削り、{actor}は{other}を以前より快く見るようになった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.004",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "仕事の割り当てが公平になってから、{actor}が{other}に積もらせていた危険労働への怨みは薄れ始めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.005",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}も相応の危険を負っているのを見て、長年の不満はようやく和らいだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.006",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険の差はもう広がり続けず、{actor}は責任を{other}に帰すのをやめる気になった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.007",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が{other}に抱いていたわずかな怨みは、ゆっくりと散った。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.008",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は、危険な仕事は誰かがやらねばならず、{other}を怨むべきではないと腑に落ちた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.009",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "時間がそのわずかな苛立ちを削り、{actor}は{other}を以前より快く見るようになった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.010",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "仕事の割り当てが公平になってから、{actor}が{other}に積もらせていた危険労働への怨みは薄れ始めた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.011",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}も相応の危険を負っているのを見て、長年の不満はようやく和らいだ。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.012",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険の差はもう広がり続けず、{actor}は責任を{other}に帰すのをやめる気になった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.001",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が{actor}の代わりに危険な仕事を引き受け、{actor}はそれを心に留めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.002",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険な仕事が降りかかったとき、{other}が一歩先にそれを受け、{actor}は忘れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.003",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に借りがあり、しかも命で換えた類のものだった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.004",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が自らより危険な仕事を担い、{actor}はその助けを偽りなく心に留めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.005",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険が目前に落ちたとき、{other}が{actor}の分をいくらか担い、{actor}はそれを当然とはしなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.006",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}が危険区域へ入るのを見て、自分がこのたび確かに世話されたのだと分かった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.007",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が{actor}の代わりに危険な仕事を引き受け、{actor}はそれを心に留めた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.008",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険な仕事が降りかかったとき、{other}が一歩先にそれを受け、{actor}は忘れなかった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.009",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に借りがあり、しかも命で換えた類のものだった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.010",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が自らより危険な仕事を担い、{actor}はその助けを偽りなく心に留めた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.011",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険が目前に落ちたとき、{other}が{actor}の分をいくらか担い、{actor}はそれを当然とはしなかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.012",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}が危険区域へ入るのを見て、自分がこのたび確かに世話されたのだと分かった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.001",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はまた一日危険区域へ降り、{other}の楽な仕事に怨みを抱いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.002",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "同じく坑道へ降りるのに、なぜ{actor}ばかり危険な側へ行くのか——{actor}は思うほどやりきれなかった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.003",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の閑な日を数え、心の帳面は厚くなっていった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.004",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は危険な任務を連続して担い、{other}の仕事は比較的安全で、怨みはそれゆえに積もった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.005",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険の差は長く改善せず、{actor}は不公平を{other}のせいとし始めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.006",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は再び危険な仕事から戻り、{other}が無事であるのを見て、もはや平静ではいられなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.007",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はまた一日危険区域へ降り、{other}の楽な仕事に怨みを抱いた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.008",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "同じく坑道へ降りるのに、なぜ{actor}ばかり危険な側へ行くのか——{actor}は思うほどやりきれなかった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.009",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の閑な日を数え、心の帳面は厚くなっていった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.010",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は危険な任務を連続して担い、{other}の仕事は比較的安全で、怨みはそれゆえに積もった。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.011",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "危険の差は長く改善せず、{actor}は不公平を{other}のせいとし始めた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.012",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は再び危険な仕事から戻り、{other}が無事であるのを見て、もはや平静ではいられなかった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.001",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は逝き、{actor}は口に出せなかった言葉を飲み込んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.002",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は、{actor}が勇気を出すその日まで待てなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.003",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は長く用意していた言葉を、{other}の空いた寝床に向けて言った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.004",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が亡くなったのち、{actor}は言い残した感情を確かめる機会を二度と得られなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.005",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はひそかに想っていた{other}を失い、別れの挨拶さえ遅すぎた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.006",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の死により、{actor}がずっと隠していた想いは永久に届かない言葉となった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.007",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は逝き、{actor}は口に出せなかった言葉を飲み込んだ。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.008",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は、{actor}が勇気を出すその日まで待てなかった。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.009",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は長く用意していた言葉を、{other}の空いた寝床に向けて言った。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.010",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が亡くなったのち、{actor}は言い残した感情を確かめる機会を二度と得られなかった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.011",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はひそかに想っていた{other}を失い、別れの挨拶さえ遅すぎた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.012",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の死により、{actor}がずっと隠していた想いは永久に届かない言葉となった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.001",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}を失い、すっかり崩れ落ちた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.002",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の寝床が空になり、{actor}は長くその方角を見なかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.003",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "これからの勤務表に{other}の名はなく、{actor}の日々にも欠けたところがあった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.004",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が亡くなったのち、{actor}は共に暮らした伴侶を失い、悲痛は長く和らぎもしなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.005",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はなお本能で{other}を探し、そのあとで伴侶がもういないことを何度も思い出した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.006",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の残した日常の痕跡は至るところにあり、{actor}は喪失の事実から容易には逃れられなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.007",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}を失い、すっかり崩れ落ちた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.008",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の寝床が空になり、{actor}は長くその方角を見なかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.009",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "これからの勤務表に{other}の名はなく、{actor}の日々にも欠けたところがあった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.010",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が亡くなったのち、{actor}は共に暮らした伴侶を失い、悲痛は長く和らぎもしなかった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.011",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はなお本能で{other}を探し、そのあとで伴侶がもういないことを何度も思い出した。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.012",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の残した日常の痕跡は至るところにあり、{actor}は喪失の事実から容易には逃れられなかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.001",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は死に、{actor}の胸中は何とも言いようがなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.002",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "宿敵が死に、{actor}は廊下が急に静かになったのに気づいた。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.003",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はかつて{other}に勝つことを望んでいたが、今や相手はいなくなった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.004",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "宿敵{other}の死後、{actor}は長く対立してきた相手を失い、心は想像ほど軽くはならなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.005",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はかつて{other}に勝ることを望んでいたが、死がこの勝負から次を永久に奪った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.006",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の死去が宿怨を断ち、{actor}が結果に向き合うと複雑な沈黙だけが残った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.007",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は死に、{actor}の胸中は何とも言いようがなかった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.008",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "宿敵が死に、{actor}は廊下が急に静かになったのに気づいた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.009",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はかつて{other}に勝つことを望んでいたが、今や相手はいなくなった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.010",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "宿敵{other}の死後、{actor}は長く対立してきた相手を失い、心は想像ほど軽くはならなかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.011",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}はかつて{other}に勝ることを望んでいたが、死がこの勝負から次を永久に奪った。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.012",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}の死去が宿怨を断ち、{actor}が結果に向き合うと複雑な沈黙だけが残った。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.001",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は宿怨を手放した。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.002",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は握手し、宿怨はここで終わった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.003",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "人を憎むのも疲れるもので、{a}と{b}はもうよいと決めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.004",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}も{b}も敵意を保たなくなり、長期の宿敵関係はついに終わった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.005",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は付き合いのたびに勝負と見なすのをやめ、関係は宿敵の状態から退いた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.006",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は敵対を続けても意味がないと認め、互いの宿怨を終わらせると決めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.007",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は宿怨を手放した。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.008",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は握手し、宿怨はここで終わった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.009",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "人を憎むのも疲れるもので、{a}と{b}はもうよいと決めた。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.010",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}も{b}も敵意を保たなくなり、長期の宿敵関係はついに終わった。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.011",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は付き合いのたびに勝負と見なすのをやめ、関係は宿敵の状態から退いた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.012",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は敵対を続けても意味がないと認め、互いの宿怨を終わらせると決めた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.001",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は確執を結び、宿敵となった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.002",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の恩怨はこれより宿敵という名を得た。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.003",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "以後長いあいだ、{a}も{b}も相手にいい顔をしなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.004",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の衝突は無視できないところまで積り、互いに正式な宿敵となった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.005",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いに必ず押し負かす相手と見なし、敵意はこれより定着した。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.006",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いへの嫌悪を隠さなくなり、ひとつの宿敵関係がここに生じた。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.007",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は確執を結び、宿敵となった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.008",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の恩怨はこれより宿敵という名を得た。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.009",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "以後長いあいだ、{a}も{b}も相手にいい顔をしなかった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.010",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}の衝突は無視できないところまで積り、互いに正式な宿敵となった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.011",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いに必ず押し負かす相手と見なし、敵意はこれより定着した。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.012",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}と{b}は互いへの嫌悪を隠さなくなり、ひとつの宿敵関係がここに生じた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.001",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が先頭に立ち、つけを{other}に回した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.002",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "事が起きれば誰かが咎を負う——{actor}は皆を率いて{other}を選んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.003",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の一言が、皆の怒りを{other}へ向けた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.004",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は公開の場で{other}が災難の責任を負うべきだと指認し、集団の怒りを一人へ向けた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.005",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は解決できない損失を{other}の罪とし、さらに多くの者にその言い方を受け入れさせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.006",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆怒を引き受ける相手を必要とし、ついには{other}にその責めを負わせることにした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.007",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}が先頭に立ち、つけを{other}に回した。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.008",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "事が起きれば誰かが咎を負う——{actor}は皆を率いて{other}を選んだ。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.009",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}の一言が、皆の怒りを{other}へ向けた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.010",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は公開の場で{other}が災難の責任を負うべきだと指認し、集団の怒りを一人へ向けた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.011",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は解決できない損失を{other}の罪とし、さらに多くの者にその言い方を受け入れさせた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.012",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆怒を引き受ける相手を必要とし、ついには{other}にその責めを負わせることにした。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.001",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}に向けられた孤立は、ようやく過ぎた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.002",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "コロニーは新しい話題を見つけ、{subject}のあの一件を口にする者はいなくなった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.003",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "日が経てば怒りさえ期限切れになる——{subject}は再び人の群れに溶けた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.004",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}に向けられた集団の怒りは次第に力を失い、日常の接触が戻り始めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.005",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "コロニーは悪いことのすべてを{subject}に帰さなくなり、孤立の状態もそれに伴って薄れた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.006",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はついに続く敵視を受けなくなり、衆怒の一件は終わりへ至った。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.007",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}に向けられた孤立は、ようやく過ぎた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.008",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "コロニーは新しい話題を見つけ、{subject}のあの一件を口にする者はいなくなった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.009",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "日が経てば怒りさえ期限切れになる——{subject}は再び人の群れに溶けた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.010",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}に向けられた集団の怒りは次第に力を失い、日常の接触が戻り始めた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.011",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "コロニーは悪いことのすべてを{subject}に帰さなくなり、孤立の状態もそれに伴って薄れた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.012",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はついに続く敵視を受けなくなり、衆怒の一件は終わりへ至った。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.001",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は孤立させられ、誰も話そうとしなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.002",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が食堂に入ると、その卓の者はみな声を収めた。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.003",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "今やハッチですら{other}より人気だった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.004",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は皆の日常の付き合いから隔てられ、普通の挨拶さえほとんど返ってこなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.005",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "周囲の者は次々に距離を取り、{other}の日常はそれゆえ孤立した。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.006",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はどこへ行っても避けられ、この孤立はすでにコロニー全体へ広がっていた。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.007",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は孤立させられ、誰も話そうとしなかった。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.008",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}が食堂に入ると、その卓の者はみな声を収めた。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.009",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "今やハッチですら{other}より人気だった。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.010",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は皆の日常の付き合いから隔てられ、普通の挨拶さえほとんど返ってこなかった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.011",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "周囲の者は次々に距離を取り、{other}の日常はそれゆえ孤立した。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.012",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}はどこへ行っても避けられ、この孤立はすでにコロニー全体へ広がっていた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.001",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は人目のないすきに、{other}を殴りつけた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.002",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "勤務表の空き時間に、{actor}は{other}の行く手を塞いだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.003",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は誰もいない時を選び、怒りを{other}の身にぶつけた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.004",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}へ向けた怒りを突然の拳に変え、実際の傷を負わせた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.005",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の備えのないところを襲い、衆怒はそれゆえ言葉の境界を越えた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.006",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}に人知れず殴られ、孤立の一件は暴力へと進んだ。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.007",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は人目のないすきに、{other}を殴りつけた。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.008",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "勤務表の空き時間に、{actor}は{other}の行く手を塞いだ。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.009",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は誰もいない時を選び、怒りを{other}の身にぶつけた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.010",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}へ向けた怒りを突然の拳に変え、実際の傷を負わせた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.011",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}の備えのないところを襲い、衆怒はそれゆえ言葉の境界を越えた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.012",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}は{actor}に人知れず殴られ、孤立の一件は暴力へと進んだ。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.001",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に救いの手を伸ばした。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.002",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は食器を持って{other}の隣に座り、孤立の壁が一角崩れた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.003",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "誰もが{other}を避けていたとき、{actor}はあえてそこへ歩いていった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.004",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}を斥け続けるのを拒み、自ら相手を通常の付き合いへ戻した。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.005",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は皆が避けるなか{other}のそばに立ち、行いによって孤立を破った。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.006",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は斥けられていた{other}に助けを与え、コロニーにまだ受け入れる者がいることを見せた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.007",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}に救いの手を伸ばした。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.008",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は食器を持って{other}の隣に座り、孤立の壁が一角崩れた。酸素は相変わらず流れたが、この一件が残した重さを持ち去らなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.009",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "誰もが{other}を避けていたとき、{actor}はあえてそこへ歩いていった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.010",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}を斥け続けるのを拒み、自ら相手を通常の付き合いへ戻した。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.011",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は皆が避けるなか{other}のそばに立ち、行いによって孤立を破った。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.012",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は斥けられていた{other}に助けを与え、コロニーにまだ受け入れる者がいることを見せた。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.001",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は、一人で隠れて泣くその者に出くわした。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.002",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は通りがかりに泣き声を聞き、足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.003",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "隅に隠れたその者は長く泣き、{subject}は近づかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.004",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は孤立していた者が独り泣くのを思いがけず見て、それまでの判断が揺れ始めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.005",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "隠れて泣く声を{subject}が聞き、衆怒の裏にある苦しみが初めて具体的になった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.006",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は誰も見ていないその涙に出くわし、以後孤立を小事とはできなくなった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.007",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は、一人で隠れて泣くその者に出くわした。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.008",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は通りがかりに泣き声を聞き、足音を潜めた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.009",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "隅に隠れたその者は長く泣き、{subject}は近づかなかった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.010",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は孤立していた者が独り泣くのを思いがけず見て、それまでの判断が揺れ始めた。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.011",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "隠れて泣く声を{subject}が聞き、衆怒の裏にある苦しみが初めて具体的になった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.012",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は誰も見ていないその涙に出くわし、以後孤立を小事とはできなくなった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.001",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆人の前で{other}のために筋の通った一言を述べた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.002",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は全員の前で{other}のために口を開き、それ以上声を出す者はいなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.003",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "衆怒が荒いなか、{actor}はただ一人、{other}のために口を開いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.004",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}への集団の責めを公に問い、根拠のない排斥をやめるよう求めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.005",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆人の前で{other}のために事実を述べ、沈黙していた反対にようやく声がついた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.006",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は集団の機嫌を損ねる危険を負い、{other}が公平に扱われることを貫いた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.007",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆人の前で{other}のために筋の通った一言を述べた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.008",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は全員の前で{other}のために口を開き、それ以上声を出す者はいなかった。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.009",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "衆怒が荒いなか、{actor}はただ一人、{other}のために口を開いた。印刷ポッドの光は相変わらず温かいが、基地のつかの間の沈黙を散らすことはできなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.010",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は{other}への集団の責めを公に問い、根拠のない排斥をやめるよう求めた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.011",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は衆人の前で{other}のために事実を述べ、沈黙していた反対にようやく声がついた。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.012",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}は集団の機嫌を損ねる危険を負い、{other}が公平に扱われることを貫いた。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.001",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はあの私刑を見た。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.002",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はその場に出くわし、あわてて見なかったふりをした。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.003",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "見ても飲み込むほかない事があり、{subject}は口を固く閉ざした。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.004",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は孤立していた者が襲われるのを目の当たりにし、衆怒がすでに暴力へ変わったと悟った。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.005",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はその人知れぬ殴打に出くわしたが、衝撃のためしばらく声が出なかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.006",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は襲撃の経緯を見極め、以後何も知らないふりはできなくなった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.007",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はあの私刑を見た。警報灯はついに静まったが、コロニーはもう事が起きる前には戻れなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.008",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はその場に出くわし、あわてて見なかったふりをした。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.009",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "見ても飲み込むほかない事があり、{subject}は口を固く閉ざした。機械はなお勤務表どおりに動き、残された者はこの一件を抱えたまま生きていくほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.010",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は孤立していた者が襲われるのを目の当たりにし、衆怒がすでに暴力へ変わったと悟った。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.011",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}はその人知れぬ殴打に出くわしたが、衝撃のためしばらく声が出なかった。自動ドアは開いては閉じたが、ここを通る者はみな足音を潜めた。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.012",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject}は襲撃の経緯を見極め、以後何も知らないふりはできなくなった。この小惑星は人に哀悼の時間をあまり与えず、記憶は次の勤務とともに続くほかなかった。",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    }
+  ]
+}
