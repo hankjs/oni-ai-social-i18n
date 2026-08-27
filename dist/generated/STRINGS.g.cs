@@ -199,9 +199,6 @@ namespace ONIAiSocial
                     public static LocString WRATH_WITNESSED = "我看见他打人";
                 }
                 public static LocString FALLEN_DUPLICANT = "已故的复制人";
-                public static LocString MOOD_LOG_EMPTY = "最近没有心情记录";
-                public static LocString MOOD_LOG_TITLE = "心情日记";
-                public static LocString MOOD_LOG_TOOLTIP = "这名复制人最近的社交事件，以及对好感和心情的影响";
                 public static LocString NO_RELATIONSHIPS = "尚无关系记录";
                 public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
                 public static LocString OVERVIEW_TITLE = "社交近况";
@@ -261,6 +258,11 @@ namespace ONIAiSocial
                     public static LocString POPULAR = "受欢迎";
                 }
                 public static LocString REPUTATION_TOOLTIP = "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。";
+                public static LocString STORY_OPEN_BUTTON = "查看个人故事";
+                public static LocString STORY_PREVIEW_EMPTY = "还没有形成可阅读的人生章节";
+                public static LocString STORY_PREVIEW_RECENT = "最近的篇章";
+                public static LocString STORY_PREVIEW_TITLE = "个人故事";
+                public static LocString STORY_PREVIEW_TOOLTIP = "这名复制人最近一段被收录的人生经历";
                 public static LocString SYSTEM_UNAVAILABLE = "社交系统尚未就绪";
                 public static LocString SYSTEM_UNAVAILABLE_TOOLTIP = "进入对局并等待社交系统完成初始化";
                 public class TOOLTIP
@@ -707,6 +709,11 @@ namespace ONIAiSocial
                 public static LocString FILTER_ROMANCE = "恋爱";
                 public static LocString FILTER_UNMARKED = "未标记";
                 public static LocString GROUP_SORT = "排序：{0}";
+                public static LocString HISTORY_EARLIER = "较早";
+                public static LocString HISTORY_LATER = "较晚";
+                public static LocString HISTORY_OPEN_CHAPTER = "这段经历仍在继续。";
+                public static LocString HISTORY_REBUILT = "部分故事段落已根据原始事件事实恢复。";
+                public static LocString HISTORY_RECORDED_FROM = "记录从周期 {0} 开始";
                 public static LocString LOG_FILTER_ALL = "人物:全部";
                 public static LocString LOG_FILTER_CLEAR = "清除";
                 public static LocString LOG_FILTER_PERSON = "人物:{0}";
@@ -765,6 +772,8 @@ namespace ONIAiSocial
                 public static LocString STORY_CHAPTER_LEAD_TURNING = "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。";
                 public static LocString STORY_CHAPTER_RANGE = "周期{0}—{1}";
                 public static LocString STORY_CHAPTER_TITLE = "第{0}章 · {1}";
+                public static LocString STORY_INVOLVED_BADGE = "[被卷入]";
+                public static LocString STORY_READING_INTRO = "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。";
                 public static LocString TELEMETRY_DISABLED = "请先在 Mod 设置中开启「本地玩法数据」";
                 public static LocString TELEMETRY_EXPORT = "导出诊断报告";
                 public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";

@@ -1439,30 +1439,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "최근에 기분 기록이 없습니다",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "기분 일기",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "이 복제인간의 최근 사교 이벤트와, 호감과 기분에 미친 영향",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "아직 관계 기록이 없습니다",
       "resolvedLocale": "ko",
@@ -1848,6 +1824,46 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "생존 중인 모든 복제인간과의 평균 호감입니다. 지금은 인기의 높낮이만 보여 주며 판정에는 영향을 주지 않습니다. 명성 플레이는 이후 버전에서 다룹니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "text": "개인 이야기 보기",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "아직 읽을 수 있는 인생 장이 없습니다",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "text": "최근 장",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "개인 이야기",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "이 복제체의 가장 최근 인생 장을 요약해 보여줍니다",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5668,6 +5684,48 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "text": "이전",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "text": "이후",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "text": "이 경험은 아직 이어지고 있습니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "text": "일부 이야기 장을 원본 사건 사실에서 복구했습니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "text": "기록은 사이클 {0}부터 시작됩니다",
+      "resolvedLocale": "ko",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
       "text": "인물:전체",
       "resolvedLocale": "ko",
@@ -6213,6 +6271,22 @@
         "0",
         "1"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "text": "[휘말림]",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "text": "삶의 각 장을 대표하는 경험을 골라 보여 주며, 완전한 기록은 아닙니다. 목격했거나 휘말린 중요한 사건도 포함됩니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

@@ -1194,6 +1194,69 @@
       ],
       "richText": false,
       "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "meaning": "Navigate to older history.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "meaning": "Navigate to newer history.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "meaning": "Shown after an open personal-story chapter.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "meaning": "The earliest history available to this installation. {0}: cycle.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [{"token": "0", "name": "first recorded cycle", "kind": "number"}],
+      "richText": false,
+      "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "meaning": "Recoverable notice shown after damaged derived chapters were rebuilt from facts.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 300
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "meaning": "Explains that personal story is a chapter-based biography which may include witnessed or indirectly involved events.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 240
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "meaning": "Marks a personal-story fact where the selected person is only the contextual ThirdKey, not a direct diary participant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 80
     }
   ]
 }

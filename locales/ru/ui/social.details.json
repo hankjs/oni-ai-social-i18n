@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Дневник настроения",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Личная история",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "Недавних записей о настроении нет",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "В личной истории пока нет глав",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "Недавние события общения этого дубликанта и их влияние на симпатию и настроение",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "Краткий обзор последней главы жизни этого дупликанта",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +901,8 @@
       "text": "\nХимия: {0} (симпатия за первый разговор за цикл {1}, вероятность ссоры {2})",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Последняя глава","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Открыть личную историю","contractRevision":1,"status":"reviewed"}
   ]
 }

@@ -119,8 +119,8 @@
       "maxLength": 10000
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "meaning": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "meaning": "Title of the personal-story preview in duplicant details.",
       "contractRevision": 1,
       "importance": "standard",
       "arguments": [],
@@ -128,8 +128,8 @@
       "maxLength": 10000
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "meaning": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "meaning": "Empty state when the duplicant has no personal-story chapter yet.",
       "contractRevision": 1,
       "importance": "standard",
       "arguments": [],
@@ -137,8 +137,8 @@
       "maxLength": 10000
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "meaning": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "meaning": "Explains that the details section previews the latest selected life chapter.",
       "contractRevision": 1,
       "importance": "standard",
       "arguments": [],
@@ -1496,6 +1496,24 @@
       ],
       "richText": false,
       "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "meaning": "Labels the details-panel story summary as the latest chapter.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "meaning": "Native user-menu action opening the complete personal story.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
     }
   ]
 }

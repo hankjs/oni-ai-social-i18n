@@ -1439,30 +1439,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "Gần đây không có ghi tâm trạng",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Nhật ký tâm trạng",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "Sự kiện xã hội gần đây của người nhân bản này, và ảnh hưởng tới thiện cảm cùng tâm trạng",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "Chưa có ghi quan hệ",
       "resolvedLocale": "vi",
@@ -1848,6 +1824,46 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "Thiện cảm trung bình với mọi người nhân bản còn sống. Hiện chỉ phản ánh duyên cao thấp, không ảnh hưởng phán định nào; lối chơi uy tín để bản sau.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "text": "Xem câu chuyện cá nhân",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "Chưa có chương cuộc đời nào để đọc",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "text": "Chương gần nhất",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Câu chuyện cá nhân",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "Bản xem trước chương cuộc đời gần nhất của người nhân bản này",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5668,6 +5684,48 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "text": "Sớm hơn",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "text": "Muộn hơn",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "text": "Trải nghiệm này vẫn đang tiếp diễn.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "text": "Một số chương đã được khôi phục từ dữ kiện sự kiện gốc.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "text": "Bản ghi bắt đầu từ chu kỳ {0}",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
       "text": "Người: tất cả",
       "resolvedLocale": "vi",
@@ -6213,6 +6271,22 @@
         "0",
         "1"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "text": "[Bị cuốn vào]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "text": "Các trải nghiệm tiêu biểu cho từng chương đời, không phải nhật trình đầy đủ. Những sự kiện quan trọng đã chứng kiến hoặc bị cuốn vào cũng được ghi lại.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

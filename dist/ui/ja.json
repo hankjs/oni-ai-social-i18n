@@ -1439,30 +1439,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "最近の気分記録はありません",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "気分日記",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "この複製人間の最近の社交イベントと、好感度と気分への影響",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "関係の記録はまだありません",
       "resolvedLocale": "ja",
@@ -1848,6 +1824,46 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "生存中の全複製人間との平均好感度です。いまは人望の高低を示すだけで、判定には影響しません。声望のゲームプレイは今後のバージョンで追加予定です。",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "text": "個人の物語を見る",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "まだ読める人生の章はありません",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "text": "最近の章",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "個人の物語",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "この複製人間の最近の人生の章を要約して表示します",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5668,6 +5684,48 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "text": "以前",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "text": "以後",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "text": "この経験はまだ続いている。",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "text": "一部の物語の章を元のイベント事実から復元しました。",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "text": "記録はサイクル {0} から始まります",
+      "resolvedLocale": "ja",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
       "text": "人物：すべて",
       "resolvedLocale": "ja",
@@ -6213,6 +6271,22 @@
         "0",
         "1"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "text": "[巻き込まれた]",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "text": "人生の各章を表す経験を選んだもので、完全な記録ではありません。目撃した出来事や巻き込まれた重要な出来事も含まれます。",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

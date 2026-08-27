@@ -1439,30 +1439,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "Недавних записей о настроении нет",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Дневник настроения",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "Недавние события общения этого дубликанта и их влияние на симпатию и настроение",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "Записей об отношениях пока нет",
       "resolvedLocale": "ru",
@@ -1848,6 +1824,46 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "Средняя симпатия ко всем живым дубликантам. Сейчас показывает только, насколько человек в чести, и ни на что не влияет; механика репутации будет позже.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "text": "Открыть личную историю",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "В личной истории пока нет глав",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "text": "Последняя глава",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Личная история",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "Краткий обзор последней главы жизни этого дупликанта",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5668,6 +5684,48 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "text": "Раньше",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "text": "Позже",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "text": "Эта история всё ещё продолжается.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "text": "Некоторые главы восстановлены из исходных фактов событий.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "text": "Записи начинаются с цикла {0}",
+      "resolvedLocale": "ru",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
       "text": "Кто: все",
       "resolvedLocale": "ru",
@@ -6213,6 +6271,22 @@
         "0",
         "1"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "text": "[Затронут]",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "text": "Избранные события, определяющие этапы жизни, а не полный журнал. Включены и важные события, увиденные со стороны или затронувшие персонажа косвенно.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

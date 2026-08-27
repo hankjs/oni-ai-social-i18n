@@ -1438,30 +1438,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "No recent mood entries",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Mood diary",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "This duplicant's recent social events and their effect on affinity and mood",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
       "text": "No relationships recorded yet",
       "resolvedLocale": "en",
@@ -1847,6 +1823,46 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
       "text": "Average affinity with all living duplicants. For now it only reflects popularity and affects nothing; reputation gameplay is planned for a later version.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON",
+      "text": "View personal story",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "No personal story chapters yet",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT",
+      "text": "Latest chapter",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Personal story",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "A preview of this duplicant's most recent selected life chapter",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -5667,6 +5683,48 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "text": "Earlier",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "text": "Later",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "text": "This experience is still unfolding.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "text": "Some story chapters were recovered from the original event facts.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "text": "Records begin at Cycle {0}",
+      "resolvedLocale": "en",
+      "requiredSlots": [
+        "0"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
       "text": "Person: All",
       "resolvedLocale": "en",
@@ -6212,6 +6270,22 @@
         "0",
         "1"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "text": "[Involved]",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "text": "Selected experiences that define each life chapter, not a complete log. Important events witnessed or indirectly involved in are included.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

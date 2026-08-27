@@ -1012,24 +1012,6 @@ msgid "已故的复制人"
 msgstr "亡くなった複製人間"
 
 #. resolved-locale: ja
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY"
-msgid "最近没有心情记录"
-msgstr "最近の気分記録はありません"
-
-#. resolved-locale: ja
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE"
-msgid "心情日记"
-msgstr "気分日記"
-
-#. resolved-locale: ja
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP"
-msgid "这名复制人最近的社交事件，以及对好感和心情的影响"
-msgstr "この複製人間の最近の社交イベントと、好感度と気分への影響"
-
-#. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS"
 msgid "尚无关系记录"
@@ -1310,6 +1292,36 @@ msgstr "親しまれる"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP"
 msgid "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。"
 msgstr "生存中の全複製人間との平均好感度です。いまは人望の高低を示すだけで、判定には影響しません。声望のゲームプレイは今後のバージョンで追加予定です。"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON"
+msgid "查看个人故事"
+msgstr "個人の物語を見る"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
+msgid "还没有形成可阅读的人生章节"
+msgstr "まだ読める人生の章はありません"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT"
+msgid "最近的篇章"
+msgstr "最近の章"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE"
+msgid "个人故事"
+msgstr "個人の物語"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
+msgid "这名复制人最近一段被收录的人生经历"
+msgstr "この複製人間の最近の人生の章を要約して表示します"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE
@@ -3646,6 +3658,36 @@ msgid "排序：{0}"
 msgstr "並べ替え：{0}"
 
 #. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER"
+msgid "较早"
+msgstr "以前"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER"
+msgid "较晚"
+msgstr "以後"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER"
+msgid "这段经历仍在继续。"
+msgstr "この経験はまだ続いている。"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT"
+msgid "部分故事段落已根据原始事件事实恢复。"
+msgstr "一部の物語の章を元のイベント事実から復元しました。"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM"
+msgid "记录从周期 {0} 开始"
+msgstr "記録はサイクル {0} から始まります"
+
+#. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL"
 msgid "人物:全部"
@@ -3992,6 +4034,18 @@ msgstr "サイクル{0}—{1}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE"
 msgid "第{0}章 · {1}"
 msgstr "第{0}章 ・ {1}"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE"
+msgid "[被卷入]"
+msgstr "[巻き込まれた]"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO"
+msgid "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。"
+msgstr "人生の各章を表す経験を選んだもので、完全な記録ではありません。目撃した出来事や巻き込まれた重要な出来事も含まれます。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED

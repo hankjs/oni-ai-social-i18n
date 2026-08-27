@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Mood diary",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Personal story",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "No recent mood entries",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "No personal story chapters yet",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "This duplicant's recent social events and their effect on affinity and mood",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "A preview of this duplicant's most recent selected life chapter",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +901,8 @@
       "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Latest chapter","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"View personal story","contractRevision":1,"status":"reviewed"}
   ]
 }
