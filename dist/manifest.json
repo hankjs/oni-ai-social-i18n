@@ -9,7 +9,7 @@
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -203,6 +203,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "en",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "en",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "en",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "en",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "en",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "en",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "en",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "en",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "en",
@@ -1062,19 +1065,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:97ede678aa3fa30b429bc8c79139aeb5582d00fc32c636a4a769a93fb110d589",
+        "ui": "sha256:78bf6e03a6b6a0993ab3481b553380ab33a253fdebd5dca1d898bbabf791e0a1",
         "prompts": "sha256:4ac0143ba376524756fb2be95de44bc9209d2e5ecdc2cd161022669f34c58772",
         "dialogue": "sha256:c03a1feb27c15452c9e554c0254745f2649b6048f2d814120adab879e0d72d29",
         "chronicle": "sha256:ef63bc85718f5f84e43454451d7060c79ad688499d786eec216a96f0ce91d465"
       },
-      "snapshotHash": "sha256:6e2ee5f4fff821659f7cdf95ce53f65d6bcd1c25664493f41d8dbe8b15606e7b"
+      "snapshotHash": "sha256:ed7b07dab5e40cebd2e2114b5f4408fedbc4d15c924ea9056b3544320483a993"
     },
     {
       "id": "ja",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -1268,6 +1271,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "ja",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "ja",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "ja",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "ja",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "ja",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "ja",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "ja",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "ja",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "ja",
@@ -2127,19 +2133,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:480a4acc827a7dedea78b37b1187dcdf83903dffd8434b6014f328339ce35042",
+        "ui": "sha256:18afcc86ba1a8d8429ceba46918f73bec4cae764b5e8118e915ce5833ca7c9f4",
         "prompts": "sha256:298ed487175f70e2fae20bfb72719379f3d56de86ab83644799ce3d08d40f43a",
         "dialogue": "sha256:ae048cd70b5536cb767c59829d4cf71d50bf8c36abc2d38f5936ee607f5c45ba",
         "chronicle": "sha256:60b8bbc4cb3fec9c886ca4c3c731322493d2eb3debfb948a7a38555cf78e26c9"
       },
-      "snapshotHash": "sha256:bfb6374db05b205b5e5404d962e48f36c752e62bb9e860e22817d46206f8d9e9"
+      "snapshotHash": "sha256:b302dd48706c2aaeb8e042e9c6f003e5e8eaf0708a4de5183068ae609250556f"
     },
     {
       "id": "ko",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -2333,6 +2339,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "ko",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "ko",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "ko",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "ko",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "ko",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "ko",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "ko",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "ko",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "ko",
@@ -3192,19 +3201,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:81e622ba82fb9e10f790ec8015dbc2f054a0763423935e82768fca6d5ed1e9c8",
+        "ui": "sha256:9f212d22cb9614adcf5ad94f6c8f4192504628a576f9067fff776dec46194542",
         "prompts": "sha256:feab091bf1e5436f08f67ab930b8401f22420e0e1a1f78030df7734aead4f0ba",
         "dialogue": "sha256:0fd1d1ab983820cc56916e30ace16e741356e2d705263b74c8d72288156220ba",
         "chronicle": "sha256:8946b754cdf9b42074ae1f0f0ffe7c85d623d0947b3392c6b88652af35f08d99"
       },
-      "snapshotHash": "sha256:58914bd6b30913c10b4ff0a614cf9f215183edb8af7b6cc9a505199706f32be1"
+      "snapshotHash": "sha256:0c6de64d131892b55fc17a34539fceb58a580aa40ef5444338aa01df358b4c7d"
     },
     {
       "id": "ru",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -3398,6 +3407,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "ru",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "ru",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "ru",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "ru",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "ru",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "ru",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "ru",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "ru",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "ru",
@@ -4257,19 +4269,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:22df2cd1931adf818ad3d7d03661c424e1f45870e8e34972a6cf6d9c5a869963",
+        "ui": "sha256:433e3b154a3eaef87b3b4d36e404d0638e894a8e77fac21173ba6d13d8e3841b",
         "prompts": "sha256:71846aff38bf7f68978ad262c7c48082ce5caffd98cca3e9bf93acadb067f40d",
         "dialogue": "sha256:18742cd698e024189714b5c4c5e4e925792f1b1122282cf79f21796826c5e09e",
         "chronicle": "sha256:ddd8b9dddedb23d96f04db6a23c966a0e30fe79755e3182ee779f4a224c38a85"
       },
-      "snapshotHash": "sha256:493a776ec77fee07ef6c9d045f61fcdc98e7ae5a355ec52ee010f948daa7041c"
+      "snapshotHash": "sha256:9796e3efb63d4fcf868b5bac000c2692026b8f0909671c95d7d1e9fd59260fff"
     },
     {
       "id": "vi",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -4463,6 +4475,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "vi",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "vi",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "vi",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "vi",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "vi",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "vi",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "vi",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "vi",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "vi",
@@ -5322,19 +5337,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:d7ca097bd6e9d5e254ce93d01775500de50e7ce7e40a451263d023c65bdbaac5",
+        "ui": "sha256:4b5dd8daa018c6f97f7bf016d4f6b7be0ba360681ec4869f09a6aba85806ce9c",
         "prompts": "sha256:96adb73b4b480ffec504d929e3efa166448e5f8bd81bccfd1de823ed50173f32",
         "dialogue": "sha256:2ec23bea01f0039e2375c4bca5edb1441bdc8607afacf02990d766e92f484e5a",
         "chronicle": "sha256:9d206c0fd2cdd1acfb61434f3f22ed543d3a1fe4aacb1606ebd9901b4d339362"
       },
-      "snapshotHash": "sha256:0163217b206be6598a25ad6d543e40c8499eceee925bf281aa57bdebf42ffe24"
+      "snapshotHash": "sha256:ccc602bfd0d29fd2e4274db3921a737df2000d2e8d2e3331fdf82ba490f76cdf"
     },
     {
       "id": "zh",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 803,
+          "exact": 806,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -5528,6 +5543,9 @@
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR": "zh",
           "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED": "zh",
           "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT": "zh",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY": "zh",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE": "zh",
+          "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP": "zh",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS": "zh",
           "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP": "zh",
           "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE": "zh",
@@ -6387,13 +6405,13 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:13d9f7bfb6189a9c7a0c7f52440ee00ea7429456b758facb2232e27679e6342a",
+        "ui": "sha256:fb7803be40144cb66c47c6e7611236171799c7ed56583d4af1f0de59cf95ffcf",
         "prompts": "sha256:efb5c79fe57244d73f804662307f0046df09082d4985c14da4f040eb86a7a2ca",
         "dialogue": "sha256:46af205a4df8b244b745d9a663ed382a0e9b04ec4275ba8e0625599d48ba0ad8",
         "chronicle": "sha256:ec6c88c4728649f29af5e90d026a92be794f2b5046ce15c946f664bc25571f4b"
       },
-      "snapshotHash": "sha256:e28089e67f5053ebb6aa91b4f801be81c17629be3654928df43fc89729e952fa"
+      "snapshotHash": "sha256:d53a4760fba7177e235637245683e169d3724391137d27a1d5c2a2e58c02d8b0"
     }
   ],
-  "snapshotHash": "sha256:9afca21a9a0310f48b1c4f80687093b0810585d4dfea3b3e9fef39292eec37db"
+  "snapshotHash": "sha256:3542c851025884172936b2b5bc2a9db211bcdb9682cd3320c70b8eaf683f978e"
 }

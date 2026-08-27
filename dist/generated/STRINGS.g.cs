@@ -199,6 +199,9 @@ namespace ONIAiSocial
                     public static LocString WRATH_WITNESSED = "我看见他打人";
                 }
                 public static LocString FALLEN_DUPLICANT = "已故的复制人";
+                public static LocString MOOD_LOG_EMPTY = "最近没有心情记录";
+                public static LocString MOOD_LOG_TITLE = "心情日记";
+                public static LocString MOOD_LOG_TOOLTIP = "这名复制人最近的社交事件，以及对好感和心情的影响";
                 public static LocString NO_RELATIONSHIPS = "尚无关系记录";
                 public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
                 public static LocString OVERVIEW_TITLE = "社交近况";
