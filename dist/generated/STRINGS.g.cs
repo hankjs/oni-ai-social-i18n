@@ -833,7 +833,7 @@ namespace ONIAiSocial
                 public static LocString CHAT_FEED_COOLDOWN = "同一对复制人的好感进账间隔（秒）";
                 public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。";
                 public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天进账上限（次）";
-                public static LocString CHAT_FEED_LIMIT_HINT = "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
+                public static LocString CHAT_FEED_LIMIT_HINT = "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
                 public static LocString COLLECTIVE_WRATH = "允许集体迁怒";
                 public static LocString COLLECTIVE_WRATH_HINT = "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭";
                 public static LocString COOLDOWN_MULT = "原生对话冷却倍率";
