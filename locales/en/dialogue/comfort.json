@@ -1,0 +1,132 @@
+{
+  "locale": "en",
+  "family": "comfort",
+  "candidates": [
+    {
+      "candidateId": "storylet.comfort.base.001",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You don't have to talk. I'll just sit here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thanks. The fans sound quieter today."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.002",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I covered your shift. Go rest a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's what they always said too... thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.003",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I brought two meals. We can just chew if talking's too much."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Chewing does quiet the thinking. A little."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.004",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm in the next cot tonight. Knock the wall if you can't sleep."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Okay. I might knock."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.005",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We split the work they left unfinished. You take your time."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thanks. I just... need company being slow."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.comfort.base.006",
+      "storyletId": "Comfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One day I'll build you a small room. A lamp. One plant that isn't food."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Put me in that room. I'll allow the plant."
+        }
+      ]
+    }
+  ]
+}

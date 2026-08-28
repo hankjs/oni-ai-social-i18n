@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathisolated",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathisolated.base.001",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "This table's full."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...You're the only one at it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.002",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't talk to me. I'd rather not catch it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Neither would I."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.003",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Roster's been changed. Go look."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I looked. It's all night shifts."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.004",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Use the other side."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The other side is a wall."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathisolated.base.005",
+      "storyletId": "WrathIsolated",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who's pairing with him? ...Fine. Nobody, then."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I can finish it alone."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "locale": "vi",
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "Xã hội",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng tách rời",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "Se duyên",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "Tách rời",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "Gỡ đánh dấu",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "Giới hạn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "Tổng quan quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "Chờ xảy ra",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "Sự kiện xã hội chờ xảy ra",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "Đây liệt kê tỏ tình, chia tay, hòa giải và kết thù địch. Kết quả đã khóa; bấm sự kiện để xếp ngay, hoặc đợi đếm ngược hết.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "Hiện không có sự kiện xã hội chờ xảy ra.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "【{0}】{1} → {2} · còn {3} chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "【{0}】{1} → {2} · đang chờ gặp an toàn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "Xảy ra ngay",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}　[{1}]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "Sự kiện đã yêu cầu, đang chờ lúc an toàn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "Quan hệ thuộc địa",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0} quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "Tìm tên người nhân bản",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "Quan hệ: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "Tất cả",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "Thân thiện",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "Tình cảm",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "Xung đột",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "Đánh dấu: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "Chưa đánh dấu",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "Sắp xếp: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "Tên",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "Số quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "Thiện cảm cao nhất",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "Không có quan hệ khớp bộ lọc",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "Đóng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "Quay lại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "Trang trước",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "Trang sau",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "Trang {0}/{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "Không có người nhân bản để chọn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "Thao tác thất bại: hệ thống xã hội chưa sẵn sàng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · chọn người thứ hai",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "Đã chọn {0}. Hãy chọn người nhân bản khác để hoàn tất.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "Chọn người nhân bản thứ nhất. Hiệu ứng se duyên: thiện cảm khi trò chuyện +{0}, tỷ lệ tỏ tình +{1}%, tỷ lệ xin lỗi +{2}%, xác suất cãi vã ×{3}, cơ hội tâm sự bạn thân và tần suất hội thoại AI nhân đôi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "Chọn người nhân bản thứ nhất. Tách rời sẽ chặn cặp này kích sự kiện xã hội và hội thoại AI của Mod.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và tách rời liên quan.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "Giới hạn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "Chọn người nhân bản thứ nhất. Giới hạn chốt cặp này quan hệ tốt/xấu nhất được tới đâu — không chặn giao tiếp, chỉ chặn khi quan hệ sắp vượt mốc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "Quan hệ tốt nhất:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "Quan hệ xấu nhất:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "Không giới hạn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "Chọn quan hệ tốt nhất",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "Chọn quan hệ xấu nhất",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "Chỉ hiện các bậc tương thích với giới hạn phía kia. Chọn xong có hiệu lực ngay, nhưng không đổi ngay quan hệ hiện tại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "Giới hạn: {0} × {1} → tốt nhất {2} · xấu nhất {3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "Đặt thất bại: quan hệ xấu nhất không được tốt hơn quan hệ tốt nhất",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Tách rời: {5}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "Chia tay sau {0} chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "Cạch mặt còn {0} chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "Thù địch · đang đóng băng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "Kỳ người cũ còn {0} chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "Hôm nay là ngày kỷ niệm!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "Ngày kỷ niệm còn {0} chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "Người yêu {0} cặp · chiến tranh lạnh {1} cặp · bạn thân {2} cặp",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[Hoàn tất] {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[Hoàn tất] đã xóa đánh dấu của {0}: {1} cái",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "Se duyên: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "Tách rời: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "Gỡ đánh dấu: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "Đã chọn {0}, chọn người nhân bản khác rồi bấm lại cùng phím tắt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "Đã hủy chọn {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "Đã xóa đánh dấu của {0}: {1} cái",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "Biên niên",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "Biên niên thuộc địa",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "Chưa có ghi sự kiện",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0} không còn trong thuộc địa, không thể nhảy tới",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "Người: tất cả",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "Người:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "Xóa",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "Xem chuyện của ai?",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "Chọn một người nhân bản, nhật ký chỉ hiện sự kiện họ tham gia — một đoạn đời của họ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "Xuất báo cáo chẩn đoán",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "Hãy bật «Dữ liệu chơi trên máy» trong cài đặt Mod trước",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "Báo cáo chẩn đoán đã xuất: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "Xuất báo cáo chẩn đoán thất bại: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "Tỏ tình",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "Chương {0} · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "Chu kỳ {0}—{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "Từ chu kỳ {1}, ngày thường của {0} tích lại dần; đến chu kỳ {2}, {3} khiến đoạn đời này rẽ hướng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "Từ chu kỳ {1} đến {2}, {0} giữa làm việc, ăn uống và nghỉ ngơi đã từ từ dựng nên đời mình bên những người quanh đó.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "Sau “{0}”, {1} mang theo dư âm ấy bước vào đoạn đời tiếp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "Những lúc bình thường ấy không được đại sự nhớ, nhưng cùng tạo nên đời của {0} trong thuộc địa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"Sớm hơn","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"Muộn hơn","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"Trải nghiệm này vẫn đang tiếp diễn.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"Bản ghi bắt đầu từ chu kỳ {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"Một số chương đã được khôi phục từ dữ kiện sự kiện gốc.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"Các trải nghiệm tiêu biểu cho từng chương đời, không phải nhật trình đầy đủ. Những sự kiện quan trọng đã chứng kiến hoặc bị cuốn vào cũng được ghi lại.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Bị cuốn vào]","contractRevision":1,"status":"reviewed"}
+  ]
+}

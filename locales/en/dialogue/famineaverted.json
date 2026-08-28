@@ -1,0 +1,38 @@
+{
+  "locale": "en",
+  "family": "famineaverted",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineaverted.base.001",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Food arrived. Nobody mentions what they were thinking a few days ago."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineaverted.base.002",
+      "storyletId": "FamineAverted",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pantry is stocked again. By silent agreement, the subject is closed."
+        }
+      ]
+    }
+  ]
+}

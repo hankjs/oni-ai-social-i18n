@@ -1,0 +1,90 @@
+{
+  "locale": "en",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stay back."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Only one of us walks away from this."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't want to do this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Neither do I. But I'm hungry."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't apologise. Just do it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why us?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Because nobody likes either of us."
+        }
+      ]
+    }
+  ]
+}

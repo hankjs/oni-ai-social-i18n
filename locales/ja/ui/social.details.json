@@ -1,0 +1,926 @@
+{
+  "locale": "ja",
+  "namespace": "social.details",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
+      "text": "最近の交流",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE",
+      "text": "人間関係",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL",
+      "text": "好感度",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK",
+      "text": "親友",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
+      "text": "声望（観察のみ）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
+      "text": "生存中の全複製人間との平均好感度です。いまは人望の高低を示すだけで、判定には影響しません。声望のゲームプレイは今後のバージョンで追加予定です。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_LABEL",
+      "text": "コロニー",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP",
+      "text": "生存中の全複製人間について、二人組ごとの好感度の平均値です。≥40 でコロニーの絆が発動し（全員の士気 +1）、冷戦が複数あるとコロニーの不和が発動します（全員の士気 -1、言い争いが増えます）。会食、宴会、取り持ちは絆を高めます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE",
+      "text": "社交システムはまだ準備できていません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP",
+      "text": "コロニーに入り、社交システムの初期化が終わるまで待ってください",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT",
+      "text": "亡くなった複製人間",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
+      "text": "関係の記録はまだありません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP",
+      "text": "複製人間が交流すると、関係と好感度がここに表示されます",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
+      "text": "気分日記",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
+      "text": "最近の気分記録はありません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
+      "text": "この複製人間の最近の社交イベントと、好感度と気分への影響",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "個人の物語",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "まだ読める人生の章はありません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "この複製人間の最近の人生の章を要約して表示します",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_LABEL",
+      "text": "特性",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP",
+      "text": "一部の特性は社交に影響します。言い争いと殴り合いが減る、教えを請われたときの好感度が増減する、スケジュールが合わないと同室就寝で揉めやすくなる、などです。名前のあとの括弧がその特性の具体的な影響です。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT",
+      "text": "言い争いを嫌う",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER",
+      "text": "教えを請われるとよりありがたがる",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER",
+      "text": "教えを請われてもあまりありがたがらない",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD",
+      "text": "規則正しい早寝の人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL",
+      "text": "夜型で、生活リズムが合いにくい",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY",
+      "text": "いつでも眠ってしまい、生活リズムが合いにくい",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
+      "text": "性格メモ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT",
+      "text": "現在の性格：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE",
+      "text": "性格を変更",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
+      "text": "この複製人間を別の社交性格へ導きます。古い性格は履歴に残り、表示のみで、以降の社交抽選には加わりません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY",
+      "text": "まだ性格の変化はありません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE",
+      "text": "性格を変更",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY",
+      "text": "{0} の新しい性格を選んでください。古い性格は履歴に残り、表示のみです。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE",
+      "text": "サイクル{0} ・ {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED",
+      "text": "すでにこの性格です",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED",
+      "text": "性格を変えられません：社交システムはまだ準備できていません",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD",
+      "text": "短気",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY",
+      "text": "泣き虫",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD",
+      "text": "大声",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER",
+      "text": "大食い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS",
+      "text": "神経質",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY",
+      "text": "おどおど",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE",
+      "text": "穏やか",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS",
+      "text": "好奇心",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW",
+      "text": "のんびり",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY",
+      "text": "早起き",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT",
+      "text": "夜型",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY",
+      "text": "眠たがり",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE",
+      "text": "活発",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN",
+      "text": "本来",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
+      "text": "「管理者」の導きにより、{0} の {1}性格 が {2}性格 になりました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
+      "text": "{0} の性格が一変し、{1}性格 が {2}性格 になりました。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED",
+      "text": "人気者",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR",
+      "text": "親しまれる",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN",
+      "text": "顔なじみ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST",
+      "text": "一匹狼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE",
+      "text": "透明人間",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION",
+      "text": "絆",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD",
+      "text": "不和",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL",
+      "text": "中立",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS",
+      "text": "他人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
+      "text": "顔見知り",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS",
+      "text": "友達",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH",
+      "text": "ときめき",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE",
+      "text": "恋人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR",
+      "text": "冷戦",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP",
+      "text": "別れ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING",
+      "text": "悲嘆",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING",
+      "text": "哀悼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL",
+      "text": "宿敵",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
+      "text": "未知の社交イベント",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT",
+      "text": "言い争い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY",
+      "text": "謝罪",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.VENT",
+      "text": "打ち明け",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.TEACH",
+      "text": "教えを請う",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND",
+      "text": "親友の語らい",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION",
+      "text": "告白が成功",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED",
+      "text": "告白を拒否された",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DATE",
+      "text": "デート",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
+      "text": "会食",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CARE",
+      "text": "看病",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY",
+      "text": "嫉妬",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE",
+      "text": "和解",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP",
+      "text": "別れ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED",
+      "text": "伴侶を失った",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED",
+      "text": "言い出せなかった悔い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WELCOME",
+      "text": "新人を歓迎",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTY",
+      "text": "宴会に参加",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
+      "text": "どん底に寄り添う",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT",
+      "text": "仲違い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED",
+      "text": "悲嘆のなかの付き添い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY",
+      "text": "記念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED",
+      "text": "逃した記念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GREETING",
+      "text": "あいさつ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CHAT",
+      "text": "雑談",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE",
+      "text": "息抜きの社交",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST",
+      "text": "同室就寝",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE",
+      "text": "ストレスの変動",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
+      "text": "喧嘩して仲良く",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL",
+      "text": "宿敵になった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER",
+      "text": "宿敵の和解",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED",
+      "text": "宿敵が亡くなった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BRAWL",
+      "text": "殴り合い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING",
+      "text": "食糧庫が底をついた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED",
+      "text": "危機解除",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL",
+      "text": "飢えて相食む",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER",
+      "text": "飢饉が終わった",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BLAMED",
+      "text": "災いのあとで責められた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED",
+      "text": "孤立させられた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR",
+      "text": "誰かがかばってくれた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
+      "text": "最初に座った人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
+      "text": "こっそり殴られた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
+      "text": "殴っているのを見た",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
+      "text": "ひとりで泣いているところを見た",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED",
+      "text": "時が薄めた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN",
+      "text": "いちばんみじめな姿を見た",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED",
+      "text": "最初に来てくれた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY",
+      "text": "号泣した",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL",
+      "text": "悲鳴を上げた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT",
+      "text": "吐いた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE",
+      "text": "暴食し始めた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY",
+      "text": "物を壊し始めた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK",
+      "text": "放電し始めた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED",
+      "text": "なんでいつも自分が下に行くのか",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
+      "text": "最近はあの人も下に来ている",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE",
+      "text": "あの人が代わりに下へ行ってくれた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
+      "text": "一緒に下で過ごした",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
+      "text": "管理者の取り持ち",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
+      "text": "管理者の引き離し",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
+      "text": "管理者がマークを解除",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
+      "text": "境界・阻止",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.STRESS",
+      "text": "ストレス過多",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY",
+      "text": "積年の恨み",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH",
+      "text": "特性が合わない",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD",
+      "text": "コロニーの不和",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY",
+      "text": "相性が悪い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2",
+      "text": "絶好の相性",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1",
+      "text": "相性が良い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1",
+      "text": "相性が悪い",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2",
+      "text": "生まれつき合わない",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD",
+      "text": "息が合う",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD",
+      "text": "息が合わない",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE",
+      "text": "好感度：{0}；衝突は{1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL",
+      "text": "；気まずい状態はサイクル {0} まで",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS",
+      "text": "\n最近のイベント：",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE",
+      "text": "\nサイクル {0}：",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
+      "text": "取り持ちマーク：雑談の好感度 +{0}、告白成功率 +{1}%、謝罪成功率 +{2}%、言い争い確率 ×{3}、親友の語らいの機会とAI会話の頻度が2倍",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
+      "text": "引き離しマーク：この複製人間のペアが本Modの社交イベントとAI会話を起こすのを防ぎます",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN",
+      "text": "宿敵・凍結中：負の好感度は時間で0に戻らず、この関係は自然には修復されません。取り持ちマークで介入すると凍結が解け、好感度がゆっくり回復します",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER",
+      "text": "危険作業時間：{0} {1} ・ {2} {3}——同じ職種、同じ期間、下に行ったのは一人だけ（すでに {4} サイクル）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING",
+      "text": "宿敵・調停中：取り持ちマークで減衰の凍結が解け、好感度が回復しています。閾値を上回ると宿敵は解除されます",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
+      "text": "\n相性：{0}（各サイクル最初の雑談の好感度 {1}、言い争い確率 {2}）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"最近の章","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"個人の物語を見る","contractRevision":1,"status":"reviewed"}
+  ]
+}

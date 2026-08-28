@@ -1,0 +1,168 @@
+{
+  "locale": "en",
+  "namespace": "social",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "Polish the draft without changing the event, either speaker's affect, or the speaker order.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "text": "Resolved game event: [[storylet]]; cause: [[cause]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "text": "Current affect: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "Matched authored draft: [[draft]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "no notable traits",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "A: [[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "B: [[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]] (traits: [[traits]]; stress: [[stress]])",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "Relationship: [[stage]], affinity [[affinity]].",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "Stress \"breaking\" means on the verge of an emotional breakdown: let the strain show in that duplicant's lines (short temper, weary, barely holding on).",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "You are polishing dialogue between duplicants in the survival sim Oxygen Not Included. The game engine has already resolved the event, relationship outcome, each speaker's affect, and speaker order; do not change those facts. Duplicants are 3D-printed little people mining and building a colony in space. Match the game's tone: dark humor, grumbling about work, and caring for each other. Keep each line under 25 words. Output ONLY JSON, nothing else. Format:\n{\"turns\":[{\"speaker\":\"name\",\"text\":\"line\"},...2 to 4 entries]}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "Cause: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "Colony: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "famine ongoing, collective wrath ongoing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "famine ongoing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "collective wrath ongoing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "Current relationship: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "Event: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "Their recent history:",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "Cycle [[cycle]] · [[event]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "Rewrite it as one chronicle sentence.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "New relationship: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "A: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "B: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "Place: [[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "You are the chronicler of a space colony. Rewrite the given social event as a single sentence of at most 25 words: plain, restrained, with a sense of history. Never change names or facts; no quotes, no emoji, no numbers. Output only the sentence.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "Witnesses: [[count]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

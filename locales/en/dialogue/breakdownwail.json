@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "breakdownwail",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The whole corridor can hear that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He isn't screaming at us."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know you're all there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Should I shut the door."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'd still be inside it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I've heard that pitch down in the mines."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At least the mines echo back."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Does screaming help."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. Not screaming is worse."
+        }
+      ]
+    }
+  ]
+}

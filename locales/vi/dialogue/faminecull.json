@@ -1,0 +1,90 @@
+{
+  "locale": "vi",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Đừng lại."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Hai đứa mình... chỉ sống được một."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tớ không muốn vậy."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tớ cũng không. Nhưng tớ đói."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Xin lỗi."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đừng xin lỗi. Ra tay đi."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Sao lại là tụi mình?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Vì không ai thích tụi mình."
+        }
+      ]
+    }
+  ]
+}

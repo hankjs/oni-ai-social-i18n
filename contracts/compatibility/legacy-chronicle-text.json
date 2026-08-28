@@ -1,0 +1,65 @@
+{
+  "family": "compatibility",
+  "pools": [
+    {
+      "poolId": "chronicle.chat.base",
+      "family": "compatibility",
+      "angle": "compatibility",
+      "participantMode": "compatibilityPair",
+      "allowedSlots": [
+        "pair"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 0,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.base",
+      "family": "compatibility",
+      "angle": "compatibility",
+      "participantMode": "compatibilityPair",
+      "allowedSlots": [
+        "pair"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 0,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.base",
+      "family": "compatibility",
+      "angle": "compatibility",
+      "participantMode": "compatibilityPair",
+      "allowedSlots": [
+        "pair"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 0,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.base",
+      "family": "compatibility",
+      "angle": "compatibility",
+      "participantMode": "compatibilityPair",
+      "allowedSlots": [
+        "pair"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 0,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.base",
+      "family": "compatibility",
+      "angle": "compatibility",
+      "participantMode": "compatibilityPair",
+      "allowedSlots": [
+        "pair"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 0,
+      "contractRevision": 1
+    }
+  ]
+}

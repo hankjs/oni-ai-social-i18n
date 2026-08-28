@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "breakdownshock",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't touch him."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stay back. I can't hold it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The wiring's arcing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I know. It's me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He took out the whole light bank."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Saving power."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You'll hurt yourself doing that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Already am."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The machines are scared of you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The machines are smart."
+        }
+      ]
+    }
+  ]
+}

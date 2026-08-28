@@ -1,0 +1,90 @@
+{
+  "locale": "en",
+  "family": "confessionrekindle",
+  "candidates": [
+    {
+      "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Being apart taught me arguing beats missing you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then argue properly this time. And stay."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I fixed the wrench you left behind. Here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You dope. I left it on purpose."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The west tables are too quiet. Can I come back?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Your seat's been waiting this whole time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Let's overhaul the old problems, like servicing pipes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "By the blueprint this time. I already drew it."
+        }
+      ]
+    }
+  ]
+}

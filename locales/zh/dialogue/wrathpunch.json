@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathpunch",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathpunch.base.001",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这儿没别人。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "——你干什么！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.002",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "别喊。喊了也没人来。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……我知道。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.003",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这一下算上周的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "上周我在医疗床上躺着。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.004",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "擦干净再出去，别让人看见。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你也别让人看见。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.005",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我不是针对你。这基地总得有个出口。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那你找面墙。"
+        }
+      ]
+    }
+  ]
+}

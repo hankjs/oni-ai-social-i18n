@@ -1,0 +1,90 @@
+{
+  "locale": "ru",
+  "family": "confessionrekindle",
+  "candidates": [
+    {
+      "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "После расставания понял: ругаться легче, чем тебя вспоминать."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…В этот раз давай ругаться как следует. Только не уходи."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Починил твой оставленный гаечный ключ. Возвращаю."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Дурак. Я его нарочно оставил."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "На западе столовой слишком пусто. Можно сесть обратно?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Место давно твоё."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Давай старые поломки пройдём заново, как трубы на осмотре."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "В этот раз по чертежу. Чертёж я уже нарисовал."
+        }
+      ]
+    }
+  ]
+}

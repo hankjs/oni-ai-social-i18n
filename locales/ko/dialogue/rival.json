@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "rival",
+  "candidates": [
+    {
+      "candidateId": "storylet.rival.base.001",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "난 이제 너를 다 봤어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "서로 그래. 앞으로 내 눈에 띄지 마."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.002",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "이건 말다툼이 아니야, 원한을 새기는 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "새겨 둬, 평생 같이 새겨 줄게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.003",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "너와 나, 여기까지야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "진작 여기까지였어야지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.004",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "같은 기지가 얼마나 크겠어? 결국 마주치지."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 마주칠 때마다, 한 번씩 넌 구역질 나게 해 줄게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.005",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "남들이 널 어떻게 보든 상관없어, 난 너만 보면 눈에 거슬려."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "잘됐네, 난 네 눈에 잘 들고 싶지도 않아."
+        }
+      ]
+    }
+  ]
+}

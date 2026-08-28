@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "brawlbond",
+  "candidates": [
+    {
+      "candidateId": "storylet.brawlbond.base.001",
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "……お前の拳、かなり硬いな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "お前も柔らかくない。手、貸せ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.002",
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "殴り足りたか？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "足りた。正直、思ってたよりタフだな。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.003",
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "鼻、まだ血が出てる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "こっちは目が開かない。……行こう、一緒に薬を塗る。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.004",
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "こんなつまらないことで殴り合って、割に合うか？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "合わない。でも殴り終わったら、ずいぶん楽になった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.brawlbond.base.005",
+      "storyletId": "BrawlBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "これから何かあったら直接言え。溜め込むな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "分かった。溜め込んだ代償は、今日、じゅうぶん払った。"
+        }
+      ]
+    }
+  ]
+}

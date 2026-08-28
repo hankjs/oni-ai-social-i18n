@@ -1,0 +1,926 @@
+{
+  "locale": "ko",
+  "namespace": "social.details",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
+      "text": "사교 근황",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE",
+      "text": "대인 관계",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL",
+      "text": "호감",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK",
+      "text": "절친",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
+      "text": "명성(관찰 전용)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
+      "text": "생존 중인 모든 복제인간과의 평균 호감입니다. 지금은 인기의 높낮이만 보여 주며 판정에는 영향을 주지 않습니다. 명성 플레이는 이후 버전에서 다룹니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_LABEL",
+      "text": "식민지",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP",
+      "text": "생존 중인 모든 복제인간 쌍의 평균 호감입니다. ≥40이면 식민지 유대가 발동합니다(전원 사기 +1). 냉전이 여러 쌍이면 식민지 불화가 발동합니다(전원 사기 -1, 말다툼이 더 잦음). 함께 식사, 파티, 중매 모두 유대를 올립니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE",
+      "text": "사교 시스템이 아직 준비되지 않았습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP",
+      "text": "게임에 들어가 사교 시스템 초기화가 끝날 때까지 기다리세요",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT",
+      "text": "고인이 된 복제인간",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
+      "text": "아직 관계 기록이 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP",
+      "text": "복제인간이 상호작용하면, 관계와 호감이 여기에 표시됩니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
+      "text": "기분 일기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
+      "text": "최근에 기분 기록이 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
+      "text": "이 복제인간의 최근 사교 이벤트와, 호감과 기분에 미친 영향",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "개인 이야기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "아직 읽을 수 있는 인생 장이 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "이 복제체의 가장 최근 인생 장을 요약해 보여줍니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_LABEL",
+      "text": "특질",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP",
+      "text": "어떤 특질은 사교에 영향을 줍니다. 말다툼과 주먹다짐이 줄거나, 가르침을 받을 때 호감이 더하거나 덜하거나, 생활 리듬이 안 맞으면 같은 방에서 더 잘 삐걱입니다. 이름 뒤 괄호는 그 특질의 구체적인 영향입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT",
+      "text": "말다툼을 피함",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER",
+      "text": "가르침을 받을 때 더 고마워함",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER",
+      "text": "가르침을 받을 때 별로 고마워하지 않음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD",
+      "text": "생활 리듬이 규칙적인 일찍 자는 사람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL",
+      "text": "올빼미형, 생활 리듬이 잘 안 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY",
+      "text": "아무 때나 잠듦, 생활 리듬이 잘 안 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
+      "text": "성격 기록",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT",
+      "text": "현재 성격: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE",
+      "text": "성격 수정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
+      "text": "이 복제인간을 다른 사교 성격으로 이끕니다. 옛 성격은 이력에만 남고 전시용이며, 이후 사교 난수에는 참여하지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY",
+      "text": "아직 성격 변화가 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE",
+      "text": "성격 수정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY",
+      "text": "{0}의 새 성격을 고르세요. 옛 성격은 이력에만 남고 전시용입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE",
+      "text": "사이클{0} · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED",
+      "text": "이미 이 성격입니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED",
+      "text": "성격을 바꿀 수 없습니다: 사교 시스템이 아직 준비되지 않았습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD",
+      "text": "다혈질",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY",
+      "text": "울보",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD",
+      "text": "큰 목소리",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER",
+      "text": "대식가",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS",
+      "text": "신경질",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY",
+      "text": "잘 놀람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE",
+      "text": "온화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS",
+      "text": "호학",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW",
+      "text": "둔함",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY",
+      "text": "일찍 일어남",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT",
+      "text": "올빼미",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY",
+      "text": "기면",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE",
+      "text": "활동적",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN",
+      "text": "원래",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
+      "text": "「관리자」의 안내에 따라, {0}의 {1}성격이 {2}성격으로 바뀌었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
+      "text": "{0}의 성격이 크게 바뀌어, {1}성격이 {2}성격이 되었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED",
+      "text": "인기인",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR",
+      "text": "인기 있음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN",
+      "text": "낯익은 얼굴",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST",
+      "text": "외톨이",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE",
+      "text": "투명인간",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION",
+      "text": "유대",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD",
+      "text": "불화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL",
+      "text": "중립",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS",
+      "text": "타인",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
+      "text": "안면",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS",
+      "text": "친구",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH",
+      "text": "설렘",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE",
+      "text": "연인",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR",
+      "text": "냉전",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP",
+      "text": "이별",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING",
+      "text": "비탄",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING",
+      "text": "애도",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL",
+      "text": "숙적",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
+      "text": "알 수 없는 사교 이벤트",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT",
+      "text": "말다툼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY",
+      "text": "사과",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.VENT",
+      "text": "털어놓기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.TEACH",
+      "text": "가르침",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND",
+      "text": "절친 속마음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION",
+      "text": "고백 성공",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED",
+      "text": "고백이 거절됨",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DATE",
+      "text": "데이트",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
+      "text": "함께 식사",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CARE",
+      "text": "의료 돌봄",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY",
+      "text": "질투",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE",
+      "text": "화해",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP",
+      "text": "이별",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED",
+      "text": "반려를 잃다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED",
+      "text": "말하지 못한 아쉬움",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WELCOME",
+      "text": "새 동료 환영",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTY",
+      "text": "파티 참가",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
+      "text": "바닥을 함께하다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT",
+      "text": "결렬",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED",
+      "text": "비탄 속의 동행",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY",
+      "text": "기념일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED",
+      "text": "놓친 기념일",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GREETING",
+      "text": "인사",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CHAT",
+      "text": "대화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE",
+      "text": "여가 사교",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST",
+      "text": "같은 방에서 잠",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE",
+      "text": "스트레스 출렁임",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
+      "text": "싸우고 친해지다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL",
+      "text": "숙적을 맺다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER",
+      "text": "숙적 화해",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED",
+      "text": "상대의 죽음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BRAWL",
+      "text": "주먹다짐",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING",
+      "text": "식량고가 바닥남",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED",
+      "text": "위기 해제",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL",
+      "text": "식량 단절 상잔",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER",
+      "text": "기근이 끝남",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BLAMED",
+      "text": "재난 후 화풀이 대상",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED",
+      "text": "고립됨",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR",
+      "text": "누군가 변호해 줌",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
+      "text": "먼저 앉은 사람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
+      "text": "몰래 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
+      "text": "그 사람이 때리는 걸 봤다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
+      "text": "혼자 우는 걸 목격",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED",
+      "text": "시간이 희석함",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN",
+      "text": "그 최악의 모습을 봤다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED",
+      "text": "그 사람이 먼저 왔다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY",
+      "text": "목놓아 울었고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL",
+      "text": "비명을 질렀고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT",
+      "text": "토했고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE",
+      "text": "폭식했고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY",
+      "text": "물건을 부쉈고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK",
+      "text": "방전했고",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED",
+      "text": "왜 늘 나만 내려가나",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
+      "text": "그도 요즘은 내려온다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE",
+      "text": "그 사람이 대신 내려갔다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
+      "text": "함께 아래를 겪었다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
+      "text": "관리자 중매",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
+      "text": "관리자 이간",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
+      "text": "관리자 표시 해제",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
+      "text": "한계·가로막힘",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.STRESS",
+      "text": "스트레스가 너무 큼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY",
+      "text": "원한이 오래 쌓임",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH",
+      "text": "특질이 안 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD",
+      "text": "식민지 불화",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY",
+      "text": "궁합이 안 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2",
+      "text": "천생연분",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1",
+      "text": "궁합이 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1",
+      "text": "궁합이 안 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2",
+      "text": "선천적 상극",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD",
+      "text": "잘 맞음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD",
+      "text": "상극",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE",
+      "text": "호감: {0}; 충돌: {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL",
+      "text": "; 어색함이 사이클 {0}까지 지속",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS",
+      "text": "\n최근 이벤트:",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE",
+      "text": "\n사이클 {0}:",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
+      "text": "중매 표시: 대화 호감 +{0}, 고백 성공률 +{1}%, 사과 성공률 +{2}%, 말다툼 확률 ×{3}, 절친 속마음 기회와 AI 대화 빈도가 두 배",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
+      "text": "이간 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN",
+      "text": "숙적·동결 중: 음의 호감은 시간에 따라 0으로 돌아가지 않으며, 이 관계는 스스로 고쳐지지 않습니다. 중매 표시로 개입하면 동결이 풀려 호감이 천천히 회복됩니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER",
+      "text": "위험 근무: {0} {1} · {2} {3}——같은 직무, 같은 기간에 한 사람만 내려감({4}사이클째)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING",
+      "text": "숙적·중재 중: 중매 표시가 감쇠 동결을 풀어, 호감이 회복 중입니다. 문턱 위로 돌아가면 숙적이 해제됩니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
+      "text": "\n궁합: {0}(사이클마다 첫 대화 호감 {1}, 말다툼 확률 {2})",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"최근 장","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"개인 이야기 보기","contractRevision":1,"status":"reviewed"}
+  ]
+}

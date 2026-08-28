@@ -1,0 +1,2508 @@
+{
+  "locale": "vi",
+  "family": "support",
+  "templates": [
+    {
+      "templateId": "chronicle.bestfriend.baseline.001",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} trò chuyện đến khuya, trở thành bạn thân của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.002",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} nói những điều chưa từng kể với ai.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.003",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đổi bí mật của nhau, từ đó không còn phân biệt ta người.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.004",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đêm ấy {a} và {b} nói chuyện đến sáng, chẳng ai nhắc chuyện phải ngủ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.005",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có người quen lâu mới thành bạn bè, {a} và {b} chỉ mất một đêm.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.006",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} kể cho nhau nỗi lo khó mở miệng nhất, rồi cũng trao nhau lòng tin.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.007",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không cần nói hết câu cũng hiểu điều đối phương thực sự bận tâm.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.008",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} hẹn dù ca sau bận đến đâu cũng phải để mắt giúp nhau một chút.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.009",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} nhớ lại những gì đã cùng trải, nhận ra nhau đã là người đáng tin nhất.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.010",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} kể cho {b} bí mật nhỏ vẫn giữ, {b} cũng đáp lại bằng bí mật của mình.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.011",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} ngồi yên rất lâu, dù không nói cũng biết có người bên cạnh.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.012",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} dặn nhau nghiêm túc: gặp khó thì không ai được gồng một mình.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.013",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} trò chuyện đến khuya, trở thành bạn thân của nhau. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.014",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} nói những điều chưa từng kể với ai. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.015",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đổi bí mật của nhau, từ đó không còn phân biệt ta người. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.016",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đêm ấy {a} và {b} nói chuyện đến sáng, chẳng ai nhắc chuyện phải ngủ. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.017",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có người quen lâu mới thành bạn bè, {a} và {b} chỉ mất một đêm. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.018",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} kể cho nhau nỗi lo khó mở miệng nhất, rồi cũng trao nhau lòng tin. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.019",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không cần nói hết câu cũng hiểu điều đối phương thực sự bận tâm. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.020",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} hẹn dù ca sau bận đến đâu cũng phải để mắt giúp nhau một chút. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.021",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} nhớ lại những gì đã cùng trải, nhận ra nhau đã là người đáng tin nhất. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.022",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} kể cho {b} bí mật nhỏ vẫn giữ, {b} cũng đáp lại bằng bí mật của mình. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.023",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} ngồi yên rất lâu, dù không nói cũng biết có người bên cạnh. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.024",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} dặn nhau nghiêm túc: gặp khó thì không ai được gồng một mình. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.001",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đã chăm sóc {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.002",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giúp {other} xử lý vết thương.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.003",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thay băng cho {other}, động tác rất nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.004",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} miệng bảo không sao, vẫn để {actor} trông cả ngày.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.005",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} canh bên {other}, thuốc cũng làm nguội sẵn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.006",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kiểm vết thương giúp {other}, rồi xác nhận không sót chỗ nào cần xử lý.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.007",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chuẩn bị đủ đồ chăm sóc, kiên nhẫn ngồi cùng {other} đến khi xử lý xong.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.008",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} đi lại khó khăn, {actor} đưa từng thứ cần thiết đến tận tay.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.009",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc {other} nghỉ đúng giờ, đến khi thấy người ấy yên vị mới rời.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.010",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} buộc lại băng lỏng của {other}, động tác chắc và kỹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.011",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} canh {other} quan sát một lúc, xác nhận tình trạng không xấu thêm.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.012",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giải thích các bước chăm sóc cho {other}, để người ấy biết sắp tới phải hồi phục thế nào.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.013",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đã chăm sóc {other}. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.014",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giúp {other} xử lý vết thương. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.015",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thay băng cho {other}, động tác rất nhẹ. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.016",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} miệng bảo không sao, vẫn để {actor} trông cả ngày. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.017",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} canh bên {other}, thuốc cũng làm nguội sẵn. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.018",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kiểm vết thương giúp {other}, rồi xác nhận không sót chỗ nào cần xử lý. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.019",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chuẩn bị đủ đồ chăm sóc, kiên nhẫn ngồi cùng {other} đến khi xử lý xong. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.020",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} đi lại khó khăn, {actor} đưa từng thứ cần thiết đến tận tay. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.021",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc {other} nghỉ đúng giờ, đến khi thấy người ấy yên vị mới rời. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.022",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} buộc lại băng lỏng của {other}, động tác chắc và kỹ. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.023",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} canh {other} quan sát một lúc, xác nhận tình trạng không xấu thêm. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.024",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giải thích các bước chăm sóc cho {other}, để người ấy biết sắp tới phải hồi phục thế nào. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.001",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ở bên {other} cho đến khi người ấy dịu lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.002",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bình tĩnh trở lại nhờ {actor} ở bên.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.003",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chẳng giảng đạo lý, chỉ ngồi bên {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.004",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} muốn cảm ơn, {actor} vẫy tay bảo người ấy đỡ tốn sức.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.005",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có đêm chỉ biết chịu cho qua, may mà {other} không chịu một mình.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.006",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} không giục {other} vững lên, chỉ ở bên để người ấy chống qua cơn khó nhất.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.007",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nghe hết lời đứt quãng của {other}, đón lấy từng câu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.008",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} một lúc không nói được, {actor} bèn ngồi yên bên cạnh đợi.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.009",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đưa {other} một cốc nước, rồi để xung quanh đủ yên.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.010",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc {other} thở chậm, đến khi nhịp gấp cuối cùng êm lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.011",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} để {other} biết lần mất kiểm soát này sẽ không bị đem ra cười, cũng chẳng phải gánh một mình.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.012",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cùng {other} gỡ dần cảm xúc rối, cuối cùng mới đứng dậy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.013",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ở bên {other} cho đến khi người ấy dịu lại. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.014",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bình tĩnh trở lại nhờ {actor} ở bên. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.015",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chẳng giảng đạo lý, chỉ ngồi bên {other}. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.016",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} muốn cảm ơn, {actor} vẫy tay bảo người ấy đỡ tốn sức. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.017",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có đêm chỉ biết chịu cho qua, may mà {other} không chịu một mình. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.018",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} không giục {other} vững lên, chỉ ở bên để người ấy chống qua cơn khó nhất. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.019",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nghe hết lời đứt quãng của {other}, đón lấy từng câu. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.020",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} một lúc không nói được, {actor} bèn ngồi yên bên cạnh đợi. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.021",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đưa {other} một cốc nước, rồi để xung quanh đủ yên. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.022",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc {other} thở chậm, đến khi nhịp gấp cuối cùng êm lại. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.023",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} để {other} biết lần mất kiểm soát này sẽ không bị đem ra cười, cũng chẳng phải gánh một mình. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.024",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cùng {other} gỡ dần cảm xúc rối, cuối cùng mới đứng dậy. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.001",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} dạy {other} làm việc tận tay.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.002",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chỉ {other} vài mẹo riêng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.003",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} diễn lại một lượt, {other} nhìn không chớp mắt.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.004",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} bảo chỉ dạy một lần, {other} quyết về luyện lén một mình.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.005",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có nghề không học được từ bảng ca, {actor} đã truyền cho {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.006",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} diễn trọn một lượt, rồi để {other} tự thử.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.007",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} làm sai một bước, {actor} dừng lại chỉ chỗ, không làm thay.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.008",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tách bước phức tạp thành vài đoạn, để {other} luyện từng đoạn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.009",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} quan sát động tác của {other}, đưa một cách sửa dùng ngay được.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.010",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} cuối cùng làm đúng, {actor} không keo một câu khẳng định rõ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.011",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc hai lần chỗ dễ sai, xác nhận {other} thực sự nhớ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.012",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} để {other} làm lại từ đầu, chỉ lên tiếng khi thật cần.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.013",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} dạy {other} làm việc tận tay. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.014",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chỉ {other} vài mẹo riêng. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.015",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} diễn lại một lượt, {other} nhìn không chớp mắt. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.016",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} bảo chỉ dạy một lần, {other} quyết về luyện lén một mình. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.017",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có nghề không học được từ bảng ca, {actor} đã truyền cho {other}. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.018",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} diễn trọn một lượt, rồi để {other} tự thử. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.019",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} làm sai một bước, {actor} dừng lại chỉ chỗ, không làm thay. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.020",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tách bước phức tạp thành vài đoạn, để {other} luyện từng đoạn. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.021",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} quan sát động tác của {other}, đưa một cách sửa dùng ngay được. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.022",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {other} cuối cùng làm đúng, {actor} không keo một câu khẳng định rõ. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.023",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắc hai lần chỗ dễ sai, xác nhận {other} thực sự nhớ. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.024",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} để {other} làm lại từ đầu, chỉ lên tiếng khi thật cần. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.001",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.002",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; khóe mắt {actor} ướt ngay, {other} không lấy chuyện ấy ra đùa.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.003",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; cảm xúc hiện trên mặt {actor}, {other} nhìn một cái đã hiểu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.004",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; {actor} mất một lúc mới giữ vững giọng, {other} vẫn ở bên.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.005",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; nước mắt không làm chuyện đứt đoạn, {actor} và {other} chỉ chậm nhịp lại một chút.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.006",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.007",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; khóe mắt {actor} ướt ngay, {other} không lấy chuyện ấy ra đùa. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.008",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; cảm xúc hiện trên mặt {actor}, {other} nhìn một cái đã hiểu. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.009",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; {actor} mất một lúc mới giữ vững giọng, {other} vẫn ở bên. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.010",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói rồi khóc, {other} lặng lẽ đưa một tờ giấy; nước mắt không làm chuyện đứt đoạn, {actor} và {other} chỉ chậm nhịp lại một chút. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.001",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.002",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} luôn để ý {other} có thoải mái không, giữ mực rất nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.003",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} không giục, để {other} đủ thời gian đáp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.004",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; cả động tác nhỏ nhất cũng mang sự chăm sóc, {other} tự nhận ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.005",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} hạ giọng và động tác, để khoảng bên nhau không chút căng thẳng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.006",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.007",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} luôn để ý {other} có thoải mái không, giữ mực rất nhẹ. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.008",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} không giục, để {other} đủ thời gian đáp. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.009",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; cả động tác nhỏ nhất cũng mang sự chăm sóc, {other} tự nhận ra. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.010",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cả lúc than cũng nói khẽ, {other} nghe hết sức chăm chú; {actor} hạ giọng và động tác, để khoảng bên nhau không chút căng thẳng. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.001",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.002",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; động tác {actor} nhanh hơn lời, {other} mất một lúc mới theo kịp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.003",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; cảm xúc đến đột ngột, {actor} rồi thu chú ý về {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.004",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; {other} không để sự nóng nảy nhất thời của {actor} làm rối, chuyện mới trôi.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.005",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; {actor} phản ứng thẳng, cả khoảng dừng cũng thừa.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.006",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.007",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; động tác {actor} nhanh hơn lời, {other} mất một lúc mới theo kịp. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.008",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; cảm xúc đến đột ngột, {actor} rồi thu chú ý về {other}. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.009",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; {other} không để sự nóng nảy nhất thời của {actor} làm rối, chuyện mới trôi. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.010",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vừa càu nhàu vừa đổ hết nỗi khổ, {other} nghe từ đầu đến cuối; {actor} phản ứng thẳng, cả khoảng dừng cũng thừa. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.001",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.002",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; trận ồn ấy khiến người gần biết họ đang ở bên nhau.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.003",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; {actor} không cố hạ giọng, người cách một đoạn cũng nghe rõ.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.004",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; tiếng lan rất xa, khoảng bên nhau lại không vì thế mà dừng.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.005",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; khi xung quanh yên lại, tiếng {actor} lúc nãy như còn trong không khí.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.006",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.007",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; trận ồn ấy khiến người gần biết họ đang ở bên nhau. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.008",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; {actor} không cố hạ giọng, người cách một đoạn cũng nghe rõ. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.009",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; tiếng lan rất xa, khoảng bên nhau lại không vì thế mà dừng. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.010",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nỗi khổ của {actor}, nửa khu nghỉ cũng nghe thấy; khi xung quanh yên lại, tiếng {actor} lúc nãy như còn trong không khí. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.001",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.002",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; {actor} hỏi đi hỏi lại phản ứng của {other} mới dần nới.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.003",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; một tiếng động nhỏ cũng làm {actor} phân tâm, {other} kiên nhẫn đợi chú ý trở lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.004",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; {actor} làm mỗi động tác hết sức thận trọng, {other} không giục.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.005",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; đến khi chuyện xong, vai căng của {actor} mới buông.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.006",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.007",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; {actor} hỏi đi hỏi lại phản ứng của {other} mới dần nới. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.008",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; một tiếng động nhỏ cũng làm {actor} phân tâm, {other} kiên nhẫn đợi chú ý trở lại. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.009",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; {actor} làm mỗi động tác hết sức thận trọng, {other} không giục. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.010",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lải nhải lo lắng mãi, {other} gỡ giúp người ấy từng điều; đến khi chuyện xong, vai căng của {actor} mới buông. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.001",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đổ cả bụng nỗi khổ cho {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.002",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} nghe {actor} tâm sự rất lâu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.003",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể từng chuyện tệ hôm nay cho {other} nghe.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.004",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} hỏi {other} ngày thế này bao giờ mới hết, {other} không đáp được.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.005",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đổ hết nỗi khổ, {actor} thấy lớp đất phù trên vai cũng nhẹ hơn.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.006",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể cho {other} sự bực cả ngày tích lại, cuối cùng không phải nén nữa.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.007",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không vội khuyên, chỉ để {actor} than hết những gì muốn than.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.008",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể từ chuyện trục trặc nhỏ nhất, đến cuối mới nói điều thật đè trong lòng.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.009",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói liền rất lâu, {other} không lộ vẻ sốt ruột.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.010",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} thỉnh thoảng hỏi một câu, để {actor} biết lời mình thực sự có người nghe.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.011",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tách nỗi oan và cơn giận lẫn lộn cho rõ, cảm xúc cũng dần dịu.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.012",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {actor} than đến hết sức, {other} vẫn ngồi bên thêm một lúc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.013",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đổ cả bụng nỗi khổ cho {other}. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.014",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} nghe {actor} tâm sự rất lâu. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.015",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể từng chuyện tệ hôm nay cho {other} nghe. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.016",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} hỏi {other} ngày thế này bao giờ mới hết, {other} không đáp được. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.017",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đổ hết nỗi khổ, {actor} thấy lớp đất phù trên vai cũng nhẹ hơn. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.018",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể cho {other} sự bực cả ngày tích lại, cuối cùng không phải nén nữa. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.019",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không vội khuyên, chỉ để {actor} than hết những gì muốn than. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.020",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kể từ chuyện trục trặc nhỏ nhất, đến cuối mới nói điều thật đè trong lòng. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.021",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói liền rất lâu, {other} không lộ vẻ sốt ruột. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.022",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} thỉnh thoảng hỏi một câu, để {actor} biết lời mình thực sự có người nghe. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.023",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tách nỗi oan và cơn giận lẫn lộn cho rõ, cảm xúc cũng dần dịu. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.024",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi {actor} than đến hết sức, {other} vẫn ngồi bên thêm một lúc. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.001",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cảm xúc của {actor} sắp không nén nổi, {other} ngồi bên người ấy một lúc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.002",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói mà luôn siết chặt hai tay, {other} thấy lần căng thẳng này không còn là bực thường.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.003",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mấy lần nói không nên lời, {other} bèn chậm nhịp, đợi từng câu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.004",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Hơi thở {actor} ngày càng gấp, {other} trước hết ngồi bên cho cảm xúc ổn rồi mới nghe tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.005",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thừa nhận mình sắp không chống nổi, {other} không coi câu ấy là yếu đuối.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.006",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói hết nỗi lo xấu nhất, {other} chỉ đáp những gì chắc chắn được.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.007",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cảm xúc {actor} mấy lần dâng lên, {other} không rời.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.008",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chắn hộ {actor} những xáo trộn thừa, để lần tâm sự này không phải kết thúc vội.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.009",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói xong vẫn im rất lâu, {other} ngồi bên đến khi sự căng nới một chút.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.010",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lo mãi mình sẽ mất kiểm soát, {other} bèn để chú ý vào việc nhỏ trước mắt.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.011",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cuối cùng nói căng thẳng thực sự từ đâu, giọng đã run rõ.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.012",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không hứa mọi sự sẽ ổn, chỉ nói nghiêm túc với {actor} rằng không cần đối mặt một mình.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.013",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cảm xúc của {actor} sắp không nén nổi, {other} ngồi bên người ấy một lúc. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.014",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói mà luôn siết chặt hai tay, {other} thấy lần căng thẳng này không còn là bực thường. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.015",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mấy lần nói không nên lời, {other} bèn chậm nhịp, đợi từng câu. Nơi oxy và thời gian đều quý, sẵn lòng dừng lại đã là điều khó có.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.016",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Hơi thở {actor} ngày càng gấp, {other} trước hết ngồi bên cho cảm xúc ổn rồi mới nghe tiếp. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.017",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thừa nhận mình sắp không chống nổi, {other} không coi câu ấy là yếu đuối. Khí trong ống vẫn cuồn cuộn chảy, họ cuối cùng mới có lúc nghe hết lời của nhau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.018",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói hết nỗi lo xấu nhất, {other} chỉ đáp những gì chắc chắn được. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.019",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cảm xúc {actor} mấy lần dâng lên, {other} không rời. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.020",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chắn hộ {actor} những xáo trộn thừa, để lần tâm sự này không phải kết thúc vội. Thuộc địa không giải nổi mọi khó khăn, ít ra ở đây vẫn có người sẵn lòng cùng gánh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.021",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói xong vẫn im rất lâu, {other} ngồi bên đến khi sự căng nới một chút. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.022",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lo mãi mình sẽ mất kiểm soát, {other} bèn để chú ý vào việc nhỏ trước mắt. Đèn báo sớm trở lại yên lặng, nhưng tấm lòng tốt ấy vẫn được ghi lại nghiêm túc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.023",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cuối cùng nói căng thẳng thực sự từ đâu, giọng đã run rõ. Công việc vẫn chờ phía xa, nhưng sự săn sóc ấy trước hết giúp người ta đứng vững lại.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.024",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không hứa mọi sự sẽ ổn, chỉ nói nghiêm túc với {actor} rằng không cần đối mặt một mình. Trước khi ca làm kế tiếp bắt đầu, cả hai đều có sức đối mặt hơn lúc nãy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    }
+  ]
+}

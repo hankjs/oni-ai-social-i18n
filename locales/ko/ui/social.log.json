@@ -1,0 +1,72 @@
+{
+  "locale": "ko",
+  "namespace": "social.log",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "사이클{0} · {1}와 {2} [{3}]{4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "사이클{0} · {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "사이클{0} · {1}와 함께 [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "사이클{0} · [{1}]{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " 호감{0:+#;-#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " 스트레스{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " 스트레스{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " 사기{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "사이클{0} · {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— 큰일 ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— 최근 ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

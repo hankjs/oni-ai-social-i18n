@@ -1,0 +1,121 @@
+{
+  "locale": "en",
+  "family": "jealousy",
+  "candidates": [
+    {
+      "candidateId": "storylet.jealousy.base.001",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I saw you two. Having a lovely chat, were we?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's not what you think!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.002",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I see. I'm on the schedule, but someone's in your heart."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Let me explain..."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.003",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Does wire repair really require standing that close?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's standard operating distance!"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "I... hear a pipe leaking somewhere. Bye."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.004",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A whole shift away, and I come back to this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We were literally just counting hatches!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.005",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You laughed at their airlock joke. You never laugh at mine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Theirs was about a DIFFERENT airlock."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "I'll just... see myself out."
+        }
+      ]
+    }
+  ]
+}

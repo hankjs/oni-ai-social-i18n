@@ -1,0 +1,547 @@
+{
+  "locale": "ko",
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "사교",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "식민지 관계를 보고 중매와 이간 표시를 관리합니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "중매",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "이간",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "표시 지우기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "한계",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "관계 총람",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "대기 중",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "대기 중인 사교 이벤트",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "여기에 고백, 이별, 화해, 숙적 맺기가 나열됩니다. 결과는 이미 잠겼습니다. 이벤트를 누르면 바로 주선할 수 있고, 카운트다운이 끝나기를 기다려도 됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "지금은 대기 중인 사교 이벤트가 없습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "【{0}】{1} → {2} · {3}사이클 남음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "【{0}】{1} → {2} · 안전한 만남을 기다리는 중",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "지금 발생",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}　[{1}]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "이벤트가 요청되었고, 안전한 때를 기다리는 중",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "식민지 관계",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0}개의 관계",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "복제인간 이름 검색",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "관계: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "전체",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "우호",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "연애",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "충돌",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "표시: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "표시 없음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "정렬: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "이름",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "관계 수",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "최고 호감",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "선별 조건에 맞는 관계가 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "닫기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "돌아가기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "이전 쪽",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "다음 쪽",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "{0}/{1}쪽",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "고를 수 있는 복제인간이 없습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "조작 실패: 사교 시스템이 아직 준비되지 않았습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · 두 번째 사람 고르기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "{0}을 골랐습니다. 다른 복제인간을 골라 조작을 마치세요.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "첫 번째 복제인간을 고르세요. 중매 효과: 대화 호감 +{0}, 고백 성공률 +{1}%, 사과 성공률 +{2}%, 말다툼 확률 ×{3}, 절친 속마음 기회와 AI 대화 빈도가 두 배.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "첫 번째 복제인간을 고르세요. 이간은 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "복제인간 한 명을 골라, 그와 관련된 모든 중매와 이간 표시를 지웁니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "한계",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "첫 번째 복제인간을 고르세요. 한계는 이 쌍의 관계가 가장 좋거나 나쁠 수 있는 단계를 제한합니다. 교류는 막지 않고, 관계가 선을 넘으려 할 때만 가로막습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "가장 좋은 관계:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "가장 나쁜 관계:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "제한 없음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "가장 좋은 관계 고르기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "가장 나쁜 관계 고르기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "반대쪽 한계와 맞는 단계만 보여 줍니다. 고르면 바로 적용되지만, 현재 관계를 즉시 바꾸지는 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "한계: {0} × {1} → 가장 좋음 {2} · 가장 나쁨 {3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "설정 실패: 가장 나쁜 관계는 가장 좋은 관계보다 나을 수 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 이간: {5}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "{0}사이클 후 이별",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "결렬 {0}사이클 남음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "숙적·동결 중",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "전임 기간 {0}사이클 남음",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "오늘이 기념일입니다!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "기념일까지 {0}사이클",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "연인 {0}쌍 · 냉전 {1}쌍 · 절친 {2}쌍",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[완료] {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[완료] {0}의 표시 {1}개를 지웠습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "중매: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "이간: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "표시 해제: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "{0}을 골랐습니다. 다른 복제인간을 고른 뒤 같은 단축키를 한 번 더 누르세요",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "{0} 선택을 취소했습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "{0}의 표시 {1}개를 지웠습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "연대기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "식민지 연대기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "아직 이벤트 기록이 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0}은 이미 식민지에 없어, 이동할 수 없습니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "인물:전체",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "인물:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "지우기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "누구의 이야기를 볼까요?",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "복제인간 한 명을 고르면, 기록은 그 사람이 참여한 사건만 보여 줍니다. 그 사람의 한 생애입니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "진단 보고서 내보내기",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "먼저 Mod 설정에서 「로컬 플레이 데이터」를 켜세요",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "진단 보고서를 내보냈습니다: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "진단 보고서 내보내기에 실패했습니다: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "고백",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "제{0}장 · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "사이클{0}—{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "사이클{1}부터 {0}의 일상이 조금씩 쌓였고, 사이클{2}에 {3}이 이 삶에 전환점을 만들었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "사이클{1}부터 {2}까지, {0}는 일·식사·휴식 사이에서 곁의 사람들과 천천히 자신의 삶을 세웠습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "「{0}」를 겪은 뒤, {1}는 그것이 남긴 영향을 안고 다음 삶으로 들어갔습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "이 평범한 순간들은 큰일로 기억되지 않았지만, 모여 {0}의 식민지 삶을 이루었습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"이전","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"이후","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"이 경험은 아직 이어지고 있습니다.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"기록은 사이클 {0}부터 시작됩니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"일부 이야기 장을 원본 사건 사실에서 복구했습니다.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"삶의 각 장을 대표하는 경험을 골라 보여 주며, 완전한 기록은 아닙니다. 목격했거나 휘말린 중요한 사건도 포함됩니다.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[휘말림]","contractRevision":1,"status":"reviewed"}
+  ]
+}

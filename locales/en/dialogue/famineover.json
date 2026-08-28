@@ -1,0 +1,54 @@
+{
+  "locale": "en",
+  "family": "famineover",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There is food again. Nobody asks what it is."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The crisis is over. People sit a little further apart than they used to."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The larder is full again. Nobody checked the label."
+        }
+      ]
+    }
+  ]
+}

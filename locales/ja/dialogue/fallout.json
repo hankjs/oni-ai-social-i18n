@@ -1,0 +1,90 @@
+{
+  "locale": "ja",
+  "family": "fallout",
+  "candidates": [
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "もういい。しばらく話しかけないで。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "望むところだ。食卓も隣に座るな。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "しばらく頭を冷やそう。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "分かった。配管の件は、自分でなんとかしろ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "借りてた道具、お前のロッカーの上に置いといた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "うん。これからは各自のでやろう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ずっと、私のことをそう見てたんだ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……お前もだ。ここまでにしよう。"
+        }
+      ]
+    }
+  ]
+}

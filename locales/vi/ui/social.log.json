@@ -1,0 +1,72 @@
+{
+  "locale": "vi",
+  "namespace": "social.log",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "Chu kỳ {0} · {1} và {2} [{3}]{4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "Chu kỳ {0} · {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "Chu kỳ {0} · với {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "Chu kỳ {0} · [{1}]{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " thiện cảm{0:+#;-#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " căng thẳng{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " căng thẳng{0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " sĩ khí{0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "Chu kỳ {0} · {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— Cột mốc ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— Gần đây ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

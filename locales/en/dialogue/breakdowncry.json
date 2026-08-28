@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "breakdowncry",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncry.base.001",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How long has he been crying."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Don't look at me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.002",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want me to get someone?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Doesn't matter who."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.003",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone stopped what they were doing."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's why I can't stop."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.004",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Anything I say right now is useless."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then don't say it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.005",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Oxygen's fine. Water's fine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then what am I crying about."
+        }
+      ]
+    }
+  ]
+}

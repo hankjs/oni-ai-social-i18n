@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "hazardeased",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardeased.base.001",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты вчера тоже спускался."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Просто очередь дошла."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.002",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Когда маска запотевает, ты материшься?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Матюсь. И очень грязно."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.003",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тот ярус на самом деле не так уж плох."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Именно так плох."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.004",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ладно. Забей."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Угу."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardeased.base.005",
+      "storyletId": "HazardEased",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В следующий раз спустимся вместе. Быстрее."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Идёт."
+        }
+      ]
+    }
+  ]
+}

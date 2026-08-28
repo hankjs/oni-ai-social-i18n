@@ -1,0 +1,1262 @@
+{
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "meaning": "{0}: event type; {1}/{2}: names; {3}: remaining cycles.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "event type",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "first name",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "second name",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "remaining cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "meaning": "{0}: event type; {1}/{2}: names.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "event type",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "first name",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "second name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "meaning": "{0}: pending row; {1}: action.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "pending row",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "action",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "meaning": "{0}: relationship count for one duplicant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "relationship count for one duplicant",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "meaning": "{0}: active relationship category.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active relationship category",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "meaning": "{0}: active director-mark filter.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active director-mark filter",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "meaning": "{0}: active group ordering.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "active group ordering",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "meaning": "{0}: current page, {1}: total pages.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "current page, {1}: total pages",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "meaning": "{0}: action label (matchmake/block/clear).",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "action label (matchmake/block/clear)",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "meaning": "{0}: name of the already selected duplicant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the already selected duplicant",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "meaning": "{0}: chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "3",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "meaning": "{0}: 当前最好档位名。可选完整稳定阶梯(宿敌..恋人)或不限。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "当前最好档位名。可选完整稳定阶梯(宿敌",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "meaning": "{0}: 当前最差档位名。可选完整稳定阶梯(宿敌..恋人)或不限。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "当前最差档位名。可选完整稳定阶梯(宿敌",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "meaning": "{0}/{1}: names of the pair; {2}/{3}: 上限/下限档位名。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names of the pair",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "上限/下限档位名。",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "meaning": "{0}: cohesion state, {1}: cohesion value, {2}: living duplicants, {3}: relationship count, {4}: match marks, {5}: block marks.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cohesion state, {1}: cohesion value, {2}: living duplicants, {3}: relationship count, {4}: match marks, {5}: block marks",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "3",
+          "kind": "text"
+        },
+        {
+          "token": "4",
+          "name": "4",
+          "kind": "text"
+        },
+        {
+          "token": "5",
+          "name": "5",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "meaning": "{0}: cycles until the cold war ends in a breakup.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cycles until the cold war ends in a breakup",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "meaning": "{0}: remaining fallout cycles.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "remaining fallout cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "meaning": "{0}: remaining ex-partner cycles.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "remaining ex-partner cycles",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "meaning": "{0}: cycles until the next anniversary.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "cycles until the next anniversary",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "meaning": "{0}: couples, {1}: cold wars, {2}: mutual best-friend pairs.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "couples, {1}: cold wars, {2}: mutual best-friend pairs",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "meaning": "{0}: completed action description.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "completed action description",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "meaning": "{0}: duplicant name, {1}: cleared mark count.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "duplicant name, {1}: cleared mark count",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "meaning": "{0}/{1}: names of the marked pair.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "names of the marked pair",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "meaning": "{0}: name of the duplicant picked as the first half of a pair.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the duplicant picked as the first half of a pair",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "meaning": "{0}: name of the duplicant whose selection was cancelled.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "name of the duplicant whose selection was cancelled",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "meaning": "{0}: duplicant name, {1}: cleared mark count.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "duplicant name, {1}: cleared mark count",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "meaning": "{0}: 纪事里被点击、但已不在场的复制人名(死亡或离开)。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "纪事里被点击、但已不在场的复制人名(死亡或离开)。",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "meaning": "事件日志按人过滤:未选时的按钮文案。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "meaning": "{0}: 被过滤的复制人名。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "被过滤的复制人名。",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "meaning": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "meaning": "{0}: local report path.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "local report path",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "meaning": "{0}: safe local error message.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "safe local error message",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "meaning": "Pending-safe event label; must not reveal the locked confession outcome.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "meaning": "{0}: chapter number; {1}: localized anchor event name.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "chapter number",
+          "kind": "number"
+        },
+        {
+          "token": "1",
+          "name": "anchor event name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "meaning": "{0}: first cycle; {1}: last cycle.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "first cycle",
+          "kind": "number"
+        },
+        {
+          "token": "1",
+          "name": "last cycle",
+          "kind": "number"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "meaning": "{0}: subject name; {1}: chapter start cycle; {2}: anchor cycle; {3}: anchor event name.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "subject name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "chapter start cycle",
+          "kind": "number"
+        },
+        {
+          "token": "2",
+          "name": "anchor cycle",
+          "kind": "number"
+        },
+        {
+          "token": "3",
+          "name": "anchor event name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "meaning": "{0}: subject name; {1}: chapter start cycle; {2}: chapter end cycle.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "subject name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "chapter start cycle",
+          "kind": "number"
+        },
+        {
+          "token": "2",
+          "name": "chapter end cycle",
+          "kind": "number"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "meaning": "Closing line after a chapter with a turning point. {0}: localized anchor event name; {1}: subject name.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "anchor event name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "subject name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "meaning": "{0}: subject name.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "subject name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER",
+      "meaning": "Navigate to older history.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER",
+      "meaning": "Navigate to newer history.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER",
+      "meaning": "Shown after an open personal-story chapter.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM",
+      "meaning": "The earliest history available to this installation. {0}: cycle.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [{"token": "0", "name": "first recorded cycle", "kind": "number"}],
+      "richText": false,
+      "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT",
+      "meaning": "Recoverable notice shown after damaged derived chapters were rebuilt from facts.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 300
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO",
+      "meaning": "Explains that personal story is a chapter-based biography which may include witnessed or indirectly involved events.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 240
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE",
+      "meaning": "Marks a personal-story fact where the selected person is only the contextual ThirdKey, not a direct diary participant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 80
+    }
+  ]
+}

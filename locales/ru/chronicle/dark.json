@@ -1,0 +1,3278 @@
+{
+  "locale": "ru",
+  "family": "dark",
+  "templates": [
+    {
+      "templateId": "chronicle.brawl.baseline.001",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ввязались в драку.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.002",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ссора {a} и {b} перешла в кулаки.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.003",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сцепились, и инструменты рассыпались по полу.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.004",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Драка вышла некрасивой, и {a} с {b} оба получили раны.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.005",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Пока не подошли разнимать, {a} и {b} не захотели разжать руки.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.006",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вовсе потеряли сдержанность, и спор в конце концов стал дракой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.007",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} ввязались в драку. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.008",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ссора {a} и {b} перешла в кулаки. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.009",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} сцепились, и инструменты рассыпались по полу. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.010",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Драка вышла некрасивой, и {a} с {b} оба получили раны. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.011",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Пока не подошли разнимать, {a} и {b} не захотели разжать руки. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.012",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вовсе потеряли сдержанность, и спор в конце концов стал дракой. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.001",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Еду восполнили, и все выдохнули.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.002",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В кладовой снова появился запас, и жевание вернулось.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.003",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Угроза миновала, и никто не спрашивал, откуда взялась еда.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.004",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Вовремя поданная пища остановила панику, и колония избежала худшего.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.005",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Запас зерна снова перешёл опасную черту, и угроза голода на время отступила.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.006",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Самый тяжёлый час без еды прошёл, и всем уже не нужно было считать последние куски.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.007",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Еду восполнили, и все выдохнули. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.008",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В кладовой снова появился запас, и жевание вернулось. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.009",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Угроза миновала, и никто не спрашивал, откуда взялась еда. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.010",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Вовремя поданная пища остановила панику, и колония избежала худшего. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.011",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Запас зерна снова перешёл опасную черту, и угроза голода на время отступила. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.012",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Самый тяжёлый час без еды прошёл, и всем уже не нужно было считать последние куски. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.001",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} схватились из-за последнего куска.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.002",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Сильный голод не знает приличий: {actor} и {other} из-за глотка еды пошли на открытый разрыв.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.003",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} нацелился на паёк {other}, и кулак пришёл раньше рассудка.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.004",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда голод дошёл до предела, {actor} начал с {other} смертельную схватку за еду.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.005",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Последней пищи не хватало, чтобы выжили оба, и между {actor} и {other} вспыхнул жестокий конфликт.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.006",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} в безвыходности сделал {other} соперником за еду, и дело уже нельзя было вернуть.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.007",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} и {other} схватились из-за последнего куска. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.008",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Сильный голод не знает приличий: {actor} и {other} из-за глотка еды пошли на открытый разрыв. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.009",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} нацелился на паёк {other}, и кулак пришёл раньше рассудка. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.010",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда голод дошёл до предела, {actor} начал с {other} смертельную схватку за еду. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.011",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Последней пищи не хватало, чтобы выжили оба, и между {actor} и {other} вспыхнул жестокий конфликт. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.012",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} в безвыходности сделал {other} соперником за еду, и дело уже нельзя было вернуть. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.001",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дни без еды наконец прошли.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.002",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Амбар снова наполнился, и о некоторых вещах все молча больше не вспоминали.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.003",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Снова пришли дни, когда можно наесться, словно голода не бывало.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.004",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Снабжение пищей снова стало устойчивым, и голод, что долго висел над колонией, объявили оконченным.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.005",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Все наконец смогли есть обычными порциями, но напряжение после перебоя с едой сразу не ушло.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.006",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Голод кончился, и выжившие начали заново устраивать жизнь, сбитую нехваткой пищи.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.007",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дни без еды наконец прошли. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.008",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Амбар снова наполнился, и о некоторых вещах все молча больше не вспоминали. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.009",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Снова пришли дни, когда можно наесться, словно голода не бывало. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.010",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Снабжение пищей снова стало устойчивым, и голод, что долго висел над колонией, объявили оконченным. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.011",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Все наконец смогли есть обычными порциями, но напряжение после перебоя с едой сразу не ушло. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.012",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Голод кончился, и выжившие начали заново устраивать жизнь, сбитую нехваткой пищи. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.001",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Амбар показал дно, и паника пошла по колонии.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.002",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Последний каша-батончик тоже кончился, и никто не смел думать о завтра.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.003",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Весть о голодных животах шла быстрее кислорода.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.004",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Нынешнего запаса уже не хватало на всех, и колония получила явное предупреждение о перебое с едой.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.005",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Съедобный запас быстро таял, и каждый стал смотреть, что ещё останется на следующий приём пищи.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.006",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Нехватка зерна перешла опасную черту, и паника расползалась вместе с пустеющими ячейками склада.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.007",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Амбар показал дно, и паника пошла по колонии. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.008",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Последний каша-батончик тоже кончился, и никто не смел думать о завтра. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.009",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Весть о голодных животах шла быстрее кислорода. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.010",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Нынешнего запаса уже не хватало на всех, и колония получила явное предупреждение о перебое с едой. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.011",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Съедобный запас быстро таял, и каждый стал смотреть, что ещё останется на следующий приём пищи. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.012",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Нехватка зерна перешла опасную черту, и паника расползалась вместе с пустеющими ячейками склада. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.001",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе вынесли опасную работу, и между ними явилась дружба ценой жизни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.002",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Выйдя живыми из опасной зоны, {a} и {b} смотрели друг на друга уже иначе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.003",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "На грани жизни {a} и {b} никто не побежал первым, и эту дружбу не подделать.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.004",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} берегли друг друга на опасной работе и, вернувшись целыми, получили ещё долю крепкого доверия.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.005",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе взяли на себя дело высокого риска, и совместно вынесенное сблизило их.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.006",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Опасности от компании не стало меньше, но {a} и {b} оба знали, что стоят не одни.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.007",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе вынесли опасную работу, и между ними явилась дружба ценой жизни. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.008",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Выйдя живыми из опасной зоны, {a} и {b} смотрели друг на друга уже иначе. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.009",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "На грани жизни {a} и {b} никто не побежал первым, и эту дружбу не подделать. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.010",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} берегли друг друга на опасной работе и, вернувшись целыми, получили ещё долю крепкого доверия. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.011",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} вместе взяли на себя дело высокого риска, и совместно вынесенное сблизило их. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.012",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Опасности от компании не стало меньше, но {a} и {b} оба знали, что стоят не одни. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.001",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та малая обида {actor} на {other} мало-помалу рассеялась.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.002",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} понял: опасную работу кому-то делать надо, и {other} винить не следует.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.003",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Время сточило тот жар, и {actor} смотрел на {other} уже куда спокойнее.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.004",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда распределение работ стало честнее, накопленная у {actor} обида на {other} за опасный труд начала сходить.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.005",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, что {other} тоже несёт положенный риск, и долгое недовольство наконец смягчилось.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.006",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Разрыв в опасности больше не рос, и {actor} готов был перестать возлагать вину на {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.007",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та малая обида {actor} на {other} мало-помалу рассеялась. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.008",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} понял: опасную работу кому-то делать надо, и {other} винить не следует. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.009",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Время сточило тот жар, и {actor} смотрел на {other} уже куда спокойнее. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.010",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда распределение работ стало честнее, накопленная у {actor} обида на {other} за опасный труд начала сходить. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.011",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, что {other} тоже несёт положенный риск, и долгое недовольство наконец смягчилось. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.012",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Разрыв в опасности больше не рос, и {actor} готов был перестать возлагать вину на {other}. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.001",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} заслонил {actor} от опасной работы, и {actor} это запомнил.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.002",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда упала опасная работа, {other} принял её первым, и {actor} этого не забудет.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.003",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} остался должен {other} услугу — такую, какую платят жизнью.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.004",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} сам взял более опасную работу, и {actor} искренне записал себе эту помощь.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.005",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда риск встал перед глазами, {other} взял часть за {actor}, и {actor} не счёл это само собой разумеющимся.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.006",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} входит в опасную зону, и понял, что на этот раз о нём вправду позаботились.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.007",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} заслонил {actor} от опасной работы, и {actor} это запомнил. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.008",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда упала опасная работа, {other} принял её первым, и {actor} этого не забудет. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.009",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} остался должен {other} услугу — такую, какую платят жизнью. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.010",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} сам взял более опасную работу, и {actor} искренне записал себе эту помощь. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.011",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда риск встал перед глазами, {other} взял часть за {actor}, и {actor} не счёл это само собой разумеющимся. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.012",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} увидел, как {other} входит в опасную зону, и понял, что на этот раз о нём вправду позаботились. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.001",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова провёл день в опасной зоне и затаил обиду на лёгкое поручение {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.002",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та же шахта — почему {actor} всегда на опасный край: {actor} чем дальше думал, тем солонее становилось.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.003",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} считал праздные дни {other}, и счёт в груди становился всё толще.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.004",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} подряд нёс опасные задания, а работа {other} была относительно безопасна, и обида оттого копилась.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.005",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Разрыв в риске долго не улучшался, и {actor} начал винить в несправедливости {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.006",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова вернулся с опасной работы и, увидев {other} невредимым, уже не мог сохранить спокойствие.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.007",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова провёл день в опасной зоне и затаил обиду на лёгкое поручение {other}. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.008",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Та же шахта — почему {actor} всегда на опасный край: {actor} чем дальше думал, тем солонее становилось. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.009",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} считал праздные дни {other}, и счёт в груди становился всё толще. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.010",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} подряд нёс опасные задания, а работа {other} была относительно безопасна, и обида оттого копилась. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.011",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Разрыв в риске долго не улучшался, и {actor} начал винить в несправедливости {other}. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.012",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} снова вернулся с опасной работы и, увидев {other} невредимым, уже не мог сохранить спокойствие. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.001",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ушёл, и {actor} проглотил слова, так и не сказанные.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.002",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не дождался дня, когда {actor} наберётся смелости.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.003",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал давно приготовленные слова пустой койке {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.004",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти {other} у {actor} уже не было случая подтвердить то невысказанное чувство.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.005",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потерял {other}, к кому втайне был неравнодушен, и даже прощание опоздало.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.006",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Смерть {other} сделала долго прятавшееся чувство {actor} словами, которые уже нельзя доставить.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.007",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} ушёл, и {actor} проглотил слова, так и не сказанные. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.008",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} не дождался дня, когда {actor} наберётся смелости. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.009",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сказал давно приготовленные слова пустой койке {other}. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.010",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти {other} у {actor} уже не было случая подтвердить то невысказанное чувство. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.011",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потерял {other}, к кому втайне был неравнодушен, и даже прощание опоздало. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.012",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Смерть {other} сделала долго прятавшееся чувство {actor} словами, которые уже нельзя доставить. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.001",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потерял {other} и совсем сломался.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.002",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Койка {other} опустела, и {actor} долго не смотрел в ту сторону.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.003",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В дальнейших расписаниях смен имени {other} уже не будет, и в днях {actor} тоже осталась пустота.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.004",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти {other} {actor} лишился спутника общей жизни, и скорбь долго не отпускала.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.005",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} всё ещё инстинктивно искал {other} и лишь потом снова и снова вспоминал, что пары уже нет.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.006",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Следы будней, оставленные {other}, были всюду и не давали {actor} легко обойти факт потери.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.007",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} потерял {other} и совсем сломался. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.008",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Койка {other} опустела, и {actor} долго не смотрел в ту сторону. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.009",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В дальнейших расписаниях смен имени {other} уже не будет, и в днях {actor} тоже осталась пустота. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.010",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти {other} {actor} лишился спутника общей жизни, и скорбь долго не отпускала. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.011",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} всё ещё инстинктивно искал {other} и лишь потом снова и снова вспоминал, что пары уже нет. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.012",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Следы будней, оставленные {other}, были всюду и не давали {actor} легко обойти факт потери. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.001",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} умер, и {actor} не мог сказать, что у него на сердце.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.002",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Заклятый враг умер, и {actor} вдруг заметил, как тихо стало в коридоре.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.003",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ждал, что переспорит {other}, а теперь противника уже не было.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.004",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти заклятого врага {other} {actor} лишился того, с кем долго боролся, и на душе не стало легче, как он думал.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.005",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} когда-то ждал победы над {other}, но смерть навсегда отняла у этого спора следующий раз.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.006",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Уход {other} оборвал старую вражду, и перед итогом у {actor} осталось лишь сложное молчание.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.007",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} умер, и {actor} не мог сказать, что у него на сердце. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.008",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Заклятый враг умер, и {actor} вдруг заметил, как тихо стало в коридоре. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.009",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} ждал, что переспорит {other}, а теперь противника уже не было. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.010",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "После смерти заклятого врага {other} {actor} лишился того, с кем долго боролся, и на душе не стало легче, как он думал. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.011",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} когда-то ждал победы над {other}, но смерть навсегда отняла у этого спора следующий раз. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.012",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Уход {other} оборвал старую вражду, и перед итогом у {actor} осталось лишь сложное молчание. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.001",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили старую вражду.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.002",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} пожали руки, и давней вражде на этом конец.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.003",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ненавидеть человека тоже утомительно: {a} и {b} решили оставить.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.004",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба перестали держать вражду, и долгие отношения заклятых врагов наконец кончились.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.005",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} перестали делать из каждой встречи состязание, и отношения вышли из состояния заклятых врагов.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.006",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что дальше враждовать уже бессмысленно, и решили кончить взаимную вражду.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.007",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оставили старую вражду. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.008",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} пожали руки, и давней вражде на этом конец. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.009",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ненавидеть человека тоже утомительно: {a} и {b} решили оставить. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.010",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба перестали держать вражду, и долгие отношения заклятых врагов наконец кончились. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.011",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} перестали делать из каждой встречи состязание, и отношения вышли из состояния заклятых врагов. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.012",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} признали, что дальше враждовать уже бессмысленно, и решили кончить взаимную вражду. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.001",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} затаили вражду и стали заклятыми врагами.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.002",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "У распри {a} и {b} с тех пор явилось имя: заклятый враг.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.003",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Долгое время впереди {a} и {b} не будут смотреть друг на друга приветливо.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.004",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Конфликт {a} и {b} накопился так, что его уже нельзя было не видеть, и они официально стали заклятыми врагами.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.005",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба видели в другом соперника, которого надо превзойти, и вражда с тех пор утвердилась.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.006",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} больше не скрывали отвращения друг к другу, и так сложились отношения заклятых врагов.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.007",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} затаили вражду и стали заклятыми врагами. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.008",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "У распри {a} и {b} с тех пор явилось имя: заклятый враг. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.009",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Долгое время впереди {a} и {b} не будут смотреть друг на друга приветливо. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.010",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Конфликт {a} и {b} накопился так, что его уже нельзя было не видеть, и они официально стали заклятыми врагами. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.011",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} оба видели в другом соперника, которого надо превзойти, и вражда с тех пор утвердилась. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.012",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} и {b} больше не скрывали отвращения друг к другу, и так сложились отношения заклятых врагов. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.001",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым возложил вину на {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.002",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда стряслась беда, кто-то должен был принять вину — {actor} повёл всех, и выбрали {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.003",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Одного слова {actor} хватило, чтобы направить гнев толпы на {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.004",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех указал, что {other} должен отвечать за бедствие, и направил ярость группы на одного.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.005",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} возложил неразрешимую утрату на {other} и склонил ещё больше людей принять это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.006",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} нужен был тот, на кого падёт общий гнев, и в конце концов возложил это обвинение на {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.007",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} первым возложил вину на {other}. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.008",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда стряслась беда, кто-то должен был принять вину — {actor} повёл всех, и выбрали {other}. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.009",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Одного слова {actor} хватило, чтобы направить гнев толпы на {other}. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.010",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех указал, что {other} должен отвечать за бедствие, и направил ярость группы на одного. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.011",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} возложил неразрешимую утрату на {other} и склонил ещё больше людей принять это. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.012",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} нужен был тот, на кого падёт общий гнев, и в конце концов возложил это обвинение на {other}. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.001",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Изоляция вокруг {subject} наконец прошла.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.002",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Колония нашла новую тему, и о том деле {subject} больше никто не вспоминал.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.003",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дни тянутся — и даже гнев истекает: {subject} снова влился в толпу.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.004",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Общий гнев против {subject} мало-помалу терял силу, и обычные встречи начали возвращаться.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.005",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Колония перестала сваливать каждое зло на {subject}, и состояние изоляции оттого сошло.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.006",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} наконец перестал нести непрерывную враждебность, и дело общего гнева дошло до конца.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.007",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Изоляция вокруг {subject} наконец прошла. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.008",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Колония нашла новую тему, и о том деле {subject} больше никто не вспоминал. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.009",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Дни тянутся — и даже гнев истекает: {subject} снова влился в толпу. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.010",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Общий гнев против {subject} мало-помалу терял силу, и обычные встречи начали возвращаться. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.011",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Колония перестала сваливать каждое зло на {subject}, и состояние изоляции оттого сошло. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.012",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} наконец перестал нести непрерывную враждебность, и дело общего гнева дошло до конца. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.001",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} изолировали, и никто не хотел с ним говорить.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.002",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} вошёл в столовую, и весь стол замолк.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.003",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Теперь даже Хэтч был желаннее, чем {other}.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.004",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} отделили от обычного общения, и даже простое приветствие почти не встречало ответа.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.005",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Окружающие один за другим держали дистанцию, и будни {other} оттого стали одиноки.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.006",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} куда ни шёл, встречал обход, и эта изоляция уже разошлась по всей колонии.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.007",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} изолировали, и никто не хотел с ним говорить. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.008",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} вошёл в столовую, и весь стол замолк. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.009",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Теперь даже Хэтч был желаннее, чем {other}. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.010",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} отделили от обычного общения, и даже простое приветствие почти не встречало ответа. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.011",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Окружающие один за другим держали дистанцию, и будни {other} оттого стали одиноки. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.012",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} куда ни шёл, встречал обход, и эта изоляция уже разошлась по всей колонии. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.001",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} избил {other}, пока никто не видел.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.002",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В промежутке расписания смен {actor} перехватил {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.003",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выбрал час, когда вокруг никого не было, и выместил жар на {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.004",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} превратил гнев на {other} в внезапный удар и нанёс настоящую рану.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.005",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напал, пока {other} не был готов, и общий гнев оттого перешёл словесную черту.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.006",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} получил от {actor} избиение наедине, и дело изоляции стало насилием.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.007",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} избил {other}, пока никто не видел. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.008",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "В промежутке расписания смен {actor} перехватил {other}. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.009",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} выбрал час, когда вокруг никого не было, и выместил жар на {other}. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.010",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} превратил гнев на {other} в внезапный удар и нанёс настоящую рану. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.011",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} напал, пока {other} не был готов, и общий гнев оттого перешёл словесную черту. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.012",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} получил от {actor} избиение наедине, и дело изоляции стало насилием. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.001",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул {other} руку помощи.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.002",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сел с подносом рядом с {other}, и в стене изоляции обрушился угол.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.003",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда все обходили {other}, {actor} как раз пошёл туда.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.004",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} отказался дальше отвергать {other} и сам вернул того в обычное общение.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.005",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} встал рядом с {other}, когда все сторонились, и делом сломал изоляцию.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.006",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} подал помощь отвергнутому {other} и дал колонии увидеть, что кто-то ещё готов принять.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.007",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} протянул {other} руку помощи. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.008",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} сел с подносом рядом с {other}, и в стене изоляции обрушился угол. Кислород тёк по-прежнему и не унёс тяжести, которую оставило это.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.009",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда все обходили {other}, {actor} как раз пошёл туда. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.010",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} отказался дальше отвергать {other} и сам вернул того в обычное общение. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.011",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} встал рядом с {other}, когда все сторонились, и делом сломал изоляцию. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.012",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} подал помощь отвергнутому {other} и дал колонии увидеть, что кто-то ещё готов принять. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.001",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал его одного, прячущимся и плачущим.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.002",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} мимоходом услышал плач и ступил тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.003",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Тот, кто прятался в углу, плакал долго, и {subject} не подошёл.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.004",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} нечаянно увидел, как изолированный плачет в одиночку, и прежняя оценка начала шататься.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.005",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Спрятанный плач услышал {subject}, и боль за общим гневом впервые стала конкретной.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.006",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал те слёзы без свидетелей и после уже не мог считать изоляцию мелочью.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.007",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал его одного, прячущимся и плачущим. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.008",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} мимоходом услышал плач и ступил тише. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.009",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Тот, кто прятался в углу, плакал долго, и {subject} не подошёл. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.010",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} нечаянно увидел, как изолированный плачет в одиночку, и прежняя оценка начала шататься. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.011",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Спрятанный плач услышал {subject}, и боль за общим гневом впервые стала конкретной. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.012",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал те слёзы без свидетелей и после уже не мог считать изоляцию мелочью. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.001",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех сказал за {other} справедливое слово.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.002",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех заступился за {other}, и больше никто не сказал ни слова.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.003",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда общий гнев шёл валом, {actor} был единственным, кто согласился открыть рот за {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.004",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех усомнился в коллективном обвинении {other} и потребовал прекратить безосновательное отвержение.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.005",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} перед всеми изложил факты за {other}, и у молчаливого несогласия наконец явился голос.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.006",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пошёл на риск поссориться со всеми и настоял, чтобы {other} получил честное обращение.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.007",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех сказал за {other} справедливое слово. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.008",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех заступился за {other}, и больше никто не сказал ни слова. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.009",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Когда общий гнев шёл валом, {actor} был единственным, кто согласился открыть рот за {other}. Свет Печатного станка всё так же тёплый, но не рассеял короткой тишины на базе.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.010",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} при всех усомнился в коллективном обвинении {other} и потребовал прекратить безосновательное отвержение. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.011",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} перед всеми изложил факты за {other}, и у молчаливого несогласия наконец явился голос. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.012",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} пошёл на риск поссориться со всеми и настоял, чтобы {other} получил честное обращение. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.001",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} видел тот самосуд.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.002",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} наткнулся на ту сцену и поспешно сделал вид, что не видел.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.003",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иное, даже увиденное, можно лишь проглотить: {subject} держал рот плотно закрытым.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.004",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} своими глазами видел, как изолированного атаковали, и понял, что общий гнев уже стал насилием.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.005",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал то избиение наедине и от потрясения сразу не издал звука.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.006",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} разглядел, как происходило нападение, и после уже не мог притворяться, будто ничего не знает.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.007",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} видел тот самосуд. Сигнальные огни наконец стихли, но колония уже не могла вернуться к тому, что было до этого.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.008",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} наткнулся на ту сцену и поспешно сделал вид, что не видел. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.009",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Иное, даже увиденное, можно лишь проглотить: {subject} держал рот плотно закрытым. Машины всё так же шли по расписанию, и оставшиеся могли лишь жить дальше с этим.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.010",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} своими глазами видел, как изолированного атаковали, и понял, что общий гнев уже стал насилием. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.011",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} застал то избиение наедине и от потрясения сразу не издал звука. Автоматические двери открывались и закрывались, но проходящие здесь ступали тише.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.012",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} разглядел, как происходило нападение, и после уже не мог притворяться, будто ничего не знает. Этот астероид почти не оставляет времени на траур, и память может лишь идти дальше со следующей сменой.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    }
+  ]
+}

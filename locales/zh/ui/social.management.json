@@ -1,0 +1,547 @@
+{
+  "locale": "zh",
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "社交",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "查看殖民地关系并管理牵线和拆散标记",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "牵线",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "拆散",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "清除标记",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "界限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "关系总览",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "待发生",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "待发生的社交事件",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "目前没有待发生的社交事件。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "【{0}】{1} → {2} · 还剩 {3} 周期",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "【{0}】{1} → {2} · 正在等待安全会合",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "现在发生",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}　[{1}]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "事件已请求，正在等待安全时机",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "殖民地关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0} 段关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "搜索复制人姓名",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "关系：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "全部",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "友好",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "恋爱",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "冲突",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "标记：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "未标记",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "排序：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "姓名",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "关系数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "最高好感",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "没有符合筛选条件的关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "返回",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "上一页",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "下一页",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "第 {0}/{1} 页",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "没有可选的复制人。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "操作失败：社交系统尚未就绪",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · 选择第二人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "已选择 {0}。请选择另一名复制人完成操作。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "选择一名复制人，清除所有与其有关的牵线和拆散标记。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "界限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "最好关系:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "最差关系:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "不限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "选择最好关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "选择最差关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "界限: {0} × {1} → 最好 {2} · 最差 {3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "设置失败:最差关系不能好过最好关系",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "{0} 周期后分手",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "闹掰还剩 {0} 周期",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "宿敌·冻结中",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "前任期还剩 {0} 周期",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "今天是纪念日！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "纪念日还有 {0} 周期",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "恋人 {0} 对 · 冷战 {1} 对 · 挚友 {2} 对",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[完成] {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[完成] 已清除 {0} 的 {1} 个标记",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "牵线: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "拆散: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "取消标记: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "已选 {0}，选中另一名复制人后再按一次同一热键",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "已取消选择 {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "已清除 {0} 的 {1} 个标记",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "纪事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "殖民地纪事",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "暂无事件记录",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0} 已不在殖民地,无法跳转",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "人物:全部",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "人物:{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "清除",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "查看谁的故事?",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "选一名复制人,日志只显示他参与的事件——他的一段人生。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "导出诊断报告",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "请先在 Mod 设置中开启「本地玩法数据」",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "诊断报告已导出：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "诊断报告导出失败：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "告白",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "第{0}章 · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "周期{0}—{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "从周期{1}起，{0}的日常一点点累积；到了周期{2}，{3}让这一段生活有了转折。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "周期{1}至{2}，{0}在工作、吃饭与休息之间，慢慢和身边的人建立起自己的生活。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "经历过“{0}”以后，{1}带着它留下的影响走进了下一段生活。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"较早","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"较晚","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"这段经历仍在继续。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"记录从周期 {0} 开始","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"部分故事段落已根据原始事件事实恢复。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[被卷入]","contractRevision":1,"status":"reviewed"}
+  ]
+}

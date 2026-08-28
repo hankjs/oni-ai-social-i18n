@@ -1,0 +1,618 @@
+{
+  "locale": "ja",
+  "family": "argument",
+  "candidates": [
+    {
+      "candidateId": "storylet.argument.crybaby.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "なんで怒鳴るの……うわ——"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "泣くな泣くな！怒鳴らない、もう怒鳴らないから！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "言い負けてない。気、気持ちが先に来ただけ……"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "先に涙を拭け。それからもう一回言い合う。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "基地中が俺をいじめてる！お前まで！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "してない！……そう言われるとストレスがすごい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "なんで怒鳴るの！涙はバルブみたいに閉められない！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "はいはい俺が悪い、ティッシュ持ってきた！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "争いたくない……でも、今回はお前が本当に悪い。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いっそ一発罵ってくれよ。そう言われる方がきつい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "座って話さない？立ったまま言い合うと気持ちが傷つく。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……分かった、座る。でも、どこがダメか先に言え。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "声、小さく。ハッチまで怯えてる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "この状況でハッチが気になるのか？！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "言い争いはしない。でもこの借りは覚えとく。そっとな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "その「そっと覚えとく」の方が、罵られるより怖い。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "この仕事、俺より速い奴いるか？文句あるか？！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "速いのは認める、壁も突き破ったぞ！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "いいよ、全部俺のせいにしろ！基地が爆発しても俺のせいだ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "誰も基地なんて言ってない……ほら、また始まった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "三まで数える、俺のシャベル返せ。一！二！！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "三は？——あ、もう奪い返してる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "声が大きいだけだ！怒ってない！全然！！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "天井のレゴリスが落ちてきたぞ、それで怒ってないのか？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "面倒ごと全部他人に押しつけるの、やめろよ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "俺はもう足が地につかないほど忙しい。まだ何かあるか？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "またお前がシフトをかき乱したな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "やめろ、見落としたのはお前だろ！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今はそんな話、聞く気ない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いいよ、じゃあこれからは互いに放っておけ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "お前のいびき、油切れの岩石粉砕機みたいだ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いびき？お前、夢言で一晩中座標を読み上げてたぞ！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.005",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "最後に残したベリーは？一粒だけだぞ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "名前なんて書いてないだろ！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.006",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "通路に積んだあのガラクタ、片付けろよ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "予備部品だ！一片だって無駄じゃない！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.007",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "トイレが詰まったのは、お前がパイプを繋ぎ間違えたからだ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "図面がそうなってるんだ、俺のせい？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.008",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "バッテリーまた空だ。昨夜の当番はお前だろ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "電線はハッチが噛んだ。あいつに言え！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.009",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "顔、なんでそんなに赤い？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "暑いんじゃない、ブチギレた！気体タンク、誰が持っていった？！"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.010",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "シフト表に、お前の名前なんてない！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "焦ったな。焦ったってことは、俺が当たってる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.011",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "シフト会議で、面と向かって俺の名前出したな？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "真正面から大技だ。隠したりしない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.012",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "誰が二酸化炭素を寝室に引き込んだ？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いつものやつだろ。一日中パイプを好き勝手につないで。"
+        }
+      ]
+    }
+  ]
+}

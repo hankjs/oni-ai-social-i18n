@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "wrathsawcrying",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathsawcrying.base.001",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你怎么在这儿。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……没事。灰进眼睛了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.002",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这层没监控，也没人。你可以哭完。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我已经哭完了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.003",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "要我走开吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……不用。你站着就行。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.004",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我什么都没看见。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "谢谢。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.005",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我以为这层没人。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我也以为。"
+        }
+      ]
+    }
+  ]
+}

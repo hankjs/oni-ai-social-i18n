@@ -1,0 +1,3920 @@
+{
+  "locale": "zh",
+  "family": "relationship",
+  "templates": [
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.001",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}忘了和{other}的纪念日。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.002",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的排班表上唯独漏掉了和{other}的纪念日。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.003",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等了一晚上，{actor}在矿井里浑然不觉。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.004",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "日子一忙就糊涂，{actor}把最重要的那天忘了。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.005",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}直到这一天快结束才想起纪念日，面对{other}时已经来不及装作没事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.006",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等了一整天也没有等到表示，{actor}终于意识到自己漏掉了什么。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.007",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把普通排班记得清楚，却偏偏忘了与{other}共同的重要日子。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.008",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}迟来的祝福说出口时，{other}已经没有心情配合庆祝。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.009",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着补上一句纪念日快乐，{other}只安静看了过来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.010",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}发现{other}独自收起准备好的心意，才明白自己错过了纪念日。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.011",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}忘了和{other}的纪念日。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.012",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的排班表上唯独漏掉了和{other}的纪念日。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.013",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等了一晚上，{actor}在矿井里浑然不觉。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.014",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "日子一忙就糊涂，{actor}把最重要的那天忘了。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.015",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}直到这一天快结束才想起纪念日，面对{other}时已经来不及装作没事。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.016",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等了一整天也没有等到表示，{actor}终于意识到自己漏掉了什么。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.017",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把普通排班记得清楚，却偏偏忘了与{other}共同的重要日子。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.018",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}迟来的祝福说出口时，{other}已经没有心情配合庆祝。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.019",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着补上一句纪念日快乐，{other}只安静看了过来。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.020",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}发现{other}独自收起准备好的心意，才明白自己错过了纪念日。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.001",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}纪念了在一起的日子。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.002",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}又安稳地走过了一年，值得碰一杯。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.003",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "在这个连日历都要自己记的地方，{a} 和 {b}没有忘记今天。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.004",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把纪念日过成了全殖民地的节日——至少他们自己是这么觉得的。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.005",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}一起回想最初走到一起的那一天，为又一个纪念日举杯。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.006",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}把忙碌暂时放下，认真留出时间纪念彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.007",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}交换了准备好的小心意，谁都没有忘记这个日子。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.008",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}数着共同走过的周期，发现值得记住的事情已经很多。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.009",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}没有安排盛大的庆祝，只安静地把这一天留给彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.010",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}在纪念日重新说了一遍当初的承诺，这次语气更加笃定。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.011",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}纪念了在一起的日子。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.012",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}又安稳地走过了一年，值得碰一杯。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.013",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "在这个连日历都要自己记的地方，{a} 和 {b}没有忘记今天。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.014",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把纪念日过成了全殖民地的节日——至少他们自己是这么觉得的。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.015",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}一起回想最初走到一起的那一天，为又一个纪念日举杯。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.016",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}把忙碌暂时放下，认真留出时间纪念彼此。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.017",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}交换了准备好的小心意，谁都没有忘记这个日子。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.018",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}数着共同走过的周期，发现值得记住的事情已经很多。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.019",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}没有安排盛大的庆祝，只安静地把这一天留给彼此。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.020",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}在纪念日重新说了一遍当初的承诺，这次语气更加笃定。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.001",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "一场冲突反倒让{a} 和 {b}成了好朋友。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.002",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把话说透，反倒成了朋友。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.003",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "道完歉的{a} 和 {b}，比吵架前还要亲近。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.004",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}先是吵了一架，然后成了朋友——事情就是这样。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.005",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把冲突从头说清，发现彼此都愿意为关系退让一步。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.006",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有回避难堪的部分，坦白反而让信任更深。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.007",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}承认各自做错的地方，一场道歉最终变成了新的默契。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.008",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}原本只是想结束争执，最后却第一次真正理解了对方。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.009",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}在和解后仍坐了很久，把过去不敢说的话都说开了。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.010",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}从冲突里看见对方仍愿意留下，于是关系比先前更牢靠。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.011",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "一场冲突反倒让{a} 和 {b}成了好朋友。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.012",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把话说透，反倒成了朋友。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.013",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "道完歉的{a} 和 {b}，比吵架前还要亲近。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.014",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}先是吵了一架，然后成了朋友——事情就是这样。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.015",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把冲突从头说清，发现彼此都愿意为关系退让一步。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.016",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有回避难堪的部分，坦白反而让信任更深。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.017",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}承认各自做错的地方，一场道歉最终变成了新的默契。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.018",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}原本只是想结束争执，最后却第一次真正理解了对方。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.019",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}在和解后仍坐了很久，把过去不敢说的话都说开了。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.020",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}从冲突里看见对方仍愿意留下，于是关系比先前更牢靠。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.001",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}道了歉。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.002",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}先低了头，{other}也就顺势原谅了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.003",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把「对不起」三个字说得磕磕绊绊，{other}收下了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.004",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}递过去一块软泥糕，算是赔罪。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.005",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "面子和{other}之间，{actor}选了{other}。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.006",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有为自己找借口，只把做错的事清楚告诉了{other}。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.007",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}等{other}把不满全部说完，才认真请求原谅。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.008",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}承认那句话伤了人，并答应以后换一种做法。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.009",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把道歉说得很慢，确保{other}听见的是诚意而不是敷衍。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.010",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}主动找到{other}低头认错，没有等时间替自己把事情冲淡。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.011",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}道了歉。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.012",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}先低了头，{other}也就顺势原谅了。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.013",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把「对不起」三个字说得磕磕绊绊，{other}收下了。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.014",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}递过去一块软泥糕，算是赔罪。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.015",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "面子和{other}之间，{actor}选了{other}。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.016",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有为自己找借口，只把做错的事清楚告诉了{other}。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.017",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}等{other}把不满全部说完，才认真请求原谅。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.018",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}承认那句话伤了人，并答应以后换一种做法。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.019",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把道歉说得很慢，确保{other}听见的是诚意而不是敷衍。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.020",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}主动找到{other}低头认错，没有等时间替自己把事情冲淡。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.001",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}吵了一架。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.002",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}争执了起来，谁也不让谁。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.003",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的声音越抬越高，惊动了隔壁的哈奇。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.004",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}为一点小事红了脸，事后想想都不值。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.005",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "一场架吵完，{actor} 和 {other}都觉得是对方先不讲理的。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.006",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}先提高了声音，{other}也没有退让，争执很快变得尖锐。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.007",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}指责{other}没有把话听完，两个人随即吵了起来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.008",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把积压的不满一次说了出来，{other}也逐条反驳。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.009",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试图让{other}认错，结果双方都只听见了自己的怒气。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.010",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的一句重话越过了分寸，{other}不再愿意保持平静。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.011",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}吵了一架。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.012",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}争执了起来，谁也不让谁。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.013",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的声音越抬越高，惊动了隔壁的哈奇。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.014",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}为一点小事红了脸，事后想想都不值。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.015",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "一场架吵完，{actor} 和 {other}都觉得是对方先不讲理的。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.016",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}先提高了声音，{other}也没有退让，争执很快变得尖锐。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.017",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}指责{other}没有把话听完，两个人随即吵了起来。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.018",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把积压的不满一次说了出来，{other}也逐条反驳。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.019",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试图让{other}认错，结果双方都只听见了自己的怒气。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.020",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的一句重话越过了分寸，{other}不再愿意保持平静。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.001",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "因为{cause}，{actor} 和 {other}吵了起来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.002",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "因为{cause}，{actor}主动质问{other}，双方很快争执起来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.003",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把对{cause}的不满算到{other}头上，{other}立刻反驳。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.004",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "围绕{cause}，{actor}和{other}各执一词，谁也没有说服谁。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.005",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}要求{other}解释{cause}，得到的回答反而让火气更大。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.006",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}成了导火索，{actor}先发难，{other}也把旧账翻了出来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.007",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}认定{other}应该为{cause}负责，两个人为此吵得不可开交。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.008",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "谈到{cause}时，{actor}失去了耐心，{other}也拒绝再忍让。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.009",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}本想和{other}说清{cause}，情绪却让解释变成了指责。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.010",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}与{other}都觉得自己在{cause}上受了委屈，争论因此越陷越深。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.011",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "因为{cause}，{actor} 和 {other}吵了起来。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.012",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "因为{cause}，{actor}主动质问{other}，双方很快争执起来。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.013",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把对{cause}的不满算到{other}头上，{other}立刻反驳。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.014",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "围绕{cause}，{actor}和{other}各执一词，谁也没有说服谁。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.015",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}要求{other}解释{cause}，得到的回答反而让火气更大。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.016",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}成了导火索，{actor}先发难，{other}也把旧账翻了出来。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.017",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}认定{other}应该为{cause}负责，两个人为此吵得不可开交。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.018",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "谈到{cause}时，{actor}失去了耐心，{other}也拒绝再忍让。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.019",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}本想和{other}说清{cause}，情绪却让解释变成了指责。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.020",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}与{other}都觉得自己在{cause}上受了委屈，争论因此越陷越深。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.001",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}分手了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.002",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的感情走到了尽头。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.003",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}把话说开，然后各自转身。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.004",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的关系，像气压服的氧气一样耗尽了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.005",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}还想挽回，{actor}已经不想再谈了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.006",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}告诉{other}这段关系无法继续，亲手结束了两人的伴侣身份。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.007",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把分手的话说出口后，{other}沉默了很久才接受。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.008",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}承认自己已经无法像从前那样面对{other}，两人就此分开。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.009",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有留下模糊的余地，清楚告诉{other}关系到此结束。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.010",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}与{other}最后谈了一次，决定不再以伴侣的身份继续相处。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.011",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}分手了。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.012",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的感情走到了尽头。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.013",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}把话说开，然后各自转身。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.014",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} 和 {other}的关系，像气压服的氧气一样耗尽了。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.015",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}还想挽回，{actor}已经不想再谈了。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.016",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}告诉{other}这段关系无法继续，亲手结束了两人的伴侣身份。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.017",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把分手的话说出口后，{other}沉默了很久才接受。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.018",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}承认自己已经无法像从前那样面对{other}，两人就此分开。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.019",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有留下模糊的余地，清楚告诉{other}关系到此结束。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.020",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}与{other}最后谈了一次，决定不再以伴侣的身份继续相处。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.001",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}表白了，但{other}没有答应。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.002",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的心意，{other}没能接住。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.003",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}说完那句排练好的告白，{other}沉默了很久。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.004",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "不是所有真心都有回音，{actor}今天明白了。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.005",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把心意说完后等了很久，{other}最终还是摇了头。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.006",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}认真听完{actor}的告白，却无法给出同样的感情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.007",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着把失望藏起来，仍然向诚实回答的{other}道了谢。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.008",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}鼓起的勇气没有换来期待的结果，只能接受{other}的拒绝。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.009",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}温和但明确地拒绝了{actor}，没有留下会被误解的希望。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.010",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}原本准备了许多话，听见{other}的答案后只剩下一句明白了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.011",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}表白了，但{other}没有答应。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.012",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}的心意，{other}没能接住。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.013",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}说完那句排练好的告白，{other}沉默了很久。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.014",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "不是所有真心都有回音，{actor}今天明白了。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.015",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把心意说完后等了很久，{other}最终还是摇了头。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.016",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}认真听完{actor}的告白，却无法给出同样的感情。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.017",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着把失望藏起来，仍然向诚实回答的{other}道了谢。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.018",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}鼓起的勇气没有换来期待的结果，只能接受{other}的拒绝。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.019",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}温和但明确地拒绝了{actor}，没有留下会被误解的希望。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.020",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}原本准备了许多话，听见{other}的答案后只剩下一句明白了。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.001",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}表明了心意——{other}答应了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.002",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}鼓起勇气告白，{other}红着脸点了头。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.003",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把练习了十遍的话说到一半，{other}就答应了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.004",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "在打印舱的见证下，{actor}和{other}牵起了手。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.005",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等这句话等了很久，{actor}终于说出口了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.006",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把藏了很久的心意完整告诉{other}，等来了肯定的回答。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.007",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}坦白自己想与{other}一起走下去，{other}认真答应了。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.008",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}说到最后紧张得停了下来，{other}主动握住了对方的手。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.009",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有准备漂亮的话，只诚实告诉{other}这份喜欢，仍然得到了回应。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.010",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}问{other}是否愿意成为伴侣，回答让两个人都笑了起来。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.011",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}向{other}表明了心意——{other}答应了。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.012",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}鼓起勇气告白，{other}红着脸点了头。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.013",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把练习了十遍的话说到一半，{other}就答应了。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.014",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "在打印舱的见证下，{actor}和{other}牵起了手。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.015",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}等这句话等了很久，{actor}终于说出口了。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.016",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}把藏了很久的心意完整告诉{other}，等来了肯定的回答。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.017",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}坦白自己想与{other}一起走下去，{other}认真答应了。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.018",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}说到最后紧张得停了下来，{other}主动握住了对方的手。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.019",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有准备漂亮的话，只诚实告诉{other}这份喜欢，仍然得到了回应。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.020",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}问{other}是否愿意成为伴侣，回答让两个人都笑了起来。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.001",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}约了一次会，气氛正好。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.002",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}独处了一会儿，眼里只有彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.003",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}并肩散步，谁也没提回工作站的事。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.004",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}在望远镜旁约会，轮流看同一片星空。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.005",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "约会的规矩是{a} 和 {b}定的：不许谈排班表。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.006",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把一段空闲只留给彼此，安静享受了一次约会。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.007",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}暂时不谈工作，只问起彼此最近真正关心的事。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.008",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}并肩待了很久，谁都没有急着安排下一件事。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.009",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}为这次约会认真整理了自己，见面时都看出了对方的用心。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.010",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}重温了最初让彼此心动的细节，气氛重新变得柔软。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.011",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}约了一次会，气氛正好。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.012",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}独处了一会儿，眼里只有彼此。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.013",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}并肩散步，谁也没提回工作站的事。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.014",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}在望远镜旁约会，轮流看同一片星空。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.015",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "约会的规矩是{a} 和 {b}定的：不许谈排班表。这颗小行星依然危险，他们至少不再独自面对所有事情。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.016",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把一段空闲只留给彼此，安静享受了一次约会。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.017",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}暂时不谈工作，只问起彼此最近真正关心的事。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.018",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}并肩待了很久，谁都没有急着安排下一件事。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.019",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}为这次约会认真整理了自己，见面时都看出了对方的用心。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.020",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}重温了最初让彼此心动的细节，气氛重新变得柔软。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.001",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}大吵一架，从此形同陌路。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.002",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}之间那点情分，一夜之间清了零。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.003",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "从那天起，{a} 和 {b}在走廊里遇见都绕着走。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.004",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "朋友做到头，{a} 和 {b}连招呼都省了。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.005",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把最伤人的话都说了出来，旧有的信任彻底断开。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.006",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}谁也不肯收回指责，争执结束后只剩下疏远。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.007",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}的矛盾越过了可以轻易和好的界线，关系因此破裂。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.008",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}不再愿意相信对方的解释，从此刻意避开彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.009",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}在怒气里否定了过去的情分，冷静下来也没有重新靠近。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.010",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}结束争吵时没有和解，只把彼此留在了关系之外。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.011",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}大吵一架，从此形同陌路。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.012",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}之间那点情分，一夜之间清了零。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.013",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "从那天起，{a} 和 {b}在走廊里遇见都绕着走。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.014",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "朋友做到头，{a} 和 {b}连招呼都省了。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.015",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把最伤人的话都说了出来，旧有的信任彻底断开。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.016",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}谁也不肯收回指责，争执结束后只剩下疏远。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.017",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}的矛盾越过了可以轻易和好的界线，关系因此破裂。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.018",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}不再愿意相信对方的解释，从此刻意避开彼此。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.019",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}在怒气里否定了过去的情分，冷静下来也没有重新靠近。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.020",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}结束争吵时没有和解，只把彼此留在了关系之外。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.001",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}吃醋了。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.002",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "那股酸劲儿，{actor}自己也说不清来由。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.003",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}发现自己过分在意对方的注意力去了哪里，酸意已经藏不住。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.004",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着装作毫不在乎，语气里的不快却泄露了真实情绪。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.005",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见亲近的人把心思放在别处，沉默里渐渐有了醋意。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.006",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}反复告诉自己不该介意，情绪却没有因此消失。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.007",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有当场发作，只把那点酸楚一直带到了之后。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.008",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}突然变得格外安静，连平常的回应都带上了距离。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.009",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}意识到自己的占有欲正在冒头，却一时不知道怎样说清。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.010",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}因为没有得到期待的关注而失落，那份失落很快变成了嫉妒。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.011",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}吃醋了。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.012",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "那股酸劲儿，{actor}自己也说不清来由。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.013",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}发现自己过分在意对方的注意力去了哪里，酸意已经藏不住。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.014",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着装作毫不在乎，语气里的不快却泄露了真实情绪。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.015",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见亲近的人把心思放在别处，沉默里渐渐有了醋意。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.016",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}反复告诉自己不该介意，情绪却没有因此消失。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.017",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有当场发作，只把那点酸楚一直带到了之后。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.018",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}突然变得格外安静，连平常的回应都带上了距离。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.019",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}意识到自己的占有欲正在冒头，却一时不知道怎样说清。食堂里仍旧热闹，他们这一边的气氛却冷了下来。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.020",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}因为没有得到期待的关注而失落，那份失落很快变成了嫉妒。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.001",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}和{third}有说有笑，心里很不是滋味。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.002",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}和{other}聊得投机，{actor}在旁边数了很久的浮土。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.003",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}把注意力都放在{third}身上，脸上的不快越来越明显。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.004",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}与{other}聊得投入，{actor}几次想插话都停了下来。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.005",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}留意着{other}对{third}的每个回应，越看越难保持平静。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.006",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}没有察觉{actor}的沉默，只继续与{third}亲近交谈。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.007",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着相信{other}和{third}只是普通相处，心里的酸意仍没有退。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.008",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}离开后，{actor}面对{other}时仍带着没有说出口的不满。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.009",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}因{third}露出笑容，忽然觉得自己被留在了外面。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.010",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有责怪{third}，却无法忽略{other}把亲近给了别人。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.011",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}和{third}有说有笑，心里很不是滋味。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.012",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}和{other}聊得投机，{actor}在旁边数了很久的浮土。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.013",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}把注意力都放在{third}身上，脸上的不快越来越明显。氧气继续流过管道，没有带走两个人心里的话。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.014",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}与{other}聊得投入，{actor}几次想插话都停了下来。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.015",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}留意着{other}对{third}的每个回应，越看越难保持平静。机器照常运转，两个人之间却只剩下沉默。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.016",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}没有察觉{actor}的沉默，只继续与{third}亲近交谈。换班铃已经响过，这件事却远远没有结束。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.017",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}试着相信{other}和{third}只是普通相处，心里的酸意仍没有退。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.018",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}离开后，{actor}面对{other}时仍带着没有说出口的不满。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.019",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}看见{other}因{third}露出笑容，忽然觉得自己被留在了外面。打印舱的光依然温暖，两个人却没有再看向彼此。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.020",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}没有责怪{third}，却无法忽略{other}把亲近给了别人。他们各自回到工作岗位，谁也没有真正放下这件事。",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.001",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}冰释前嫌，重归于好。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.002",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把旧账翻篇，重新坐到了一张桌上。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.003",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "谁先开的口已经不重要，{a} 和 {b}和好了。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.004",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "冷战结束的那天，{a} 和 {b}都松了一口气。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.005",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}终于肯坐下来听完对方的话，冷战从这一刻开始松动。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.006",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}承认继续僵持只会让彼此更难受，于是决定重新合作。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.007",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把最介意的事情逐条说清，没有再用沉默惩罚对方。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.008",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}试着从一句普通的问候重新开始，关系终于有了回暖的余地。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.009",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}都退了一步，终于让长期卡住的矛盾有了出口。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.010",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有假装争执从未发生，只决定不再让它支配以后。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.011",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}冰释前嫌，重归于好。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.012",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}把旧账翻篇，重新坐到了一张桌上。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.013",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "谁先开的口已经不重要，{a} 和 {b}和好了。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.014",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "冷战结束的那天，{a} 和 {b}都松了一口气。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.015",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}终于肯坐下来听完对方的话，冷战从这一刻开始松动。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.016",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}承认继续僵持只会让彼此更难受，于是决定重新合作。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.017",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}把最介意的事情逐条说清，没有再用沉默惩罚对方。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.018",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}试着从一句普通的问候重新开始，关系终于有了回暖的余地。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.019",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}都退了一步，终于让长期卡住的矛盾有了出口。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.020",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有假装争执从未发生，只决定不再让它支配以后。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.001",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}重新走到了一起。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.002",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}绕了一圈，又回到了彼此身边。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.003",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "有些分开只是为了想清楚，{a} 和 {b}想清楚了。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.004",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}再次牵起手，比第一次还要用力。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.005",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}承认分开后仍然惦记彼此，决定再给关系一次机会。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.006",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}重新谈起当初分开的原因，这一次找到了能够一起改变的办法。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.007",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}试着重新牵手，熟悉的感觉让两个人都没有松开。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.008",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有要求回到从前，只答应从现在重新认识彼此。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.009",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}绕过了漫长的疏远，最终还是选择再次站到一起。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.010",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}把复合说得很谨慎，却都没有掩饰重新靠近的愿望。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.011",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}重新走到了一起。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.012",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}绕了一圈，又回到了彼此身边。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.013",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "有些分开只是为了想清楚，{a} 和 {b}想清楚了。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.014",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} 和 {b}再次牵起手，比第一次还要用力。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.015",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}承认分开后仍然惦记彼此，决定再给关系一次机会。机器声重新盖过人声时，两个人都明白事情已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.016",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}重新谈起当初分开的原因，这一次找到了能够一起改变的办法。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.017",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}试着重新牵手，熟悉的感觉让两个人都没有松开。殖民地没有为谁停下，这一刻却改变了往后的日常。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.018",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}没有要求回到从前，只答应从现在重新认识彼此。打印舱的光从远处扫过，照见了他们共同生活的新一页。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.019",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}和{b}绕过了漫长的疏远，最终还是选择再次站到一起。基地的机器照常运转，两个人之间的距离却已经不同。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.020",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}与{b}把复合说得很谨慎，却都没有掩饰重新靠近的愿望。换班铃响过以后，这段关系也没有回到原来的位置。",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "locale": "ko",
+  "family": "confessionrekindle",
+  "candidates": [
+    {
+      "candidateId": "storylet.confessionrekindle.base.001",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "헤어지고 나서야 알았어, 싸우는 편이 널 그리워하는 것보다 낫다는 걸."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……이번엔, 제대로 싸우고, 다시 가지 마."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.002",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네가 두고 간 렌치 고쳐서, 돌려줄게."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "바보야, 일부러 두고 간 거야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.003",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "식당 서쪽은 너무 썰렁해. 다시 앉아도 돼?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……자리 진작 남겨 뒀어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionrekindle.base.004",
+      "storyletId": "ConfessionRekindle",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "묵은 문제 전부 다시 고치자, 파이프 점검하듯이."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "이번엔 도면대로. 도면은 내가 그려 뒀어."
+        }
+      ]
+    }
+  ]
+}

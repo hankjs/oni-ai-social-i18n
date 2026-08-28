@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "breakdownvomit",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownvomit.base.001",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я только что вытер этот пол."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Знаю. Прости."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.002",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Кто-то пошёл за ведром."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Поздно."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.003",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Это не отравление едой?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Нет."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.004",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не стойте кругом и не глазейте."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Они смотрят не на меня. На пол."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownvomit.base.005",
+      "storyletId": "BreakdownVomit",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Потом, может, поесть?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ты серьёзно?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "locale": "ko",
+  "family": "apology",
+  "candidates": [
+    {
+      "candidateId": "storylet.apology.gentle.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "밤새 생각했어, 역시 와서 미안하다고 해야겠어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "와 준 것만으로도, 무슨 말보다 나아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "미안해, 그 일 혼자 떠맡게 하면 안 됐는데."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "괜찮아. 다음엔 손만 보태 주면 돼."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "싸운 날 한 말, 철회할게. 살짝 철회."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "철회 유효. 차 아직 따뜻해, 앉아서 얘기해."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "베리 주스 두 잔 끓였어, 한 잔은 사과야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 다른 한 잔은?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "아직 상대해 줘서 고맙다는 거야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "어제 그 일…… 전부 내 탓은 아니야. 근데 조금은 내 탓이지. 됐어, 미안해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "사과가 치약 짜듯하네. 받아 둘게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "사과하러 온 거 아니야.…… 그래, 맞아. 미안해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "들어올 때 목소리부터 여덟 음 낮아지길래, 진작 알아봤지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "미안해! 됐지! 소리 질러서 말한 거 인정이야!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "인정 인정. 다음엔 보통 음량도 인정해 줄게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네 파이프 이음…… 사실 괜찮았어. 어제는 내가 잘못했어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "앞문장은 액자에 넣고, 뒷문장은 받아 둘게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "저번은 내가 너무 화가 났었어, 미안해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "나도 세게 말했어. 넘기자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "너한테 화풀이하면 안 됐는데."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "다음엔 심호흡부터. 그리고, 난 용서했어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그날 말이 너무 독했어. 자, 바비큐, 제대로 구운 거야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……알겠어, 바비큐 체면으로."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "어제는 내 잘못이야, 옛일을 꺼내면 안 됐는데."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "옛일 다 꺼냈어? 꺼냈으면 같이 밥 먹자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.005",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "미안해. 네 파이프 이음이 그렇게 나쁘진 않았어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "사과는 받을게, 평가는 돌려줘."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.006",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "오는 내내 연습했어, 이 미안하다는 말 하려고."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "연습 잘했네. 다음엔 쓸 일 없게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.007",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "어제 목소리가 너무 컸어. 지금은 얌전함, 봐줘."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그래. 다음 말다툼 전에, 파이프부터 고쳐."
+        }
+      ]
+    }
+  ]
+}

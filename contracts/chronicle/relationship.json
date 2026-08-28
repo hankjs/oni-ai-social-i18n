@@ -1,0 +1,201 @@
+{
+  "family": "relationship",
+  "pools": [
+    {
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.anniversary.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.apology-bond.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.apology.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.argument.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.argument.with-cause",
+      "family": "relationship",
+      "angle": "context",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.breakup.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.confession-fail.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.confession.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.date.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.fallout.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.jealousy.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.jealousy.with-third",
+      "family": "relationship",
+      "angle": "context",
+      "participantMode": "group",
+      "allowedSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.reconcile.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rekindle.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 10,
+      "contractRevision": 1
+    }
+  ]
+}

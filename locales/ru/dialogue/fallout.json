@@ -1,0 +1,90 @@
+{
+  "locale": "ru",
+  "family": "fallout",
+  "candidates": [
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Хватит. В ближайшее время со мной поменьше разговаривай."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Мне так даже лучше. И за столом рядом не садись."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Давай сначала остынем."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ладно. С трубами сам разбирайся."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Инструменты, что брал, положил тебе на шкаф."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Угу. Дальше каждый своим."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Так вот как ты на меня смотрел всё это время."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Ты тоже. На этом и остановимся."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "locale": "ko",
+  "family": "compatibility",
+  "templates": [
+    {
+      "templateId": "chronicle.chat.base.001",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 교대의 틈을 타 몇 마디 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.002",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 마주친 뒤 오늘의 견문을 교환했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.003",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 길을 가며 이야기하다, 각자 바쁜 일로 흩어졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.004",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 모여 한동안 한담을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.005",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 이야기에 빠져, 다음 일을 거의 잊을 뻔했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.006",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 몇 마디 한담으로 기다리는 시간을 달랬다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.007",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 식민지의 새로운 일들을 이야기했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.008",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한동안 이야기하고, 마음이 한결 가벼워졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.009",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한 마디씩 주고받으며, 아주 자연스럽게 이야기했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.010",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 발길을 멈추고, 서로의 말을 끝까지 진지하게 들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.011",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 바쁨 속에서 짧은 이야기 시간을 짜 냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.012",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 무심코 건넨 인사에서 다른 이야기로 이어졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.013",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}의 이야기는 길지 않았으나, 둘 다 아주 집중해 들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.014",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 손이 한가한 틈에 서로의 근황을 꺼냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.015",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한동안 이야기한 뒤에야 각자의 일로 돌아갔다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.016",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 자잘한 일상을 이야기하다, 시간도 더 빨리 갔다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.017",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 대수롭지 않으나 재미있는 작은 일들을 몇 가지 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.018",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧게 이야기했을 뿐인데, 분위기는 아주 화기애애했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.019",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 각자 겪은 재미있는 일을 상대에게 들려주었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.020",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 길을 재촉하면서도 끊기듯 이어지듯 이야기했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.021",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}의 이야기는 담담했으나, 누구도 서둘러 끝내려 하지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.022",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 최근에 눈여겨본 작은 일들을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.023",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 웃으며 이야기해, 바쁜 하루에 가벼운 숨통을 틔웠다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.chat.base.024",
+      "poolId": "chronicle.chat.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 대화를 마치면서도, 아쉬워 두어 마디를 더했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.001",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 얼굴을 마주하고, 서로 고개를 끄덕여 뜻을 전했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.002",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 정면으로 만나, 자연스레 한 마디 문안했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.003",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 스쳐 지나며 눈빛을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.004",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한 칸 떨어진 곳에서 상대를 향해 손을 흔들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.005",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 발길을 멈추고, 짧게 두어 마디 한담했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.006",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 바쁘게 마주치고도, 상대에게 안부를 묻기를 잊지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.007",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 익숙한 손짓으로 서로 불렀다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.008",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 상대를 보는 순간 모두 웃음을 띠었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.009",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로 무탈하다 전하고, 이내 길을 재촉했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.010",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로의 곁을 지날 때 나직이 인사했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.011",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 멀리서 상대를 알아보고 손을 들어 알렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.012",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 마주칠 때 서로의 근황을 물었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.013",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 간단한 인사 한 마디로 이번 만남을 시작했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.014",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 각자 바빠지기 전에 먼저 상대에게 뜻을 전했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.015",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 잠깐 멈춰, 상대가 여느 때와 같음을 확인했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.016",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 약속이나 한 듯 동시에 손을 들어 인사했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.017",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 만나자마자 자연스레 서로 안부를 물었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.018",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 사람들 사이에서 서로를 보고, 인사를 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.019",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 농담 같은 인사로 분위기를 살렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.020",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 만나자 발걸음을 늦추고, 서로에게 안부를 전했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.021",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 바쁜 틈을 내어 서로 한 마디 문안했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.022",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 상대 곁을 지나며 다정히 웃었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.023",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧은 인사로 서로의 존재를 확인했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.greet.base.024",
+      "poolId": "chronicle.greet.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 하루의 바쁨 속에서 또 한 번 마주쳤다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.001",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 나란히 앉아, 이 끼니를 차분히 마쳤다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.002",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 식사 시간도 함께하는 시간으로 바꾸었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.003",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 먹으며 이야기했고, 누구도 서둘러 떠나지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.004",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 같은 끼니에 우연히 맞춰, 한자리에 앉았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.005",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 하던 일을 함께 내려놓고, 한 끼에 마음을 모았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.006",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 식사 사이에 몇 마디 한담을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.007",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 어깨를 나란히 하고, 고요한 식사 한때를 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.008",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 식사하며 띄엄띄엄 이야기를 이었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.009",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 가까운 자리를 골라, 이 끼니를 함께 해결했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.010",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 잠시 일을 내려놓고, 평범한 한 끼를 함께했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.011",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 같은 시각에 앉아, 같은 시각에 다 먹었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.012",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한 끼의 시간 동안 서로를 곁에 두었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.013",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서두르지 않고 먹으며, 가끔 고개를 들어 두어 마디 했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.014",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 바쁜 틈을 타 모여 함께 먹었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.015",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 함께 식사하여, 짧은 휴식이 더 여유로워 보였다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.016",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 이 끼니 동안 가벼운 이야기를 이어 갔다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.017",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 약속이나 한 듯 가까운 자리에 앉아, 함께 식사를 시작했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.018",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 다 먹고도 한동안 앉아 있다가, 각자 떠났다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.019",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 평범한 한 끼를 꽤 흥겹게 먹었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.020",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 고요히 같은 상에서 먹었고, 분위기는 어색하지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.021",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 식사 사이에 앞으로의 각자 일을 이야기했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.022",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로를 잠시 기다린 뒤, 함께 식사를 시작했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.023",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서두르지 않아도 되는 짧은 식사 시간을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.meal.base.024",
+      "poolId": "chronicle.meal.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 같은 끼니를 마치고, 기운을 되찾아 다시 바빴다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.001",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 같은 휴식 시간 안에서 서서히 고요해졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.002",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 하루의 바쁨을 마치고, 함께 쉬어 들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.003",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 드물게 고요한 휴식 한때를 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.004",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 하루를 지쳐, 이내 각자 잠에 들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.005",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 휴식 전에 짧게 서로 잘 자라 전했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.006",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 차례로 일을 멈추고, 같은 고요를 맞았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.007",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로의 동행 아래 안심하고 쉬었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.008",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 더 말하지 않고, 다만 고요히 쉬었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.009",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 바쁨을 내일로 미루고, 우선 함께 쉬었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.010",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧은 한가함 속에서 기운을 되돌렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.011",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}가 자리를 잡자, 주위도 천천히 고요로 돌아갔다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.012",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 드물게 동시에 한가해져, 한동안 제대로 쉬었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.013",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 비슷한 생활 리듬 속에서 짧은 평온을 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.014",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 하루의 피로를 안고, 함께 휴식 시간에 들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.015",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 각자 풀어지며, 서로를 방해하지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.016",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 휴식의 틈에서 한동안 정적을 누렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.017",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 함께 쉬는 이 시간을 고르게 보냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.018",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 이야기를 마친 뒤, 이내 고요해졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.019",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 피로 속에서 서로 잘 자라 전했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.020",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 동시에 휴식을 맞고, 동시에 긴장을 내려놓았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.021",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 이 순간을 휴식에 맡기고, 더는 일을 이야기하지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.022",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 규칙적인 생활 속에서 또 한 번 함께 쉬었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.023",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한동안 고요히 곁에 있다, 각자 기운을 되돌렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.rest.base.024",
+      "poolId": "chronicle.rest.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 다음 바쁨 전에, 함께 편안히 잠들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.001",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한가한 시간을 함께 보냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.002",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 잠시 일을 내려놓고, 가볍게 한동안 함께했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.003",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 모여, 스스로에게 조금의 즐거움을 찾았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.004",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한가함 속에서 웃음을 많이 나누었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.005",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧은 여가를 꽤 흥겹게 보냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.006",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짝을 이뤄 한동안 풀어지니, 기운이 한결 나아졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.007",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로의 여가에 아주 자연스레 끼어들었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.008",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한동안 장난치다, 손안의 근심을 잠시 잊었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.009",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 가벼운 분위기 속에 한참을 머물렀다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.010",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 함께 쉬며, 이 빈 시간을 헛되이 보내지 않았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.011",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 서로를 놀리며, 피로를 조금 씻었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.012",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 드물게 서두르지 않아도 되어, 짝을 이뤄 풀어졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.013",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한바탕 웃음 속에 여가를 보냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.014",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 평범한 하루에 작은 소일거리를 더했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.015",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 함께 할 일을 조금 찾아, 분위기가 아주 가벼웠다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.016",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 일 밖의 시간을 서로에게 남겼다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.017",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한곳에 모여, 흥겹게 한동안 소일했다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.018",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧은 자유 시간 동안 아주 몰입해 놀았다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.019",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 일을 이야기하지 않고, 다만 한동안 가볍게 지냈다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.020",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 함께 시간을 달래다, 서로도 더 익숙해졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.021",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 잠시 풀기로 하고, 그제야 각자 흩어졌다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.022",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 짧은 틈을 즐거운 만남으로 바꾸었다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.023",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 농담과 웃음 속에서 기운을 조금 되돌렸다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    },
+    {
+      "templateId": "chronicle.socialize.base.024",
+      "poolId": "chronicle.socialize.base",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{pair}는 한껏 소일한 뒤에야, 다시 일상으로 돌아갔다.",
+      "requiredSlots": [
+        "pair"
+      ],
+      "deprecated": true
+    }
+  ]
+}

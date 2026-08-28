@@ -1,0 +1,121 @@
+{
+  "locale": "ru",
+  "family": "jealousy",
+  "candidates": [
+    {
+      "candidateId": "storylet.jealousy.base.001",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я всё видел. Вы так мило болтали."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это не то, что ты думаешь!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.002",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ха. Значит, я в табеле, а другие — в сердце."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Дай объяснить…"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.003",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Учить чинить провода надо вот так вплотную?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это стандартная рабочая дистанция!"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Я, я пойду трубы проверю…"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.004",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Отработал смену — возвращаюсь на это."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Мы правда просто считали хэтчей!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.jealousy.base.005",
+      "storyletId": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты полдня трубы с кем-то чинил. Я тебе пластик?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Просто… заодно помог."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 2,
+          "text": "Я пошёл, я пошёл."
+        }
+      ]
+    }
+  ]
+}

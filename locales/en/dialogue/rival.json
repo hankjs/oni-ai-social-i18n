@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "rival",
+  "candidates": [
+    {
+      "candidateId": "storylet.rival.base.001",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I've got your number now."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Likewise. Stay out of my sight."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.002",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "This isn't a fight anymore. This is a grudge."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then hold it. I'll hold mine longer."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.003",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You and me? We're done."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We were done a long time ago."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.004",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "One base. We're going to keep running into each other."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And every time, I'll enjoy ruining your day."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.rival.base.005",
+      "storyletId": "Rival",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't care what the others think of you. I can't stand you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Good. I wasn't aiming to be liked."
+        }
+      ]
+    }
+  ]
+}

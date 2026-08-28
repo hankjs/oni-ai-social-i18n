@@ -1,0 +1,763 @@
+{
+  "family": "routine",
+  "pools": [
+    {
+      "poolId": "chronicle.chat.actor.crybaby",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.actor.eater",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.actor.gentle",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.actor.hothead",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.actor.loud",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.actor.nervous",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.relationship.cold",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.relationship.couple",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.relationship.crush",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.relationship.ex",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.relationship.rival",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.brawl-bond",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.comrade",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.shared-history.waited",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.chat.with-topic",
+      "family": "routine",
+      "angle": "context",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other",
+        "topic"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 1,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.actor.eater",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.actor.gentle",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.actor.hothead",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.actor.loud",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.actor.nervous",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.greet.shared-history.brawl-bond",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.actor.eater",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.actor.gentle",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.actor.hothead",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.actor.loud",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.actor.nervous",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.relationship.cold",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.relationship.couple",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.relationship.crush",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.relationship.ex",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.relationship.rival",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.shared-history.comrade",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.shared-history.waited",
+      "family": "routine",
+      "angle": "sharedHistory",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.meal.with-place",
+      "family": "routine",
+      "angle": "context",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other",
+        "place"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 1,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.party.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.party.with-place",
+      "family": "routine",
+      "angle": "context",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b",
+        "place"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 1,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.event.clash",
+      "family": "routine",
+      "angle": "eventSpecific",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 1,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.crybaby",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.eater",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.gentle",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.loud",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.participant-a-trait.nervous",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.relationship.cold",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.relationship.couple",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.relationship.crush",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.relationship.ex",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.rest.relationship.rival",
+      "family": "routine",
+      "angle": "relationship",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 6,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.actor.crybaby",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.actor.gentle",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.actor.hothead",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.actor.loud",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.actor.nervous",
+      "family": "routine",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.baseline",
+      "family": "routine",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 24,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.socialize.with-place",
+      "family": "routine",
+      "angle": "context",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other",
+        "place"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 2,
+      "contractRevision": 1
+    }
+  ]
+}

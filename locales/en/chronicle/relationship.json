@@ -1,0 +1,3920 @@
+{
+  "locale": "en",
+  "family": "relationship",
+  "templates": [
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.001",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} forgot the anniversary with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.002",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} schedule had everything on it except the anniversary with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.003",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} waited all evening; {actor}, down in the mines, noticed nothing.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.004",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Busy days blur together, and {actor} let the most important one slip.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.005",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} remembered the anniversary only near the end of the day and could no longer pretend nothing was wrong in front of {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.006",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} waited all day without any acknowledgment before {actor} finally realized what had been missed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.007",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} remembered the ordinary schedule perfectly but forgot the important day shared with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.008",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "By the time {actor} offered belated wishes, {other} was no longer in the mood to celebrate.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.009",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to make up for it with a late anniversary greeting, and {other} only looked back in silence.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.010",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Only after seeing {other} put away a prepared gesture alone did {actor} understand that the anniversary had been missed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.011",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} forgot the anniversary with {other}. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.012",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} schedule had everything on it except the anniversary with {other}. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.013",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} waited all evening; {actor}, down in the mines, noticed nothing. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.014",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Busy days blur together, and {actor} let the most important one slip. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.015",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} remembered the anniversary only near the end of the day and could no longer pretend nothing was wrong in front of {other}. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.016",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} waited all day without any acknowledgment before {actor} finally realized what had been missed. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.017",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} remembered the ordinary schedule perfectly but forgot the important day shared with {other}. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.018",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "By the time {actor} offered belated wishes, {other} was no longer in the mood to celebrate. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.019",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to make up for it with a late anniversary greeting, and {other} only looked back in silence. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.020",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Only after seeing {other} put away a prepared gesture alone did {actor} understand that the anniversary had been missed. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.001",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} marked the day they got together.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.002",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} made it through another year together — worth a toast.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.003",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In a place where you keep the calendar yourself, {a} and {b} remembered the day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.004",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} celebrated like it was a colony-wide holiday — as far as they were concerned, it was.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.005",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} remembered the day they first came together and raised a cup to another anniversary.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.006",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} set work aside for a while and deliberately made time to celebrate each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.007",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} exchanged small prepared gestures, neither having forgotten the day.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.008",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} counted the cycles they had shared and found many moments worth remembering.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.009",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} planned no grand celebration and simply kept the day for each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.010",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "On their anniversary, {a} and {b} repeated their original promise with greater certainty.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.011",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} marked the day they got together. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.012",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} made it through another year together — worth a toast. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.013",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In a place where you keep the calendar yourself, {a} and {b} remembered the day. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.014",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} celebrated like it was a colony-wide holiday — as far as they were concerned, it was. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.015",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} remembered the day they first came together and raised a cup to another anniversary. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.016",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} set work aside for a while and deliberately made time to celebrate each other. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.017",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} exchanged small prepared gestures, neither having forgotten the day. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.018",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} counted the cycles they had shared and found many moments worth remembering. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.019",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} planned no grand celebration and simply kept the day for each other. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.020",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "On their anniversary, {a} and {b} repeated their original promise with greater certainty. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.001",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "A conflict, of all things, made {a} and {b} good friends.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.002",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked it all out and came out of it friends.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.003",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the apology, {a} and {b} were closer than before the fight.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.004",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had a fight, then became friends. That's just how it went.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.005",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked through the conflict from the beginning and found that both were willing to yield for the relationship.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.006",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not avoid the uncomfortable parts, and the honesty deepened their trust.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.007",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted their own mistakes, turning an apology into a new understanding.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.008",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} only meant to end the dispute, but came away truly understanding each other for the first time.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.009",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After making peace, {a} and {b} stayed together and voiced things they had not dared to say before.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.010",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Through the conflict, {a} and {b} saw that the other was still willing to stay, leaving the bond stronger than before.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.011",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "A conflict, of all things, made {a} and {b} good friends. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.012",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked it all out and came out of it friends. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.013",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After the apology, {a} and {b} were closer than before the fight. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.014",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had a fight, then became friends. That's just how it went. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.015",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked through the conflict from the beginning and found that both were willing to yield for the relationship. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.016",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not avoid the uncomfortable parts, and the honesty deepened their trust. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.017",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted their own mistakes, turning an apology into a new understanding. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.018",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} only meant to end the dispute, but came away truly understanding each other for the first time. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.019",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After making peace, {a} and {b} stayed together and voiced things they had not dared to say before. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.020",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Through the conflict, {a} and {b} saw that the other was still willing to stay, leaving the bond stronger than before. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.001",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} apologized to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.002",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} yielded first, and {other} forgave.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.003",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stumbled through the word \"sorry\"; {other} accepted it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.004",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} offered a mush bar by way of apology.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.005",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Between pride and {other}, {actor} chose {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.006",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} made no excuses and plainly told {other} what had been done wrong.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.007",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} waited until {other} had expressed every grievance before sincerely asking forgiveness.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.008",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted that the words had caused harm and promised {other} a different approach next time.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.009",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} delivered the apology slowly, making sure {other} heard sincerity rather than obligation.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.010",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} sought {other} out and admitted fault instead of waiting for time to blur the issue.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.011",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} apologized to {other}. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.012",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} yielded first, and {other} forgave. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.013",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stumbled through the word \"sorry\"; {other} accepted it. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.014",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} offered a mush bar by way of apology. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.015",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Between pride and {other}, {actor} chose {other}. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.016",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} made no excuses and plainly told {other} what had been done wrong. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.017",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} waited until {other} had expressed every grievance before sincerely asking forgiveness. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.018",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted that the words had caused harm and promised {other} a different approach next time. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.019",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} delivered the apology slowly, making sure {other} heard sincerity rather than obligation. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.020",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} sought {other} out and admitted fault instead of waiting for time to blur the issue. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.001",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} had an argument.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.002",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} quarreled, neither willing to back down.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.003",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} voices rose high enough to startle the hatches next door.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.004",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} got heated over something trivial; in hindsight, neither could say what.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.005",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When the shouting was over, {actor} and {other} each blamed the other for starting it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.006",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} raised the voice first, and when {other} refused to yield, the dispute quickly sharpened.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.007",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} accused {other} of not listening, and the two immediately began to argue.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.008",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} released every accumulated grievance, and {other} answered each one in turn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.009",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to force an admission from {other}, but both ended up hearing only their own anger.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.010",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "A harsh remark from {actor} crossed the line, and {other} no longer tried to remain calm.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.011",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} had an argument. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.012",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} quarreled, neither willing to back down. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.013",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} voices rose high enough to startle the hatches next door. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.014",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} got heated over something trivial; in hindsight, neither could say what. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.015",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When the shouting was over, {actor} and {other} each blamed the other for starting it. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.016",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} raised the voice first, and when {other} refused to yield, the dispute quickly sharpened. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.017",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} accused {other} of not listening, and the two immediately began to argue. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.018",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} released every accumulated grievance, and {other} answered each one in turn. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.019",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to force an admission from {other}, but both ended up hearing only their own anger. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.020",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "A harsh remark from {actor} crossed the line, and {other} no longer tried to remain calm. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.001",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Over {cause}, {actor} and {other} got into an argument.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.002",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Because of {cause}, {actor} confronted {other}, and the exchange quickly became an argument.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.003",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} blamed {other} for the frustration over {cause}, and {other} immediately pushed back.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.004",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Over {cause}, {actor} and {other} held opposing positions, and neither persuaded the other.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.005",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} demanded an explanation from {other} about {cause}, and the answer only increased the anger.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.006",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} became the spark: {actor} attacked first, and {other} brought up old grievances in return.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.007",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} decided that {other} was responsible for {cause}, and the two argued bitterly over it.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.008",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {cause} came up, {actor} lost patience and {other} refused to keep yielding.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.009",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} meant to clarify {cause} with {other}, but emotion turned the explanation into accusation.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.010",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Both {actor} and {other} felt wronged over {cause}, pulling the argument deeper.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.011",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Over {cause}, {actor} and {other} got into an argument. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.012",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Because of {cause}, {actor} confronted {other}, and the exchange quickly became an argument. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.013",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} blamed {other} for the frustration over {cause}, and {other} immediately pushed back. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.014",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Over {cause}, {actor} and {other} held opposing positions, and neither persuaded the other. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.015",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} demanded an explanation from {other} about {cause}, and the answer only increased the anger. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.016",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} became the spark: {actor} attacked first, and {other} brought up old grievances in return. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.017",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} decided that {other} was responsible for {cause}, and the two argued bitterly over it. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.018",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {cause} came up, {actor} lost patience and {other} refused to keep yielding. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.019",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} meant to clarify {cause} with {other}, but emotion turned the explanation into accusation. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.020",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Both {actor} and {other} felt wronged over {cause}, pulling the argument deeper. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.001",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} broke up.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.002",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} relationship reached its end.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.003",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} said what needed saying, then turned and walked away.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.004",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} relationship ran out like an atmo suit's oxygen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.005",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} wanted to try again; {actor} was done talking.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.006",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} that the relationship could not continue and ended their partnership.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.007",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} said the words of separation, {other} remained silent for a long time before accepting them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.008",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted being unable to face {other} as before, and the two separated.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.009",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} left no ambiguity and clearly told {other} that the relationship was over.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.010",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} had one final talk and decided not to continue as partners.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.011",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} broke up. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.012",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} relationship reached its end. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.013",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} said what needed saying, then turned and walked away. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.014",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other:possessive} relationship ran out like an atmo suit's oxygen. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.015",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} wanted to try again; {actor} was done talking. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.016",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} that the relationship could not continue and ended their partnership. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.017",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} said the words of separation, {other} remained silent for a long time before accepting them. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.018",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted being unable to face {other} as before, and the two separated. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.019",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} left no ambiguity and clearly told {other} that the relationship was over. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.020",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} and {other} had one final talk and decided not to continue as partners. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.001",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} confessed to {other}, but {other} did not say yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.002",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} could not return {actor:possessive} feelings.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.003",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} delivered the rehearsed confession; {other} stayed silent for a long while.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.004",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Not every heartfelt word finds an echo; {actor} learned that today.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.005",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} finished confessing, a long wait ended with {other} shaking the head.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.006",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} listened carefully to {actor:possessive} confession but could not return the same feeling.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.007",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to hide the disappointment and still thanked {other} for an honest answer.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.008",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The courage {actor} gathered did not bring the hoped-for result, leaving {actor} to accept {other:possessive} refusal.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.009",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} refused {actor} gently but clearly, leaving no hope that could be misunderstood.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.010",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had prepared many words, but after hearing {other:possessive} answer could only say, \"I understand.\"",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.011",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} confessed to {other}, but {other} did not say yes. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.012",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} could not return {actor:possessive} feelings. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.013",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} delivered the rehearsed confession; {other} stayed silent for a long while. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.014",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Not every heartfelt word finds an echo; {actor} learned that today. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.015",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {actor} finished confessing, a long wait ended with {other} shaking the head. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.016",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} listened carefully to {actor:possessive} confession but could not return the same feeling. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.017",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to hide the disappointment and still thanked {other} for an honest answer. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.018",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The courage {actor} gathered did not bring the hoped-for result, leaving {actor} to accept {other:possessive} refusal. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.019",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} refused {actor} gently but clearly, leaving no hope that could be misunderstood. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.020",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had prepared many words, but after hearing {other:possessive} answer could only say, \"I understand.\"; They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.001",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} confessed their feelings to {other} — {other} said yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.002",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} found the courage to confess; {other}, blushing, nodded.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.003",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} got halfway through the rehearsed speech before {other} said yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.004",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "With the printing pod as their witness, {actor} took {other:possessive} hand.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.005",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} had waited a long time for those words; {actor} finally said them.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.006",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} the feelings that had been hidden for a long time and received an affirmative answer.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.007",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted wanting a future with {other}, and {other} answered with a sincere yes.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.008",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Near the end, {actor} became too nervous to continue, and {other} reached out to take the offered hand.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.009",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had prepared no elegant speech, only an honest declaration of affection that {other} returned.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.010",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} asked whether {other} would become a partner, and the answer left both smiling.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.011",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} confessed their feelings to {other} — {other} said yes. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.012",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} found the courage to confess; {other}, blushing, nodded. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.013",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} got halfway through the rehearsed speech before {other} said yes. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.014",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "With the printing pod as their witness, {actor} took {other:possessive} hand. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.015",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} had waited a long time for those words; {actor} finally said them. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.016",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} the feelings that had been hidden for a long time and received an affirmative answer. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.017",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted wanting a future with {other}, and {other} answered with a sincere yes. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.018",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Near the end, {actor} became too nervous to continue, and {other} reached out to take the offered hand. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.019",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had prepared no elegant speech, only an honest declaration of affection that {other} returned. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.020",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} asked whether {other} would become a partner, and the answer left both smiling. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.001",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} went on a date; the mood was just right.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.002",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} stole a moment alone, with eyes only for each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.003",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} walked side by side; neither mentioned going back to work.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.004",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had their date by the telescope, taking turns at the same patch of stars.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.005",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} set one rule for the date: no talk of work schedules.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.006",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} kept a stretch of free time for each other and enjoyed a quiet date.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.007",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} left work unmentioned and asked about what each truly cared about lately.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.008",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} stayed side by side for a long while, neither rushing toward the next task.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.009",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} prepared carefully for the date, and each noticed the other's effort on meeting.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.010",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} revisited the details that first drew them together, softening the mood between them.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.011",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} went on a date; the mood was just right. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.012",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} stole a moment alone, with eyes only for each other. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.013",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} walked side by side; neither mentioned going back to work. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.014",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had their date by the telescope, taking turns at the same patch of stars. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.015",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} set one rule for the date: no talk of work schedules. The asteroid remained dangerous, but they no longer had to face everything alone.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.016",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} kept a stretch of free time for each other and enjoyed a quiet date. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.017",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} left work unmentioned and asked about what each truly cared about lately. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.018",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} stayed side by side for a long while, neither rushing toward the next task. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.019",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} prepared carefully for the date, and each noticed the other's effort on meeting. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.020",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} revisited the details that first drew them together, softening the mood between them. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.001",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had a bitter fight and became strangers.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.002",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Whatever warmth {a} and {b} had left was gone overnight.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.003",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Since that day, {a} and {b} take detours to avoid each other in the corridors.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.004",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The friendship ran its course; {a} and {b} don't even nod anymore.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.005",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} said the most hurtful things they could, breaking the trust that had remained.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.006",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Neither {a} nor {b} withdrew an accusation, leaving only estrangement when the dispute ended.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.007",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The conflict between {a} and {b} crossed the line of easy repair, and the relationship fractured.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.008",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} no longer trusted each other's explanations and began deliberately avoiding one another.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.009",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In anger, {a} and {b} rejected their former bond and did not reconnect after calming down.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.010",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} ended the argument without peace, leaving each other outside the relationship.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.011",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} had a bitter fight and became strangers. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.012",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Whatever warmth {a} and {b} had left was gone overnight. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.013",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Since that day, {a} and {b} take detours to avoid each other in the corridors. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.014",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The friendship ran its course; {a} and {b} don't even nod anymore. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.015",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} said the most hurtful things they could, breaking the trust that had remained. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.016",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Neither {a} nor {b} withdrew an accusation, leaving only estrangement when the dispute ended. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.017",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The conflict between {a} and {b} crossed the line of easy repair, and the relationship fractured. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.018",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} no longer trusted each other's explanations and began deliberately avoiding one another. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.019",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "In anger, {a} and {b} rejected their former bond and did not reconnect after calming down. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.020",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} ended the argument without peace, leaving each other outside the relationship. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.001",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} was jealous.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.002",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The sour feeling crept up on {actor}, who couldn't say where it came from.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.003",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} realized how much it mattered where the other person's attention went, and the jealousy could no longer be hidden.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.004",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to appear indifferent, but irritation in the voice revealed the truth.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.005",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Seeing a close person's attention turn elsewhere, {actor} grew steadily jealous in silence.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.006",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} repeatedly insisted there was no reason to care, but the feeling did not disappear.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.007",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} made no scene, carrying the sting of jealousy into the time afterward.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.008",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} abruptly became unusually quiet, with distance entering even ordinary replies.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.009",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} recognized a rising possessiveness but did not yet know how to explain it.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.010",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Disappointment at not receiving the expected attention quickly turned into jealousy for {actor}.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.011",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} was jealous. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.012",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The sour feeling crept up on {actor}, who couldn't say where it came from. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.013",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} realized how much it mattered where the other person's attention went, and the jealousy could no longer be hidden. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.014",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to appear indifferent, but irritation in the voice revealed the truth. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.015",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Seeing a close person's attention turn elsewhere, {actor} grew steadily jealous in silence. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.016",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} repeatedly insisted there was no reason to care, but the feeling did not disappear. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.017",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} made no scene, carrying the sting of jealousy into the time afterward. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.018",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} abruptly became unusually quiet, with distance entering even ordinary replies. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.019",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} recognized a rising possessiveness but did not yet know how to explain it. The Mess Hall stayed lively, while the air around them turned cold.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.020",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Disappointment at not receiving the expected attention quickly turned into jealousy for {actor}. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.001",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other} laughing with {third}, and it stung.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.002",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} and {other} were deep in conversation; {actor} stood nearby, counting regolith.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.003",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other} devote all attention to {third}, with displeasure becoming increasingly visible.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.004",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As {third} and {other} became absorbed in conversation, {actor} repeatedly considered interrupting and stopped.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.005",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched every response {other} gave {third} and found it increasingly difficult to stay calm.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.006",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not notice {actor:possessive} silence and continued the close conversation with {third}.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.007",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to believe that {other} and {third} were only interacting normally, but the jealousy remained.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.008",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {third} left, {actor} still faced {other} with unspoken resentment.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.009",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Seeing {other} smile because of {third}, {actor} suddenly felt left outside.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.010",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} did not blame {third}, but could not ignore seeing {other} offer closeness to someone else.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.011",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other} laughing with {third}, and it stung. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.012",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third} and {other} were deep in conversation; {actor} stood nearby, counting regolith. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.013",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other} devote all attention to {third}, with displeasure becoming increasingly visible. Oxygen kept moving through the pipes without carrying away what remained unsaid.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.014",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As {third} and {other} became absorbed in conversation, {actor} repeatedly considered interrupting and stopped. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.015",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched every response {other} gave {third} and found it increasingly difficult to stay calm. The machines kept running, while only silence remained between them.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.016",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not notice {actor:possessive} silence and continued the close conversation with {third}. The shift bell had rung, but the matter was far from over.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.017",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tried to believe that {other} and {third} were only interacting normally, but the jealousy remained. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.018",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After {third} left, {actor} still faced {other} with unspoken resentment. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.019",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Seeing {other} smile because of {third}, {actor} suddenly felt left outside. The Printing Pod's light remained warm, but they no longer looked at each other.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.020",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} did not blame {third}, but could not ignore seeing {other} offer closeness to someone else. They returned to separate workstations, and neither truly let the matter go.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.001",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} let go of old grievances and made up.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.002",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} closed the old ledger and sat down at the same table again.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.003",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Whoever spoke first no longer matters; {a} and {b} made up.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.004",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The day the cold war ended, {a} and {b} both breathed easier.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.005",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} finally sat down and heard each other out, beginning to loosen the cold war.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.006",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted that the standoff only caused more pain and chose to cooperate again.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.007",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} addressed every point of hurt instead of using silence as punishment.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.008",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} tried beginning again with an ordinary greeting, giving the relationship room to warm.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.009",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Both {a} and {b} yielded a little, finally giving the long-stuck conflict a way out.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.010",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not pretend the dispute had never happened; they decided not to let it govern what came next.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.011",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} let go of old grievances and made up. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.012",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} closed the old ledger and sat down at the same table again. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.013",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Whoever spoke first no longer matters; {a} and {b} made up. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.014",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "The day the cold war ended, {a} and {b} both breathed easier. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.015",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} finally sat down and heard each other out, beginning to loosen the cold war. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.016",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted that the standoff only caused more pain and chose to cooperate again. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.017",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} addressed every point of hurt instead of using silence as punishment. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.018",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} tried beginning again with an ordinary greeting, giving the relationship room to warm. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.019",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Both {a} and {b} yielded a little, finally giving the long-stuck conflict a way out. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.020",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not pretend the dispute had never happened; they decided not to let it govern what came next. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.001",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} found their way back to each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.002",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} took the long way around and ended up back together.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.003",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some partings are just for thinking things through. {a} and {b} thought it through.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.004",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} held hands again, tighter than the first time.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.005",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted that they had continued to miss each other and chose to give the relationship another chance.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.006",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} revisited why they had separated and this time found changes they could make together.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.007",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} tried holding hands again, and the familiar feeling kept either from letting go.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.008",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not demand a return to the past, only promised to know each other anew from now on.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.009",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After a long estrangement, {a} and {b} ultimately chose to stand together again.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.010",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} spoke cautiously about reuniting, while neither hid the desire to grow close again.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.011",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} found their way back to each other. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.012",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} took the long way around and ended up back together. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.013",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some partings are just for thinking things through. {a} and {b} thought it through. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.014",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} held hands again, tighter than the first time. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.015",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} admitted that they had continued to miss each other and chose to give the relationship another chance. When machinery drowned out their voices again, both knew things were different.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.016",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} revisited why they had separated and this time found changes they could make together. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.017",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} tried holding hands again, and the familiar feeling kept either from letting go. The colony stopped for no one, yet this moment changed the days that followed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.018",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} did not demand a return to the past, only promised to know each other anew from now on. The Printing Pod's distant light passed over a new page in their shared life.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.019",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After a long estrangement, {a} and {b} ultimately chose to stand together again. The base machinery ran as usual, but the distance between them had changed.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.020",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} spoke cautiously about reuniting, while neither hid the desire to grow close again. After the shift bell rang, the relationship did not return to where it had been.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    }
+  ]
+}

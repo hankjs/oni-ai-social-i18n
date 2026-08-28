@@ -1,0 +1,137 @@
+{
+  "locale": "ko",
+  "family": "care",
+  "candidates": [
+    {
+      "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "움직이지 마, 붕대 다시 감아 줄게."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "살살…… 그래도, 고마워."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "오늘은 쉬어, 남은 일은 우리가 할게."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그렇게 말하니, 이제야 눈 감을 용기가 나."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "약이 써서, 당과 반쪽을 맞춰 뒀어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "반쪽? ……알겠어, 간호사가 왕이지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "체온은 정상이야, 그래도 오늘은 누워 있어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "침대에서 고치가 생길 지경이야.…… 그래, 네 말대로."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "세균 레이어 확인했어, 네 침대 옆은 아주 깨끗해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 안심하고 기침할게.…… 농담이야."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "약은 용량대로 내가 맞춘 거야, 안심하고 마셔."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "저번에 한 명을 두 명분으로 따른 게 누구였지?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "……그래서 이번엔 세 번 달아 봤어."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "locale": "en",
+  "family": "partnerloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.partnerloss.base.001",
+      "storyletId": "PartnerLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your name is still on the schedule... I cannot erase it yet."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.002",
+      "storyletId": "PartnerLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We were supposed to see the colony finished together. Why did you leave first?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.003",
+      "storyletId": "PartnerLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I cleaned your atmo suit and hung it in the usual spot. As if you might come back for it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.partnerloss.base.004",
+      "storyletId": "PartnerLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The oxygen is rich today and dinner was almost good. Of all the days for you to miss."
+        }
+      ]
+    }
+  ]
+}

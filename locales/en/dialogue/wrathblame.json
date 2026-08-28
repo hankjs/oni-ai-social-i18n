@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathblame",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathblame.base.001",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Somebody has to answer for this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Why is it me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.002",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not saying he did it. I'm saying I didn't."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You already said it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.003",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The report needs a name on it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So you picked the easiest one to write."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.004",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone here knows."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Knowing isn't proof."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.005",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You were there that shift, weren't you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I was asleep. Everyone's always there. It's one base."
+        }
+      ]
+    }
+  ]
+}

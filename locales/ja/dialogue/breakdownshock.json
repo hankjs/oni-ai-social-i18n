@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "breakdownshock",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あいつに触るな。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "離れてくれ。抑えられない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "電線が跳ねてる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "分かってる。俺だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あいつ、一列の明かりを全部消した。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "節電だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "そんなことしてたら、自分が傷つく。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "もう傷ついてる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "機械がお前を怖がってる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "機械は賢い。"
+        }
+      ]
+    }
+  ]
+}

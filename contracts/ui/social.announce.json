@@ -1,0 +1,971 @@
+{
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "meaning": "{0}/{1}: the new couple.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the new couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "meaning": "{0}: memory description (event + cause), {1}: display cycle.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "memory description (event + cause), {1}: display cycle",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "meaning": "{0}: survivor, {1}: the deceased partner.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "survivor, {1}: the deceased partner",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "meaning": "{0}: survivor, {1}: the deceased crush.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "survivor, {1}: the deceased crush",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "meaning": "{0}/{1}: the couple.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "meaning": "{0}/{1}: the couple.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "meaning": "{0}/{1}: the feuding friends.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the feuding friends",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "meaning": "{0}: comforter, {1}: the grieving duplicant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "comforter, {1}: the grieving duplicant",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "meaning": "{0}/{1}: the long-term couple.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the long-term couple",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "meaning": "{0}/{1}: the new rivals.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the new rivals",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "meaning": "{0}/{1}: the former rivals.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the former rivals",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "meaning": "{0}/{1}: the brawlers.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the brawlers",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "meaning": "{0}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "meaning": "{0}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "meaning": "{0}: the champion, {1}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the champion, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "meaning": "{0}: the rescuer, {1}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the rescuer, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "meaning": "{0}: the attacker, {1}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the attacker, {1}: the scapegoat",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "meaning": "{0}: the scapegoat.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the scapegoat",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "meaning": "{0}: the duplicant breaking down, {1}: witness count, {2}: reaction name.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the duplicant breaking down, {1}: witness count, {2}: reaction name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "meaning": "{0}: the comforter, {1}: the duplicant who broke down. **刻意不写「崩溃就这样停了」**:自然发生的安慰几乎必然落在崩溃自己 结束之后(tier2 的六种 chore 是 compulsory 且优先权高于吃饭/工作/就医, 崩溃者在那期间根本接不到互动),讲成因果是假的。玩家牵线那条路才切得短。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the comforter, {1}: the duplicant who broke down",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "meaning": "{0}/{1}: the reconciled brawlers.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "the reconciled brawlers",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "meaning": "{0}: the survivor, {1}: the dead rival.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "the survivor, {1}: the dead rival",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "meaning": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "locale": "vi",
+  "family": "breakdownshock",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownshock.base.001",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Đừng đụng hắn."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đứng xa ra, tớ không kiểm soát được."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.002",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Dây điện đang giật."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tớ biết. Là tớ."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.003",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hắn tắt cả dãy đèn."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tiết kiệm điện."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.004",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Cậu thế này sẽ tự làm mình đau."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đang đau rồi."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownshock.base.005",
+      "storyletId": "BreakdownShock",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Máy sợ cậu."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Máy khôn."
+        }
+      ]
+    }
+  ]
+}

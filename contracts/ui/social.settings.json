@@ -1,0 +1,966 @@
+{
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.ON",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_KO",
+      "meaning": "Korean language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_RU",
+      "meaning": "Russian language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA",
+      "meaning": "Japanese language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_VI",
+      "meaning": "Vietnamese language choice, shown using the language's native name",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 60
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "meaning": "仅限制发送给 AI 的日常对话数量；超过后继续使用本地 i18n 台词，不减少可见闲聊。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "meaning": "日常气泡的个人冷却；与同一对复制人的冷却共同生效。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "meaning": "限制问候、闲聊等普通事实进入纪事；里程碑和重大事件不受限制。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    }
+  ]
+}

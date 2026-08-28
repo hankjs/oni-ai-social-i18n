@@ -1,0 +1,121 @@
+{
+  "locale": "en",
+  "family": "anniversary",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversary.base.001",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Remember this day, ten cycles ago?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You crushed a mush bar out of sheer nerves."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Tonight I'll crush the stars for you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.002",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Another year... by colony reckoning."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "As long as there's oxygen, I'll keep counting with you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.003",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your gift: a massage table pass. Cost me three shift trades."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Mine: I rescheduled all your shifts to daytime."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...We really are perfect for each other."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.004",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A hundred cycles and you still tolerate my snoring."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tolerate is strong. Let's say I've stopped filing reports."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.005",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Happy anniversary. Base intact, us intact."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "On this planet, that's the highest score there is."
+        }
+      ]
+    }
+  ]
+}

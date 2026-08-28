@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You went down again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I've got better lungs."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That level's mine next time."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You've said that three times."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I owe you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just remember it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You don't have to keep going in my place."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What, and watch you go?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Thanks."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't."
+        }
+      ]
+    }
+  ]
+}

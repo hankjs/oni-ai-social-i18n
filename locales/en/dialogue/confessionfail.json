@@ -1,0 +1,136 @@
+{
+  "locale": "en",
+  "family": "confessionfail",
+  "candidates": [
+    {
+      "candidateId": "storylet.confessionfail.base.001",
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I... I've liked you for a long time..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Oh... I'm sorry. I need to focus on surviving right now."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Forget I said anything."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.002",
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So... I might, sort of, like you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You're one of the good ones. My heart's just full elsewhere."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Understood. Friends as usual?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.003",
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I like you. Took me ten cycles to say it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Thank you for telling me. I can't answer the same way."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "It's fine. Saying it was worth it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.004",
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I always look forward to pipe duty with you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "To me you're my best workmate... I'm sorry."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Workmate's still good. Plenty of pipes left."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.confessionfail.base.005",
+      "storyletId": "ConfessionFail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "He smiled at me near the printing pod."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "He was smiling at the pod. It makes new coworkers."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Let me have this for one more cycle."
+        }
+      ]
+    }
+  ]
+}

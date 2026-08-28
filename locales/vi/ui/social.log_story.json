@@ -1,0 +1,1830 @@
+{
+  "locale": "vi",
+  "namespace": "social.log_story",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PAIR_JOINER",
+      "text": "{0} và {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SELF_NAME",
+      "text": "tôi",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_1",
+      "text": "{pair} lướt vai nhau, gật đầu chào.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_2",
+      "text": "{pair} chào nhau ở hành lang.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_3",
+      "text": "{pair} gặp nhau, xã giao vài câu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_4",
+      "text": "{pair} vẫy tay từ đằng xa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_5",
+      "text": "{pair} nhìn nhau xuyên nửa hành lang, hiểu ý.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_6",
+      "text": "{pair} xếp hàng trước buồng in, tiện thể chào.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_1",
+      "text": "{pair} trò chuyện một lúc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_2",
+      "text": "{pair} xúm lại tán gẫu, không khí khá.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_3",
+      "text": "{pair} nói chuyện nhà cửa vặt vãnh.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_4",
+      "text": "{pair} nói chuyện về {topic}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_5",
+      "text": "{pair} đổi cho nhau chuyện thấy hôm nay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_6",
+      "text": "{pair} nói chuyện chắp vá, thời gian trôi nhanh.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_1",
+      "text": "{actor} đổ cả bầu tâm sự lên {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_2",
+      "text": "{other} nghe {actor} tâm sự rất lâu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_3",
+      "text": "{actor} kể lần lượt chuyện tệ hôm nay cho {other} nghe.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_4",
+      "text": "{actor} hỏi {other} ngày thế này bao giờ mới hết, {other} không đáp được.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_5",
+      "text": "Đổ hết tâm sự xong, {actor} thấy đất bẩn trên vai cũng nhẹ hơn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_STRESS_1",
+      "text": "Cảm xúc của {actor} gần không nén nổi, {other} ngồi cùng một lúc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_1",
+      "text": "{actor} cầm tay chỉ {other} làm việc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_2",
+      "text": "{actor} kể {other} vài mẹo riêng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_3",
+      "text": "{actor} làm mẫu một lượt, {other} nhìn không chớp mắt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_4",
+      "text": "{actor} nói chỉ dạy một lần, {other} quyết về tự luyện lén.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TEACH_5",
+      "text": "Có nghề bảng ca không dạy được, {actor} truyền cho {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_1",
+      "text": "{pair} nói chuyện đến khuya, thành bạn thân của nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_2",
+      "text": "{pair} nói những lời chưa từng nói với ai.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_3",
+      "text": "{pair} đổi bí mật cho nhau, từ đó chẳng còn ngươi với ta.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_4",
+      "text": "Đêm ấy {pair} nói đến sáng, chẳng ai nhắc chuyện phải ngủ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BESTFRIEND_5",
+      "text": "Có người quen lâu mới thành bạn, {pair} chỉ mất một đêm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_1",
+      "text": "{actor} chăm sóc {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_2",
+      "text": "{actor} giúp {other} xử lý vết thương.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_3",
+      "text": "{actor} thay băng cho {other}, động tác rất nhẹ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_4",
+      "text": "{other} miệng bảo không sao, vẫn để {actor} trông cả ngày.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CARE_5",
+      "text": "{actor} ngồi canh bên {other}, thuốc cũng ủ ấm sẵn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_1",
+      "text": "{actor} ở bên {other}, đến khi họ dịu lại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_2",
+      "text": "{other} bình lại dưới sự bầu bạn của {actor}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_3",
+      "text": "{actor} chẳng nói đạo lý lớn, chỉ ở bên {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_4",
+      "text": "{other} muốn nói cảm ơn, {actor} vẫy tay bảo tiết sức.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.COMFORT_5",
+      "text": "Có đêm chỉ biết chịu cho qua, may {other} không chịu một mình.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_1",
+      "text": "{pair} cùng ăn một bữa tại {place}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_2",
+      "text": "{pair} vừa ăn vừa nói, rất thư giãn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_3",
+      "text": "{pair} ghép một bàn, nói chuyện rất lâu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_4",
+      "text": "{pair} bưng khay ngồi sát nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_5",
+      "text": "{pair} chia một phần bánh mush mềm, chẳng ai chê ai.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_6",
+      "text": "Cơm vẫn như cũ, nhưng tiếng cười bàn của {pair} là mới.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COLD_1",
+      "text": "{pair} cách một mặt bàn, chẳng ai mở miệng trước.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COUPLE_1",
+      "text": "{pair} ngồi sát, bữa ấy ăn rất ngọt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_1",
+      "text": "{pair} ngủ chung phòng một đêm, nhịp rất hợp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_2",
+      "text": "Giường của {pair} sát nhau, đêm trở mình còn sợ làm ồn người kia.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_3",
+      "text": "Tắt đèn xong, {pair} còn thì thầm một lúc mới ngủ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_4",
+      "text": "Cùng một mái, {pair} cả nhịp ngáy cũng mài cho khớp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CLASH_1",
+      "text": "{pair} lệch nhịp, chẳng ai ngủ ngon.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_1",
+      "text": "{pair} cùng chơi một lúc tại {place}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_2",
+      "text": "{pair} gặp ở khu nghỉ, chơi rất vui.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_3",
+      "text": "{pair} tiêu một đoạn thời gian đẹp tại {place}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_4",
+      "text": "{pair} đấu vài ván, thắng thua chẳng còn quan trọng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_5",
+      "text": "{pair} chơi đến hết mệt của cả ngày.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_1",
+      "text": "{pair} tham dự tiệc ở {place}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_2",
+      "text": "{pair} chơi đã ở tiệc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_3",
+      "text": "{pair} chạm ly ở tiệc, nước quả gần như có vị rượu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_4",
+      "text": "Dưới đèn tiệc, {pair} nói chuyện nhiều hơn thường.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.PARTY_5",
+      "text": "{pair} ở đến lúc tiệc tan, vẫn chưa đã.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_1",
+      "text": "{pair} hẹn một buổi, không khí vừa vặn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_2",
+      "text": "{pair} ở riêng một lúc, mắt chỉ còn nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_3",
+      "text": "{pair} đi cạnh nhau, chẳng ai nhắc chuyện về trạm làm việc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_4",
+      "text": "{pair} hẹn bên kính thiên văn, lần lượt nhìn cùng một trời sao.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.DATE_5",
+      "text": "Luật hẹn hò do {pair} đặt ra: cấm bàn bảng ca.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_1",
+      "text": "{pair} kỷ niệm những ngày bên nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_2",
+      "text": "{pair} lại đi qua một năm êm, đáng chạm một ly.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_3",
+      "text": "Nơi lịch còn phải tự nhớ, {pair} không quên hôm nay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_4",
+      "text": "{pair} biến ngày kỷ niệm thành lễ cả thuộc địa — ít ra họ nghĩ thế.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_1",
+      "text": "{actor} quên ngày kỷ niệm với {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_2",
+      "text": "Trên bảng ca của {actor} sót đúng ngày kỷ niệm với {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_3",
+      "text": "{other} đợi cả đêm, {actor} trong hầm mỏ chẳng hay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ANNIVERSARY_MISSED_4",
+      "text": "Bận quá thì lẫn, {actor} quên mất ngày quan trọng nhất.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_1",
+      "text": "{actor} bày tỏ với {other} — {other} nhận lời.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_2",
+      "text": "{actor} lấy can đảm tỏ tình, {other} đỏ mặt gật đầu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_3",
+      "text": "{actor} nói được nửa câu đã luyện mười lần, {other} đã nhận.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_4",
+      "text": "Dưới sự chứng kiến của buồng in, {actor} và {other} nắm tay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_5",
+      "text": "{other} đợi câu ấy đã lâu, {actor} cuối cùng cũng nói.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_1",
+      "text": "{pair} lại đi bên nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_2",
+      "text": "{pair} đi vòng một vòng, lại về bên nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_3",
+      "text": "Có chia tay chỉ để nghĩ cho thông, {pair} đã nghĩ thông.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REKINDLE_4",
+      "text": "{pair} lại nắm tay, chặt hơn lần đầu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_1",
+      "text": "{actor} tỏ tình với {other}, nhưng {other} không nhận.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_2",
+      "text": "Tấm lòng của {actor}, {other} không đỡ được.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_3",
+      "text": "{actor} nói xong câu tỏ tình đã tập, {other} im rất lâu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CONFESSION_FAIL_4",
+      "text": "Không phải chân thành nào cũng có tiếng vọng, {actor} hôm nay hiểu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_1",
+      "text": "{pair} chia tay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_2",
+      "text": "Tình cảm của {pair} đã đi đến hồi kết.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_3",
+      "text": "{pair} nói cho thông, rồi mỗi người quay đi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_4",
+      "text": "Quan hệ của {pair} cạn như oxy trong bộ đồ áp suất.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BREAKUP_5",
+      "text": "{other} còn muốn níu, {actor} không muốn bàn nữa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_1",
+      "text": "Giữa {pair} như có một bức tường vô hình, quan hệ đứng tại chỗ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_2",
+      "text": "Một lực không nói rõ ấn duyên của {pair}, chẳng ai bước thêm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_3",
+      "text": "Chuyện của {pair} vừa lật trang, lại bị bàn tay vô hình ấn nhẹ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_4",
+      "text": "Số phận vẽ một đường giữa {pair}, chẳng ai bước qua.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BOUND_BLOCK_5",
+      "text": "Quan hệ của {pair} nổi sóng, rồi lặng đi chẳng hiểu vì sao.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_1",
+      "text": "{pair} cãi lớn một trận, từ đó như người lạ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_2",
+      "text": "Chút tình giữa {pair}, một đêm về không.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_3",
+      "text": "Từ ngày ấy, {pair} gặp trên hành lang đều vòng tránh.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FALLOUT_4",
+      "text": "Bạn làm đến cùng, {pair} cả chào cũng bỏ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_1",
+      "text": "{pair} gỡ hết hiềm khích, lại vui vẻ với nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_2",
+      "text": "{pair} lật trang sổ cũ, lại ngồi chung một bàn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_3",
+      "text": "Ai mở miệng trước chẳng còn quan trọng, {pair} đã hòa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECONCILE_4",
+      "text": "Ngày chiến tranh lạnh kết thúc, {pair} đều thở phào.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_1",
+      "text": "{actor} xin lỗi {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_2",
+      "text": "{actor} cúi đầu trước, {other} cũng thuận đà tha.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_3",
+      "text": "{actor} nói «xin lỗi» cà lăm cà lặp, {other} nhận lấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_4",
+      "text": "{actor} đưa sang một miếng bánh mush mềm, coi như tạ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_5",
+      "text": "Giữa sĩ diện và {other}, {actor} chọn {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_1",
+      "text": "Một trận xung đột ngược lại khiến {pair} thành bạn tốt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_2",
+      "text": "{pair} nói cho thông, ngược lại thành bạn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_3",
+      "text": "{pair} xin lỗi xong còn thân hơn trước khi cãi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.APOLOGY_BOND_4",
+      "text": "{pair} cãi một trận, rồi thành bạn — chuyện là thế.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_1",
+      "text": "{pair} cãi một trận.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_2",
+      "text": "{pair} cãi vã, chẳng ai nhường ai.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_3",
+      "text": "Giọng {pair} càng nâng càng cao, đánh thức cả Hatch phòng bên.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_4",
+      "text": "{pair} đỏ mặt vì chuyện nhỏ, nghĩ lại chẳng đáng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_5",
+      "text": "Cãi xong một trận, {pair} đều thấy người kia vô lý trước.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ARGUMENT_CAUSE_1",
+      "text": "Vì {cause}, {pair} cãi nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_1",
+      "text": "{pair} kết oán, thành thù địch.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_2",
+      "text": "Ân oán của {pair} từ đây có tên: thù địch.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_3",
+      "text": "Lâu dài về sau, {pair} sẽ không cho nhau sắc mặt đẹp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_1",
+      "text": "{pair} buông oán cũ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_2",
+      "text": "{pair} bắt tay, oán cũ đến đây thôi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_OVER_3",
+      "text": "Ghét một người cũng mệt, {pair} quyết thôi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_1",
+      "text": "{other} chết, trong lòng {actor} chẳng nói được vị gì.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_2",
+      "text": "Thù địch chết, {actor} bỗng thấy hành lang yên hơn nhiều.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RIVAL_DIED_3",
+      "text": "{actor} từng mong thắng {other}, nay không còn đối thủ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_1",
+      "text": "{actor} thấy {other} nói cười với {third}, trong lòng rất khó chịu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_2",
+      "text": "{actor} ghen rồi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_3",
+      "text": "{third} và {other} nói chuyện hợp, {actor} bên cạnh đếm đất bẩn rất lâu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.JEALOUSY_4",
+      "text": "Cái vị chua ấy, chính {actor} cũng không nói rõ nguồn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_1",
+      "text": "{actor} mất {other}, cả người sụp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_2",
+      "text": "Giường của {other} trống, {actor} lâu không nhìn về phía ấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_PARTNER_3",
+      "text": "Bảng ca về sau không còn tên {other}, ngày của {actor} cũng khuyết một mảng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_1",
+      "text": "{other} đã đi, {actor} nuốt lại lời chưa nói.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_2",
+      "text": "{other} không đợi được ngày {actor} lấy can đảm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.LOSS_CRUSH_3",
+      "text": "{actor} nói lời chuẩn bị đã lâu cho giường trống của {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_1",
+      "text": "Cảnh {actor} sụp đổ, {other} đều thấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_2",
+      "text": "{other} ngoảnh mặt, vẫn không quên được cảnh {actor} sụp đổ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_3",
+      "text": "Nhìn {actor} sụp đổ, {other} lần đầu thấy căn cứ im đến thế.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_1",
+      "text": "{subject} chứng kiến đồng đội sụp đổ, lòng rất nặng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WITNESS_SOLO_2",
+      "text": "{subject} bắt gặp đồng đội sụp đổ, cả ngày sau đãng trí.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_1",
+      "text": "{pair} đánh nhau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_2",
+      "text": "Cãi vã của {pair} nâng thành nắm đấm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_3",
+      "text": "{pair} vật nhau một khối, đồ nghề vương đầy đất.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_4",
+      "text": "Trận ấy đánh xấu, {pair} đều mang thương.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.BRAWL_5",
+      "text": "Người can cũng tới, {pair} mới chịu buông.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_1",
+      "text": "{actor} lại xuống khu nguy hiểm cả ngày, oán việc nhẹ của {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_2",
+      "text": "Cùng xuống hầm mỏ, sao {actor} luôn đi phía nguy hiểm — {actor} càng nghĩ càng khó chịu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_RESENT_3",
+      "text": "{actor} đếm ngày nhàn của {other}, sổ trong lòng càng dày.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_1",
+      "text": "Chút oán của {actor} với {other} từ từ tan.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_2",
+      "text": "{actor} nghĩ thông: việc nguy hiểm phải có người làm, không nên oán {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_EASED_3",
+      "text": "Thời gian mài hết lửa ấy, {actor} nhìn {other} ưa hơn nhiều.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_1",
+      "text": "{other} đỡ việc nguy hiểm thay {actor}, {actor} ghi trong lòng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_2",
+      "text": "Khi việc nguy hiểm rơi xuống, {other} đón trước, {actor} sẽ không quên.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_GRATITUDE_3",
+      "text": "{actor} nợ {other} một ơn, còn là loại đổi bằng mạng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_1",
+      "text": "{pair} cùng gánh việc nguy hiểm, có tình sống chết.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_2",
+      "text": "Sống sót ra khỏi khu nguy hiểm, {pair} nhìn nhau khác đi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.HAZARD_COMRADE_3",
+      "text": "Trên mép sống chết {pair} chẳng ai chạy trước, tình này không giả.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_1",
+      "text": "{actor} dẫn đầu tính món lên đầu {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_2",
+      "text": "Có chuyện, phải có người chịu — {actor} dẫn mọi người chọn {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_BLAME_3",
+      "text": "Một câu của {actor} kéo lửa giận mọi người về {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_1",
+      "text": "{other} bị cô lập, không ai muốn nói với họ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_2",
+      "text": "{other} bước vào nhà ăn, cả bàn im bặt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_ISOLATED_3",
+      "text": "Giờ cả Hatch còn được yêu hơn {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_1",
+      "text": "{actor} bênh {other} một câu công bằng trước mọi người.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_2",
+      "text": "{actor} bênh {other} trước mặt tất cả, không ai còn kêu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SPEAK_UP_3",
+      "text": "Khi giận tập thể ầm ầm, {actor} là người duy nhất chịu mở miệng cho {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_1",
+      "text": "{actor} đưa tay cứu {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_2",
+      "text": "{actor} bưng khay ngồi cạnh {other}, tường cô lập sụp một góc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_RESCUE_3",
+      "text": "Khi ai cũng vòng tránh {other}, {actor} lại bước tới.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_1",
+      "text": "{actor} nhân lúc không ai để ý, đánh {other} một trận.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_2",
+      "text": "Trong khoảng trống bảng ca, {actor} chặn {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_PUNCH_3",
+      "text": "{actor} chọn lúc không một bóng người, trút lửa lên {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_1",
+      "text": "{subject} thấy trận xử kín ấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_2",
+      "text": "{subject} bắt gặp cảnh ấy, vội giả vờ không thấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_WITNESS_3",
+      "text": "Có chuyện thấy rồi cũng chỉ biết nuốt, {subject} ngậm miệng rất chặt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_1",
+      "text": "{subject} bắt gặp họ trốn khóc một mình.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_2",
+      "text": "{subject} đi qua nghe tiếng khóc, bước nhẹ hơn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_SAW_CRYING_3",
+      "text": "Người núp góc khóc rất lâu, {subject} không lại gần.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_1",
+      "text": "Cô lập nhằm vào {subject} cuối cùng cũng qua.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_2",
+      "text": "Thuộc địa tìm được chuyện bàn mới, chuyện của {subject} không ai nhắc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WRATH_FADED_3",
+      "text": "Ngày dài, cả lửa giận cũng hết hạn — {subject} lại lẫn vào đám đông.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_1",
+      "text": "Kho lương cạn đáy, hoảng lan trong thuộc địa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_2",
+      "text": "Miếng bánh mush mềm cuối cũng cạn, không ai dám nghĩ đến ngày mai.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_WARNING_3",
+      "text": "Tin đói bụng còn lan nhanh hơn oxy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_1",
+      "text": "Lương được bổ, mọi người thở phào.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_2",
+      "text": "Kho lại có hàng, tiếng nhai cũng trở về.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_AVERTED_3",
+      "text": "Khủng hoảng qua rồi, không ai hỏi lương từ đâu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_1",
+      "text": "{actor} và {other} ra tay vì miếng ăn cuối.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_2",
+      "text": "Người đói lắm không nói lẽ, {actor} và {other} xé mặt vì một miếng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_CULL_3",
+      "text": "{actor} nhắm suất của {other}, nắm đấm tới trước lý trí.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_1",
+      "text": "Những ngày hết lương cuối cùng cũng qua.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_2",
+      "text": "Kho lương lại đầy, có chuyện mọi người hiểu ý không nhắc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.FAMINE_OVER_3",
+      "text": "Ngày no lại tới, như nạn đói chưa từng xảy ra.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_1",
+      "text": "{pair} đón đồng đội mới tới.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_2",
+      "text": "{pair} giúp đồng đội mới ổn định, kể vài luật căn cứ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_3",
+      "text": "Buồng in gửi tới một người mới, {pair} ra đón trước.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.WELCOME_4",
+      "text": "Bữa đầu của người mới, {pair} ngồi ăn cùng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_1",
+      "text": "Căng thẳng của {subject} lại nặng thêm một phần.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_2",
+      "text": "{subject} lại nhíu mày thêm một nếp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_BAD_3",
+      "text": "Dây căng quá lâu, {subject} tự nghe thấy tiếng kêu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_1",
+      "text": "{subject} thở phào.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_2",
+      "text": "{subject} ngủ một giấc ngon, sắc mặt dịu lại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.STRESS_GOOD_3",
+      "text": "Cục đất bẩn đè ngực, {subject} cuối cùng phủi được ít.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_LOUD_1",
+      "text": "{actor} từ đằng xa đã gào một tiếng chào {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_HOTHEAD_1",
+      "text": "{actor} chào như ra lệnh, {other} vẫn đáp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_NERVOUS_1",
+      "text": "{actor} nhìn trái phải, mới chào {other} nhỏ giọng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_GENTLE_1",
+      "text": "{actor} khẽ gật đầu với {other}, cười rất ấm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_EATER_1",
+      "text": "{actor} miệng còn nhai bánh lice, chào {other} ú ớ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_LOUD_1",
+      "text": "{actor} lớn tiếng nói chuyện đã với {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_1",
+      "text": "{actor} nói nói rồi nâng giọng, {other} chẳng thấy phiền.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_HOTHEAD_2",
+      "text": "{actor} càng nói càng hăng, suýt đập bàn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_NERVOUS_1",
+      "text": "{actor} nhỏ giọng thì thầm với {other} rất lâu, chẳng biết lo gì.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_GENTLE_1",
+      "text": "{actor} nói nhẹ nhàng, {other} nghe gật liên tục.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRYBABY_1",
+      "text": "{actor} nói nói rồi đỏ hoe mắt, {other} vội đổi đề.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EATER_1",
+      "text": "{actor} vừa ăn vừa nói, lời {other} luôn bị tiếng nhai át.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_1",
+      "text": "{actor} gắp phần bánh của mình cho {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EATER_2",
+      "text": "Khay của {pair} được hốt sạch đặc biệt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_GENTLE_1",
+      "text": "{actor} nhường phần còn nóng cho {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_LOUD_1",
+      "text": "Bàn của {pair} ồn nhất, giọng {actor} nửa nhà ăn đều nghe.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_HOTHEAD_1",
+      "text": "{actor} chê cơm nhạt, {other} lặng lẽ đẩy lọ muối sang.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_NERVOUS_1",
+      "text": "{actor} ăn đãng trí, {other} hỏi ba lần mới đáp.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_NERVOUS_1",
+      "text": "{actor} trở mình mãi không ngủ, {other} nói chuyện cùng một lúc.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRYBABY_1",
+      "text": "{actor} đêm rơi vài giọt nước mắt, {other} giả vờ không nghe.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_LOUD_1",
+      "text": "Tiếng ngáy của {actor}, {other} nghe cả đêm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_GENTLE_1",
+      "text": "{actor} dậy đêm nhẹ chân, sợ đánh thức {other}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EATER_1",
+      "text": "{actor} trước ngủ lại móc một miếng bánh, {other} ngửi mùi không ngủ được.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_HOTHEAD_1",
+      "text": "Khi chơi {actor} lại nóng mắt, {other} cười nhường một ván.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_LOUD_1",
+      "text": "Cười {actor} to nhất, tai {other} chịu trận.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_CRYBABY_1",
+      "text": "{actor} thua suýt khóc, {other} vội nhường một ván.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_GENTLE_1",
+      "text": "{actor} luôn nhường thắng thua cho {other}, cả hai đều chơi vui.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SOCIALIZE_NERVOUS_1",
+      "text": "{actor} chơi thấp thỏm, {other} luôn ở bên cổ vũ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_CRYBABY_1",
+      "text": "{actor} nói nói rồi khóc, {other} lặng lẽ đưa tờ giấy.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_HOTHEAD_1",
+      "text": "{actor} chửi bới đổ hết tâm sự, {other} nghe từ đầu đến cuối.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_NERVOUS_1",
+      "text": "{actor} lải nhải lo lắng rất lâu, {other} giúp gỡ từng mối.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_LOUD_1",
+      "text": "Tâm sự của {actor}, nửa khu nghỉ đều nghe.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.VENT_GENTLE_1",
+      "text": "{actor} cả than cũng nhẹ giọng, {other} nghe đặc biệt chăm.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_EX_1",
+      "text": "{pair} nói vài câu, khách sáo như mới quen.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_RIVAL_1",
+      "text": "{pair} lời có gai, nói chuyện như đấu chiêu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_CRUSH_1",
+      "text": "{pair} nói nói, ánh mắt lại tránh sang chỗ khác.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COLD_1",
+      "text": "{pair} cứng cổ, đổi vài câu cần thiết.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COUPLE_1",
+      "text": "{pair} xúm thì thầm, như không có ai quanh.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_EX_1",
+      "text": "{pair} cùng bàn, mỗi người nhìn khay mình.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_RIVAL_1",
+      "text": "{pair} cùng bàn, dao nĩa va đặc biệt vang.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_CRUSH_1",
+      "text": "{pair} cùng bàn, ai cũng ăn đãng trí.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_EX_1",
+      "text": "{pair} ngủ chung phòng một đêm, chẳng ai nhắc chuyện xưa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_RIVAL_1",
+      "text": "{pair} ngủ chung phòng một đêm, lưng đối lưng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_CRUSH_1",
+      "text": "{pair} ngủ chung phòng một đêm, ai cũng ngủ không yên.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COLD_1",
+      "text": "{pair} ngủ chung phòng một đêm, phòng lạnh như hầm đá.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REST_COUPLE_1",
+      "text": "{pair} chen một giường một đêm, tỉnh dậy còn nắm tay.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.GREET_BRAWL_BOND_1",
+      "text": "{pair} vừa thấy nhau đã cười, còn ai nhớ trận đánh xưa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_BRAWL_BOND_1",
+      "text": "{pair} nói chuyện thân — đánh nhau mới thành bạn.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_COMRADE_1",
+      "text": "{pair} nhắc lần thoát chết, lời không dứt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_COMRADE_1",
+      "text": "{pair} vừa ăn vừa chạm ly, tình sống chết nằm cả trong đó.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.CHAT_WAITED_1",
+      "text": "{pair} nói cười, lần từ chối xưa nay thành chuyện vui.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MEAL_WAITED_1",
+      "text": "{pair} ngồi sát, bữa này đợi không chỉ một ngày.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_APOLOGY",
+      "text": "Sau trận cãi ấy,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_CONFESSION_AFTER_FAIL",
+      "text": "Lần từ chối trước không khiến {actor} bỏ cuộc,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_REKINDLE",
+      "text": "Sau khi chia, họ vẫn không buông nhau,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_COMFORT",
+      "text": "Sau khi chứng kiến trận sụp đổ ấy,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RECONCILE",
+      "text": "Chiến tranh lạnh những ngày ấy,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BRAWL",
+      "text": "Trận cãi ấy cuối cùng không kìm được,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_RIVAL",
+      "text": "Oán chồng chất,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.SEQ_BREAKUP",
+      "text": "Vết nứt không còn khép được,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_AGAIN",
+      "text": "Lại một lần nữa,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.RECUR_MANY",
+      "text": "Đây đã là lần thứ {0},",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_FAMINE",
+      "text": "Dưới bóng hết lương,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.ERA_WRATH",
+      "text": "Trong những ngày giận tập thể chưa nguôi,",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_1",
+      "text": "Tin lan nhanh, ai cũng bàn về họ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_GOOD_2",
+      "text": "Cả thuộc địa mừng cho họ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_1",
+      "text": "Không khí trong thuộc địa chìm vài ngày.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.REACT_BAD_2",
+      "text": "Mọi người nhìn thấy, ai cũng khó chịu.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_1",
+      "text": "{pair} hôm ấy xúm lại nói chuyện mấy lần.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_CHAT_2",
+      "text": "{pair} hôm ấy có lời không dứt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_GREET_1",
+      "text": "{pair} hôm ấy bắt gặp nhau nhiều lần, càng lúc càng quen biết.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_MEAL_1",
+      "text": "{pair} hôm ấy cùng ăn mấy bữa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.MERGE_SOCIALIZE_1",
+      "text": "{pair} hôm ấy hễ rảnh là xúm chơi.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_WORK",
+      "text": "công việc trên tay",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ROLE",
+      "text": "việc của nhau",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_MINING",
+      "text": "tiến độ đào",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_BUILDING",
+      "text": "mẹo xây",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING",
+      "text": "công thức mới nghĩ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_FARMING",
+      "text": "mùa màng đang lớn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RANCHING",
+      "text": "tính nết thú nhỏ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH",
+      "text": "phát hiện nghiên cứu mới",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_OPERATING",
+      "text": "bảo trì máy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_DOCTORING",
+      "text": "cách băng bó",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_HAULING",
+      "text": "đường chuyển hàng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ART",
+      "text": "đồ trang trí mới treo",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_ATHLETICS",
+      "text": "kinh nghiệm luyện tập",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_SUITS",
+      "text": "mẹo mặc bộ đồ áp suất",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_MINER",
+      "text": "chuyện trong đường mỏ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER",
+      "text": "hành lang mới dựng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_COOK",
+      "text": "món mới trên bếp",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_FARMER",
+      "text": "thu hoạch ngoài ruộng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RANCHER",
+      "text": "lũ nhỏ trong chuồng",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_RESEARCHER",
+      "text": "phát hiện trước bàn thí nghiệm",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR",
+      "text": "trục trặc máy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR",
+      "text": "hộp thuốc phòng y tế",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

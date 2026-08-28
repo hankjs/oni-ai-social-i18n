@@ -1,0 +1,137 @@
+{
+  "locale": "ru",
+  "family": "care",
+  "candidates": [
+    {
+      "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не дёргайся. Я перевяжу бинт заново."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Полегче… впрочем, спасибо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Сегодня отдыхай. Остальное на нас."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Раз ты так говоришь — наконец закрою глаза хоть ненадолго."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Лекарство горькое. Я тебе полцуката положил."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Половину? …Ладно, медсестра главная."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Температура в норме. Но сегодня всё равно лежи."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Койка уже кокон плетёт. …Ладно, как скажешь."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Слой микробов проверил. У твоей койки чисто."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда можно спокойно кашлять. …Шутка."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Лекарство я по дозе смешал. Пей спокойно."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это кто в прошлый раз из одной порции сделал две?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "…Поэтому в этот раз взвесил трижды."
+        }
+      ]
+    }
+  ]
+}

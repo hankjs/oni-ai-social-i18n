@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "breakdowndestroy",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowndestroy.base.001",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I fixed that yesterday."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You fixed it well. It rang for ages."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.002",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stop—that's the oxygen unit."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Which one."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.003",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You're smashing our stuff."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What in here is mine?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.004",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Are you done."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No. But my hand hurts."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowndestroy.base.005",
+      "storyletId": "BreakdownDestroy",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The wall is harder than you are."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The wall has never let me down."
+        }
+      ]
+    }
+  ]
+}

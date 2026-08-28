@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathsawcrying",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathsawcrying.base.001",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты чего здесь."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Ничего. Пыль в глаз попала."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.002",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "На этом ярусе нет камер и нет людей. Можешь дореветь."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я уже доревел."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.003",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Мне уйти?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Не надо. Просто стой."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.004",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я ничего не видел."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Спасибо."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.005",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я думал, на этом ярусе никого нет."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я тоже так думал."
+        }
+      ]
+    }
+  ]
+}

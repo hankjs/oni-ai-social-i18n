@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathsawcrying",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathsawcrying.base.001",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What are you doing down here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Nothing. Dust in my eye."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.002",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "No cameras on this level. No one either. Finish."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm already finished."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.003",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want me to go?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...No. Just stand there."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.004",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I didn't see anything."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathsawcrying.base.005",
+      "storyletId": "WrathSawCrying",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I thought this level was empty."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "So did I."
+        }
+      ]
+    }
+  ]
+}

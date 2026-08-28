@@ -1,0 +1,926 @@
+{
+  "locale": "en",
+  "namespace": "social.details",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
+      "text": "Social life",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIPS_TITLE",
+      "text": "Relationships",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.AFFINITY_LABEL",
+      "text": "Affinity",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.BEST_FRIEND_MARK",
+      "text": "Best friend",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
+      "text": "Reputation (observation only)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
+      "text": "Average affinity with all living duplicants. For now it only reflects popularity and affects nothing; reputation gameplay is planned for a later version.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_LABEL",
+      "text": "Colony",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COLONY_TOOLTIP",
+      "text": "Average pairwise affinity across all living duplicants. At 40+, Colony Cohesion grants +1 morale to everyone; multiple cold wars trigger Colony Discord (-1 morale, more arguments). Shared meals, parties and matchmaking all help.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE",
+      "text": "The social system is not ready",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE_TOOLTIP",
+      "text": "Enter a colony and wait for the social system to initialize",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.FALLEN_DUPLICANT",
+      "text": "Fallen duplicant",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS",
+      "text": "No relationships recorded yet",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS_TOOLTIP",
+      "text": "Relationships and affinity appear here after duplicants interact",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
+      "text": "Mood diary",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
+      "text": "No recent mood entries",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
+      "text": "This duplicant's recent social events and their effect on affinity and mood",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Personal story",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "No personal story chapters yet",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "A preview of this duplicant's most recent selected life chapter",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_LABEL",
+      "text": "Traits",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAITS_TOOLTIP",
+      "text": "Some traits affect socializing: fewer arguments and brawls, better or worse reactions to mentoring, and grumpier shared sleep when schedules clash. The parenthesis after a name is that trait's effect.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SCAREDYCAT",
+      "text": "hates arguments",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_FASTLEARNER",
+      "text": "appreciates being taught",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER",
+      "text": "doesn't take mentoring well",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_EARLYBIRD",
+      "text": "early riser, steady schedule",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NIGHTOWL",
+      "text": "night owl, hard to share a bunk with",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_NARCOLEPSY",
+      "text": "falls asleep anytime, schedule never matches",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
+      "text": "Personality notes",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CURRENT",
+      "text": "Current temperament: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE",
+      "text": "Change temperament",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
+      "text": "Guide this duplicant into a different social temperament. The old one stays on the history list for display only and no longer takes part in later social rolls.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_EMPTY",
+      "text": "No temperament changes yet",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_TITLE",
+      "text": "Change temperament",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_DIALOG_BODY",
+      "text": "Choose a new temperament for {0}. The old one stays on the history list for display only.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_HISTORY_LINE",
+      "text": "Cycle {0} · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED",
+      "text": "Already that temperament",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_FAILED",
+      "text": "Couldn't change temperament: the social system is not ready",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.HOTHEAD",
+      "text": "hotheaded",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CRYBABY",
+      "text": "tearful",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.LOUD",
+      "text": "loud",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EATER",
+      "text": "greedy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NERVOUS",
+      "text": "nervous",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.JUMPY",
+      "text": "jumpy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.GENTLE",
+      "text": "gentle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CURIOUS",
+      "text": "curious",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLOW",
+      "text": "slow",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.EARLY",
+      "text": "early-rising",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.NIGHT",
+      "text": "nocturnal",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.SLEEPY",
+      "text": "sleepy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE",
+      "text": "athletic",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.UNKNOWN",
+      "text": "original",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
+      "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
+      "text": "{0} changed dramatically: {1} temperament became {2}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.BELOVED",
+      "text": "Beloved",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.POPULAR",
+      "text": "Popular",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.KNOWN",
+      "text": "Known",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.OUTCAST",
+      "text": "Outcast",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TIER.INVISIBLE",
+      "text": "Invisible",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.COHESION",
+      "text": "Cohesion",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.DISCORD",
+      "text": "Discord",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.COHESION_STATE.NEUTRAL",
+      "text": "Neutral",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.STRANGERS",
+      "text": "Strangers",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
+      "text": "Acquainted",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.FRIENDS",
+      "text": "Friends",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.CRUSH",
+      "text": "Crush",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COUPLE",
+      "text": "Couple",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.COLD_WAR",
+      "text": "Cold War",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.BROKEN_UP",
+      "text": "Broken Up",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.GRIEVING",
+      "text": "Grieving",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.MOURNING",
+      "text": "Mourning",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.RIVAL",
+      "text": "Rivals",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
+      "text": "Unknown social event",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ARGUMENT",
+      "text": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY",
+      "text": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.VENT",
+      "text": "Vented",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.TEACH",
+      "text": "Mentoring",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BEST_FRIEND",
+      "text": "Heart-to-heart",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION",
+      "text": "Confession accepted",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_FAILED",
+      "text": "Confession rejected",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DATE",
+      "text": "Date",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
+      "text": "Shared meal",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CARE",
+      "text": "Medical care",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY",
+      "text": "Jealousy",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RECONCILE",
+      "text": "Reconciled",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKUP",
+      "text": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED",
+      "text": "Lost partner",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED",
+      "text": "Unspoken loss",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WELCOME",
+      "text": "Welcomed newcomer",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.PARTY",
+      "text": "Party",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
+      "text": "Stood by them",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT",
+      "text": "Falling-out",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.COMFORTED",
+      "text": "Comfort in grief",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY",
+      "text": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.ANNIVERSARY_MISSED",
+      "text": "Missed anniversary",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GREETING",
+      "text": "Greeting",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CHAT",
+      "text": "Chat",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SOCIALIZE",
+      "text": "Socializing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_REST",
+      "text": "Shared quarters",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.STRESS_CHANGE",
+      "text": "Stress shift",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
+      "text": "Cleared the air",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL",
+      "text": "Became rivals",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_OVER",
+      "text": "Rivalry settled",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.RIVAL_DIED",
+      "text": "Rival died",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BRAWL",
+      "text": "Came to blows",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_WARNING",
+      "text": "The pantry ran dry",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_AVERTED",
+      "text": "Crisis averted",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_CULL",
+      "text": "Famine killing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.FAMINE_OVER",
+      "text": "Famine ended",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BLAMED",
+      "text": "Blamed after the disaster",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_ISOLATED",
+      "text": "Frozen out",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SPOKEN_FOR",
+      "text": "Somebody spoke up for them",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
+      "text": "The first one to sit down",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
+      "text": "Hit where nobody could see",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
+      "text": "I saw them throw that punch",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
+      "text": "Caught them crying alone",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_FADED",
+      "text": "Faded with time",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.SAW_BREAKDOWN",
+      "text": "I saw them at their worst",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_COMFORTED",
+      "text": "They came over first",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_CRY",
+      "text": "burst into ugly sobbing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_WAIL",
+      "text": "started screaming",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_VOMIT",
+      "text": "threw up",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_BINGE",
+      "text": "started binge eating",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_DESTROY",
+      "text": "started smashing things",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BREAKDOWN_KIND_SHOCK",
+      "text": "started throwing sparks",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_RESENTED",
+      "text": "Why is it always me down there",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
+      "text": "They've been going down too lately",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_GRATITUDE",
+      "text": "They went down in my place",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
+      "text": "We were both down there",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
+      "text": "Administrator matchmaking",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
+      "text": "Administrator separation",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
+      "text": "Administrator cleared mark",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
+      "text": "Bound in the way",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.STRESS",
+      "text": "over stress",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.LOW_AFFINITY",
+      "text": "old grudges",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.TRAIT_CLASH",
+      "text": "clashing traits",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.DISCORD",
+      "text": "colony discord",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CAUSE.CHEMISTRY",
+      "text": "bad chemistry",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD2",
+      "text": "Perfect match",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.GOOD1",
+      "text": "Good chemistry",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD1",
+      "text": "Bad chemistry",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.BAD2",
+      "text": "Oil and water",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_GOOD",
+      "text": "in sync",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.CHEMISTRY.ROW_BAD",
+      "text": "clashing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AFFINITY_LINE",
+      "text": "Affinity: {0}; conflicts: {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.AWKWARD_UNTIL",
+      "text": "; awkward until cycle {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RECENT_EVENTS",
+      "text": "\nRecent events:",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MEMORY_LINE",
+      "text": "\nCycle {0}: ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
+      "text": "Matchmaking mark: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
+      "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_FROZEN",
+      "text": "Rivals - frozen: negative affinity no longer drifts back toward zero, so this relationship will not heal on its own. Set a matchmaking mark to step in and thaw it.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.HAZARD_LEDGER",
+      "text": "Hazard duty: {0} {1} · {2} {3} - same trade, same stretch of days, only one of them went down (for {4} cycles now)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.RIVAL_THAWING",
+      "text": "Rivals - mediating: the matchmaking mark has thawed the freeze and affinity is recovering. The rivalry ends once it climbs back past the threshold.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
+      "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Latest chapter","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"View personal story","contractRevision":1,"status":"reviewed"}
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "breakdownwail",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "복도 전체에서 들려."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그래야지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "우릴 부르는 게 아니야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "너희가 다 있는 거 알아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "문 닫아도 될까."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "닫아도 난 안에 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "이 음정, 광산에서 들어 본 적 있어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "광산은 적어도 메아리가 있지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "다 지르고 나면 좀 나아지냐."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "아니. 근데 안 지르면 더 나빠."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": "0.15.0",
+  "defaultLocale": "zh",
+  "fallbackLocale": "en",
+  "locales": [
+    {
+      "id": "zh",
+      "status": "stable",
+      "ship": true
+    },
+    {
+      "id": "en",
+      "status": "stable",
+      "ship": true
+    },
+    {
+      "id": "ko",
+      "status": "stable",
+      "ship": true
+    },
+    {
+      "id": "ru",
+      "status": "stable",
+      "ship": true
+    },
+    {
+      "id": "ja",
+      "status": "stable",
+      "ship": true
+    },
+    {
+      "id": "vi",
+      "status": "stable",
+      "ship": true
+    }
+  ],
+  "exports": {
+    "ui": "po+json",
+    "dialogue": "json",
+    "chronicle": "json",
+    "prompts": "json"
+  }
+}

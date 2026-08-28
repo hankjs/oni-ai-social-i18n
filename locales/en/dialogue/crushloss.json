@@ -1,0 +1,54 @@
+{
+  "locale": "en",
+  "family": "crushloss",
+  "candidates": [
+    {
+      "candidateId": "storylet.crushloss.base.001",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "There were things I never said. Now I never can."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.002",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I never even asked which ration you liked best."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.crushloss.base.003",
+      "storyletId": "CrushLoss",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I used to blame the schedule for keeping us apart. Can't blame it this time."
+        }
+      ]
+    }
+  ]
+}

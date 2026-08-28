@@ -1,0 +1,17 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["locale", "family", "templates"],
+  "properties": {
+    "locale": { "type": "string", "minLength": 2 }, "family": { "type": "string", "minLength": 1 },
+    "templates": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["templateId", "poolId", "ordinal", "contractRevision", "status", "text", "requiredSlots", "deprecated"],
+      "properties": {
+        "templateId": { "type": "string", "minLength": 1 }, "poolId": { "type": "string", "minLength": 1 },
+        "ordinal": { "type": "integer", "minimum": 1 }, "contractRevision": { "type": "integer", "minimum": 1 },
+        "status": { "enum": ["reviewed", "draft"] }, "text": { "type": "string", "minLength": 1 },
+        "requiredSlots": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "deprecated": { "type": "boolean" }
+      }
+    }}
+  }
+}

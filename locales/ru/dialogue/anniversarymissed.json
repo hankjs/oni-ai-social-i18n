@@ -1,0 +1,74 @@
+{
+  "locale": "ru",
+  "family": "anniversarymissed",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Вчера… был наш день."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Знаю. У землеройной бригады смена. Никто не рискнул напомнить."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я ждал, пока в столовой погаснет свет, и только тогда ушёл."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Прости. Штрек обвалился, я не выбрался."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Главное, что ты жив. День наверстаем в следующем году."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Цукаты держал два дня. Потом съел сам."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…В следующий юбилей хоть табель порву — но вернусь."
+        }
+      ]
+    }
+  ]
+}

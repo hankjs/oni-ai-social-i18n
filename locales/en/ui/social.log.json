@@ -1,0 +1,72 @@
+{
+  "locale": "en",
+  "namespace": "social.log",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_PAIR",
+      "text": "Cycle {0} · {1} and {2} [{3}]{4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SOLO",
+      "text": "Cycle {0} · {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_WITH",
+      "text": "Cycle {0} · with {1} [{2}]{3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_SELF",
+      "text": "Cycle {0} · [{1}]{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_AFFINITY",
+      "text": " Affinity {0:+#;-#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS",
+      "text": " Stress {0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_STRESS_PAIR",
+      "text": " Stress {0:+#.#;-#.#;0}/{1:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.VALUE_MORALE",
+      "text": " Morale {0:+#.#;-#.#;0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.ENTRY_STORY",
+      "text": "Cycle {0} · {1}{2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_MILESTONES",
+      "text": "—— Milestones ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.LOG.SECTION_RECENT",
+      "text": "—— Recent ——",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

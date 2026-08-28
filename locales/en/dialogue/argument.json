@@ -1,0 +1,623 @@
+{
+  "locale": "en",
+  "family": "argument",
+  "candidates": [
+    {
+      "candidateId": "storylet.argument.crybaby.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why are you yelling at me... waaah—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't cry! I'm not yelling anymore, see!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not losing this argument, I'm just... having emotions."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Wipe your eyes first. We'll restart the fight."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The whole colony bullies me! Now you too!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I don't! ...This is a lot of pressure, honestly."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.crybaby.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Stop being mean! My tears don't have a valve!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Okay okay, I'm sorry, here's a tissue!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't want to fight... but you really did this one wrong."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just yell at me once. This calm thing hurts worse."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Can we argue sitting down? Standing feels too hostile."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Fine. Sitting. You start."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Lower your voice. You're scaring the hatch."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The hatch?! Now of all times?!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.gentle.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I won't fight you. But I'm writing this down. Gently."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Your 'gently' is scarier than shouting."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm faster than anyone at this! Got a problem?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fast, yes. You also broke the wall!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Fine, blame me! Blame me for the whole base!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nobody said— there you go again."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Three counts. Give back my shovel. One! Two!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "What happened to three? — Oh. You already grabbed it."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.hothead.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not angry! This is just my voice!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "The ceiling regolith disagrees."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.001",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Could you stop leaving every mess for someone else?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'm already run off my feet. What more do you want?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.002",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You scrambled the schedule again."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No, you just didn't read it!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.003",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I really cannot deal with this right now."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. Then we stay out of each other's way."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.004",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You snore like an unoiled rock crusher!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Me? You recited coordinates in your sleep all night!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.005",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Where's the berry I was saving? The single berry!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It didn't have your name on it!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.006",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Can you clear that junk pile in the corridor?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Those are spare parts! Every single one is useful!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.007",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The lavatory is clogged because you crossed the pipes!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I followed the blueprint. Blame the blueprint!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.008",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The battery is dead and it was your shift!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "A hatch chewed the wire. Take it up with the hatch!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.009",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You left the airlock open on purpose so I would yell about it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And yet. Here you are. Yelling."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.010",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You have been 'inspecting' that ladder for an hour."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Inspection is work. Ask anyone who isn't you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.011",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Your tunnel is genius. Visionary. Historic."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "It's a hole. You want my rations, don't you?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.argument.base.012",
+      "storyletId": "Argument",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How's my new great hall?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Mid."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "MID? There's a water fountain!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "locale": "en",
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "Social life has begun",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "Your duplicants now have social lives of their own: chatting, friendships, romance and quarrels all happen naturally. Open the Social entry in the top management menu to watch the colony and play matchmaker; each duplicant's Social tab shows their relationships.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "A New Couple",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0} confessed to {1} — they are now a couple!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "Broken Up",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0} and {1} have gone their separate ways.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": " The final straw: {0} (cycle {1}).",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "Lost a Partner",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0} lost their partner {1} and is grieving.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "Cold War",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0} and {1} are giving each other the cold shoulder. A matchmaking mark can nudge them toward reconciliation.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "Reconciled",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0} and {1} have patched things up.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "Quiet Mourning",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0} quietly mourns the late {1}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "Best Friends",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0} and {1} are now best friends.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "Colony Cohesion",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "The colony stands together. Morale up for everyone.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "Colony Discord",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "Tensions run high. Morale down for everyone.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "Back to Normal",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "The colony's collective mood has settled down.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0} and {1} celebrated their anniversary date. Twice as sweet.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "Missed Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0} and {1} let their anniversary slip by. Both are a little glum.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "Falling-Out",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0} and {1} have had a falling-out. Warmth will be slow to return for a while, but one apology clears the air.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "Quiet Company",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0} sits with {1}, quietly keeping them company through the grief.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "Seasoned Love",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0} and {1} have been together a long while. Their love has settled into a steady warmth.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "A rivalry is born",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0} and {1} have nursed their grudge to the bottom and are now rivals. This relationship will no longer warm up on its own unless you step in with a matchmaking mark.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "Rivalry settled",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0} and {1} have finally let the grudge go. Things are back to normal between them.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "They're fighting!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "An argument between {0} and {1} has escalated into a brawl. They will stop short of serious harm, but both are going to be bruised.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "Somebody has to answer for it",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "The colony has just been through something, and {0} is the least liked person here - so the bill lands on them. Pair them with a well-respected colleague now and that person will speak up; miss this window and {0} gets frozen out.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "Nobody talks to them anymore",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "Nobody spoke up for {0}. From now on colleagues look away when they pass, and anyone sharing their table finishes early. It ends the moment a single person tends to them, talks with them, or eats with them.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "Somebody said the fair thing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0} spoke up for {1} in front of everyone. Nobody is bringing it up again.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "The first one to sit down",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0} sat down next to {1}. The freeze-out ends here - it only ever takes one person going first.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "Nobody saw it",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "With nobody around, {0} hit {1}. None of their colleagues know - you are the only one who saw this.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "Forgotten about",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "Nobody came for {0}, but nobody remembers the whole business either. Life goes on.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "The whole room is watching",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0} {2} right there, and {1} of them stopped to watch. For the next few cycles, anyone willing to go over and sit with them will be remembered for it forever.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "The first one to sit down",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0} went over and sat with {1} for a while. Nothing important was said - but {1} will always remember who came over first.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "Fought it out",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0} and {1} came out of that fight with a grudging respect for each other. The rivalry is over.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "The pantry is empty",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "The larder is bare and several duplicants are starving. Left like this, they will start solving the problem themselves - there is still time to get food in.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "Crisis averted",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "Food arrived in time and the colony stepped back from the edge. Nobody mentions what they were thinking a few days ago.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "Survive!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "Whatever is between {0} and {1}, it stopped being an argument a while ago. Hunger has taken the last of their decency.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "The famine has passed",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "There is food in the larder again. Nobody asks what it is.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "The last colonist",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "One left. The base is very quiet now, and there is plenty to eat.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "The rival is gone",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1} is dead. {0} said nothing about it, and has been in a noticeably good mood since.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "text": "Confession Rejected",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "text": "{0} told {1} how they felt, but the feelings were not returned.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "text": "Together Again",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "text": "{0} and {1} have decided to try again.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

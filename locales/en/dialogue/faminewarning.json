@@ -1,0 +1,54 @@
+{
+  "locale": "en",
+  "family": "faminewarning",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminewarning.base.001",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pantry is empty. Nobody is talking, but everybody is counting heads."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.002",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Three days without food. Today, people started looking at each other differently."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.003",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The last ration is gone. What gets shared out next, nobody will say out loud."
+        }
+      ]
+    }
+  ]
+}

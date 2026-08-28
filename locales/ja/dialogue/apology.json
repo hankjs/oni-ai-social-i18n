@@ -1,0 +1,398 @@
+{
+  "locale": "ja",
+  "family": "apology",
+  "candidates": [
+    {
+      "candidateId": "storylet.apology.gentle.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "一晩考えたんだ。やっぱり来て、ごめんと言わなきゃと思った。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "来てくれたことが、何を言うより強い。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ごめん。あの仕事を一人に背負わせるんじゃなかった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "もういいよ。次は手を貸してくれればそれでいい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "言い争いの日に言ったこと、取り消す。そっと、取り消す。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "取り消し、有効だよ。お茶、まだ温かいよ。座って話そう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.gentle.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "gentle"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ベリージュースを二杯作った。一杯は謝罪だ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ、もう一杯は？"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "まだ相手にしてくれることへの、ありがとう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日の件……全部俺のせいじゃない。まあ、少しは俺のせいだ。分かった、悪かった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "その謝罪、歯磨き粉を絞り出してるみたいだな。受け取っとく。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "謝りに来たわけじゃない。……分かった、謝りに来た。悪かった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "入ってきたとき声がオクターブ下がってた。とっくにバレてたよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "悪かった！これでいいだろ！大声で言ったんだから、それで勘定だ！"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "勘定する勘定する。次は普通の音量でも勘定してやる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.hothead.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "お前の配管は……まあ、悪くない。昨日は俺が悪かった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "前半は額に入れて飾る。後半は受け取っとく。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.001",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "この前はキレすぎた。ごめん。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "こっちも言いすぎた。帳消しにしよう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.002",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "八つ当たりするんじゃなかった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "次は先に深呼吸して。それから、許すよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.003",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あの日は言い方がキツかった。ほら、ステーキ。ちゃんと焼いたやつ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……分かった、ステーキに免じて。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.004",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日は僕が悪かった。古い話を蒸し返すんじゃなかった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "蒸し返しは終わった？終わったなら一緒に食おう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.005",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ごめん。お前の配管、そこまで酷くはなかった。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "謝罪は受け取った。評価は引っ込めてくれ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.006",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "来る途中ずっと練習してきた。このごめんを言うためだけに。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いい練習だった。次は使わないでくれ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apology.base.007",
+      "storyletId": "Apology",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "昨日は声がデカすぎた。もう大人しくしてる。勘弁してくれ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "いいよ。次に言い争いする前に、先に配管を直しとけ。"
+        }
+      ]
+    }
+  ]
+}

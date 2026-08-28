@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathwitness",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathwitness.base.001",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I saw that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You saw what."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.002",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Put your hand down."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...None of your business."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.003",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So you check for witnesses first. Good to know."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Shut up."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.004",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm going to remember today."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Suit yourself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathwitness.base.005",
+      "storyletId": "WrathWitness",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I was in the vent while you were doing it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Then you heard more than you saw."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathrescue",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm sitting here. Nothing else to it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Nobody's sat here in days."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I brought two portions."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Aren't you worried who sees?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Who gave you that."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I fell."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I don't care what they're saying. You still owe me a night shift."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I know I do."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Finish crying, then eat. It's worse cold."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Yeah."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "locale": "ja",
+  "family": "famineover",
+  "candidates": [
+    {
+      "candidateId": "storylet.famineover.base.001",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "食えるものがある。それが何か、誰も聞かない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.002",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "危機は過ぎた。みんな、以前より少し離れて座っている。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.famineover.base.003",
+      "storyletId": "FamineOver",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "貯蔵庫がまたいっぱいになった。ラベルを見に行く者はいない。"
+        }
+      ]
+    }
+  ]
+}

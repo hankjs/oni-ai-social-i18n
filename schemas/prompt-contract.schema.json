@@ -1,0 +1,15 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["namespace", "entries"],
+  "properties": {
+    "namespace": { "type": "string", "minLength": 1 },
+    "entries": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["promptId", "meaning", "contractRevision", "importance", "requiredSlots"],
+      "properties": {
+        "promptId": { "type": "string", "minLength": 1 }, "meaning": { "type": "string", "minLength": 1 },
+        "contractRevision": { "type": "integer", "minimum": 1 }, "importance": { "enum": ["critical", "standard", "optional"] },
+        "requiredSlots": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+      }
+    }}
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "locale": "en",
+  "namespace": "social.management",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TITLE",
+      "text": "Social",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
+      "text": "Review colony relationships and manage matchmaking or block marks",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MATCH_BUTTON",
+      "text": "Matchmake",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
+      "text": "Block",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON",
+      "text": "Clear marks",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BUTTON",
+      "text": "Bounds",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_BUTTON",
+      "text": "Relationship overview",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
+      "text": "Pending",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
+      "text": "Pending social events",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
+      "text": "This list includes confessions, breakups, reconciliations and new rivalries. Outcomes are locked; click a row to arrange it now, or wait for its countdown.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
+      "text": "No pending social events.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ROW",
+      "text": "[{0}] {1} → {2} · {3} cycles remaining",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED_ROW",
+      "text": "[{0}] {1} → {2} · Finding a safe meeting",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HAPPEN_NOW",
+      "text": "Happen now",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_ACTION_ROW",
+      "text": "{0}  [{1}]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
+      "text": "Event requested; waiting for a safe moment",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE",
+      "text": "Colony relationships",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.RELATIONSHIP_COUNT",
+      "text": "{0} relationships",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEARCH_PLACEHOLDER",
+      "text": "Search duplicant names",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_RELATIONSHIP",
+      "text": "Relationship: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL",
+      "text": "All",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY",
+      "text": "Friendly",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_ROMANCE",
+      "text": "Romance",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT",
+      "text": "Conflict",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_MARK",
+      "text": "Mark: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.FILTER_UNMARKED",
+      "text": "Unmarked",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.GROUP_SORT",
+      "text": "Sort: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_NAME",
+      "text": "Name",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_RELATIONSHIP_COUNT",
+      "text": "Relationship count",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SORT_HIGHEST_AFFINITY",
+      "text": "Highest affinity",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
+      "text": "No relationships match these filters",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
+      "text": "Close",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BACK_BUTTON",
+      "text": "Back",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PREVIOUS_PAGE",
+      "text": "Previous page",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE",
+      "text": "Next page",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAGE_LABEL",
+      "text": "Page {0} of {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.NO_DUPLICANTS",
+      "text": "No duplicants are available.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ACTION_UNAVAILABLE",
+      "text": "Action failed: social system is not ready",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CHOOSE_SECOND",
+      "text": "{0} · Choose the second duplicant",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_SELECTED",
+      "text": "{0} is selected. Choose another duplicant to complete the action.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
+      "text": "Choose the first duplicant. Matchmaking grants: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
+      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
+      "text": "Choose a duplicant to clear all matchmaking and block marks involving them.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_TITLE",
+      "text": "Bounds",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
+      "text": "Choose the first duplicant. Bounds cap how close or how hostile this pair's relationship can become — it never stops them from interacting, it only stops the relationship from crossing the line.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
+      "text": "Best relationship: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
+      "text": "Worst relationship: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED",
+      "text": "No limit",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER",
+      "text": "Choose best relationship",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER",
+      "text": "Choose worst relationship",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
+      "text": "Only tiers compatible with the other bound are shown. The choice takes effect immediately, but does not change the current relationship until its next transition.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET",
+      "text": "Bounds: {0} × {1} → best {2} · worst {3}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
+      "text": "Rejected: the worst relationship cannot be better than the best",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
+      "text": "Colony: {0} ({1})\nLiving duplicants: {2}\nRelationships: {3}\nMatches: {4} · Blocks: {5}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_BREAKUP_IN",
+      "text": "breakup in {0} cycles",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_FALLOUT_LEFT",
+      "text": "falling-out: {0} cycles left",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_RIVAL_FROZEN",
+      "text": "rivals - frozen",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_EX_LEFT",
+      "text": "ex period: {0} cycles left",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_TODAY",
+      "text": "anniversary today!",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.ROW_ANNIVERSARY_IN",
+      "text": "anniversary in {0} cycles",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STATE_SUMMARY",
+      "text": "Couples: {0} · Cold wars: {1} · Best friends: {2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COMPLETED",
+      "text": "[Done] {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
+      "text": "[Done] Cleared {1} marks involving {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_MATCH",
+      "text": "Matchmaking: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
+      "text": "Blocked: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED",
+      "text": "Mark cleared: {0} × {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_PICK_HINT",
+      "text": "Picked {0}; select another duplicant and press the same hotkey again",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CANCEL_HINT",
+      "text": "Cancelled selection of {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_CLEARED_FEEDBACK",
+      "text": "Cleared {1} marks for {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON",
+      "text": "Chronicle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
+      "text": "Colony Chronicle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY",
+      "text": "No events recorded yet",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
+      "text": "{0} is no longer in the colony",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL",
+      "text": "Person: All",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_PERSON",
+      "text": "Person: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_CLEAR",
+      "text": "Clear",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
+      "text": "Whose story?",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
+      "text": "Pick a duplicant and the log shows only the events they took part in — a slice of their life.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT",
+      "text": "Export diagnostic report",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
+      "text": "Enable Local Gameplay Data in the mod settings first",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED",
+      "text": "Diagnostic report exported: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED",
+      "text": "Could not export diagnostic report: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_CONFESSION",
+      "text": "Confession",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_TITLE",
+      "text": "Chapter {0} · {1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_RANGE",
+      "text": "Cycles {0}–{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_TURNING",
+      "text": "From cycle {1}, {0}'s ordinary days slowly accumulated; by cycle {2}, {3} gave this part of life a turning point.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_LEAD_QUIET",
+      "text": "From cycle {1} to {2}, {0} built a life among the people nearby, between work, meals and rest.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_TURNING",
+      "text": "After {0}, {1} carried its effects into the next part of life.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.STORY_CHAPTER_CLOSING_QUIET",
+      "text": "No milestone recorded these ordinary moments, but together they became {0}'s life in the colony.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"Earlier","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"Later","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"This experience is still unfolding.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"Records begin at Cycle {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"Some story chapters were recovered from the original event facts.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"Selected experiences that define each life chapter, not a complete log. Important events witnessed or indirectly involved in are included.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Involved]","contractRevision":1,"status":"reviewed"}
+  ]
+}

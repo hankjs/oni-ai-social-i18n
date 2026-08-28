@@ -1,0 +1,105 @@
+{
+  "locale": "en",
+  "family": "reconcile",
+  "candidates": [
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The food tastes worse after days of silence."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I'm sorry. I overreacted."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Truce. Talk to me next time."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "You covered my shift yesterday. I know it was you."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Hmph. It was on my way."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "On your way. So is making up. Come on."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Even the hatches avoid us lately."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We've been that scary, huh. ...I'll go first: I'm sorry."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Accepted. Let's go eat."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Here. Espresso. I queued half an hour for the machine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "This is bribery. ...I accept."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "locale": "ja",
+  "family": "care",
+  "candidates": [
+    {
+      "candidateId": "storylet.care.base.001",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "動くな。包帯、巻き直してやる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "そっと……でも、ありがとう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.002",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今日は休んで。残りの仕事はこっちでやる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "そう言ってもらえると、やっと少し目を閉じられる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.003",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "薬は苦いから、蜜漬けを半分つけといた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "半分？……分かった、看護師が一番偉い。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.004",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "体温は正常に戻った。でも今日はまだ横になってて。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "ベッドに繭ができそうだ。……分かった、言うとおりにする。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.005",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "細菌レイヤーは確認した。ベッドの周り、きれいだよ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ安心して咳ができるな。……冗談だよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.care.base.006",
+      "storyletId": "Care",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "薬は用量どおりに合わせた。安心して飲んで。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "この前、一人分を二人分に注いだの誰だっけ？"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "……だから今回は三回量った。"
+        }
+      ]
+    }
+  ]
+}

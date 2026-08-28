@@ -1,0 +1,90 @@
+{
+  "locale": "ko",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "오지 마."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "우리 둘은…… 하나만 살 수 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "이러고 싶지 않아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "나도 싫어. 근데 배고파."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "미안해."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "사과하지 마. 손이나 써."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "왜 우리야?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "아무도 우릴 좋아하지 않으니까."
+        }
+      ]
+    }
+  ]
+}

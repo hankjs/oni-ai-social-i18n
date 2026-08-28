@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathpunch",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathpunch.base.001",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Nobody down here."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "—What are you doing!"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.002",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Don't shout. Nobody's coming anyway."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...I know."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.003",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "That one's for last week."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Last week I was in a med bed."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.004",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Clean up before you go out. Don't let them see."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't let them see either."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathpunch.base.005",
+      "storyletId": "WrathPunch",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "It isn't personal. This place needs somewhere to vent."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then go find a wall."
+        }
+      ]
+    }
+  ]
+}

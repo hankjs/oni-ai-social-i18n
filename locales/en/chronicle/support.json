@@ -1,0 +1,2508 @@
+{
+  "locale": "en",
+  "family": "support",
+  "templates": [
+    {
+      "templateId": "chronicle.bestfriend.baseline.001",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked late into the night and became best friends.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.002",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} said things they had never told anyone.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.003",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} traded secrets, and from then on kept nothing from each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.004",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked until morning; neither mentioned bedtime.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.005",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some friendships take years. {a} and {b} managed it in one night.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.006",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} shared the worries that were hardest to voice and entrusted them to each other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.007",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} no longer needed to finish every sentence to understand what truly mattered to the other.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.008",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} promised to watch out for each other, no matter how busy the next shift became.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.009",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Looking back on everything they had shared, {a} and {b} realized each had become the other's most reliable person.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.010",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} entrusted a long-kept secret to {b}, and {b} answered with one in return.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.011",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} sat together for a long time, each knowing there was company even in silence.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.012",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} made a serious agreement that neither would face the next hardship alone.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.013",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked late into the night and became best friends. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.014",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} said things they had never told anyone. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.015",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} traded secrets, and from then on kept nothing from each other. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.016",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} talked until morning; neither mentioned bedtime. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.017",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some friendships take years. {a} and {b} managed it in one night. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.018",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} shared the worries that were hardest to voice and entrusted them to each other. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.019",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} no longer needed to finish every sentence to understand what truly mattered to the other. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.020",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} promised to watch out for each other, no matter how busy the next shift became. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.021",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Looking back on everything they had shared, {a} and {b} realized each had become the other's most reliable person. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.022",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} entrusted a long-kept secret to {b}, and {b} answered with one in return. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.023",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} sat together for a long time, each knowing there was company even in silence. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.bestfriend.baseline.024",
+      "poolId": "chronicle.bestfriend.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} and {b} made a serious agreement that neither would face the next hardship alone. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.001",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} took care of {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.002",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tended {other:possessive} injuries.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.003",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} changed {other:possessive} bandages, gentle as could be.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.004",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} insisted it was nothing, then let {actor} fuss over them all day.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.005",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stayed by {other:possessive} side, the medicine cooled and ready.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.006",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} checked {other:possessive} injury and made sure no part needing attention had been missed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.007",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} prepared all the care supplies and patiently stayed with {other} through the treatment.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.008",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While {other} had difficulty moving, {actor} brought every needed item within reach.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.009",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} reminded {other} to rest and did not leave until seeing {other} settled safely.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.010",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} secured {other:possessive} loosened bandage again with steady, careful hands.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.011",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kept watch over {other} for a while and confirmed that the condition was not worsening.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.012",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} explained each step of the care so {other} knew what recovery would require next.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.013",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} took care of {other}. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.014",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} tended {other:possessive} injuries. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.015",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} changed {other:possessive} bandages, gentle as could be. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.016",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} insisted it was nothing, then let {actor} fuss over them all day. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.017",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stayed by {other:possessive} side, the medicine cooled and ready. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.018",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} checked {other:possessive} injury and made sure no part needing attention had been missed. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.019",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} prepared all the care supplies and patiently stayed with {other} through the treatment. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.020",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "While {other} had difficulty moving, {actor} brought every needed item within reach. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.021",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} reminded {other} to rest and did not leave until seeing {other} settled safely. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.022",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} secured {other:possessive} loosened bandage again with steady, careful hands. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.023",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kept watch over {other} for a while and confirmed that the condition was not worsening. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.care.baseline.024",
+      "poolId": "chronicle.care.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} explained each step of the care so {other} knew what recovery would require next. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.001",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stayed with {other} until they came around.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.002",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} calmed down in {actor:possessive} company.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.003",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} offered no grand wisdom — just stayed with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.004",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} tried to say thanks; {actor} waved it off to save them the breath.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.005",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some nights can only be endured. At least {other} didn't endure this one alone.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.006",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} did not tell {other} to cheer up, but stayed through the hardest part.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.007",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} listened to {other:possessive} broken account and treated every word with care.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.008",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} could not speak, {actor} simply sat nearby and waited.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.009",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} handed {other} a cup of water and kept the surroundings quiet enough to recover.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.010",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} guided {other} to breathe slowly until the hurried rhythm finally steadied.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.011",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} assured {other} that the breakdown would not become a joke and did not have to be carried alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.012",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} helped {other} sort through the confusion piece by piece before they finally stood together.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.013",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} stayed with {other} until they came around. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.014",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} calmed down in {actor:possessive} company. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.015",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} offered no grand wisdom — just stayed with {other}. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.016",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} tried to say thanks; {actor} waved it off to save them the breath. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.017",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some nights can only be endured. At least {other} didn't endure this one alone. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.018",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} did not tell {other} to cheer up, but stayed through the hardest part. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.019",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} listened to {other:possessive} broken account and treated every word with care. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.020",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} could not speak, {actor} simply sat nearby and waited. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.021",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} handed {other} a cup of water and kept the surroundings quiet enough to recover. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.022",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} guided {other} to breathe slowly until the hurried rhythm finally steadied. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.023",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} assured {other} that the breakdown would not become a joke and did not have to be carried alone. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.comfort.baseline.024",
+      "poolId": "chronicle.comfort.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} helped {other} sort through the confusion piece by piece before they finally stood together. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.001",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} showed {other} the work, step by step.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.002",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} shared a few tricks of the trade with {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.003",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} demonstrated it once; {other} watched without blinking.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.004",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} said they'd only teach it once, so {other} resolved to practice in secret.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.005",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some skills aren't on any work schedule; {actor} passed one on to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.006",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} gave a complete demonstration before letting {other} try independently.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.007",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} made a mistake, {actor} pointed it out instead of simply finishing the task.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.008",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} broke the complicated process into smaller parts for {other} to practice one at a time.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.009",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other:possessive} technique and offered an improvement that could be used immediately.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.010",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} finally got it right, {actor} gave clear and unreserved praise.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.011",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} repeated the error-prone part twice and made sure {other} truly remembered it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.012",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had {other} repeat the whole process, speaking up only when guidance was necessary.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.013",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} showed {other} the work, step by step. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.014",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} shared a few tricks of the trade with {other}. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.015",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} demonstrated it once; {other} watched without blinking. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.016",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} said they'd only teach it once, so {other} resolved to practice in secret. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.017",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Some skills aren't on any work schedule; {actor} passed one on to {other}. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.018",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} gave a complete demonstration before letting {other} try independently. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.019",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} made a mistake, {actor} pointed it out instead of simply finishing the task. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.020",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} broke the complicated process into smaller parts for {other} to practice one at a time. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.021",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} watched {other:possessive} technique and offered an improvement that could be used immediately. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.022",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {other} finally got it right, {actor} gave clear and unreserved praise. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.023",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} repeated the error-prone part twice and made sure {other} truly remembered it. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.teach.baseline.024",
+      "poolId": "chronicle.teach.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} had {other} repeat the whole process, speaking up only when guidance was necessary. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.001",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.002",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; {actor:possessive} eyes quickly grew wet, and {other} made no joke of it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.003",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; the emotion showed clearly on {actor:possessive} face, and {other} understood at once.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.004",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; {actor} needed a moment to steady the voice, while {other} remained nearby.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.005",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; the tears did not end the moment; {actor} and {other} simply slowed it down.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.006",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.007",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; {actor:possessive} eyes quickly grew wet, and {other} made no joke of it. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.008",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; the emotion showed clearly on {actor:possessive} face, and {other} understood at once. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.009",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; {actor} needed a moment to steady the voice, while {other} remained nearby. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.crybaby.010",
+      "poolId": "chronicle.vent.actor.crybaby",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} burst into tears mid-vent; {other} silently offered a tissue; the tears did not end the moment; {actor} and {other} simply slowed it down. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.001",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.002",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} kept watching whether {other} was comfortable and handled the moment gently.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.003",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} never hurried {other}, leaving plenty of time to respond.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.004",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; even the smallest gesture carried consideration, and {other} plainly noticed.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.005",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} softened both voice and movement, keeping the interaction free of pressure.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.006",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.007",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} kept watching whether {other} was comfortable and handled the moment gently. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.008",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} never hurried {other}, leaving plenty of time to respond. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.009",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; even the smallest gesture carried consideration, and {other} plainly noticed. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.gentle.010",
+      "poolId": "chronicle.vent.actor.gentle",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} even complained softly; {other} listened all the more carefully; {actor} softened both voice and movement, keeping the interaction free of pressure. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.001",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.002",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.003",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.004",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.005",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {actor} reacted with such directness that even a pause seemed unnecessary.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.006",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.007",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {actor:possessive} actions moved faster than the words, and {other} needed a moment to catch up. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.008",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; the emotion arrived suddenly, but {actor} soon brought the attention back to {other}. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.009",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {other} did not let {actor:possessive} impatience derail the moment, allowing it to continue. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.hothead.010",
+      "poolId": "chronicle.vent.actor.hothead",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cursed through the whole story; {other} heard them out to the end; {actor} reacted with such directness that even a pause seemed unnecessary. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.001",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.002",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; the volume made their interaction obvious to everyone nearby.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.003",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; {actor} made no effort to lower the voice, so even people some distance away could hear clearly.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.004",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; the sound carried far, but the interaction did not stop because of it.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.005",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; even after the area quieted, {actor:possessive} voice seemed to linger in the air.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.006",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.007",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; the volume made their interaction obvious to everyone nearby. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.008",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; {actor} made no effort to lower the voice, so even people some distance away could hear clearly. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.009",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; the sound carried far, but the interaction did not stop because of it. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.loud.010",
+      "poolId": "chronicle.vent.actor.loud",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor:possessiveCapitalized} troubles were audible across half the rec room; even after the area quieted, {actor:possessive} voice seemed to linger in the air. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.001",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.002",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; {actor} checked {other:possessive} reaction several times before gradually relaxing.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.003",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; every small noise distracted {actor}, while {other} patiently waited for the attention to return.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.004",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; {actor} handled every movement with extra care, and {other} did not rush anything.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.005",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; only when it was over did {actor:possessive} tense shoulders finally relax.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.006",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.007",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; {actor} checked {other:possessive} reaction several times before gradually relaxing. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.008",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; every small noise distracted {actor}, while {other} patiently waited for the attention to return. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.009",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; {actor} handled every movement with extra care, and {other} did not rush anything. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.actor.nervous.010",
+      "poolId": "chronicle.vent.actor.nervous",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} rattled off worry after worry; {other} helped sort them one by one; only when it was over did {actor:possessive} tense shoulders finally relax. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.001",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} poured their troubles out to {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.002",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} listened to {actor} for a long time.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.003",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} laid out the day's grievances for {other}, one by one.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.004",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} asked {other} when this life gets any easier; {other} had no answer.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.005",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Troubles aired, {actor} felt the regolith on their shoulders weigh a little less.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.006",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} about the frustration accumulated through the day and no longer had to hold it in.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.007",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not rush to offer advice and let {actor} finish every complaint first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.008",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} began with a small annoyance and only later reached what had truly been weighing inside.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.009",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} spoke for a long time, and {other} never showed impatience.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.010",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} asked an occasional question so {actor} knew the words were truly being heard.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.011",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} separated hurt from anger while talking, and the emotion gradually eased.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.012",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {actor} finally ran out of energy to complain, {other} stayed a little longer.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.013",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} poured their troubles out to {other}. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.014",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} listened to {actor} for a long time. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.015",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} laid out the day's grievances for {other}, one by one. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.016",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} asked {other} when this life gets any easier; {other} had no answer. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.017",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Troubles aired, {actor} felt the regolith on their shoulders weigh a little less. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.018",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} told {other} about the frustration accumulated through the day and no longer had to hold it in. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.019",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not rush to offer advice and let {actor} finish every complaint first. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.020",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} began with a small annoyance and only later reached what had truly been weighing inside. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.021",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} spoke for a long time, and {other} never showed impatience. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.022",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} asked an occasional question so {actor} knew the words were truly being heard. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.023",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} separated hurt from anger while talking, and the emotion gradually eased. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.baseline.024",
+      "poolId": "chronicle.vent.baseline",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {actor} finally ran out of energy to complain, {other} stayed a little longer. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.001",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} was close to breaking; {other} sat with them a while.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.002",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kept both hands clenched while speaking, and {other} saw that this was more than ordinary irritation.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.003",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lost the thread several times, so {other} slowed the pace and waited for each sentence.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.004",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As {actor:possessive} breathing quickened, {other} first helped steady the emotion before listening further.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.005",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted being close to the limit, and {other} did not treat the admission as weakness.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.006",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} voiced every worst fear, while {other} answered only with what could honestly be known.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.007",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Emotion overwhelmed {actor} several times, and {other} never left.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.008",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} kept needless interruptions away so {actor} did not have to end the conversation abruptly.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.009",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After speaking, {actor} remained silent for a long time, and {other} waited until the tension eased slightly.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.010",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {actor} repeatedly feared losing control, {other} focused attention on the small things that could be done now.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.011",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} finally named the source of the pressure, with a voice that was plainly shaking.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.012",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not promise that everything would be fine, only assured {actor} that it need not be faced alone.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.013",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} was close to breaking; {other} sat with them a while. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.014",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} kept both hands clenched while speaking, and {other} saw that this was more than ordinary irritation. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.015",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lost the thread several times, so {other} slowed the pace and waited for each sentence. Where oxygen and time were precious, simply choosing to stop mattered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.016",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "As {actor:possessive} breathing quickened, {other} first helped steady the emotion before listening further. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.017",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} admitted being close to the limit, and {other} did not treat the admission as weakness. Gas still rushed through the pipes, while they finally made time to listen.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.018",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} voiced every worst fear, while {other} answered only with what could honestly be known. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.019",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Emotion overwhelmed {actor} several times, and {other} never left. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.020",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} kept needless interruptions away so {actor} did not have to end the conversation abruptly. The colony could not solve every problem, but someone here was willing to share the weight.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.021",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 21,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "After speaking, {actor} remained silent for a long time, and {other} waited until the tension eased slightly. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.022",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 22,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "When {actor} repeatedly feared losing control, {other} focused attention on the small things that could be done now. The warning lights soon settled, but the kindness was remembered.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.023",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 23,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} finally named the source of the pressure, with a voice that was plainly shaking. Work still waited in the distance, but the care helped someone find their footing first.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.vent.event.stress.024",
+      "poolId": "chronicle.vent.event.stress",
+      "ordinal": 24,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} did not promise that everything would be fine, only assured {actor} that it need not be faced alone. Before the next shift began, both felt more able to face it.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    }
+  ]
+}

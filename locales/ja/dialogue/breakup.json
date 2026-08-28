@@ -1,0 +1,90 @@
+{
+  "locale": "ja",
+  "family": "breakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "私たち……やっぱりやめよう。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "円満に別れよう。体に気をつけて。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "配管は直せるけど、これはもう直せない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……うん。少なくとも配管は無事だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "これから食堂は、君が東、僕が西。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "分かった。……自分を大事にして。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "酸素ボンベ、返す。全部返す。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "持っといて。友達が贈ったものだと思って。"
+        }
+      ]
+    }
+  ]
+}

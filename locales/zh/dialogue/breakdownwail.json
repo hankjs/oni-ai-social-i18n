@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "breakdownwail",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "整条走廊都听得见。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那就对了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "他不是在叫我们。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我知道你们都在。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我把门关上好不好。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "关了我还是在里面。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这个音高我在矿坑听过。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "矿坑至少会回音。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "叫完会好一点吗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "不会。但不叫更糟。"
+        }
+      ]
+    }
+  ]
+}

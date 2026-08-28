@@ -1,0 +1,712 @@
+{
+  "locale": "en",
+  "family": "vent",
+  "candidates": [
+    {
+      "candidateId": "storylet.vent.crybaby.001",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I can't hold it in... the mush bars are gone again..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Cry it out. Half of mine tomorrow is yours."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Snff... you're the best..."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.002",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I dreamed the Printing Pod lit up again. I woke up missing it..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Next time it lights up, we will go see it together."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Mm... Promise."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.003",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My tears fell into the regolith. Will something grow...?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You'll be the first to know. Here, wipe up."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Ha. Now I'm laughing and crying."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.crybaby.004",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "crybaby"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not fragile. I just have surplus water draining through my eyes."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Drain away. Drainage is honest work."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Mm! Feeling better already."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.001",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I nearly took the hamster wheel apart today! It spins too slow!!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe before dismantling. The wheel is public property."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Hooo. Fine. It lives. For now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.002",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Why do I get every busted pipe?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Because you're fastest. That's a compliment, stop glaring."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Fine. That reason I accept."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.003",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm counting to three, and if this base blacks out again—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "At three we go crank the generator together."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Deal. One, two... move."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.hothead.004",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "hothead"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm not angry! I'm just too efficient to sit still!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then lend me half that energy for hauling."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Take it, take it. Feels better out loud."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.001",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I keep thinking the backup battery isn't full. It is full. I checked..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then we check once more. Together."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...That was the seventh check. Thanks for coming."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.002",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What if? What if the oxygen, while I'm asleep—"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Stop. The alarm works nights. You work days. Clear division of labor."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Fine. I'll only wake up three times."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.003",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The pipe made a noise! You heard it, right?!"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Heard it. Thermal expansion. I signed its health certificate."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...You made that up. It helped anyway."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.nervous.004",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "actors": [
+          {
+            "slot": 0,
+            "voices": [
+              "nervous"
+            ]
+          }
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My heart is racing. Is the base about to blow?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's from three ladder sprints. Sit. Sip water."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Oh. Right. Okay, settling down now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.001",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I can't take it anymore, there are pipes to fix everywhere..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Breathe. Pipes are infinite; you are not."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Thanks. Saying it out loud helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.002",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Dreamed the power grid died again. My hands are still shaking."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Just a dream. Come sit with me a while."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Yeah. Glad you're here."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.003",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The electrolyzer blew again. Everyone's oxygen is on me..."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sit down. Oxygen has reserves. You don't have a backup."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. Breathing first."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.004",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "A full shift on the hamster wheel. My legs won't stop."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'll take tomorrow. The wheel can't bully both of us."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Deal. You're a good one."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.005",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The meteors keep hammering. I can't sleep."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "They won't get through. I checked every tile myself."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Somehow that actually helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.006",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What if I wake up and the oxygen reads zero?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You'd wake up next to me first. Panic later."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Ha... fair."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.007",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm fine. I'm fine. I'm fine."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That's four this cycle. Sit. I'll take the next shift."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...One more: I'm fine. Okay. Sitting."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.008",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I am one broken pipe away from crashing out entirely."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then I'll fix the pipe. Sit down."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. Watching you fix it helps."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.009",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What are you thinking about?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nothing. Beautifully, completely nothing."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Finally, someone at peace in this colony."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.010",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "How often do you think about that one flooded shaft?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Daily. Sometimes twice, if the pump hums wrong."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...It haunts me too. Cycle 12. Never again."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.vent.base.011",
+      "storyletId": "Vent",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 46,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Two straight shifts on the manual generator."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sad hamster hours. Tiniest violin. I'm taking the next one."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "...Okay. You win."
+        }
+      ]
+    }
+  ]
+}

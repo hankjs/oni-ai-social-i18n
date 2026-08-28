@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 2,
+  "requestedLocale": "vi",
+  "fallbackChain": [
+    "vi",
+    "en",
+    "zh"
+  ],
+  "entries": [
+    {
+      "promptId": "prompt.conversation.affect",
+      "text": "Cảm xúc hiện tại: [[nameA]]=[[emotionA]]; [[nameB]]=[[emotionB]].",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "emotionA",
+        "emotionB",
+        "nameA",
+        "nameB"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "Bản nháp nội địa đã khớp: [[draft]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "draft"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "Hãy gọt giũa bản nháp mà không đổi sự kiện, cảm xúc nhân vật và thứ tự người nói.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "Không có đặc tính nổi bật",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "A: [[profile]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "profile"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "B: [[profile]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "profile"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]] (đặc tính: [[traits]]; căng thẳng: [[stress]])",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "name",
+        "stress",
+        "traits"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "Quan hệ: [[stage]], thiện cảm [[affinity]].",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "affinity",
+        "stage"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "text": "Sự kiện đã do engine trò chơi xác định: [[storylet]]; nguyên do: [[cause]].",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "cause",
+        "storylet"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "Căng thẳng “bên bờ sụp đổ” nghĩa là người nhân bản sắp sụp đổ cảm xúc; hãy để sự căng ấy hiện trong lời thoại, ví dụ dễ giận, mệt mỏi hoặc chống đỡ gượng.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "Hãy gọt giũa hội thoại giữa người nhân bản trong trò chơi mô phỏng sinh tồn Oxygen Not Included. Sự kiện, kết quả quan hệ, cảm xúc hai bên và thứ tự người nói đều đã do engine trò chơi xác định; cấm viết lại các sự thật ấy. Người nhân bản là người nhỏ được in 3D, đào tài nguyên, dựng căn cứ và cố sống sót trong thuộc địa ngoài không gian. Hội thoại phải khớp không khí trò chơi: hài hước đen, càm ràm việc, quan tâm nhau, khẩu ngữ, mỗi câu không quá 30 từ. Chỉ xuất JSON, không xuất bất kỳ nội dung nào khác. Định dạng:\n{\"turns\":[{\"speaker\":\"tên\",\"text\":\"lời thoại\"},...2 đến 4 lượt]}.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "Nguyên do: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "Thuộc địa: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "đang hết lương thực, đang phẫn nộ tập thể",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "đang hết lương thực",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "đang phẫn nộ tập thể",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "Quan hệ gần đây: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "Sự kiện: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "Chuyện cũ của hai người:",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "chu kỳ[[cycle]] · [[event]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "cycle",
+        "event"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "Hãy viết lại thành một câu biên niên.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "Quan hệ mới: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "A: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "B: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "Địa điểm: [[value]]",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "value"
+      ],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "Hãy viết với tư cách tác giả biên niên thuộc địa. Viết lại sự kiện giao tế đã cho thành một câu, không quá 40 từ. Tả mộc, tiết chế, có cảm giác lịch sử; cấm đổi tên người và sự thật, đừng dùng ngoặc kép, đừng dùng emoji, đừng dùng số. Chỉ xuất đúng câu ấy.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "contractRevision": 1
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "Người chứng kiến: [[count]] người",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "count"
+      ],
+      "contractRevision": 1
+    }
+  ]
+}

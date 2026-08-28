@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "wrathrescue",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathrescue.base.001",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ここに座る。他意はない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……この数日、誰も座らなかった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.002",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "飯、二人分持ってきた。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "人に見られてもいいのか？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.003",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "その傷、誰につけられた？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……転んだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.004",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "他人が何を言おうと知ったことか。夜勤、まだ一回借りがあるだろ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……覚えてる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathrescue.base.005",
+      "storyletId": "WrathRescue",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "泣き終わったら飯だ。冷めたらもっとまずい。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……うん。"
+        }
+      ]
+    }
+  ]
+}

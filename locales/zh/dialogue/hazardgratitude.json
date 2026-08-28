@@ -1,0 +1,111 @@
+{
+  "locale": "zh",
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "又是你下去的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "我肺比较好。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那层归我，下次。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "你说了三次了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我欠你的。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "记着就好。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "你不用每次都替我去。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那你要我看你去？"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "谢了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "别说这个。"
+        }
+      ]
+    }
+  ]
+}

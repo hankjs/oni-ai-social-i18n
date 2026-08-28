@@ -1,0 +1,3920 @@
+{
+  "locale": "ko",
+  "family": "relationship",
+  "templates": [
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.001",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와의 기념일을 잊었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.002",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 근무표에서 {other}와의 기념일만 빠져 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.003",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 밤새 기다렸지만, {actor}는 갱도 안에서 전혀 눈치채지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.004",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "바쁜 날에 정신이 팔려 {actor}는 가장 중요한 그날을 잊었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.005",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하루가 다 가서야 기념일을 떠올렸고, {other} 앞에서는 이미 태연한 척할 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.006",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 하루 종일 기다려도 아무 표시가 없었고, {actor}는 그제야 무언가를 빠뜨렸음을 깨달았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.007",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 평범한 근무는 정확히 기억하면서도, {other}와 함께하는 중요한 날만 잊었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.008",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 늦은 축하가 입 밖으로 나왔을 때, {other}에게는 이미 축하할 마음이 남아 있지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.009",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 기념일 축하를 덧붙이려 했지만, {other}는 조용히 바라보기만 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.010",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 혼자 준비해 둔 마음을 거두는 것을 보고, 기념일을 놓쳤음을 알았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.011",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와의 기념일을 잊었다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.012",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 근무표에서 {other}와의 기념일만 빠져 있었다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.013",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 밤새 기다렸지만, {actor}는 갱도 안에서 전혀 눈치채지 못했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.014",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "바쁜 날에 정신이 팔려 {actor}는 가장 중요한 그날을 잊었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.015",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 하루가 다 가서야 기념일을 떠올렸고, {other} 앞에서는 이미 태연한 척할 수 없었다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.016",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 하루 종일 기다려도 아무 표시가 없었고, {actor}는 그제야 무언가를 빠뜨렸음을 깨달았다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.017",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 평범한 근무는 정확히 기억하면서도, {other}와 함께하는 중요한 날만 잊었다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.018",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 늦은 축하가 입 밖으로 나왔을 때, {other}에게는 이미 축하할 마음이 남아 있지 않았다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.019",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 기념일 축하를 덧붙이려 했지만, {other}는 조용히 바라보기만 했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary-missed.baseline.020",
+      "poolId": "chronicle.anniversary-missed.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 혼자 준비해 둔 마음을 거두는 것을 보고, 기념일을 놓쳤음을 알았다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.001",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께한 날을 기념했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.002",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 또 한 해를 무사히 지나왔으니, 잔을 부딪칠 만했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.003",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "달력조차 스스로 적어야 하는 이곳에서, {a}와 {b}는 오늘을 잊지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.004",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 기념일을 식민지 전체의 축제처럼 보냈고—적어도 그들 스스로는 그렇게 여겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.005",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 함께하게 된 날을 떠올리며, 또 하나의 기념일에 잔을 들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.006",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 바쁨을 잠시 내려놓고, 서로를 기념할 시간을 진심으로 비워 두었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.007",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 준비해 둔 작은 마음을 주고받았고, 누구도 이 날을 잊지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.008",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께 지나온 사이클을 세어 보다, 기억할 일이 이미 많다는 것을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.009",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 성대한 축하를 차리지 않고, 이 날을 조용히 서로에게 남겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.010",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 기념일에 처음의 약속을 다시 말하였고, 이번 말투는 더 단호했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.011",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께한 날을 기념했다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.012",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 또 한 해를 무사히 지나왔으니, 잔을 부딪칠 만했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.013",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "달력조차 스스로 적어야 하는 이곳에서, {a}와 {b}는 오늘을 잊지 않았다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.014",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 기념일을 식민지 전체의 축제처럼 보냈고—적어도 그들 스스로는 그렇게 여겼다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.015",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 함께하게 된 날을 떠올리며, 또 하나의 기념일에 잔을 들었다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.016",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 바쁨을 잠시 내려놓고, 서로를 기념할 시간을 진심으로 비워 두었다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.017",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 준비해 둔 작은 마음을 주고받았고, 누구도 이 날을 잊지 않았다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.018",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 함께 지나온 사이클을 세어 보다, 기억할 일이 이미 많다는 것을 알았다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.019",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 성대한 축하를 차리지 않고, 이 날을 조용히 서로에게 남겼다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.anniversary.baseline.020",
+      "poolId": "chronicle.anniversary.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 기념일에 처음의 약속을 다시 말하였고, 이번 말투는 더 단호했다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.001",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한 차례 충돌이 오히려 {a}와 {b}를 친구로 만들었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.002",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 할 말을 다 털어놓은 끝에, 오히려 친구가 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.003",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "사과를 마친 {a}와 {b}는, 말다툼 전보다 더 가까워졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.004",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 먼저 한바탕 싸우고, 그다음 친구가 되었다—일은 그저 그렇게 흘렀다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.005",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 충돌을 처음부터 풀어 말하다, 서로가 관계를 위해 한 발 물러날 마음이 있음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.006",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 민망한 부분을 피하지 않았고, 솔직함이 오히려 신뢰를 깊게 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.007",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 각자 잘못한 점을 인정했고, 한 차례 사과는 결국 새로운 호흡이 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.008",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 원래 말다툼만 끝내려 했지만, 끝내 처음으로 상대를 진정 이해했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.009",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 화해한 뒤에도 오래 앉아, 전에는 꺼내지 못했던 말을 모두 풀어 놓았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.010",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 충돌 속에서 상대가 여전히 남으려 함을 보고, 관계는 전보다 더 단단해졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.011",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한 차례 충돌이 오히려 {a}와 {b}를 친구로 만들었다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.012",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 할 말을 다 털어놓은 끝에, 오히려 친구가 되었다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.013",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "사과를 마친 {a}와 {b}는, 말다툼 전보다 더 가까워졌다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.014",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 먼저 한바탕 싸우고, 그다음 친구가 되었다—일은 그저 그렇게 흘렀다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.015",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 충돌을 처음부터 풀어 말하다, 서로가 관계를 위해 한 발 물러날 마음이 있음을 알았다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.016",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 민망한 부분을 피하지 않았고, 솔직함이 오히려 신뢰를 깊게 했다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.017",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 각자 잘못한 점을 인정했고, 한 차례 사과는 결국 새로운 호흡이 되었다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.018",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 원래 말다툼만 끝내려 했지만, 끝내 처음으로 상대를 진정 이해했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.019",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 화해한 뒤에도 오래 앉아, 전에는 꺼내지 못했던 말을 모두 풀어 놓았다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology-bond.baseline.020",
+      "poolId": "chronicle.apology-bond.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 충돌 속에서 상대가 여전히 남으려 함을 보고, 관계는 전보다 더 단단해졌다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.001",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 사과했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.002",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 먼저 고개를 숙이자, {other}도 그 흐름에 맞춰 용서했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.003",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 '미안하다'를 더듬거리며 말했고, {other}는 받아들였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.004",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 머시 바 하나를 건네며, 그것으로 사죄했다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.005",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "체면과 {other} 사이에서, {actor}는 {other}를 골랐다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.006",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 변명을 대지 않고, 잘못한 일만 분명하게 {other}에게 알렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.007",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 불만을 모두 말할 때까지 기다린 뒤에야, 진심으로 용서를 구했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.008",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 그 말이 상처를 주었음을 {other}에게 인정하고, 앞으로는 다른 방식으로 하겠다고 약속했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.009",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사과를 천천히 말해, {other}가 듣는 것이 성의이지 대충이 아님을 분명히 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.010",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 먼저 {other}를 찾아 고개를 숙여 잘못을 인정했고, 시간이 일을 흐리게 해주기를 기다리지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.011",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 사과했다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.012",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 먼저 고개를 숙이자, {other}도 그 흐름에 맞춰 용서했다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.013",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 '미안하다'를 더듬거리며 말했고, {other}는 받아들였다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.014",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 머시 바 하나를 건네며, 그것으로 사죄했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.015",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "체면과 {other} 사이에서, {actor}는 {other}를 골랐다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.016",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 변명을 대지 않고, 잘못한 일만 분명하게 {other}에게 알렸다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.017",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 불만을 모두 말할 때까지 기다린 뒤에야, 진심으로 용서를 구했다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.018",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 그 말이 상처를 주었음을 {other}에게 인정하고, 앞으로는 다른 방식으로 하겠다고 약속했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.019",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 사과를 천천히 말해, {other}가 듣는 것이 성의이지 대충이 아님을 분명히 했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.apology.baseline.020",
+      "poolId": "chronicle.apology.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 먼저 {other}를 찾아 고개를 숙여 잘못을 인정했고, 시간이 일을 흐리게 해주기를 기다리지 않았다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.001",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 한바탕 싸웠다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.002",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 말다툼을 시작했고, 누구도 물러서지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.003",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 목소리가 점점 높아져, 옆의 해치를 놀라게 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.004",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 사소한 일로 얼굴을 붉혔고, 지나고 보니 그럴 일도 아니었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.005",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한바탕 싸운 뒤, {actor}와 {other}는 모두 상대가 먼저 도를 넘었다고 여겼다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.006",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 먼저 목소리를 높였고, {other}도 물러서지 않아, 말다툼은 금세 날카로워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.007",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 말을 끝까지 듣지 않았다고 탓했고, 두 사람은 곧 싸움을 시작했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.008",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 쌓아 둔 불만을 한꺼번에 쏟았고, {other}도 조목조목 반박했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.009",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 잘못을 인정하게 하려 했지만, 결국 양쪽 모두 제 분노만 들었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.010",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 무거운 한 마디가 선을 넘자, {other}는 더 이상 평정을 지키려 하지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.011",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 한바탕 싸웠다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.012",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 말다툼을 시작했고, 누구도 물러서지 않았다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.013",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 목소리가 점점 높아져, 옆의 해치를 놀라게 했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.014",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 사소한 일로 얼굴을 붉혔고, 지나고 보니 그럴 일도 아니었다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.015",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "한바탕 싸운 뒤, {actor}와 {other}는 모두 상대가 먼저 도를 넘었다고 여겼다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.016",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 먼저 목소리를 높였고, {other}도 물러서지 않아, 말다툼은 금세 날카로워졌다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.017",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 말을 끝까지 듣지 않았다고 탓했고, 두 사람은 곧 싸움을 시작했다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.018",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 쌓아 둔 불만을 한꺼번에 쏟았고, {other}도 조목조목 반박했다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.019",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 잘못을 인정하게 하려 했지만, 결국 양쪽 모두 제 분노만 들었다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.baseline.020",
+      "poolId": "chronicle.argument.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 무거운 한 마디가 선을 넘자, {other}는 더 이상 평정을 지키려 하지 않았다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.001",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} 때문에, {actor}와 {other}는 말다툼을 시작했다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.002",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} 때문에, {actor}는 {other}를 먼저 추궁했고, 양쪽은 금세 말다툼에 들어갔다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.003",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {cause}에 대한 불만을 {other}에게 돌렸고, {other}는 곧바로 반박했다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.004",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}를 두고 {actor}와 {other}는 제각기 주장을 굽히지 않았고, 누구도 상대를 설득하지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.005",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 {cause}를 해명하라 했지만, 돌아온 대답은 오히려 화를 키웠다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.006",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}가 도화선이 되어 {actor}가 먼저 따졌고, {other}도 묵은 앙금을 꺼냈다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.007",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {cause}에 책임져야 한다고 여겼고, 두 사람은 그 일로 걷잡을 수 없이 싸웠다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.008",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}를 이야기하다 {actor}는 인내를 잃었고, {other}도 더 참아주기를 거부했다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.009",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {cause}를 풀어 말하려 했지만, 감정이 설명을 비난으로 바꾸었다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.010",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 모두 {cause}에서 자신이 억울하다고 여겨, 논쟁은 더 깊이 빠져들었다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.011",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} 때문에, {actor}와 {other}는 말다툼을 시작했다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.012",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause} 때문에, {actor}는 {other}를 먼저 추궁했고, 양쪽은 금세 말다툼에 들어갔다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.013",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {cause}에 대한 불만을 {other}에게 돌렸고, {other}는 곧바로 반박했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.014",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}를 두고 {actor}와 {other}는 제각기 주장을 굽히지 않았고, 누구도 상대를 설득하지 못했다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.015",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 {cause}를 해명하라 했지만, 돌아온 대답은 오히려 화를 키웠다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.016",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}가 도화선이 되어 {actor}가 먼저 따졌고, {other}도 묵은 앙금을 꺼냈다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.017",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {cause}에 책임져야 한다고 여겼고, 두 사람은 그 일로 걷잡을 수 없이 싸웠다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.018",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{cause}를 이야기하다 {actor}는 인내를 잃었고, {other}도 더 참아주기를 거부했다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.019",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {cause}를 풀어 말하려 했지만, 감정이 설명을 비난으로 바꾸었다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.argument.with-cause.020",
+      "poolId": "chronicle.argument.with-cause",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 모두 {cause}에서 자신이 억울하다고 여겨, 논쟁은 더 깊이 빠져들었다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "cause",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.001",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 이별했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.002",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 감정은 끝에 이르렀다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.003",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 할 말을 풀어 놓은 뒤, 각자 돌아섰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.004",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 관계는, 대기복의 산소처럼 바닥이 났다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.005",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 아직 되돌리려 했지만, {actor}는 더 이야기하고 싶지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.006",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 이 관계를 이어갈 수 없다고 말했고, 두 사람의 연인 신분을 직접 끝냈다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.007",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 이별의 말을 꺼낸 뒤, {other}는 오래 침묵하고서야 받아들였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.008",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 예전처럼 {other}를 마주할 수 없음을 인정했고, 두 사람은 그렇게 갈라섰다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.009",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 모호한 여지를 남기지 않고, 관계가 여기서 끝난다고 {other}에게 분명히 말했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.010",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 마지막으로 이야기하고, 더 이상 연인으로 지내지 않기로 했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.011",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 이별했다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.012",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 감정은 끝에 이르렀다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.013",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 할 말을 풀어 놓은 뒤, 각자 돌아섰다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.014",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}의 관계는, 대기복의 산소처럼 바닥이 났다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.015",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 아직 되돌리려 했지만, {actor}는 더 이야기하고 싶지 않았다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.016",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 이 관계를 이어갈 수 없다고 말했고, 두 사람의 연인 신분을 직접 끝냈다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.017",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 이별의 말을 꺼낸 뒤, {other}는 오래 침묵하고서야 받아들였다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.018",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 예전처럼 {other}를 마주할 수 없음을 인정했고, 두 사람은 그렇게 갈라섰다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.019",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 모호한 여지를 남기지 않고, 관계가 여기서 끝난다고 {other}에게 분명히 말했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.breakup.baseline.020",
+      "poolId": "chronicle.breakup.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}와 {other}는 마지막으로 이야기하고, 더 이상 연인으로 지내지 않기로 했다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.001",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 마음을 밝혔지만, {other}는 받아들이지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.002",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 마음을, {other}는 받아 내지 못했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.003",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 연습해 둔 고백을 마치자, {other}는 오래 침묵했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.004",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모든 진심에 메아리가 있는 것은 아님을, {actor}는 오늘 알았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.005",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 마음을 말한 뒤 오래 기다렸지만, {other}는 끝내 고개를 저었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.006",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 고백을 진지하게 들었지만, 같은 감정을 돌려줄 수는 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.007",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 실망을 감추려 하면서도, 솔직히 답한 {other}에게 감사를 전했다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.008",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 낸 용기는 바라던 결과를 가져오지 못했고, {other}의 거절을 받아들일 수밖에 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.009",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 부드러우면서도 분명히 {actor}를 거절했고, 오해될 여지를 남기지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.010",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 많은 말을 준비해 두었지만, {other}의 답을 듣고 나서는 '알겠다' 한 마디만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.011",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 마음을 밝혔지만, {other}는 받아들이지 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.012",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}의 마음을, {other}는 받아 내지 못했다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.013",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 연습해 둔 고백을 마치자, {other}는 오래 침묵했다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.014",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "모든 진심에 메아리가 있는 것은 아님을, {actor}는 오늘 알았다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.015",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 마음을 말한 뒤 오래 기다렸지만, {other}는 끝내 고개를 저었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.016",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 고백을 진지하게 들었지만, 같은 감정을 돌려줄 수는 없었다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.017",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 실망을 감추려 하면서도, 솔직히 답한 {other}에게 감사를 전했다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.018",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 낸 용기는 바라던 결과를 가져오지 못했고, {other}의 거절을 받아들일 수밖에 없었다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.019",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 부드러우면서도 분명히 {actor}를 거절했고, 오해될 여지를 남기지 않았다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession-fail.baseline.020",
+      "poolId": "chronicle.confession-fail.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 많은 말을 준비해 두었지만, {other}의 답을 듣고 나서는 '알겠다' 한 마디만 남았다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.001",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 마음을 밝혔고—{other}는 받아들였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.002",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 용기를 내어 고백하자, {other}는 얼굴을 붉히며 고개를 끄덕였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.003",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 열 번 연습한 말을 반쯤 했을 때, {other}는 이미 받아들였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.004",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "인쇄 포드가 지켜보는 가운데, {actor}와 {other}는 손을 맞잡았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.005",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 그 말을 오래 기다렸고, {actor}는 마침내 입 밖으로 냈다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.006",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오래 감춰 둔 마음을 온전히 {other}에게 전했고, 긍정의 답을 받았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.007",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 함께 가고 싶다고 털어놓았고, {other}는 진지하게 받아들였다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.008",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 끝에서 긴장한 나머지 말을 멈추었고, {other}가 먼저 상대의 손을 잡았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.009",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 멋진 말을 준비하지 않고, 이 호감을 솔직히 {other}에게 전했을 뿐인데도 답을 얻었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.010",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 연인이 될 뜻이 있는지 물었고, 그 답에 두 사람은 웃음을 터뜨렸다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.011",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 마음을 밝혔고—{other}는 받아들였다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.012",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 용기를 내어 고백하자, {other}는 얼굴을 붉히며 고개를 끄덕였다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.013",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}가 열 번 연습한 말을 반쯤 했을 때, {other}는 이미 받아들였다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.014",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "인쇄 포드가 지켜보는 가운데, {actor}와 {other}는 손을 맞잡았다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.015",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 그 말을 오래 기다렸고, {actor}는 마침내 입 밖으로 냈다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.016",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 오래 감춰 둔 마음을 온전히 {other}에게 전했고, 긍정의 답을 받았다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.017",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 함께 가고 싶다고 털어놓았고, {other}는 진지하게 받아들였다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.018",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 끝에서 긴장한 나머지 말을 멈추었고, {other}가 먼저 상대의 손을 잡았다. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.019",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 멋진 말을 준비하지 않고, 이 호감을 솔직히 {other}에게 전했을 뿐인데도 답을 얻었다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.confession.baseline.020",
+      "poolId": "chronicle.confession.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}에게 연인이 될 뜻이 있는지 물었고, 그 답에 두 사람은 웃음을 터뜨렸다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.001",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한 번 데이트를 했고, 분위기는 알맞았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.002",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 잠시 단둘이 있었고, 눈에는 서로만 담겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.003",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 나란히 걸었고, 누구도 작업대로 돌아가자는 말을 꺼내지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.004",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 망원경 곁에서 데이트하며, 같은 별하늘을 번갈아 보았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.005",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "데이트의 규칙은 {a}와 {b}가 정했다: 근무표 이야기는 하지 말 것.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.006",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한때의 틈을 서로에게만 남기고, 조용히 한 번의 데이트를 누렸다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.007",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 잠시 일은 접어 두고, 서로가 요즘 진정 마음에 둔 것만 물었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.008",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 오래 나란히 머물렀고, 누구도 다음 일을 서두르지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.009",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 이번 데이트를 위해 스스로를 정성껏 다듬었고, 만나서는 서로의 마음을 알아차렸다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.010",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 서로를 설레게 했던 세부를 되짚었고, 분위기는 다시 부드러워졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.011",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한 번 데이트를 했고, 분위기는 알맞았다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.012",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 잠시 단둘이 있었고, 눈에는 서로만 담겼다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.013",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 나란히 걸었고, 누구도 작업대로 돌아가자는 말을 꺼내지 않았다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.014",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 망원경 곁에서 데이트하며, 같은 별하늘을 번갈아 보았다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.015",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "데이트의 규칙은 {a}와 {b}가 정했다: 근무표 이야기는 하지 말 것. 이 소행성은 여전히 위험했지만, 그들은 적어도 모든 일을 홀로 마주하지 않게 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.016",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한때의 틈을 서로에게만 남기고, 조용히 한 번의 데이트를 누렸다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.017",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 잠시 일은 접어 두고, 서로가 요즘 진정 마음에 둔 것만 물었다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.018",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 오래 나란히 머물렀고, 누구도 다음 일을 서두르지 않았다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.019",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 이번 데이트를 위해 스스로를 정성껏 다듬었고, 만나서는 서로의 마음을 알아차렸다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.date.baseline.020",
+      "poolId": "chronicle.date.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 서로를 설레게 했던 세부를 되짚었고, 분위기는 다시 부드러워졌다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.001",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 크게 한바탕 싸운 뒤, 타인처럼 지냈다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.002",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b} 사이의 그 정은, 하룻밤 사이에 바닥이 났다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.003",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그날부터 {a}와 {b}는 복도에서 마주쳐도 돌아가 걸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.004",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "친구도 거기까지였고, {a}와 {b}는 인사조차 생략했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.005",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 상처 되는 말을 모두 쏟았고, 옛 신뢰는 완전히 끊어졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.006",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 누구도 비난을 거두지 않았고, 말다툼이 끝난 자리에는 거리만 남았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.007",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 갈등은 쉽게 화해할 수 있는 선을 넘었고, 관계는 그로 인해 깨졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.008",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 더 이상 상대의 해명을 믿으려 하지 않았고, 그때부터 서로를 피했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.009",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 분노 속에서 과거의 정을 부정했고, 가라앉은 뒤에도 다시 다가서지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.010",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말다툼을 끝낼 때 화해하지 않았고, 서로를 관계 밖에 남겨 두었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.011",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 크게 한바탕 싸운 뒤, 타인처럼 지냈다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.012",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b} 사이의 그 정은, 하룻밤 사이에 바닥이 났다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.013",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그날부터 {a}와 {b}는 복도에서 마주쳐도 돌아가 걸었다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.014",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "친구도 거기까지였고, {a}와 {b}는 인사조차 생략했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.015",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 상처 되는 말을 모두 쏟았고, 옛 신뢰는 완전히 끊어졌다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.016",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 누구도 비난을 거두지 않았고, 말다툼이 끝난 자리에는 거리만 남았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.017",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}의 갈등은 쉽게 화해할 수 있는 선을 넘었고, 관계는 그로 인해 깨졌다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.018",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 더 이상 상대의 해명을 믿으려 하지 않았고, 그때부터 서로를 피했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.019",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 분노 속에서 과거의 정을 부정했고, 가라앉은 뒤에도 다시 다가서지 않았다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.fallout.baseline.020",
+      "poolId": "chronicle.fallout.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말다툼을 끝낼 때 화해하지 않았고, 서로를 관계 밖에 남겨 두었다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.001",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 질투가 났다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.002",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그 시큼한 기분을, {actor} 스스로도 어디서 왔는지 말하지 못했다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.003",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 상대의 관심이 어디로 가는지 지나치게 신경 쓰고 있음을 알았고, 질투는 이미 감출 수 없었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.004",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 아무렇지 않은 척했지만, 말투의 불쾌함이 진짜 감정을 드러냈다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.005",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가까운 사람이 마음을 다른 곳에 두는 것을 보았고, 침묵 속에 질투가 스며들었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.006",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 신경 쓰지 말아야 한다고 되뇌었지만, 감정은 그로 사라지지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.007",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 그 자리에서 터뜨리지 않고, 그 시큼한 쓰라림만 이후로 가져갔다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.008",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 갑자기 유난히 조용해졌고, 평소의 대꾸조차 거리가 묻었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.009",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 자신의 독점욕이 고개를 드는 것을 알았지만, 당장 어떻게 말할지는 몰랐다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.010",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 바라던 관심을 받지 못해 허전해했고, 그 허전함은 금세 질투가 되었다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.011",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 질투가 났다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.012",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "그 시큼한 기분을, {actor} 스스로도 어디서 왔는지 말하지 못했다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.013",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 상대의 관심이 어디로 가는지 지나치게 신경 쓰고 있음을 알았고, 질투는 이미 감출 수 없었다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.014",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 아무렇지 않은 척했지만, 말투의 불쾌함이 진짜 감정을 드러냈다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.015",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 가까운 사람이 마음을 다른 곳에 두는 것을 보았고, 침묵 속에 질투가 스며들었다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.016",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 신경 쓰지 말아야 한다고 되뇌었지만, 감정은 그로 사라지지 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.017",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 그 자리에서 터뜨리지 않고, 그 시큼한 쓰라림만 이후로 가져갔다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.018",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 갑자기 유난히 조용해졌고, 평소의 대꾸조차 거리가 묻었다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.019",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 자신의 독점욕이 고개를 드는 것을 알았지만, 당장 어떻게 말할지는 몰랐다. 식당은 여전히 떠들썩했지만, 그들 쪽의 분위기만 차가워졌다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.baseline.020",
+      "poolId": "chronicle.jealousy.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 바라던 관심을 받지 못해 허전해했고, 그 허전함은 금세 질투가 되었다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.001",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {third}가 웃으며 이야기하는 것을 보고, 마음이 편치 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.002",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}와 {other}는 이야기가 잘 맞았고, {actor}는 곁에서 오래 표토를 세었다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.003",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 관심을 온통 {third}에게 두는 것을 보았고, 얼굴의 불쾌함이 점점 뚜렷해졌다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.004",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}와 {other}는 이야기에 빠져 있었고, {actor}는 몇 번이나 끼어들려다 멈추었다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.005",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {third}에게 보이는 반응마다 눈을 두었고, 볼수록 평정을 지키기 어려워졌다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.006",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 침묵을 알아채지 못한 채, {third}와 가깝게 이야기를 이어 갔다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.007",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {third}가 그저 평범한 사이라 믿으려 했지만, 마음속 질투는 물러나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.008",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}가 떠난 뒤에도, {actor}는 {other}를 마주할 때 꺼내지 못한 불만을 품고 있었다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.009",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {third} 때문에 웃는 것을 보고, 문득 자신이 바깥에 남겨졌다고 느꼈다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.010",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {third}를 탓하지는 않았지만, {other}가 친밀함을 남에게 준 것은 넘길 수 없었다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.011",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {third}가 웃으며 이야기하는 것을 보고, 마음이 편치 않았다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.012",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}와 {other}는 이야기가 잘 맞았고, {actor}는 곁에서 오래 표토를 세었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.013",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 관심을 온통 {third}에게 두는 것을 보았고, 얼굴의 불쾌함이 점점 뚜렷해졌다. 산소는 관을 따라 흘렀지만, 두 사람의 마음속 말은 데려가지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.014",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}와 {other}는 이야기에 빠져 있었고, {actor}는 몇 번이나 끼어들려다 멈추었다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.015",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {third}에게 보이는 반응마다 눈을 두었고, 볼수록 평정을 지키기 어려워졌다. 기계는 평소처럼 돌아갔지만, 두 사람 사이에는 침묵만 남았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.016",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other}는 {actor}의 침묵을 알아채지 못한 채, {third}와 가깝게 이야기를 이어 갔다. 교대 벨은 이미 울렸지만, 이 일은 아직 끝나지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.017",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}와 {third}가 그저 평범한 사이라 믿으려 했지만, 마음속 질투는 물러나지 않았다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.018",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{third}가 떠난 뒤에도, {actor}는 {other}를 마주할 때 꺼내지 못한 불만을 품고 있었다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.019",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {other}가 {third} 때문에 웃는 것을 보고, 문득 자신이 바깥에 남겨졌다고 느꼈다. 인쇄 포드의 빛은 여전히 따뜻했지만, 두 사람은 더 이상 서로를 보지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.jealousy.with-third.020",
+      "poolId": "chronicle.jealousy.with-third",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor}는 {third}를 탓하지는 않았지만, {other}가 친밀함을 남에게 준 것은 넘길 수 없었다. 그들은 각자 일터로 돌아갔지만, 누구도 이 일을 정말 내려놓지 않았다.",
+      "requiredSlots": [
+        "actor",
+        "other",
+        "third"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.001",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 앙금을 풀고, 다시 사이가 좋아졌다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.002",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 묵은 일을 덮고, 다시 한 상에 앉았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.003",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "누가 먼저 입을 열었는지는 더는 중요하지 않았고, {a}와 {b}는 화해했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.004",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "냉전이 끝난 날, {a}와 {b}는 모두 한숨을 돌렸다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.005",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 마침내 앉아 상대의 말을 끝까지 들었고, 냉전은 이 순간부터 풀리기 시작했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.006",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 이대로 버티면 서로만 더 괴로워진다고 인정하고, 다시 협력하기로 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.007",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 거슬리는 일을 조목조목 풀어 말했고, 더는 침묵으로 상대를 벌하지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.008",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 평범한 인사부터 다시 시작하려 했고, 관계에는 마침내 풀릴 여지가 생겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.009",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 모두 한 발 물러났고, 오래 막혀 있던 갈등에는 마침내 출구가 생겼다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.010",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말다툼이 없었던 척하지 않고, 그것이 앞날을 지배하지 않게 하기로만 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.011",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 앙금을 풀고, 다시 사이가 좋아졌다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.012",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 묵은 일을 덮고, 다시 한 상에 앉았다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.013",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "누가 먼저 입을 열었는지는 더는 중요하지 않았고, {a}와 {b}는 화해했다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.014",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "냉전이 끝난 날, {a}와 {b}는 모두 한숨을 돌렸다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.015",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 마침내 앉아 상대의 말을 끝까지 들었고, 냉전은 이 순간부터 풀리기 시작했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.016",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 이대로 버티면 서로만 더 괴로워진다고 인정하고, 다시 협력하기로 했다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.017",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 가장 거슬리는 일을 조목조목 풀어 말했고, 더는 침묵으로 상대를 벌하지 않았다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.018",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 평범한 인사부터 다시 시작하려 했고, 관계에는 마침내 풀릴 여지가 생겼다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.019",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 모두 한 발 물러났고, 오래 막혀 있던 갈등에는 마침내 출구가 생겼다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.reconcile.baseline.020",
+      "poolId": "chronicle.reconcile.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 말다툼이 없었던 척하지 않고, 그것이 앞날을 지배하지 않게 하기로만 했다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.001",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 함께 걷게 되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.002",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한 바퀴 돌아, 다시 서로의 곁으로 왔다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.003",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 이별은 생각하기 위한 것이었고, {a}와 {b}는 생각이 정리되었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.004",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 손을 잡았고, 첫 번째보다 더 힘주어 잡았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.005",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 헤어진 뒤에도 서로를 마음에 두었음을 인정하고, 관계에 한 번 더 기회를 주기로 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.006",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 헤어진 이유를 다시 이야기했고, 이번에는 함께 바꿀 방법을 찾았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.007",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 손을 잡아 보았고, 익숙한 감각에 두 사람 모두 놓지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.008",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 예전으로 돌아가기를 요구하지 않고, 지금부터 서로를 다시 알아가기로만 했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.009",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 긴 거리를 돌아, 끝내 다시 나란히 서기를 택했다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.010",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 재회를 신중하게 말했지만, 다시 다가서고 싶다는 바람은 감추지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.011",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 함께 걷게 되었다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.012",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 한 바퀴 돌아, 다시 서로의 곁으로 왔다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.013",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 13,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "어떤 이별은 생각하기 위한 것이었고, {a}와 {b}는 생각이 정리되었다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.014",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 14,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 손을 잡았고, 첫 번째보다 더 힘주어 잡았다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.015",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 15,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 헤어진 뒤에도 서로를 마음에 두었음을 인정하고, 관계에 한 번 더 기회를 주기로 했다. 기계 소리가 다시 사람 목소리를 덮었을 때, 두 사람은 일이 이미 달라졌음을 알았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.016",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 16,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 처음 헤어진 이유를 다시 이야기했고, 이번에는 함께 바꿀 방법을 찾았다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.017",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 17,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 다시 손을 잡아 보았고, 익숙한 감각에 두 사람 모두 놓지 않았다. 식민지는 누구를 위해 멈추지 않았지만, 이 순간은 이후의 일상을 바꾸었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.018",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 18,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 예전으로 돌아가기를 요구하지 않고, 지금부터 서로를 다시 알아가기로만 했다. 인쇄 포드의 빛이 멀리서 스쳐 지나며, 함께 사는 새로운 한 장을 비추었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.019",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 19,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 긴 거리를 돌아, 끝내 다시 나란히 서기를 택했다. 기지의 기계는 평소처럼 돌아갔지만, 두 사람 사이의 거리는 이미 달라져 있었다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rekindle.baseline.020",
+      "poolId": "chronicle.rekindle.baseline",
+      "ordinal": 20,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a}와 {b}는 재회를 신중하게 말했지만, 다시 다가서고 싶다는 바람은 감추지 않았다. 교대 벨이 울린 뒤에도, 이 관계는 원래 자리로 돌아가지 않았다.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    }
+  ]
+}

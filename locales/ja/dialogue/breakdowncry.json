@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "breakdowncry",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncry.base.001",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あいつ、どれくらい泣いてる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……見るな。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.002",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "誰か呼んできたほうがいいか？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "誰を呼んでも同じだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.003",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "みんな止まってる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "だからこそ、止まらないんだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.004",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "こんなときに言うことなんて、全部無駄だ。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "なら言うな。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.005",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "酸素は足りてる。水も足りてる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ俺は何を泣いてるんだ。"
+        }
+      ]
+    }
+  ]
+}

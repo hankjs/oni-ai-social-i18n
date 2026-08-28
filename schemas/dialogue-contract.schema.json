@@ -1,0 +1,18 @@
+{
+  "type": "object", "additionalProperties": false, "required": ["schemaVersion", "storylets"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "storylets": { "type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["storyletId", "contractRevision", "requiredForStable", "minimumBaseCandidates", "actorSlots", "selectionDimensions"],
+      "properties": {
+        "storyletId": { "type": "string", "minLength": 1 }, "contractRevision": { "type": "integer", "minimum": 1 },
+        "requiredForStable": { "type": "boolean" }, "minimumBaseCandidates": { "type": "integer", "minimum": 0 },
+        "actorSlots": { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 0 } },
+        "selectionDimensions": { "type": "array", "uniqueItems": true, "items": {
+          "enum": ["emotions", "intensities", "stances", "voices", "relationshipStates", "causes"]
+        } }
+      }
+    }}
+  }
+}

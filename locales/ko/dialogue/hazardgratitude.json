@@ -1,0 +1,111 @@
+{
+  "locale": "ko",
+  "family": "hazardgratitude",
+  "candidates": [
+    {
+      "candidateId": "storylet.hazardgratitude.base.001",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "또 네가 내려갔네."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "폐가 좀 더 좋거든."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.002",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 층은 내 차례야, 다음에."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그 말, 세 번이나 했잖아."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.003",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "빚졌어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "기억만 하면 돼."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.004",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "매번 나 대신 가지 않아도 돼."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 네가 가는 걸 보란 거야?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.hazardgratitude.base.005",
+      "storyletId": "HazardGratitude",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "고마워."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그런 말 하지 마."
+        }
+      ]
+    }
+  ]
+}

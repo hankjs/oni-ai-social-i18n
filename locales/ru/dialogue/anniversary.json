@@ -1,0 +1,121 @@
+{
+  "locale": "ru",
+  "family": "anniversary",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversary.base.001",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Помнишь? Десять циклов назад — вот этот день."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Помню. Ты так волновался, что кашу-батончик раздавил."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Сегодняшние звёзды тоже тебе раздавлю."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.002",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Опять год… по календарю колонии."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Пока есть кислород — буду считать с тобой дальше."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.003",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Подарок: талон на массажный стол. Три смены менял."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Мой подарок: все твои смены поставил в дневные."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "…Мы и правда идеальная пара."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.004",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Сто циклов. А ты всё ещё терпишь мой храп."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не терплю. Просто ворчал-ворчал — и привык."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversary.base.005",
+      "storyletId": "Anniversary",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "С годовщиной. База не взорвалась, мы не разбежались."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "На этой планете это лучший результат."
+        }
+      ]
+    }
+  ]
+}

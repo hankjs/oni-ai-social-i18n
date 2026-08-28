@@ -1,0 +1,444 @@
+{
+  "locale": "zh",
+  "namespace": "social.announce",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_TITLE",
+      "text": "社交生活已开始",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.INTRO_BODY",
+      "text": "复制人有了自己的社交生活：聊天、交友、恋爱、争执都会自然发生。顶部管理菜单的「社交」可以旁观全局并牵线搭桥；复制人详情的「社交」标签可以查看每个人的关系。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE",
+      "text": "喜结连理",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_BODY",
+      "text": "{0} 向 {1} 告白成功，两人正式成为恋人！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_TITLE",
+      "text": "分手了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKUP_BODY",
+      "text": "{0} 和 {1} 的感情走到了尽头。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.STRAW_SUFFIX",
+      "text": "压垮感情的最后一根稻草：{0}（周期 {1}）。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_TITLE",
+      "text": "失去了伴侣",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WIDOWED_BODY",
+      "text": "{0} 失去了伴侣 {1}，陷入悲伤。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_TITLE",
+      "text": "冷战",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COLDWAR_BODY",
+      "text": "{0} 和 {1} 进入冷战，关系岌岌可危。给他们一个牵线标记可以促成和解。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_TITLE",
+      "text": "和好如初",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RECONCILE_BODY",
+      "text": "{0} 和 {1} 冰释前嫌，重归于好。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_TITLE",
+      "text": "默默哀悼",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.MOURNING_BODY",
+      "text": "{0} 在心里悼念逝去的 {1}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_TITLE",
+      "text": "挚友",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BESTFRIEND_BODY",
+      "text": "{0} 和 {1} 成为彼此的挚友。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_TITLE",
+      "text": "殖民地羁绊",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_ON_BODY",
+      "text": "殖民地人心凝聚，全员士气提升。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_TITLE",
+      "text": "殖民地不和",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.DISCORD_ON_BODY",
+      "text": "殖民地气氛紧张，全员士气受挫。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_TITLE",
+      "text": "气氛回归平静",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COHESION_OFF_BODY",
+      "text": "殖民地的集体情绪回到了平常状态。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_TITLE",
+      "text": "纪念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY",
+      "text": "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_TITLE",
+      "text": "错过的纪念日",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_MISSED_BODY",
+      "text": "{0} 和 {1} 的纪念日在忙碌中溜走了，两人都有点闷闷不乐。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_TITLE",
+      "text": "闹掰了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FALLOUT_BODY",
+      "text": "{0} 和 {1} 积怨爆发，正式闹掰——一段时间内感情难以升温，一次道歉就能和好清账。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_TITLE",
+      "text": "低谷陪伴",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.COMFORT_BODY",
+      "text": "{0} 坐在 {1} 身边，默默陪伴着悲伤中的伙伴。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE",
+      "text": "老夫老妻",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_BODY",
+      "text": "{0} 和 {1} 相伴日久，感情进入细水长流的阶段。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_TITLE",
+      "text": "结下宿敌",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_BODY",
+      "text": "{0} 和 {1} 积怨到底，正式结下宿敌——这段关系不再自行回暖，除非你出手牵线调解。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_TITLE",
+      "text": "宿敌和解",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_OVER_BODY",
+      "text": "{0} 和 {1} 的宿怨终于化开，关系回到了正常轨道。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_TITLE",
+      "text": "打起来了！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BODY",
+      "text": "{0} 和 {1} 从争吵升级成互殴。点到为止，但两人都要挂彩。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_TITLE",
+      "text": "总得有人负责",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY",
+      "text": "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE",
+      "text": "没人跟他说话了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY",
+      "text": "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_TITLE",
+      "text": "有人说了句公道话",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_SPEAK_UP_BODY",
+      "text": "{0} 当众替 {1} 说了话。没人再提这件事了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE",
+      "text": "第一个坐下来的人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY",
+      "text": "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE",
+      "text": "没人看见",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY",
+      "text": "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_TITLE",
+      "text": "被淡忘了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY",
+      "text": "没人救 {0}，但也没人再记得那件事了。日子照过。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE",
+      "text": "整个房间都看着",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY",
+      "text": "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE",
+      "text": "第一个坐下来的人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY",
+      "text": "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_TITLE",
+      "text": "不打不相识",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.BRAWL_BOND_BODY",
+      "text": "{0} 和 {1} 打完这一架反而认了对方，宿怨就此了结。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_TITLE",
+      "text": "粮仓见底了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY",
+      "text": "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_TITLE",
+      "text": "危机解除",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY",
+      "text": "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_TITLE",
+      "text": "活下去！",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_CULL_BODY",
+      "text": "{0} 和 {1} 之间的事已经不是吵架了。饥饿把最后一点体面也拿走了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_TITLE",
+      "text": "饥荒过去了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY",
+      "text": "储藏室重新有了食物。没有人问那是什么。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_TITLE",
+      "text": "最后的殖民者",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY",
+      "text": "只剩一个人了。基地很安静，食物也够了。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_TITLE",
+      "text": "对头不在了",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.RIVAL_DIED_BODY",
+      "text": "{1} 走了。{0} 嘴上什么都没说，心情却好了一阵。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_TITLE",
+      "text": "告白被拒",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY",
+      "text": "{0} 向 {1} 表明了心意，但没有得到回应。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_TITLE",
+      "text": "重新牵起手",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.ANNOUNCE.REKINDLE_BODY",
+      "text": "{0} 和 {1} 决定重新开始。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

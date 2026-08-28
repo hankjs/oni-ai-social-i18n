@@ -1,0 +1,90 @@
+{
+  "locale": "ru",
+  "family": "faminecull",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminecull.base.001",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не подходи."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Нас двое… выживет только один."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.002",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я не хочу так."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Я тоже не хочу. Но я голоден."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.003",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Прости."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не извиняйся. Действуй."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminecull.base.004",
+      "storyletId": "FamineCull",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Почему мы?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Потому что нас никто не любит."
+        }
+      ]
+    }
+  ]
+}

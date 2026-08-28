@@ -1,0 +1,111 @@
+{
+  "locale": "ja",
+  "family": "breakdownwail",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdownwail.base.001",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "廊下じゅうに聞こえてる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "それでいい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.002",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あいつは俺たちを呼んでるんじゃない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "みんながいるのは分かってる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.003",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "ドア、閉めてもいいか。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "閉めても、俺は中にいる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.004",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "この音の高さ、坑内で聞いたことがある。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "坑内なら、少なくとも反響する。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdownwail.base.005",
+      "storyletId": "BreakdownWail",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "叫び終わったら、少しは楽になるか。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "ならない。でも叫ばないほうがもっとひどい。"
+        }
+      ]
+    }
+  ]
+}

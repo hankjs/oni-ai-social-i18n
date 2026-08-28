@@ -1,0 +1,3278 @@
+{
+  "locale": "vi",
+  "family": "dark",
+  "templates": [
+    {
+      "templateId": "chronicle.brawl.baseline.001",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đã đánh nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.002",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cãi vã của {a} và {b} leo thang thành nắm đấm.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.003",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} vật lấy nhau, dụng cụ vãi cả đất.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.004",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trận này đánh xấu hổ, {a} và {b} đều mang thương.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.005",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người can đủ cả, {a} và {b} mới chịu buông.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.006",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} mất hẳn kiềm chế, cãi cuối cùng thành một trận đánh.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.007",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đã đánh nhau. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.008",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cãi vã của {a} và {b} leo thang thành nắm đấm. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.009",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} vật lấy nhau, dụng cụ vãi cả đất. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.010",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trận này đánh xấu hổ, {a} và {b} đều mang thương. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.011",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người can đủ cả, {a} và {b} mới chịu buông. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.brawl.baseline.012",
+      "poolId": "chronicle.brawl.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} mất hẳn kiềm chế, cãi cuối cùng thành một trận đánh. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.001",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lương thực được bù, mọi người thở phào.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.002",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lại có hàng, tiếng nhai trở lại.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.003",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khủng hoảng đã qua, không ai hỏi lương từ đâu.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.004",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thức ăn bù kịp chặn hoảng loạn, thuộc địa tránh kết cục xấu nhất.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.005",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trữ lương lại vượt vạch nguy, mối đe dọa đói kém tạm lui.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.006",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lúc thiếu lương căng nhất đã qua, mọi người cuối cùng không phải tính những miếng cuối.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.007",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lương thực được bù, mọi người thở phào. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.008",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lại có hàng, tiếng nhai trở lại. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.009",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khủng hoảng đã qua, không ai hỏi lương từ đâu. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.010",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thức ăn bù kịp chặn hoảng loạn, thuộc địa tránh kết cục xấu nhất. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.011",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trữ lương lại vượt vạch nguy, mối đe dọa đói kém tạm lui. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-averted.baseline.012",
+      "poolId": "chronicle.famine-averted.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lúc thiếu lương căng nhất đã qua, mọi người cuối cùng không phải tính những miếng cuối. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.001",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} và {other} động thủ vì miếng ăn cuối.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.002",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người đói cực không kể lẽ, {actor} và {other} rách mặt vì một miếng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.003",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắm phần khẩu phần của {other}, nắm đấm đến trước lý trí.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.004",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi đói ép đến giới hạn, {actor} phát động tranh đoạt chí tử với {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.005",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thức ăn cuối không đủ cho hai người sống, xung đột thảm khốc bùng giữa {actor} và {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.006",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trong đường cùng coi {other} là đối thủ tranh thức ăn, chuyện không còn cứu được.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.007",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} và {other} động thủ vì miếng ăn cuối. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.008",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người đói cực không kể lẽ, {actor} và {other} rách mặt vì một miếng. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.009",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhắm phần khẩu phần của {other}, nắm đấm đến trước lý trí. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.010",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi đói ép đến giới hạn, {actor} phát động tranh đoạt chí tử với {other}. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.011",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thức ăn cuối không đủ cho hai người sống, xung đột thảm khốc bùng giữa {actor} và {other}. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-cull.baseline.012",
+      "poolId": "chronicle.famine-cull.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trong đường cùng coi {other} là đối thủ tranh thức ăn, chuyện không còn cứu được. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.001",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Những ngày hết lương cuối cùng đã qua.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.002",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lương lại đầy, có chuyện mọi người ngầm hiểu không nhắc.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.003",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ngày no lại đến, như đói kém chưa từng xảy ra.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.004",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cung ứng thức ăn lại ổn, trạng thái đói kém bao thuộc địa lâu nay tuyên bố kết thúc.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.005",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Mọi người cuối cùng ăn đúng phần thường, căng thẳng hết lương để lại chưa tan ngay.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.006",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đói kém đã hết, người sống sót bắt đầu sắp lại đời bị thiếu lương làm loạn.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.007",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Những ngày hết lương cuối cùng đã qua. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.008",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lương lại đầy, có chuyện mọi người ngầm hiểu không nhắc. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.009",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ngày no lại đến, như đói kém chưa từng xảy ra. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.010",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cung ứng thức ăn lại ổn, trạng thái đói kém bao thuộc địa lâu nay tuyên bố kết thúc. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.011",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Mọi người cuối cùng ăn đúng phần thường, căng thẳng hết lương để lại chưa tan ngay. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-over.baseline.012",
+      "poolId": "chronicle.famine-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Đói kém đã hết, người sống sót bắt đầu sắp lại đời bị thiếu lương làm loạn. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.001",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lương cạn đáy, hoảng loạn lan trong thuộc địa.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.002",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Miếng bánh mush mềm cuối cũng cạn, không ai dám nghĩ đến ngày mai.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.003",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Tin đói bụng lan còn nhanh hơn oxy.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.004",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trữ hiện có không còn bảo đảm mọi người, thuộc địa bước vào cảnh báo hết lương rõ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.005",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Hàng ăn được giảm nhanh, mỗi người bắt đầu để ý bữa sau còn gì.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.006",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thiếu hụt lương vượt vạch nguy, hoảng loạn lan theo ô kho trống.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.007",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Kho lương cạn đáy, hoảng loạn lan trong thuộc địa. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.008",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Miếng bánh mush mềm cuối cũng cạn, không ai dám nghĩ đến ngày mai. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.009",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Tin đói bụng lan còn nhanh hơn oxy. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.010",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trữ hiện có không còn bảo đảm mọi người, thuộc địa bước vào cảnh báo hết lương rõ. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.011",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Hàng ăn được giảm nhanh, mỗi người bắt đầu để ý bữa sau còn gì. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.famine-warning.baseline.012",
+      "poolId": "chronicle.famine-warning.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thiếu hụt lương vượt vạch nguy, hoảng loạn lan theo ô kho trống. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.001",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} cùng gánh việc nguy, có tình đã cùng sống chết.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.002",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sống sót ra khỏi vùng nguy, ánh mắt {a} và {b} nhìn nhau đã khác.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.003",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ở cửa sống chết {a} và {b} chẳng ai chạy trước, tình này không giả được.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.004",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} trong lao động nguy chiếu cố nhau, về an toàn thêm một niềm tin chắc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.005",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} cùng gánh nhiệm vụ rủi ro cao, quá trình chịu chung kéo hai người lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.006",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nguy không giảm vì có người cùng, nhưng {a} và {b} đều biết mình không đối mặt một mình.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.007",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} cùng gánh việc nguy, có tình đã cùng sống chết. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.008",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sống sót ra khỏi vùng nguy, ánh mắt {a} và {b} nhìn nhau đã khác. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.009",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ở cửa sống chết {a} và {b} chẳng ai chạy trước, tình này không giả được. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.010",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} trong lao động nguy chiếu cố nhau, về an toàn thêm một niềm tin chắc. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.011",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} cùng gánh nhiệm vụ rủi ro cao, quá trình chịu chung kéo hai người lại. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-comrade.baseline.012",
+      "poolId": "chronicle.hazard-comrade.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nguy không giảm vì có người cùng, nhưng {a} và {b} đều biết mình không đối mặt một mình. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.001",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Chút oán {actor} với {other} dần tan.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.002",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nghĩ thông: việc nguy rồi cũng phải có người làm, không nên oán {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.003",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thời gian mài phẳng chút lửa ấy, {actor} nhìn {other} ưa mắt hơn nhiều.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.004",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sau khi sắp việc công bằng, oán lao động nguy {actor} dồn với {other} bắt đầu lui.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.005",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thấy {other} cũng gánh rủi ro đáng có, bất mãn lâu ngày cuối cùng dịu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.006",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cách biệt nguy không còn nới, {actor} chịu thôi đổ trách nhiệm lên {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.007",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Chút oán {actor} với {other} dần tan. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.008",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nghĩ thông: việc nguy rồi cũng phải có người làm, không nên oán {other}. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.009",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thời gian mài phẳng chút lửa ấy, {actor} nhìn {other} ưa mắt hơn nhiều. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.010",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sau khi sắp việc công bằng, oán lao động nguy {actor} dồn với {other} bắt đầu lui. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.011",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thấy {other} cũng gánh rủi ro đáng có, bất mãn lâu ngày cuối cùng dịu. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-eased.baseline.012",
+      "poolId": "chronicle.hazard-eased.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cách biệt nguy không còn nới, {actor} chịu thôi đổ trách nhiệm lên {other}. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.001",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đỡ việc nguy hộ {actor}, {actor} ghi trong lòng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.002",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi việc nguy rơi xuống, {other} nhận trước một bước, {actor} sẽ không quên.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.003",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nợ {other} một ân, loại đổi bằng mạng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.004",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chủ động gánh việc nguy hơn, {actor} vì thế thành thật ghi ơn giúp ấy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.005",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi rủi ro đến trước mắt, {other} chia hộ {actor} một phần, {actor} không coi là đương nhiên.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.006",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thấy {other} bước vào vùng nguy, hiểu lần này mình được chăm sóc thật sự.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.007",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đỡ việc nguy hộ {actor}, {actor} ghi trong lòng. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.008",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi việc nguy rơi xuống, {other} nhận trước một bước, {actor} sẽ không quên. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.009",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nợ {other} một ân, loại đổi bằng mạng. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.010",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chủ động gánh việc nguy hơn, {actor} vì thế thành thật ghi ơn giúp ấy. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.011",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi rủi ro đến trước mắt, {other} chia hộ {actor} một phần, {actor} không coi là đương nhiên. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-gratitude.baseline.012",
+      "poolId": "chronicle.hazard-gratitude.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} thấy {other} bước vào vùng nguy, hiểu lần này mình được chăm sóc thật sự. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.001",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lại xuống vùng nguy một ngày, nảy oán với việc nhẹ của {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.002",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cùng xuống hầm mỏ, cớ sao {actor} luôn ra phía nguy—{actor} càng nghĩ càng khó chịu.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.003",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đếm ngày nhàn của {other}, sổ trong lòng càng ghi càng dày.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.004",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} liên tục gánh nhiệm vụ nguy, việc {other} tương đối an toàn, oán vì thế dồn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.005",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cách biệt rủi ro lâu không cải, {actor} bắt đầu đổ bất công cho {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.006",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lại về từ việc nguy, thấy {other} vô sự thì không còn giữ bình tĩnh.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.007",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lại xuống vùng nguy một ngày, nảy oán với việc nhẹ của {other}. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.008",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cùng xuống hầm mỏ, cớ sao {actor} luôn ra phía nguy—{actor} càng nghĩ càng khó chịu. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.009",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đếm ngày nhàn của {other}, sổ trong lòng càng ghi càng dày. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.010",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} liên tục gánh nhiệm vụ nguy, việc {other} tương đối an toàn, oán vì thế dồn. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.011",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cách biệt rủi ro lâu không cải, {actor} bắt đầu đổ bất công cho {other}. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.hazard-resent.baseline.012",
+      "poolId": "chronicle.hazard-resent.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lại về từ việc nguy, thấy {other} vô sự thì không còn giữ bình tĩnh. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.001",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đã đi, {actor} nuốt lại lời chưa nói.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.002",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không đợi được ngày {actor} lấy hết can đảm.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.003",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói lời chuẩn bị đã lâu cho chỗ giường trống của {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.004",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời, {actor} không còn cơ hội xác nhận mối tình chưa nói rõ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.005",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mất {other} từng thầm thích, cả lời từ biệt cũng đã muộn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.006",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cái chết của {other} biến tấm lòng {actor} giấu mãi thành lời không bao giờ gửi được.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.007",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đã đi, {actor} nuốt lại lời chưa nói. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.008",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} không đợi được ngày {actor} lấy hết can đảm. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.009",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nói lời chuẩn bị đã lâu cho chỗ giường trống của {other}. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.010",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời, {actor} không còn cơ hội xác nhận mối tình chưa nói rõ. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.011",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mất {other} từng thầm thích, cả lời từ biệt cũng đã muộn. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-crush.baseline.012",
+      "poolId": "chronicle.loss-crush.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Cái chết của {other} biến tấm lòng {actor} giấu mãi thành lời không bao giờ gửi được. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.001",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mất {other}, cả người sụp đổ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.002",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giường {other} trống, {actor} lâu không nhìn về phía ấy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.003",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Bảng ca về sau không còn tên {other}, ngày của {actor} cũng trống một khoảng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.004",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời, {actor} mất bạn đời cùng sống, đau buồn lâu không dịu.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.005",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vẫn bản năng tìm {other}, rồi mới nhớ đi nhớ lại bạn đời đã không còn.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.006",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Dấu ngày thường {other} để lại khắp nơi, khiến {actor} không dễ tránh sự thật đã mất.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.007",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} mất {other}, cả người sụp đổ. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.008",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giường {other} trống, {actor} lâu không nhìn về phía ấy. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.009",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Bảng ca về sau không còn tên {other}, ngày của {actor} cũng trống một khoảng. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.010",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời, {actor} mất bạn đời cùng sống, đau buồn lâu không dịu. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.011",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} vẫn bản năng tìm {other}, rồi mới nhớ đi nhớ lại bạn đời đã không còn. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.loss-partner.baseline.012",
+      "poolId": "chronicle.loss-partner.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Dấu ngày thường {other} để lại khắp nơi, khiến {actor} không dễ tránh sự thật đã mất. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.001",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chết, trong lòng {actor} không nói được vị gì.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.002",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thù địch chết, {actor} bỗng thấy hành lang yên hơn nhiều.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.003",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từng mong thắng {other}, nay không còn đối thủ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.004",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thù địch {other} chết, {actor} mất đối tượng đối kháng lâu, cảm xúc không nhẹ như tưởng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.005",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từng mong hơn {other}, cái chết khiến cuộc so tài này không còn hiệp sau.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.006",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời chấm dứt mối hận cũ, {actor} đối diện kết quả chỉ còn im lặng phức tạp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.007",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} chết, trong lòng {actor} không nói được vị gì. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.008",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thù địch chết, {actor} bỗng thấy hành lang yên hơn nhiều. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.009",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từng mong thắng {other}, nay không còn đối thủ. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.010",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thù địch {other} chết, {actor} mất đối tượng đối kháng lâu, cảm xúc không nhẹ như tưởng. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.011",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từng mong hơn {other}, cái chết khiến cuộc so tài này không còn hiệp sau. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-died.baseline.012",
+      "poolId": "chronicle.rival-died.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} qua đời chấm dứt mối hận cũ, {actor} đối diện kết quả chỉ còn im lặng phức tạp. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.001",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đã gác mối hận cũ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.002",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} bắt tay, mối hận cũ đến đây là hết.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.003",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ghét một người cũng mệt, {a} và {b} quyết thôi.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.004",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không còn giữ thù, quan hệ thù địch lâu ngày cuối cùng kết thúc.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.005",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} thôi coi mỗi lần ở bên là so tài, quan hệ lui khỏi trạng thái thù địch.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.006",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} thừa nhận đối địch tiếp đã vô nghĩa, quyết dứt mối hận cũ của nhau.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.007",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đã gác mối hận cũ. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.008",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} bắt tay, mối hận cũ đến đây là hết. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.009",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ghét một người cũng mệt, {a} và {b} quyết thôi. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.010",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không còn giữ thù, quan hệ thù địch lâu ngày cuối cùng kết thúc. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.011",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} thôi coi mỗi lần ở bên là so tài, quan hệ lui khỏi trạng thái thù địch. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival-over.baseline.012",
+      "poolId": "chronicle.rival-over.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} thừa nhận đối địch tiếp đã vô nghĩa, quyết dứt mối hận cũ của nhau. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.001",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} kết oán, thành thù địch.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.002",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ân oán của {a} và {b} từ đây có tên: thù địch.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.003",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nhiều ngày dài về sau, {a} và {b} sẽ không cho nhau sắc mặt tốt.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.004",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Xung đột của {a} và {b} dồn đến mức không bỏ qua, hai bên chính thức thành thù địch.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.005",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đều coi đối phương là đối thủ phải đè, thù từ đây ổn định.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.006",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không còn giấu ghét nhau, một quan hệ thù địch hình thành từ đó.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.007",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} kết oán, thành thù địch. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.008",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ân oán của {a} và {b} từ đây có tên: thù địch. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.009",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Nhiều ngày dài về sau, {a} và {b} sẽ không cho nhau sắc mặt tốt. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.010",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Xung đột của {a} và {b} dồn đến mức không bỏ qua, hai bên chính thức thành thù địch. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.011",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} đều coi đối phương là đối thủ phải đè, thù từ đây ổn định. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.rival.baseline.012",
+      "poolId": "chronicle.rival.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{a} và {b} không còn giấu ghét nhau, một quan hệ thù địch hình thành từ đó. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "a",
+        "b"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.001",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} dẫn đầu đổ sổ lên đầu {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.002",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có chuyện, rồi cũng phải có người chịu tội—{actor} dẫn mọi người chọn {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.003",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Một câu của {actor} đã dẫn lửa giận mọi người về {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.004",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} công khai chỉ {other} phải chịu trách nhiệm về tai họa, dẫn giận tập thể về một người.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.005",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} quy tổn thất không giải được cho {other}, và kéo thêm người nhận lối nói ấy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.006",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cần một đối tượng gánh giận tập thể, cuối cùng chọn để {other} mang lời buộc ấy.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.007",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} dẫn đầu đổ sổ lên đầu {other}. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.008",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có chuyện, rồi cũng phải có người chịu tội—{actor} dẫn mọi người chọn {other}. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.009",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Một câu của {actor} đã dẫn lửa giận mọi người về {other}. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.010",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} công khai chỉ {other} phải chịu trách nhiệm về tai họa, dẫn giận tập thể về một người. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.011",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} quy tổn thất không giải được cho {other}, và kéo thêm người nhận lối nói ấy. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-blame.baseline.012",
+      "poolId": "chronicle.wrath-blame.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} cần một đối tượng gánh giận tập thể, cuối cùng chọn để {other} mang lời buộc ấy. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.001",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sự cô lập nhằm {subject} cuối cùng đã qua.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.002",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thuộc địa tìm được chuyện bàn mới, chuyện của {subject} không ai nhắc nữa.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.003",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ngày dài, cả lửa giận cũng hết hạn—{subject} lại hòa vào đám người.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.004",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giận tập thể nhằm {subject} dần mất sức, tiếp xúc ngày thường bắt đầu hồi.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.005",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thuộc địa không còn đổ mọi chuyện xấu lên {subject}, trạng thái cô lập theo đó lui.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.006",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} cuối cùng không còn chịu thù nhìn dai, sự kiện giận tập thể đi đến hồi kết.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.007",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Sự cô lập nhằm {subject} cuối cùng đã qua. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.008",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thuộc địa tìm được chuyện bàn mới, chuyện của {subject} không ai nhắc nữa. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.009",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Ngày dài, cả lửa giận cũng hết hạn—{subject} lại hòa vào đám người. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.010",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giận tập thể nhằm {subject} dần mất sức, tiếp xúc ngày thường bắt đầu hồi. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.011",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Thuộc địa không còn đổ mọi chuyện xấu lên {subject}, trạng thái cô lập theo đó lui. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-faded.baseline.012",
+      "poolId": "chronicle.wrath-faded.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} cuối cùng không còn chịu thù nhìn dai, sự kiện giận tập thể đi đến hồi kết. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.001",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị cô lập, không ai muốn nói chuyện với người ấy.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.002",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bước vào nhà ăn, cả bàn đều nín.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.003",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giờ cả Hatch còn được ưa hơn {other}.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.004",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị mọi người tách khỏi giao tiếp ngày thường, cả lời chào thường cũng ít được đáp.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.005",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người quanh lần lượt giữ khoảng, hoạt động ngày thường của {other} vì thế thành cô lập.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.006",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đi đâu cũng gặp né, cuộc cô lập này đã lan cả thuộc địa.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.007",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị cô lập, không ai muốn nói chuyện với người ấy. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.008",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bước vào nhà ăn, cả bàn đều nín. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.009",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Giờ cả Hatch còn được ưa hơn {other}. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.010",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị mọi người tách khỏi giao tiếp ngày thường, cả lời chào thường cũng ít được đáp. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.011",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người quanh lần lượt giữ khoảng, hoạt động ngày thường của {other} vì thế thành cô lập. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-isolated.baseline.012",
+      "poolId": "chronicle.wrath-isolated.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} đi đâu cũng gặp né, cuộc cô lập này đã lan cả thuộc địa. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.001",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhân lúc không ai để ý, đánh {other} một trận.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.002",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trong khoảng trống bảng ca, {actor} chặn {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.003",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chọn lúc bốn bề không người, trút lửa lên {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.004",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} biến giận nhằm {other} thành một nắm đấm đột ngột, gây tổn thương thật.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.005",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhân {other} chưa kịp phòng mà tấn công, giận tập thể vì thế vượt ranh lời nói.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.006",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị {actor} đánh riêng, sự kiện cô lập leo thành bạo lực.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.007",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhân lúc không ai để ý, đánh {other} một trận. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.008",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Trong khoảng trống bảng ca, {actor} chặn {other}. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.009",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} chọn lúc bốn bề không người, trút lửa lên {other}. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.010",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} biến giận nhằm {other} thành một nắm đấm đột ngột, gây tổn thương thật. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.011",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} nhân {other} chưa kịp phòng mà tấn công, giận tập thể vì thế vượt ranh lời nói. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-punch.baseline.012",
+      "poolId": "chronicle.wrath-punch.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{other} bị {actor} đánh riêng, sự kiện cô lập leo thành bạo lực. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.001",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đưa tay cứu {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.002",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} bưng khay ngồi cạnh {other}, tường cô lập sụp một góc.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.003",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi mọi người vòng tránh {other}, {actor} lại bước tới.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.004",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từ chối tiếp tục loại {other}, chủ động để đối phương trở lại giao tiếp thường.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.005",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lúc mọi người né đã đứng cạnh {other}, dùng việc làm phá cô lập.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.006",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giúp {other} bị loại, để thuộc địa thấy vẫn còn người chịu nhận.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.007",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} đưa tay cứu {other}. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.008",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} bưng khay ngồi cạnh {other}, tường cô lập sụp một góc. Oxy vẫn chảy như cũ, không mang đi sự nặng việc này để lại.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.009",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Khi mọi người vòng tránh {other}, {actor} lại bước tới. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.010",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} từ chối tiếp tục loại {other}, chủ động để đối phương trở lại giao tiếp thường. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.011",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} lúc mọi người né đã đứng cạnh {other}, dùng việc làm phá cô lập. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-rescue.baseline.012",
+      "poolId": "chronicle.wrath-rescue.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} giúp {other} bị loại, để thuộc địa thấy vẫn còn người chịu nhận. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.001",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp người ấy một mình trốn khóc.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.002",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} đi qua nghe tiếng khóc, bước nhẹ đi.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.003",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người trốn góc khóc rất lâu, {subject} không lại gần.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.004",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} tình cờ thấy người bị cô lập khóc một mình, phán đoán cũ bắt đầu lung lay.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.005",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Tiếng khóc trốn được {subject} nghe, nỗi đau sau giận tập thể lần đầu thành cụ thể.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.006",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp giọt nước mắt không ai đứng xem, sau đó không còn coi cô lập là chuyện nhỏ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.007",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp người ấy một mình trốn khóc. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.008",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} đi qua nghe tiếng khóc, bước nhẹ đi. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.009",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Người trốn góc khóc rất lâu, {subject} không lại gần. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.010",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} tình cờ thấy người bị cô lập khóc một mình, phán đoán cũ bắt đầu lung lay. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.011",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Tiếng khóc trốn được {subject} nghe, nỗi đau sau giận tập thể lần đầu thành cụ thể. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-saw-crying.baseline.012",
+      "poolId": "chronicle.wrath-saw-crying.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp giọt nước mắt không ai đứng xem, sau đó không còn coi cô lập là chuyện nhỏ. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.001",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt mọi người nói một câu công bằng hộ {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.002",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt tất cả nói hộ {other}, không ai còn lên tiếng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.003",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lúc giận tập thể ào ạt, {actor} là người duy nhất chịu mở lời hộ {other}.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.004",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} công khai nghi lời buộc tập thể với {other}, đòi mọi người dừng loại bỏ không căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.005",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt mọi người nói rõ sự thật hộ {other}, để phản đối im lặng cuối cùng có tiếng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.006",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} gánh rủi ro chọc giận tập thể, nhất quyết để {other} được đối đãi công bằng.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.007",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt mọi người nói một câu công bằng hộ {other}. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.008",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt tất cả nói hộ {other}, không ai còn lên tiếng. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.009",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Lúc giận tập thể ào ạt, {actor} là người duy nhất chịu mở lời hộ {other}. Ánh sáng buồng in vẫn ấm, không xua được im lặng thoáng qua trong căn cứ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.010",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} công khai nghi lời buộc tập thể với {other}, đòi mọi người dừng loại bỏ không căn cứ. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.011",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} trước mặt mọi người nói rõ sự thật hộ {other}, để phản đối im lặng cuối cùng có tiếng. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-speak-up.baseline.012",
+      "poolId": "chronicle.wrath-speak-up.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{actor} gánh rủi ro chọc giận tập thể, nhất quyết để {other} được đối đãi công bằng. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "actor",
+        "other"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.001",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} đã thấy cuộc hành hung riêng ấy.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.002",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 2,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp cảnh ấy, vội giả như không thấy.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.003",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 3,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có chuyện thấy rồi cũng chỉ nuốt, {subject} ngậm miệng rất chặt.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.004",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 4,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} tận mắt thấy người bị cô lập bị tấn công, nhận ra giận tập thể đã thành bạo lực.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.005",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 5,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp lần đánh riêng ấy, vì sốc một lúc không lên tiếng.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.006",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 6,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} nhìn rõ diễn biến cuộc tấn công, sau đó không còn giả như chẳng biết gì.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.007",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 7,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} đã thấy cuộc hành hung riêng ấy. Đèn báo động cuối cùng im, thuộc địa không còn về trước khi sự việc xảy ra.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.008",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 8,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp cảnh ấy, vội giả như không thấy. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.009",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 9,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "Có chuyện thấy rồi cũng chỉ nuốt, {subject} ngậm miệng rất chặt. Máy móc vẫn chạy theo ca, người ở lại chỉ mang chuyện này mà sống tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.010",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 10,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} tận mắt thấy người bị cô lập bị tấn công, nhận ra giận tập thể đã thành bạo lực. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.011",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 11,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} bắt gặp lần đánh riêng ấy, vì sốc một lúc không lên tiếng. Cửa tự động đóng mở, người đi qua đây đều bước nhẹ.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    },
+    {
+      "templateId": "chronicle.wrath-witness.baseline.012",
+      "poolId": "chronicle.wrath-witness.baseline",
+      "ordinal": 12,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "{subject} nhìn rõ diễn biến cuộc tấn công, sau đó không còn giả như chẳng biết gì. Tiểu hành tinh này không cho nhiều thời gian tưởng niệm, ký ức chỉ theo ca sau mà tiếp.",
+      "requiredSlots": [
+        "subject"
+      ],
+      "deprecated": false
+    }
+  ]
+}

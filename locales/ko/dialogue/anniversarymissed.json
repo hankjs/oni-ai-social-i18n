@@ -1,0 +1,74 @@
+{
+  "locale": "ko",
+  "family": "anniversarymissed",
+  "candidates": [
+    {
+      "candidateId": "storylet.anniversarymissed.base.001",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "어제…… 우리 날이었어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "알아. 채굴팀 근무라, 아무도 말을 못 꺼냈어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.002",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "식당 불 꺼질 때까지 기다렸어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……미안해. 갱도가 무너져서, 못 나왔어."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "사람만 무사하면 돼. 날은, 내년에 보충하자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.anniversarymissed.base.003",
+      "storyletId": "AnniversaryMissed",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "당과를 이틀이나 남겨 뒀다가, 결국 혼자 먹었어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……다음 기념일엔, 근무표를 찢어서라도 돌아올게."
+        }
+      ]
+    }
+  ]
+}

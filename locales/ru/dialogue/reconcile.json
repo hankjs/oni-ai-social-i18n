@@ -1,0 +1,105 @@
+{
+  "locale": "ru",
+  "family": "reconcile",
+  "candidates": [
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Пока холодная война шла эти дни, еда в столовой стала ещё хуже."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Прости. Это я срывался."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Давай мириться. В следующий раз сразу говори."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Вчера ты за меня смену закрыл. Я знаю."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Хм. Просто по пути."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "По пути. Тогда и мириться — тоже по пути."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Эти дни даже хэтчи нас обходили."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Мы слишком страшные. …Я первый наклоню голову, можно?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "Можно. Пойдём есть."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "На. Эспрессо, полчаса в очереди стоял."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это взятка. …Но я беру."
+        }
+      ]
+    }
+  ]
+}

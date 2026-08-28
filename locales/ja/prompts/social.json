@@ -1,0 +1,168 @@
+{
+  "locale": "ja",
+  "namespace": "social",
+  "entries": [
+    {
+      "promptId": "prompt.conversation.instruction",
+      "text": "イベント、人物の感情、話者の順を変えずに草稿を整えよ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.scene",
+      "text": "ゲームエンジンが確定したイベント：[[storylet]]；きっかけ：[[cause]]。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.affect",
+      "text": "現在の感情：[[nameA]]=[[emotionA]]；[[nameB]]=[[emotionB]]。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.draft",
+      "text": "照合済みのローカル草稿：[[draft]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.no-traits",
+      "text": "顕著な特性なし",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-a",
+      "text": "話者甲：[[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.participant-b",
+      "text": "話者乙：[[profile]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.profile",
+      "text": "[[name]]（特性：[[traits]]；ストレス：[[stress]]）",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.relationship",
+      "text": "関係：[[stage]]、好感度 [[affinity]]。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.stress-hint",
+      "text": "ストレス「崩壊寸前」は複製人間がまもなく感情崩壊することを示す。その張り詰めた状態を台詞に出せ。たとえば短気、疲労、かろうじて持ちこたえている様子。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.conversation.system",
+      "text": "生存シミュレーションゲーム《Oxygen Not Included》の複製人間同士の会話を整えよ。イベント、関係の結果、双方の感情、話者の順はいずれもゲームエンジンが確定済みである。これらの事実を書き換えるな。複製人間は3Dプリントされた小人であり、宇宙コロニーで資源を掘り、基地を建て、生存に励む。会話はゲームの雰囲気に合わせよ。ブラックユーモア、仕事へのぼやき、互いへの気遣い、口語体。各台詞は30字以内。厳密にJSONのみを出力し、他は一切出力するな。形式：\n{\"turns\":[{\"speaker\":\"名前\",\"text\":\"台詞\"},...2から4件]}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.cause",
+      "text": "きっかけ：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony",
+      "text": "コロニー：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-both",
+      "text": "食糧途絶中と衆怒中",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-famine",
+      "text": "食糧途絶中",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.colony-wrath",
+      "text": "衆怒中",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.current-state",
+      "text": "関係の近況：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.event",
+      "text": "イベント：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-heading",
+      "text": "二人の往事：",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.history-line",
+      "text": "サイクル[[cycle]] · [[event]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.instruction",
+      "text": "一文の編年史に書き直せ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.new-state",
+      "text": "新たな関係：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-a",
+      "text": "人物甲：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.person-b",
+      "text": "人物乙：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.place",
+      "text": "場所：[[value]]",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.system",
+      "text": "コロニー編年史の著者として、与えられた社交イベントを一文に書き直せ。40字以内。白描で、抑制し、歴史の趣を出せ。人名と事実を変えるな。引用符を使うな。emojiを使うな。数値を使うな。その一文のみを出力せよ。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "promptId": "prompt.narrative.witnesses",
+      "text": "目撃者：[[count]]人",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

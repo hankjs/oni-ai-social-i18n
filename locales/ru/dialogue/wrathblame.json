@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "wrathblame",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathblame.base.001",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "За это кто-то должен ответить."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Почему я."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.002",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Я не говорил, что это он. Я сказал только: это не я."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ты уже всё сказал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.003",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В список всё равно надо вписать имя."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Вот и вписали самое удобное."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.004",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Все и так всё понимают."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Это в головах. Не в доказательствах."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathblame.base.005",
+      "storyletId": "WrathBlame",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты в тот день был на месте, да?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "В тот день я спал. На этой базе кто не был на месте."
+        }
+      ]
+    }
+  ]
+}

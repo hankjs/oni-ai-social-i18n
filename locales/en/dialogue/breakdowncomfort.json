@@ -1,0 +1,132 @@
+{
+  "locale": "en",
+  "family": "breakdowncomfort",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncomfort.base.001",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'll sit here. You don't have to talk."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Okay."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.002",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I had one too. Two cycles back."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You didn't let anyone see."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.003",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Everyone else left."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You didn't."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.004",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Want some water."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Yeah."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.005",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We'll head back when you're ready."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "That could be a while."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncomfort.base.006",
+      "storyletId": "BreakdownComfort",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I won't tell anyone."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You will. But thanks."
+        }
+      ]
+    }
+  ]
+}

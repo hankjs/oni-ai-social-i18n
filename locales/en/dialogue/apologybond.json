@@ -1,0 +1,90 @@
+{
+  "locale": "en",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "About that fight... I was out of line."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "We're good. Honestly, I get you better now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I said it too harshly. Sorry."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Same here. Nothing bonds people like a good argument."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Still mad?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nah. If we can fight like that, we must really care."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time I'll hear you out first."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "And I'll yell less. Shake on it?"
+        }
+      ]
+    }
+  ]
+}

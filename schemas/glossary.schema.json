@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "sourceLocale", "locales", "terms"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "sourceLocale": { "const": "zh" },
+    "locales": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 6,
+      "items": { "enum": ["zh", "en", "ko", "ru", "ja", "vi"] }
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["termId", "zh", "en", "ko", "ru", "ja", "vi"],
+        "properties": {
+          "termId": { "type": "string", "pattern": "^[a-z][a-z0-9.-]+$" },
+          "zh": { "type": "string", "minLength": 1 },
+          "en": { "type": "string", "minLength": 1 },
+          "ko": { "type": ["string", "null"], "minLength": 1 },
+          "ru": { "type": ["string", "null"], "minLength": 1 },
+          "ja": { "type": ["string", "null"], "minLength": 1 },
+          "vi": { "type": ["string", "null"], "minLength": 1 },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

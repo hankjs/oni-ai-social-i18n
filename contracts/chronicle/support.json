@@ -1,0 +1,147 @@
+{
+  "family": "support",
+  "pools": [
+    {
+      "poolId": "chronicle.bestfriend.baseline",
+      "family": "support",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.care.baseline",
+      "family": "support",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.comfort.baseline",
+      "family": "support",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.teach.baseline",
+      "family": "support",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.actor.crybaby",
+      "family": "support",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.actor.gentle",
+      "family": "support",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.actor.hothead",
+      "family": "support",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.actor.loud",
+      "family": "support",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.actor.nervous",
+      "family": "support",
+      "angle": "actorTrait",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 5,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.baseline",
+      "family": "support",
+      "angle": "base",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.vent.event.stress",
+      "family": "support",
+      "angle": "eventSpecific",
+      "participantMode": "directedPair",
+      "allowedSlots": [
+        "actor",
+        "other"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 12,
+      "contractRevision": 1
+    }
+  ]
+}

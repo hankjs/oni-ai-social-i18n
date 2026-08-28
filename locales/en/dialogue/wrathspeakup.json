@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "family": "wrathspeakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.wrathspeakup.base.001",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I pulled the logs. He was on the far side that shift."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...You actually pulled the logs?"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.002",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Blame me. I wrote the roster."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "You don't have to do that for me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.003",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "What we're short on is a working machine, not someone to yell at."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Thank you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.004",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "My word still counts around here. He didn't do it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I thought everyone had stopped remembering me."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.wrathspeakup.base.005",
+      "storyletId": "WrathSpeakUp",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Next time somebody wants a name, they come to me first."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Then you'd better watch yourself."
+        }
+      ]
+    }
+  ]
+}

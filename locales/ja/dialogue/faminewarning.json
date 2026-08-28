@@ -1,0 +1,54 @@
+{
+  "locale": "ja",
+  "family": "faminewarning",
+  "candidates": [
+    {
+      "candidateId": "storylet.faminewarning.base.001",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "穀倉が底をついた。誰も喋らない。だが全員、あと何人残っているか数えている。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.002",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "冷蔵庫が空になって三日。今日から、人をじっと見る者が出てきた。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.faminewarning.base.003",
+      "storyletId": "FamineWarning",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "最後の配給を分け終わった。次に何を分けるのか、誰も口に出せない。"
+        }
+      ]
+    }
+  ]
+}

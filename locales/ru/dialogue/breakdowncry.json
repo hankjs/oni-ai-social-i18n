@@ -1,0 +1,111 @@
+{
+  "locale": "ru",
+  "family": "breakdowncry",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakdowncry.base.001",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Давно он плачет."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "…Не смотри на меня."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.002",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Может, сходить за кем-то?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "За кем ни пойди — всё одно."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.003",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Все остановились."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Потому я и не могу остановиться."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.004",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "В такие минуты любые слова — пустые."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда не говори."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakdowncry.base.005",
+      "storyletId": "BreakdownCry",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Кислорода ещё хватает. Воды тоже."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда чего я реву."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "locale": "en",
+  "family": "breakup",
+  "candidates": [
+    {
+      "candidateId": "storylet.breakup.base.001",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Maybe... we should call it off."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "No hard feelings. Take care."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.002",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "We can fix any pipe on this base. Not this."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Yeah. At least the pipes are fine."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.003",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'll take the east tables. You take the west."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Okay. ...Take care of yourself."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.breakup.base.004",
+      "storyletId": "Breakup",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Here's your oxygen canister back. All of it."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Keep it. Call it... a gift from a friend."
+        }
+      ]
+    }
+  ]
+}

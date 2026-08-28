@@ -1,0 +1,105 @@
+{
+  "locale": "ko",
+  "family": "reconcile",
+  "candidates": [
+    {
+      "candidateId": "storylet.reconcile.base.001",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "냉전한 며칠, 식당 밥이 더 맛이 없었어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……미안해, 내가 함부로 화냈어."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "화해하자, 다음엔 할 말 바로 하자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.002",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "어제 내 근무 대신 서 줬지. 다 알아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "……흥, 지나가다 한 거야."
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "지나가다. 그럼 화해도 지나가다 하자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.003",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "요 며칠은 해치까지 우릴 피해 가더라."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "우리가 너무 무서웠나 봐.…… 내가 먼저 고개 숙일게, 돼?"
+        },
+        {
+          "turnId": "c",
+          "speakerSlot": 0,
+          "text": "돼. 같이 밥 먹으러 가자."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.reconcile.base.004",
+      "storyletId": "Reconcile",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "자. 에스프레소 줄 서는 데 30분 걸렸어."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "뇌물이네.…… 그래도 받을게."
+        }
+      ]
+    }
+  ]
+}

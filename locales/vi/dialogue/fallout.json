@@ -1,0 +1,90 @@
+{
+  "locale": "vi",
+  "family": "fallout",
+  "candidates": [
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Đủ rồi, dạo này cậu bớt nói với tớ."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đúng ý tớ. Bàn ăn cũng đừng ngồi cạnh tớ."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tụi mình bình tĩnh một lúc đã."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Được. Việc ống, cậu tự liệu."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Tớ để đồ cậu mượn lên tủ cậu rồi."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Ừ. Sau mỗi người dùng của mình."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Hóa ra cậu vẫn nhìn tớ như vậy."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Cậu cũng vậy. Tới đây thôi."
+        }
+      ]
+    }
+  ]
+}

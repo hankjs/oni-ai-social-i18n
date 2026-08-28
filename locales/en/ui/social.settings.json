@@ -1,0 +1,636 @@
+{
+  "locale": "en",
+  "namespace": "social.settings",
+  "entries": [
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TITLE",
+      "text": "Social Life · Settings",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON",
+      "text": "Settings",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BUTTON_TOOLTIP",
+      "text": "Open the settings panel for Duplicant Social Life",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE",
+      "text": "Save",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CANCEL",
+      "text": "Cancel",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET",
+      "text": "Restore defaults",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
+      "text": "Saved and applied to the current session.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
+      "text": "Save failed, see the log for details.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESET_FEEDBACK",
+      "text": "Defaults restored. Click Save to apply.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RESTART_SUFFIX",
+      "text": " (restart required)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ON",
+      "text": "On",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OFF",
+      "text": "Off",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_AI",
+      "text": "AI Dialogue",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_AI",
+      "text": "Enable AI-generated dialogue",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
+      "text": "AI dialogue is still a work in progress and off by default. With it off, built-in lines cover the whole game.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL",
+      "text": "API base URL",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
+      "text": "API key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL",
+      "text": "Model",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BASE_URL_PLACEHOLDER",
+      "text": "https://api.example.com/v1",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
+      "text": "Paste your API key",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER",
+      "text": "Model name",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
+      "text": "Mod language",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_FOLLOW",
+      "text": "Follow game",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_ZH",
+      "text": "中文",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN",
+      "text": "English",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_KO",
+      "text": "한국어",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_RU",
+      "text": "Русский",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_JA",
+      "text": "日本語",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE_VI",
+      "text": "Tiếng Việt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
+      "text": "AI conversations per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
+      "text": "Per-pair conversation cooldown (s)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
+      "text": "AI request timeout (s)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS",
+      "text": "Max tokens per generation",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
+      "text": "Key entered; takes effect as soon as you save",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
+      "text": "No key set. AI dialogue stays off and built-in lines are used.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
+      "text": "Key is filled in, but the API address or model is missing or invalid - AI dialogue will not be attempted",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_SOCIAL",
+      "text": "Social System",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
+      "text": "Observe native social events (engine input)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
+      "text": " (always on in this version)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
+      "text": "The relationship engine is built entirely on native social events, so it cannot be turned off yet.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HOTKEYS",
+      "text": "F9/F10/F11 matchmaking hotkeys",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
+      "text": "Relationship event notifications",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_MODE",
+      "text": "Relationship event presentation",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
+      "text": "Compact",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_STANDARD",
+      "text": "Standard",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_FOCUS",
+      "text": "Focus",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
+      "text": "Standard does not move the camera. Only Focus automatically moves to the event. This does not change outcomes or values.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE",
+      "text": "Pause on major events",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AUTO_PAUSE_HINT",
+      "text": "Independent setting, off by default. When enabled, major relationship events pause the game.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
+      "text": "Pending event window",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
+      "text": "When disabled, confession events happen immediately but still have presentation and notifications. Only timing changes.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
+      "text": "Pending window (cycles)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_MILESTONES",
+      "text": "Relationship milestones",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_GRIEF",
+      "text": "Grief and loss",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT",
+      "text": "Conflict and danger",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY",
+      "text": "Everyday commemorations",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_OFF",
+      "text": "Off",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_ARCHIVE",
+      "text": "Archive only",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DELIVERY_INSTANT",
+      "text": "Instant",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_TITLE",
+      "text": "An important moment is coming",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
+      "text": "{0} is preparing to tell {1} something important. {2} cycles remain.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
+      "text": "Minimum interval between affinity gains for a pair (seconds)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
+      "text": "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
+      "text": "Chronicle capacity (entries)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
+      "text": "Rolling section size of the event log. Default 5000 entries ≈ 1MB reserved (uncompressed estimate; far less after save compression). Milestones are kept in a separate section and don't count. Takes effect on next load or new colony.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
+      "text": "Dark content (tests of character)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT",
+      "text": "Enable dark content",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
+      "text": "Master switch, off by default. The dark events below only take effect once this is on - brawls, famine cannibalism, and the tests of character added later. This content involves violence and death between duplicants; leave it off if you would rather not have it, and every other social feature carries on unchanged.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DARK_GATE_CLOSED",
+      "text": "(Dark content is switched off, so the items below are inactive)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE",
+      "text": "Allow famine cannibalism",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
+      "text": "When the larder is empty and several duplicants are starving, the colony turns on itself and the dead become food. A warning and a countdown come first, and restocking during that window calls it off; one death per episode, and it stops once food recovers. This is the darkest content in the mod - it needs the master switch as well.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
+      "text": "Play breakdowns as a scene",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
+      "text": "When a duplicant's stress maxes out and they actually break down (ugly crying / screaming / vomiting / binge eating / smashing things / throwing sparks), everyone in the room stops to watch, and the relationship keeps a memory of it. For the next few cycles, the first person to talk to them, tend to them or share their table pulls them out of it - a large affinity gain for both, and a little stress for the one who went. You can also pick that person yourself with a matchmaking mark. It changes no numbers: breakdown frequency, stress and death rate are all untouched. On by default.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT",
+      "text": "Hazard duty breeds resentment",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
+      "text": "Within one trade, a duplicant who keeps getting sent somewhere dangerous (thin air, unbreathable gas, actively suffocating or burning or freezing) starts to resent the colleague who never goes down: affinity toward them can only fall, and it can end in outright rivalry. Working in an atmo suit does not count - which quietly turns \"who has a suit\" into a social question. The way out is yours: change the priorities. Old duty slides out of the rolling window, the grievance fades on its own, and it leaves behind \"they've been going down too lately\". This is the only feature in the mod resolved by you changing how you manage the colony, and it uses the game's own controls - no new UI. Two duplicants down there together counts as well: that becomes comradeship. And the same sacrifice reads differently between friends - \"they went down in my place\" raises affinity instead. It adds no stress and takes nothing away: the game already charges for bad environments. At most two grievances run at once. On by default; the Quiet drama preset force-disables it.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
+      "text": "Allow collective scapegoating",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
+      "text": "After something bad happens to the colony (a death, several breakdowns, an empty larder), everyone pins it on whoever is least liked, guilty or not: a one-off affinity drop, then a slide into being frozen out - the three who like them least stop warming up at all, others flash disgust in passing, and tablemates leave early. Both exits are your tools: in act one, pair them with a well-respected colleague and that person will speak up; in act two, anyone tending, venting or eating with them breaks it. Nothing gets stuck forever - time fades it. Needs the master switch too, and Drama intensity set to Quiet disables it outright.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS",
+      "text": "Allow rivals to brawl",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
+      "text": "Arguments between rivals can escalate into an actual fight: turn-based, and stopped short (both back off once either drops to half health) - rival brawls never kill (famine cannibalism is a separate matter, see below). Off by default; turn it on if you want the drama. A block mark bans brawling for a pair outright, and setting Drama intensity to Quiet disables it even when this is on.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.BOOST_NATIVE",
+      "text": "Boost native conversation pacing",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.COOLDOWN_MULT",
+      "text": "Native conversation cooldown multiplier",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DISTANCE_MULT",
+      "text": "Native conversation distance multiplier",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_UI",
+      "text": "Interface & Feedback",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
+      "text": "Dialogue text popups",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
+      "text": "Dialogue popup duration (s)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AFFINITY_POPUPS",
+      "text": "Affinity change popups",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_TELEMETRY",
+      "text": "Local Gameplay Data",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
+      "text": "Record anonymous social telemetry",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
+      "text": "Off by default. When enabled, the mod records event frequency, relationship distribution, mod stress effects, schedule share and performance timings on this device only. Duplicants use anonymous IDs; API keys, AI endpoints and save contents are excluded, and nothing is uploaded automatically. Export a diagnostic report from Social > Event Log while in a colony.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_BALANCE",
+      "text": "Balance",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET",
+      "text": "Drama intensity preset (applies after loading a save)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_QUIET",
+      "text": "Quiet",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DEFAULT",
+      "text": "Default",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_DRAMA",
+      "text": "Drama",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_CUSTOM",
+      "text": "Custom",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PRESET_HINT",
+      "text": "Presets adjust argument/jealousy/apology odds and costs. Quiet = fewer fights, Drama = denser conflict.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP",
+      "text": "Social stress soft cap (0 = off)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.STRAINED_THRESHOLD",
+      "text": "\"Strained\" stress threshold",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DEBUG",
+      "text": "Debug (development builds only)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
+      "text": "Technical knobs below. If you break something, use Reset to defaults.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
+      "text": "AI rewrites per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
+      "text": "Daily chat cooldown per duplicant (seconds)",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.ROUTINE_CHRONICLE_LIMIT",
+      "text": "Routine chronicle entries per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
+      "text": "Native chat feeds per pair per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "text": "Default: 3. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "locale": "zh",
+  "family": "apologybond",
+  "candidates": [
+    {
+      "candidateId": "storylet.apologybond.base.001",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那件事……是我不对。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "说开就好。吵完这架,我反而更懂你了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.002",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我把话说重了,对不起。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "彼此彼此。不打不相识,走,吃饭去。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.003",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "还在气吗?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "气消了。能吵起来,说明咱俩都当真了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.apologybond.base.004",
+      "storyletId": "ApologyBond",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "下次我先听你说完。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "下次我也少嚷两句。握手?握手。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "locale": "en",
+  "family": "fallout",
+  "candidates": [
+    {
+      "candidateId": "storylet.fallout.base.001",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Enough. Don't talk to me for a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Gladly. And don't sit next to me at meals."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.002",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Let's just cool off for a while."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. The pipes are your problem now."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.003",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I left your tools on your locker."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Fine. We'll use our own from now on."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.fallout.base.004",
+      "storyletId": "Fallout",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {},
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "So that's what you really thought of me."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "...Likewise. Let's leave it there."
+        }
+      ]
+    }
+  ]
+}
