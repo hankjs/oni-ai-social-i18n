@@ -4564,6 +4564,30 @@ msgid "模型名称"
 msgstr "Имя модели"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE"
+msgid "每周期模组新增闲聊上限（场）"
+msgstr "Разговоров от мода за цикл"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT"
+msgid "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+msgstr "Каждая сцена, созданная модом, считается один раз. Отключение снимает только общий лимит на цикл; защитные задержки для отдельных дубликантов и пар в секундах продолжают действовать."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE"
+msgid "每周期 ONI 原生闲聊上限（完整会话）"
+msgstr "Обычных разговоров ONI за цикл"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT"
+msgid "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
+msgstr "Один завершённый разговор считается один раз, а не по репликам или облачкам. По умолчанию выключено; когда выключено, мод не ограничивает обычные разговоры и облачка ONI."
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS"
 msgid "关系大事通知"
@@ -4826,6 +4850,18 @@ msgstr "По умолчанию выкл. Если включить, на это
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
 msgid "显示模组台词文字（不影响 ONI 原生气泡）"
 msgstr "Показывать текст реплик мода (не влияет на штатные облачка ONI)"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS"
+msgid "限制模组新增闲聊总量"
+msgstr "Ограничивать разговоры, добавленные модом"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS"
+msgid "限制 ONI 原生闲聊总量"
+msgstr "Ограничивать обычные разговоры ONI"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

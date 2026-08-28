@@ -6985,6 +6985,38 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Mod-added conversations per cycle",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Each Mod-authored scene counts once. Turning this off removes only the per-cycle total; per-duplicant and per-pair safety cooldowns still apply.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "ONI native conversations per cycle",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Each complete conversation counts once, not each utterance or bubble. Off by default; when off, the Mod does not limit ONI native conversations or bubbles.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
       "text": "Relationship event notifications",
       "resolvedLocale": "en",
@@ -7339,6 +7371,22 @@
       "requiredSlots": [],
       "richText": false,
       "contractRevision": 2
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Limit Mod-added chatter",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Limit ONI native chatter",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

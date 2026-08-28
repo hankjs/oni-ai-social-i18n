@@ -613,6 +613,42 @@
       "text": "既定は2回。ONI本体の会話吹き出しは常に通常どおり表示されます。上限は、そのペアで繰り返されるModの関係フィードバックと後続ストーリーだけを次のサイクルまで止めます。",
       "contractRevision": 2,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "ONI本体の会話を制限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "サイクルごとのONI本体の会話数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "完了した会話1回を1件として数え、発言や吹き出し単位では数えません。既定はオフです。オフの場合、このModはONI本体の会話や吹き出しを制限しません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Mod追加会話を制限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "サイクルごとのMod追加会話数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Modが作成した会話シーン1回を1件として数えます。オフにしてもサイクル合計上限だけが解除され、複製人ごと・ペアごとの秒単位の安全クールダウンは引き続き適用されます。",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

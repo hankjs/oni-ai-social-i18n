@@ -613,6 +613,42 @@
       "text": "Mặc định 2 lần. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường; trần này chỉ dừng phản hồi quan hệ và câu chuyện tiếp nối bị lặp lại của Mod cho cặp đó đến chu kỳ sau.",
       "contractRevision": 2,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Giới hạn trò chuyện gốc của ONI",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "Cuộc trò chuyện gốc ONI mỗi chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Mỗi cuộc trò chuyện hoàn chỉnh chỉ tính một lần, không tính theo từng câu hay bong bóng thoại. Mặc định tắt; khi tắt, bản mod không giới hạn cuộc trò chuyện hoặc bong bóng thoại gốc của ONI.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Giới hạn trò chuyện do mod thêm",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Cuộc trò chuyện do mod thêm mỗi chu kỳ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Mỗi cảnh hội thoại do mod tạo được tính một lần. Tắt mục này chỉ bỏ giới hạn tổng theo chu kỳ; thời gian chờ an toàn theo từng bản sao và từng cặp, tính bằng giây, vẫn áp dụng.",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

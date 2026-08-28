@@ -4564,6 +4564,30 @@ msgid "模型名称"
 msgstr "Model name"
 
 #. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE"
+msgid "每周期模组新增闲聊上限（场）"
+msgstr "Mod-added conversations per cycle"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT"
+msgid "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+msgstr "Each Mod-authored scene counts once. Turning this off removes only the per-cycle total; per-duplicant and per-pair safety cooldowns still apply."
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE"
+msgid "每周期 ONI 原生闲聊上限（完整会话）"
+msgstr "ONI native conversations per cycle"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT"
+msgid "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
+msgstr "Each complete conversation counts once, not each utterance or bubble. Off by default; when off, the Mod does not limit ONI native conversations or bubbles."
+
+#. resolved-locale: en
 #. STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS"
 msgid "关系大事通知"
@@ -4826,6 +4850,18 @@ msgstr "Off by default. When enabled, the mod records event frequency, relations
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
 msgid "显示模组台词文字（不影响 ONI 原生气泡）"
 msgstr "Show Mod dialogue text (ONI native bubbles are unaffected)"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS"
+msgid "限制模组新增闲聊总量"
+msgstr "Limit Mod-added chatter"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS"
+msgid "限制 ONI 原生闲聊总量"
+msgstr "Limit ONI native chatter"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

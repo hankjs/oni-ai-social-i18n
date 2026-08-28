@@ -9,7 +9,7 @@
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -795,6 +795,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "en",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "en",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "en",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "en",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "en",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "en",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "en",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "en",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "en",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "en",
@@ -839,6 +843,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "en",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "en",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "en",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "en",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "en",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "en",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "en",
           "STRINGS.SOCIAL.TAB.TITLE": "en",
@@ -1067,19 +1073,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:0d4a7114348b67d67f267a07e54809fc70ad630cf7d642aff1e114a244ce6261",
+        "ui": "sha256:7ad5527fa5cd04044e7292492d41c9cf8734bb62e1012c5b339313936613bb62",
         "prompts": "sha256:4ac0143ba376524756fb2be95de44bc9209d2e5ecdc2cd161022669f34c58772",
         "dialogue": "sha256:c03a1feb27c15452c9e554c0254745f2649b6048f2d814120adab879e0d72d29",
         "chronicle": "sha256:ef63bc85718f5f84e43454451d7060c79ad688499d786eec216a96f0ce91d465"
       },
-      "snapshotHash": "sha256:6beb8dd76ed5d2502b1dfa7c18fcf1a25e9b9b16186c83c30aca6df4409c15be"
+      "snapshotHash": "sha256:a134140af3048a4e89201f504db185b7a5bb8cbfd344984a5ec4a1fac376e3c5"
     },
     {
       "id": "ja",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -1865,6 +1871,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "ja",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "ja",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "ja",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "ja",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "ja",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "ja",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "ja",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "ja",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "ja",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "ja",
@@ -1909,6 +1919,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "ja",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "ja",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "ja",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "ja",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "ja",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "ja",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "ja",
           "STRINGS.SOCIAL.TAB.TITLE": "ja",
@@ -2137,19 +2149,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:b07ba2e059989ea5365607603658690c22d0d9e67fb5757a3dca9b07c07b0ae0",
+        "ui": "sha256:9d7320712373a9449ac2b09dacffbe9fcdfa92794741a76640bcd50fcad43500",
         "prompts": "sha256:298ed487175f70e2fae20bfb72719379f3d56de86ab83644799ce3d08d40f43a",
         "dialogue": "sha256:ae048cd70b5536cb767c59829d4cf71d50bf8c36abc2d38f5936ee607f5c45ba",
         "chronicle": "sha256:60b8bbc4cb3fec9c886ca4c3c731322493d2eb3debfb948a7a38555cf78e26c9"
       },
-      "snapshotHash": "sha256:c38a8d7ca484de2289539215c17ccc42e0994058a01a27a4e1716bb33b6c9be8"
+      "snapshotHash": "sha256:d50f94c4428c8bc2d43b5b282cc34efccb25df54289604920fd582758628aef1"
     },
     {
       "id": "ko",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -2935,6 +2947,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "ko",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "ko",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "ko",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "ko",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "ko",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "ko",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "ko",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "ko",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "ko",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "ko",
@@ -2979,6 +2995,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "ko",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "ko",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "ko",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "ko",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "ko",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "ko",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "ko",
           "STRINGS.SOCIAL.TAB.TITLE": "ko",
@@ -3207,19 +3225,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:047238d02ff6aad3b4640548834511046b7eb1670831ffce52e933768abda4bd",
+        "ui": "sha256:2c2923ee2c48f4a655884a70c45a506a34471a284802dfb691cc357fbb432590",
         "prompts": "sha256:feab091bf1e5436f08f67ab930b8401f22420e0e1a1f78030df7734aead4f0ba",
         "dialogue": "sha256:0fd1d1ab983820cc56916e30ace16e741356e2d705263b74c8d72288156220ba",
         "chronicle": "sha256:8946b754cdf9b42074ae1f0f0ffe7c85d623d0947b3392c6b88652af35f08d99"
       },
-      "snapshotHash": "sha256:69c5dc361f66933a3c585afbc16b074d1bcd2d920a1e99b53af4ab2c98db0f95"
+      "snapshotHash": "sha256:0943c8036c737f572097380c52931c67d016a11e2f64a92b04d4df27af6af4b6"
     },
     {
       "id": "ru",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -4005,6 +4023,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "ru",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "ru",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "ru",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "ru",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "ru",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "ru",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "ru",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "ru",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "ru",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "ru",
@@ -4049,6 +4071,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "ru",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "ru",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "ru",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "ru",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "ru",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "ru",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "ru",
           "STRINGS.SOCIAL.TAB.TITLE": "ru",
@@ -4277,19 +4301,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:e107ed60e5c9998aa2bc3910c13f3343fd79504a26331ba1b41a2caa22a35489",
+        "ui": "sha256:2164302c905362265d2a2bd315843ee2ffee5036ded5d3da623bc2ecb1515b13",
         "prompts": "sha256:71846aff38bf7f68978ad262c7c48082ce5caffd98cca3e9bf93acadb067f40d",
         "dialogue": "sha256:18742cd698e024189714b5c4c5e4e925792f1b1122282cf79f21796826c5e09e",
         "chronicle": "sha256:ddd8b9dddedb23d96f04db6a23c966a0e30fe79755e3182ee779f4a224c38a85"
       },
-      "snapshotHash": "sha256:a58fa25fb102c95b7d2e11751448a427e9b358cbc67ab453379d3f6cf18b1683"
+      "snapshotHash": "sha256:51088e7fd42c4b4132a7095cbe6e01121e1b247ed7608c33a379820843f78b41"
     },
     {
       "id": "vi",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -5075,6 +5099,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "vi",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "vi",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "vi",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "vi",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "vi",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "vi",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "vi",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "vi",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "vi",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "vi",
@@ -5119,6 +5147,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "vi",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "vi",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "vi",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "vi",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "vi",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "vi",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "vi",
           "STRINGS.SOCIAL.TAB.TITLE": "vi",
@@ -5347,19 +5377,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:bc9502a515efc38c162106a296c17e7087645cb49ab7d68ee42419099b5085f2",
+        "ui": "sha256:1da26a9f2fa23369fcae334bfd67099f1b885351d989b41e3275decb1aa82448",
         "prompts": "sha256:96adb73b4b480ffec504d929e3efa166448e5f8bd81bccfd1de823ed50173f32",
         "dialogue": "sha256:2ec23bea01f0039e2375c4bca5edb1441bdc8607afacf02990d766e92f484e5a",
         "chronicle": "sha256:9d206c0fd2cdd1acfb61434f3f22ed543d3a1fe4aacb1606ebd9901b4d339362"
       },
-      "snapshotHash": "sha256:8260cdde7c82869e271db2eae0fbf29ef8bb74498ae33fb9a06ca750698c89bd"
+      "snapshotHash": "sha256:4ccb9a8b61a030036618f1cf4ce1c6ca58857ac0ed931701bdc0a360f10bc043"
     },
     {
       "id": "zh",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 808,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -6145,6 +6175,10 @@
           "STRINGS.SOCIAL.SETTINGS.MAX_TOKENS": "zh",
           "STRINGS.SOCIAL.SETTINGS.MODEL": "zh",
           "STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER": "zh",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE": "zh",
+          "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT": "zh",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE": "zh",
+          "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT": "zh",
           "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS": "zh",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_CONFLICT": "zh",
           "STRINGS.SOCIAL.SETTINGS.NOTIFY_EVERYDAY": "zh",
@@ -6189,6 +6223,8 @@
           "STRINGS.SOCIAL.SETTINGS.STRESS_SOFT_CAP": "zh",
           "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT": "zh",
           "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS": "zh",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS": "zh",
+          "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS": "zh",
           "STRINGS.SOCIAL.SETTINGS.TIMEOUT": "zh",
           "STRINGS.SOCIAL.SETTINGS.TITLE": "zh",
           "STRINGS.SOCIAL.TAB.TITLE": "zh",
@@ -6417,13 +6453,13 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:8be5cbf4785cb04d748bceb5dd997b0dbee218d71729afc72fe775629e14878b",
+        "ui": "sha256:2cf297aeb98bfd1a4b6a6630dc2ade26d33edbf2729e5329a8f2748279f63604",
         "prompts": "sha256:efb5c79fe57244d73f804662307f0046df09082d4985c14da4f040eb86a7a2ca",
         "dialogue": "sha256:46af205a4df8b244b745d9a663ed382a0e9b04ec4275ba8e0625599d48ba0ad8",
         "chronicle": "sha256:ec6c88c4728649f29af5e90d026a92be794f2b5046ce15c946f664bc25571f4b"
       },
-      "snapshotHash": "sha256:71b1931cc9e6b6401a640da684a35c41ae74cd19fb2cef5a79b61f4dacccf6df"
+      "snapshotHash": "sha256:fe62d73fe25ada973469f9f18aa0da3f9554795ac5e0f1721e383a941fb9f9ed"
     }
   ],
-  "snapshotHash": "sha256:28a4130b1643dcd4e42a56b735f5943d09757ce5390cdfd74e4a372a4ddff1b9"
+  "snapshotHash": "sha256:9ddd8fb3f80128488f83ce66c1503f292dae670a65ca810c03f180572d83a41e"
 }

@@ -6986,6 +6986,38 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Cuộc trò chuyện do mod thêm mỗi chu kỳ",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Mỗi cảnh hội thoại do mod tạo được tính một lần. Tắt mục này chỉ bỏ giới hạn tổng theo chu kỳ; thời gian chờ an toàn theo từng bản sao và từng cặp, tính bằng giây, vẫn áp dụng.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "Cuộc trò chuyện gốc ONI mỗi chu kỳ",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Mỗi cuộc trò chuyện hoàn chỉnh chỉ tính một lần, không tính theo từng câu hay bong bóng thoại. Mặc định tắt; khi tắt, bản mod không giới hạn cuộc trò chuyện hoặc bong bóng thoại gốc của ONI.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
       "text": "Thông báo đại sự quan hệ",
       "resolvedLocale": "vi",
@@ -7340,6 +7372,22 @@
       "requiredSlots": [],
       "richText": false,
       "contractRevision": 2
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Giới hạn trò chuyện do mod thêm",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Giới hạn trò chuyện gốc của ONI",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

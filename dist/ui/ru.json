@@ -6986,6 +6986,38 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Разговоров от мода за цикл",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Каждая сцена, созданная модом, считается один раз. Отключение снимает только общий лимит на цикл; защитные задержки для отдельных дубликантов и пар в секундах продолжают действовать.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "Обычных разговоров ONI за цикл",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Один завершённый разговор считается один раз, а не по репликам или облачкам. По умолчанию выключено; когда выключено, мод не ограничивает обычные разговоры и облачка ONI.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
       "text": "Уведомления о крупных событиях отношений",
       "resolvedLocale": "ru",
@@ -7340,6 +7372,22 @@
       "requiredSlots": [],
       "richText": false,
       "contractRevision": 2
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Ограничивать разговоры, добавленные модом",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Ограничивать обычные разговоры ONI",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

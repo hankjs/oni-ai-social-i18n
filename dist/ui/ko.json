@@ -6986,6 +6986,38 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 모드 추가 대화 수",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "모드가 만든 대화 장면 한 번을 1회로 계산합니다. 끄면 주기당 총량 제한만 없어지며, 복제인별·쌍별 초 단위 안전 대기시간은 계속 적용됩니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 ONI 기본 대화 수",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "완료된 대화 한 번을 1회로 계산하며, 발화나 말풍선별로 세지 않습니다. 기본값은 꺼짐이며, 끄면 이 모드는 ONI 기본 대화나 말풍선을 제한하지 않습니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
       "text": "관계 큰일 알림",
       "resolvedLocale": "ko",
@@ -7340,6 +7372,22 @@
       "requiredSlots": [],
       "richText": false,
       "contractRevision": 2
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "모드 추가 대화 제한",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "ONI 기본 대화 제한",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

@@ -613,6 +613,42 @@
       "text": "Default: 2. ONI's native dialogue bubbles always appear as usual; the cap only stops repeated Mod relationship feedback and follow-up stories for that pair until the next cycle.",
       "contractRevision": 2,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Limit ONI native chatter",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "ONI native conversations per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Each complete conversation counts once, not each utterance or bubble. Off by default; when off, the Mod does not limit ONI native conversations or bubbles.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Limit Mod-added chatter",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Mod-added conversations per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Each Mod-authored scene counts once. Turning this off removes only the per-cycle total; per-duplicant and per-pair safety cooldowns still apply.",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

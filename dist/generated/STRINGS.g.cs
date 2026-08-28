@@ -866,6 +866,10 @@ namespace ONIAiSocial
                 public static LocString MAX_TOKENS = "单次生成上限（token）";
                 public static LocString MODEL = "模型";
                 public static LocString MODEL_PLACEHOLDER = "模型名称";
+                public static LocString MOD_CONVERSATIONS_PER_CYCLE = "每周期模组新增闲聊上限（场）";
+                public static LocString MOD_CONVERSATION_THROTTLE_HINT = "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。";
+                public static LocString NATIVE_CONVERSATIONS_PER_CYCLE = "每周期 ONI 原生闲聊上限（完整会话）";
+                public static LocString NATIVE_CONVERSATION_THROTTLE_HINT = "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。";
                 public static LocString NOTIFICATIONS = "关系大事通知";
                 public static LocString NOTIFY_CONFLICT = "冲突与危险通知";
                 public static LocString NOTIFY_EVERYDAY = "日常纪念通知";
@@ -910,6 +914,8 @@ namespace ONIAiSocial
                 public static LocString STRESS_SOFT_CAP = "社交压力软上限（0 = 关闭）";
                 public static LocString TELEMETRY_HINT = "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告";
                 public static LocString TEXT_POPUPS = "显示模组台词文字（不影响 ONI 原生气泡）";
+                public static LocString THROTTLE_MOD_CONVERSATIONS = "限制模组新增闲聊总量";
+                public static LocString THROTTLE_NATIVE_CONVERSATIONS = "限制 ONI 原生闲聊总量";
                 public static LocString TIMEOUT = "AI 请求超时（秒）";
                 public static LocString TITLE = "社交生活 · 设置";
             }

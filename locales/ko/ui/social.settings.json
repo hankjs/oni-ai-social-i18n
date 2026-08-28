@@ -613,6 +613,42 @@
       "text": "기본 2회입니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 상한은 이 쌍의 반복되는 모드 관계 피드백과 후속 이야기만 다음 사이클까지 멈춥니다.",
       "contractRevision": 2,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "ONI 기본 대화 제한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 ONI 기본 대화 수",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "완료된 대화 한 번을 1회로 계산하며, 발화나 말풍선별로 세지 않습니다. 기본값은 꺼짐이며, 끄면 이 모드는 ONI 기본 대화나 말풍선을 제한하지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "모드 추가 대화 제한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 모드 추가 대화 수",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "모드가 만든 대화 장면 한 번을 1회로 계산합니다. 끄면 주기당 총량 제한만 없어지며, 복제인별·쌍별 초 단위 안전 대기시간은 계속 적용됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

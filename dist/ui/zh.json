@@ -6985,6 +6985,38 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "每周期模组新增闲聊上限（场）",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "每周期 ONI 原生闲聊上限（完整会话）",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS",
       "text": "关系大事通知",
       "resolvedLocale": "zh",
@@ -7339,6 +7371,22 @@
       "requiredSlots": [],
       "richText": false,
       "contractRevision": 2
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "限制模组新增闲聊总量",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "限制 ONI 原生闲聊总量",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",
