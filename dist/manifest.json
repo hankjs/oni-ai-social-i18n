@@ -9,7 +9,7 @@
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -632,13 +632,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "en",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "en",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "en",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "en",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "en",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "en",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "en",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "en",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "en",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "en",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "en",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "en",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "en",
@@ -716,6 +722,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "en",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "en",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "en",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "en",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "en",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "en",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "en",
@@ -1065,19 +1073,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:78bf6e03a6b6a0993ab3481b553380ab33a253fdebd5dca1d898bbabf791e0a1",
+        "ui": "sha256:5ba01d61c7a4f01bbbdbe4175a989b7436c45727fad58acc52dbe8692db618f7",
         "prompts": "sha256:4ac0143ba376524756fb2be95de44bc9209d2e5ecdc2cd161022669f34c58772",
         "dialogue": "sha256:c03a1feb27c15452c9e554c0254745f2649b6048f2d814120adab879e0d72d29",
         "chronicle": "sha256:ef63bc85718f5f84e43454451d7060c79ad688499d786eec216a96f0ce91d465"
       },
-      "snapshotHash": "sha256:ed7b07dab5e40cebd2e2114b5f4408fedbc4d15c924ea9056b3544320483a993"
+      "snapshotHash": "sha256:782f2b3f46bcabf45da50af430b9b7b7eb20aaf97b6dcfe67b1c5ded25951861"
     },
     {
       "id": "ja",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -1700,13 +1708,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "ja",
@@ -1784,6 +1798,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "ja",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "ja",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "ja",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "ja",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "ja",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "ja",
@@ -2133,19 +2149,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:18afcc86ba1a8d8429ceba46918f73bec4cae764b5e8118e915ce5833ca7c9f4",
+        "ui": "sha256:9ca2b2c9850ced997e0dfc73ec673108cb571c05a994fc1721bc150d472d4582",
         "prompts": "sha256:298ed487175f70e2fae20bfb72719379f3d56de86ab83644799ce3d08d40f43a",
         "dialogue": "sha256:ae048cd70b5536cb767c59829d4cf71d50bf8c36abc2d38f5936ee607f5c45ba",
         "chronicle": "sha256:60b8bbc4cb3fec9c886ca4c3c731322493d2eb3debfb948a7a38555cf78e26c9"
       },
-      "snapshotHash": "sha256:b302dd48706c2aaeb8e042e9c6f003e5e8eaf0708a4de5183068ae609250556f"
+      "snapshotHash": "sha256:74e87013bce022f434a3c6af34e69bbe5b658d28e0c596fa5086ff0a7ce62178"
     },
     {
       "id": "ko",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -2768,13 +2784,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "ko",
@@ -2852,6 +2874,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "ko",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "ko",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "ko",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "ko",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "ko",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "ko",
@@ -3201,19 +3225,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:9f212d22cb9614adcf5ad94f6c8f4192504628a576f9067fff776dec46194542",
+        "ui": "sha256:c4bbf852c5fa46bfecd3547722dcfbd16fe64412df05ecb2fe0806ba65815d2e",
         "prompts": "sha256:feab091bf1e5436f08f67ab930b8401f22420e0e1a1f78030df7734aead4f0ba",
         "dialogue": "sha256:0fd1d1ab983820cc56916e30ace16e741356e2d705263b74c8d72288156220ba",
         "chronicle": "sha256:8946b754cdf9b42074ae1f0f0ffe7c85d623d0947b3392c6b88652af35f08d99"
       },
-      "snapshotHash": "sha256:0c6de64d131892b55fc17a34539fceb58a580aa40ef5444338aa01df358b4c7d"
+      "snapshotHash": "sha256:f59211b1f1922e3b2c5e144c862417bc0f013786165a4b58962fb9578630d6d4"
     },
     {
       "id": "ru",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -3836,13 +3860,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "ru",
@@ -3920,6 +3950,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "ru",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "ru",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "ru",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "ru",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "ru",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "ru",
@@ -4269,19 +4301,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:433e3b154a3eaef87b3b4d36e404d0638e894a8e77fac21173ba6d13d8e3841b",
+        "ui": "sha256:014bc6bf024ab5173011f416ac9027997f0d6a094391f99d1b951f4a064cd12d",
         "prompts": "sha256:71846aff38bf7f68978ad262c7c48082ce5caffd98cca3e9bf93acadb067f40d",
         "dialogue": "sha256:18742cd698e024189714b5c4c5e4e925792f1b1122282cf79f21796826c5e09e",
         "chronicle": "sha256:ddd8b9dddedb23d96f04db6a23c966a0e30fe79755e3182ee779f4a224c38a85"
       },
-      "snapshotHash": "sha256:9796e3efb63d4fcf868b5bac000c2692026b8f0909671c95d7d1e9fd59260fff"
+      "snapshotHash": "sha256:4709580e33297355ff280a6a7f5ebd37137a533b8592e1fa1c6b405e22640223"
     },
     {
       "id": "vi",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -4904,13 +4936,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "vi",
@@ -4988,6 +5026,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "vi",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "vi",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "vi",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "vi",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "vi",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "vi",
@@ -5337,19 +5377,19 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:4b5dd8daa018c6f97f7bf016d4f6b7be0ba360681ec4869f09a6aba85806ce9c",
+        "ui": "sha256:5e51567d76ffa0a590f594a67e378aabd94f5af2829cdc80a7dcb85db7f6b557",
         "prompts": "sha256:96adb73b4b480ffec504d929e3efa166448e5f8bd81bccfd1de823ed50173f32",
         "dialogue": "sha256:2ec23bea01f0039e2375c4bca5edb1441bdc8607afacf02990d766e92f484e5a",
         "chronicle": "sha256:9d206c0fd2cdd1acfb61434f3f22ed543d3a1fe4aacb1606ebd9901b4d339362"
       },
-      "snapshotHash": "sha256:ccc602bfd0d29fd2e4274db3921a737df2000d2e8d2e3331fdf82ba490f76cdf"
+      "snapshotHash": "sha256:cb45c74998972b74fabcdf910c8eb6d602b6dfb5f2ce1d7a0ab77884fc5c3e12"
     },
     {
       "id": "zh",
       "status": "stable",
       "coverage": {
         "ui": {
-          "exact": 806,
+          "exact": 814,
           "base": 0,
           "fallback": 0,
           "unavailable": 0
@@ -5972,13 +6012,19 @@
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_SET": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_UNLIMITED": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_WORST_PICKER": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.CLEAR_BUTTON": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.COMPLETED": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_EMPTY": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_CONFLICT": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.FILTER_FRIENDLY": "zh",
@@ -6056,6 +6102,8 @@
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORTED": "zh",
           "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON": "zh",
+          "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED": "zh",
           "STRINGS.SOCIAL.SCENE.BREAKUP_KEY": "zh",
           "STRINGS.SOCIAL.SCENE.BREAKUP_REPLY": "zh",
           "STRINGS.SOCIAL.SCENE.CHAT_KEY": "zh",
@@ -6405,13 +6453,13 @@
         }
       },
       "familyHashes": {
-        "ui": "sha256:fb7803be40144cb66c47c6e7611236171799c7ed56583d4af1f0de59cf95ffcf",
+        "ui": "sha256:ee71be37ece284c703894f7a061ba80072df4b2c01e50079034f0abeb71e0ae8",
         "prompts": "sha256:efb5c79fe57244d73f804662307f0046df09082d4985c14da4f040eb86a7a2ca",
         "dialogue": "sha256:46af205a4df8b244b745d9a663ed382a0e9b04ec4275ba8e0625599d48ba0ad8",
         "chronicle": "sha256:ec6c88c4728649f29af5e90d026a92be794f2b5046ce15c946f664bc25571f4b"
       },
-      "snapshotHash": "sha256:d53a4760fba7177e235637245683e169d3724391137d27a1d5c2a2e58c02d8b0"
+      "snapshotHash": "sha256:a19f03cda9c06dc4f8b051329ffb0354686519a2706318854b10d45d8f00f980"
     }
   ],
-  "snapshotHash": "sha256:3542c851025884172936b2b5bc2a9db211bcdb9682cd3320c70b8eaf683f978e"
+  "snapshotHash": "sha256:50100813d4ca56e8494751e849286edea04a0f445bf20244e75e8423a163f695"
 }

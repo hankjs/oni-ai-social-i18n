@@ -310,7 +310,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
+      "text": "{0}'s temperament changed from {1} to {2}.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -772,19 +772,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "Administrator matchmaking",
+      "text": "Matchmaking mark added",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Administrator separation",
+      "text": "Block mark added",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "Administrator cleared mark",
+      "text": "Mark cleared",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -892,7 +892,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
+      "text": "Block mark: prevents this pair from triggering mod social events and AI chats; it does not force a breakup or erase an existing relationship",
       "contractRevision": 1,
       "status": "reviewed"
     },

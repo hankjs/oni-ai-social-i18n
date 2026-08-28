@@ -852,20 +852,20 @@ msgstr "Jealousy"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "Administrator separation"
+msgid "已屏蔽"
+msgstr "Block mark added"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "Administrator cleared mark"
+msgid "已清除标记"
+msgstr "Mark cleared"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "Administrator matchmaking"
+msgid "已牵线"
+msgstr "Matchmaking mark added"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "athletic"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "Under the Administrator's guidance, {0}'s {1} temperament became {2}."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0}'s temperament changed from {1} to {2}."
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "Hazard duty: {0} {1} · {2} {3} - same trade, same stretch of days, only
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "Block mark: prevents this pair from triggering mod social events and AI chats"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "Block mark: prevents this pair from triggering mod social events and AI chats; it does not force a breakup or erase an existing relationship"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,7 +3528,7 @@ msgstr "Back"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
+msgid "屏蔽"
 msgstr "Block"
 
 #. resolved-locale: en
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "Choose worst relationship"
 
 #. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "Cancel"
+
+#. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "Clear marks"
 
 #. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "This will clear {1} marks involving {0}."
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "Clear all marks?"
+
+#. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "Close"
 
 #. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "Collapse relationships"
+
+#. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[Done] {0}"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "Confirm"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "No events recorded yet"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "Colony Chronicle"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "Expand relationships"
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,7 +3786,7 @@ msgstr "Picked {0}; select another duplicant and press the same hotkey again"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
 msgstr "Blocked: {0} × {1}"
 
 #. resolved-locale: en
@@ -3780,7 +3816,7 @@ msgstr "Social"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
 msgstr "Review colony relationships and manage matchmaking or block marks"
 
 #. resolved-locale: en
@@ -3810,7 +3846,7 @@ msgstr "Relationship overview"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
 msgstr "Colony: {0} ({1})\nLiving duplicants: {2}\nRelationships: {3}\nMatches: {4} · Blocks: {5}"
 
 #. resolved-locale: en
@@ -3888,8 +3924,8 @@ msgstr "Pending social events"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats. It does not force a breakup or erase an existing relationship."
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,7 +3948,7 @@ msgstr "{0} · Choose the second duplicant"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
 msgstr "Choose a duplicant to clear all matchmaking and block marks involving them."
 
 #. resolved-locale: en
@@ -4088,6 +4124,18 @@ msgstr "Diagnostic report exported: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "Could not export diagnostic report: {0}"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "Undo"
+
+#. resolved-locale: en
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "Undid the previous mark change."
 
 #. resolved-locale: en
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,7 +4332,7 @@ msgstr "Allow rivals to brawl"
 #. resolved-locale: en
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
 msgstr "Arguments between rivals can escalate into an actual fight: turn-based, and stopped short (both back off once either drops to half health) - rival brawls never kill (famine cannibalism is a separate matter, see below). Off by default; turn it on if you want the drama. A block mark bans brawling for a pair outright, and setting Drama intensity to Quiet disables it even when this is on."
 
 #. resolved-locale: en

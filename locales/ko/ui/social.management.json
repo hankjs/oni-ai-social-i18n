@@ -10,7 +10,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "식민지 관계를 보고 중매와 이간 표시를 관리합니다",
+      "text": "식민지 관계를 보고 중매와 차단 표시를 관리합니다",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "이간",
+      "text": "차단",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -250,13 +250,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "첫 번째 복제인간을 고르세요. 이간은 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다.",
+      "text": "첫 번째 복제인간을 고르세요. 차단하면 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다.",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "복제인간 한 명을 골라, 그와 관련된 모든 중매와 이간 표시를 지웁니다.",
+      "text": "복제인간 한 명을 골라, 그와 관련된 모든 중매와 차단 표시를 지웁니다.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -322,7 +322,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 이간: {5}",
+      "text": "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 차단: {5}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "이간: {0} × {1}",
+      "text": "차단됨: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -542,6 +542,14 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"기록은 사이클 {0}부터 시작됩니다","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"일부 이야기 장을 원본 사건 사실에서 복구했습니다.","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"삶의 각 장을 대표하는 경험을 골라 보여 주며, 완전한 기록은 아닙니다. 목격했거나 휘말린 중요한 사건도 포함됩니다.","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[휘말림]","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[휘말림]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"모든 표시를 지울까요?","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"{0}와 관련된 표시 {1}개를 지웁니다.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"확인","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"취소","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"관계 펼치기","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"관계 접기","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"실행 취소","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"이전 표시 작업을 취소했습니다.","contractRevision":1,"status":"reviewed"}
   ]
 }

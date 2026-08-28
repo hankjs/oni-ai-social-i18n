@@ -852,20 +852,20 @@ msgstr "질투"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "관리자 이간"
+msgid "已屏蔽"
+msgstr "차단 표시 추가"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "관리자 표시 해제"
+msgid "已清除标记"
+msgstr "표시 해제"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "관리자 중매"
+msgid "已牵线"
+msgstr "중매 표시 추가"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "활동적"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "「관리자」의 안내에 따라, {0}의 {1}성격이 {2}성격으로 바뀌었습니다."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0}의 성격이 {1}에서 {2}로 바뀌었습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "위험 근무: {0} {1} · {2} {3}——같은 직무, 같은 기간에 �
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "이간 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "차단 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,8 +3528,8 @@ msgstr "돌아가기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "이간"
+msgid "屏蔽"
+msgstr "차단"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "가장 나쁜 관계 고르기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "취소"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "표시 지우기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "{0}와 관련된 표시 {1}개를 지웁니다."
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "모든 표시를 지울까요?"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "닫기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "관계 접기"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[완료] {0}"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "확인"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "아직 이벤트 기록이 없습니다"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "식민지 연대기"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "관계 펼치기"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,8 +3786,8 @@ msgstr "{0}을 골랐습니다. 다른 복제인간을 고른 뒤 같은 단축�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "이간: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "차단됨: {0} × {1}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3780,8 +3816,8 @@ msgstr "사교"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "식민지 관계를 보고 중매와 이간 표시를 관리합니다"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "식민지 관계를 보고 중매와 차단 표시를 관리합니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3810,8 +3846,8 @@ msgstr "관계 총람"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 이간: {5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 차단: {5}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3888,8 +3924,8 @@ msgstr "대기 중인 사교 이벤트"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "첫 번째 복제인간을 고르세요. 이간은 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "첫 번째 복제인간을 고르세요. 차단하면 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,8 +3948,8 @@ msgstr "{0} · 두 번째 사람 고르기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "복제인간 한 명을 골라, 그와 관련된 모든 중매와 이간 표시를 지웁니다."
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "복제인간 한 명을 골라, 그와 관련된 모든 중매와 차단 표시를 지웁니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -4088,6 +4124,18 @@ msgstr "진단 보고서를 내보냈습니다: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "진단 보고서 내보내기에 실패했습니다: {0}"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "실행 취소"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "이전 표시 작업을 취소했습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,8 +4332,8 @@ msgstr "숙적 주먹다짐 허용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 이간 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 차단 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA

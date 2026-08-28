@@ -310,7 +310,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "「管理者」の導きにより、{0} の {1}性格 が {2}性格 になりました。",
+      "text": "{0} の性格が {1} から {2} に変わりました。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -772,19 +772,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理者の取り持ち",
+      "text": "取り持ちマーク追加",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理者の引き離し",
+      "text": "ブロックマーク追加",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理者がマークを解除",
+      "text": "マーク解除",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -892,7 +892,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "引き離しマーク：この複製人間のペアが本Modの社交イベントとAI会話を起こすのを防ぎます",
+      "text": "ブロックマーク：このペアが本Modの社交イベントとAI会話を起こすのを防ぎますが、強制的に別れさせたり既存の関係を削除したりはしません",
       "contractRevision": 1,
       "status": "reviewed"
     },

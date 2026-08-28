@@ -1224,7 +1224,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "разлучение администратора",
+      "text": "метка блокировки",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -1232,7 +1232,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "администратор снял метку",
+      "text": "метка снята",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -1240,7 +1240,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "сводничество администратора",
+      "text": "метка сводничества",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -1496,7 +1496,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "По указанию «администратора» характер {0} сменился с «{1}» на «{2}».",
+      "text": "Характер {0} сменился с «{1}» на «{2}».",
       "resolvedLocale": "ru",
       "requiredSlots": [
         "0",
@@ -1959,7 +1959,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Метка разлучения: эта пара дубликантов не запускает события общения мода и ИИ-диалог",
+      "text": "Метка блокировки: эта пара не запускает события общения мода и ИИ-диалог; она не разрывает и не удаляет существующие отношения",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5489,7 +5489,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Разлучение",
+      "text": "Блокировка",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5577,6 +5577,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "Отмена",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[готово] Снято меток у {0}: {1}",
       "resolvedLocale": "ru",
@@ -5596,8 +5604,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "Число меток для снятия у {0}: {1}.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "Снять все метки?",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "Закрыть",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "Свернуть отношения",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5610,6 +5645,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "Подтвердить",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5632,6 +5675,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "хроника колонии",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "Развернуть отношения",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5818,7 +5869,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Разлучение: {0} × {1}",
+      "text": "Заблокированы: {0} × {1}",
       "resolvedLocale": "ru",
       "requiredSlots": [
         "0",
@@ -5867,7 +5918,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "Смотреть отношения колонии и ставить метки сводничества и разлучения",
+      "text": "Смотреть отношения колонии и ставить метки сводничества и блокировки",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -5907,7 +5958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · разлучение: {5}",
+      "text": "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · блокировка: {5}",
       "resolvedLocale": "ru",
       "requiredSlots": [
         "0",
@@ -6033,7 +6084,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Выберите первого дубликанта. Разлучение не даст этой паре запускать события общения мода и ИИ-диалог.",
+      "text": "Выберите первого дубликанта. Блокировка не даст этой паре запускать события общения мода и ИИ-диалог, но не приведёт к принудительному разрыву и не удалит существующие отношения.",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -6067,7 +6118,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и разлучения.",
+      "text": "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и блокировки.",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -6351,6 +6402,22 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "Отменить",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "Предыдущее изменение меток отменено.",
+      "resolvedLocale": "ru",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
       "text": "Давай на этом и остановимся.",
       "resolvedLocale": "ru",
@@ -6608,7 +6675,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка разлучения полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится",
+      "text": "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка блокировки полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,

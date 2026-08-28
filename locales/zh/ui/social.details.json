@@ -310,7 +310,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。",
+      "text": "{0} 的性格从「{1}」变为了「{2}」。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -772,19 +772,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理员牵线",
+      "text": "已牵线",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理员拆散",
+      "text": "已屏蔽",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理员取消标记",
+      "text": "已清除标记",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -892,7 +892,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话",
+      "text": "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系",
       "contractRevision": 1,
       "status": "reviewed"
     },

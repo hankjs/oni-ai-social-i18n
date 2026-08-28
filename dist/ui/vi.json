@@ -1224,7 +1224,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Quản trị viên tách rời",
+      "text": "Đã thêm đánh dấu chặn",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -1232,7 +1232,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "Quản trị viên gỡ đánh dấu",
+      "text": "Đã gỡ đánh dấu",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -1240,7 +1240,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "Quản trị viên se duyên",
+      "text": "Đã thêm đánh dấu se duyên",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -1496,7 +1496,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "Được «quản trị viên» dẫn dắt, {0} từ tính cách {1} đã thành tính cách {2}.",
+      "text": "Tính cách của {0} đã đổi từ {1} sang {2}.",
       "resolvedLocale": "vi",
       "requiredSlots": [
         "0",
@@ -1959,7 +1959,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Đánh dấu tách rời: chặn cặp người nhân bản này kích sự kiện xã hội và hội thoại AI của Mod",
+      "text": "Đánh dấu chặn: ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod; không ép chia tay hay xóa quan hệ hiện có",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5489,7 +5489,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Tách rời",
+      "text": "Chặn",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5577,6 +5577,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "Hủy",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[Hoàn tất] đã xóa đánh dấu của {0}: {1} cái",
       "resolvedLocale": "vi",
@@ -5596,8 +5604,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "Sẽ xóa {1} đánh dấu liên quan đến {0}.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "Xóa tất cả đánh dấu?",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "Đóng",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "Thu gọn quan hệ",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5610,6 +5645,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "Xác nhận",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5632,6 +5675,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "Biên niên thuộc địa",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "Mở rộng quan hệ",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5818,7 +5869,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Tách rời: {0} × {1}",
+      "text": "Đã chặn: {0} × {1}",
       "resolvedLocale": "vi",
       "requiredSlots": [
         "0",
@@ -5867,7 +5918,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng tách rời",
+      "text": "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng chặn tương tác",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -5907,7 +5958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Tách rời: {5}",
+      "text": "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Chặn: {5}",
       "resolvedLocale": "vi",
       "requiredSlots": [
         "0",
@@ -6033,7 +6084,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Chọn người nhân bản thứ nhất. Tách rời sẽ chặn cặp này kích sự kiện xã hội và hội thoại AI của Mod.",
+      "text": "Chọn người nhân bản thứ nhất. Chặn sẽ ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod, nhưng không ép chia tay hay xóa quan hệ hiện có.",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -6067,7 +6118,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và tách rời liên quan.",
+      "text": "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và chặn liên quan.",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -6351,6 +6402,22 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "Hoàn tác",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "Đã hoàn tác thao tác đánh dấu trước đó.",
+      "resolvedLocale": "vi",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
       "text": "Mình dừng ở đây thôi.",
       "resolvedLocale": "vi",
@@ -6608,7 +6675,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "Cãi vã giữa thù địch có tỷ lệ nâng thành đánh thật: đánh nhau theo lượt, dừng khi vừa đủ (một bên xuống nửa máu thì cả hai thu tay), thù địch đánh nhau không đánh chết (tương tàn vì hết lương là chuyện khác, xem dưới). Mặc định tắt — muốn xem kịch thì tự bật. Đánh dấu tách rời cấm hẳn một cặp đánh nhau; «cường độ kịch» đặt «Yên lặng» thì dù bật cũng không kích",
+      "text": "Cãi vã giữa thù địch có tỷ lệ nâng thành đánh thật: đánh nhau theo lượt, dừng khi vừa đủ (một bên xuống nửa máu thì cả hai thu tay), thù địch đánh nhau không đánh chết (tương tàn vì hết lương là chuyện khác, xem dưới). Mặc định tắt — muốn xem kịch thì tự bật. Đánh dấu chặn cấm hẳn một cặp đánh nhau; «cường độ kịch» đặt «Yên lặng» thì dù bật cũng không kích",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,

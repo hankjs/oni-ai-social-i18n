@@ -310,7 +310,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "По указанию «администратора» характер {0} сменился с «{1}» на «{2}».",
+      "text": "Характер {0} сменился с «{1}» на «{2}».",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -772,19 +772,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "сводничество администратора",
+      "text": "метка сводничества",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "разлучение администратора",
+      "text": "метка блокировки",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "администратор снял метку",
+      "text": "метка снята",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -892,7 +892,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Метка разлучения: эта пара дубликантов не запускает события общения мода и ИИ-диалог",
+      "text": "Метка блокировки: эта пара не запускает события общения мода и ИИ-диалог; она не разрывает и не удаляет существующие отношения",
       "contractRevision": 1,
       "status": "reviewed"
     },

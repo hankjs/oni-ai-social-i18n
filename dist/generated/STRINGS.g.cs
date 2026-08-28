@@ -171,9 +171,9 @@ namespace ONIAiSocial
                     public static LocString HAZARD_GRATITUDE = "他替我下去了";
                     public static LocString HAZARD_RESENTED = "为什么总是我下去";
                     public static LocString JEALOUSY = "吃醋";
-                    public static LocString MARK_BLOCK = "管理员拆散";
-                    public static LocString MARK_CLEAR = "管理员取消标记";
-                    public static LocString MARK_MATCH = "管理员牵线";
+                    public static LocString MARK_BLOCK = "已屏蔽";
+                    public static LocString MARK_CLEAR = "已清除标记";
+                    public static LocString MARK_MATCH = "已牵线";
                     public static LocString PARTNER_DIED = "失去伴侣";
                     public static LocString PARTY = "参加聚会";
                     public static LocString RECONCILE = "和解";
@@ -210,7 +210,7 @@ namespace ONIAiSocial
                     public static LocString ATHLETE = "好动";
                     public class CAUSE
                     {
-                        public static LocString ADMIN = "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。";
+                        public static LocString ADMIN = "{0} 的性格从「{1}」变为了「{2}」。";
                         public static LocString UPHEAVAL = "{0} 性格大变，{1}性格 变成了 {2}性格。";
                     }
                     public static LocString CRYBABY = "爱哭";
@@ -274,7 +274,7 @@ namespace ONIAiSocial
                     public static LocString AWKWARD_UNTIL = "；尴尬持续至周期 {0}";
                     public static LocString CHEMISTRY_LINE = "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2}）";
                     public static LocString HAZARD_LEDGER = "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只有一个人下去（已经 {4} 个周期）";
-                    public static LocString MARK_BLOCK = "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话";
+                    public static LocString MARK_BLOCK = "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系";
                     public static LocString MARK_MATCH = "牵线标记：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍";
                     public static LocString MEMORY_LINE = "\n周期 {0}：";
                     public static LocString RECENT_EVENTS = "\n最近事件：";
@@ -687,7 +687,7 @@ namespace ONIAiSocial
             {
                 public static LocString ACTION_UNAVAILABLE = "操作失败：社交系统尚未就绪";
                 public static LocString BACK_BUTTON = "返回";
-                public static LocString BLOCK_BUTTON = "拆散";
+                public static LocString BLOCK_BUTTON = "屏蔽";
                 public static LocString BOUNDS_BEST_PICKER = "选择最好关系";
                 public static LocString BOUNDS_BUTTON = "界限";
                 public static LocString BOUNDS_INVALID = "设置失败:最差关系不能好过最好关系";
@@ -697,13 +697,19 @@ namespace ONIAiSocial
                 public static LocString BOUNDS_SET = "界限: {0} × {1} → 最好 {2} · 最差 {3}";
                 public static LocString BOUNDS_UNLIMITED = "不限";
                 public static LocString BOUNDS_WORST_PICKER = "选择最差关系";
+                public static LocString CANCEL_BUTTON = "取消";
                 public static LocString CLEARED_MARKS = "[完成] 已清除 {0} 的 {1} 个标记";
                 public static LocString CLEAR_BUTTON = "清除标记";
+                public static LocString CLEAR_MARKS_CONFIRM_BODY = "将清除与 {0} 有关的 {1} 个标记。";
+                public static LocString CLEAR_MARKS_CONFIRM_TITLE = "清除所有标记？";
                 public static LocString CLOSE_BUTTON = "关闭";
+                public static LocString COLLAPSE_RELATIONSHIPS = "收起关系";
                 public static LocString COMPLETED = "[完成] {0}";
+                public static LocString CONFIRM_BUTTON = "确认";
                 public static LocString EVENT_LOG_BUTTON = "纪事";
                 public static LocString EVENT_LOG_EMPTY = "暂无事件记录";
                 public static LocString EVENT_LOG_TITLE = "殖民地纪事";
+                public static LocString EXPAND_RELATIONSHIPS = "展开关系";
                 public static LocString FILTER_ALL = "全部";
                 public static LocString FILTER_CONFLICT = "冲突";
                 public static LocString FILTER_FRIENDLY = "友好";
@@ -724,17 +730,17 @@ namespace ONIAiSocial
                 public static LocString MARK_CANCEL_HINT = "已取消选择 {0}";
                 public static LocString MARK_CLEARED_FEEDBACK = "已清除 {0} 的 {1} 个标记";
                 public static LocString MARK_PICK_HINT = "已选 {0}，选中另一名复制人后再按一次同一热键";
-                public static LocString MARK_SET_BLOCK = "拆散: {0} × {1}";
+                public static LocString MARK_SET_BLOCK = "已屏蔽：{0} × {1}";
                 public static LocString MARK_SET_CLEARED = "取消标记: {0} × {1}";
                 public static LocString MARK_SET_MATCH = "牵线: {0} × {1}";
                 public static LocString MATCH_BUTTON = "牵线";
                 public static LocString MENU_TITLE = "社交";
-                public static LocString MENU_TOOLTIP = "查看殖民地关系并管理牵线和拆散标记";
+                public static LocString MENU_TOOLTIP = "查看殖民地关系并管理牵线和屏蔽标记";
                 public static LocString NEXT_PAGE = "下一页";
                 public static LocString NO_DUPLICANTS = "没有可选的复制人。";
                 public static LocString NO_FILTER_RESULTS = "没有符合筛选条件的关系";
                 public static LocString OVERVIEW_BUTTON = "关系总览";
-                public static LocString OVERVIEW_SUMMARY = "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}";
+                public static LocString OVERVIEW_SUMMARY = "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}";
                 public static LocString OVERVIEW_TITLE = "殖民地关系";
                 public static LocString PAGE_LABEL = "第 {0}/{1} 页";
                 public static LocString PENDING_ACTION_ROW = "{0}　[{1}]";
@@ -747,11 +753,11 @@ namespace ONIAiSocial
                 public static LocString PENDING_REQUESTED_ROW = "【{0}】{1} → {2} · 正在等待安全会合";
                 public static LocString PENDING_ROW = "【{0}】{1} → {2} · 还剩 {3} 周期";
                 public static LocString PENDING_TITLE = "待发生的社交事件";
-                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。";
+                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。";
                 public static LocString PICKER_BOUNDS_MESSAGE = "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。";
                 public static LocString PICKER_BOUNDS_TITLE = "界限";
                 public static LocString PICKER_CHOOSE_SECOND = "{0} · 选择第二人";
-                public static LocString PICKER_CLEAR_MESSAGE = "选择一名复制人，清除所有与其有关的牵线和拆散标记。";
+                public static LocString PICKER_CLEAR_MESSAGE = "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。";
                 public static LocString PICKER_FILTER_MESSAGE = "选一名复制人,日志只显示他参与的事件——他的一段人生。";
                 public static LocString PICKER_FILTER_TITLE = "查看谁的故事?";
                 public static LocString PICKER_MATCH_MESSAGE = "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。";
@@ -781,6 +787,8 @@ namespace ONIAiSocial
                 public static LocString TELEMETRY_EXPORT = "导出诊断报告";
                 public static LocString TELEMETRY_EXPORTED = "诊断报告已导出：{0}";
                 public static LocString TELEMETRY_EXPORT_FAILED = "诊断报告导出失败：{0}";
+                public static LocString UNDO_BUTTON = "撤销";
+                public static LocString UNDO_COMPLETED = "已撤销上一项标记操作";
             }
             public class SCENE
             {
@@ -819,7 +827,7 @@ namespace ONIAiSocial
                 public static LocString BASE_URL_PLACEHOLDER = "https://api.example.com/v1";
                 public static LocString BOOST_NATIVE = "调快原生对话节奏";
                 public static LocString BRAWLS = "允许宿敌互殴";
-                public static LocString BRAWLS_HINT = "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发";
+                public static LocString BRAWLS_HINT = "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发";
                 public static LocString BREAKDOWN_DRAMA = "把崩溃演成一场戏";
                 public static LocString BREAKDOWN_DRAMA_HINT = "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启";
                 public static LocString BUTTON = "设置";
