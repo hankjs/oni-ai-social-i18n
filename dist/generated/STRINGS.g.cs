@@ -812,7 +812,7 @@ namespace ONIAiSocial
             {
                 public static LocString AFFINITY_POPUPS = "好感增减飘字";
                 public static LocString AI_WIP_HINT = "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整";
-                public static LocString AMBIENT_CHAT_COOLDOWN = "同一复制人的日常闲聊冷却（秒）";
+                public static LocString AMBIENT_CHAT_COOLDOWN = "模组新增闲聊：同一复制人的冷却（秒）";
                 public static LocString API_ENDPOINT_MISSING = "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起";
                 public static LocString API_KEY = "API Key";
                 public static LocString API_KEY_MISSING = "未填写 Key，AI 对话不会发起，仅使用内置台词";
@@ -830,10 +830,10 @@ namespace ONIAiSocial
                 public static LocString BUTTON = "设置";
                 public static LocString BUTTON_TOOLTIP = "打开「复制人社交生活」的设置面板";
                 public static LocString CANCEL = "取消";
-                public static LocString CHAT_FEED_COOLDOWN = "同一对复制人的好感进账间隔（秒）";
-                public static LocString CHAT_FEED_COOLDOWN_HINT = "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。";
-                public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天进账上限（次）";
-                public static LocString CHAT_FEED_LIMIT_HINT = "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。";
+                public static LocString CHAT_FEED_COOLDOWN = "原生聊天进入模组关系反馈的冷却（秒）";
+                public static LocString CHAT_FEED_COOLDOWN_HINT = "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。";
+                public static LocString CHAT_FEED_LIMIT = "每对每周期原生聊天触发模组关系反馈的上限（次）";
+                public static LocString CHAT_FEED_LIMIT_HINT = "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。";
                 public static LocString COLLECTIVE_WRATH = "允许集体迁怒";
                 public static LocString COLLECTIVE_WRATH_HINT = "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭";
                 public static LocString COOLDOWN_MULT = "原生对话冷却倍率";
@@ -860,11 +860,9 @@ namespace ONIAiSocial
                 public static LocString LANGUAGE_RU = "Русский";
                 public static LocString LANGUAGE_VI = "Tiếng Việt";
                 public static LocString LANGUAGE_ZH = "中文";
-                public static LocString LOCKED_SUFFIX = "（本版本固定开启）";
                 public static LocString LOG_CAPACITY = "纪事容量（条）";
                 public static LocString LOG_CAPACITY_HINT = "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效";
                 public static LocString MAX_AI_REWRITES_PER_CYCLE = "每周期 AI 润色上限";
-                public static LocString MAX_CONVERSATIONS = "每周期 AI 对话上限";
                 public static LocString MAX_TOKENS = "单次生成上限（token）";
                 public static LocString MODEL = "模型";
                 public static LocString MODEL_PLACEHOLDER = "模型名称";
@@ -873,17 +871,16 @@ namespace ONIAiSocial
                 public static LocString NOTIFY_EVERYDAY = "日常纪念通知";
                 public static LocString NOTIFY_GRIEF = "悲伤与失去通知";
                 public static LocString NOTIFY_MILESTONES = "关系里程碑通知";
-                public static LocString OBSERVE_NATIVE = "观察原生社交事件（关系引擎输入）";
-                public static LocString OBSERVE_NATIVE_HINT = "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭";
+                public static LocString OBSERVE_NATIVE_HINT = "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。";
                 public static LocString OFF = "关";
                 public static LocString ON = "开";
-                public static LocString PAIR_COOLDOWN = "同一对复制人的对话冷却（秒）";
+                public static LocString PAIR_COOLDOWN = "模组新增闲聊：同一对复制人的冷却（秒）";
                 public static LocString PENDING_BODY = "{0} 准备向 {1} 说一件重要的事，还剩 {2} 周期。";
                 public static LocString PENDING_CYCLES = "待发生等待周期";
                 public static LocString PENDING_TITLE = "一件重要的事即将发生";
                 public static LocString PENDING_WINDOW = "待发生窗口";
                 public static LocString PENDING_WINDOW_HINT = "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。";
-                public static LocString POPUP_SECONDS = "台词停留秒数";
+                public static LocString POPUP_SECONDS = "模组台词文字停留秒数（不影响 ONI 原生气泡）";
                 public static LocString PRESENTATION_COMPACT = "简洁";
                 public static LocString PRESENTATION_FOCUS = "聚焦";
                 public static LocString PRESENTATION_HINT = "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。";
@@ -912,7 +909,7 @@ namespace ONIAiSocial
                 public static LocString STRAINED_THRESHOLD = "「情绪紧绷」阈值";
                 public static LocString STRESS_SOFT_CAP = "社交压力软上限（0 = 关闭）";
                 public static LocString TELEMETRY_HINT = "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告";
-                public static LocString TEXT_POPUPS = "对话台词浮动文字";
+                public static LocString TEXT_POPUPS = "显示模组台词文字（不影响 ONI 原生气泡）";
                 public static LocString TIMEOUT = "AI 请求超时（秒）";
                 public static LocString TITLE = "社交生活 · 设置";
             }

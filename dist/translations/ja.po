@@ -4242,8 +4242,8 @@ msgstr "AI台詞はまだ作り込みが足りないため、既定ではオフ�
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "同一複製人間の日常雑談クールダウン（秒）"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "Modが追加する雑談：複製人ごとのクールダウン（秒）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4350,26 +4350,26 @@ msgstr "キャンセル"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "同一ペアの複製人間の好感度加算間隔（秒）"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "ONI本体の会話をModの関係フィードバックへ反映する間隔（秒）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "本体チャットを好感度とMod台詞に変換する、ペアごとの最短間隔。既定は15秒。さらにペアごと・サイクルあたりの加算上限があり、間隔を短くしてもサイクル上限は超えません。"
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "同じペアから繰り返されるModの関係フィードバックと後続ストーリーだけを制限します。ONI本体の会話吹き出しは常に通常どおり表示されます。既定は15秒で、ペアごと・サイクルあたりの上限も適用されます。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "ペアごと・サイクルあたりの本体チャット加算上限（回）"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "ONI本体の会話によるMod関係フィードバックのペア別サイクル上限（回）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "既定は2回。上限に達したあと、そのペアの今サイクルの以降の本体発言はゲーム本来の表現を残すが、Mod台詞・好感度・社交イベントは重ねて発火しない。次のサイクルでリセットされる。"
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "既定は2回。ONI本体の会話吹き出しは常に通常どおり表示されます。上限は、そのペアで繰り返されるModの関係フィードバックと後続ストーリーだけを次のサイクルまで止めます。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4528,12 +4528,6 @@ msgid "中文"
 msgstr "中国語"
 
 #. resolved-locale: ja
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "（このバージョンでは常時オン）"
-
-#. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4550,12 +4544,6 @@ msgstr "イベントログのスクロール領域の件数上限。既定の500
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE"
 msgid "每周期 AI 润色上限"
 msgstr "サイクルあたりのAI推敲上限"
-
-#. resolved-locale: ja
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "サイクルあたりのAI会話上限"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
@@ -4606,16 +4594,10 @@ msgid "关系里程碑通知"
 msgstr "関係マイルストーンの通知"
 
 #. resolved-locale: ja
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "本体の社交イベントを観察する（関係エンジンの入力）"
-
-#. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "関係エンジンは現在、本体の社交イベントのうえに完全に乗っており、オフにはできません"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "ONI本体の会話吹き出しは常に通常どおり表示されます。Modは成功した本体の社交イベントだけを観察し、関係への反映は別途重複を除きます。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4632,8 +4614,8 @@ msgstr "オン"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "同一ペアの複製人間の会話クールダウン（秒）"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "Modが追加する雑談：同じペアのクールダウン（秒）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4668,8 +4650,8 @@ msgstr "オフにすると告白などのイベントはすぐに起きますが
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "台詞の表示秒数"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "Mod台詞の表示時間（秒。ONI本体の吹き出しには影響しない）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4842,8 +4824,8 @@ msgstr "既定はオフ。オンにすると、このマシン上でのみイベ
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "会話台詞のフロート文字"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "Mod台詞のフロート文字（ONI本体の吹き出しには影響しない）"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

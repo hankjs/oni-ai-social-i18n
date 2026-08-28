@@ -6555,11 +6555,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "Перезарядка повседневной болтовни одного дубликанта (сек.)",
+      "text": "Перезарядка добавленной модом болтовни одного дубликанта (сек.)",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6699,35 +6699,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "Интервал прироста симпатии у одной пары дубликантов (сек.)",
+      "text": "Пауза между откликами отношений мода на разговоры ONI (сек.)",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Кратчайший интервал, с которым штатный разговор даёт симпатию и реплики мода. По умолчанию 15 сек.; отдельно действует потолок за цикл на пару, укоротить интервал этот потолок не пробьёт.",
+      "text": "Ограничивает только повторный отклик отношений и последующие истории мода для одной пары. Штатные облачка реплик ONI всегда отображаются как обычно. По умолчанию 15 сек.; также действует потолок за цикл на пару.",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "Потолок штатных разговоров пары за цикл (раз)",
+      "text": "Потолок откликов отношений мода на разговоры ONI для пары за цикл",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "По умолчанию 2. После потолка штатные реплики этой пары в цикле остаются как в игре, но больше не запускают реплики мода, симпатию и события общения; со следующего цикла счётчик сбрасывается.",
+      "text": "По умолчанию 2. Штатные облачка реплик ONI всегда отображаются как обычно; потолок лишь останавливает повторный отклик отношений и последующие истории мода для этой пары до следующего цикла.",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6938,14 +6938,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "(в этой версии всегда вкл.)",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "Ёмкость хроники (записей)",
       "resolvedLocale": "ru",
@@ -6964,14 +6956,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "Потолок правок ИИ за цикл",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "Потолок ИИ-диалога за цикл",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
@@ -7042,20 +7026,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "Следить за штатными событиями общения (вход движка отношений)",
-      "resolvedLocale": "ru",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "Движок отношений сейчас целиком стоит на штатных событиях общения, выключить нельзя",
+      "text": "Штатные облачка реплик ONI всегда отображаются как обычно. Мод лишь отслеживает успешно произошедшие штатные события общения, а повторный отклик отношений отсекается отдельно.",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7075,11 +7051,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "Перезарядка разговора одной пары дубликантов (сек.)",
+      "text": "Перезарядка добавленной модом болтовни одной пары (сек.)",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7127,11 +7103,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "Секунд на экране у реплики",
+      "text": "Время показа текста реплик мода (сек.; не влияет на облачка ONI)",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7359,11 +7335,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "Всплывающий текст реплик",
+      "text": "Показывать текст реплик мода (не влияет на штатные облачка ONI)",
       "resolvedLocale": "ru",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

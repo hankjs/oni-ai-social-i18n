@@ -6554,11 +6554,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "同一复制人的日常闲聊冷却（秒）",
+      "text": "模组新增闲聊：同一复制人的冷却（秒）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6698,35 +6698,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "同一对复制人的好感进账间隔（秒）",
+      "text": "原生聊天进入模组关系反馈的冷却（秒）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。",
+      "text": "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "每对每周期原生聊天进账上限（次）",
+      "text": "每对每周期原生聊天触发模组关系反馈的上限（次）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。",
+      "text": "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6937,14 +6937,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "（本版本固定开启）",
-      "resolvedLocale": "zh",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "纪事容量（条）",
       "resolvedLocale": "zh",
@@ -6963,14 +6955,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "每周期 AI 润色上限",
-      "resolvedLocale": "zh",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "每周期 AI 对话上限",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -7041,20 +7025,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "观察原生社交事件（关系引擎输入）",
-      "resolvedLocale": "zh",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭",
+      "text": "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7074,11 +7050,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "同一对复制人的对话冷却（秒）",
+      "text": "模组新增闲聊：同一对复制人的冷却（秒）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7126,11 +7102,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "台词停留秒数",
+      "text": "模组台词文字停留秒数（不影响 ONI 原生气泡）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7358,11 +7334,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "对话台词浮动文字",
+      "text": "显示模组台词文字（不影响 ONI 原生气泡）",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

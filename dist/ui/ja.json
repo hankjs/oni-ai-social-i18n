@@ -6555,11 +6555,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "同一複製人間の日常雑談クールダウン（秒）",
+      "text": "Modが追加する雑談：複製人ごとのクールダウン（秒）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6699,35 +6699,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "同一ペアの複製人間の好感度加算間隔（秒）",
+      "text": "ONI本体の会話をModの関係フィードバックへ反映する間隔（秒）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "本体チャットを好感度とMod台詞に変換する、ペアごとの最短間隔。既定は15秒。さらにペアごと・サイクルあたりの加算上限があり、間隔を短くしてもサイクル上限は超えません。",
+      "text": "同じペアから繰り返されるModの関係フィードバックと後続ストーリーだけを制限します。ONI本体の会話吹き出しは常に通常どおり表示されます。既定は15秒で、ペアごと・サイクルあたりの上限も適用されます。",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "ペアごと・サイクルあたりの本体チャット加算上限（回）",
+      "text": "ONI本体の会話によるMod関係フィードバックのペア別サイクル上限（回）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "既定は2回。上限に達したあと、そのペアの今サイクルの以降の本体発言はゲーム本来の表現を残すが、Mod台詞・好感度・社交イベントは重ねて発火しない。次のサイクルでリセットされる。",
+      "text": "既定は2回。ONI本体の会話吹き出しは常に通常どおり表示されます。上限は、そのペアで繰り返されるModの関係フィードバックと後続ストーリーだけを次のサイクルまで止めます。",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6938,14 +6938,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "（このバージョンでは常時オン）",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "紀事の容量（件）",
       "resolvedLocale": "ja",
@@ -6964,14 +6956,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "サイクルあたりのAI推敲上限",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "サイクルあたりのAI会話上限",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -7042,20 +7026,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "本体の社交イベントを観察する（関係エンジンの入力）",
-      "resolvedLocale": "ja",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "関係エンジンは現在、本体の社交イベントのうえに完全に乗っており、オフにはできません",
+      "text": "ONI本体の会話吹き出しは常に通常どおり表示されます。Modは成功した本体の社交イベントだけを観察し、関係への反映は別途重複を除きます。",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7075,11 +7051,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "同一ペアの複製人間の会話クールダウン（秒）",
+      "text": "Modが追加する雑談：同じペアのクールダウン（秒）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7127,11 +7103,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "台詞の表示秒数",
+      "text": "Mod台詞の表示時間（秒。ONI本体の吹き出しには影響しない）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7359,11 +7335,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "会話台詞のフロート文字",
+      "text": "Mod台詞のフロート文字（ONI本体の吹き出しには影響しない）",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

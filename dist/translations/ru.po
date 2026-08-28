@@ -4242,8 +4242,8 @@ msgstr "Реплики ИИ ещё сырые, по умолчанию выкл.
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "Перезарядка повседневной болтовни одного дубликанта (сек.)"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "Перезарядка добавленной модом болтовни одного дубликанта (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4350,26 +4350,26 @@ msgstr "Отмена"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "Интервал прироста симпатии у одной пары дубликантов (сек.)"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "Пауза между откликами отношений мода на разговоры ONI (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "Кратчайший интервал, с которым штатный разговор даёт симпатию и реплики мода. По умолчанию 15 сек.; отдельно действует потолок за цикл на пару, укоротить интервал этот потолок не пробьёт."
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "Ограничивает только повторный отклик отношений и последующие истории мода для одной пары. Штатные облачка реплик ONI всегда отображаются как обычно. По умолчанию 15 сек.; также действует потолок за цикл на пару."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "Потолок штатных разговоров пары за цикл (раз)"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "Потолок откликов отношений мода на разговоры ONI для пары за цикл"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "По умолчанию 2. После потолка штатные реплики этой пары в цикле остаются как в игре, но больше не запускают реплики мода, симпатию и события общения; со следующего цикла счётчик сбрасывается."
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "По умолчанию 2. Штатные облачка реплик ONI всегда отображаются как обычно; потолок лишь останавливает повторный отклик отношений и последующие истории мода для этой пары до следующего цикла."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4528,12 +4528,6 @@ msgid "中文"
 msgstr "китайский"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "(в этой версии всегда вкл.)"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4550,12 +4544,6 @@ msgstr "Потолок строк в прокрутке журнала собы�
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE"
 msgid "每周期 AI 润色上限"
 msgstr "Потолок правок ИИ за цикл"
-
-#. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "Потолок ИИ-диалога за цикл"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
@@ -4606,16 +4594,10 @@ msgid "关系里程碑通知"
 msgstr "Уведомления о вехах отношений"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "Следить за штатными событиями общения (вход движка отношений)"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "Движок отношений сейчас целиком стоит на штатных событиях общения, выключить нельзя"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "Штатные облачка реплик ONI всегда отображаются как обычно. Мод лишь отслеживает успешно произошедшие штатные события общения, а повторный отклик отношений отсекается отдельно."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4632,8 +4614,8 @@ msgstr "Вкл."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "Перезарядка разговора одной пары дубликантов (сек.)"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "Перезарядка добавленной модом болтовни одной пары (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4668,8 +4650,8 @@ msgstr "Если выключить, признание и подобные со
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "Секунд на экране у реплики"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "Время показа текста реплик мода (сек.; не влияет на облачка ONI)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4842,8 +4824,8 @@ msgstr "По умолчанию выкл. Если включить, на это
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "Всплывающий текст реплик"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "Показывать текст реплик мода (не влияет на штатные облачка ONI)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT
