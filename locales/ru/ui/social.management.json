@@ -10,7 +10,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "Смотреть отношения колонии и ставить метки сводничества и разлучения",
+      "text": "Смотреть отношения колонии и ставить метки сводничества и блокировки",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Разлучение",
+      "text": "Блокировка",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -250,13 +250,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Выберите первого дубликанта. Разлучение не даст этой паре запускать события общения мода и ИИ-диалог.",
+      "text": "Выберите первого дубликанта. Блокировка не даст этой паре запускать события общения мода и ИИ-диалог, но не приведёт к принудительному разрыву и не удалит существующие отношения.",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и разлучения.",
+      "text": "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и блокировки.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -322,7 +322,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · разлучение: {5}",
+      "text": "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · блокировка: {5}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Разлучение: {0} × {1}",
+      "text": "Заблокированы: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -542,6 +542,14 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"Записи начинаются с цикла {0}","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"Некоторые главы восстановлены из исходных фактов событий.","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"Избранные события, определяющие этапы жизни, а не полный журнал. Включены и важные события, увиденные со стороны или затронувшие персонажа косвенно.","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Затронут]","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Затронут]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"Снять все метки?","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"Число меток для снятия у {0}: {1}.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"Подтвердить","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"Отмена","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Развернуть отношения","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Свернуть отношения","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Отменить","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Предыдущее изменение меток отменено.","contractRevision":1,"status":"reviewed"}
   ]
 }

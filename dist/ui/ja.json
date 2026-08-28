@@ -1224,7 +1224,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理者の引き離し",
+      "text": "ブロックマーク追加",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -1232,7 +1232,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理者がマークを解除",
+      "text": "マーク解除",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -1240,7 +1240,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理者の取り持ち",
+      "text": "取り持ちマーク追加",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -1496,7 +1496,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "「管理者」の導きにより、{0} の {1}性格 が {2}性格 になりました。",
+      "text": "{0} の性格が {1} から {2} に変わりました。",
       "resolvedLocale": "ja",
       "requiredSlots": [
         "0",
@@ -1959,7 +1959,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "引き離しマーク：この複製人間のペアが本Modの社交イベントとAI会話を起こすのを防ぎます",
+      "text": "ブロックマーク：このペアが本Modの社交イベントとAI会話を起こすのを防ぎますが、強制的に別れさせたり既存の関係を削除したりはしません",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5489,7 +5489,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "引き離し",
+      "text": "ブロック",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5577,6 +5577,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "キャンセル",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[完了] {0} のマークを {1} 個解除しました",
       "resolvedLocale": "ja",
@@ -5596,8 +5604,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "{0} に関係するマーク {1} 個を解除します。",
+      "resolvedLocale": "ja",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "すべてのマークを解除しますか？",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "閉じる",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "関係を折りたたむ",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5610,6 +5645,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "確認",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5632,6 +5675,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "コロニー紀事",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "関係を展開",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5818,7 +5869,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "引き離し: {0} × {1}",
+      "text": "ブロック済み：{0} × {1}",
       "resolvedLocale": "ja",
       "requiredSlots": [
         "0",
@@ -5867,7 +5918,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "コロニーの関係を確認し、取り持ちと引き離しのマークを管理します",
+      "text": "コロニーの関係を確認し、取り持ちとブロックのマークを管理します",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -5907,7 +5958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ 引き離し：{5}",
+      "text": "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ ブロック：{5}",
       "resolvedLocale": "ja",
       "requiredSlots": [
         "0",
@@ -6033,7 +6084,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "一人目の複製人間を選んでください。引き離しは、このペアの複製人間が本Modの社交イベントとAI会話を起こすのを防ぎます。",
+      "text": "一人目の複製人間を選んでください。ブロックすると、このペアは本Modの社交イベントとAI会話を起こさなくなりますが、強制的に別れさせたり、既存の関係を削除したりはしません。",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -6067,7 +6118,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "複製人間を一人選び、その人に関係する取り持ちと引き離しのマークをすべて解除します。",
+      "text": "複製人間を一人選び、その人に関係する取り持ちとブロックのマークをすべて解除します。",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,
@@ -6351,6 +6402,22 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "元に戻す",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "直前のマーク操作を元に戻しました",
+      "resolvedLocale": "ja",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
       "text": "ここまでにしよう。",
       "resolvedLocale": "ja",
@@ -6608,7 +6675,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。引き離しマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない",
+      "text": "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。ブロックマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない",
       "resolvedLocale": "ja",
       "requiredSlots": [],
       "richText": false,

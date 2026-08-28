@@ -852,20 +852,20 @@ msgstr "吃醋"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "管理员拆散"
+msgid "已屏蔽"
+msgstr "已屏蔽"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "管理员取消标记"
+msgid "已清除标记"
+msgstr "已清除标记"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "管理员牵线"
+msgid "已牵线"
+msgstr "已牵线"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "好动"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0} 的性格从「{1}」变为了「{2}」。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,8 +3528,8 @@ msgstr "返回"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "拆散"
+msgid "屏蔽"
+msgstr "屏蔽"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "选择最差关系"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "取消"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "清除标记"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "将清除与 {0} 有关的 {1} 个标记。"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "清除所有标记？"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "关闭"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "收起关系"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[完成] {0}"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "确认"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "暂无事件记录"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "殖民地纪事"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "展开关系"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,8 +3786,8 @@ msgstr "已选 {0}，选中另一名复制人后再按一次同一热键"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "拆散: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "已屏蔽：{0} × {1}"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3780,8 +3816,8 @@ msgstr "社交"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "查看殖民地关系并管理牵线和拆散标记"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "查看殖民地关系并管理牵线和屏蔽标记"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3810,8 +3846,8 @@ msgstr "关系总览"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3888,8 +3924,8 @@ msgstr "待发生的社交事件"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,8 +3948,8 @@ msgstr "{0} · 选择第二人"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -4088,6 +4124,18 @@ msgstr "诊断报告已导出：{0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "诊断报告导出失败：{0}"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "撤销"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "已撤销上一项标记操作"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,8 +4332,8 @@ msgstr "允许宿敌互殴"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA

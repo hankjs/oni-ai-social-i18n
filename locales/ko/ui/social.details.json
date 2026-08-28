@@ -310,7 +310,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "「관리자」의 안내에 따라, {0}의 {1}성격이 {2}성격으로 바뀌었습니다.",
+      "text": "{0}의 성격이 {1}에서 {2}로 바뀌었습니다.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -772,19 +772,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "관리자 중매",
+      "text": "중매 표시 추가",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "관리자 이간",
+      "text": "차단 표시 추가",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "관리자 표시 해제",
+      "text": "표시 해제",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -892,7 +892,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "이간 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다",
+      "text": "차단 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다",
       "contractRevision": 1,
       "status": "reviewed"
     },

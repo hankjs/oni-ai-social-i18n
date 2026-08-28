@@ -1257,6 +1257,81 @@
       "arguments": [],
       "richText": false,
       "maxLength": 80
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "meaning": "Confirmation title before clearing every relationship-director mark involving one duplicant.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 120
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "meaning": "Confirmation detail. {0}: duplicant name; {1}: number of marks that will be cleared.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {"token": "0", "name": "duplicant name", "kind": "text"},
+        {"token": "1", "name": "mark count", "kind": "number"}
+      ],
+      "richText": false,
+      "maxLength": 300
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "meaning": "Generic confirmation action in the social management screen.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "meaning": "Generic cancellation action in the social management screen.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "meaning": "Expand a duplicant's relationship rows in the overview.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 120
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "meaning": "Collapse a duplicant's relationship rows in the overview.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 120
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "meaning": "Undo the most recent relationship-director mark operation.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 100
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "meaning": "Feedback after the most recent relationship-director mark operation was undone.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 200
     }
   ]
 }

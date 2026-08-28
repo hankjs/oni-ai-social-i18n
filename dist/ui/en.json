@@ -1223,7 +1223,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Administrator separation",
+      "text": "Block mark added",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -1231,7 +1231,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "Administrator cleared mark",
+      "text": "Mark cleared",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -1239,7 +1239,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "Administrator matchmaking",
+      "text": "Matchmaking mark added",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -1495,7 +1495,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
+      "text": "{0}'s temperament changed from {1} to {2}.",
       "resolvedLocale": "en",
       "requiredSlots": [
         "0",
@@ -1958,7 +1958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
+      "text": "Block mark: prevents this pair from triggering mod social events and AI chats; it does not force a breakup or erase an existing relationship",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -5576,6 +5576,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "Cancel",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[Done] Cleared {1} marks involving {0}",
       "resolvedLocale": "en",
@@ -5595,8 +5603,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "This will clear {1} marks involving {0}.",
+      "resolvedLocale": "en",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "Clear all marks?",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "Close",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "Collapse relationships",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -5609,6 +5644,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "Confirm",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5631,6 +5674,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "Colony Chronicle",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "Expand relationships",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -6032,7 +6083,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats.",
+      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats. It does not force a breakup or erase an existing relationship.",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -6346,6 +6397,22 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "Undo",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "Undid the previous mark change.",
+      "resolvedLocale": "en",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },

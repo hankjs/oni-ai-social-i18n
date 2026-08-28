@@ -1224,7 +1224,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "관리자 이간",
+      "text": "차단 표시 추가",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -1232,7 +1232,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "관리자 표시 해제",
+      "text": "표시 해제",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -1240,7 +1240,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "관리자 중매",
+      "text": "중매 표시 추가",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -1496,7 +1496,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "「관리자」의 안내에 따라, {0}의 {1}성격이 {2}성격으로 바뀌었습니다.",
+      "text": "{0}의 성격이 {1}에서 {2}로 바뀌었습니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [
         "0",
@@ -1959,7 +1959,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "이간 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다",
+      "text": "차단 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5489,7 +5489,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "이간",
+      "text": "차단",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5577,6 +5577,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "취소",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[완료] {0}의 표시 {1}개를 지웠습니다",
       "resolvedLocale": "ko",
@@ -5596,8 +5604,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "{0}와 관련된 표시 {1}개를 지웁니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "모든 표시를 지울까요?",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "닫기",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "관계 접기",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5610,6 +5645,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "확인",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5632,6 +5675,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "식민지 연대기",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "관계 펼치기",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5818,7 +5869,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "이간: {0} × {1}",
+      "text": "차단됨: {0} × {1}",
       "resolvedLocale": "ko",
       "requiredSlots": [
         "0",
@@ -5867,7 +5918,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "식민지 관계를 보고 중매와 이간 표시를 관리합니다",
+      "text": "식민지 관계를 보고 중매와 차단 표시를 관리합니다",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -5907,7 +5958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 이간: {5}",
+      "text": "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 차단: {5}",
       "resolvedLocale": "ko",
       "requiredSlots": [
         "0",
@@ -6033,7 +6084,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "첫 번째 복제인간을 고르세요. 이간은 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다.",
+      "text": "첫 번째 복제인간을 고르세요. 차단하면 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -6067,7 +6118,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "복제인간 한 명을 골라, 그와 관련된 모든 중매와 이간 표시를 지웁니다.",
+      "text": "복제인간 한 명을 골라, 그와 관련된 모든 중매와 차단 표시를 지웁니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -6351,6 +6402,22 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "실행 취소",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "이전 표시 작업을 취소했습니다.",
+      "resolvedLocale": "ko",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
       "text": "우리는 여기까지 하자.",
       "resolvedLocale": "ko",
@@ -6608,7 +6675,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 이간 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다",
+      "text": "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 차단 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,

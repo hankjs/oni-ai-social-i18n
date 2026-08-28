@@ -1223,7 +1223,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理员拆散",
+      "text": "已屏蔽",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -1231,7 +1231,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理员取消标记",
+      "text": "已清除标记",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -1239,7 +1239,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理员牵线",
+      "text": "已牵线",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -1495,7 +1495,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。",
+      "text": "{0} 的性格从「{1}」变为了「{2}」。",
       "resolvedLocale": "zh",
       "requiredSlots": [
         "0",
@@ -1958,7 +1958,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话",
+      "text": "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -5488,7 +5488,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "拆散",
+      "text": "屏蔽",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -5576,6 +5576,14 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON",
+      "text": "取消",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS",
       "text": "[完成] 已清除 {0} 的 {1} 个标记",
       "resolvedLocale": "zh",
@@ -5595,8 +5603,35 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY",
+      "text": "将清除与 {0} 有关的 {1} 个标记。",
+      "resolvedLocale": "zh",
+      "requiredSlots": [
+        "0",
+        "1"
+      ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE",
+      "text": "清除所有标记？",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON",
       "text": "关闭",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS",
+      "text": "收起关系",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -5609,6 +5644,14 @@
       "requiredSlots": [
         "0"
       ],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON",
+      "text": "确认",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
       "richText": false,
       "contractRevision": 1
     },
@@ -5631,6 +5674,14 @@
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE",
       "text": "殖民地纪事",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS",
+      "text": "展开关系",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -5817,7 +5868,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "拆散: {0} × {1}",
+      "text": "已屏蔽：{0} × {1}",
       "resolvedLocale": "zh",
       "requiredSlots": [
         "0",
@@ -5866,7 +5917,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "查看殖民地关系并管理牵线和拆散标记",
+      "text": "查看殖民地关系并管理牵线和屏蔽标记",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -5906,7 +5957,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}",
+      "text": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}",
       "resolvedLocale": "zh",
       "requiredSlots": [
         "0",
@@ -6032,7 +6083,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。",
+      "text": "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -6066,7 +6117,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "选择一名复制人，清除所有与其有关的牵线和拆散标记。",
+      "text": "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,
@@ -6350,6 +6401,22 @@
       "contractRevision": 1
     },
     {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON",
+      "text": "撤销",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED",
+      "text": "已撤销上一项标记操作",
+      "resolvedLocale": "zh",
+      "requiredSlots": [],
+      "richText": false,
+      "contractRevision": 1
+    },
+    {
       "key": "STRINGS.SOCIAL.SCENE.BREAKUP_KEY",
       "text": "我们还是到这里吧。",
       "resolvedLocale": "zh",
@@ -6607,7 +6674,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发",
+      "text": "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发",
       "resolvedLocale": "zh",
       "requiredSlots": [],
       "richText": false,

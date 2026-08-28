@@ -852,20 +852,20 @@ msgstr "Ghen"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "Quản trị viên tách rời"
+msgid "已屏蔽"
+msgstr "Đã thêm đánh dấu chặn"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "Quản trị viên gỡ đánh dấu"
+msgid "已清除标记"
+msgstr "Đã gỡ đánh dấu"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "Quản trị viên se duyên"
+msgid "已牵线"
+msgstr "Đã thêm đánh dấu se duyên"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "Năng động"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "Được «quản trị viên» dẫn dắt, {0} từ tính cách {1} đã thành tính cách {2}."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "Tính cách của {0} đã đổi từ {1} sang {2}."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "Giờ làm nguy hiểm: {0} {1} · {2} {3}——cùng nghề, cùng nh�
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "Đánh dấu tách rời: chặn cặp người nhân bản này kích sự kiện xã hội và hội thoại AI của Mod"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "Đánh dấu chặn: ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod; không ép chia tay hay xóa quan hệ hiện có"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,8 +3528,8 @@ msgstr "Quay lại"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "Tách rời"
+msgid "屏蔽"
+msgstr "Chặn"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "Chọn quan hệ xấu nhất"
 
 #. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "Hủy"
+
+#. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "Gỡ đánh dấu"
 
 #. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "Sẽ xóa {1} đánh dấu liên quan đến {0}."
+
+#. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "Xóa tất cả đánh dấu?"
+
+#. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "Đóng"
 
 #. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "Thu gọn quan hệ"
+
+#. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[Hoàn tất] {0}"
+
+#. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "Xác nhận"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "Chưa có ghi sự kiện"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "Biên niên thuộc địa"
+
+#. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "Mở rộng quan hệ"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,8 +3786,8 @@ msgstr "Đã chọn {0}, chọn người nhân bản khác rồi bấm lại cù
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "Tách rời: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "Đã chặn: {0} × {1}"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3780,8 +3816,8 @@ msgstr "Xã hội"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng tách rời"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng chặn tương tác"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3810,8 +3846,8 @@ msgstr "Tổng quan quan hệ"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Tách rời: {5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Chặn: {5}"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3888,8 +3924,8 @@ msgstr "Sự kiện xã hội chờ xảy ra"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "Chọn người nhân bản thứ nhất. Tách rời sẽ chặn cặp này kích sự kiện xã hội và hội thoại AI của Mod."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "Chọn người nhân bản thứ nhất. Chặn sẽ ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod, nhưng không ép chia tay hay xóa quan hệ hiện có."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,8 +3948,8 @@ msgstr "{0} · chọn người thứ hai"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và tách rời liên quan."
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và chặn liên quan."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -4088,6 +4124,18 @@ msgstr "Báo cáo chẩn đoán đã xuất: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "Xuất báo cáo chẩn đoán thất bại: {0}"
+
+#. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "Hoàn tác"
+
+#. resolved-locale: vi
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "Đã hoàn tác thao tác đánh dấu trước đó."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,8 +4332,8 @@ msgstr "Cho phép thù địch đánh nhau"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "Cãi vã giữa thù địch có tỷ lệ nâng thành đánh thật: đánh nhau theo lượt, dừng khi vừa đủ (một bên xuống nửa máu thì cả hai thu tay), thù địch đánh nhau không đánh chết (tương tàn vì hết lương là chuyện khác, xem dưới). Mặc định tắt — muốn xem kịch thì tự bật. Đánh dấu tách rời cấm hẳn một cặp đánh nhau; «cường độ kịch» đặt «Yên lặng» thì dù bật cũng không kích"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "Cãi vã giữa thù địch có tỷ lệ nâng thành đánh thật: đánh nhau theo lượt, dừng khi vừa đủ (một bên xuống nửa máu thì cả hai thu tay), thù địch đánh nhau không đánh chết (tương tàn vì hết lương là chuyện khác, xem dưới). Mặc định tắt — muốn xem kịch thì tự bật. Đánh dấu chặn cấm hẳn một cặp đánh nhau; «cường độ kịch» đặt «Yên lặng» thì dù bật cũng không kích"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA

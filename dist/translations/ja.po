@@ -852,20 +852,20 @@ msgstr "嫉妬"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "管理者の引き離し"
+msgid "已屏蔽"
+msgstr "ブロックマーク追加"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "管理者がマークを解除"
+msgid "已清除标记"
+msgstr "マーク解除"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "管理者の取り持ち"
+msgid "已牵线"
+msgstr "取り持ちマーク追加"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "活発"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "「管理者」の導きにより、{0} の {1}性格 が {2}性格 になりました。"
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0} の性格が {1} から {2} に変わりました。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "危険作業時間：{0} {1} ・ {2} {3}——同じ職種、同じ期�
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "引き離しマーク：この複製人間のペアが本Modの社交イベントとAI会話を起こすのを防ぎます"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "ブロックマーク：このペアが本Modの社交イベントとAI会話を起こすのを防ぎますが、強制的に別れさせたり既存の関係を削除したりはしません"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,8 +3528,8 @@ msgstr "戻る"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "引き離し"
+msgid "屏蔽"
+msgstr "ブロック"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "最悪の関係を選ぶ"
 
 #. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "キャンセル"
+
+#. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "マークを解除"
 
 #. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "{0} に関係するマーク {1} 個を解除します。"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "すべてのマークを解除しますか？"
+
+#. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "閉じる"
 
 #. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "関係を折りたたむ"
+
+#. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[完了] {0}"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "確認"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "イベントの記録はまだありません"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "コロニー紀事"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "関係を展開"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,8 +3786,8 @@ msgstr "{0} を選びました。別の複製人間を選んでから、同じ�
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "引き離し: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "ブロック済み：{0} × {1}"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3780,8 +3816,8 @@ msgstr "社交"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "コロニーの関係を確認し、取り持ちと引き離しのマークを管理します"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "コロニーの関係を確認し、取り持ちとブロックのマークを管理します"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3810,8 +3846,8 @@ msgstr "関係総覧"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ 引き離し：{5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ ブロック：{5}"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3888,8 +3924,8 @@ msgstr "発生待ちの社交イベント"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "一人目の複製人間を選んでください。引き離しは、このペアの複製人間が本Modの社交イベントとAI会話を起こすのを防ぎます。"
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "一人目の複製人間を選んでください。ブロックすると、このペアは本Modの社交イベントとAI会話を起こさなくなりますが、強制的に別れさせたり、既存の関係を削除したりはしません。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,8 +3948,8 @@ msgstr "{0} ・ 二人目を選ぶ"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "複製人間を一人選び、その人に関係する取り持ちと引き離しのマークをすべて解除します。"
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "複製人間を一人選び、その人に関係する取り持ちとブロックのマークをすべて解除します。"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -4088,6 +4124,18 @@ msgstr "診断レポートを書き出しました：{0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "診断レポートの書き出しに失敗しました：{0}"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "元に戻す"
+
+#. resolved-locale: ja
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "直前のマーク操作を元に戻しました"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,8 +4332,8 @@ msgstr "宿敵の殴り合いを許可"
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。引き離しマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。ブロックマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない"
 
 #. resolved-locale: ja
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA

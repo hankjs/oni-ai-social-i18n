@@ -852,20 +852,20 @@ msgstr "ревность"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "разлучение администратора"
+msgid "已屏蔽"
+msgstr "метка блокировки"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "администратор снял метку"
+msgid "已清除标记"
+msgstr "метка снята"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "сводничество администратора"
+msgid "已牵线"
+msgstr "метка сводничества"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -1056,8 +1056,8 @@ msgstr "энергичный"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "По указанию «администратора» характер {0} сменился с «{1}» на «{2}»."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "Характер {0} сменился с «{1}» на «{2}»."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1380,8 +1380,8 @@ msgstr "Опасные смены: {0} {1} · {2} {3} — одна профес�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "Метка разлучения: эта пара дубликантов не запускает события общения мода и ИИ-диалог"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "Метка блокировки: эта пара не запускает события общения мода и ИИ-диалог; она не разрывает и не удаляет существующие отношения"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -3528,8 +3528,8 @@ msgstr "Назад"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "Разлучение"
+msgid "屏蔽"
+msgstr "Блокировка"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3586,6 +3586,12 @@ msgid "选择最差关系"
 msgstr "Выбрать худшие отношения"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "Отмена"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3598,16 +3604,40 @@ msgid "清除标记"
 msgstr "Снять метки"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "Число меток для снятия у {0}: {1}."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "Снять все метки?"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "Закрыть"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "Свернуть отношения"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[готово] {0}"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "Подтвердить"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3626,6 +3656,12 @@ msgstr "Записей событий пока нет"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "хроника колонии"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "Развернуть отношения"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3750,8 +3786,8 @@ msgstr "Выбран {0}, выберите другого дубликанта �
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "Разлучение: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "Заблокированы: {0} × {1}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3780,8 +3816,8 @@ msgstr "Общение"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "Смотреть отношения колонии и ставить метки сводничества и разлучения"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "Смотреть отношения колонии и ставить метки сводничества и блокировки"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3810,8 +3846,8 @@ msgstr "Обзор отношений"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · разлучение: {5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · блокировка: {5}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3888,8 +3924,8 @@ msgstr "Ожидающие события общения"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "Выберите первого дубликанта. Разлучение не даст этой паре запускать события общения мода и ИИ-диалог."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "Выберите первого дубликанта. Блокировка не даст этой паре запускать события общения мода и ИИ-диалог, но не приведёт к принудительному разрыву и не удалит существующие отношения."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3912,8 +3948,8 @@ msgstr "{0} · выберите второго"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и разлучения."
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и блокировки."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -4088,6 +4124,18 @@ msgstr "Диагностический отчёт выгружен: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "Не удалось выгрузить диагностический отчёт: {0}"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "Отменить"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "Предыдущее изменение меток отменено."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4284,8 +4332,8 @@ msgstr "Разрешить драки заклятых врагов"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка разлучения полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка блокировки полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
