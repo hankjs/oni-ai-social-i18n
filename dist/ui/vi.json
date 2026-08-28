@@ -6555,11 +6555,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "Hồi chiêu tán gẫu cùng một người nhân bản (giây)",
+      "text": "Hồi chiêu tán gẫu do Mod thêm cho mỗi người nhân bản (giây)",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6699,35 +6699,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "Khoảng cách cộng thiện cảm cùng một cặp người nhân bản (giây)",
+      "text": "Hồi chiêu phản hồi quan hệ của Mod từ thoại ONI (giây)",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Khoảng ngắn nhất mỗi cặp khi chat gốc thành thiện cảm và lời mod. Mặc định 15 giây; còn bị trần cộng mỗi cặp mỗi chu kỳ, rút khoảng cách không vượt trần chu kỳ.",
+      "text": "Chỉ giới hạn phản hồi quan hệ và câu chuyện tiếp nối của Mod bị lặp lại từ cùng một cặp. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mặc định 15 giây; trần mỗi cặp mỗi chu kỳ vẫn áp dụng.",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "Trần cộng thiện cảm chat gốc mỗi cặp mỗi chu kỳ (lần)",
+      "text": "Trần phản hồi quan hệ của Mod từ thoại ONI cho mỗi cặp mỗi chu kỳ",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "Mặc định 2 lần. Đạt trần thì các lần nói gốc còn lại của cặp này trong chu kỳ giữ biểu hiện gốc của trò chơi, nhưng không kích lại lời mod, thiện cảm và sự kiện xã hội; chu kỳ sau đặt lại.",
+      "text": "Mặc định 2 lần. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường; trần này chỉ dừng phản hồi quan hệ và câu chuyện tiếp nối bị lặp lại của Mod cho cặp đó đến chu kỳ sau.",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6938,14 +6938,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "(bản này luôn bật)",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "Dung lượng biên niên (mục)",
       "resolvedLocale": "vi",
@@ -6964,14 +6956,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "Trần AI chỉnh lời mỗi chu kỳ",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "Trần hội thoại AI mỗi chu kỳ",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
@@ -7042,20 +7026,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "Quan sát sự kiện xã hội gốc (đầu vào động cơ quan hệ)",
-      "resolvedLocale": "vi",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "Động cơ quan hệ hiện dựng hoàn toàn trên sự kiện xã hội gốc, tạm không hỗ trợ tắt",
+      "text": "Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mod chỉ quan sát các sự kiện xã hội gốc đã xảy ra thành công; phản hồi quan hệ được khử trùng lặp riêng.",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7075,11 +7051,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "Hồi chiêu hội thoại cùng một cặp người nhân bản (giây)",
+      "text": "Hồi chiêu tán gẫu do Mod thêm cho mỗi cặp người nhân bản (giây)",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7127,11 +7103,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "Giây lời thoại ở lại",
+      "text": "Thời gian hiện chữ thoại của Mod (giây; không ảnh hưởng bong bóng ONI)",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7359,11 +7335,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "Chữ nổi lời thoại",
+      "text": "Hiện chữ thoại của Mod (không ảnh hưởng bong bóng thoại gốc ONI)",
       "resolvedLocale": "vi",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

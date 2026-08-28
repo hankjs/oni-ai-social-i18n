@@ -177,15 +177,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "Trần hội thoại AI mỗi chu kỳ",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "Hồi chiêu hội thoại cùng một cặp người nhân bản (giây)",
-      "contractRevision": 1,
+      "text": "Hồi chiêu tán gẫu do Mod thêm cho mỗi cặp người nhân bản (giây)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -225,21 +219,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "Quan sát sự kiện xã hội gốc (đầu vào động cơ quan hệ)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "(bản này luôn bật)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "Động cơ quan hệ hiện dựng hoàn toàn trên sự kiện xã hội gốc, tạm không hỗ trợ tắt",
-      "contractRevision": 1,
+      "text": "Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mod chỉ quan sát các sự kiện xã hội gốc đã xảy ra thành công; phản hồi quan hệ được khử trùng lặp riêng.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -370,14 +352,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "Khoảng cách cộng thiện cảm cùng một cặp người nhân bản (giây)",
-      "contractRevision": 1,
+      "text": "Hồi chiêu phản hồi quan hệ của Mod từ thoại ONI (giây)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Khoảng ngắn nhất mỗi cặp khi chat gốc thành thiện cảm và lời mod. Mặc định 15 giây; còn bị trần cộng mỗi cặp mỗi chu kỳ, rút khoảng cách không vượt trần chu kỳ.",
-      "contractRevision": 1,
+      "text": "Chỉ giới hạn phản hồi quan hệ và câu chuyện tiếp nối của Mod bị lặp lại từ cùng một cặp. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mặc định 15 giây; trần mỗi cặp mỗi chu kỳ vẫn áp dụng.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -502,14 +484,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "Chữ nổi lời thoại",
-      "contractRevision": 1,
+      "text": "Hiện chữ thoại của Mod (không ảnh hưởng bong bóng thoại gốc ONI)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "Giây lời thoại ở lại",
-      "contractRevision": 1,
+      "text": "Thời gian hiện chữ thoại của Mod (giây; không ảnh hưởng bong bóng ONI)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -610,8 +592,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "Hồi chiêu tán gẫu cùng một người nhân bản (giây)",
-      "contractRevision": 1,
+      "text": "Hồi chiêu tán gẫu do Mod thêm cho mỗi người nhân bản (giây)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -622,14 +604,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "Trần cộng thiện cảm chat gốc mỗi cặp mỗi chu kỳ (lần)",
-      "contractRevision": 1,
+      "text": "Trần phản hồi quan hệ của Mod từ thoại ONI cho mỗi cặp mỗi chu kỳ",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "Mặc định 2 lần. Đạt trần thì các lần nói gốc còn lại của cặp này trong chu kỳ giữ biểu hiện gốc của trò chơi, nhưng không kích lại lời mod, thiện cảm và sự kiện xã hội; chu kỳ sau đặt lại.",
-      "contractRevision": 1,
+      "text": "Mặc định 2 lần. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường; trần này chỉ dừng phản hồi quan hệ và câu chuyện tiếp nối bị lặp lại của Mod cho cặp đó đến chu kỳ sau.",
+      "contractRevision": 2,
       "status": "reviewed"
     }
   ]

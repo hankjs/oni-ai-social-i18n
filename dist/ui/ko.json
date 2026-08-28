@@ -6555,11 +6555,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "같은 복제인간의 일상 잡담 쿨다운(초)",
+      "text": "모드가 추가한 잡담: 복제인간별 쿨다운(초)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6699,35 +6699,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "같은 복제인간 쌍의 호감 적립 간격(초)",
+      "text": "ONI 원본 대화의 모드 관계 피드백 반영 쿨다운(초)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "원본 대화가 호감과 모드 대사로 바뀌는 쌍당 최단 간격입니다. 기본 15초이며, 쌍당 사이클 적립 상한에도 묶여 간격을 줄여도 사이클 상한은 넘지 않습니다.",
+      "text": "같은 쌍에서 반복되는 모드 관계 피드백과 후속 이야기만 제한합니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 기본 15초이며, 쌍당 사이클 상한도 적용됩니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "쌍당 사이클 원본 대화 적립 상한(회)",
+      "text": "쌍당 사이클 ONI 대화의 모드 관계 피드백 상한(회)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "기본 2회입니다. 상한에 닿으면 이 쌍의 이번 사이클 이후 원본 발언은 게임 본래 표현을 유지하되, 모드 대사·호감·사교 이벤트는 다시 트리거하지 않습니다. 다음 사이클에 초기화됩니다.",
+      "text": "기본 2회입니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 상한은 이 쌍의 반복되는 모드 관계 피드백과 후속 이야기만 다음 사이클까지 멈춥니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6938,14 +6938,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "(이 버전은 고정 켜짐)",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "연대기 용량(줄)",
       "resolvedLocale": "ko",
@@ -6964,14 +6956,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "사이클당 AI 윤색 상한",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "사이클당 AI 대화 상한",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
@@ -7042,20 +7026,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "원본 사교 이벤트 관찰(관계 엔진 입력)",
-      "resolvedLocale": "ko",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "관계 엔진은 지금 전적으로 원본 사교 이벤트 위에 세워져, 아직은 끌 수 없습니다",
+      "text": "ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 모드는 성공한 원본 사교 이벤트만 관찰하며, 관계 피드백은 별도로 중복을 제거합니다.",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7075,11 +7051,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "같은 복제인간 쌍의 대화 쿨다운(초)",
+      "text": "모드가 추가한 잡담: 쌍별 쿨다운(초)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7127,11 +7103,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "대사가 머무는 초",
+      "text": "모드 대사 글자 표시 시간(초, ONI 원본 말풍선에는 영향 없음)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7359,11 +7335,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "대화 대사 떠다니는 글자",
+      "text": "모드 대사 글자 표시(ONI 원본 말풍선에는 영향 없음)",
       "resolvedLocale": "ko",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

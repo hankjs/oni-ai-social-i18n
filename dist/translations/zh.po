@@ -4242,8 +4242,8 @@ msgstr "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "同一复制人的日常闲聊冷却（秒）"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "模组新增闲聊：同一复制人的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4350,26 +4350,26 @@ msgstr "取消"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "同一对复制人的好感进账间隔（秒）"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "原生聊天进入模组关系反馈的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "每对每周期原生聊天进账上限（次）"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "每对每周期原生聊天触发模组关系反馈的上限（次）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4528,12 +4528,6 @@ msgid "中文"
 msgstr "中文"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "（本版本固定开启）"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4550,12 +4544,6 @@ msgstr "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB �
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE"
 msgid "每周期 AI 润色上限"
 msgstr "每周期 AI 润色上限"
-
-#. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "每周期 AI 对话上限"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
@@ -4606,16 +4594,10 @@ msgid "关系里程碑通知"
 msgstr "关系里程碑通知"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "观察原生社交事件（关系引擎输入）"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4632,8 +4614,8 @@ msgstr "开"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "同一对复制人的对话冷却（秒）"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "模组新增闲聊：同一对复制人的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4668,8 +4650,8 @@ msgstr "关闭后告白等事件立即发生，但仍有演出和通知。不改
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "台词停留秒数"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "模组台词文字停留秒数（不影响 ONI 原生气泡）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4842,8 +4824,8 @@ msgstr "默认关闭。开启后只在本机记录事件频率、关系分布、
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "对话台词浮动文字"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "显示模组台词文字（不影响 ONI 原生气泡）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

@@ -6554,11 +6554,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "Daily chat cooldown per duplicant (seconds)",
+      "text": "Per-duplicant cooldown for Mod-added casual chatter (seconds)",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
@@ -6698,35 +6698,35 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "Minimum interval between affinity gains for a pair (seconds)",
+      "text": "Cooldown for ONI chatter entering Mod relationship feedback (seconds)",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap.",
+      "text": "Only limits repeated Mod relationship feedback and follow-up stories from the same pair. ONI's native dialogue bubbles always appear as usual. Default: 15 seconds; the per-pair cycle cap still applies.",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "Native chat feeds per pair per cycle",
+      "text": "ONI chatter relationship-feedback cap per pair per cycle",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "Default: 2. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle.",
+      "text": "Default: 2. ONI's native dialogue bubbles always appear as usual; the cap only stops repeated Mod relationship feedback and follow-up stories for that pair until the next cycle.",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
@@ -6937,14 +6937,6 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": " (always on in this version)",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY",
       "text": "Chronicle capacity (entries)",
       "resolvedLocale": "en",
@@ -6963,14 +6955,6 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE",
       "text": "AI rewrites per cycle",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "AI conversations per cycle",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
@@ -7041,20 +7025,12 @@
       "contractRevision": 1
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "Observe native social events (engine input)",
-      "resolvedLocale": "en",
-      "requiredSlots": [],
-      "richText": false,
-      "contractRevision": 1
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "The relationship engine is built entirely on native social events, so it cannot be turned off yet.",
+      "text": "ONI's native dialogue bubbles always appear as usual. The Mod only observes successful native social events; relationship feedback is deduplicated separately.",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OFF",
@@ -7074,11 +7050,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "Per-pair conversation cooldown (s)",
+      "text": "Per-pair cooldown for Mod-added casual chatter (seconds)",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_BODY",
@@ -7126,11 +7102,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "Dialogue popup duration (s)",
+      "text": "Mod dialogue text duration (seconds; ONI native bubbles are unaffected)",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT",
@@ -7358,11 +7334,11 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "Dialogue text popups",
+      "text": "Show Mod dialogue text (ONI native bubbles are unaffected)",
       "resolvedLocale": "en",
       "requiredSlots": [],
       "richText": false,
-      "contractRevision": 1
+      "contractRevision": 2
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TIMEOUT",

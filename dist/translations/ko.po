@@ -4242,8 +4242,8 @@ msgstr "AI 대사는 아직 충분히 다듬이지 않아 기본값은 끔입니
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "같은 복제인간의 일상 잡담 쿨다운(초)"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "모드가 추가한 잡담: 복제인간별 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4350,26 +4350,26 @@ msgstr "취소"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "같은 복제인간 쌍의 호감 적립 간격(초)"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "ONI 원본 대화의 모드 관계 피드백 반영 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "원본 대화가 호감과 모드 대사로 바뀌는 쌍당 최단 간격입니다. 기본 15초이며, 쌍당 사이클 적립 상한에도 묶여 간격을 줄여도 사이클 상한은 넘지 않습니다."
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "같은 쌍에서 반복되는 모드 관계 피드백과 후속 이야기만 제한합니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 기본 15초이며, 쌍당 사이클 상한도 적용됩니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "쌍당 사이클 원본 대화 적립 상한(회)"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "쌍당 사이클 ONI 대화의 모드 관계 피드백 상한(회)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "기본 2회입니다. 상한에 닿으면 이 쌍의 이번 사이클 이후 원본 발언은 게임 본래 표현을 유지하되, 모드 대사·호감·사교 이벤트는 다시 트리거하지 않습니다. 다음 사이클에 초기화됩니다."
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "기본 2회입니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 상한은 이 쌍의 반복되는 모드 관계 피드백과 후속 이야기만 다음 사이클까지 멈춥니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4528,12 +4528,6 @@ msgid "中文"
 msgstr "중국어"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "(이 버전은 고정 켜짐)"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4550,12 +4544,6 @@ msgstr "이벤트 로그 스크롤 구역의 줄 수 상한입니다. 기본 500
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE"
 msgid "每周期 AI 润色上限"
 msgstr "사이클당 AI 윤색 상한"
-
-#. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "사이클당 AI 대화 상한"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
@@ -4606,16 +4594,10 @@ msgid "关系里程碑通知"
 msgstr "관계 이정표 알림"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "원본 사교 이벤트 관찰(관계 엔진 입력)"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "관계 엔진은 지금 전적으로 원본 사교 이벤트 위에 세워져, 아직은 끌 수 없습니다"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 모드는 성공한 원본 사교 이벤트만 관찰하며, 관계 피드백은 별도로 중복을 제거합니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4632,8 +4614,8 @@ msgstr "켬"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "같은 복제인간 쌍의 대화 쿨다운(초)"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "모드가 추가한 잡담: 쌍별 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4668,8 +4650,8 @@ msgstr "끄면 고백 같은 이벤트가 바로 일어나지만, 연출과 알�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "대사가 머무는 초"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "모드 대사 글자 표시 시간(초, ONI 원본 말풍선에는 영향 없음)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4842,8 +4824,8 @@ msgstr "기본값은 끔입니다. 켜면 이 기기에서만 이벤트 빈도, 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "대화 대사 떠다니는 글자"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "모드 대사 글자 표시(ONI 원본 말풍선에는 영향 없음)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

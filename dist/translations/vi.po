@@ -4242,8 +4242,8 @@ msgstr "Lời AI chưa hoàn thiện, mặc định tắt; khi tắt dùng toàn
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "Hồi chiêu tán gẫu cùng một người nhân bản (giây)"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "Hồi chiêu tán gẫu do Mod thêm cho mỗi người nhân bản (giây)"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4350,26 +4350,26 @@ msgstr "Hủy"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "Khoảng cách cộng thiện cảm cùng một cặp người nhân bản (giây)"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "Hồi chiêu phản hồi quan hệ của Mod từ thoại ONI (giây)"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "Khoảng ngắn nhất mỗi cặp khi chat gốc thành thiện cảm và lời mod. Mặc định 15 giây; còn bị trần cộng mỗi cặp mỗi chu kỳ, rút khoảng cách không vượt trần chu kỳ."
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "Chỉ giới hạn phản hồi quan hệ và câu chuyện tiếp nối của Mod bị lặp lại từ cùng một cặp. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mặc định 15 giây; trần mỗi cặp mỗi chu kỳ vẫn áp dụng."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "Trần cộng thiện cảm chat gốc mỗi cặp mỗi chu kỳ (lần)"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "Trần phản hồi quan hệ của Mod từ thoại ONI cho mỗi cặp mỗi chu kỳ"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 2 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "Mặc định 2 lần. Đạt trần thì các lần nói gốc còn lại của cặp này trong chu kỳ giữ biểu hiện gốc của trò chơi, nhưng không kích lại lời mod, thiện cảm và sự kiện xã hội; chu kỳ sau đặt lại."
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "Mặc định 2 lần. Bong bóng thoại gốc của ONI luôn hiển thị như bình thường; trần này chỉ dừng phản hồi quan hệ và câu chuyện tiếp nối bị lặp lại của Mod cho cặp đó đến chu kỳ sau."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4528,12 +4528,6 @@ msgid "中文"
 msgstr "tiếng Trung"
 
 #. resolved-locale: vi
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "(bản này luôn bật)"
-
-#. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4550,12 +4544,6 @@ msgstr "Trần số mục vùng cuộn nhật ký sự kiện. Mặc định 500
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_AI_REWRITES_PER_CYCLE"
 msgid "每周期 AI 润色上限"
 msgstr "Trần AI chỉnh lời mỗi chu kỳ"
-
-#. resolved-locale: vi
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "Trần hội thoại AI mỗi chu kỳ"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
@@ -4606,16 +4594,10 @@ msgid "关系里程碑通知"
 msgstr "Thông báo cột mốc quan hệ"
 
 #. resolved-locale: vi
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "Quan sát sự kiện xã hội gốc (đầu vào động cơ quan hệ)"
-
-#. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "Động cơ quan hệ hiện dựng hoàn toàn trên sự kiện xã hội gốc, tạm không hỗ trợ tắt"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "Bong bóng thoại gốc của ONI luôn hiển thị như bình thường. Mod chỉ quan sát các sự kiện xã hội gốc đã xảy ra thành công; phản hồi quan hệ được khử trùng lặp riêng."
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4632,8 +4614,8 @@ msgstr "Bật"
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "Hồi chiêu hội thoại cùng một cặp người nhân bản (giây)"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "Hồi chiêu tán gẫu do Mod thêm cho mỗi cặp người nhân bản (giây)"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4668,8 +4650,8 @@ msgstr "Tắt thì tỏ tình và sự kiện tương tự xảy ra ngay, vẫn 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "Giây lời thoại ở lại"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "Thời gian hiện chữ thoại của Mod (giây; không ảnh hưởng bong bóng ONI)"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4842,8 +4824,8 @@ msgstr "Mặc định tắt. Bật thì chỉ ghi trên máy này tần suất s
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "Chữ nổi lời thoại"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "Hiện chữ thoại của Mod (không ảnh hưởng bong bóng thoại gốc ONI)"
 
 #. resolved-locale: vi
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT
