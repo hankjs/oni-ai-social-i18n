@@ -316,6 +316,21 @@
       ]
     },
     {
+      "storyletId": "ListenerResponse",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 0,
+      "actorSlots": [
+        1
+      ],
+      "selectionDimensions": [
+        "personalities",
+        "relationshipStates",
+        "responseActs",
+        "listenerAvailabilities"
+      ]
+    },
+    {
       "storyletId": "Comfort",
       "contractRevision": 1,
       "requiredForStable": true,

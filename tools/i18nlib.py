@@ -27,6 +27,8 @@ ALLOWED_CONVERSATION_KINDS = {"recent_thing", "amount_state", "current_job"}
 ALLOWED_TOPIC_DOMAINS = {"food", "bed", "decor", "element", "building", "creature", "plant", "equipment", "item", "stress", "morale", "health", "satiety", "stamina", "immunity", "current_job", "energy", "hunger", "oxygen", "unknown"}
 ALLOWED_UTTERANCE_MODES = {"query", "statement", "agreement", "disagreement", "musing", "satisfaction", "nominal", "dissatisfaction", "stressing", "segue", "end"}
 ALLOWED_APPRAISALS = {"positive", "neutral", "negative", "stressed", "unspecified"}
+ALLOWED_RESPONSE_ACTS = {"acknowledge", "reassure", "practical_help", "gentle_boundary", "defer"}
+ALLOWED_LISTENER_AVAILABILITIES = {"receptive", "reserved", "unavailable"}
 RESOLVED_TOPIC_RE = re.compile(r"^(?:recent|amount|thought)\.[a-z_]+\.[a-z_]+$|^current_job\.[a-z_]+$")
 ALLOWED_RELATIONSHIP_STATES = {"Strangers", "Acquainted", "Friends", "Crush", "Couple", "ColdWar", "BrokenUp", "Grieving", "Mourning", "Rival"}
 ALLOWED_ARGUMENT_CAUSES = {"Unknown", "Stress", "LowAffinity", "TraitClash", "Discord", "Chemistry", "HazardDuty"}
@@ -378,7 +380,7 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
                         errors: list[str]) -> None:
     allowed_top = {"actors", "relationshipStates", "causes", "resolvedTopics",
                    "conversationKinds", "topicDomains", "utteranceModes", "appraisals",
-                   "moodWildcardEmergency"}
+                   "responseActs", "listenerAvailabilities", "moodWildcardEmergency"}
     for key in selection:
         if key not in allowed_top: errors.append(f"locales/{locale}/dialogue {candidate_id}: unknown selection dimension {key!r}")
     enum_fields = {"emotions": ALLOWED_DIALOGUE_EMOTIONS,
@@ -400,7 +402,9 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
                            ("conversationKinds", ALLOWED_CONVERSATION_KINDS),
                            ("topicDomains", ALLOWED_TOPIC_DOMAINS),
                            ("utteranceModes", ALLOWED_UTTERANCE_MODES),
-                           ("appraisals", ALLOWED_APPRAISALS)):
+                           ("appraisals", ALLOWED_APPRAISALS),
+                           ("responseActs", ALLOWED_RESPONSE_ACTS),
+                           ("listenerAvailabilities", ALLOWED_LISTENER_AVAILABILITIES)):
         values = selection.get(field, [])
         if not all(isinstance(value, str) and value in allowed for value in values):
             errors.append(f"locales/{locale}/dialogue {candidate_id}: invalid {field}")
@@ -903,7 +907,11 @@ def _resolved_catalogs(root: Path):
             if items is None: continue
             frozen_candidates = []
             for item in items:
-                frozen = dict(item)
+                # Review state and per-source revision are authoring concerns. The frozen
+                # pool already carries its validated contract revision, and runtime DTOs do
+                # not consume either field; omitting them keeps materialized matrices bounded.
+                frozen = {key: value for key, value in item.items()
+                          if key not in {"status", "contractRevision"}}
                 frozen["diversityKey"] = _dialogue_diversity_key(item)
                 frozen_candidates.append(frozen)
             storylets[storylet_id] = {"resolvedLocale": resolved, "contractRevision": contract["contractRevision"],
