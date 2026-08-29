@@ -287,6 +287,73 @@ namespace ONIAiSocial
                 public static LocString TRAIT_EFFECT_SCAREDYCAT = "不爱争执";
                 public static LocString TRAIT_EFFECT_SLOWLEARNER = "被请教时不太领情";
             }
+            public class DIALOGUE_TOPIC
+            {
+                public class BED
+                {
+                    public static LocString NAME = "床铺";
+                }
+                public class BUILDING
+                {
+                    public static LocString NAME = "建筑";
+                }
+                public class CREATURE
+                {
+                    public static LocString NAME = "生物";
+                }
+                public class CURRENT_JOB
+                {
+                    public static LocString NAME = "当前工作";
+                }
+                public class DECOR
+                {
+                    public static LocString NAME = "装饰";
+                }
+                public class ELEMENT
+                {
+                    public static LocString NAME = "材料";
+                }
+                public class EQUIPMENT
+                {
+                    public static LocString NAME = "装备";
+                }
+                public class FOOD
+                {
+                    public static LocString NAME = "食物";
+                }
+                public class HEALTH
+                {
+                    public static LocString NAME = "健康";
+                }
+                public class IMMUNITY
+                {
+                    public static LocString NAME = "免疫状态";
+                }
+                public class ITEM
+                {
+                    public static LocString NAME = "物品";
+                }
+                public class MORALE
+                {
+                    public static LocString NAME = "士气";
+                }
+                public class PLANT
+                {
+                    public static LocString NAME = "植物";
+                }
+                public class SATIETY
+                {
+                    public static LocString NAME = "饱腹状态";
+                }
+                public class STAMINA
+                {
+                    public static LocString NAME = "体力";
+                }
+                public class STRESS
+                {
+                    public static LocString NAME = "压力";
+                }
+            }
             public class EFFECTS
             {
                 public class CANNIBAL
