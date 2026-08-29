@@ -1075,7 +1075,7 @@
       "familyHashes": {
         "ui": "sha256:7ad5527fa5cd04044e7292492d41c9cf8734bb62e1012c5b339313936613bb62",
         "prompts": "sha256:4ac0143ba376524756fb2be95de44bc9209d2e5ecdc2cd161022669f34c58772",
-        "dialogue": "sha256:c03a1feb27c15452c9e554c0254745f2649b6048f2d814120adab879e0d72d29",
+        "dialogue": "sha256:1e156eab272bc7d91c5dae534e62025aba1c8cf70844a40f89e4277d1c255562",
         "chronicle": "sha256:ef63bc85718f5f84e43454451d7060c79ad688499d786eec216a96f0ce91d465"
       },
       "snapshotHash": "sha256:a134140af3048a4e89201f504db185b7a5bb8cbfd344984a5ec4a1fac376e3c5"
@@ -2151,7 +2151,7 @@
       "familyHashes": {
         "ui": "sha256:9d7320712373a9449ac2b09dacffbe9fcdfa92794741a76640bcd50fcad43500",
         "prompts": "sha256:298ed487175f70e2fae20bfb72719379f3d56de86ab83644799ce3d08d40f43a",
-        "dialogue": "sha256:ae048cd70b5536cb767c59829d4cf71d50bf8c36abc2d38f5936ee607f5c45ba",
+        "dialogue": "sha256:245cd99c395bb0b29f9e5cdbbab0b1dd5476a2ac60099652b6b7da1773a65319",
         "chronicle": "sha256:60b8bbc4cb3fec9c886ca4c3c731322493d2eb3debfb948a7a38555cf78e26c9"
       },
       "snapshotHash": "sha256:d50f94c4428c8bc2d43b5b282cc34efccb25df54289604920fd582758628aef1"
@@ -3227,7 +3227,7 @@
       "familyHashes": {
         "ui": "sha256:2c2923ee2c48f4a655884a70c45a506a34471a284802dfb691cc357fbb432590",
         "prompts": "sha256:feab091bf1e5436f08f67ab930b8401f22420e0e1a1f78030df7734aead4f0ba",
-        "dialogue": "sha256:0fd1d1ab983820cc56916e30ace16e741356e2d705263b74c8d72288156220ba",
+        "dialogue": "sha256:0f7c5088e120a8034e99f4f99f7d56677a8706b2c98aadcb75471ec6fecf6ee8",
         "chronicle": "sha256:8946b754cdf9b42074ae1f0f0ffe7c85d623d0947b3392c6b88652af35f08d99"
       },
       "snapshotHash": "sha256:0943c8036c737f572097380c52931c67d016a11e2f64a92b04d4df27af6af4b6"
@@ -4303,7 +4303,7 @@
       "familyHashes": {
         "ui": "sha256:2164302c905362265d2a2bd315843ee2ffee5036ded5d3da623bc2ecb1515b13",
         "prompts": "sha256:71846aff38bf7f68978ad262c7c48082ce5caffd98cca3e9bf93acadb067f40d",
-        "dialogue": "sha256:18742cd698e024189714b5c4c5e4e925792f1b1122282cf79f21796826c5e09e",
+        "dialogue": "sha256:cb187c50716d6076c94968a07cabea4bcd6db8f769216368f3bfb95e87065930",
         "chronicle": "sha256:ddd8b9dddedb23d96f04db6a23c966a0e30fe79755e3182ee779f4a224c38a85"
       },
       "snapshotHash": "sha256:51088e7fd42c4b4132a7095cbe6e01121e1b247ed7608c33a379820843f78b41"
@@ -5379,7 +5379,7 @@
       "familyHashes": {
         "ui": "sha256:1da26a9f2fa23369fcae334bfd67099f1b885351d989b41e3275decb1aa82448",
         "prompts": "sha256:96adb73b4b480ffec504d929e3efa166448e5f8bd81bccfd1de823ed50173f32",
-        "dialogue": "sha256:2ec23bea01f0039e2375c4bca5edb1441bdc8607afacf02990d766e92f484e5a",
+        "dialogue": "sha256:0c7fe28babc13e48c081af740ed7c2a0795e0c548c084d0a0bcf74340349a12e",
         "chronicle": "sha256:9d206c0fd2cdd1acfb61434f3f22ed543d3a1fe4aacb1606ebd9901b4d339362"
       },
       "snapshotHash": "sha256:4ccb9a8b61a030036618f1cf4ce1c6ca58857ac0ed931701bdc0a360f10bc043"
@@ -6455,11 +6455,19 @@
       "familyHashes": {
         "ui": "sha256:2cf297aeb98bfd1a4b6a6630dc2ade26d33edbf2729e5329a8f2748279f63604",
         "prompts": "sha256:efb5c79fe57244d73f804662307f0046df09082d4985c14da4f040eb86a7a2ca",
-        "dialogue": "sha256:46af205a4df8b244b745d9a663ed382a0e9b04ec4275ba8e0625599d48ba0ad8",
+        "dialogue": "sha256:3c6b24741520afceb252ab3e0b32fbc36e2d275a3a9023d5f370a05a32e04bcd",
         "chronicle": "sha256:ec6c88c4728649f29af5e90d026a92be794f2b5046ce15c946f664bc25571f4b"
       },
       "snapshotHash": "sha256:fe62d73fe25ada973469f9f18aa0da3f9554795ac5e0f1721e383a941fb9f9ed"
     }
   ],
-  "snapshotHash": "sha256:9ddd8fb3f80128488f83ce66c1503f292dae670a65ca810c03f180572d83a41e"
+  "topicCoverage": {
+    "en": [],
+    "ja": [],
+    "ko": [],
+    "ru": [],
+    "vi": [],
+    "zh": []
+  },
+  "snapshotHash": "sha256:b17df18f1bab39bc49efb49994006bf7d84c4603df03e78455dedb6f766b4f42"
 }

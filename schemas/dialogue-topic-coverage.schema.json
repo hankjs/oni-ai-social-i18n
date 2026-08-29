@@ -1,0 +1,28 @@
+{
+  "type": "object", "additionalProperties": false,
+  "required": ["schemaVersion", "locales"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "locales": {
+      "type": "object", "additionalProperties": false,
+      "required": ["zh", "en", "ko", "ru", "ja", "vi"],
+      "properties": {
+        "zh": { "$ref": "#/$defs/locale" },
+        "en": { "$ref": "#/$defs/locale" },
+        "ko": { "$ref": "#/$defs/locale" },
+        "ru": { "$ref": "#/$defs/locale" },
+        "ja": { "$ref": "#/$defs/locale" },
+        "vi": { "$ref": "#/$defs/locale" }
+      }
+    }
+  },
+  "$defs": {
+    "locale": {
+      "type": "object", "additionalProperties": false, "required": ["readyTopics"],
+      "properties": {
+        "readyTopics": { "type": "array", "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 } }
+      }
+    }
+  }
+}

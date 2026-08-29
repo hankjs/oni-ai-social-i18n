@@ -20,7 +20,14 @@ ALLOWED_RICH_TEXT_TAGS = {"b", "i", "color"}
 ALLOWED_DIALOGUE_EMOTIONS = {"neutral", "joy", "affection", "hope", "relief", "sadness", "grief", "anger", "anxiety", "fear", "guilt", "embarrassment", "exhaustion"}
 ALLOWED_DIALOGUE_INTENSITIES = {"calm", "mild", "strong", "breaking"}
 ALLOWED_DIALOGUE_STANCES = {"open", "supportive", "intimate", "awkward", "guarded", "defensive", "hostile"}
-ALLOWED_DIALOGUE_VOICES = {"hothead", "crybaby", "loud", "eater", "nervous", "jumpy", "gentle", "curious", "slow", "early", "night", "sleepy"}
+ALLOWED_DIALOGUE_PERSONALITIES = {"hothead", "crybaby", "loud", "eater", "nervous", "jumpy", "gentle", "curious", "slow", "early", "night", "sleepy", "athlete"}
+ALLOWED_DIALOGUE_VOICES = ALLOWED_DIALOGUE_PERSONALITIES
+ALLOWED_DIALOGUE_MOODS = {"buoyant", "settled", "discouraged", "strained", "overwhelmed"}
+ALLOWED_CONVERSATION_KINDS = {"recent_thing", "amount_state", "current_job"}
+ALLOWED_TOPIC_DOMAINS = {"food", "bed", "decor", "element", "building", "creature", "plant", "equipment", "item", "stress", "morale", "health", "satiety", "stamina", "immunity", "current_job", "energy", "hunger", "oxygen", "unknown"}
+ALLOWED_UTTERANCE_MODES = {"query", "statement", "agreement", "disagreement", "musing", "satisfaction", "nominal", "dissatisfaction", "stressing", "segue", "end"}
+ALLOWED_APPRAISALS = {"positive", "neutral", "negative", "stressed", "unspecified"}
+RESOLVED_TOPIC_RE = re.compile(r"^(?:recent|amount|thought)\.[a-z_]+\.[a-z_]+$|^current_job\.[a-z_]+$")
 ALLOWED_RELATIONSHIP_STATES = {"Strangers", "Acquainted", "Friends", "Crush", "Couple", "ColdWar", "BrokenUp", "Grieving", "Mourning", "Rival"}
 ALLOWED_ARGUMENT_CAUSES = {"Unknown", "Stress", "LowAffinity", "TraitClash", "Discord", "Chemistry", "HazardDuty"}
 ALLOWED_PERSON_FORMS = {"subject", "object", "possessive", "possessiveCapitalized", "pairSubject", "pairObject", "pairPossessive", "pairReflexive"}
@@ -130,8 +137,20 @@ def _schema_type_matches(value: Any, expected: str) -> bool:
     return False
 
 
-def validate_json_schema(value: Any, schema: dict[str, Any], location: str) -> list[str]:
+def validate_json_schema(value: Any, schema: dict[str, Any], location: str,
+                         root_schema: dict[str, Any] | None = None) -> list[str]:
     errors: list[str] = []
+    root_schema = root_schema or schema
+    if "$ref" in schema:
+        reference = schema["$ref"]
+        if not isinstance(reference, str) or not reference.startswith("#/"):
+            return [f"{location}: unsupported schema reference {reference!r}"]
+        target: Any = root_schema
+        for part in reference[2:].split("/"):
+            target = target.get(part) if isinstance(target, dict) else None
+        if not isinstance(target, dict):
+            return [f"{location}: unresolved schema reference {reference!r}"]
+        return validate_json_schema(value, target, location, root_schema)
     expected = schema.get("type")
     if expected is not None:
         choices = expected if isinstance(expected, list) else [expected]
@@ -152,7 +171,7 @@ def validate_json_schema(value: Any, schema: dict[str, Any], location: str) -> l
         if len(value) < int(schema.get("minItems", 0)): errors.append(f"{location}: array is shorter than minItems")
         if schema.get("uniqueItems") and len({canonical_json(item) for item in value}) != len(value): errors.append(f"{location}: array items must be unique")
         if isinstance(schema.get("items"), dict):
-            for index, item in enumerate(value): errors.extend(validate_json_schema(item, schema["items"], f"{location}[{index}]"))
+            for index, item in enumerate(value): errors.extend(validate_json_schema(item, schema["items"], f"{location}[{index}]", root_schema))
     if isinstance(value, dict):
         properties = schema.get("properties") or {}
         for required in schema.get("required") or []:
@@ -161,7 +180,7 @@ def validate_json_schema(value: Any, schema: dict[str, Any], location: str) -> l
             for key in value:
                 if key not in properties: errors.append(f"{location}: unknown property {key!r}")
         for key, child in properties.items():
-            if key in value: errors.extend(validate_json_schema(value[key], child, f"{location}.{key}"))
+            if key in value: errors.extend(validate_json_schema(value[key], child, f"{location}.{key}", root_schema))
     return errors
 
 
@@ -204,6 +223,12 @@ def load_dialogue_contracts(root: Path) -> list[dict[str, Any]]:
     return load_json(root / "contracts" / "dialogue" / "storylets.json")["storylets"]
 
 
+def load_topic_coverage(root: Path) -> dict[str, set[str]]:
+    payload = load_json(root / "contracts" / "dialogue" / "topic-coverage.json")
+    return {normalize_locale(locale): set(value.get("readyTopics", []))
+            for locale, value in payload.get("locales", {}).items()}
+
+
 def load_chronicle_contracts(root: Path) -> list[dict[str, Any]]:
     return [item for path in iter_chronicle_contract_files(root) if path.is_file() for item in load_json(path)["pools"]]
 
@@ -230,6 +255,8 @@ def _schema_routes(root: Path) -> list[tuple[Path, str, str | None]]:
     routes += [(path, "ui-contract", None) for path in iter_ui_contract_files(root)]
     routes += [(path, "prompt-contract", None) for path in iter_prompt_contract_files(root)]
     routes += [(root / "contracts" / "dialogue" / "storylets.json", "dialogue-contract", None)]
+    routes += [(root / "contracts" / "dialogue" / "topic-coverage.json",
+                "dialogue-topic-coverage", None)]
     routes += [(path, "chronicle-contract", None) for path in iter_chronicle_contract_files(root)]
     routes += [(path, "link", None) for path in sorted_paths(root / "links", "*.json")]
     routes += [(path, "provenance", normalize_locale(path.stem))
@@ -344,10 +371,17 @@ def _validate_prompts(root: Path, locales: list[str], errors: list[str]) -> None
 def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: str,
                         actor_slots: set[int], allowed_dimensions: set[str],
                         errors: list[str]) -> None:
-    allowed_top = {"actors", "relationshipStates", "causes"}
+    allowed_top = {"actors", "relationshipStates", "causes", "resolvedTopics",
+                   "conversationKinds", "topicDomains", "utteranceModes", "appraisals",
+                   "moodWildcardEmergency"}
     for key in selection:
         if key not in allowed_top: errors.append(f"locales/{locale}/dialogue {candidate_id}: unknown selection dimension {key!r}")
-    enum_fields = {"emotions": ALLOWED_DIALOGUE_EMOTIONS, "intensities": ALLOWED_DIALOGUE_INTENSITIES, "stances": ALLOWED_DIALOGUE_STANCES, "voices": ALLOWED_DIALOGUE_VOICES}
+    enum_fields = {"emotions": ALLOWED_DIALOGUE_EMOTIONS,
+                   "intensities": ALLOWED_DIALOGUE_INTENSITIES,
+                   "stances": ALLOWED_DIALOGUE_STANCES,
+                   "voices": ALLOWED_DIALOGUE_VOICES,
+                   "personalities": ALLOWED_DIALOGUE_PERSONALITIES,
+                   "moods": ALLOWED_DIALOGUE_MOODS}
     for actor in selection.get("actors", []):
         if actor.get("slot") != -1 and actor.get("slot") not in actor_slots: errors.append(f"locales/{locale}/dialogue {candidate_id}: actor selection slot is outside contract")
         for field, allowed in enum_fields.items():
@@ -357,18 +391,32 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
         for key in actor:
             if key not in {"slot", *enum_fields}: errors.append(f"locales/{locale}/dialogue {candidate_id}: unknown actor selection dimension {key!r}")
     for field, allowed in (("relationshipStates", ALLOWED_RELATIONSHIP_STATES),
-                           ("causes", ALLOWED_ARGUMENT_CAUSES)):
+                           ("causes", ALLOWED_ARGUMENT_CAUSES),
+                           ("conversationKinds", ALLOWED_CONVERSATION_KINDS),
+                           ("topicDomains", ALLOWED_TOPIC_DOMAINS),
+                           ("utteranceModes", ALLOWED_UTTERANCE_MODES),
+                           ("appraisals", ALLOWED_APPRAISALS)):
         values = selection.get(field, [])
         if not all(isinstance(value, str) and value in allowed for value in values):
             errors.append(f"locales/{locale}/dialogue {candidate_id}: invalid {field}")
         if values and field not in allowed_dimensions:
             errors.append(f"locales/{locale}/dialogue {candidate_id}: {field} is outside contract selectionDimensions")
+    topics = selection.get("resolvedTopics", [])
+    if not all(isinstance(value, str) and RESOLVED_TOPIC_RE.fullmatch(value)
+               for value in topics):
+        errors.append(f"locales/{locale}/dialogue {candidate_id}: invalid resolvedTopics")
+    if topics and "resolvedTopics" not in allowed_dimensions:
+        errors.append(f"locales/{locale}/dialogue {candidate_id}: resolvedTopics is outside contract selectionDimensions")
+    if selection.get("moodWildcardEmergency") and "moodWildcardEmergency" not in allowed_dimensions:
+        errors.append(f"locales/{locale}/dialogue {candidate_id}: moodWildcardEmergency is outside contract selectionDimensions")
 
 
 def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> None:
     contracts = load_dialogue_contracts(root); by_id = {item["storyletId"]: item for item in contracts}
     errors.extend(_duplicate_errors(contracts, "storyletId", "contracts/dialogue"))
     diversity_by_candidate: dict[str, str] = {}
+    selection_by_candidate: dict[str, str] = {}
+    coverage = load_topic_coverage(root)
     for locale in locales:
         candidates = load_dialogue_locale(root, locale); errors.extend(_duplicate_errors(candidates, "candidateId", f"locales/{locale}/dialogue"))
         ordinals: set[tuple[str, int]] = set()
@@ -382,6 +430,10 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
             previous_diversity = diversity_by_candidate.setdefault(candidate_id, resolved_diversity)
             if previous_diversity != resolved_diversity:
                 errors.append(f"locales/{locale}/dialogue {candidate_id}: diversityKey differs across locales")
+            selection_shape = canonical_json(item.get("selection", {}))
+            previous_selection = selection_by_candidate.setdefault(candidate_id, selection_shape)
+            if previous_selection != selection_shape:
+                errors.append(f"locales/{locale}/dialogue {candidate_id}: selection metadata differs across locales")
             if item.get("contractRevision", 0) > contract["contractRevision"]: errors.append(f"locales/{locale}/dialogue {candidate_id}: future contract revision")
             ordinal_key = (item["storyletId"], item.get("ordinal", 0))
             if ordinal_key in ordinals: errors.append(f"locales/{locale}/dialogue {item['storyletId']}: duplicate ordinal {item.get('ordinal')}")
@@ -398,6 +450,42 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
                 if syntax: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {syntax}")
                 artifact = translation_artifact_error(turn.get("text", ""))
                 if artifact: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {artifact}")
+        _validate_ready_topic_matrix(locale, candidates, by_id, coverage.get(locale, set()), errors)
+
+
+def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
+                                 contracts: dict[str, dict[str, Any]], ready: set[str],
+                                 errors: list[str]) -> None:
+    for topic in sorted(ready):
+        if RESOLVED_TOPIC_RE.fullmatch(topic) is None:
+            errors.append(f"coverage.{locale}: invalid ready Topic {topic!r}")
+            continue
+        cells: dict[tuple[str, str], set[str]] = defaultdict(set)
+        for item in candidates:
+            selection = item.get("selection", {})
+            if topic not in selection.get("resolvedTopics", []):
+                continue
+            contract = contracts.get(item.get("storyletId", ""))
+            if item.get("storyletId") != "Casual" or contract is None or not _eligible(item, contract):
+                continue
+            if selection.get("resolvedTopics") != [topic]:
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: ready candidate must constrain exactly one resolved Topic")
+                continue
+            actor_zero = [actor for actor in selection.get("actors", []) if actor.get("slot") == 0]
+            if len(actor_zero) != 1 or len(actor_zero[0].get("personalities", [])) != 1 or len(actor_zero[0].get("moods", [])) != 1:
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: ready candidate needs exactly one slot 0 personality and mood")
+                continue
+            if any(actor.get("slot") == 1 and actor.get("personalities")
+                   for actor in selection.get("actors", [])):
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: slot 1 personality cannot be mandatory")
+            personality = actor_zero[0]["personalities"][0]
+            mood = actor_zero[0]["moods"][0]
+            cells[(personality, mood)].add(_dialogue_diversity_key(item))
+        for personality in sorted(ALLOWED_DIALOGUE_PERSONALITIES):
+            for mood in sorted(ALLOWED_DIALOGUE_MOODS):
+                count = len(cells.get((personality, mood), set()))
+                if count < 5:
+                    errors.append(f"coverage.{locale}.{topic}: {personality} × {mood} has {count}/5 unique diversityKey candidates")
 
 
 def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> None:
@@ -585,6 +673,7 @@ def _eligible_maps(root: Path):
     prompt_contracts = {item["promptId"]: item for item in load_prompt_contracts(root)}
     dialogue_contracts = {item["storyletId"]: item for item in load_dialogue_contracts(root)}
     chronicle_contracts = {item["poolId"]: item for item in load_chronicle_contracts(root)}
+    topic_coverage = load_topic_coverage(root)
     ui = {}; prompts = {}; dialogue = {}; chronicle = {}
     for locale in locales:
         ui[locale] = {item["key"]: item for item in load_ui_locale(root, locale) if item.get("key") in ui_contracts and _eligible(item, ui_contracts[item["key"]])}
@@ -592,7 +681,11 @@ def _eligible_maps(root: Path):
         dgroups: dict[str, list[dict[str, Any]]] = defaultdict(list)
         for item in load_dialogue_locale(root, locale):
             contract = dialogue_contracts.get(item.get("storyletId"))
-            if contract and _eligible(item, contract): dgroups[item["storyletId"]].append(item)
+            topics = item.get("selection", {}).get("resolvedTopics", [])
+            topic_is_ready = not topics or (len(topics) == 1 and
+                topics[0] in topic_coverage.get(locale, set()))
+            if contract and _eligible(item, contract) and topic_is_ready:
+                dgroups[item["storyletId"]].append(item)
         dialogue[locale] = dgroups
         cgroups: dict[str, list[dict[str, Any]]] = defaultdict(list)
         for item in load_chronicle_locale(root, locale):
@@ -782,6 +875,7 @@ def _dialogue_diversity_key(item: dict[str, Any]) -> str:
 def _resolved_catalogs(root: Path):
     manifest = load_manifest(root); shipped = shipped_locales(root)
     specs, ui_c, prompt_c, dialogue_c, chronicle_c, ui, prompts, dialogue, chronicle = _eligible_maps(root)
+    topic_coverage = load_topic_coverage(root)
     result = {}
     for requested in shipped:
         chain = fallback_chain(requested, shipped, manifest["fallbackLocale"], manifest["defaultLocale"])
@@ -821,6 +915,7 @@ def _resolved_catalogs(root: Path):
         for name, units, maps in (("ui", ui_c, ui), ("prompts", prompt_c, prompts), ("dialogue", dialogue_c, dialogue), ("chronicle", chronicle_c, chronicle)):
             coverage[name], resolutions[name] = _coverage(units, requested, maps, chain)
         result[requested] = {"chain": chain, "ui": ui_entries, "prompts": prompt_entries, "storylets": storylets,
+                             "readyTopics": sorted(topic_coverage.get(requested, set())),
                              "pools": pools, "coverage": coverage, "resolutions": resolutions}
     return manifest, specs, result
 
@@ -832,7 +927,8 @@ def export_dist(root: Path) -> dict[str, bytes]:
     for locale, value in sorted(resolved.items()):
         ui_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"], "entries": value["ui"]}
         prompt_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"], "entries": value["prompts"]}
-        dialogue_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"], "storylets": value["storylets"]}
+        dialogue_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"],
+                            "readyTopics": value["readyTopics"], "storylets": value["storylets"]}
         chronicle_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"], "pools": value["pools"]}
         family_text = {"ui": dumps(ui_payload), "prompts": dumps(prompt_payload),
                        "dialogue": dumps(dialogue_payload), "chronicle": dumps(chronicle_payload)}
@@ -857,6 +953,8 @@ def export_dist(root: Path) -> dict[str, bytes]:
                                  "snapshotHash": _sha(canonical_json(snapshot_material))})
     dist_manifest = {"schemaVersion": 2, "contentVersion": manifest["contentVersion"], "defaultLocale": manifest["defaultLocale"],
                      "fallbackLocale": manifest["fallbackLocale"], "locales": locale_manifests}
+    dist_manifest["topicCoverage"] = {locale: value["readyTopics"]
+                                      for locale, value in sorted(resolved.items())}
     dist_manifest["snapshotHash"] = _sha(canonical_json(dist_manifest))
     files["manifest.json"] = dumps(dist_manifest).encode()
     return dict(sorted(files.items()))

@@ -260,6 +260,67 @@ class I18nValidationTests(unittest.TestCase):
             self.assertTrue(any("invalid causes" in error
                                 for error in validate_catalog(root)))
 
+    def test_non_ready_topic_content_is_valid_but_excluded_from_dist(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/dialogue/casual.json"
+            candidate_id = "storylet.casual.matrix.draft.001"
+            def edit(value):
+                item = dict(value["candidates"][-1])
+                item.update(candidateId=candidate_id, ordinal=999,
+                            diversityKey="observation")
+                item["selection"] = {"resolvedTopics": ["recent.food.appraise_positive"],
+                                     "actors": [{"slot": 0,
+                                                 "personalities": ["athlete"],
+                                                 "moods": ["settled"]}]}
+                value["candidates"].append(item)
+            self.rewrite(path, edit)
+            self.refresh_target_provenance(root, "en", "dialogue/casual.json")
+            self.assertEqual([], validate_catalog(root), "athlete is a valid primary personality")
+            payload = json.loads(export_dist(root)["dialogue/en.json"])
+            ids = {item["candidateId"] for item in payload["storylets"]["Casual"]["candidates"]}
+            self.assertNotIn(candidate_id, ids)
+
+    def test_ready_topic_requires_all_65_cells_and_five_diversity_keys(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            coverage = root / "contracts/dialogue/topic-coverage.json"
+            self.rewrite(coverage, lambda value: value["locales"]["en"]["readyTopics"].append(
+                "recent.food.appraise_positive"))
+            errors = validate_catalog(root)
+            self.assertTrue(any("hothead × settled has 0/5" in error for error in errors))
+            self.assertTrue(any("athlete × overwhelmed has 0/5" in error for error in errors))
+
+    def test_ready_topic_rejects_mandatory_listener_personality(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/dialogue/casual.json"
+            topic = "recent.food.appraise_positive"
+            def edit(value):
+                item = dict(value["candidates"][-1])
+                item.update(candidateId="storylet.casual.matrix.listener.001", ordinal=999,
+                            diversityKey="observation")
+                item["selection"] = {"resolvedTopics": [topic], "actors": [
+                    {"slot": 0, "personalities": ["hothead"], "moods": ["settled"]},
+                    {"slot": 1, "personalities": ["gentle"]}]}
+                value["candidates"].append(item)
+            self.rewrite(path, edit)
+            self.refresh_target_provenance(root, "en", "dialogue/casual.json")
+            coverage = root / "contracts/dialogue/topic-coverage.json"
+            self.rewrite(coverage, lambda value: value["locales"]["en"]["readyTopics"].append(topic))
+            self.assertTrue(any("slot 1 personality cannot be mandatory" in error
+                                for error in validate_catalog(root)))
+
+    def test_selection_metadata_must_match_when_candidate_id_is_shared(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/dialogue/casual.json"
+            self.rewrite(path, lambda value: value["candidates"][0]["selection"].update(
+                moods=["settled"]))
+            self.refresh_target_provenance(root, "en", "dialogue/casual.json")
+            self.assertTrue(any("selection metadata differs across locales" in error
+                                for error in validate_catalog(root)))
+
     def test_stability_rejects_removing_a_published_ordinal(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/chronicle/routine.json"
