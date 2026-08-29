@@ -6455,10 +6455,10 @@
       "familyHashes": {
         "ui": "sha256:2cf297aeb98bfd1a4b6a6630dc2ade26d33edbf2729e5329a8f2748279f63604",
         "prompts": "sha256:efb5c79fe57244d73f804662307f0046df09082d4985c14da4f040eb86a7a2ca",
-        "dialogue": "sha256:3c6b24741520afceb252ab3e0b32fbc36e2d275a3a9023d5f370a05a32e04bcd",
+        "dialogue": "sha256:ad88d7ac055a028e4b4dd18aefbabf0962927bb26cee36f647350b7b03dba482",
         "chronicle": "sha256:ec6c88c4728649f29af5e90d026a92be794f2b5046ce15c946f664bc25571f4b"
       },
-      "snapshotHash": "sha256:fe62d73fe25ada973469f9f18aa0da3f9554795ac5e0f1721e383a941fb9f9ed"
+      "snapshotHash": "sha256:2f88e5952101db073d12f2df1ffe2228c527b36330503bd51c725857c69a7089"
     }
   ],
   "topicCoverage": {
@@ -6467,7 +6467,10 @@
     "ko": [],
     "ru": [],
     "vi": [],
-    "zh": []
+    "zh": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative"
+    ]
   },
-  "snapshotHash": "sha256:b17df18f1bab39bc49efb49994006bf7d84c4603df03e78455dedb6f766b4f42"
+  "snapshotHash": "sha256:1add036e5d7eea7b1d96967b42cb2bbf176eea11de0c518f709ba9e161c47f5f"
 }
