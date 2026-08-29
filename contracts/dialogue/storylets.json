@@ -316,6 +316,19 @@
       ]
     },
     {
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 45,
+      "actorSlots": [
+        0
+      ],
+      "selectionDimensions": [
+        "utteranceModes",
+        "appraisals"
+      ]
+    },
+    {
       "storyletId": "ListenerResponse",
       "contractRevision": 1,
       "requiredForStable": true,

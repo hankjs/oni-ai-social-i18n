@@ -1,10 +1,10 @@
 {
   "type": "object", "additionalProperties": false,
-  "required": ["schemaVersion", "fallbackTopics", "locales"],
+  "required": ["schemaVersion", "nativeTemplateAxes", "locales"],
   "properties": {
-    "schemaVersion": { "const": 2 },
-    "fallbackTopics": { "type": "array", "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 } },
+    "schemaVersion": { "const": 3 },
+    "nativeTemplateAxes": { "type": "array", "minItems": 9, "maxItems": 9,
+      "items": { "$ref": "#/$defs/nativeTemplateAxis" } },
     "locales": {
       "type": "object", "additionalProperties": false,
       "required": ["zh", "en", "ko", "ru", "ja", "vi"],
@@ -19,6 +19,14 @@
     }
   },
   "$defs": {
+    "nativeTemplateAxis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["utteranceMode", "appraisal"],
+      "properties": {
+        "utteranceMode": { "type": "string", "minLength": 1 },
+        "appraisal": { "type": "string", "minLength": 1 }
+      }
+    },
     "locale": {
       "type": "object", "additionalProperties": false, "required": ["readyTopics"],
       "properties": {

@@ -236,9 +236,10 @@ def load_topic_coverage(root: Path) -> dict[str, set[str]]:
             for locale, value in payload.get("locales", {}).items()}
 
 
-def load_topic_fallbacks(root: Path) -> set[str]:
+def load_native_template_axes(root: Path) -> set[tuple[str, str]]:
     payload = load_json(root / "contracts" / "dialogue" / "topic-coverage.json")
-    return set(payload.get("fallbackTopics", []))
+    return {(item.get("utteranceMode", ""), item.get("appraisal", ""))
+            for item in payload.get("nativeTemplateAxes", [])}
 
 
 def load_chronicle_contracts(root: Path) -> list[dict[str, Any]]:
@@ -431,11 +432,7 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
     diversity_by_candidate: dict[str, str] = {}
     selection_by_candidate: dict[str, str] = {}
     coverage = load_topic_coverage(root)
-    fallback_topics = load_topic_fallbacks(root)
-    duplicated = fallback_topics.intersection(
-        topic for ready in coverage.values() for topic in ready)
-    if duplicated:
-        errors.append(f"coverage: Topic cannot be both ready and fallback: {sorted(duplicated)[0]}")
+    native_template_axes = load_native_template_axes(root)
     for locale in locales:
         candidates = load_dialogue_locale(root, locale); errors.extend(_duplicate_errors(candidates, "candidateId", f"locales/{locale}/dialogue"))
         ordinals: set[tuple[str, int]] = set()
@@ -470,7 +467,8 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
                 artifact = translation_artifact_error(turn.get("text", ""))
                 if artifact: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {artifact}")
         _validate_ready_topic_matrix(locale, candidates, by_id, coverage.get(locale, set()), errors)
-        _validate_topic_fallbacks(locale, candidates, by_id, fallback_topics, errors)
+        _validate_native_utterance_templates(locale, candidates, by_id,
+                                             native_template_axes, errors)
 
 
 def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
@@ -508,63 +506,41 @@ def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
                     errors.append(f"coverage.{locale}.{topic}: {personality} × {mood} has {count}/5 unique diversityKey candidates")
 
 
-def _topic_axes(topic: str) -> tuple[str, str, str, str] | None:
-    modes = {
-        "query": ("query", "unspecified"),
-        "assertion": ("statement", "unspecified"),
-        "agreement": ("agreement", "unspecified"),
-        "disagreement": ("disagreement", "unspecified"),
-        "reflect": ("musing", "unspecified"),
-        "appraise_positive": ("satisfaction", "positive"),
-        "appraise_neutral": ("nominal", "neutral"),
-        "appraise_negative": ("dissatisfaction", "negative"),
-        "appraise_stressed": ("stressing", "stressed"),
-    }
-    if topic.startswith("current_job."):
-        kind, domain, suffix = "current_job", "current_job", topic.removeprefix("current_job.")
-    else:
-        parts = topic.split(".", 2)
-        if len(parts) != 3 or parts[0] not in {"amount", "recent"}:
-            return None
-        kind = "amount_state" if parts[0] == "amount" else "recent_thing"
-        domain, suffix = parts[1], parts[2]
-    meaning = modes.get(suffix)
-    return (kind, domain, *meaning) if meaning else None
-
-
-def _validate_topic_fallbacks(locale: str, candidates: list[dict[str, Any]],
-                              contracts: dict[str, dict[str, Any]], fallback: set[str],
-                              errors: list[str]) -> None:
-    for topic in sorted(fallback):
-        axes = _topic_axes(topic)
-        if RESOLVED_TOPIC_RE.fullmatch(topic) is None or axes is None:
-            errors.append(f"coverage.{locale}: invalid fallback Topic {topic!r}")
-            continue
+def _validate_native_utterance_templates(locale: str,
+                                         candidates: list[dict[str, Any]],
+                                         contracts: dict[str, dict[str, Any]],
+                                         axes: set[tuple[str, str]],
+                                         errors: list[str]) -> None:
+    if len(axes) != 9:
+        errors.append("coverage.nativeTemplateAxes: expected 9 unique mode/appraisal axes")
+    for mode, appraisal in sorted(axes):
         diversity: set[str] = set()
         for item in candidates:
             selection = item.get("selection", {})
-            if topic not in selection.get("resolvedTopics", []):
+            actual = (selection.get("utteranceModes", []),
+                      selection.get("appraisals", []))
+            if actual != ([mode], [appraisal]):
                 continue
             contract = contracts.get(item.get("storyletId", ""))
-            if item.get("storyletId") != "Casual" or contract is None or not _eligible(item, contract):
+            if (item.get("storyletId") != "NativeUtterance" or contract is None
+                    or not _eligible(item, contract)):
                 continue
-            if selection.get("resolvedTopics") != [topic]:
-                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: fallback candidate must constrain exactly one resolved Topic")
+            if set(selection) != {"utteranceModes", "appraisals"}:
+                errors.append(f"coverage.{locale}.{mode}.{appraisal} "
+                              f"{item.get('candidateId')}: native template may only "
+                              "constrain utteranceMode and appraisal")
                 continue
-            if selection.get("actors"):
-                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: topic-generic fallback cannot constrain actor personality or mood")
-                continue
-            expected = ([axes[0]], [axes[1]], [axes[2]], [axes[3]])
-            actual = (selection.get("conversationKinds", []),
-                      selection.get("topicDomains", []),
-                      selection.get("utteranceModes", []),
-                      selection.get("appraisals", []))
-            if actual != expected:
-                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: fallback semantic axes do not match Topic")
+            turns = item.get("turns", [])
+            if (len(turns) != 1 or turns[0].get("speakerSlot") != 0
+                    or turns[0].get("text", "").count("{subject}") != 1):
+                errors.append(f"coverage.{locale}.{mode}.{appraisal} "
+                              f"{item.get('candidateId')}: native template must have one "
+                              "speaker turn containing exactly one {subject} placeholder")
                 continue
             diversity.add(_dialogue_diversity_key(item))
-        if len(diversity) < 5:
-            errors.append(f"coverage.{locale}.{topic}: topic-generic fallback has {len(diversity)}/5 unique diversityKey candidates")
+        if len(diversity) != 5:
+            errors.append(f"coverage.{locale}.{mode}.{appraisal}: native utterance "
+                          f"templates have {len(diversity)}/5 unique diversityKey candidates")
 
 
 def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> None:
@@ -753,7 +729,6 @@ def _eligible_maps(root: Path):
     dialogue_contracts = {item["storyletId"]: item for item in load_dialogue_contracts(root)}
     chronicle_contracts = {item["poolId"]: item for item in load_chronicle_contracts(root)}
     topic_coverage = load_topic_coverage(root)
-    topic_fallbacks = load_topic_fallbacks(root)
     ui = {}; prompts = {}; dialogue = {}; chronicle = {}
     for locale in locales:
         ui[locale] = {item["key"]: item for item in load_ui_locale(root, locale) if item.get("key") in ui_contracts and _eligible(item, ui_contracts[item["key"]])}
@@ -763,8 +738,7 @@ def _eligible_maps(root: Path):
             contract = dialogue_contracts.get(item.get("storyletId"))
             topics = item.get("selection", {}).get("resolvedTopics", [])
             topic_is_exportable = not topics or (len(topics) == 1 and
-                (topics[0] in topic_coverage.get(locale, set()) or
-                 topics[0] in topic_fallbacks))
+                topics[0] in topic_coverage.get(locale, set()))
             if contract and _eligible(item, contract) and topic_is_exportable:
                 dgroups[item["storyletId"]].append(item)
         dialogue[locale] = dgroups

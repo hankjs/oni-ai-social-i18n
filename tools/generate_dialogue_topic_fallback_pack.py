@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Generate reviewed topic-generic dialogue for leaves observed in the 2026-08-29 run.
+"""Generate the reviewed native-utterance template matrix.
 
-These are complete materialized turns, not runtime fragments. They deliberately remain
-topic-generic fallback instead of pretending to satisfy the 13 personality x 5 mood Ready gate.
+The TopicRegistry owns the set of Conversation leaves.  This pack owns only the nine
+speech-act/appraisal shapes and deliberately binds ``{subject}`` at presentation time.
+That makes every authored Conversation leaf renderable without maintaining an
+ever-growing list of prefab ids or observed Topics in localization data.
 """
 
 from __future__ import annotations
@@ -17,30 +19,6 @@ ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ["zh", "en", "ko", "ru", "ja", "vi"]
 TARGET_LOCALES = LOCALES[1:]
 
-TOPICS = [
-    "current_job.query",
-    "amount.health.appraise_positive", "amount.health.query", "amount.health.agreement",
-    "amount.morale.appraise_positive", "amount.morale.query", "amount.morale.agreement",
-    "amount.immunity.appraise_positive", "amount.immunity.query", "amount.immunity.agreement",
-    "amount.stress.appraise_positive", "amount.stress.query", "amount.stress.agreement",
-    "amount.satiety.appraise_neutral", "amount.satiety.query",
-    "amount.satiety.appraise_positive", "amount.satiety.reflect", "amount.satiety.agreement",
-    "amount.stamina.appraise_positive", "amount.stamina.query", "amount.stamina.agreement",
-    "amount.stamina.appraise_neutral", "amount.stamina.reflect",
-    "recent.building.query", "recent.building.assertion", "recent.building.reflect",
-    "recent.building.agreement", "recent.building.disagreement",
-    "recent.building.appraise_negative", "recent.building.appraise_positive",
-    "recent.food.assertion", "recent.food.query", "recent.food.reflect",
-    "recent.food.agreement", "recent.food.appraise_positive", "recent.food.disagreement",
-    "recent.food.appraise_negative",
-    "recent.bed.query", "recent.bed.reflect", "recent.bed.agreement",
-    "recent.bed.appraise_positive", "recent.bed.assertion", "recent.bed.disagreement",
-    "recent.bed.appraise_negative",
-    "recent.item.query", "recent.item.assertion", "recent.item.agreement",
-    "recent.item.reflect", "recent.item.appraise_positive", "recent.item.disagreement",
-    "recent.item.appraise_negative",
-]
-
 MODE = {
     "query": ("query", "unspecified"),
     "assertion": ("statement", "unspecified"),
@@ -50,37 +28,7 @@ MODE = {
     "appraise_positive": ("satisfaction", "positive"),
     "appraise_neutral": ("nominal", "neutral"),
     "appraise_negative": ("dissatisfaction", "negative"),
-}
-
-SUBJECTS = {
-    "zh": {"health": "当前健康", "morale": "当前士气", "immunity": "当前免疫状态",
-           "stress": "当前压力", "satiety": "当前饱腹状态", "stamina": "当前体力",
-           "building": "刚提到的建筑", "food": "刚提到的食物", "bed": "刚提到的床铺",
-           "item": "刚提到的物品", "current_job": "当前工作"},
-    "en": {"health": "current health", "morale": "current morale",
-           "immunity": "current immunity", "stress": "current stress",
-           "satiety": "current calorie reserve", "stamina": "current stamina",
-           "building": "that building", "food": "that food", "bed": "that bed",
-           "item": "that item", "current_job": "the current job"},
-    "ko": {"health": "현재 건강", "morale": "현재 사기", "immunity": "현재 면역 상태",
-           "stress": "현재 스트레스", "satiety": "현재 칼로리 상태", "stamina": "현재 체력",
-           "building": "방금 말한 건물", "food": "방금 말한 음식", "bed": "방금 말한 침대",
-           "item": "방금 말한 물건", "current_job": "현재 작업"},
-    "ru": {"health": "текущее здоровье", "morale": "текущий моральный дух",
-           "immunity": "текущий иммунитет", "stress": "текущий стресс",
-           "satiety": "текущий запас калорий", "stamina": "текущая выносливость",
-           "building": "это здание", "food": "эта еда", "bed": "эта кровать",
-           "item": "этот предмет", "current_job": "текущая работа"},
-    "ja": {"health": "現在の健康", "morale": "現在の士気", "immunity": "現在の免疫状態",
-           "stress": "現在のストレス", "satiety": "現在のカロリー残量", "stamina": "現在の体力",
-           "building": "さっきの建物", "food": "さっきの食べ物", "bed": "さっきのベッド",
-           "item": "さっきの物", "current_job": "現在の仕事"},
-    "vi": {"health": "sức khỏe hiện tại", "morale": "tinh thần hiện tại",
-           "immunity": "miễn dịch hiện tại", "stress": "mức căng thẳng hiện tại",
-           "satiety": "lượng calo hiện tại", "stamina": "thể lực hiện tại",
-           "building": "công trình vừa nhắc", "food": "món ăn vừa nhắc",
-           "bed": "chiếc giường vừa nhắc", "item": "vật phẩm vừa nhắc",
-           "current_job": "công việc hiện tại"},
+    "appraise_stressed": ("stressing", "stressed"),
 }
 
 LINES = {
@@ -93,6 +41,7 @@ LINES = {
         "appraise_positive": ["{subject}现在的情况挺不错。", "说到{subject}，这次结果让我满意。", "{subject}终于出现了好转。", "我喜欢{subject}目前的状态。", "{subject}这方面值得肯定。"],
         "appraise_neutral": ["{subject}目前算是正常。", "{subject}没有明显好坏变化。", "按现状看，{subject}处在普通水平。", "{subject}现在没什么特别的。", "先记作稳定：{subject}没有偏离常态。"],
         "appraise_negative": ["{subject}现在的情况不太好。", "说到{subject}，这次结果让我不满意。", "{subject}已经出现了需要处理的问题。", "我不喜欢{subject}目前的状态。", "{subject}这方面得尽快改善。"],
+        "appraise_stressed": ["{subject}让我有点喘不过气。", "一想到{subject}，压力就上来了。", "{subject}已经紧张到不能忽视。", "我得先缓一缓，再处理{subject}。", "{subject}这件事正压得我心烦。"],
     },
     "en": {
         "query": ["What do you think about {subject}?", "What have you noticed about {subject}?", "Can you describe how {subject} stands now?", "What matters most to you about {subject}?", "Should we check {subject} once more?"],
@@ -103,6 +52,7 @@ LINES = {
         "appraise_positive": ["{subject} is looking good right now.", "This result for {subject} satisfies me.", "{subject} has finally improved.", "I like the current state of {subject}.", "{subject} deserves a positive note."],
         "appraise_neutral": ["{subject} is normal for now.", "{subject} shows no strong change either way.", "At present, {subject} sits at an ordinary level.", "There is nothing unusual about {subject} right now.", "Mark {subject} as stable and within the usual range."],
         "appraise_negative": ["{subject} is not looking good right now.", "This result for {subject} disappoints me.", "{subject} now has a problem that needs attention.", "I dislike the current state of {subject}.", "{subject} needs improvement soon."],
+        "appraise_stressed": ["{subject} is putting me under real pressure.", "Just thinking about {subject} raises my stress.", "{subject} has become too tense to ignore.", "I need a moment before I deal with {subject}.", "The situation with {subject} is weighing on me."],
     },
     "ko": {
         "query": ["{subject}, 어떻게 생각해?", "{subject}에서 뭘 발견했어?", "{subject}의 지금 상태를 말해 줄래?", "{subject}에서 가장 신경 쓰이는 점은 뭐야?", "{subject}를 한 번 더 확인할까?"],
@@ -113,6 +63,7 @@ LINES = {
         "appraise_positive": ["{subject}의 지금 상태가 좋아.", "{subject}의 이번 결과는 만족스러워.", "{subject}가 드디어 나아졌어.", "{subject}의 현재 상태가 마음에 들어.", "{subject}는 긍정적으로 평가할 만해."],
         "appraise_neutral": ["{subject}는 지금 정상 수준이야.", "{subject}에는 뚜렷한 좋고 나쁨이 없어.", "현재 {subject}는 평범한 수준이야.", "지금 {subject}에는 특별한 점이 없어.", "{subject}는 안정적이고 평소 범위야."],
         "appraise_negative": ["{subject}의 지금 상태가 좋지 않아.", "{subject}의 이번 결과는 실망스러워.", "{subject}에 처리해야 할 문제가 생겼어.", "{subject}의 현재 상태가 마음에 안 들어.", "{subject}는 빨리 개선해야 해."],
+        "appraise_stressed": ["{subject} 때문에 압박감이 심해.", "{subject} 생각만 해도 스트레스가 올라.", "{subject}는 그냥 넘기기엔 너무 긴장돼.", "{subject}를 처리하기 전에 잠깐 숨을 돌려야겠어.", "{subject} 상황이 계속 마음을 짓눌러."],
     },
     "ru": {
         "query": ["Что ты думаешь про «{subject}»?", "Что ты заметил в теме «{subject}»?", "Опишешь нынешнее состояние: {subject}?", "Что важнее всего в теме «{subject}»?", "Проверим ещё раз: {subject}?"],
@@ -123,6 +74,7 @@ LINES = {
         "appraise_positive": ["Сейчас всё выглядит хорошо: {subject}.", "Этот результат меня радует: {subject}.", "Наконец заметно улучшение: {subject}.", "Мне нравится нынешнее состояние: {subject}.", "Здесь есть за что похвалить: {subject}."],
         "appraise_neutral": ["Пока всё в норме: {subject}.", "Нет явного изменения в любую сторону: {subject}.", "Сейчас это обычный уровень: {subject}.", "Пока ничего особенного: {subject}.", "Отметим стабильность в обычном диапазоне: {subject}."],
         "appraise_negative": ["Сейчас всё выглядит плохо: {subject}.", "Этот результат меня разочаровывает: {subject}.", "Появилась проблема, требующая внимания: {subject}.", "Мне не нравится нынешнее состояние: {subject}.", "Это нужно скорее улучшить: {subject}."],
+        "appraise_stressed": ["Тема «{subject}» сильно давит на меня.", "Стоит подумать про «{subject}», и стресс растёт.", "Напряжение вокруг темы «{subject}» уже нельзя игнорировать.", "Мне нужна пауза, прежде чем заняться темой «{subject}».", "Ситуация «{subject}» не даёт мне покоя."],
     },
     "ja": {
         "query": ["{subject}について、どう思う？", "{subject}で何か気づいた？", "{subject}の今の状態を教えてくれる？", "{subject}で一番気になる点は何？", "{subject}をもう一度確かめようか？"],
@@ -133,6 +85,7 @@ LINES = {
         "appraise_positive": ["{subject}は今、いい状態だ。", "{subject}の今回の結果には満足している。", "{subject}がようやく良くなった。", "{subject}の今の状態が気に入った。", "{subject}は良い評価に値する。"],
         "appraise_neutral": ["{subject}は今のところ正常だ。", "{subject}には良くも悪くも大きな変化がない。", "現在の{subject}は普通の水準だ。", "今の{subject}に特別な点はない。", "{subject}は安定し、通常範囲にある。"],
         "appraise_negative": ["{subject}は今、よくない状態だ。", "{subject}の今回の結果には不満がある。", "{subject}に対処が必要な問題が出た。", "{subject}の今の状態は気に入らない。", "{subject}は早めに改善が必要だ。"],
+        "appraise_stressed": ["{subject}のことでかなり圧迫されている。", "{subject}を考えるだけでストレスが上がる。", "{subject}の緊張はもう無視できない。", "{subject}に対処する前に少し息を整えたい。", "{subject}の状況がずっと重くのしかかっている。"],
     },
     "vi": {
         "query": ["Bạn nghĩ gì về {subject}?", "Bạn nhận thấy gì ở {subject}?", "Bạn mô tả tình trạng của {subject} được không?", "Điều gì ở {subject} khiến bạn quan tâm nhất?", "Ta kiểm tra lại {subject} nhé?"],
@@ -143,58 +96,33 @@ LINES = {
         "appraise_positive": ["{subject} hiện đang ở tình trạng tốt.", "Kết quả này của {subject} làm tôi hài lòng.", "{subject} cuối cùng đã tốt lên.", "Tôi thích trạng thái hiện tại của {subject}.", "{subject} xứng đáng được đánh giá tích cực."],
         "appraise_neutral": ["{subject} hiện vẫn bình thường.", "{subject} không thay đổi rõ theo hướng tốt hay xấu.", "Hiện tại, {subject} ở mức thông thường.", "Lúc này {subject} không có gì đặc biệt.", "Ghi nhận {subject} ổn định trong phạm vi thường."],
         "appraise_negative": ["{subject} hiện không ở tình trạng tốt.", "Kết quả này của {subject} làm tôi thất vọng.", "{subject} đã có vấn đề cần xử lý.", "Tôi không thích trạng thái hiện tại của {subject}.", "{subject} cần sớm được cải thiện."],
+        "appraise_stressed": ["{subject} đang tạo áp lực thật sự cho tôi.", "Chỉ nghĩ đến {subject} là tôi đã căng thẳng.", "{subject} đã căng đến mức không thể bỏ qua.", "Tôi cần nghỉ một chút trước khi xử lý {subject}.", "Tình hình của {subject} đang đè nặng lên tôi."],
     },
 }
 
-LISTENERS = {
-    "zh": ["我听见了，我们按这个线索继续。", "明白，我会把这点记住。", "好，我们先核对证据再行动。", "我在听；这件事值得认真处理。", "收到，我们一步一步来。"],
-    "en": ["I hear you; we'll follow that lead.", "Understood; I'll remember that point.", "All right, we'll check the evidence before acting.", "I'm listening; this deserves proper attention.", "Got it; we'll take it one step at a time."],
-    "ko": ["들었어. 그 단서를 따라가자.", "알겠어. 그 점을 기억할게.", "좋아. 행동하기 전에 근거부터 확인하자.", "듣고 있어. 제대로 살펴볼 일이야.", "확인했어. 한 단계씩 하자."],
-    "ru": ["Я услышал; пойдём по этой подсказке.", "Понятно; я запомню этот момент.", "Хорошо, сначала проверим факты.", "Я слушаю; это заслуживает внимания.", "Принято; будем действовать по шагам."],
-    "ja": ["聞いたよ。その手がかりを追おう。", "分かった。その点を覚えておく。", "よし、動く前に根拠を確かめよう。", "聞いているよ。きちんと扱うべきことだ。", "了解。一段ずつ進めよう。"],
-    "vi": ["Tôi nghe rồi; ta sẽ theo đầu mối đó.", "Hiểu; tôi sẽ nhớ điểm này.", "Được, ta kiểm tra bằng chứng trước khi hành động.", "Tôi đang nghe; việc này đáng được xem xét nghiêm túc.", "Rõ rồi; ta làm từng bước một."],
-}
-
-
-def metadata(topic: str) -> tuple[str, str, str, str]:
-    if topic.startswith("current_job."):
-        kind, domain, suffix = "current_job", "current_job", topic.removeprefix("current_job.")
-    else:
-        family, domain, suffix = topic.split(".", 2)
-        kind = "amount_state" if family == "amount" else "recent_thing"
-    mode, appraisal = MODE[suffix]
-    return kind, domain, mode, appraisal
-
-
 def build(locale: str) -> dict:
     candidates = []
-    for offset, topic in enumerate(TOPICS):
-        kind, domain, mode, appraisal = metadata(topic)
-        suffix = topic.split(".", 2)[-1] if not topic.startswith("current_job.") else "query"
-        subject = SUBJECTS[locale][domain]
+    for offset, (suffix, (mode, appraisal)) in enumerate(MODE.items()):
         for angle, template in enumerate(LINES[locale][suffix], 1):
-            candidate_id = f"topic-fallback.{topic.replace('_', '-')}.angle-{angle}"
+            candidate_id = f"native-utterance.base.{suffix.replace('_', '-')}.angle-{angle}"
             candidates.append({
                 "candidateId": candidate_id,
                 "diversityKey": candidate_id,
-                "storyletId": "Casual",
+                "storyletId": "NativeUtterance",
                 "contractRevision": 1,
                 "status": "reviewed",
                 "selection": {
-                    "resolvedTopics": [topic], "conversationKinds": [kind],
-                    "topicDomains": [domain], "utteranceModes": [mode],
+                    "utteranceModes": [mode],
                     "appraisals": [appraisal],
                 },
                 "weight": 1,
-                "ordinal": 20_000 + offset * 5 + angle,
+                "ordinal": offset * 5 + angle,
                 "turns": [
                     {"turnId": "speaker", "speakerSlot": 0,
-                     "text": template.format(subject=subject)},
-                    {"turnId": "listener", "speakerSlot": 1,
-                     "text": LISTENERS[locale][angle - 1]},
+                     "text": template},
                 ],
             })
-    return {"locale": locale, "family": "casual-topic-fallback-pack",
+    return {"locale": locale, "family": "native-utterance-template-pack",
             "candidates": candidates}
 
 
@@ -249,7 +177,7 @@ def main() -> None:
     args = parser.parse_args()
     locales = LOCALES if args.locale == "all" else [args.locale]
     generate(locales, args.check)
-    print(f"Topic fallback pack {'clean' if args.check else 'written'}: "
+    print(f"Native utterance template pack {'clean' if args.check else 'written'}: "
           f"{len(build(locales[0])['candidates'])} candidates × {len(locales)} locale(s)")
 
 

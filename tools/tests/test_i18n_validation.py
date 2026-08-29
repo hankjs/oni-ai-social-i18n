@@ -311,17 +311,17 @@ class I18nValidationTests(unittest.TestCase):
             self.assertTrue(any("slot 1 personality cannot be mandatory" in error
                                 for error in validate_catalog(root)))
 
-    def test_fallback_topic_requires_five_topic_generic_angles(self) -> None:
+    def test_native_utterance_axis_requires_five_angles(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary)
             path = root / "locales/en/dialogue/topic-fallback.json"
             self.rewrite(path, lambda value: value.update(candidates=[item
                 for item in value["candidates"]
                 if item["candidateId"] !=
-                "topic-fallback.current-job.query.angle-5"]))
+                "native-utterance.base.query.angle-5"]))
             self.refresh_target_provenance(root, "en", "dialogue/topic-fallback.json")
             errors = validate_catalog(root)
-            self.assertTrue(any("current_job.query: topic-generic fallback has 4/5"
+            self.assertTrue(any("query.unspecified: native utterance templates have 4/5"
                                 in error for error in errors))
 
     def test_selection_metadata_must_match_when_candidate_id_is_shared(self) -> None:
