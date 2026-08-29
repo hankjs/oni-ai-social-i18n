@@ -1,8 +1,10 @@
 {
   "type": "object", "additionalProperties": false,
-  "required": ["schemaVersion", "locales"],
+  "required": ["schemaVersion", "fallbackTopics", "locales"],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": { "const": 2 },
+    "fallbackTopics": { "type": "array", "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 } },
     "locales": {
       "type": "object", "additionalProperties": false,
       "required": ["zh", "en", "ko", "ru", "ja", "vi"],

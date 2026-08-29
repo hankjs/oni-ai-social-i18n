@@ -236,6 +236,11 @@ def load_topic_coverage(root: Path) -> dict[str, set[str]]:
             for locale, value in payload.get("locales", {}).items()}
 
 
+def load_topic_fallbacks(root: Path) -> set[str]:
+    payload = load_json(root / "contracts" / "dialogue" / "topic-coverage.json")
+    return set(payload.get("fallbackTopics", []))
+
+
 def load_chronicle_contracts(root: Path) -> list[dict[str, Any]]:
     return [item for path in iter_chronicle_contract_files(root) if path.is_file() for item in load_json(path)["pools"]]
 
@@ -426,6 +431,11 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
     diversity_by_candidate: dict[str, str] = {}
     selection_by_candidate: dict[str, str] = {}
     coverage = load_topic_coverage(root)
+    fallback_topics = load_topic_fallbacks(root)
+    duplicated = fallback_topics.intersection(
+        topic for ready in coverage.values() for topic in ready)
+    if duplicated:
+        errors.append(f"coverage: Topic cannot be both ready and fallback: {sorted(duplicated)[0]}")
     for locale in locales:
         candidates = load_dialogue_locale(root, locale); errors.extend(_duplicate_errors(candidates, "candidateId", f"locales/{locale}/dialogue"))
         ordinals: set[tuple[str, int]] = set()
@@ -460,6 +470,7 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
                 artifact = translation_artifact_error(turn.get("text", ""))
                 if artifact: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {artifact}")
         _validate_ready_topic_matrix(locale, candidates, by_id, coverage.get(locale, set()), errors)
+        _validate_topic_fallbacks(locale, candidates, by_id, fallback_topics, errors)
 
 
 def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
@@ -495,6 +506,65 @@ def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
                 count = len(cells.get((personality, mood), set()))
                 if count < 5:
                     errors.append(f"coverage.{locale}.{topic}: {personality} × {mood} has {count}/5 unique diversityKey candidates")
+
+
+def _topic_axes(topic: str) -> tuple[str, str, str, str] | None:
+    modes = {
+        "query": ("query", "unspecified"),
+        "assertion": ("statement", "unspecified"),
+        "agreement": ("agreement", "unspecified"),
+        "disagreement": ("disagreement", "unspecified"),
+        "reflect": ("musing", "unspecified"),
+        "appraise_positive": ("satisfaction", "positive"),
+        "appraise_neutral": ("nominal", "neutral"),
+        "appraise_negative": ("dissatisfaction", "negative"),
+        "appraise_stressed": ("stressing", "stressed"),
+    }
+    if topic.startswith("current_job."):
+        kind, domain, suffix = "current_job", "current_job", topic.removeprefix("current_job.")
+    else:
+        parts = topic.split(".", 2)
+        if len(parts) != 3 or parts[0] not in {"amount", "recent"}:
+            return None
+        kind = "amount_state" if parts[0] == "amount" else "recent_thing"
+        domain, suffix = parts[1], parts[2]
+    meaning = modes.get(suffix)
+    return (kind, domain, *meaning) if meaning else None
+
+
+def _validate_topic_fallbacks(locale: str, candidates: list[dict[str, Any]],
+                              contracts: dict[str, dict[str, Any]], fallback: set[str],
+                              errors: list[str]) -> None:
+    for topic in sorted(fallback):
+        axes = _topic_axes(topic)
+        if RESOLVED_TOPIC_RE.fullmatch(topic) is None or axes is None:
+            errors.append(f"coverage.{locale}: invalid fallback Topic {topic!r}")
+            continue
+        diversity: set[str] = set()
+        for item in candidates:
+            selection = item.get("selection", {})
+            if topic not in selection.get("resolvedTopics", []):
+                continue
+            contract = contracts.get(item.get("storyletId", ""))
+            if item.get("storyletId") != "Casual" or contract is None or not _eligible(item, contract):
+                continue
+            if selection.get("resolvedTopics") != [topic]:
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: fallback candidate must constrain exactly one resolved Topic")
+                continue
+            if selection.get("actors"):
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: topic-generic fallback cannot constrain actor personality or mood")
+                continue
+            expected = ([axes[0]], [axes[1]], [axes[2]], [axes[3]])
+            actual = (selection.get("conversationKinds", []),
+                      selection.get("topicDomains", []),
+                      selection.get("utteranceModes", []),
+                      selection.get("appraisals", []))
+            if actual != expected:
+                errors.append(f"coverage.{locale}.{topic} {item.get('candidateId')}: fallback semantic axes do not match Topic")
+                continue
+            diversity.add(_dialogue_diversity_key(item))
+        if len(diversity) < 5:
+            errors.append(f"coverage.{locale}.{topic}: topic-generic fallback has {len(diversity)}/5 unique diversityKey candidates")
 
 
 def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> None:
@@ -683,6 +753,7 @@ def _eligible_maps(root: Path):
     dialogue_contracts = {item["storyletId"]: item for item in load_dialogue_contracts(root)}
     chronicle_contracts = {item["poolId"]: item for item in load_chronicle_contracts(root)}
     topic_coverage = load_topic_coverage(root)
+    topic_fallbacks = load_topic_fallbacks(root)
     ui = {}; prompts = {}; dialogue = {}; chronicle = {}
     for locale in locales:
         ui[locale] = {item["key"]: item for item in load_ui_locale(root, locale) if item.get("key") in ui_contracts and _eligible(item, ui_contracts[item["key"]])}
@@ -691,9 +762,10 @@ def _eligible_maps(root: Path):
         for item in load_dialogue_locale(root, locale):
             contract = dialogue_contracts.get(item.get("storyletId"))
             topics = item.get("selection", {}).get("resolvedTopics", [])
-            topic_is_ready = not topics or (len(topics) == 1 and
-                topics[0] in topic_coverage.get(locale, set()))
-            if contract and _eligible(item, contract) and topic_is_ready:
+            topic_is_exportable = not topics or (len(topics) == 1 and
+                (topics[0] in topic_coverage.get(locale, set()) or
+                 topics[0] in topic_fallbacks))
+            if contract and _eligible(item, contract) and topic_is_exportable:
                 dgroups[item["storyletId"]].append(item)
         dialogue[locale] = dgroups
         cgroups: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -911,8 +983,14 @@ def _resolved_catalogs(root: Path):
                 # pool already carries its validated contract revision, and runtime DTOs do
                 # not consume either field; omitting them keeps materialized matrices bounded.
                 frozen = {key: value for key, value in item.items()
-                          if key not in {"status", "contractRevision"}}
-                frozen["diversityKey"] = _dialogue_diversity_key(item)
+                          if key not in {"status", "contractRevision", "diversityKey"}}
+                diversity_key = _dialogue_diversity_key(item)
+                # DialogueCandidate already defaults a missing diversity key to CandidateId.
+                # Keep only semantic overrides in the frozen payload; repeating the exact id
+                # for thousands of materialized candidates wastes the size budget without
+                # changing recency behavior.
+                if diversity_key != item["candidateId"]:
+                    frozen["diversityKey"] = diversity_key
                 frozen_candidates.append(frozen)
             storylets[storylet_id] = {"resolvedLocale": resolved, "contractRevision": contract["contractRevision"],
                                       "candidates": sorted(frozen_candidates, key=lambda item: (item["ordinal"], item["candidateId"]))}

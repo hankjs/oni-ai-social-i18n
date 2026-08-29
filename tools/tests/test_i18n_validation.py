@@ -269,7 +269,7 @@ class I18nValidationTests(unittest.TestCase):
                 item = dict(value["candidates"][-1])
                 item.update(candidateId=candidate_id, ordinal=999,
                             diversityKey="observation")
-                item["selection"] = {"resolvedTopics": ["recent.food.appraise_positive"],
+                item["selection"] = {"resolvedTopics": ["recent.decor.appraise_positive"],
                                      "actors": [{"slot": 0,
                                                  "personalities": ["athlete"],
                                                  "moods": ["settled"]}]}
@@ -310,6 +310,19 @@ class I18nValidationTests(unittest.TestCase):
             self.rewrite(coverage, lambda value: value["locales"]["en"]["readyTopics"].append(topic))
             self.assertTrue(any("slot 1 personality cannot be mandatory" in error
                                 for error in validate_catalog(root)))
+
+    def test_fallback_topic_requires_five_topic_generic_angles(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/dialogue/topic-fallback.json"
+            self.rewrite(path, lambda value: value.update(candidates=[item
+                for item in value["candidates"]
+                if item["candidateId"] !=
+                "topic-fallback.current-job.query.angle-5"]))
+            self.refresh_target_provenance(root, "en", "dialogue/topic-fallback.json")
+            errors = validate_catalog(root)
+            self.assertTrue(any("current_job.query: topic-generic fallback has 4/5"
+                                in error for error in errors))
 
     def test_selection_metadata_must_match_when_candidate_id_is_shared(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
