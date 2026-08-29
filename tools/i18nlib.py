@@ -44,6 +44,11 @@ def dumps(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2) + "\n"
 
 
+def runtime_dumps(value: Any) -> str:
+    """Keep large browser/runtime catalogs compact while retaining readable sources."""
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
+
+
 def canonical_json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
@@ -930,8 +935,10 @@ def export_dist(root: Path) -> dict[str, bytes]:
         dialogue_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"],
                             "readyTopics": value["readyTopics"], "storylets": value["storylets"]}
         chronicle_payload = {"schemaVersion": 2, "requestedLocale": locale, "fallbackChain": value["chain"], "pools": value["pools"]}
-        family_text = {"ui": dumps(ui_payload), "prompts": dumps(prompt_payload),
-                       "dialogue": dumps(dialogue_payload), "chronicle": dumps(chronicle_payload)}
+        family_text = {"ui": runtime_dumps(ui_payload),
+                       "prompts": runtime_dumps(prompt_payload),
+                       "dialogue": runtime_dumps(dialogue_payload),
+                       "chronicle": runtime_dumps(chronicle_payload)}
         family_hashes[locale] = {name: _sha(text) for name, text in family_text.items()}
         for name, text in family_text.items(): files[f"{name}/{locale}.json"] = text.encode()
         if locale == manifest["defaultLocale"]: default_ui = value["ui"]
@@ -943,7 +950,7 @@ def export_dist(root: Path) -> dict[str, bytes]:
     pot_entries = [{**item, "sourceText": item["text"]} for item in default_ui]
     files["translations/strings_template.pot"] = render_po(pot_entries, manifest["defaultLocale"]).encode()
     compatibility = load_json(root / "contracts" / "compatibility" / "legacy-chronicle-index.json")
-    files["compatibility/legacy-chronicle.json"] = dumps(compatibility).encode()
+    files["compatibility/legacy-chronicle.json"] = runtime_dumps(compatibility).encode()
     locale_manifests = []
     for locale, value in sorted(resolved.items()):
         snapshot_material = {"requestedLocale": locale, "fallbackChain": value["chain"], "resolutions": value["resolutions"],
@@ -956,7 +963,7 @@ def export_dist(root: Path) -> dict[str, bytes]:
     dist_manifest["topicCoverage"] = {locale: value["readyTopics"]
                                       for locale, value in sorted(resolved.items())}
     dist_manifest["snapshotHash"] = _sha(canonical_json(dist_manifest))
-    files["manifest.json"] = dumps(dist_manifest).encode()
+    files["manifest.json"] = runtime_dumps(dist_manifest).encode()
     return dict(sorted(files.items()))
 
 
