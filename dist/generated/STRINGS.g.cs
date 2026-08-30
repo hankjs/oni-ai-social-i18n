@@ -317,6 +317,10 @@ namespace ONIAiSocial
                 {
                     public static LocString NAME = "装备";
                 }
+                public class FACILITY
+                {
+                    public static LocString NAME = "设施";
+                }
                 public class FOOD
                 {
                     public static LocString NAME = "食物";

@@ -12,16 +12,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ["zh", "en", "ko", "ru", "ja", "vi"]
 SUBJECTS = {
-    "zh": ["食物", "床铺", "装饰", "材料", "建筑", "生物", "植物", "装备", "物品", "压力", "士气", "健康", "饱腹状态", "体力", "免疫状态", "当前工作"],
-    "en": ["food", "the bed", "the decor", "the material", "the building", "the creature", "the plant", "the equipment", "the item", "stress", "morale", "health", "the calorie reserve", "stamina", "immunity", "the current job"],
-    "ko": ["음식", "침대", "장식", "재료", "건물", "생물", "식물", "장비", "물건", "스트레스", "사기", "건강", "칼로리 상태", "체력", "면역 상태", "현재 작업"],
-    "ru": ["еда", "кровать", "декор", "материал", "здание", "существо", "растение", "снаряжение", "предмет", "стресс", "моральный дух", "здоровье", "запас калорий", "выносливость", "иммунитет", "текущая работа"],
-    "ja": ["食べ物", "ベッド", "装飾", "素材", "建物", "生物", "植物", "装備", "物", "ストレス", "士気", "健康", "カロリー残量", "体力", "免疫状態", "現在の仕事"],
-    "vi": ["thức ăn", "chiếc giường", "đồ trang trí", "vật liệu", "công trình", "sinh vật", "cây", "trang bị", "vật phẩm", "mức căng thẳng", "tinh thần", "sức khỏe", "lượng calo", "thể lực", "miễn dịch", "công việc hiện tại"],
+    "zh": ["食物", "床铺", "装饰", "材料", "建筑", "生物", "植物", "装备", "设施", "物品", "压力", "士气", "健康", "饱腹状态", "体力", "免疫状态", "当前工作"],
+    "en": ["food", "the bed", "the decor", "the material", "the building", "the creature", "the plant", "the equipment", "the facility", "the item", "stress", "morale", "health", "the calorie reserve", "stamina", "immunity", "the current job"],
+    "ko": ["음식", "침대", "장식", "재료", "건물", "생물", "식물", "장비", "시설", "물건", "스트레스", "사기", "건강", "칼로리 상태", "체력", "면역 상태", "현재 작업"],
+    "ru": ["еда", "кровать", "декор", "материал", "здание", "существо", "растение", "снаряжение", "устройство", "предмет", "стресс", "моральный дух", "здоровье", "запас калорий", "выносливость", "иммунитет", "текущая работа"],
+    "ja": ["食べ物", "ベッド", "装飾", "素材", "建物", "生物", "植物", "装備", "施設", "物", "ストレス", "士気", "健康", "カロリー残量", "体力", "免疫状態", "現在の仕事"],
+    "vi": ["thức ăn", "chiếc giường", "đồ trang trí", "vật liệu", "công trình", "sinh vật", "cây", "trang bị", "cơ sở", "vật phẩm", "mức căng thẳng", "tinh thần", "sức khỏe", "lượng calo", "thể lực", "miễn dịch", "công việc hiện tại"],
 }
 DOMAINS = ["FOOD", "BED", "DECOR", "ELEMENT", "BUILDING", "CREATURE", "PLANT",
-           "EQUIPMENT", "ITEM", "STRESS", "MORALE", "HEALTH", "SATIETY", "STAMINA",
-           "IMMUNITY", "CURRENT_JOB"]
+           "EQUIPMENT", "FACILITY", "ITEM", "STRESS", "MORALE", "HEALTH", "SATIETY",
+           "STAMINA", "IMMUNITY", "CURRENT_JOB"]
 RELATIVE = "ui/social.dialogue_topic.json"
 
 
