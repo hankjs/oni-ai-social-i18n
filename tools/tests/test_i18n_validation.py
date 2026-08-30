@@ -56,6 +56,15 @@ class I18nValidationTests(unittest.TestCase):
             self.refresh_target_provenance(root, "en", "dialogue/casual.json")
             self.assertEqual([], validate_catalog(root))
 
+    def test_dialogue_rejects_rich_text_markup(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary)
+            path = root / "locales/en/dialogue/casual.json"
+            self.rewrite(path, lambda value: value["candidates"][0]["turns"][0].update(
+                text="A linked <link=\"Water\">subject</link> must not reach a bubble."))
+            self.assertTrue(any("rich-text markup is not allowed" in error
+                                for error in validate_catalog(root)))
+
     def test_dialogue_candidate_ids_are_not_cross_locale_required(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = self.copied_catalog(temporary); path = root / "locales/en/dialogue/casual.json"

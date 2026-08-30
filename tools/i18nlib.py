@@ -464,6 +464,8 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
                 if turn.get("speakerSlot") not in contract["actorSlots"]: errors.append(f"locales/{locale}/dialogue {candidate_id}: speakerSlot outside contract")
                 syntax = placeholder_syntax_error(turn.get("text", ""))
                 if syntax: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {syntax}")
+                markup = rich_text_error(turn.get("text", ""), enabled=False)
+                if markup: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {markup}")
                 artifact = translation_artifact_error(turn.get("text", ""))
                 if artifact: errors.append(f"locales/{locale}/dialogue {candidate_id}/{turn.get('turnId')}: {artifact}")
         _validate_ready_topic_matrix(locale, candidates, by_id, coverage.get(locale, set()), errors)
