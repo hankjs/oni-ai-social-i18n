@@ -772,6 +772,12 @@ msgid "告白被拒"
 msgstr "в признании отказали"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE"
+msgid "旧情复燃"
+msgstr "Любовь вспыхнула вновь"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED"
 msgid "未说出口的遗憾"
@@ -782,6 +788,18 @@ msgstr "несказанное сожаление"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DATE"
 msgid "约会"
 msgstr "свидание"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.DECAY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DECAY"
+msgid "关系渐淡"
+msgstr "Отношения остыли"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.EFFECT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.EFFECT"
+msgid "社交影响"
+msgstr "Социальный эффект"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT
@@ -820,6 +838,12 @@ msgid "打招呼"
 msgstr "приветствие"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER"
+msgid "悲痛渐退"
+msgstr "Горе отступило"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
 msgid "一起在下面待过"
@@ -844,6 +868,12 @@ msgid "为什么总是我下去"
 msgstr "почему снова я спускаюсь"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.HEALED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HEALED"
+msgid "关系修复"
+msgstr "Отношения восстановились"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY"
 msgid "吃醋"
@@ -852,20 +882,26 @@ msgstr "ревность"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "разлучение администратора"
+msgid "已屏蔽"
+msgstr "метка блокировки"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "администратор снял метку"
+msgid "已清除标记"
+msgstr "метка снята"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "сводничество администратора"
+msgid "已牵线"
+msgstr "метка сводничества"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER"
+msgid "悼念结束"
+msgstr "Траур завершился"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -976,6 +1012,12 @@ msgid "被孤立"
 msgstr "изоляция"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB"
+msgid "同桌冷落"
+msgstr "За столом отвернулись"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
 msgid "被偷揍"
@@ -1012,24 +1054,6 @@ msgid "已故的复制人"
 msgstr "Погибший дубликант"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY"
-msgid "最近没有心情记录"
-msgstr "Недавних записей о настроении нет"
-
-#. resolved-locale: ru
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE"
-msgid "心情日志"
-msgstr "Журнал настроения"
-
-#. resolved-locale: ru
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP"
-msgid "这名复制人最近的社交事件，以及对好感和心情的影响"
-msgstr "Недавние события общения этого дубликанта и их влияние на симпатию и настроение"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS"
 msgid "尚无关系记录"
@@ -1044,8 +1068,8 @@ msgstr "После общения дубликантов здесь появят
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE"
-msgid "社交概况"
-msgstr "Обзор общения"
+msgid "社交近况"
+msgstr "Общение"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE
@@ -1056,8 +1080,8 @@ msgstr "энергичный"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "По указанию «администратора» характер {0} сменился с «{1}» на «{2}»."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "Характер {0} сменился с «{1}» на «{2}»."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1194,8 +1218,8 @@ msgstr "Цикл {0} · {1}"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION"
-msgid "性格履历"
-msgstr "Послужной характер"
+msgid "性格小记"
+msgstr "Заметки о характере"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED
@@ -1312,6 +1336,36 @@ msgid "与全体存活复制人的平均好感。目前只反映人缘高低，�
 msgstr "Средняя симпатия ко всем живым дубликантам. Сейчас показывает только, насколько человек в чести, и ни на что не влияет; механика репутации будет позже."
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON"
+msgid "查看个人故事"
+msgstr "Открыть личную историю"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
+msgid "还没有形成可阅读的人生章节"
+msgstr "В личной истории пока нет глав"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT"
+msgid "最近的篇章"
+msgstr "Последняя глава"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE"
+msgid "个人故事"
+msgstr "Личная история"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
+msgid "这名复制人最近一段被收录的人生经历"
+msgstr "Краткий обзор последней главы жизни этого дупликанта"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE"
 msgid "社交系统尚未就绪"
@@ -1350,8 +1404,8 @@ msgstr "Опасные смены: {0} {1} · {2} {3} — одна профес�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "Метка разлучения: эта пара дубликантов не запускает события общения мода и ИИ-диалог"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "Метка блокировки: эта пара не запускает события общения мода и ИИ-диалог; она не разрывает и не удаляет существующие отношения"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -1430,6 +1484,108 @@ msgstr "Не любит ссоры"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER"
 msgid "被请教时不太领情"
 msgstr "Меньше ценит, когда у него учатся"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME"
+msgid "床铺"
+msgstr "кровать"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME"
+msgid "建筑"
+msgstr "здание"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME"
+msgid "生物"
+msgstr "существо"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME"
+msgid "当前工作"
+msgstr "текущая работа"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME"
+msgid "装饰"
+msgstr "декор"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME"
+msgid "材料"
+msgstr "материал"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME"
+msgid "装备"
+msgstr "снаряжение"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME"
+msgid "设施"
+msgstr "устройство"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME"
+msgid "食物"
+msgstr "еда"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME"
+msgid "健康"
+msgstr "здоровье"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME"
+msgid "免疫状态"
+msgstr "иммунитет"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME"
+msgid "物品"
+msgstr "предмет"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME"
+msgid "士气"
+msgstr "моральный дух"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME"
+msgid "植物"
+msgstr "растение"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME"
+msgid "饱腹状态"
+msgstr "запас калорий"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME"
+msgid "体力"
+msgstr "выносливость"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME"
+msgid "压力"
+msgstr "стресс"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.EFFECTS.CANNIBAL.DESC
@@ -3498,8 +3654,8 @@ msgstr "Назад"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "Разлучение"
+msgid "屏蔽"
+msgstr "Блокировка"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3556,6 +3712,12 @@ msgid "选择最差关系"
 msgstr "Выбрать худшие отношения"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "Отмена"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3568,16 +3730,40 @@ msgid "清除标记"
 msgstr "Снять метки"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "Число меток для снятия у {0}: {1}."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "Снять все метки?"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "Закрыть"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "Свернуть отношения"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[готово] {0}"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "Подтвердить"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3596,6 +3782,12 @@ msgstr "Записей событий пока нет"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "хроника колонии"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "Развернуть отношения"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3646,6 +3838,36 @@ msgid "排序：{0}"
 msgstr "Сортировка: {0}"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER"
+msgid "较早"
+msgstr "Раньше"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER"
+msgid "较晚"
+msgstr "Позже"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER"
+msgid "这段经历仍在继续。"
+msgstr "Эта история всё ещё продолжается."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT"
+msgid "部分故事段落已根据原始事件事实恢复。"
+msgstr "Некоторые главы восстановлены из исходных фактов событий."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM"
+msgid "记录从周期 {0} 开始"
+msgstr "Записи начинаются с цикла {0}"
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL"
 msgid "人物:全部"
@@ -3690,8 +3912,8 @@ msgstr "Выбран {0}, выберите другого дубликанта �
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "Разлучение: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "Заблокированы: {0} × {1}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3720,8 +3942,8 @@ msgstr "Общение"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "Смотреть отношения колонии и ставить метки сводничества и разлучения"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "Смотреть отношения колонии и ставить метки сводничества и блокировки"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3750,8 +3972,8 @@ msgstr "Обзор отношений"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · разлучение: {5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "Колония: {0} ({1})\nЖивые дубликанты: {2}\nЗаписей об отношениях: {3}\nСводничество: {4} · блокировка: {5}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3828,8 +4050,8 @@ msgstr "Ожидающие события общения"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "Выберите первого дубликанта. Разлучение не даст этой паре запускать события общения мода и ИИ-диалог."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "Выберите первого дубликанта. Блокировка не даст этой паре запускать события общения мода и ИИ-диалог, но не приведёт к принудительному разрыву и не удалит существующие отношения."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3852,8 +4074,8 @@ msgstr "{0} · выберите второго"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и разлучения."
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "Выберите дубликанта, чтобы снять все связанные с ним метки сводничества и блокировки."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -3994,6 +4216,18 @@ msgid "第{0}章 · {1}"
 msgstr "Глава {0} · {1}"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE"
+msgid "[被卷入]"
+msgstr "[Затронут]"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO"
+msgid "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。"
+msgstr "Избранные события, определяющие этапы жизни, а не полный журнал. Включены и важные события, увиденные со стороны или затронувшие персонажа косвенно."
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
 msgid "请先在 Mod 设置中开启「本地玩法数据」"
@@ -4016,6 +4250,18 @@ msgstr "Диагностический отчёт выгружен: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "Не удалось выгрузить диагностический отчёт: {0}"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "Отменить"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "Предыдущее изменение меток отменено."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4140,8 +4386,8 @@ msgstr "Реплики ИИ ещё сырые, по умолчанию выкл.
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "Перезарядка повседневной болтовни одного дубликанта (сек.)"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "Перезарядка добавленной модом болтовни одного дубликанта (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4212,8 +4458,8 @@ msgstr "Разрешить драки заклятых врагов"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка разлучения полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка блокировки полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
@@ -4248,26 +4494,26 @@ msgstr "Отмена"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "Интервал прироста симпатии у одной пары дубликантов (сек.)"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "Пауза между откликами отношений мода на разговоры ONI (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "Кратчайший интервал, с которым штатный разговор даёт симпатию и реплики мода. По умолчанию 15 сек.; отдельно действует потолок за цикл на пару, укоротить интервал этот потолок не пробьёт."
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "Ограничивает только повторный отклик отношений и последующие истории мода для одной пары. Штатные облачка реплик ONI всегда отображаются как обычно. По умолчанию 15 сек.; также действует потолок за цикл на пару."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "Потолок штатных разговоров пары за цикл (раз)"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "Потолок откликов отношений мода на разговоры ONI для пары за цикл"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "По умолчанию 3. После потолка штатные реплики этой пары в цикле остаются как в игре, но больше не запускают реплики мода, симпатию и события общения; со следующего цикла счётчик сбрасывается."
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "По умолчанию 2. Штатные облачка реплик ONI всегда отображаются как обычно; потолок лишь останавливает повторный отклик отношений и последующие истории мода для этой пары до следующего цикла."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4380,8 +4626,8 @@ msgstr "Горячие клавиши сводничества F9/F10/F11"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE"
-msgid "对话语言"
-msgstr "Язык диалога"
+msgid "模组语言"
+msgstr "Язык мода"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN
@@ -4426,12 +4672,6 @@ msgid "中文"
 msgstr "китайский"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "(в этой версии всегда вкл.)"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4450,12 +4690,6 @@ msgid "每周期 AI 润色上限"
 msgstr "Потолок правок ИИ за цикл"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "Потолок ИИ-диалога за цикл"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_TOKENS"
 msgid "单次生成上限（token）"
@@ -4472,6 +4706,30 @@ msgstr "Модель"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER"
 msgid "模型名称"
 msgstr "Имя модели"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE"
+msgid "每周期模组新增闲聊上限（场）"
+msgstr "Разговоров от мода за цикл"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT"
+msgid "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+msgstr "Каждая сцена, созданная модом, считается один раз. Отключение снимает только общий лимит на цикл; защитные задержки для отдельных дубликантов и пар в секундах продолжают действовать."
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE"
+msgid "每周期 ONI 原生闲聊上限（完整会话）"
+msgstr "Обычных разговоров ONI за цикл"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT"
+msgid "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
+msgstr "Один завершённый разговор считается один раз, а не по репликам или облачкам. По умолчанию выключено; когда выключено, мод не ограничивает обычные разговоры и облачка ONI."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS
@@ -4504,16 +4762,10 @@ msgid "关系里程碑通知"
 msgstr "Уведомления о вехах отношений"
 
 #. resolved-locale: ru
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "Следить за штатными событиями общения (вход движка отношений)"
-
-#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "Движок отношений сейчас целиком стоит на штатных событиях общения, выключить нельзя"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "Штатные облачка реплик ONI всегда отображаются как обычно. Мод лишь отслеживает успешно произошедшие штатные события общения, а повторный отклик отношений отсекается отдельно."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4530,8 +4782,8 @@ msgstr "Вкл."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "Перезарядка разговора одной пары дубликантов (сек.)"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "Перезарядка добавленной модом болтовни одной пары (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4566,8 +4818,8 @@ msgstr "Если выключить, признание и подобные со
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "Секунд на экране у реплики"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "Время показа текста реплик мода (сек.; не влияет на облачка ONI)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4740,8 +4992,20 @@ msgstr "По умолчанию выкл. Если включить, на это
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "Всплывающий текст реплик"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "Показывать текст реплик мода (не влияет на штатные облачка ONI)"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS"
+msgid "限制模组新增闲聊总量"
+msgstr "Ограничивать разговоры, добавленные модом"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS"
+msgid "限制 ONI 原生闲聊总量"
+msgstr "Ограничивать обычные разговоры ONI"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

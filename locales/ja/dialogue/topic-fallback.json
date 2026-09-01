@@ -1,0 +1,1086 @@
+{
+  "locale": "ja",
+  "family": "native-utterance-template-pack",
+  "candidates": [
+    {
+      "candidateId": "native-utterance.base.query.angle-1",
+      "diversityKey": "native-utterance.base.query.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}について、どう思う？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-2",
+      "diversityKey": "native-utterance.base.query.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}で何か気づいた？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-3",
+      "diversityKey": "native-utterance.base.query.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の今の状態を教えてくれる？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-4",
+      "diversityKey": "native-utterance.base.query.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}で一番気になる点は何？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-5",
+      "diversityKey": "native-utterance.base.query.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}をもう一度確かめようか？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-1",
+      "diversityKey": "native-utterance.base.assertion.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}に新しい変化があった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-2",
+      "diversityKey": "native-utterance.base.assertion.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}には記録する価値のある点がある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-3",
+      "diversityKey": "native-utterance.base.assertion.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}について、はっきりした観察がある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-4",
+      "diversityKey": "native-utterance.base.assertion.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}から今、信号が出た。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-5",
+      "diversityKey": "native-utterance.base.assertion.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "まず{subject}の現状を明確にするよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-1",
+      "diversityKey": "native-utterance.base.agreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}については同意するよ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-2",
+      "diversityKey": "native-utterance.base.agreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "うん、{subject}は説明どおりだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-3",
+      "diversityKey": "native-utterance.base.agreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "賛成だ。{subject}は注目する価値がある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-4",
+      "diversityKey": "native-utterance.base.agreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "その通り。{subject}についての結論は同じだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-5",
+      "diversityKey": "native-utterance.base.agreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "納得した。{subject}はその見方で合っている。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-1",
+      "diversityKey": "native-utterance.base.disagreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}については違う考えだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-2",
+      "diversityKey": "native-utterance.base.disagreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "待って。{subject}は説明と違うかもしれない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-3",
+      "diversityKey": "native-utterance.base.disagreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "同意できない。{subject}を見直そう。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-4",
+      "diversityKey": "native-utterance.base.disagreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "言いたいことは分かるけど、{subject}への結論は逆だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-5",
+      "diversityKey": "native-utterance.base.disagreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "まだ決めないで。{subject}には別の説明もある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-1",
+      "diversityKey": "native-utterance.base.reflect.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}が何を意味するのか考え続けている。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-2",
+      "diversityKey": "native-utterance.base.reflect.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は考えるほど掘り下げる点が増える。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-3",
+      "diversityKey": "native-utterance.base.reflect.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "振り返ると、{subject}はいろいろ教えてくれる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-4",
+      "diversityKey": "native-utterance.base.reflect.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}を別の角度から理解すべきかもしれない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-5",
+      "diversityKey": "native-utterance.base.reflect.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}を見ると次の手を考えたくなる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-1",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は今、いい状態だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-2",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の今回の結果には満足している。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-3",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}がようやく良くなった。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-4",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の今の状態が気に入った。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-5",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は良い評価に値する。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-1",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は今のところ正常だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-2",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}には良くも悪くも大きな変化がない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-3",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "現在の{subject}は普通の水準だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-4",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "今の{subject}に特別な点はない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-5",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は安定し、通常範囲にある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-1",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は今、よくない状態だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-2",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の今回の結果には不満がある。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-3",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}に対処が必要な問題が出た。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-4",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の今の状態は気に入らない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-5",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}は早めに改善が必要だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-1",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}のことでかなり圧迫されている。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-2",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}を考えるだけでストレスが上がる。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-3",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の緊張はもう無視できない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-4",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}に対処する前に少し息を整えたい。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-5",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}の状況がずっと重くのしかかっている。"
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "查看殖民地关系并管理牵线和拆散标记",
+      "text": "查看殖民地关系并管理牵线和屏蔽标记",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "拆散",
+      "text": "屏蔽",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -250,13 +250,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。",
+      "text": "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "选择一名复制人，清除所有与其有关的牵线和拆散标记。",
+      "text": "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -322,7 +322,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}",
+      "text": "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "拆散: {0} × {1}",
+      "text": "已屏蔽：{0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -535,6 +535,21 @@
       "text": "这些平常时刻没有被大事记住，却共同构成了{0}在殖民地里的生活。",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"较早","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"较晚","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"这段经历仍在继续。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"记录从周期 {0} 开始","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"部分故事段落已根据原始事件事实恢复。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[被卷入]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"清除所有标记？","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"将清除与 {0} 有关的 {1} 个标记。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"确认","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"取消","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"展开关系","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"收起关系","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"撤销","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"已撤销上一项标记操作","contractRevision":1,"status":"reviewed"}
   ]
 }

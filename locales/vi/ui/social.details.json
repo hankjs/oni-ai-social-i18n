@@ -4,7 +4,7 @@
   "entries": [
     {
       "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
-      "text": "Tổng quan xã hội",
+      "text": "Đời sống xã hội",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Nhật ký tâm trạng",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Câu chuyện cá nhân",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "Gần đây không có ghi tâm trạng",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "Chưa có chương cuộc đời nào để đọc",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "Sự kiện xã hội gần đây của người nhân bản này, và ảnh hưởng tới thiện cảm cùng tâm trạng",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "Bản xem trước chương cuộc đời gần nhất của người nhân bản này",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -148,7 +148,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
-      "text": "Hồ sơ tính cách",
+      "text": "Ghi chép tính cách",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -292,7 +292,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "Được «quản trị viên» dẫn dắt, {0} từ tính cách {1} đã thành tính cách {2}.",
+      "text": "Tính cách của {0} đã đổi từ {1} sang {2}.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -413,6 +413,48 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
       "text": "Sự kiện xã hội không rõ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE",
+      "text": "Tình yêu nhen nhóm lại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DECAY",
+      "text": "Mối quan hệ phai nhạt",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HEALED",
+      "text": "Mối quan hệ hàn gắn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER",
+      "text": "Nỗi đau nguôi ngoai",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER",
+      "text": "Kết thúc để tang",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.EFFECT",
+      "text": "Hiệu ứng xã hội",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB",
+      "text": "Bị lạnh nhạt trên bàn ăn",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -754,19 +796,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "Quản trị viên se duyên",
+      "text": "Đã thêm đánh dấu se duyên",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Quản trị viên tách rời",
+      "text": "Đã thêm đánh dấu chặn",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "Quản trị viên gỡ đánh dấu",
+      "text": "Đã gỡ đánh dấu",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -874,7 +916,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Đánh dấu tách rời: chặn cặp người nhân bản này kích sự kiện xã hội và hội thoại AI của Mod",
+      "text": "Đánh dấu chặn: ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod; không ép chia tay hay xóa quan hệ hiện có",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +943,8 @@
       "text": "\nKhí chất: {0} (thiện cảm trò chuyện lần đầu mỗi chu kỳ {1}, xác suất cãi vã {2})",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Chương gần nhất","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Xem câu chuyện cá nhân","contractRevision":1,"status":"reviewed"}
   ]
 }

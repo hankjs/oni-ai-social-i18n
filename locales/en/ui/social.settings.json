@@ -130,7 +130,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
-      "text": "Dialogue language",
+      "text": "Mod language",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -177,15 +177,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "AI conversations per cycle",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "Per-pair conversation cooldown (s)",
-      "contractRevision": 1,
+      "text": "Per-pair cooldown for Mod-added casual chatter (seconds)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -225,21 +219,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "Observe native social events (engine input)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": " (always on in this version)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "The relationship engine is built entirely on native social events, so it cannot be turned off yet.",
-      "contractRevision": 1,
+      "text": "ONI's native dialogue bubbles always appear as usual. The Mod only observes successful native social events; relationship feedback is deduplicated separately.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -370,14 +352,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "Minimum interval between affinity gains for a pair (seconds)",
-      "contractRevision": 1,
+      "text": "Cooldown for ONI chatter entering Mod relationship feedback (seconds)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "Minimum interval before native chatter from the same pair can trigger affinity and Mod dialogue. Default: 15 seconds. The per-pair cycle cap still applies, so lowering this cannot exceed that cap.",
-      "contractRevision": 1,
+      "text": "Only limits repeated Mod relationship feedback and follow-up stories from the same pair. ONI's native dialogue bubbles always appear as usual. Default: 15 seconds; the per-pair cycle cap still applies.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -502,14 +484,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "Dialogue text popups",
-      "contractRevision": 1,
+      "text": "Show Mod dialogue text (ONI native bubbles are unaffected)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "Dialogue popup duration (s)",
-      "contractRevision": 1,
+      "text": "Mod dialogue text duration (seconds; ONI native bubbles are unaffected)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -610,8 +592,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "Daily chat cooldown per duplicant (seconds)",
-      "contractRevision": 1,
+      "text": "Per-duplicant cooldown for Mod-added casual chatter (seconds)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -622,13 +604,49 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "Native chat feeds per pair per cycle",
-      "contractRevision": 1,
+      "text": "ONI chatter relationship-feedback cap per pair per cycle",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "Default: 3. After the cap, that pair keeps the game's native chatter but no longer retriggers Mod dialogue, affinity, or social events until the next cycle.",
+      "text": "Default: 2. ONI's native dialogue bubbles always appear as usual; the cap only stops repeated Mod relationship feedback and follow-up stories for that pair until the next cycle.",
+      "contractRevision": 2,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "Limit ONI native chatter",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "ONI native conversations per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "Each complete conversation counts once, not each utterance or bubble. Off by default; when off, the Mod does not limit ONI native conversations or bubbles.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Limit Mod-added chatter",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "Mod-added conversations per cycle",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Each Mod-authored scene counts once. Turning this off removes only the per-cycle total; per-duplicant and per-pair safety cooldowns still apply.",
       "contractRevision": 1,
       "status": "reviewed"
     }

@@ -263,18 +263,9 @@
       "maxLength": 60
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "contractRevision": 1,
-      "importance": "standard",
-      "arguments": [],
-      "richText": false,
-      "maxLength": 10000
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "contractRevision": 1,
+      "meaning": "同一对复制人再次触发模组新增闲聊前的配对冷却；不影响 ONI 原生对话气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -335,27 +326,9 @@
       "maxLength": 10000
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "contractRevision": 1,
-      "importance": "standard",
-      "arguments": [],
-      "richText": false,
-      "maxLength": 10000
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "contractRevision": 1,
-      "importance": "standard",
-      "arguments": [],
-      "richText": false,
-      "maxLength": 10000
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "contractRevision": 1,
+      "meaning": "静态政策提示：ONI 原生气泡始终照常显示；模组仅观察成功发生的原生社交事件，并单独对关系反馈去重。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -568,8 +541,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "contractRevision": 1,
+      "meaning": "原生聊天进入模组关系反馈与后续故事的每对最短间隔；不限制原生气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -577,8 +550,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "contractRevision": 1,
+      "meaning": "说明默认 15 秒，只限制模组关系反馈和后续故事，原生气泡始终显示，且仍受每对每周期上限约束。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -766,8 +739,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "contractRevision": 1,
+      "meaning": "仅控制模组台词的浮动文字；不影响 ONI 原生对话气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -775,8 +748,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "contractRevision": 1,
+      "meaning": "仅控制模组台词浮动文字的停留时间；不影响 ONI 原生对话气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -928,8 +901,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "meaning": "日常气泡的个人冷却；与同一对复制人的冷却共同生效。",
-      "contractRevision": 1,
+      "meaning": "同一复制人再次参与模组新增闲聊前的个人冷却；与配对冷却共同生效，不影响 ONI 原生对话气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -946,8 +919,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "contractRevision": 1,
+      "meaning": "每对每周期由原生聊天触发模组关系反馈与后续故事的次数上限；不限制原生气泡。",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [],
       "richText": false,
@@ -955,7 +928,61 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "meaning": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
+      "meaning": "说明默认 2 次；达到上限后原生气泡仍照常显示，只停止重复的模组关系反馈与后续故事，下一周期重置。",
+      "contractRevision": 2,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "meaning": "原生 ONI 完整会话的可选周期总量开关；默认关闭。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "meaning": "每周期允许的完整 ONI 原生会话数；不是发言或气泡数。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "meaning": "说明每场完整原生会话只计一次；关闭时模组不限制原生会话或原生气泡。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "meaning": "模组新增闲聊场次的可选周期总量开关；默认开启。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "meaning": "每周期允许的模组新增闲聊场次；每场完整场景计一次。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "meaning": "说明关闭时仅取消周期总量限制；同一复制人和同一配对的秒级安全冷却仍然生效。",
       "contractRevision": 1,
       "importance": "standard",
       "arguments": [],

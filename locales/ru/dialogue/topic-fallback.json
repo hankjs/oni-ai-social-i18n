@@ -1,0 +1,1086 @@
+{
+  "locale": "ru",
+  "family": "native-utterance-template-pack",
+  "candidates": [
+    {
+      "candidateId": "native-utterance.base.query.angle-1",
+      "diversityKey": "native-utterance.base.query.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Что ты думаешь про «{subject}»?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-2",
+      "diversityKey": "native-utterance.base.query.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Что ты заметил в теме «{subject}»?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-3",
+      "diversityKey": "native-utterance.base.query.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Опишешь нынешнее состояние: {subject}?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-4",
+      "diversityKey": "native-utterance.base.query.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Что важнее всего в теме «{subject}»?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-5",
+      "diversityKey": "native-utterance.base.query.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Проверим ещё раз: {subject}?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-1",
+      "diversityKey": "native-utterance.base.assertion.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Я заметил новое изменение: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-2",
+      "diversityKey": "native-utterance.base.assertion.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Стоит записать одно наблюдение: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-3",
+      "diversityKey": "native-utterance.base.assertion.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "У меня есть ясное наблюдение по теме «{subject}»."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-4",
+      "diversityKey": "native-utterance.base.assertion.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Мы только что получили сигнал: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-5",
+      "diversityKey": "native-utterance.base.assertion.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Сначала ясно опишу положение: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-1",
+      "diversityKey": "native-utterance.base.agreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Я согласен с тобой насчёт темы «{subject}»."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-2",
+      "diversityKey": "native-utterance.base.agreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Да, всё именно так: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-3",
+      "diversityKey": "native-utterance.base.agreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Согласен; за темой «{subject}» стоит следить."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-4",
+      "diversityKey": "native-utterance.base.agreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Верно, наши выводы совпадают: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-5",
+      "diversityKey": "native-utterance.base.agreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Ты убедил меня; принимаю этот вывод: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-1",
+      "diversityKey": "native-utterance.base.disagreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Я иначе смотрю на тему «{subject}»."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-2",
+      "diversityKey": "native-utterance.base.disagreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Постой, всё может быть иначе: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-3",
+      "diversityKey": "native-utterance.base.disagreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Не согласен; надо заново оценить: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-4",
+      "diversityKey": "native-utterance.base.disagreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Я понял тебя, но мой вывод противоположен: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-5",
+      "diversityKey": "native-utterance.base.disagreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Не будем спешить; у темы «{subject}» есть другое объяснение."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-1",
+      "diversityKey": "native-utterance.base.reflect.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Я всё думаю, что означает тема «{subject}»."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-2",
+      "diversityKey": "native-utterance.base.reflect.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Чем дольше думаю про «{subject}», тем больше вопросов."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-3",
+      "diversityKey": "native-utterance.base.reflect.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Если оглянуться, тема «{subject}» многое объясняет."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-4",
+      "diversityKey": "native-utterance.base.reflect.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Может, стоит взглянуть иначе: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-5",
+      "diversityKey": "native-utterance.base.reflect.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Тема «{subject}» заставляет задуматься о следующем шаге."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-1",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Сейчас всё выглядит хорошо: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-2",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Этот результат меня радует: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-3",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Наконец заметно улучшение: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-4",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Мне нравится нынешнее состояние: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-5",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Здесь есть за что похвалить: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-1",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Пока всё в норме: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-2",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Нет явного изменения в любую сторону: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-3",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Сейчас это обычный уровень: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-4",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Пока ничего особенного: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-5",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Отметим стабильность в обычном диапазоне: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-1",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Сейчас всё выглядит плохо: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-2",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Этот результат меня разочаровывает: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-3",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Появилась проблема, требующая внимания: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-4",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Мне не нравится нынешнее состояние: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-5",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Это нужно скорее улучшить: {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-1",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Тема «{subject}» сильно давит на меня."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-2",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Стоит подумать про «{subject}», и стресс растёт."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-3",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Напряжение вокруг темы «{subject}» уже нельзя игнорировать."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-4",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Мне нужна пауза, прежде чем заняться темой «{subject}»."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-5",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Ситуация «{subject}» не даёт мне покоя."
+        }
+      ]
+    }
+  ]
+}

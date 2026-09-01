@@ -772,6 +772,12 @@ msgid "告白被拒"
 msgstr "告白被拒"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE"
+msgid "旧情复燃"
+msgstr "旧情复燃"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED"
 msgid "未说出口的遗憾"
@@ -782,6 +788,18 @@ msgstr "未说出口的遗憾"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DATE"
 msgid "约会"
 msgstr "约会"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.DECAY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DECAY"
+msgid "关系渐淡"
+msgstr "关系渐淡"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.EFFECT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.EFFECT"
+msgid "社交影响"
+msgstr "社交影响"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT
@@ -820,6 +838,12 @@ msgid "打招呼"
 msgstr "打招呼"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER"
+msgid "悲痛渐退"
+msgstr "悲痛渐退"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
 msgid "一起在下面待过"
@@ -844,6 +868,12 @@ msgid "为什么总是我下去"
 msgstr "为什么总是我下去"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.HEALED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HEALED"
+msgid "关系修复"
+msgstr "关系修复"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY"
 msgid "吃醋"
@@ -852,20 +882,26 @@ msgstr "吃醋"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "管理员拆散"
+msgid "已屏蔽"
+msgstr "已屏蔽"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "管理员取消标记"
+msgid "已清除标记"
+msgstr "已清除标记"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "管理员牵线"
+msgid "已牵线"
+msgstr "已牵线"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER"
+msgid "悼念结束"
+msgstr "悼念结束"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -976,6 +1012,12 @@ msgid "被孤立"
 msgstr "被孤立"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB"
+msgid "同桌冷落"
+msgstr "同桌冷落"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
 msgid "被偷揍"
@@ -1012,24 +1054,6 @@ msgid "已故的复制人"
 msgstr "已故的复制人"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY"
-msgid "最近没有心情记录"
-msgstr "最近没有心情记录"
-
-#. resolved-locale: zh
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE"
-msgid "心情日志"
-msgstr "心情日志"
-
-#. resolved-locale: zh
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP"
-msgid "这名复制人最近的社交事件，以及对好感和心情的影响"
-msgstr "这名复制人最近的社交事件，以及对好感和心情的影响"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS"
 msgid "尚无关系记录"
@@ -1044,8 +1068,8 @@ msgstr "复制人互动后，关系和好感会显示在这里"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE"
-msgid "社交概况"
-msgstr "社交概况"
+msgid "社交近况"
+msgstr "社交近况"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE
@@ -1056,8 +1080,8 @@ msgstr "好动"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0} 的性格从「{1}」变为了「{2}」。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1194,8 +1218,8 @@ msgstr "周期{0} · {1}"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION"
-msgid "性格履历"
-msgstr "性格履历"
+msgid "性格小记"
+msgstr "性格小记"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED
@@ -1312,6 +1336,36 @@ msgid "与全体存活复制人的平均好感。目前只反映人缘高低，�
 msgstr "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON"
+msgid "查看个人故事"
+msgstr "查看个人故事"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
+msgid "还没有形成可阅读的人生章节"
+msgstr "还没有形成可阅读的人生章节"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT"
+msgid "最近的篇章"
+msgstr "最近的篇章"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE"
+msgid "个人故事"
+msgstr "个人故事"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
+msgid "这名复制人最近一段被收录的人生经历"
+msgstr "这名复制人最近一段被收录的人生经历"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE"
 msgid "社交系统尚未就绪"
@@ -1350,8 +1404,8 @@ msgstr "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -1430,6 +1484,108 @@ msgstr "不爱争执"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER"
 msgid "被请教时不太领情"
 msgstr "被请教时不太领情"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME"
+msgid "床铺"
+msgstr "床铺"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME"
+msgid "建筑"
+msgstr "建筑"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME"
+msgid "生物"
+msgstr "生物"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME"
+msgid "当前工作"
+msgstr "当前工作"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME"
+msgid "装饰"
+msgstr "装饰"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME"
+msgid "材料"
+msgstr "材料"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME"
+msgid "装备"
+msgstr "装备"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME"
+msgid "设施"
+msgstr "设施"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME"
+msgid "食物"
+msgstr "食物"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME"
+msgid "健康"
+msgstr "健康"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME"
+msgid "免疫状态"
+msgstr "免疫状态"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME"
+msgid "物品"
+msgstr "物品"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME"
+msgid "士气"
+msgstr "士气"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME"
+msgid "植物"
+msgstr "植物"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME"
+msgid "饱腹状态"
+msgstr "饱腹状态"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME"
+msgid "体力"
+msgstr "体力"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME"
+msgid "压力"
+msgstr "压力"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.EFFECTS.CANNIBAL.DESC
@@ -3498,8 +3654,8 @@ msgstr "返回"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "拆散"
+msgid "屏蔽"
+msgstr "屏蔽"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3556,6 +3712,12 @@ msgid "选择最差关系"
 msgstr "选择最差关系"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "取消"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3568,16 +3730,40 @@ msgid "清除标记"
 msgstr "清除标记"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "将清除与 {0} 有关的 {1} 个标记。"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "清除所有标记？"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "关闭"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "收起关系"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[完成] {0}"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "确认"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3596,6 +3782,12 @@ msgstr "暂无事件记录"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "殖民地纪事"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "展开关系"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3646,6 +3838,36 @@ msgid "排序：{0}"
 msgstr "排序：{0}"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER"
+msgid "较早"
+msgstr "较早"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER"
+msgid "较晚"
+msgstr "较晚"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER"
+msgid "这段经历仍在继续。"
+msgstr "这段经历仍在继续。"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT"
+msgid "部分故事段落已根据原始事件事实恢复。"
+msgstr "部分故事段落已根据原始事件事实恢复。"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM"
+msgid "记录从周期 {0} 开始"
+msgstr "记录从周期 {0} 开始"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL"
 msgid "人物:全部"
@@ -3690,8 +3912,8 @@ msgstr "已选 {0}，选中另一名复制人后再按一次同一热键"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "拆散: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "已屏蔽：{0} × {1}"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3720,8 +3942,8 @@ msgstr "社交"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "查看殖民地关系并管理牵线和拆散标记"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "查看殖民地关系并管理牵线和屏蔽标记"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3750,8 +3972,8 @@ msgstr "关系总览"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3828,8 +4050,8 @@ msgstr "待发生的社交事件"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3852,8 +4074,8 @@ msgstr "{0} · 选择第二人"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -3994,6 +4216,18 @@ msgid "第{0}章 · {1}"
 msgstr "第{0}章 · {1}"
 
 #. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE"
+msgid "[被卷入]"
+msgstr "[被卷入]"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO"
+msgid "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。"
+msgstr "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。"
+
+#. resolved-locale: zh
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
 msgid "请先在 Mod 设置中开启「本地玩法数据」"
@@ -4016,6 +4250,18 @@ msgstr "诊断报告已导出：{0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "诊断报告导出失败：{0}"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "撤销"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "已撤销上一项标记操作"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4140,8 +4386,8 @@ msgstr "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "同一复制人的日常闲聊冷却（秒）"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "模组新增闲聊：同一复制人的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4212,8 +4458,8 @@ msgstr "允许宿敌互殴"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
@@ -4248,26 +4494,26 @@ msgstr "取消"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "同一对复制人的好感进账间隔（秒）"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "原生聊天进入模组关系反馈的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "每对每周期原生聊天进账上限（次）"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "每对每周期原生聊天触发模组关系反馈的上限（次）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4380,8 +4626,8 @@ msgstr "F9/F10/F11 牵线热键"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE"
-msgid "对话语言"
-msgstr "对话语言"
+msgid "模组语言"
+msgstr "模组语言"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN
@@ -4426,12 +4672,6 @@ msgid "中文"
 msgstr "中文"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "（本版本固定开启）"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4450,12 +4690,6 @@ msgid "每周期 AI 润色上限"
 msgstr "每周期 AI 润色上限"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "每周期 AI 对话上限"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_TOKENS"
 msgid "单次生成上限（token）"
@@ -4472,6 +4706,30 @@ msgstr "模型"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER"
 msgid "模型名称"
 msgstr "模型名称"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE"
+msgid "每周期模组新增闲聊上限（场）"
+msgstr "每周期模组新增闲聊上限（场）"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT"
+msgid "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+msgstr "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE"
+msgid "每周期 ONI 原生闲聊上限（完整会话）"
+msgstr "每周期 ONI 原生闲聊上限（完整会话）"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT"
+msgid "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
+msgstr "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS
@@ -4504,16 +4762,10 @@ msgid "关系里程碑通知"
 msgstr "关系里程碑通知"
 
 #. resolved-locale: zh
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "观察原生社交事件（关系引擎输入）"
-
-#. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4530,8 +4782,8 @@ msgstr "开"
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "同一对复制人的对话冷却（秒）"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "模组新增闲聊：同一对复制人的冷却（秒）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4566,8 +4818,8 @@ msgstr "关闭后告白等事件立即发生，但仍有演出和通知。不改
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "台词停留秒数"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "模组台词文字停留秒数（不影响 ONI 原生气泡）"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4740,8 +4992,20 @@ msgstr "默认关闭。开启后只在本机记录事件频率、关系分布、
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "对话台词浮动文字"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "显示模组台词文字（不影响 ONI 原生气泡）"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS"
+msgid "限制模组新增闲聊总量"
+msgstr "限制模组新增闲聊总量"
+
+#. resolved-locale: zh
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS"
+msgid "限制 ONI 原生闲聊总量"
+msgstr "限制 ONI 原生闲聊总量"
 
 #. resolved-locale: zh
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

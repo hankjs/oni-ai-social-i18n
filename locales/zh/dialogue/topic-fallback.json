@@ -1,0 +1,1086 @@
+{
+  "locale": "zh",
+  "family": "native-utterance-template-pack",
+  "candidates": [
+    {
+      "candidateId": "native-utterance.base.query.angle-1",
+      "diversityKey": "native-utterance.base.query.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "你怎么看{subject}？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-2",
+      "diversityKey": "native-utterance.base.query.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}这方面，你发现了什么？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-3",
+      "diversityKey": "native-utterance.base.query.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "能说说{subject}现在的情况吗？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-4",
+      "diversityKey": "native-utterance.base.query.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "关于{subject}，你最在意哪一点？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-5",
+      "diversityKey": "native-utterance.base.query.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我们要不要再核对一下{subject}？"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-1",
+      "diversityKey": "native-utterance.base.assertion.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我刚注意到{subject}有些新情况。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-2",
+      "diversityKey": "native-utterance.base.assertion.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "说到{subject}，有一点值得记下来。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-3",
+      "diversityKey": "native-utterance.base.assertion.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我对{subject}有个明确观察。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-4",
+      "diversityKey": "native-utterance.base.assertion.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}刚才给了我们一个信号。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-5",
+      "diversityKey": "native-utterance.base.assertion.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "先把{subject}的现状说清楚。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-1",
+      "diversityKey": "native-utterance.base.agreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "关于{subject}，我同意你的看法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-2",
+      "diversityKey": "native-utterance.base.agreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "对，{subject}确实和你说的一样。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-3",
+      "diversityKey": "native-utterance.base.agreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "这一点我赞成；{subject}值得留意。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-4",
+      "diversityKey": "native-utterance.base.agreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "没错，我们对{subject}的判断一致。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-5",
+      "diversityKey": "native-utterance.base.agreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "你说服我了，{subject}就按这个结论看。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-1",
+      "diversityKey": "native-utterance.base.disagreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "关于{subject}，我有不同看法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-2",
+      "diversityKey": "native-utterance.base.disagreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "等等，{subject}可能不是你说的那样。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-3",
+      "diversityKey": "native-utterance.base.disagreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "这一点我不同意，我们得重看{subject}。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-4",
+      "diversityKey": "native-utterance.base.disagreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我理解你的意思，但对{subject}的判断相反。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-5",
+      "diversityKey": "native-utterance.base.disagreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "先别下结论；{subject}还有另一种解释。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-1",
+      "diversityKey": "native-utterance.base.reflect.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我一直在想{subject}意味着什么。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-2",
+      "diversityKey": "native-utterance.base.reflect.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}这件事越想越值得琢磨。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-3",
+      "diversityKey": "native-utterance.base.reflect.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "回头看，{subject}透露了不少信息。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-4",
+      "diversityKey": "native-utterance.base.reflect.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "也许我们该换个角度理解{subject}。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-5",
+      "diversityKey": "native-utterance.base.reflect.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}让我想到接下来该怎么做。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-1",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}现在的情况挺不错。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-2",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "说到{subject}，这次结果让我满意。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-3",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}终于出现了好转。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-4",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我喜欢{subject}目前的状态。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-5",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}这方面值得肯定。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-1",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}目前算是正常。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-2",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}没有明显好坏变化。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-3",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "按现状看，{subject}处在普通水平。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-4",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}现在没什么特别的。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-5",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "先记作稳定：{subject}没有偏离常态。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-1",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}现在的情况不太好。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-2",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "说到{subject}，这次结果让我不满意。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-3",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}已经出现了需要处理的问题。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-4",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我不喜欢{subject}目前的状态。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-5",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}这方面得尽快改善。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-1",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}让我有点喘不过气。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-2",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "一想到{subject}，压力就上来了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-3",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}已经紧张到不能忽视。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-4",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "我得先缓一缓，再处理{subject}。"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-5",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}这件事正压得我心烦。"
+        }
+      ]
+    }
+  ]
+}

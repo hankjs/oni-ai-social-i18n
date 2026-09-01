@@ -303,8 +303,44 @@
         "intensities",
         "stances",
         "voices",
+        "personalities",
+        "moods",
         "relationshipStates",
-        "causes"
+        "causes",
+        "resolvedTopics",
+        "conversationKinds",
+        "topicDomains",
+        "utteranceModes",
+        "appraisals",
+        "moodWildcardEmergency"
+      ]
+    },
+    {
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 45,
+      "actorSlots": [
+        0
+      ],
+      "selectionDimensions": [
+        "utteranceModes",
+        "appraisals"
+      ]
+    },
+    {
+      "storyletId": "ListenerResponse",
+      "contractRevision": 1,
+      "requiredForStable": true,
+      "minimumBaseCandidates": 0,
+      "actorSlots": [
+        1
+      ],
+      "selectionDimensions": [
+        "personalities",
+        "relationshipStates",
+        "responseActs",
+        "listenerAvailabilities"
       ]
     },
     {

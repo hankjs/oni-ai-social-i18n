@@ -250,7 +250,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats.",
+      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats. It does not force a breakup or erase an existing relationship.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -535,6 +535,21 @@
       "text": "No milestone recorded these ordinary moments, but together they became {0}'s life in the colony.",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"Earlier","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"Later","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"This experience is still unfolding.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"Records begin at Cycle {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"Some story chapters were recovered from the original event facts.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"Selected experiences that define each life chapter, not a complete log. Important events witnessed or indirectly involved in are included.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Involved]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"Clear all marks?","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"This will clear {1} marks involving {0}.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"Confirm","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"Cancel","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Expand relationships","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Collapse relationships","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Undo","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Undid the previous mark change.","contractRevision":1,"status":"reviewed"}
   ]
 }

@@ -1,0 +1,1086 @@
+{
+  "locale": "vi",
+  "family": "native-utterance-template-pack",
+  "candidates": [
+    {
+      "candidateId": "native-utterance.base.query.angle-1",
+      "diversityKey": "native-utterance.base.query.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Bạn nghĩ gì về {subject}?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-2",
+      "diversityKey": "native-utterance.base.query.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Bạn nhận thấy gì ở {subject}?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-3",
+      "diversityKey": "native-utterance.base.query.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Bạn mô tả tình trạng của {subject} được không?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-4",
+      "diversityKey": "native-utterance.base.query.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Điều gì ở {subject} khiến bạn quan tâm nhất?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-5",
+      "diversityKey": "native-utterance.base.query.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Ta kiểm tra lại {subject} nhé?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-1",
+      "diversityKey": "native-utterance.base.assertion.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi vừa nhận thấy thay đổi ở {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-2",
+      "diversityKey": "native-utterance.base.assertion.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Có một điểm đáng ghi lại về {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-3",
+      "diversityKey": "native-utterance.base.assertion.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi có một quan sát rõ ràng về {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-4",
+      "diversityKey": "native-utterance.base.assertion.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} vừa cho ta một tín hiệu hữu ích."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-5",
+      "diversityKey": "native-utterance.base.assertion.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Để tôi nói rõ tình hình của {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-1",
+      "diversityKey": "native-utterance.base.agreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi đồng ý với bạn về {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-2",
+      "diversityKey": "native-utterance.base.agreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Đúng, {subject} y như bạn mô tả."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-3",
+      "diversityKey": "native-utterance.base.agreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi đồng ý; {subject} đáng được chú ý."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-4",
+      "diversityKey": "native-utterance.base.agreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Phải, kết luận của ta về {subject} giống nhau."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-5",
+      "diversityKey": "native-utterance.base.agreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Bạn thuyết phục được tôi; cách hiểu đó về {subject} hợp lý."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-1",
+      "diversityKey": "native-utterance.base.disagreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi nhìn {subject} theo cách khác."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-2",
+      "diversityKey": "native-utterance.base.disagreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Khoan, {subject} có thể không như bạn nói."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-3",
+      "diversityKey": "native-utterance.base.disagreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi không đồng ý; ta nên đánh giá lại {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-4",
+      "diversityKey": "native-utterance.base.disagreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi hiểu ý bạn, nhưng kết luận của tôi về {subject} ngược lại."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-5",
+      "diversityKey": "native-utterance.base.disagreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Đừng kết luận vội; {subject} còn một cách giải thích khác."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-1",
+      "diversityKey": "native-utterance.base.reflect.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi cứ nghĩ mãi {subject} có ý nghĩa gì."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-2",
+      "diversityKey": "native-utterance.base.reflect.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Càng nghĩ về {subject}, tôi càng thấy nhiều điều cần xét."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-3",
+      "diversityKey": "native-utterance.base.reflect.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Nhìn lại, {subject} cho ta biết khá nhiều."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-4",
+      "diversityKey": "native-utterance.base.reflect.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Có lẽ ta nên hiểu {subject} từ góc khác."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-5",
+      "diversityKey": "native-utterance.base.reflect.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} khiến tôi nghĩ đến bước tiếp theo."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-1",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} hiện đang ở tình trạng tốt."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-2",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Kết quả này của {subject} làm tôi hài lòng."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-3",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} cuối cùng đã tốt lên."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-4",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi thích trạng thái hiện tại của {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-5",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} xứng đáng được đánh giá tích cực."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-1",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} hiện vẫn bình thường."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-2",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} không thay đổi rõ theo hướng tốt hay xấu."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-3",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Hiện tại, {subject} ở mức thông thường."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-4",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Lúc này {subject} không có gì đặc biệt."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-5",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Ghi nhận {subject} ổn định trong phạm vi thường."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-1",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} hiện không ở tình trạng tốt."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-2",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Kết quả này của {subject} làm tôi thất vọng."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-3",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} đã có vấn đề cần xử lý."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-4",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi không thích trạng thái hiện tại của {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-5",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} cần sớm được cải thiện."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-1",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} đang tạo áp lực thật sự cho tôi."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-2",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Chỉ nghĩ đến {subject} là tôi đã căng thẳng."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-3",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} đã căng đến mức không thể bỏ qua."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-4",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tôi cần nghỉ một chút trước khi xử lý {subject}."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-5",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "Tình hình của {subject} đang đè nặng lên tôi."
+        }
+      ]
+    }
+  ]
+}

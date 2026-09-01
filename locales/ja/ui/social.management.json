@@ -10,7 +10,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "コロニーの関係を確認し、取り持ちと引き離しのマークを管理します",
+      "text": "コロニーの関係を確認し、取り持ちとブロックのマークを管理します",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "引き離し",
+      "text": "ブロック",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -250,13 +250,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "一人目の複製人間を選んでください。引き離しは、このペアの複製人間が本Modの社交イベントとAI会話を起こすのを防ぎます。",
+      "text": "一人目の複製人間を選んでください。ブロックすると、このペアは本Modの社交イベントとAI会話を起こさなくなりますが、強制的に別れさせたり、既存の関係を削除したりはしません。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "複製人間を一人選び、その人に関係する取り持ちと引き離しのマークをすべて解除します。",
+      "text": "複製人間を一人選び、その人に関係する取り持ちとブロックのマークをすべて解除します。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -322,7 +322,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ 引き離し：{5}",
+      "text": "コロニー：{0} ({1})\n生存中の複製人間：{2}\n関係の記録：{3}\n取り持ち：{4} ・ ブロック：{5}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "引き離し: {0} × {1}",
+      "text": "ブロック済み：{0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -535,6 +535,21 @@
       "text": "これらの日常は大事件としては残らなかったが、重なって{0}のコロニーでの生活になった。",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"以前","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"以後","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"この経験はまだ続いている。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"記録はサイクル {0} から始まります","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"一部の物語の章を元のイベント事実から復元しました。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"人生の各章を表す経験を選んだもので、完全な記録ではありません。目撃した出来事や巻き込まれた重要な出来事も含まれます。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[巻き込まれた]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"すべてのマークを解除しますか？","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"{0} に関係するマーク {1} 個を解除します。","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"確認","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"キャンセル","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"関係を展開","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"関係を折りたたむ","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"元に戻す","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"直前のマーク操作を元に戻しました","contractRevision":1,"status":"reviewed"}
   ]
 }

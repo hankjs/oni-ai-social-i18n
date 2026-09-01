@@ -10,7 +10,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP",
-      "text": "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng tách rời",
+      "text": "Xem quan hệ thuộc địa và quản lý đánh dấu se duyên cùng chặn tương tác",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Tách rời",
+      "text": "Chặn",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -250,13 +250,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Chọn người nhân bản thứ nhất. Tách rời sẽ chặn cặp này kích sự kiện xã hội và hội thoại AI của Mod.",
+      "text": "Chọn người nhân bản thứ nhất. Chặn sẽ ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod, nhưng không ép chia tay hay xóa quan hệ hiện có.",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE",
-      "text": "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và tách rời liên quan.",
+      "text": "Chọn một người nhân bản, gỡ mọi đánh dấu se duyên và chặn liên quan.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -322,7 +322,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY",
-      "text": "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Tách rời: {5}",
+      "text": "Thuộc địa: {0} ({1})\nNgười nhân bản còn sống: {2}\nGhi quan hệ: {3}\nSe duyên: {4} · Chặn: {5}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Tách rời: {0} × {1}",
+      "text": "Đã chặn: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -535,6 +535,21 @@
       "text": "Những lúc bình thường ấy không được đại sự nhớ, nhưng cùng tạo nên đời của {0} trong thuộc địa.",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER","text":"Sớm hơn","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER","text":"Muộn hơn","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER","text":"Trải nghiệm này vẫn đang tiếp diễn.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM","text":"Bản ghi bắt đầu từ chu kỳ {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT","text":"Một số chương đã được khôi phục từ dữ kiện sự kiện gốc.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO","text":"Các trải nghiệm tiêu biểu cho từng chương đời, không phải nhật trình đầy đủ. Những sự kiện quan trọng đã chứng kiến hoặc bị cuốn vào cũng được ghi lại.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE","text":"[Bị cuốn vào]","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE","text":"Xóa tất cả đánh dấu?","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY","text":"Sẽ xóa {1} đánh dấu liên quan đến {0}.","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON","text":"Xác nhận","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON","text":"Hủy","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Mở rộng quan hệ","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Thu gọn quan hệ","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Hoàn tác","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Đã hoàn tác thao tác đánh dấu trước đó.","contractRevision":1,"status":"reviewed"}
   ]
 }

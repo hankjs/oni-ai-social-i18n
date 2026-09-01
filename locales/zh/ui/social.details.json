@@ -4,7 +4,7 @@
   "entries": [
     {
       "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
-      "text": "社交概况",
+      "text": "社交近况",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "心情日志",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "个人故事",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "最近没有心情记录",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "还没有形成可阅读的人生章节",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "这名复制人最近的社交事件，以及对好感和心情的影响",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "这名复制人最近一段被收录的人生经历",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -148,7 +148,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
-      "text": "性格履历",
+      "text": "性格小记",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -292,7 +292,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。",
+      "text": "{0} 的性格从「{1}」变为了「{2}」。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -413,6 +413,48 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
       "text": "未知社交事件",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE",
+      "text": "旧情复燃",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DECAY",
+      "text": "关系渐淡",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HEALED",
+      "text": "关系修复",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER",
+      "text": "悲痛渐退",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER",
+      "text": "悼念结束",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.EFFECT",
+      "text": "社交影响",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB",
+      "text": "同桌冷落",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -754,19 +796,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理员牵线",
+      "text": "已牵线",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理员拆散",
+      "text": "已屏蔽",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理员取消标记",
+      "text": "已清除标记",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -874,7 +916,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话",
+      "text": "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +943,8 @@
       "text": "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2}）",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"最近的篇章","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"查看个人故事","contractRevision":1,"status":"reviewed"}
   ]
 }

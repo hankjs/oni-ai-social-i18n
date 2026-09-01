@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 3,
+  "nativeTemplateAxes": [
+    { "utteranceMode": "query", "appraisal": "unspecified" },
+    { "utteranceMode": "statement", "appraisal": "unspecified" },
+    { "utteranceMode": "agreement", "appraisal": "unspecified" },
+    { "utteranceMode": "disagreement", "appraisal": "unspecified" },
+    { "utteranceMode": "musing", "appraisal": "unspecified" },
+    { "utteranceMode": "satisfaction", "appraisal": "positive" },
+    { "utteranceMode": "nominal", "appraisal": "neutral" },
+    { "utteranceMode": "dissatisfaction", "appraisal": "negative" },
+    { "utteranceMode": "stressing", "appraisal": "stressed" }
+  ],
+  "locales": {
+    "zh": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] },
+    "en": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] },
+    "ko": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] },
+    "ru": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] },
+    "ja": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] },
+    "vi": { "readyTopics": [
+      "amount.satiety.appraise_negative",
+      "amount.stamina.appraise_negative",
+      "amount.stress.appraise_stressed",
+      "amount.morale.appraise_negative",
+      "amount.health.appraise_negative",
+      "current_job.appraise_stressed"
+    ] }
+  }
+}

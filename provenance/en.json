@@ -4,75 +4,45 @@
   "targetLocale": "en",
   "files": [
     {
-      "path": "ui/social.announce.json",
-      "sourceHash": "sha256:71c2cdf9f0c31a8a01a99ca75423ac87705434779e3f0aad0c71d6c5e604e7a8",
-      "targetHash": "sha256:1ba545714f6b666e570576c2edc9e103fca817c0a96921248203ff0355e7babf",
+      "path": "chronicle/colony.json",
+      "sourceHash": "sha256:7de5226ee7f7d58f55f9897cf4d60b897eea1e42e8ae9791603aee1e85a021d5",
+      "targetHash": "sha256:45159538d6ce0e8292dba7d01c0b5049731ea3b07f0193d322e31ab7adad66bd",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.chronicle.json",
-      "sourceHash": "sha256:fa45fffd404548b5ec859bc57a08e6bc6ff699e7ef9bf35a371bcc68c74b805a",
-      "targetHash": "sha256:352cc318e0b98b7158846722981ba6faed0196e43a5bee4cb69937966aee3ec7",
+      "path": "chronicle/compatibility.json",
+      "sourceHash": "sha256:bb59c614de656a4c3924f2be3bb3c6a308cc8355a471a33b4ec2516e017c6a5c",
+      "targetHash": "sha256:52d0a4f26ef29dc3b0042f3560d09aa8527f4380de7989b6e20f038cac5659fe",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.deaths.json",
-      "sourceHash": "sha256:366fb40a3a76b95e91e3690ffa34194304e4be2282771ecb3fef9590b41aabb4",
-      "targetHash": "sha256:8879e6e672afce88cda8dbbee94a494e24afee44f65ae7ca0a6480e702133a14",
+      "path": "chronicle/connective.json",
+      "sourceHash": "sha256:67fc5a393cd15dbd13ec16df6b3f39233c58cbf92ce31cd8a4c74cc2b8743ca2",
+      "targetHash": "sha256:6b77fc80dcbc79c0fc4743f1fe44c74553445245e16aca47cfbd4ab60e2b5ef1",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.details.json",
-      "sourceHash": "sha256:c1e4f76d5af4ce3bf56b1d72b2895044f93eb46659f5ee323f80a50d9aa74c93",
-      "targetHash": "sha256:0fd1b544cfd65335e6b4ae4921822625d8bef06771a4c24da3d554880de2a830",
+      "path": "chronicle/dark.json",
+      "sourceHash": "sha256:137f3ba7d9072bfdcad55dc9c712715f489d5f1ebb9b40f5e2e272b05983cbe6",
+      "targetHash": "sha256:38952ecc2977d4a594833e1d36ca339bf55f809810d40c0f9f991a9b38f08a8c",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.effects.json",
-      "sourceHash": "sha256:ff05d721064529d611830a5ea0b7b799e7f157072b4ea9d851b72b795bfab44f",
-      "targetHash": "sha256:fbcd084002503162c690a56ff3eb08a760144d8b20136efdd792795fbd881bf3",
+      "path": "chronicle/relationship.json",
+      "sourceHash": "sha256:4a48c362dd3d8cb9ed3a7ec5131d06cdbfbe3fd73bb2ee65586c978fb688ed25",
+      "targetHash": "sha256:72cf75b60d508a319719a4b074abdfbce7d678a968c56ba0bae7507518407c76",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.food.json",
-      "sourceHash": "sha256:0f85f267926ea962abf1bdd7c6cc3dc20127b2012b03497b7d30917612812eab",
-      "targetHash": "sha256:5935e7f4e43f4ed2382586ce8727eaa331d6c79623c6c66df1626538b8072169",
+      "path": "chronicle/routine.json",
+      "sourceHash": "sha256:7898724862fcfbb1d3a9499ec0b4c11991a0576c9a30540f96cec6d21b8e0346",
+      "targetHash": "sha256:f5ca76557f2258a82c9749bef3efa8f4b3e8c00e3190b9d7560b7f0207444e16",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "ui/social.log.json",
-      "sourceHash": "sha256:71c43672f21564860f74a1591112c7aec070cf08d22f9efa32f0f17c5703a53d",
-      "targetHash": "sha256:93433d21c5464cb3b7f40416bdd35a90d0452753d58c306dcd35f9a0fc916595",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "ui/social.log_story.json",
-      "sourceHash": "sha256:6f80b6c37546d4cdeb0c4fa92d909b424262a2565d282c53b6bc9b74904300de",
-      "targetHash": "sha256:40d5dfb4928c775fc835093c346d1f92ab95f416b4b178f67d2a44f877829254",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "ui/social.management.json",
-      "sourceHash": "sha256:e9273dc40844dc6b39a246bd257b1b05670d05e8da604d2ddbc6193d8386160f",
-      "targetHash": "sha256:f9b8a581b1afda3fc43f7b6855397ea5a74e05b0b075ca2c5d777469b19a9902",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "ui/social.scene.json",
-      "sourceHash": "sha256:e3924462253794cc00d1c503ef40596474a3a5f4e02caf32d62faef8e59a4951",
-      "targetHash": "sha256:6508fba8cc49f25b4c2e32ea24498a58be7bccaadb329a543d67474b99fb5971",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "ui/social.settings.json",
-      "sourceHash": "sha256:17bb1bd51b06ef5830786a0590212df9beb5b0ee0ad850cf77f99558468c8d2a",
-      "targetHash": "sha256:a3e422dd8c8b5dc68188fe9c3e6a29fd6936b5d9b73bd29b004555f098f0f9c1",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "ui/social.tab.json",
-      "sourceHash": "sha256:b20ec5dc6fbe2d8b9dac5ffd4309fd341034d219c27ff45c334649d1f90daab6",
-      "targetHash": "sha256:2e309d17204624f836ee5586ebfd0603bcc551f4c61571c1ec0becfe8e2d85f7",
+      "path": "chronicle/support.json",
+      "sourceHash": "sha256:1a4e7e9bb2bac284f6783094e6df91400bd9c8f40b4a8739e59b18e2d2f8f03f",
+      "targetHash": "sha256:8e8c23a62abc5941a44999563c585a530b858f1343c1a0b8e1a6c3e2be1d8ab6",
       "reviewStatus": "reviewed"
     },
     {
@@ -334,6 +304,12 @@
       "reviewStatus": "reviewed"
     },
     {
+      "path": "dialogue/topic-pilot.json",
+      "sourceHash": "sha256:180915ffa7470bdecafc19a44b512117afaea2339f81646f80ad741db0474813",
+      "targetHash": "sha256:b093d5c18540bc1c461891c543a212dcb23b1834b75cc206f37f78912c5bb81d",
+      "reviewStatus": "reviewed"
+    },
+    {
       "path": "dialogue/vent.json",
       "sourceHash": "sha256:c61801aea732117b2912ae7fea99847363010454caad1bcc3d4dce8480ff4418",
       "targetHash": "sha256:873b829842d88feb61dd1fd46191bad75b1f5a4163ee35cf697b880204595f49",
@@ -394,51 +370,99 @@
       "reviewStatus": "reviewed"
     },
     {
-      "path": "chronicle/colony.json",
-      "sourceHash": "sha256:7de5226ee7f7d58f55f9897cf4d60b897eea1e42e8ae9791603aee1e85a021d5",
-      "targetHash": "sha256:45159538d6ce0e8292dba7d01c0b5049731ea3b07f0193d322e31ab7adad66bd",
+      "path": "dialogue/listener-responses.json",
+      "sourceHash": "sha256:630ad6e2149a6eff506607a8d3b90a91326d172817ae06866c1beba2e9ae1af1",
+      "targetHash": "sha256:1791694c4b83f2a595bf9d7f86d771560849836b82cd92b4d1549704b697eb88",
       "reviewStatus": "reviewed"
     },
     {
-      "path": "chronicle/compatibility.json",
-      "sourceHash": "sha256:bb59c614de656a4c3924f2be3bb3c6a308cc8355a471a33b4ec2516e017c6a5c",
-      "targetHash": "sha256:52d0a4f26ef29dc3b0042f3560d09aa8527f4380de7989b6e20f038cac5659fe",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "chronicle/connective.json",
-      "sourceHash": "sha256:67fc5a393cd15dbd13ec16df6b3f39233c58cbf92ce31cd8a4c74cc2b8743ca2",
-      "targetHash": "sha256:6b77fc80dcbc79c0fc4743f1fe44c74553445245e16aca47cfbd4ab60e2b5ef1",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "chronicle/dark.json",
-      "sourceHash": "sha256:137f3ba7d9072bfdcad55dc9c712715f489d5f1ebb9b40f5e2e272b05983cbe6",
-      "targetHash": "sha256:38952ecc2977d4a594833e1d36ca339bf55f809810d40c0f9f991a9b38f08a8c",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "chronicle/relationship.json",
-      "sourceHash": "sha256:4a48c362dd3d8cb9ed3a7ec5131d06cdbfbe3fd73bb2ee65586c978fb688ed25",
-      "targetHash": "sha256:72cf75b60d508a319719a4b074abdfbce7d678a968c56ba0bae7507518407c76",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "chronicle/routine.json",
-      "sourceHash": "sha256:7898724862fcfbb1d3a9499ec0b4c11991a0576c9a30540f96cec6d21b8e0346",
-      "targetHash": "sha256:f5ca76557f2258a82c9749bef3efa8f4b3e8c00e3190b9d7560b7f0207444e16",
-      "reviewStatus": "reviewed"
-    },
-    {
-      "path": "chronicle/support.json",
-      "sourceHash": "sha256:1a4e7e9bb2bac284f6783094e6df91400bd9c8f40b4a8739e59b18e2d2f8f03f",
-      "targetHash": "sha256:8e8c23a62abc5941a44999563c585a530b858f1343c1a0b8e1a6c3e2be1d8ab6",
+      "path": "dialogue/topic-fallback.json",
+      "sourceHash": "sha256:e568c73ec8db035a0baa7a408a284e2e8935238b27c2660df0f7608cebadca9c",
+      "targetHash": "sha256:19d03d5dc58943a31bbc2965645c897df49258e1b14d72ef1a2e1e0afd3f52b8",
       "reviewStatus": "reviewed"
     },
     {
       "path": "prompts/social.json",
       "sourceHash": "sha256:0f83261ef6ab75665efca07d7f41ccf4b1889b9b7cbcd6f6b37a90d139f75c19",
       "targetHash": "sha256:88e7a5250414de54439567bed81a66afe07c2e73c06485090649fa366a0dfc35",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.announce.json",
+      "sourceHash": "sha256:71c2cdf9f0c31a8a01a99ca75423ac87705434779e3f0aad0c71d6c5e604e7a8",
+      "targetHash": "sha256:1ba545714f6b666e570576c2edc9e103fca817c0a96921248203ff0355e7babf",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.chronicle.json",
+      "sourceHash": "sha256:fa45fffd404548b5ec859bc57a08e6bc6ff699e7ef9bf35a371bcc68c74b805a",
+      "targetHash": "sha256:352cc318e0b98b7158846722981ba6faed0196e43a5bee4cb69937966aee3ec7",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.deaths.json",
+      "sourceHash": "sha256:366fb40a3a76b95e91e3690ffa34194304e4be2282771ecb3fef9590b41aabb4",
+      "targetHash": "sha256:8879e6e672afce88cda8dbbee94a494e24afee44f65ae7ca0a6480e702133a14",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.details.json",
+      "sourceHash": "sha256:fd400a6211c0df21ed83a9e2315cb34f38dc9bcdd121a892fdd3e1d5730bacdc",
+      "targetHash": "sha256:01aa322f72923835e8c3fa5582b7db259715124c49f0c324c0336761e2295bfb",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.effects.json",
+      "sourceHash": "sha256:ff05d721064529d611830a5ea0b7b799e7f157072b4ea9d851b72b795bfab44f",
+      "targetHash": "sha256:fbcd084002503162c690a56ff3eb08a760144d8b20136efdd792795fbd881bf3",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.food.json",
+      "sourceHash": "sha256:0f85f267926ea962abf1bdd7c6cc3dc20127b2012b03497b7d30917612812eab",
+      "targetHash": "sha256:5935e7f4e43f4ed2382586ce8727eaa331d6c79623c6c66df1626538b8072169",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.log.json",
+      "sourceHash": "sha256:71c43672f21564860f74a1591112c7aec070cf08d22f9efa32f0f17c5703a53d",
+      "targetHash": "sha256:93433d21c5464cb3b7f40416bdd35a90d0452753d58c306dcd35f9a0fc916595",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.log_story.json",
+      "sourceHash": "sha256:6f80b6c37546d4cdeb0c4fa92d909b424262a2565d282c53b6bc9b74904300de",
+      "targetHash": "sha256:40d5dfb4928c775fc835093c346d1f92ab95f416b4b178f67d2a44f877829254",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.management.json",
+      "sourceHash": "sha256:f39f376a5f812100431cecacefe4122b6b3aacc3ed51814e4869e2441decb18a",
+      "targetHash": "sha256:d095f54825652e6c1bf90ed0a321e2eefc72348bc825070b68c146ed036bef34",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.scene.json",
+      "sourceHash": "sha256:e3924462253794cc00d1c503ef40596474a3a5f4e02caf32d62faef8e59a4951",
+      "targetHash": "sha256:6508fba8cc49f25b4c2e32ea24498a58be7bccaadb329a543d67474b99fb5971",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.settings.json",
+      "sourceHash": "sha256:51cbc4e883fbe1303cdf3377e8748fccc9f70533d7fc42ed03a88255998d8351",
+      "targetHash": "sha256:cc4945e158acb758db8fbd865997fbc8ab79fb20615280660f6796b863c6a14e",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.tab.json",
+      "sourceHash": "sha256:b20ec5dc6fbe2d8b9dac5ffd4309fd341034d219c27ff45c334649d1f90daab6",
+      "targetHash": "sha256:2e309d17204624f836ee5586ebfd0603bcc551f4c61571c1ec0becfe8e2d85f7",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "path": "ui/social.dialogue_topic.json",
+      "sourceHash": "sha256:6f2cd85200a407159d105e9776e995b40a6433d0aee327bcd5505e64cea37b11",
+      "targetHash": "sha256:cdd18a43843f6a79c838127645b0392a54daffeca566824097b953eb5965ee13",
       "reviewStatus": "reviewed"
     }
   ]

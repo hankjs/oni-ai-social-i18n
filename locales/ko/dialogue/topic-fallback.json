@@ -1,0 +1,1086 @@
+{
+  "locale": "ko",
+  "family": "native-utterance-template-pack",
+  "candidates": [
+    {
+      "candidateId": "native-utterance.base.query.angle-1",
+      "diversityKey": "native-utterance.base.query.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 1,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}, 어떻게 생각해?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-2",
+      "diversityKey": "native-utterance.base.query.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 2,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에서 뭘 발견했어?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-3",
+      "diversityKey": "native-utterance.base.query.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 3,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 지금 상태를 말해 줄래?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-4",
+      "diversityKey": "native-utterance.base.query.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 4,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에서 가장 신경 쓰이는 점은 뭐야?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.query.angle-5",
+      "diversityKey": "native-utterance.base.query.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "query"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 5,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}를 한 번 더 확인할까?"
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-1",
+      "diversityKey": "native-utterance.base.assertion.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 6,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에 새 변화가 보여."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-2",
+      "diversityKey": "native-utterance.base.assertion.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 7,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에는 기록할 만한 점이 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-3",
+      "diversityKey": "native-utterance.base.assertion.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 8,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에 관해 분명히 관찰한 게 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-4",
+      "diversityKey": "native-utterance.base.assertion.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 9,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에서 방금 신호가 나왔어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.assertion.angle-5",
+      "diversityKey": "native-utterance.base.assertion.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "statement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 10,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 현황부터 분명히 말할게."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-1",
+      "diversityKey": "native-utterance.base.agreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 11,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에 대한 네 말에 동의해."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-2",
+      "diversityKey": "native-utterance.base.agreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 12,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "그래, {subject}는 네 설명과 같아."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-3",
+      "diversityKey": "native-utterance.base.agreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "동의해. {subject}는 주의해서 볼 만해."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-4",
+      "diversityKey": "native-utterance.base.agreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 14,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "맞아, {subject}에 대한 판단이 같네."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.agreement.angle-5",
+      "diversityKey": "native-utterance.base.agreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "agreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 15,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "네 말이 맞아. {subject}는 그렇게 보자."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-1",
+      "diversityKey": "native-utterance.base.disagreement.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 16,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에 대해서는 생각이 달라."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-2",
+      "diversityKey": "native-utterance.base.disagreement.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 17,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "잠깐, {subject}는 네 설명과 다를 수 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-3",
+      "diversityKey": "native-utterance.base.disagreement.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 18,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "동의 못 해. {subject}를 다시 보자."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-4",
+      "diversityKey": "native-utterance.base.disagreement.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 19,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "뜻은 알겠지만 {subject}에 대한 결론은 반대야."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.disagreement.angle-5",
+      "diversityKey": "native-utterance.base.disagreement.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "disagreement"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 20,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "아직 결론 내리지 마. {subject}에는 다른 설명도 있어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-1",
+      "diversityKey": "native-utterance.base.reflect.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 21,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}가 무슨 뜻인지 계속 생각 중이야."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-2",
+      "diversityKey": "native-utterance.base.reflect.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 22,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 생각할수록 따져 볼 게 많아."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-3",
+      "diversityKey": "native-utterance.base.reflect.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 23,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "돌이켜 보면 {subject}가 많은 걸 알려 줘."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-4",
+      "diversityKey": "native-utterance.base.reflect.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 24,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}를 다른 각도에서 볼 필요가 있겠어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.reflect.angle-5",
+      "diversityKey": "native-utterance.base.reflect.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "musing"
+        ],
+        "appraisals": [
+          "unspecified"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 25,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}를 보니 다음 단계가 떠올라."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-1",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 26,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 지금 상태가 좋아."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-2",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 27,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 이번 결과는 만족스러워."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-3",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 28,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}가 드디어 나아졌어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-4",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 29,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 현재 상태가 마음에 들어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-positive.angle-5",
+      "diversityKey": "native-utterance.base.appraise-positive.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "satisfaction"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 30,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 긍정적으로 평가할 만해."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-1",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 31,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 지금 정상 수준이야."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-2",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 32,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에는 뚜렷한 좋고 나쁨이 없어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-3",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 33,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "현재 {subject}는 평범한 수준이야."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-4",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 34,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "지금 {subject}에는 특별한 점이 없어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-neutral.angle-5",
+      "diversityKey": "native-utterance.base.appraise-neutral.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "nominal"
+        ],
+        "appraisals": [
+          "neutral"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 35,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 안정적이고 평소 범위야."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-1",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 36,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 지금 상태가 좋지 않아."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-2",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 37,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 이번 결과는 실망스러워."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-3",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 38,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}에 처리해야 할 문제가 생겼어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-4",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 39,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}의 현재 상태가 마음에 안 들어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-negative.angle-5",
+      "diversityKey": "native-utterance.base.appraise-negative.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "dissatisfaction"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 40,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 빨리 개선해야 해."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-1",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-1",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 41,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} 때문에 압박감이 심해."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-2",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-2",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 42,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} 생각만 해도 스트레스가 올라."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-3",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-3",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 43,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}는 그냥 넘기기엔 너무 긴장돼."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-4",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-4",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 44,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject}를 처리하기 전에 잠깐 숨을 돌려야겠어."
+        }
+      ]
+    },
+    {
+      "candidateId": "native-utterance.base.appraise-stressed.angle-5",
+      "diversityKey": "native-utterance.base.appraise-stressed.angle-5",
+      "storyletId": "NativeUtterance",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "utteranceModes": [
+          "stressing"
+        ],
+        "appraisals": [
+          "stressed"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 45,
+      "turns": [
+        {
+          "turnId": "speaker",
+          "speakerSlot": 0,
+          "text": "{subject} 상황이 계속 마음을 짓눌러."
+        }
+      ]
+    }
+  ]
+}

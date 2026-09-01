@@ -130,7 +130,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
-      "text": "대화 언어",
+      "text": "모드 언어",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -177,15 +177,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "사이클당 AI 대화 상한",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "같은 복제인간 쌍의 대화 쿨다운(초)",
-      "contractRevision": 1,
+      "text": "모드가 추가한 잡담: 쌍별 쿨다운(초)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -225,21 +219,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "원본 사교 이벤트 관찰(관계 엔진 입력)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "(이 버전은 고정 켜짐)",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "관계 엔진은 지금 전적으로 원본 사교 이벤트 위에 세워져, 아직은 끌 수 없습니다",
-      "contractRevision": 1,
+      "text": "ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 모드는 성공한 원본 사교 이벤트만 관찰하며, 관계 피드백은 별도로 중복을 제거합니다.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -370,14 +352,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "같은 복제인간 쌍의 호감 적립 간격(초)",
-      "contractRevision": 1,
+      "text": "ONI 원본 대화의 모드 관계 피드백 반영 쿨다운(초)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "원본 대화가 호감과 모드 대사로 바뀌는 쌍당 최단 간격입니다. 기본 15초이며, 쌍당 사이클 적립 상한에도 묶여 간격을 줄여도 사이클 상한은 넘지 않습니다.",
-      "contractRevision": 1,
+      "text": "같은 쌍에서 반복되는 모드 관계 피드백과 후속 이야기만 제한합니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 기본 15초이며, 쌍당 사이클 상한도 적용됩니다.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -472,7 +454,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 이간 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다",
+      "text": "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 차단 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -502,14 +484,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "대화 대사 떠다니는 글자",
-      "contractRevision": 1,
+      "text": "모드 대사 글자 표시(ONI 원본 말풍선에는 영향 없음)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "대사가 머무는 초",
-      "contractRevision": 1,
+      "text": "모드 대사 글자 표시 시간(초, ONI 원본 말풍선에는 영향 없음)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -610,8 +592,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "같은 복제인간의 일상 잡담 쿨다운(초)",
-      "contractRevision": 1,
+      "text": "모드가 추가한 잡담: 복제인간별 쿨다운(초)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -622,13 +604,49 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "쌍당 사이클 원본 대화 적립 상한(회)",
-      "contractRevision": 1,
+      "text": "쌍당 사이클 ONI 대화의 모드 관계 피드백 상한(회)",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "기본 3회입니다. 상한에 닿으면 이 쌍의 이번 사이클 이후 원본 발언은 게임 본래 표현을 유지하되, 모드 대사·호감·사교 이벤트는 다시 트리거하지 않습니다. 다음 사이클에 초기화됩니다.",
+      "text": "기본 2회입니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 상한은 이 쌍의 반복되는 모드 관계 피드백과 후속 이야기만 다음 사이클까지 멈춥니다.",
+      "contractRevision": 2,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "ONI 기본 대화 제한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 ONI 기본 대화 수",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "완료된 대화 한 번을 1회로 계산하며, 발화나 말풍선별로 세지 않습니다. 기본값은 꺼짐이며, 끄면 이 모드는 ONI 기본 대화나 말풍선을 제한하지 않습니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "모드 추가 대화 제한",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "주기당 모드 추가 대화 수",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "모드가 만든 대화 장면 한 번을 1회로 계산합니다. 끄면 주기당 총량 제한만 없어지며, 복제인별·쌍별 초 단위 안전 대기시간은 계속 적용됩니다.",
       "contractRevision": 1,
       "status": "reviewed"
     }

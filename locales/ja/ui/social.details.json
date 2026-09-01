@@ -4,7 +4,7 @@
   "entries": [
     {
       "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
-      "text": "社交の概況",
+      "text": "最近の交流",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "気分ログ",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "個人の物語",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "最近の気分記録はありません",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "まだ読める人生の章はありません",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "この複製人間の最近の社交イベントと、好感度と気分への影響",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "この複製人間の最近の人生の章を要約して表示します",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -148,7 +148,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
-      "text": "性格の履歴",
+      "text": "性格メモ",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -292,7 +292,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "「管理者」の導きにより、{0} の {1}性格 が {2}性格 になりました。",
+      "text": "{0} の性格が {1} から {2} に変わりました。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -413,6 +413,48 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
       "text": "未知の社交イベント",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE",
+      "text": "愛が再燃した",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DECAY",
+      "text": "関係が薄れた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HEALED",
+      "text": "関係が修復した",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER",
+      "text": "悲嘆が和らいだ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER",
+      "text": "喪が明けた",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.EFFECT",
+      "text": "交流の影響",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB",
+      "text": "食卓で避けられた",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -754,19 +796,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "管理者の取り持ち",
+      "text": "取り持ちマーク追加",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "管理者の引き離し",
+      "text": "ブロックマーク追加",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "管理者がマークを解除",
+      "text": "マーク解除",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -874,7 +916,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "引き離しマーク：この複製人間のペアが本Modの社交イベントとAI会話を起こすのを防ぎます",
+      "text": "ブロックマーク：このペアが本Modの社交イベントとAI会話を起こすのを防ぎますが、強制的に別れさせたり既存の関係を削除したりはしません",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +943,8 @@
       "text": "\n相性：{0}（各サイクル最初の雑談の好感度 {1}、言い争い確率 {2}）",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"最近の章","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"個人の物語を見る","contractRevision":1,"status":"reviewed"}
   ]
 }

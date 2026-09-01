@@ -4,7 +4,7 @@
   "entries": [
     {
       "key": "STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE",
-      "text": "Social overview",
+      "text": "Social life",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -81,20 +81,20 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE",
-      "text": "Mood log",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE",
+      "text": "Personal story",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY",
-      "text": "No recent mood entries",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
+      "text": "No personal story chapters yet",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP",
-      "text": "This duplicant's recent social events and their effect on affinity and mood",
+      "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
+      "text": "A preview of this duplicant's most recent selected life chapter",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -148,7 +148,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION",
-      "text": "Temperament history",
+      "text": "Personality notes",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -292,7 +292,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN",
-      "text": "Under the Administrator's guidance, {0}'s {1} temperament became {2}.",
+      "text": "{0}'s temperament changed from {1} to {2}.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -413,6 +413,48 @@
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.UNKNOWN",
       "text": "Unknown social event",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE",
+      "text": "Love rekindled",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.DECAY",
+      "text": "Relationship faded",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.HEALED",
+      "text": "Relationship healed",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER",
+      "text": "Grief eased",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER",
+      "text": "Mourning ended",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.EFFECT",
+      "text": "Social effect",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB",
+      "text": "Snubbed at the table",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -754,19 +796,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH",
-      "text": "Administrator matchmaking",
+      "text": "Matchmaking mark added",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Administrator separation",
+      "text": "Block mark added",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR",
-      "text": "Administrator cleared mark",
+      "text": "Mark cleared",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -874,7 +916,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Block mark: prevents this pair from triggering mod social events and AI chats",
+      "text": "Block mark: prevents this pair from triggering mod social events and AI chats; it does not force a breakup or erase an existing relationship",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -901,6 +943,8 @@
       "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
       "contractRevision": 1,
       "status": "reviewed"
-    }
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Latest chapter","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"View personal story","contractRevision":1,"status":"reviewed"}
   ]
 }

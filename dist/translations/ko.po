@@ -772,6 +772,12 @@ msgid "告白被拒"
 msgstr "고백이 거절됨"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CONFESSION_REKINDLE"
+msgid "旧情复燃"
+msgstr "사랑이 다시 타오름"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.CRUSH_DIED"
 msgid "未说出口的遗憾"
@@ -782,6 +788,18 @@ msgstr "말하지 못한 아쉬움"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DATE"
 msgid "约会"
 msgstr "데이트"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.DECAY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.DECAY"
+msgid "关系渐淡"
+msgstr "관계가 멀어짐"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.EFFECT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.EFFECT"
+msgid "社交影响"
+msgstr "사교 영향"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.FALLOUT
@@ -820,6 +838,12 @@ msgid "打招呼"
 msgstr "인사"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.GRIEF_OVER"
+msgid "悲痛渐退"
+msgstr "비탄이 잦아듦"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
 msgid "一起在下面待过"
@@ -844,6 +868,12 @@ msgid "为什么总是我下去"
 msgstr "왜 늘 나만 내려가나"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.HEALED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HEALED"
+msgid "关系修复"
+msgstr "관계가 회복됨"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.JEALOUSY"
 msgid "吃醋"
@@ -852,20 +882,26 @@ msgstr "질투"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK"
-msgid "管理员拆散"
-msgstr "관리자 이간"
+msgid "已屏蔽"
+msgstr "차단 표시 추가"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_CLEAR"
-msgid "管理员取消标记"
-msgstr "관리자 표시 해제"
+msgid "已清除标记"
+msgstr "표시 해제"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MARK_MATCH"
-msgid "管理员牵线"
-msgstr "관리자 중매"
+msgid "已牵线"
+msgstr "중매 표시 추가"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.MOURNING_OVER"
+msgid "悼念结束"
+msgstr "애도가 끝남"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.PARTNER_DIED
@@ -976,6 +1012,12 @@ msgid "被孤立"
 msgstr "고립됨"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_MEAL_SNUB"
+msgid "同桌冷落"
+msgstr "식탁에서 외면당함"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
 msgid "被偷揍"
@@ -1012,24 +1054,6 @@ msgid "已故的复制人"
 msgstr "고인이 된 복제인간"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_EMPTY"
-msgid "最近没有心情记录"
-msgstr "최근에 기분 기록이 없습니다"
-
-#. resolved-locale: ko
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TITLE"
-msgid "心情日志"
-msgstr "기분 로그"
-
-#. resolved-locale: ko
-#. STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.MOOD_LOG_TOOLTIP"
-msgid "这名复制人最近的社交事件，以及对好感和心情的影响"
-msgstr "이 복제인간의 최근 사교 이벤트와, 호감과 기분에 미친 영향"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.NO_RELATIONSHIPS"
 msgid "尚无关系记录"
@@ -1044,8 +1068,8 @@ msgstr "복제인간이 상호작용하면, 관계와 호감이 여기에 표시
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.OVERVIEW_TITLE"
-msgid "社交概况"
-msgstr "사교 개요"
+msgid "社交近况"
+msgstr "사교 근황"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.ATHLETE
@@ -1056,8 +1080,8 @@ msgstr "활동적"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.ADMIN"
-msgid "受到「管理员」引导，{0} 的 {1}性格 变为了 {2}性格。"
-msgstr "「관리자」의 안내에 따라, {0}의 {1}성격이 {2}성격으로 바뀌었습니다."
+msgid "{0} 的性格从「{1}」变为了「{2}」。"
+msgstr "{0}의 성격이 {1}에서 {2}로 바뀌었습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
@@ -1194,8 +1218,8 @@ msgstr "사이클{0} · {1}"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_SECTION"
-msgid "性格履历"
-msgstr "성격 이력"
+msgid "性格小记"
+msgstr "성격 기록"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_UNCHANGED
@@ -1312,6 +1336,36 @@ msgid "与全体存活复制人的平均好感。目前只反映人缘高低，�
 msgstr "생존 중인 모든 복제인간과의 평균 호감입니다. 지금은 인기의 높낮이만 보여 주며 판정에는 영향을 주지 않습니다. 명성 플레이는 이후 버전에서 다룹니다."
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON"
+msgid "查看个人故事"
+msgstr "개인 이야기 보기"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
+msgid "还没有形成可阅读的人生章节"
+msgstr "아직 읽을 수 있는 인생 장이 없습니다"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT"
+msgid "最近的篇章"
+msgstr "최근 장"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TITLE"
+msgid "个人故事"
+msgstr "개인 이야기"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
+msgid "这名复制人最近一段被收录的人生经历"
+msgstr "이 복제체의 가장 최근 인생 장을 요약해 보여줍니다"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.SYSTEM_UNAVAILABLE"
 msgid "社交系统尚未就绪"
@@ -1350,8 +1404,8 @@ msgstr "위험 근무: {0} {1} · {2} {3}——같은 직무, 같은 기간에 �
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK"
-msgid "拆散标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话"
-msgstr "이간 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다"
+msgid "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系"
+msgstr "차단 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH
@@ -1430,6 +1484,108 @@ msgstr "말다툼을 피함"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.TRAIT_EFFECT_SLOWLEARNER"
 msgid "被请教时不太领情"
 msgstr "가르침을 받을 때 별로 고마워하지 않음"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BED.NAME"
+msgid "床铺"
+msgstr "침대"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.BUILDING.NAME"
+msgid "建筑"
+msgstr "건물"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CREATURE.NAME"
+msgid "生物"
+msgstr "생물"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.CURRENT_JOB.NAME"
+msgid "当前工作"
+msgstr "현재 작업"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.DECOR.NAME"
+msgid "装饰"
+msgstr "장식"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ELEMENT.NAME"
+msgid "材料"
+msgstr "재료"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.EQUIPMENT.NAME"
+msgid "装备"
+msgstr "장비"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FACILITY.NAME"
+msgid "设施"
+msgstr "시설"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.FOOD.NAME"
+msgid "食物"
+msgstr "음식"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.HEALTH.NAME"
+msgid "健康"
+msgstr "건강"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.IMMUNITY.NAME"
+msgid "免疫状态"
+msgstr "면역 상태"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.ITEM.NAME"
+msgid "物品"
+msgstr "물건"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.MORALE.NAME"
+msgid "士气"
+msgstr "사기"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.PLANT.NAME"
+msgid "植物"
+msgstr "식물"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.SATIETY.NAME"
+msgid "饱腹状态"
+msgstr "칼로리 상태"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STAMINA.NAME"
+msgid "体力"
+msgstr "체력"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.DIALOGUE_TOPIC.STRESS.NAME"
+msgid "压力"
+msgstr "스트레스"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.EFFECTS.CANNIBAL.DESC
@@ -3498,8 +3654,8 @@ msgstr "돌아가기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON"
-msgid "拆散"
-msgstr "이간"
+msgid "屏蔽"
+msgstr "차단"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_BEST_PICKER
@@ -3556,6 +3712,12 @@ msgid "选择最差关系"
 msgstr "가장 나쁜 관계 고르기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CANCEL_BUTTON"
+msgid "取消"
+msgstr "취소"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEARED_MARKS"
 msgid "[完成] 已清除 {0} 的 {1} 个标记"
@@ -3568,16 +3730,40 @@ msgid "清除标记"
 msgstr "표시 지우기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_BODY"
+msgid "将清除与 {0} 有关的 {1} 个标记。"
+msgstr "{0}와 관련된 표시 {1}개를 지웁니다."
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLEAR_MARKS_CONFIRM_TITLE"
+msgid "清除所有标记？"
+msgstr "모든 표시를 지울까요?"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CLOSE_BUTTON"
 msgid "关闭"
 msgstr "닫기"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS"
+msgid "收起关系"
+msgstr "관계 접기"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.COMPLETED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.COMPLETED"
 msgid "[完成] {0}"
 msgstr "[완료] {0}"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.CONFIRM_BUTTON"
+msgid "确认"
+msgstr "확인"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_BUTTON
@@ -3596,6 +3782,12 @@ msgstr "아직 이벤트 기록이 없습니다"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EVENT_LOG_TITLE"
 msgid "殖民地纪事"
 msgstr "식민지 연대기"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS"
+msgid "展开关系"
+msgstr "관계 펼치기"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.FILTER_ALL
@@ -3646,6 +3838,36 @@ msgid "排序：{0}"
 msgstr "정렬: {0}"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_EARLIER"
+msgid "较早"
+msgstr "이전"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_LATER"
+msgid "较晚"
+msgstr "이후"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_OPEN_CHAPTER"
+msgid "这段经历仍在继续。"
+msgstr "이 경험은 아직 이어지고 있습니다."
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_REBUILT"
+msgid "部分故事段落已根据原始事件事实恢复。"
+msgstr "일부 이야기 장을 원본 사건 사실에서 복구했습니다."
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.HISTORY_RECORDED_FROM"
+msgid "记录从周期 {0} 开始"
+msgstr "기록은 사이클 {0}부터 시작됩니다"
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_FILTER_ALL"
 msgid "人物:全部"
@@ -3690,8 +3912,8 @@ msgstr "{0}을 골랐습니다. 다른 복제인간을 고른 뒤 같은 단축�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK"
-msgid "拆散: {0} × {1}"
-msgstr "이간: {0} × {1}"
+msgid "已屏蔽：{0} × {1}"
+msgstr "차단됨: {0} × {1}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MARK_SET_CLEARED
@@ -3720,8 +3942,8 @@ msgstr "사교"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.MENU_TOOLTIP"
-msgid "查看殖民地关系并管理牵线和拆散标记"
-msgstr "식민지 관계를 보고 중매와 이간 표시를 관리합니다"
+msgid "查看殖民地关系并管理牵线和屏蔽标记"
+msgstr "식민지 관계를 보고 중매와 차단 표시를 관리합니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.NEXT_PAGE
@@ -3750,8 +3972,8 @@ msgstr "관계 총람"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_SUMMARY"
-msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 拆散：{5}"
-msgstr "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 이간: {5}"
+msgid "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}"
+msgstr "식민지: {0} ({1})\n생존 복제인간: {2}\n관계 기록: {3}\n중매: {4} · 차단: {5}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.OVERVIEW_TITLE
@@ -3828,8 +4050,8 @@ msgstr "대기 중인 사교 이벤트"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE"
-msgid "选择第一名复制人。拆散会阻止这对复制人触发本 Mod 的社交事件和 AI 对话。"
-msgstr "첫 번째 복제인간을 고르세요. 이간은 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막습니다."
+msgid "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。"
+msgstr "첫 번째 복제인간을 고르세요. 차단하면 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE
@@ -3852,8 +4074,8 @@ msgstr "{0} · 두 번째 사람 고르기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_CLEAR_MESSAGE"
-msgid "选择一名复制人，清除所有与其有关的牵线和拆散标记。"
-msgstr "복제인간 한 명을 골라, 그와 관련된 모든 중매와 이간 표시를 지웁니다."
+msgid "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。"
+msgstr "복제인간 한 명을 골라, 그와 관련된 모든 중매와 차단 표시를 지웁니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
@@ -3994,6 +4216,18 @@ msgid "第{0}章 · {1}"
 msgstr "제{0}장 · {1}"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_INVOLVED_BADGE"
+msgid "[被卷入]"
+msgstr "[휘말림]"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.STORY_READING_INTRO"
+msgid "精选能代表人生阶段的经历，不是完整流水账；旁观或被卷入的重要事件也会收入。"
+msgstr "삶의 각 장을 대표하는 경험을 골라 보여 주며, 완전한 기록은 아닙니다. 목격했거나 휘말린 중요한 사건도 포함됩니다."
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
 msgid "请先在 Mod 设置中开启「本地玩法数据」"
@@ -4016,6 +4250,18 @@ msgstr "진단 보고서를 내보냈습니다: {0}"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_EXPORT_FAILED"
 msgid "诊断报告导出失败：{0}"
 msgstr "진단 보고서 내보내기에 실패했습니다: {0}"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON"
+msgid "撤销"
+msgstr "실행 취소"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED"
+msgid "已撤销上一项标记操作"
+msgstr "이전 표시 작업을 취소했습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BREAKUP_KEY
@@ -4140,8 +4386,8 @@ msgstr "AI 대사는 아직 충분히 다듬이지 않아 기본값은 끔입니
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "同一复制人的日常闲聊冷却（秒）"
-msgstr "같은 복제인간의 일상 잡담 쿨다운(초)"
+msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgstr "모드가 추가한 잡담: 복제인간별 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
@@ -4212,8 +4458,8 @@ msgstr "숙적 주먹다짐 허용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。拆散标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
-msgstr "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 이간 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다"
+msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgstr "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 차단 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
@@ -4248,26 +4494,26 @@ msgstr "취소"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "同一对复制人的好感进账间隔（秒）"
-msgstr "같은 복제인간 쌍의 호감 적립 간격(초)"
+msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgstr "ONI 원본 대화의 모드 관계 피드백 반영 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "原生聊天转化为好感与模组台词的每对最短间隔。默认 15 秒；另受每对每周期进账上限限制，缩短间隔不会突破周期上限。"
-msgstr "원본 대화가 호감과 모드 대사로 바뀌는 쌍당 최단 간격입니다. 기본 15초이며, 쌍당 사이클 적립 상한에도 묶여 간격을 줄여도 사이클 상한은 넘지 않습니다."
+msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgstr "같은 쌍에서 반복되는 모드 관계 피드백과 후속 이야기만 제한합니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 기본 15초이며, 쌍당 사이클 상한도 적용됩니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT"
-msgid "每对每周期原生聊天进账上限（次）"
-msgstr "쌍당 사이클 원본 대화 적립 상한(회)"
+msgid "每对每周期原生聊天触发模组关系反馈的上限（次）"
+msgstr "쌍당 사이클 ONI 대화의 모드 관계 피드백 상한(회)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT"
-msgid "默认 3 次。达到上限后，这一对本周期后续的原生发言保留游戏原有表现，但不再重复触发模组台词、好感和社交事件；下一周期重置。"
-msgstr "기본 3회입니다. 상한에 닿으면 이 쌍의 이번 사이클 이후 원본 발언은 게임 본래 표현을 유지하되, 모드 대사·호감·사교 이벤트는 다시 트리거하지 않습니다. 다음 사이클에 초기화됩니다."
+msgid "默认 2 次。ONI 原生对话气泡始终照常显示；上限只会让这一对停止重复触发模组关系反馈和后续故事，下一周期重置。"
+msgstr "기본 2회입니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 상한은 이 쌍의 반복되는 모드 관계 피드백과 후속 이야기만 다음 사이클까지 멈춥니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH
@@ -4380,8 +4626,8 @@ msgstr "F9/F10/F11 중매 단축키"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LANGUAGE"
-msgid "对话语言"
-msgstr "대화 언어"
+msgid "模组语言"
+msgstr "모드 언어"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.LANGUAGE_EN
@@ -4426,12 +4672,6 @@ msgid "中文"
 msgstr "중국어"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX"
-msgid "（本版本固定开启）"
-msgstr "(이 버전은 고정 켜짐)"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY"
 msgid "纪事容量（条）"
@@ -4450,12 +4690,6 @@ msgid "每周期 AI 润色上限"
 msgstr "사이클당 AI 윤색 상한"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS"
-msgid "每周期 AI 对话上限"
-msgstr "사이클당 AI 대화 상한"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.MAX_TOKENS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MAX_TOKENS"
 msgid "单次生成上限（token）"
@@ -4472,6 +4706,30 @@ msgstr "모델"
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MODEL_PLACEHOLDER"
 msgid "模型名称"
 msgstr "모델 이름"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE"
+msgid "每周期模组新增闲聊上限（场）"
+msgstr "주기당 모드 추가 대화 수"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT"
+msgid "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。"
+msgstr "모드가 만든 대화 장면 한 번을 1회로 계산합니다. 끄면 주기당 총량 제한만 없어지며, 복제인별·쌍별 초 단위 안전 대기시간은 계속 적용됩니다."
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE"
+msgid "每周期 ONI 原生闲聊上限（完整会话）"
+msgstr "주기당 ONI 기본 대화 수"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT"
+msgid "每场完整会话只计 1 次，不按发言或气泡计数。默认关闭；关闭时模组不限制 ONI 原生会话或气泡。"
+msgstr "완료된 대화 한 번을 1회로 계산하며, 발화나 말풍선별로 세지 않습니다. 기본값은 꺼짐이며, 끄면 이 모드는 ONI 기본 대화나 말풍선을 제한하지 않습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.NOTIFICATIONS
@@ -4504,16 +4762,10 @@ msgid "关系里程碑通知"
 msgstr "관계 이정표 알림"
 
 #. resolved-locale: ko
-#. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE
-msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE"
-msgid "观察原生社交事件（关系引擎输入）"
-msgstr "원본 사교 이벤트 관찰(관계 엔진 입력)"
-
-#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "关系引擎目前完全建立在原生社交事件之上，暂不支持关闭"
-msgstr "관계 엔진은 지금 전적으로 원본 사교 이벤트 위에 세워져, 아직은 끌 수 없습니다"
+msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgstr "ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 모드는 성공한 원본 사교 이벤트만 관찰하며, 관계 피드백은 별도로 중복을 제거합니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.OFF
@@ -4530,8 +4782,8 @@ msgstr "켬"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "同一对复制人的对话冷却（秒）"
-msgstr "같은 복제인간 쌍의 대화 쿨다운(초)"
+msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgstr "모드가 추가한 잡담: 쌍별 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PENDING_BODY
@@ -4566,8 +4818,8 @@ msgstr "끄면 고백 같은 이벤트가 바로 일어나지만, 연출과 알�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS"
-msgid "台词停留秒数"
-msgstr "대사가 머무는 초"
+msgid "模组台词文字停留秒数（不影响 ONI 原生气泡）"
+msgstr "모드 대사 글자 표시 시간(초, ONI 원본 말풍선에는 영향 없음)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_COMPACT
@@ -4740,8 +4992,20 @@ msgstr "기본값은 끔입니다. 켜면 이 기기에서만 이벤트 빈도, 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS"
-msgid "对话台词浮动文字"
-msgstr "대화 대사 떠다니는 글자"
+msgid "显示模组台词文字（不影响 ONI 原生气泡）"
+msgstr "모드 대사 글자 표시(ONI 원본 말풍선에는 영향 없음)"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS"
+msgid "限制模组新增闲聊总量"
+msgstr "모드 추가 대화 제한"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS"
+msgid "限制 ONI 原生闲聊总量"
+msgstr "ONI 기본 대화 제한"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.TIMEOUT

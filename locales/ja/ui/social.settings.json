@@ -130,7 +130,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.LANGUAGE",
-      "text": "会話言語",
+      "text": "MODの言語",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -177,15 +177,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.MAX_CONVERSATIONS",
-      "text": "サイクルあたりのAI会話上限",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "同一ペアの複製人間の会話クールダウン（秒）",
-      "contractRevision": 1,
+      "text": "Modが追加する雑談：同じペアのクールダウン（秒）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -225,21 +219,9 @@
       "status": "reviewed"
     },
     {
-      "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE",
-      "text": "本体の社交イベントを観察する（関係エンジンの入力）",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
-      "key": "STRINGS.SOCIAL.SETTINGS.LOCKED_SUFFIX",
-      "text": "（このバージョンでは常時オン）",
-      "contractRevision": 1,
-      "status": "reviewed"
-    },
-    {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "関係エンジンは現在、本体の社交イベントのうえに完全に乗っており、オフにはできません",
-      "contractRevision": 1,
+      "text": "ONI本体の会話吹き出しは常に通常どおり表示されます。Modは成功した本体の社交イベントだけを観察し、関係への反映は別途重複を除きます。",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -370,14 +352,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "同一ペアの複製人間の好感度加算間隔（秒）",
-      "contractRevision": 1,
+      "text": "ONI本体の会話をModの関係フィードバックへ反映する間隔（秒）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "本体チャットを好感度とMod台詞に変換する、ペアごとの最短間隔。既定は15秒。さらにペアごと・サイクルあたりの加算上限があり、間隔を短くしてもサイクル上限は超えません。",
-      "contractRevision": 1,
+      "text": "同じペアから繰り返されるModの関係フィードバックと後続ストーリーだけを制限します。ONI本体の会話吹き出しは常に通常どおり表示されます。既定は15秒で、ペアごと・サイクルあたりの上限も適用されます。",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -472,7 +454,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。引き離しマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない",
+      "text": "宿敵どうしの言い争いは、実際の殴り合いに発展することがある。ターン制の殴り合いで、手加減する（どちらかが体力半分まで落ちたら双方が手を引く）。宿敵の殴り合いで人は死なない（飢餓による共食いは別件で、下記を参照）。既定はオフ——見世物が欲しければ自分でオンに。ブロックマークは一組の殴り合いを完全に禁止できる。「ドラマ強度」を「静か」にすると、オンにしていても発生しない",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -502,14 +484,14 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TEXT_POPUPS",
-      "text": "会話台詞のフロート文字",
-      "contractRevision": 1,
+      "text": "Mod台詞のフロート文字（ONI本体の吹き出しには影響しない）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.POPUP_SECONDS",
-      "text": "台詞の表示秒数",
-      "contractRevision": 1,
+      "text": "Mod台詞の表示時間（秒。ONI本体の吹き出しには影響しない）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -610,8 +592,8 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "同一複製人間の日常雑談クールダウン（秒）",
-      "contractRevision": 1,
+      "text": "Modが追加する雑談：複製人ごとのクールダウン（秒）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
@@ -622,13 +604,49 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT",
-      "text": "ペアごと・サイクルあたりの本体チャット加算上限（回）",
-      "contractRevision": 1,
+      "text": "ONI本体の会話によるMod関係フィードバックのペア別サイクル上限（回）",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_LIMIT_HINT",
-      "text": "既定は3回。上限に達したあと、そのペアの今サイクルの以降の本体発言はゲーム本来の表現を残すが、Mod台詞・好感度・社交イベントは重ねて発火しない。次のサイクルでリセットされる。",
+      "text": "既定は2回。ONI本体の会話吹き出しは常に通常どおり表示されます。上限は、そのペアで繰り返されるModの関係フィードバックと後続ストーリーだけを次のサイクルまで止めます。",
+      "contractRevision": 2,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_NATIVE_CONVERSATIONS",
+      "text": "ONI本体の会話を制限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATIONS_PER_CYCLE",
+      "text": "サイクルごとのONI本体の会話数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.NATIVE_CONVERSATION_THROTTLE_HINT",
+      "text": "完了した会話1回を1件として数え、発言や吹き出し単位では数えません。既定はオフです。オフの場合、このModはONI本体の会話や吹き出しを制限しません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.THROTTLE_MOD_CONVERSATIONS",
+      "text": "Mod追加会話を制限",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATIONS_PER_CYCLE",
+      "text": "サイクルごとのMod追加会話数",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
+      "text": "Modが作成した会話シーン1回を1件として数えます。オフにしてもサイクル合計上限だけが解除され、複製人ごと・ペアごとの秒単位の安全クールダウンは引き続き適用されます。",
       "contractRevision": 1,
       "status": "reviewed"
     }
