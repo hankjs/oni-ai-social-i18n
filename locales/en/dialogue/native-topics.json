@@ -1,5 +1,174 @@
 {
   "locale": "en",
   "family": "native-topics",
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "No idea if it's to your taste, but it smells good to me."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then you go first. My nose isn't testifying today."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I'm having trouble getting this down."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Don't force it. I haven't touched my water yet."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "The moment I lie down on that bed, my shoulders let go."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Sounds like your back finally clocked out."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Sleep on that bed and every bone lines up to file a complaint."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "I'll take it tonight. Wouldn't want it picking on just you."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Every time I pass that decoration, something in me lights up a bit."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then take the long way round. Nobody's rushing you today."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "I look at that decoration and I swear it's looking back."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Then let's walk faster. Don't give it the chance."
+        }
+      ]
+    }
+  ]
 }

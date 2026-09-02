@@ -1,5 +1,174 @@
 {
   "locale": "ko",
   "family": "native-topics",
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "네 입에 맞을진 모르겠지만, 냄새는 괜찮아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 네가 먼저 먹어. 오늘 내 코는 증언 안 해."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "이거, 도무지 목으로 안 넘어가."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "억지로 먹지 마. 내 물은 아직 안 건드렸어."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 침대에 눕는 순간 어깨가 확 풀려."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "네 등도 드디어 퇴근했나 보네."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 침대에서 자면 뼈마디가 줄 서서 항의하는 기분이야."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "오늘 밤은 내가 자 볼게. 너만 괴롭히게 둘 순 없지."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 장식 앞을 지날 때마다 마음이 조금 환해져."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 한 바퀴 더 돌고 와. 오늘은 안 재촉할게."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "그 장식을 보고 있으면, 저쪽도 날 보는 것 같아."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "그럼 좀 빨리 걷자. 기회를 주지 말고."
+        }
+      ]
+    }
+  ]
 }

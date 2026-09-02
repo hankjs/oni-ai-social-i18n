@@ -1,5 +1,174 @@
 {
   "locale": "vi",
   "family": "native-topics",
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Không biết bạn có hợp khẩu vị không, nhưng mình ngửi thấy thơm."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Vậy bạn ăn trước đi. Hôm nay mũi mình không làm chứng."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Cái này mình nuốt không trôi."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Đừng ép. Phần nước của mình còn nguyên."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Cứ nằm xuống cái giường đó là vai mình giãn hẳn ra."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Nghe như lưng bạn cuối cùng cũng chịu tan ca."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ngủ cái giường đó là từng khúc xương xếp hàng phản đối."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Tối nay để mình nằm thử. Không thể để nó chỉ bắt nạt bạn."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Mỗi lần đi ngang món trang trí đó, lòng mình lại sáng lên một chút."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Vậy thì đi vòng thêm lần nữa. Hôm nay không ai giục bạn."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Mình nhìn món trang trí đó, cứ thấy như nó cũng đang nhìn lại."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Vậy đi nhanh lên. Đừng cho nó cơ hội."
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,174 @@
 {
   "locale": "ru",
   "family": "native-topics",
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Не знаю, понравится ли тебе, но пахнет неплохо."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда ты первый. Мой нос сегодня показаний не даёт."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Никак не могу это проглотить."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Не заставляй себя. Мою воду я ещё не трогал."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ложусь на ту койку — и плечи сами отпускают."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Похоже, твоя спина наконец ушла со смены."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Посплю на той койке — и каждая кость встаёт в очередь с жалобой."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Сегодня лягу я. Пусть не только тебя мучает."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Каждый раз, проходя мимо того украшения, я будто чуть светлею."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда сделай ещё круг. Сегодня тебя никто не торопит."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Смотрю на то украшение — и кажется, оно смотрит в ответ."
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Тогда идём быстрее. Не давай ему шанса."
+        }
+      ]
+    }
+  ]
 }

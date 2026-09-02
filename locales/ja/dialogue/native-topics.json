@@ -1,5 +1,174 @@
 {
   "locale": "ja",
   "family": "native-topics",
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "口に合うかは知らないけど、匂いは悪くない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ先に食べてくれ。今日の俺の鼻は証言しない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "これ、どうにも喉を通らない。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "無理するな。俺の水はまだ手つかずだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あのベッド、横になった途端に肩が落ちる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "君の背中もようやく退勤したってわけだ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あのベッドで寝ると、骨という骨が順番に文句を言ってくる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "今夜は俺が寝る。君だけいじめさせるのも癪だ。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あの飾りの前を通るたびに、少しだけ心が明るくなる。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "なら、もう一回りしてこい。今日は急かさない。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "あの飾りを見ていると、向こうもこっちを見ている気がする。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "じゃあ足を速めよう。隙を与えるな。"
+        }
+      ]
+    }
+  ]
 }
