@@ -14,7 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
-from i18nlib import _content_hash, authoring_report, export_dist, validate_catalog
+from i18nlib import (_content_hash, authoring_report, export_dist,
+                     semantic_runtime_syntax_error, validate_catalog)
 
 
 class I18nValidationTests(unittest.TestCase):
@@ -103,6 +104,30 @@ class I18nValidationTests(unittest.TestCase):
             root = self.copied_catalog(temporary); path = root / "locales/en/chronicle/routine.json"
             self.rewrite(path, lambda value: value["templates"][0].update(text="A quiet moment."))
             self.assertTrue(any("requiredSlots must exactly match" in error for error in validate_catalog(root)))
+
+    def test_runtime_placeholder_grammar_matches_the_csharp_compiler(self) -> None:
+        """占位符文法的真值在 C# SemanticTemplateCompiler,不在 string.Format 的正则里。
+
+        FORMAT_ITEM_RE 放行的这些形态会让运行时把整个 locale 的 chronicle family
+        判为 damaged,进而冻结**所有语言**的 ledger 分配——校验器全绿,游戏里叙事全灭。
+        """
+        for good in ("{a}", "{actor}", "{a}{b}", "{actor:subject}", "{a1}", "plain text"):
+            self.assertIsNone(semantic_runtime_syntax_error(good), good)
+        for bad in ("{Actor}", "{_x}", "{0}", "{a,5}", "{a: subject}", "{a:sub_form}", "{{a}}"):
+            self.assertIsNotNone(semantic_runtime_syntax_error(bad), bad)
+        self.assertIn("unclosed", semantic_runtime_syntax_error("{a") or "")
+        self.assertIn("stray", semantic_runtime_syntax_error("a}") or "")
+
+    def test_chronicle_rejects_a_placeholder_the_runtime_cannot_compile(self) -> None:
+        """整份目录必须拦住它,而不只是那个纯函数。"""
+        with tempfile.TemporaryDirectory() as temporary:
+            root = self.copied_catalog(temporary); path = root / "locales/en/chronicle/routine.json"
+            original = json.loads(path.read_text())["templates"][0]
+            self.rewrite(path, lambda value: value["templates"][0].update(
+                text=original["text"] + " {a: subject}",
+                requiredSlots=sorted(set(original.get("requiredSlots", [])) | {"a"})))
+            self.assertTrue(any("not accepted by the runtime" in error
+                                for error in validate_catalog(root)))
 
     def test_ui_rejects_contract_placeholder_mismatch(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

@@ -107,6 +107,51 @@ def placeholder_syntax_error(text: str, semantic: bool = False) -> str | None:
     return None
 
 
+def _is_runtime_identifier(value: str) -> bool:
+    """C# SemanticTemplateCompiler.IsIdentifier:首字符必须是小写 a-z,其余仅限 ASCII 英数。"""
+    if not value or not ("a" <= value[0] <= "z"):
+        return False
+    return all(("a" <= c <= "z") or ("A" <= c <= "Z") or ("0" <= c <= "9") for c in value[1:])
+
+
+def semantic_runtime_syntax_error(text: str) -> str | None:
+    """占位符文法的**运行时**判定,逐行移植自 C# SemanticTemplateCompiler.ParseSlots。
+
+    FORMAT_ITEM_RE 是给 .NET string.Format 用的,比运行时宽得多:它放行
+    ``{Actor}``(首字母大写)、``{_x}``(下划线)、``{0}``(纯数字)、``{a,5}``
+    (.NET 对齐)与 ``{a: subject}``(冒号后带空格),而运行时把这些一律判为
+    ``catalog.bad-placeholder`` Error → ``CompileResolved`` 返回 null → 整个 locale 的
+    chronicle family 被判 damaged → ``ReleaseSnapshotReady()`` 缓存 false → **所有语言**
+    的新事实都不再写 ledger,全殖民地纪事退化成标签行。
+
+    也就是说:译者写错一个空格,校验器与 CI 全绿,游戏里叙事全灭。所以 chronicle
+    这一族必须按运行时的文法验,而不是按 string.Format 的文法验。移植而非再写一条
+    正则,是为了让两边按构造一致、不会各自漂移。
+    """
+    value = text or ""
+    index = 0
+    while index < len(value):
+        char = value[index]
+        if char == "}":
+            return f"stray '}}' at character {index + 1} (the runtime has no '}}}}' escape)"
+        if char != "{":
+            index += 1
+            continue
+        close = value.find("}", index + 1)
+        if close < 0:
+            return f"unclosed '{{' at character {index + 1}"
+        expression = value[index + 1:close]
+        separator = expression.find(":")
+        slot = expression if separator < 0 else expression[:separator]
+        form = "" if separator < 0 else expression[separator + 1:]
+        if not _is_runtime_identifier(slot) or (form and not _is_runtime_identifier(form)):
+            return (f"placeholder {{{expression}}} at character {index + 1} is not accepted by the "
+                    "runtime: slot and form must start with a lowercase letter and contain only "
+                    "ASCII letters and digits")
+        index = close + 1
+    return None
+
+
 def rich_text_error(text: str, enabled: bool) -> str | None:
     tags = re.findall(r"<\s*/?\s*([A-Za-z][A-Za-z0-9]*)[^>]*>", text or "")
     if tags and not enabled:
@@ -562,6 +607,11 @@ def _validate_chronicle(root: Path, locales: list[str], errors: list[str]) -> No
             ordinals.add(ordinal_key)
             text = item.get("text", ""); syntax = placeholder_syntax_error(text, semantic=True)
             if syntax: errors.append(f"locales/{locale}/chronicle {template_id}: {syntax}")
+            # chronicle 由 C# SemanticTemplateCompiler 编译,必须按**运行时**文法再验一次:
+            # 上面那条走 string.Format 的正则,比运行时宽,放行的模板会在游戏里打死
+            # 整个 locale 的 family(连带冻结所有语言的 ledger 分配)。
+            runtime_syntax = semantic_runtime_syntax_error(text)
+            if runtime_syntax: errors.append(f"locales/{locale}/chronicle {template_id}: {runtime_syntax}")
             for match in SEMANTIC_FORM_RE.finditer(text):
                 if match.group(1) not in PERSON_SLOTS or match.group(2) not in ALLOWED_PERSON_FORMS: errors.append(f"locales/{locale}/chronicle {template_id}: invalid semantic person form")
             slots = semantic_slots(text)
