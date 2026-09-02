@@ -867,6 +867,51 @@ namespace ONIAiSocial
             }
             public class SCENE
             {
+                public static LocString BOUND_BLOCK_COUPLE_1 = "话到嘴边，又咽了回去……";
+                public static LocString BOUND_BLOCK_COUPLE_2 = "心跳得厉害，却怎么也说不出口。";
+                public static LocString BOUND_BLOCK_COUPLE_3 = "也许……我们再等等。";
+                public static LocString BOUND_BLOCK_FADE_1 = "好像很久没说话了，但又没什么变化。";
+                public static LocString BOUND_BLOCK_FADE_2 = "感情淡不下去，也挺奇怪的。";
+                public static LocString BOUND_BLOCK_RIVAL_1 = "算了……犯不着。";
+                public static LocString BOUND_BLOCK_RIVAL_2 = "火气上来，又莫名其妙消了。";
+                public static LocString BOUND_BLOCK_RIVAL_3 = "我不想再见到他——大概吧。";
+                public static LocString BOUND_BLOCK_SPLIT_1 = "吵到一半，突然不想吵了。";
+                public static LocString BOUND_BLOCK_SPLIT_2 = "狠话到了嘴边，谁也没说出口。";
+                public static LocString BOUND_BLOCK_SPLIT_3 = "……就当没发生过吧。";
+                public static LocString BOUND_BLOCK_UP_1 = "总感觉……还是差了一点火候。";
+                public static LocString BOUND_BLOCK_UP_2 = "有些话，现在还不是时候。";
+                public static LocString BOUND_BLOCK_UP_3 = "就到这里吧，也挺好的。";
+                public static LocString BRAWL_CHEER_1 = "打起来了！打起来了！";
+                public static LocString BRAWL_CHEER_2 = "都别拦着！……哦，没人拦。";
+                public static LocString BRAWL_CHEER_3 = "让他们打！";
+                public static LocString BRAWL_CHEER_4 = "我就吃个瓜。";
+                public static LocString BRAWL_CHEER_5 = "加油！呃……都加油！";
+                public static LocString BRAWL_CHEER_6 = "你这瓜保熟吗？";
+                public static LocString BRAWL_SURRENDER_1 = "大意了，没有闪！";
+                public static LocString BRAWL_SURRENDER_2 = "耗子尾汁……我耗子尾汁……";
+                public static LocString BRAWL_SURRENDER_3 = "已老实，求放过！";
+                public static LocString BRAWL_SURRENDER_4 = "别打了别打了，我错了！";
+                public static LocString BRAWL_SURRENDER_5 = "不打了不打了！";
+                public static LocString BRAWL_TRASH_TALK_1 = "我不是针对你，我是说在座的各位——都是垃圾！";
+                public static LocString BRAWL_TRASH_TALK_10 = "犹豫，就会败北！";
+                public static LocString BRAWL_TRASH_TALK_11 = "你给我翻译翻译，什么叫惊喜！";
+                public static LocString BRAWL_TRASH_TALK_12 = "压力给到你这边了！";
+                public static LocString BRAWL_TRASH_TALK_13 = "不是吧阿Sir？";
+                public static LocString BRAWL_TRASH_TALK_14 = "格局打开！";
+                public static LocString BRAWL_TRASH_TALK_15 = "小丑竟是我自己！";
+                public static LocString BRAWL_TRASH_TALK_16 = "以前是以前，现在是现在！";
+                public static LocString BRAWL_TRASH_TALK_17 = "年轻人，不讲武德！";
+                public static LocString BRAWL_TRASH_TALK_18 = "退！退！退！";
+                public static LocString BRAWL_TRASH_TALK_19 = "我最讨厌事后道歉！";
+                public static LocString BRAWL_TRASH_TALK_2 = "菜就多练！";
+                public static LocString BRAWL_TRASH_TALK_20 = "你的嘴比没接过滤器的排气口还脏！";
+                public static LocString BRAWL_TRASH_TALK_3 = "我从未见过有如此厚颜无耻之人！";
+                public static LocString BRAWL_TRASH_TALK_4 = "回答我！LOOK IN MY EYES!";
+                public static LocString BRAWL_TRASH_TALK_5 = "就这？就这？";
+                public static LocString BRAWL_TRASH_TALK_6 = "你在教我做事啊？";
+                public static LocString BRAWL_TRASH_TALK_7 = "怎么不找找你自己的问题？";
+                public static LocString BRAWL_TRASH_TALK_8 = "半场开香槟？";
+                public static LocString BRAWL_TRASH_TALK_9 = "你急了？你急了？";
                 public static LocString BREAKUP_KEY = "我们还是到这里吧。";
                 public static LocString BREAKUP_REPLY = "……我知道了。";
                 public static LocString CHAT_KEY = "嗨。";
@@ -876,6 +921,13 @@ namespace ONIAiSocial
                 public static LocString CONFESSION_KEY = "我喜欢你。";
                 public static LocString CONFESSION_REPLY = "我也一直喜欢你。";
                 public static LocString CONFESSION_RESULT = "那就一起走下去吧。";
+                public static LocString FAMINE_BUTCHER_1 = "对不起……对不起……";
+                public static LocString FAMINE_BUTCHER_2 = "别看我。谁都别看我。";
+                public static LocString FAMINE_BUTCHER_3 = "我们得活下去。就这样而已。";
+                public static LocString FAMINE_BUTCHER_4 = "这不算杀人。这是活下去。";
+                public static LocString FAMINE_BUTCHER_5 = "闭上眼睛，很快就好。";
+                public static LocString FAMINE_BUTCHER_6 = "我会记得你的名字。";
+                public static LocString FAMINE_BUTCHER_7 = "总得有人做这件事。";
                 public static LocString GRIEF_KEY = "我会记得你的。";
                 public static LocString RECONCILE_KEY = "别再这样僵下去了。";
                 public static LocString RECONCILE_REPLY = "好，我们重新来过。";
@@ -885,6 +937,10 @@ namespace ONIAiSocial
                 public static LocString REKINDLE_RESULT = "重新认识彼此吧。";
                 public static LocString RIVAL_KEY = "这笔账，我不会就这么算了。";
                 public static LocString RIVAL_REPLY = "正好，我也没打算和你和解。";
+                public static LocString WRATH_MEAL_SNUB_1 = "我吃完了。";
+                public static LocString WRATH_MEAL_SNUB_2 = "……我端到那边去。";
+                public static LocString WRATH_MEAL_SNUB_3 = "这桌满了。";
+                public static LocString WRATH_MEAL_SNUB_4 = "突然想起来还有活。";
             }
             public class SETTINGS
             {
