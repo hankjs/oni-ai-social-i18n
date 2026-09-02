@@ -1,0 +1,174 @@
+{
+  "locale": "zh",
+  "family": "native-topics",
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.native.food-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 143,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我不知道你爱不爱吃，反正我闻着挺香。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那你先来一口，我的鼻子今天不作证。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.food-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "food"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 144,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "这份吃的我有点咽不下去。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "先别勉强，我那份水还没动。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 145,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "那张床我一躺下，肩膀都松了。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "听起来你的背终于肯下班了。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.bed-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "bed"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 146,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我睡那张床，总觉得每根骨头都在排队抗议。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "今晚换我试试，免得它只欺负你。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-positive.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "positive"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 147,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我每次路过那件装饰，心里都会亮一点。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那就多绕一次，今天不赶你。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.native.decor-negative.001",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "topicDomains": [
+          "decor"
+        ],
+        "appraisals": [
+          "negative"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 148,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "我看那件装饰，总觉得它也在看我。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "那我们走快点，别给它机会。"
+        }
+      ]
+    }
+  ]
+}
