@@ -802,7 +802,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Đã thêm đánh dấu chặn",
+      "text": "Đã chặn tương tác",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -910,13 +910,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "text": "Đánh dấu se duyên: thiện cảm khi trò chuyện +{0}, tỷ lệ tỏ tình +{1}%, tỷ lệ xin lỗi +{2}%, xác suất cãi vã ×{3}, cơ hội tâm sự bạn thân và tần suất hội thoại AI nhân đôi",
-      "contractRevision": 1,
+      "text": "Se duyên: thiện cảm trò chuyện +{0}, tỷ lệ tỏ tình +{1} điểm phần trăm, tỷ lệ xin lỗi +{2} điểm phần trăm, xác suất cãi vã ×{3}; cơ hội tâm sự và hội thoại do mod thêm tăng gấp đôi. Không đổi độ hợp nhau, không đảm bảo yêu nhau. Khi đã có người yêu, tương tác với người khác mình cảm mến có thể gây ghen.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Đánh dấu chặn: ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod; không ép chia tay hay xóa quan hệ hiện có",
+      "text": "Chặn tương tác: dừng sự kiện xã hội và hội thoại do mod thêm cho cặp này. Không trực tiếp chia tay hay xóa quan hệ; tương tác của trò chơi gốc vẫn có thể xảy ra.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -940,11 +940,33 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "text": "\nKhí chất: {0} (thiện cảm trò chuyện lần đầu mỗi chu kỳ {1}, xác suất cãi vã {2})",
-      "contractRevision": 1,
+      "text": "\nĐộ hợp nhau: {0} (lần trò chuyện đầu mỗi chu kỳ: thiện cảm {1}, xác suất cãi vã {2} điểm phần trăm). Sự hòa hợp bẩm sinh không đổi khi đổi tên, sửa tính cách hay tải lại lưu trữ. Người trùng tên có thể khác nhau.\n",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Chương gần nhất","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Xem câu chuyện cá nhân","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Xem câu chuyện cá nhân","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"Chưa có ghi nhận quan hệ; ngưỡng tiếp theo: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"Tương tác Mod của cặp này đã bị chặn","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"Một lời tỏ tình đang chờ (còn {0} chu kỳ)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"Một sự kiện quan hệ đang chờ (còn {0} chu kỳ)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"Giới hạn trên của quan hệ: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"Vẫn còn ngượng ngùng (còn {0} chu kỳ)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"Cần thêm {0} thiện cảm hai chiều để lên mức tiếp theo","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"Đã rung động; cần thêm {0} thiện cảm hai chiều để đủ điều kiện tỏ tình","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"Đã đủ điều kiện tỏ tình; kết quả và thời điểm chưa được xác định","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"Đã đạt ngưỡng nhưng quy tắc một bạn đời hiện ngăn việc tỏ tình","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"Hiện đang là một cặp","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"Đang chiến tranh lạnh; nếu không hồi phục, chia tay sẽ bắt đầu sau {0} chu kỳ","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"Đã chia tay; giai đoạn người cũ còn {0} chu kỳ","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","text":"Đang đau buồn vì người yêu đã mất","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","text":"Đang thương tiếc người kia","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","text":"Hiện là kẻ thù; thiện cảm âm thông thường không tự trở về không","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "text": "Người chơi thay đổi quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

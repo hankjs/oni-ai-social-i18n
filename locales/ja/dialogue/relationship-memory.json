@@ -1,0 +1,11 @@
+{
+  "locale": "ja",
+  "family": "relationship-memory",
+  "candidates": [
+    {"candidateId":"storylet.casual.memory.care-first.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_first"]},"weight":1,"ordinal":13031,"turns":[{"turnId":"a","speakerSlot":0,"text":"今は少し楽になった？"},{"turnId":"b","speakerSlot":1,"text":"ずっとね。あの時来てくれたこと、思ってる以上に助かったよ。"}]},
+    {"candidateId":"storylet.casual.memory.care-second.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_second"]},"weight":1,"ordinal":13032,"turns":[{"turnId":"a","speakerSlot":0,"text":"あの時、ずっとそばにいる必要はなかったのに。"},{"turnId":"b","speakerSlot":1,"text":"分かってる。いたかったんだ。"}]},
+    {"candidateId":"storylet.casual.memory.apology.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["recent_apology"]},"weight":1,"ordinal":13033,"turns":[{"turnId":"a","speakerSlot":0,"text":"あの件、ちゃんと話せてよかった。"},{"turnId":"b","speakerSlot":1,"text":"うん。圧力は配管の中だけで十分だよ。"}]},
+    {"candidateId":"storylet.casual.memory.confession-failure.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["confession_failure"]},"weight":1,"ordinal":13034,"turns":[{"turnId":"a","speakerSlot":0,"text":"この会話を何かに変えなくてもいいんだ。"},{"turnId":"b","speakerSlot":1,"text":"ありがとう。一度に一つの会話でいい。"}]},
+    {"candidateId":"storylet.casual.memory.former-partners.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["former_partners"]},"weight":1,"ordinal":13035,"turns":[{"turnId":"a","speakerSlot":0,"text":"前よりは気まずくないね。"},{"turnId":"b","speakerSlot":1,"text":"低い基準だけど、それでもいいよ。"}]}
+  ]
+}

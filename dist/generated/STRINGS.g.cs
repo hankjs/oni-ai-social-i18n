@@ -134,6 +134,33 @@ namespace ONIAiSocial
                 }
                 public static LocString COLONY_LABEL = "殖民地";
                 public static LocString COLONY_TOOLTIP = "全体存活复制人两两好感的平均值。≥40 触发殖民地羁绊（全员士气 +1）；多对冷战会触发殖民地不和（全员士气 -1，争执更频繁）。共餐、聚会和牵线都能提升羁绊。";
+                public class COMMON_TOPIC
+                {
+                    public class CATEGORY
+                    {
+                        public static LocString ART = "艺术";
+                        public static LocString BASEKEEPING = "整理";
+                        public static LocString BIONIC = "仿生技能";
+                        public static LocString BUILDING = "建造";
+                        public static LocString COOKING = "烹饪";
+                        public static LocString FARMING = "耕作";
+                        public static LocString HAULING = "供应搬运";
+                        public static LocString MEDICAL_AID = "医疗";
+                        public static LocString MINING = "挖掘";
+                        public static LocString RANCHING = "畜牧";
+                        public static LocString RESEARCH = "研究";
+                        public static LocString ROCKETRY = "火箭";
+                        public static LocString SUITS = "防护服";
+                        public static LocString SWIMMING = "游泳";
+                        public static LocString TECHNICALS = "机械操作";
+                        public static LocString UNKNOWN = "未知";
+                    }
+                    public static LocString CHEMISTRY_LINE = "气场：{0}";
+                    public static LocString INTEREST = "共同话题：共同兴趣是{0}";
+                    public static LocString NONE = "共同话题：已知兴趣暂无交集";
+                    public static LocString UNKNOWN = "共同话题：暂无可用信息";
+                    public static LocString WORK = "共同话题：最近都做过{0}";
+                }
                 public class EVENT
                 {
                     public static LocString ANNIVERSARY = "纪念日";
@@ -176,7 +203,8 @@ namespace ONIAiSocial
                     public static LocString HAZARD_RESENTED = "为什么总是我下去";
                     public static LocString HEALED = "关系修复";
                     public static LocString JEALOUSY = "吃醋";
-                    public static LocString MARK_BLOCK = "已屏蔽";
+                    public static LocString MANUAL_SEPARATION = "玩家调整关系";
+                    public static LocString MARK_BLOCK = "已屏蔽互动";
                     public static LocString MARK_CLEAR = "已清除标记";
                     public static LocString MARK_MATCH = "已牵线";
                     public static LocString MOURNING_OVER = "悼念结束";
@@ -206,6 +234,25 @@ namespace ONIAiSocial
                     public static LocString WRATH_WITNESSED = "我看见他打人";
                 }
                 public static LocString FALLEN_DUPLICANT = "已故的复制人";
+                public class GROWTH
+                {
+                    public static LocString AWKWARD = "仍在尴尬期（剩余 {0} 周期）";
+                    public static LocString BROKEN_UP = "已经分手；前任期剩余 {0} 周期";
+                    public static LocString BUILDING_AFFINITY = "距下一档还差 {0} 点双向好感";
+                    public static LocString CEREMONY_PENDING = "关系事件已在待发生中（剩余 {0} 周期）";
+                    public static LocString COLD_WAR = "正在冷战；若未恢复，{0} 周期后进入分手流程";
+                    public static LocString CONFESSION_PENDING = "告白已在待发生中（剩余 {0} 周期）";
+                    public static LocString CONFESSION_READY = "已达到告白条件；成功与时间均未确定";
+                    public static LocString COUPLE = "当前已是恋人";
+                    public static LocString CRUSH_BELOW_CONFESSION = "已经心动，距告白条件还差 {0} 点双向好感";
+                    public static LocString GRIEVING = "伴侣离世，关系处于哀恸中";
+                    public static LocString INTERACTION_BLOCKED = "这对已屏蔽 Mod 互动";
+                    public static LocString MOURNING = "对方离世，关系处于悼念中";
+                    public static LocString NO_RELATIONSHIP = "尚无关系记录；下一门槛为 {0}";
+                    public static LocString PARTNER_UNAVAILABLE = "已达到门槛，但单偶制暂不允许告白";
+                    public static LocString RIVAL = "当前是宿敌；普通负好感不会自行回零";
+                    public static LocString UPPER_BOUND = "这对关系的上限是{0}";
+                }
                 public static LocString NO_RELATIONSHIPS = "尚无关系记录";
                 public static LocString NO_RELATIONSHIPS_TOOLTIP = "复制人互动后，关系和好感会显示在这里";
                 public static LocString OVERVIEW_TITLE = "社交近况";
@@ -276,10 +323,10 @@ namespace ONIAiSocial
                 {
                     public static LocString AFFINITY_LINE = "好感：{0}；冲突：{1}{2}";
                     public static LocString AWKWARD_UNTIL = "；尴尬持续至周期 {0}";
-                    public static LocString CHEMISTRY_LINE = "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2}）";
+                    public static LocString CHEMISTRY_LINE = "\n气场：{0}（每周期首次聊天好感 {1}、争执概率 {2} 个百分点）。两人天生的合拍程度；改名、修改性格或存读档不会改变，同名者可不同。\n";
                     public static LocString HAZARD_LEDGER = "危险工时：{0} {1} · {2} {3}——同工种，同一段日子，只有一个人下去（已经 {4} 个周期）";
-                    public static LocString MARK_BLOCK = "屏蔽标记：阻止这对复制人触发本 Mod 的社交事件和 AI 对话；不会强制分手或删除已有关系";
-                    public static LocString MARK_MATCH = "牵线标记：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍";
+                    public static LocString MARK_BLOCK = "屏蔽互动：停止这对复制人的 Mod 社交事件和新增对话，不会直接分手或删除已有关系；原版互动仍可发生。";
+                    public static LocString MARK_MATCH = "牵线：聊天好感 +{0}、告白成功率 +{1} 个百分点、道歉成功率 +{2} 个百分点、争执概率 ×{3}；挚友谈心机会与 Mod 新增对话频率翻倍。不会改写气场，也不保证恋爱成功。有伴侣时，与其他心动对象互动可能引发嫉妒。";
                     public static LocString MEMORY_LINE = "\n周期 {0}：";
                     public static LocString RECENT_EVENTS = "\n最近事件：";
                     public static LocString RIVAL_FROZEN = "宿敌·冻结中：负好感不会随时间回零，这段关系不会自行修复。用牵线标记介入可以解冻，让好感慢慢回暖";
@@ -411,6 +458,11 @@ namespace ONIAiSocial
                 {
                     public static LocString DESC = "看不顺眼的那个人不在了。嘴上不说，心情确实不错。";
                     public static LocString NAME = "幸灾乐祸";
+                }
+                public class RIVAL_FRICTION
+                {
+                    public static LocString DESC = "和宿敌干同一件活，两个人都慢下来。";
+                    public static LocString NAME = "碍手碍脚";
                 }
                 public class SIDE_BY_SIDE
                 {
@@ -762,13 +814,13 @@ namespace ONIAiSocial
             {
                 public static LocString ACTION_UNAVAILABLE = "操作失败：社交系统尚未就绪";
                 public static LocString BACK_BUTTON = "返回";
-                public static LocString BLOCK_BUTTON = "屏蔽";
+                public static LocString BLOCK_BUTTON = "屏蔽互动";
                 public static LocString BOUNDS_BEST_PICKER = "选择最好关系";
                 public static LocString BOUNDS_BUTTON = "界限";
                 public static LocString BOUNDS_INVALID = "设置失败:最差关系不能好过最好关系";
                 public static LocString BOUNDS_MAX_LABEL = "最好关系:{0}";
                 public static LocString BOUNDS_MIN_LABEL = "最差关系:{0}";
-                public static LocString BOUNDS_PICKER_HINT = "只显示与另一侧界限兼容的档位。选择后立即生效,但不会立刻改变当前关系。";
+                public static LocString BOUNDS_PICKER_HINT = "只显示与另一侧兼容的档位。只做朋友：最好设为朋友；保护伴侣关系：最差设为恋人。不会立即改变当前关系，也不阻止争执或丧偶。";
                 public static LocString BOUNDS_SET = "界限: {0} × {1} → 最好 {2} · 最差 {3}";
                 public static LocString BOUNDS_UNLIMITED = "不限";
                 public static LocString BOUNDS_WORST_PICKER = "选择最差关系";
@@ -805,7 +857,7 @@ namespace ONIAiSocial
                 public static LocString MARK_CANCEL_HINT = "已取消选择 {0}";
                 public static LocString MARK_CLEARED_FEEDBACK = "已清除 {0} 的 {1} 个标记";
                 public static LocString MARK_PICK_HINT = "已选 {0}，选中另一名复制人后再按一次同一热键";
-                public static LocString MARK_SET_BLOCK = "已屏蔽：{0} × {1}";
+                public static LocString MARK_SET_BLOCK = "已屏蔽互动: {0} × {1}";
                 public static LocString MARK_SET_CLEARED = "取消标记: {0} × {1}";
                 public static LocString MARK_SET_MATCH = "牵线: {0} × {1}";
                 public static LocString MATCH_BUTTON = "牵线";
@@ -818,6 +870,7 @@ namespace ONIAiSocial
                 public static LocString OVERVIEW_SUMMARY = "殖民地：{0} ({1})\n存活复制人：{2}\n关系记录：{3}\n牵线：{4} · 屏蔽：{5}";
                 public static LocString OVERVIEW_TITLE = "殖民地关系";
                 public static LocString PAGE_LABEL = "第 {0}/{1} 页";
+                public static LocString PAIR_INTERACTION_SETTINGS = "互动设置";
                 public static LocString PENDING_ACTION_ROW = "{0}　[{1}]";
                 public static LocString PENDING_BUTTON = "待发生";
                 public static LocString PENDING_CONFESSION = "告白";
@@ -828,14 +881,14 @@ namespace ONIAiSocial
                 public static LocString PENDING_REQUESTED_ROW = "【{0}】{1} → {2} · 正在等待安全会合";
                 public static LocString PENDING_ROW = "【{0}】{1} → {2} · 还剩 {3} 周期";
                 public static LocString PENDING_TITLE = "待发生的社交事件";
-                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。屏蔽会阻止这对复制人触发本 Mod 的社交事件和 AI 对话，但不会强制分手或删除已有关系。";
-                public static LocString PICKER_BOUNDS_MESSAGE = "选择第一名复制人。界限限定这对复制人的关系最好/最差能到哪一档——不阻止交流，只在关系要越界时拦住它。";
+                public static LocString PICKER_BLOCK_MESSAGE = "选择第一名复制人。屏蔽互动：停止这对复制人的 Mod 社交事件和新增对话，不会直接分手或删除已有关系；原版互动仍可发生。";
+                public static LocString PICKER_BOUNDS_MESSAGE = "选择第一名复制人。界限设置关系最好／最差能到哪一档，约束后续自然变化。日常互动和好感照常，不会立即改写当前关系。";
                 public static LocString PICKER_BOUNDS_TITLE = "界限";
                 public static LocString PICKER_CHOOSE_SECOND = "{0} · 选择第二人";
                 public static LocString PICKER_CLEAR_MESSAGE = "选择一名复制人，清除所有与其有关的牵线和屏蔽标记。";
                 public static LocString PICKER_FILTER_MESSAGE = "选一名复制人,日志只显示他参与的事件——他的一段人生。";
                 public static LocString PICKER_FILTER_TITLE = "查看谁的故事?";
-                public static LocString PICKER_MATCH_MESSAGE = "选择第一名复制人。牵线效果：聊天好感 +{0}、告白成功率 +{1}%、道歉成功率 +{2}%、争执概率 ×{3}、挚友谈心机会与 AI 对话频率翻倍。";
+                public static LocString PICKER_MATCH_MESSAGE = "选择第一名复制人。牵线：聊天好感 +{0}、告白成功率 +{1} 个百分点、道歉成功率 +{2} 个百分点、争执概率 ×{3}；挚友谈心机会与 Mod 新增对话频率翻倍。不会改写气场，也不保证恋爱成功。有伴侣时，与其他心动对象互动可能引发嫉妒。";
                 public static LocString PICKER_SELECTED = "已选择 {0}。请选择另一名复制人完成操作。";
                 public static LocString PREVIOUS_PAGE = "上一页";
                 public static LocString RELATIONSHIP_COUNT = "{0} 段关系";
@@ -846,6 +899,23 @@ namespace ONIAiSocial
                 public static LocString ROW_FALLOUT_LEFT = "闹掰还剩 {0} 周期";
                 public static LocString ROW_RIVAL_FROZEN = "宿敌·冻结中";
                 public static LocString SEARCH_PLACEHOLDER = "搜索复制人姓名";
+                public static LocString SEPARATION_ACQUAINTED = "疏远至相识";
+                public static LocString SEPARATION_BOUNDS_CONSEQUENCE = "这是一次手动调整，可越过关系下限；不改写界限，后续自然变化仍受界限约束。";
+                public static LocString SEPARATION_BREAKUP = "分手";
+                public static LocString SEPARATION_BREAKUP_CONSEQUENCE = "进入分手恢复期，保留共同经历；之后仍可能复合。";
+                public static LocString SEPARATION_BUTTON = "拆散";
+                public static LocString SEPARATION_COMPLETED = "已调整 {0} 与 {1} 的关系：{2}。";
+                public static LocString SEPARATION_DISTANCE_CONSEQUENCE = "保留共同经历，不会自动结仇；以后仍可自然发展。";
+                public static LocString SEPARATION_DONE = "本次调整已完成";
+                public static LocString SEPARATION_FRIENDS = "退回朋友";
+                public static LocString SEPARATION_MATCH_CONSEQUENCE = "本次同时清除这对的牵线标记。";
+                public static LocString SEPARATION_PICKER = "选择两名复制人，先查看分手或疏远的预览，再决定是否执行。";
+                public static LocString SEPARATION_PICKER_SECOND = "已选 {0}。请选择另一名复制人；选人本身不会改变关系。";
+                public static LocString SEPARATION_PREVIEW = "实际结果：{0}\n好感：{1}→{2} {3}；{2}→{1} {4}";
+                public static LocString SEPARATION_STALE = "关系已有变化，预览已更新。请查看新结果后再操作。";
+                public static LocString SEPARATION_STRANGERS = "疏远至陌生";
+                public static LocString SEPARATION_TARGET = "目标：{0}";
+                public static LocString SEPARATION_UNAVAILABLE = "当前关系不支持拆散；现状与记忆保持不变。";
                 public static LocString SORT_HIGHEST_AFFINITY = "最高好感";
                 public static LocString SORT_NAME = "姓名";
                 public static LocString SORT_RELATIONSHIP_COUNT = "关系数";
@@ -978,6 +1048,8 @@ namespace ONIAiSocial
                 public static LocString DELIVERY_ARCHIVE = "仅封存";
                 public static LocString DELIVERY_INSTANT = "即时通知";
                 public static LocString DELIVERY_OFF = "关闭";
+                public static LocString DIALOGUE_PORTRAITS = "显示对话头像";
+                public static LocString DIALOGUE_PORTRAITS_HINT = "在对话文字气泡中显示说话者头像。关闭后使用情境表情图标，可减少头像生成与显示开销。保存后立即生效。";
                 public static LocString DISTANCE_MULT = "原生对话距离倍率";
                 public static LocString ENABLE_AI = "启用 AI 生成对话";
                 public static LocString ENABLE_TELEMETRY = "记录匿名社交遥测";
@@ -1033,6 +1105,8 @@ namespace ONIAiSocial
                 public static LocString RESET = "恢复默认";
                 public static LocString RESET_FEEDBACK = "已恢复默认值，点「保存」后生效。";
                 public static LocString RESTART_SUFFIX = "（重启后生效）";
+                public static LocString RIVAL_FRICTION = "宿敌一起干活会互相拖累";
+                public static LocString RIVAL_FRICTION_HINT = "两个已经结成宿敌的复制人，在三格之内做同一类活时，双方的工作效率一起下降——这是「并肩作战」加成的镜像。它不流血、不加压力、不扣士气，也不改变好感：唯一的代价是你的产能。这是本 mod 第一项让恶化的人际关系真的花你钱的内容。摩擦只在真正干活时出现：睡觉、集体活动、吃饭、发呆这些常见事件完全不受影响。安全线：效率有下限，无论怎么配都不会归零；治疗、看病、吃药、水下换气、抢氧气和逃命途中都不会被拖慢。出口在你身上：把两个人调开，或者牵线让这段关系解冻。预设开启；「戏剧强度」设为「安静」时强制关闭";
                 public static LocString ROUTINE_CHRONICLE_LIMIT = "每周期收录的日常纪事";
                 public static LocString SAVE = "保存";
                 public static LocString SAVED_FEEDBACK = "已保存，并已对当前会话生效。";

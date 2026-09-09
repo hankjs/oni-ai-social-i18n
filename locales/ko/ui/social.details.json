@@ -802,7 +802,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "차단 표시 추가",
+      "text": "상호작용 차단됨",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -910,13 +910,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "text": "중매 표시: 대화 호감 +{0}, 고백 성공률 +{1}%, 사과 성공률 +{2}%, 말다툼 확률 ×{3}, 절친 속마음 기회와 AI 대화 빈도가 두 배",
-      "contractRevision": 1,
+      "text": "중매: 대화 호감 +{0}, 고백 성공률 +{1}%p, 사과 성공률 +{2}%p, 말다툼 확률 ×{3}. 절친 속마음 기회와 모드 추가 대화 빈도가 두 배가 됩니다. 궁합은 바뀌지 않으며 연애 성공을 보장하지 않습니다. 연인이 있는 상태에서 다른 짝사랑 상대와 교류하면 질투가 생길 수 있습니다.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "차단 표시: 이 복제인간 쌍이 이 Mod의 사교 이벤트와 AI 대화를 트리거하지 못하게 막지만, 강제로 헤어지게 하거나 기존 관계를 지우지는 않습니다",
+      "text": "상호작용 차단: 이 둘의 모드 사교 이벤트와 추가 대화를 멈춥니다. 바로 헤어지게 하거나 기존 관계를 삭제하지 않으며, 기본 게임의 상호작용은 계속될 수 있습니다.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -940,11 +940,33 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "text": "\n궁합: {0}(사이클마다 첫 대화 호감 {1}, 말다툼 확률 {2})",
-      "contractRevision": 1,
+      "text": "\n궁합: {0} (주기마다 첫 대화 호감 {1}, 말다툼 확률 {2}%p). 타고난 어울림으로, 개명·성격 수정·저장 후 불러오기로 바뀌지 않습니다. 이름이 같아도 다를 수 있습니다.\n",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"최근 장","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"개인 이야기 보기","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"개인 이야기 보기","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"아직 관계 기록이 없습니다. 다음 기준: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"이 둘의 Mod 상호작용이 차단되었습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"고백이 대기 중입니다(남은 주기: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"관계 이벤트가 대기 중입니다(남은 주기: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"관계 상한: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"아직 어색합니다(남은 주기: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"다음 단계까지 상호 호감도 {0} 필요","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"이미 연심 단계이며, 고백 조건까지 상호 호감도 {0} 필요","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"고백 조건을 충족했습니다. 결과와 시점은 정해지지 않았습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"기준을 충족했지만 현재 일부일처 규칙으로 고백할 수 없습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"현재 연인입니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"냉전 중입니다. 회복하지 못하면 {0}주기 후 결별 절차가 시작됩니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"결별했습니다. 전 연인 기간이 {0}주기 남았습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","text":"세상을 떠난 연인을 애도하고 있습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","text":"세상을 떠난 상대를 추모하고 있습니다","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","text":"현재 숙적입니다. 일반적인 음수 호감도는 0으로 회복되지 않습니다","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "text": "플레이어의 관계 조정",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

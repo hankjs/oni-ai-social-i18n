@@ -435,6 +435,18 @@
       "status": "reviewed"
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "text": "宿敵同士は一緒に働くと足を引っ張り合う",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "text": "宿敵になった二人の複製人間が3タイル以内で同じ種類の仕事をすると、双方の作業効率が下がります。「肩を並べて働く」ボーナスの鏡像です。血も流れず、ストレスも士気も好感度も動かしません。代償はあなたの生産力だけ。人間関係の悪化が本当にあなたに請求書を回す、この mod で最初の機能です。摩擦は実際に働いているときだけ現れます。睡眠、団体活動、食事、手持ち無沙汰といったありふれた場面には一切影響しません。安全線：効率には下限があり、どう設定しても0にはなりません。治療・診察・服薬・水中での呼吸・酸素の確保・避難中は遅くなりません。出口はあなたの側にあります。二人を引き離すか、縁結びで関係を溶かしてください。既定でオン。「劇的さ」を「静か」にすると強制的にオフになります",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "text": "集団の責任転嫁を許可",
       "contractRevision": 1,
@@ -647,6 +659,18 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "text": "Modが作成した会話シーン1回を1件として数えます。オフにしてもサイクル合計上限だけが解除され、複製人ごと・ペアごとの秒単位の安全クールダウンは引き続き適用されます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "text": "会話に肖像を表示",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "text": "会話の文字吹き出しに話者の肖像を表示します。オフにすると状況に合った表情アイコンを使い、肖像の生成・表示負荷を減らせます。保存するとすぐに反映されます。",
       "contractRevision": 1,
       "status": "reviewed"
     }

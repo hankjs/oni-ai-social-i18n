@@ -1,0 +1,11 @@
+{
+  "locale": "vi",
+  "family": "relationship-memory",
+  "candidates": [
+    {"candidateId":"storylet.casual.memory.care-first.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_first"]},"weight":1,"ordinal":13031,"turns":[{"turnId":"a","speakerSlot":0,"text":"Giờ cậu thấy đỡ hơn chưa?"},{"turnId":"b","speakerSlot":1,"text":"Đỡ nhiều rồi. Lúc đó cậu đến đã giúp hơn cậu tưởng."}]},
+    {"candidateId":"storylet.casual.memory.care-second.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_second"]},"weight":1,"ordinal":13032,"turns":[{"turnId":"a","speakerSlot":0,"text":"Lúc đó cậu đâu cần phải ở lại với tớ."},{"turnId":"b","speakerSlot":1,"text":"Tớ biết. Tớ muốn ở lại."}]},
+    {"candidateId":"storylet.casual.memory.apology.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["recent_apology"]},"weight":1,"ordinal":13033,"turns":[{"turnId":"a","speakerSlot":0,"text":"Mừng là tụi mình đã nói rõ chuyện đó."},{"turnId":"b","speakerSlot":1,"text":"Tớ cũng vậy. Áp suất trong ống đã đủ cho mọi người rồi."}]},
+    {"candidateId":"storylet.casual.memory.confession-failure.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["confession_failure"]},"weight":1,"ordinal":13034,"turns":[{"turnId":"a","speakerSlot":0,"text":"Cuộc trò chuyện này không cần phải biến thành điều gì cả."},{"turnId":"b","speakerSlot":1,"text":"Cảm ơn. Cứ từng cuộc trò chuyện một thôi."}]},
+    {"candidateId":"storylet.casual.memory.former-partners.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["former_partners"]},"weight":1,"ordinal":13035,"turns":[{"turnId":"a","speakerSlot":0,"text":"Lần này bớt ngượng hơn lần trước."},{"turnId":"b","speakerSlot":1,"text":"Tiêu chuẩn thấp, nhưng tớ nhận."}]}
+  ]
+}

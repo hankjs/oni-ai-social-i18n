@@ -435,6 +435,18 @@
       "status": "reviewed"
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "text": "宿敌一起干活会互相拖累",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "text": "两个已经结成宿敌的复制人，在三格之内做同一类活时，双方的工作效率一起下降——这是「并肩作战」加成的镜像。它不流血、不加压力、不扣士气，也不改变好感：唯一的代价是你的产能。这是本 mod 第一项让恶化的人际关系真的花你钱的内容。摩擦只在真正干活时出现：睡觉、集体活动、吃饭、发呆这些常见事件完全不受影响。安全线：效率有下限，无论怎么配都不会归零；治疗、看病、吃药、水下换气、抢氧气和逃命途中都不会被拖慢。出口在你身上：把两个人调开，或者牵线让这段关系解冻。预设开启；「戏剧强度」设为「安静」时强制关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "text": "允许集体迁怒",
       "contractRevision": 1,
@@ -647,6 +659,18 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "text": "每场模组新增闲聊计 1 次。关闭时只取消每周期总量上限；同一复制人和同一配对的秒级安全冷却仍然生效。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "text": "显示对话头像",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "text": "在对话文字气泡中显示说话者头像。关闭后使用情境表情图标，可减少头像生成与显示开销。保存后立即生效。",
       "contractRevision": 1,
       "status": "reviewed"
     }

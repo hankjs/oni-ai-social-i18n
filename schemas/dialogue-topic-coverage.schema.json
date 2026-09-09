@@ -1,10 +1,12 @@
 {
   "type": "object", "additionalProperties": false,
-  "required": ["schemaVersion", "nativeTemplateAxes", "locales"],
+  "required": ["schemaVersion", "nativeTemplateAxes", "commonTopicCategories", "locales"],
   "properties": {
-    "schemaVersion": { "const": 3 },
+    "schemaVersion": { "const": 4 },
     "nativeTemplateAxes": { "type": "array", "minItems": 9, "maxItems": 9,
       "items": { "$ref": "#/$defs/nativeTemplateAxis" } },
+    "commonTopicCategories": { "type": "array", "minItems": 15, "maxItems": 15,
+      "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
     "locales": {
       "type": "object", "additionalProperties": false,
       "required": ["zh", "en", "ko", "ru", "ja", "vi"],
@@ -28,9 +30,12 @@
       }
     },
     "locale": {
-      "type": "object", "additionalProperties": false, "required": ["readyTopics"],
+      "type": "object", "additionalProperties": false,
+      "required": ["readyTopics", "readyCommonTopics"],
       "properties": {
         "readyTopics": { "type": "array", "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 } },
+        "readyCommonTopics": { "type": "array", "uniqueItems": true,
           "items": { "type": "string", "minLength": 1 } }
       }
     }

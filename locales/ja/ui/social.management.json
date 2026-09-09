@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "ブロック",
+      "text": "交流をブロック",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -244,13 +244,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
-      "text": "一人目の複製人間を選んでください。取り持ちの効果：雑談の好感度 +{0}、告白成功率 +{1}%、謝罪成功率 +{2}%、言い争い確率 ×{3}、親友の語らいの機会とAI会話の頻度が2倍。",
-      "contractRevision": 1,
+      "text": "一人目の複製人間を選んでください。取り持ち：雑談の好感度 +{0}、告白成功率 +{1} パーセントポイント、謝罪成功率 +{2} パーセントポイント、言い争い確率 ×{3}。親友の語らいとMod追加会話の頻度が2倍になります。相性は変わらず、恋愛の成功は保証しません。恋人がいるときに別の気になる相手と交流すると、嫉妬が生じることがあります。",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "一人目の複製人間を選んでください。ブロックすると、このペアは本Modの社交イベントとAI会話を起こさなくなりますが、強制的に別れさせたり、既存の関係を削除したりはしません。",
+      "text": "一人目の複製人間を選んでください。交流をブロック：この二人のMod社交イベントと追加会話を止めます。直接別れさせたり、既存の関係を削除したりはしません。ゲーム本来の交流は引き続き起こり得ます。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -268,7 +268,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
-      "text": "一人目の複製人間を選んでください。境界はこのペアの関係が到達できる最善/最悪の段階を制限します。交流は妨げず、関係が境界を越えようとしたときだけ止めます。",
+      "text": "一人目の複製人間を選んでください。関係の上限・下限は、今後の自然な変化で到達できる最良／最悪の段階を定めます。日常の交流と好感度の変化は続き、現在の関係を即座には変えません。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -304,7 +304,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
-      "text": "反対側の境界と両立する段階だけを表示します。選ぶとすぐに適用されますが、現在の関係はすぐには変わりません。",
+      "text": "反対側の制限と両立する段階だけを表示します。友達のままにするなら上限を友達に、恋人関係を守るなら下限を恋人に設定します。現在の関係は即座に変わらず、言い争いや死別も防ぎません。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "ブロック済み：{0} × {1}",
+      "text": "交流ブロック済み: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -550,6 +550,114 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"関係を展開","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"関係を折りたたむ","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"元に戻す","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"直前のマーク操作を元に戻しました","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"直前のマーク操作を元に戻しました","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BUTTON",
+      "text": "関係を解消",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAIR_INTERACTION_SETTINGS",
+      "text": "交流設定",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_UNAVAILABLE",
+      "text": "現在の関係はこれ以上解消できません。状態と記憶は維持されます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STALE",
+      "text": "関係が変化しました。更新された結果を確認してから、もう一度操作してください。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DONE",
+      "text": "関係の変更が完了しました",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP_CONSEQUENCE",
+      "text": "別離後の回復期間に入り、共有した記憶は残ります。将来、復縁する可能性はあります。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DISTANCE_CONSEQUENCE",
+      "text": "共有した記憶は残り、宿敵にはなりません。その後の関係は自然に変化します。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BOUNDS_CONSEQUENCE",
+      "text": "今回の手動変更は関係の下限を越えられます。境界設定は変更されず、その後の自然な変化に適用されます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_MATCH_CONSEQUENCE",
+      "text": "この二人の仲介マークも解除します。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER",
+      "text": "複製人間を二人選ぶと、別れや距離を置く結果を確認してから実行できます。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER_SECOND",
+      "text": "{0}を選択しました。もう一人を選んでください。選択だけでは関係は変わりません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_TARGET",
+      "text": "目標：{0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP",
+      "text": "別れる",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_FRIENDS",
+      "text": "友人に戻る",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_ACQUAINTED",
+      "text": "知人まで距離を置く",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STRANGERS",
+      "text": "他人まで距離を置く",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PREVIEW",
+      "text": "実際の結果：{0}\n好感度：{1}→{2} {3}、{2}→{1} {4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_COMPLETED",
+      "text": "{0}と{1}の関係を変更しました：{2}。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

@@ -1,64 +1,312 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "nativeTemplateAxes": [
-    { "utteranceMode": "query", "appraisal": "unspecified" },
-    { "utteranceMode": "statement", "appraisal": "unspecified" },
-    { "utteranceMode": "agreement", "appraisal": "unspecified" },
-    { "utteranceMode": "disagreement", "appraisal": "unspecified" },
-    { "utteranceMode": "musing", "appraisal": "unspecified" },
-    { "utteranceMode": "satisfaction", "appraisal": "positive" },
-    { "utteranceMode": "nominal", "appraisal": "neutral" },
-    { "utteranceMode": "dissatisfaction", "appraisal": "negative" },
-    { "utteranceMode": "stressing", "appraisal": "stressed" }
+    {
+      "utteranceMode": "query",
+      "appraisal": "unspecified"
+    },
+    {
+      "utteranceMode": "statement",
+      "appraisal": "unspecified"
+    },
+    {
+      "utteranceMode": "agreement",
+      "appraisal": "unspecified"
+    },
+    {
+      "utteranceMode": "disagreement",
+      "appraisal": "unspecified"
+    },
+    {
+      "utteranceMode": "musing",
+      "appraisal": "unspecified"
+    },
+    {
+      "utteranceMode": "satisfaction",
+      "appraisal": "positive"
+    },
+    {
+      "utteranceMode": "nominal",
+      "appraisal": "neutral"
+    },
+    {
+      "utteranceMode": "dissatisfaction",
+      "appraisal": "negative"
+    },
+    {
+      "utteranceMode": "stressing",
+      "appraisal": "stressed"
+    }
+  ],
+  "commonTopicCategories": [
+    "Mining",
+    "Building",
+    "Cooking",
+    "Farming",
+    "Ranching",
+    "Research",
+    "Technicals",
+    "MedicalAid",
+    "Hauling",
+    "Art",
+    "Suits",
+    "Rocketry",
+    "Basekeeping",
+    "SwimmingSkills",
+    "BionicSkills"
   ],
   "locales": {
-    "zh": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] },
-    "en": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] },
-    "ko": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] },
-    "ru": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] },
-    "ja": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] },
-    "vi": { "readyTopics": [
-      "amount.satiety.appraise_negative",
-      "amount.stamina.appraise_negative",
-      "amount.stress.appraise_stressed",
-      "amount.morale.appraise_negative",
-      "amount.health.appraise_negative",
-      "current_job.appraise_stressed"
-    ] }
+    "zh": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    },
+    "en": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    },
+    "ko": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    },
+    "ru": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    },
+    "ja": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    },
+    "vi": {
+      "readyCommonTopics": [
+        "common_interest.Mining",
+        "common_interest.Building",
+        "common_interest.Cooking",
+        "common_interest.Farming",
+        "common_interest.Ranching",
+        "common_interest.Research",
+        "common_interest.Technicals",
+        "common_interest.MedicalAid",
+        "common_interest.Hauling",
+        "common_interest.Art",
+        "common_interest.Suits",
+        "common_interest.Rocketry",
+        "common_interest.Basekeeping",
+        "common_interest.SwimmingSkills",
+        "common_interest.BionicSkills",
+        "common_work.Mining",
+        "common_work.Building",
+        "common_work.Cooking",
+        "common_work.Farming",
+        "common_work.Ranching",
+        "common_work.Research",
+        "common_work.Technicals",
+        "common_work.MedicalAid",
+        "common_work.Hauling",
+        "common_work.Art",
+        "common_work.Suits",
+        "common_work.Rocketry",
+        "common_work.Basekeeping",
+        "common_work.SwimmingSkills",
+        "common_work.BionicSkills"
+      ],
+      "readyTopics": [
+        "amount.satiety.appraise_negative",
+        "amount.stamina.appraise_negative",
+        "amount.stress.appraise_stressed",
+        "amount.morale.appraise_negative",
+        "amount.health.appraise_negative",
+        "current_job.appraise_stressed"
+      ]
+    }
   }
 }

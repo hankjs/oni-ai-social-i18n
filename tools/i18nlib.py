@@ -29,7 +29,8 @@ ALLOWED_UTTERANCE_MODES = {"query", "statement", "agreement", "disagreement", "m
 ALLOWED_APPRAISALS = {"positive", "neutral", "negative", "stressed", "unspecified"}
 ALLOWED_RESPONSE_ACTS = {"acknowledge", "reassure", "practical_help", "gentle_boundary", "defer"}
 ALLOWED_LISTENER_AVAILABILITIES = {"receptive", "reserved", "unavailable"}
-RESOLVED_TOPIC_RE = re.compile(r"^(?:recent|amount|thought)\.[a-z_]+\.[a-z_]+$|^current_job\.[a-z_]+$")
+ALLOWED_RELATIONSHIP_CONTEXTS = {"care_from_first", "care_from_second", "recent_apology", "confession_failure", "former_partners"}
+RESOLVED_TOPIC_RE = re.compile(r"^(?:recent|amount|thought)\.[a-z_]+\.[a-z_]+$|^current_job\.[a-z_]+$|^common_(?:interest|work)\.[A-Za-z]+$")
 ALLOWED_RELATIONSHIP_STATES = {"Strangers", "Acquainted", "Friends", "Crush", "Couple", "ColdWar", "BrokenUp", "Grieving", "Mourning", "Rival"}
 ALLOWED_ARGUMENT_CAUSES = {"Unknown", "Stress", "LowAffinity", "TraitClash", "Discord", "Chemistry", "HazardDuty"}
 ALLOWED_PERSON_FORMS = {"subject", "object", "possessive", "possessiveCapitalized", "pairSubject", "pairObject", "pairPossessive", "pairReflexive"}
@@ -287,6 +288,14 @@ def load_native_template_axes(root: Path) -> set[tuple[str, str]]:
             for item in payload.get("nativeTemplateAxes", [])}
 
 
+def load_common_topic_coverage(root: Path) -> tuple[set[str], dict[str, set[str]]]:
+    payload = load_json(root / "contracts" / "dialogue" / "topic-coverage.json")
+    categories = set(payload.get("commonTopicCategories", []))
+    locales = {normalize_locale(locale): set(value.get("readyCommonTopics", []))
+               for locale, value in payload.get("locales", {}).items()}
+    return categories, locales
+
+
 def load_chronicle_contracts(root: Path) -> list[dict[str, Any]]:
     return [item for path in iter_chronicle_contract_files(root) if path.is_file() for item in load_json(path)["pools"]]
 
@@ -431,7 +440,8 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
                         errors: list[str]) -> None:
     allowed_top = {"actors", "relationshipStates", "causes", "resolvedTopics",
                    "conversationKinds", "topicDomains", "utteranceModes", "appraisals",
-                   "responseActs", "listenerAvailabilities", "moodWildcardEmergency"}
+                   "responseActs", "listenerAvailabilities", "relationshipContexts",
+                   "moodWildcardEmergency"}
     for key in selection:
         if key not in allowed_top: errors.append(f"locales/{locale}/dialogue {candidate_id}: unknown selection dimension {key!r}")
     enum_fields = {"emotions": ALLOWED_DIALOGUE_EMOTIONS,
@@ -455,7 +465,8 @@ def _validate_selection(selection: dict[str, Any], locale: str, candidate_id: st
                            ("utteranceModes", ALLOWED_UTTERANCE_MODES),
                            ("appraisals", ALLOWED_APPRAISALS),
                            ("responseActs", ALLOWED_RESPONSE_ACTS),
-                           ("listenerAvailabilities", ALLOWED_LISTENER_AVAILABILITIES)):
+                           ("listenerAvailabilities", ALLOWED_LISTENER_AVAILABILITIES),
+                           ("relationshipContexts", ALLOWED_RELATIONSHIP_CONTEXTS)):
         values = selection.get(field, [])
         if not all(isinstance(value, str) and value in allowed for value in values):
             errors.append(f"locales/{locale}/dialogue {candidate_id}: invalid {field}")
@@ -478,6 +489,7 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
     selection_by_candidate: dict[str, str] = {}
     coverage = load_topic_coverage(root)
     native_template_axes = load_native_template_axes(root)
+    common_categories, common_coverage = load_common_topic_coverage(root)
     for locale in locales:
         candidates = load_dialogue_locale(root, locale); errors.extend(_duplicate_errors(candidates, "candidateId", f"locales/{locale}/dialogue"))
         ordinals: set[tuple[str, int]] = set()
@@ -516,6 +528,28 @@ def _validate_dialogue(root: Path, locales: list[str], errors: list[str]) -> Non
         _validate_ready_topic_matrix(locale, candidates, by_id, coverage.get(locale, set()), errors)
         _validate_native_utterance_templates(locale, candidates, by_id,
                                              native_template_axes, errors)
+        _validate_common_topic_coverage(locale, candidates, common_categories,
+                                        common_coverage.get(locale, set()), errors)
+
+
+def _validate_common_topic_coverage(locale: str, candidates: list[dict[str, Any]],
+                                    categories: set[str], ready: set[str],
+                                    errors: list[str]) -> None:
+    expected = {f"common_{kind}.{category}" for kind in ("interest", "work")
+                for category in categories}
+    if ready != expected:
+        missing = sorted(expected - ready); extra = sorted(ready - expected)
+        if missing: errors.append(f"coverage.{locale}.common: missing {missing[0]}")
+        if extra: errors.append(f"coverage.{locale}.common: unexpected {extra[0]}")
+    for topic in sorted(expected):
+        matches = [item for item in candidates
+                   if item.get("storyletId") == "Casual" and
+                   item.get("selection", {}).get("resolvedTopics") == [topic]]
+        if not matches:
+            errors.append(f"coverage.{locale}.common: no reviewed candidate for {topic}")
+            continue
+        if not any(item.get("status") == "reviewed" for item in matches):
+            errors.append(f"coverage.{locale}.common: {topic} is not reviewed")
 
 
 def _validate_ready_topic_matrix(locale: str, candidates: list[dict[str, Any]],
@@ -781,6 +815,7 @@ def _eligible_maps(root: Path):
     dialogue_contracts = {item["storyletId"]: item for item in load_dialogue_contracts(root)}
     chronicle_contracts = {item["poolId"]: item for item in load_chronicle_contracts(root)}
     topic_coverage = load_topic_coverage(root)
+    _, common_topic_coverage = load_common_topic_coverage(root)
     ui = {}; prompts = {}; dialogue = {}; chronicle = {}
     for locale in locales:
         ui[locale] = {item["key"]: item for item in load_ui_locale(root, locale) if item.get("key") in ui_contracts and _eligible(item, ui_contracts[item["key"]])}
@@ -789,8 +824,10 @@ def _eligible_maps(root: Path):
         for item in load_dialogue_locale(root, locale):
             contract = dialogue_contracts.get(item.get("storyletId"))
             topics = item.get("selection", {}).get("resolvedTopics", [])
+            exportable_topics = (topic_coverage.get(locale, set()) |
+                                 common_topic_coverage.get(locale, set()))
             topic_is_exportable = not topics or (len(topics) == 1 and
-                topics[0] in topic_coverage.get(locale, set()))
+                topics[0] in exportable_topics)
             if contract and _eligible(item, contract) and topic_is_exportable:
                 dgroups[item["storyletId"]].append(item)
         dialogue[locale] = dgroups
@@ -983,6 +1020,7 @@ def _resolved_catalogs(root: Path):
     manifest = load_manifest(root); shipped = shipped_locales(root)
     specs, ui_c, prompt_c, dialogue_c, chronicle_c, ui, prompts, dialogue, chronicle = _eligible_maps(root)
     topic_coverage = load_topic_coverage(root)
+    _, common_topic_coverage = load_common_topic_coverage(root)
     result = {}
     for requested in shipped:
         chain = fallback_chain(requested, shipped, manifest["fallbackLocale"], manifest["defaultLocale"])
@@ -1032,7 +1070,8 @@ def _resolved_catalogs(root: Path):
         for name, units, maps in (("ui", ui_c, ui), ("prompts", prompt_c, prompts), ("dialogue", dialogue_c, dialogue), ("chronicle", chronicle_c, chronicle)):
             coverage[name], resolutions[name] = _coverage(units, requested, maps, chain)
         result[requested] = {"chain": chain, "ui": ui_entries, "prompts": prompt_entries, "storylets": storylets,
-                             "readyTopics": sorted(topic_coverage.get(requested, set())),
+                             "readyTopics": sorted(topic_coverage.get(requested, set()) |
+                                                   common_topic_coverage.get(requested, set())),
                              "pools": pools, "coverage": coverage, "resolutions": resolutions}
     return manifest, specs, result
 

@@ -435,6 +435,18 @@
       "status": "reviewed"
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "text": "Đối thủ làm chung sẽ kéo nhau xuống",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "text": "Hai người nhân bản đã thành đối thủ đều mất hiệu suất khi làm cùng loại công việc trong phạm vi ba ô - bản đối xứng của thưởng \"Sát cánh\". Không đổ máu, không thêm căng thẳng, không trừ tinh thần, không đổi thiện cảm: cái giá duy nhất là sản lượng của bạn. Đây là tính năng đầu tiên trong mod khiến quan hệ xấu đi thực sự tính tiền bạn. Ma sát chỉ xuất hiện khi thực sự làm việc: ngủ, hoạt động tập thể, ăn uống và rảnh rỗi hoàn toàn không bị ảnh hưởng. Ranh giới an toàn: hiệu suất có sàn, cấu hình kiểu gì cũng không về 0; chữa trị, khám bệnh, uống thuốc, lấy hơi dưới nước, giành oxy và chạy thoát đều không bị làm chậm. Lối ra nằm ở bạn: tách họ ra, hoặc mai mối để rã băng mối quan hệ. Bật sẵn; thiết lập \"Yên lặng\" sẽ buộc tắt.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "text": "Cho phép đổ tội tập thể",
       "contractRevision": 1,
@@ -647,6 +659,18 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "text": "Mỗi cảnh hội thoại do mod tạo được tính một lần. Tắt mục này chỉ bỏ giới hạn tổng theo chu kỳ; thời gian chờ an toàn theo từng bản sao và từng cặp, tính bằng giây, vẫn áp dụng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "text": "Hiển thị chân dung hội thoại",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "text": "Hiển thị chân dung người nói trong bong bóng hội thoại. Tắt để dùng biểu tượng cảm xúc theo tình huống và giảm tải tạo, hiển thị chân dung. Thay đổi có hiệu lực ngay khi lưu.",
       "contractRevision": 1,
       "status": "reviewed"
     }

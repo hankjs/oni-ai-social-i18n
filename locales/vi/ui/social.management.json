@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Chặn",
+      "text": "Chặn tương tác",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -244,13 +244,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
-      "text": "Chọn người nhân bản thứ nhất. Hiệu ứng se duyên: thiện cảm khi trò chuyện +{0}, tỷ lệ tỏ tình +{1}%, tỷ lệ xin lỗi +{2}%, xác suất cãi vã ×{3}, cơ hội tâm sự bạn thân và tần suất hội thoại AI nhân đôi.",
-      "contractRevision": 1,
+      "text": "Chọn người nhân bản thứ nhất. Se duyên: thiện cảm trò chuyện +{0}, tỷ lệ tỏ tình +{1} điểm phần trăm, tỷ lệ xin lỗi +{2} điểm phần trăm, xác suất cãi vã ×{3}; cơ hội tâm sự và hội thoại do mod thêm tăng gấp đôi. Không đổi độ hợp nhau, không đảm bảo yêu nhau. Khi đã có người yêu, tương tác với người khác mình cảm mến có thể gây ghen.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Chọn người nhân bản thứ nhất. Chặn sẽ ngăn cặp này kích sự kiện xã hội và hội thoại AI của Mod, nhưng không ép chia tay hay xóa quan hệ hiện có.",
+      "text": "Chọn người nhân bản thứ nhất. Chặn tương tác: dừng sự kiện xã hội và hội thoại do mod thêm cho cặp này. Không trực tiếp chia tay hay xóa quan hệ; tương tác của trò chơi gốc vẫn có thể xảy ra.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -268,7 +268,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
-      "text": "Chọn người nhân bản thứ nhất. Giới hạn chốt cặp này quan hệ tốt/xấu nhất được tới đâu — không chặn giao tiếp, chỉ chặn khi quan hệ sắp vượt mốc.",
+      "text": "Chọn người nhân bản thứ nhất. Giới hạn đặt mức quan hệ tốt nhất/xấu nhất cho các thay đổi tự nhiên về sau. Tương tác hằng ngày và thiện cảm vẫn tiếp tục; không đổi quan hệ hiện tại ngay lập tức.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -304,7 +304,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
-      "text": "Chỉ hiện các bậc tương thích với giới hạn phía kia. Chọn xong có hiệu lực ngay, nhưng không đổi ngay quan hệ hiện tại.",
+      "text": "Chỉ hiện các mức tương thích. Chỉ làm bạn: đặt mức tốt nhất là Bạn bè. Bảo vệ tình yêu: đặt mức xấu nhất là Người yêu. Không đổi quan hệ ngay lập tức, không ngăn cãi vã hay mất người yêu.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Đã chặn: {0} × {1}",
+      "text": "Đã chặn tương tác: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -550,6 +550,114 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Mở rộng quan hệ","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Thu gọn quan hệ","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Hoàn tác","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Đã hoàn tác thao tác đánh dấu trước đó.","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Đã hoàn tác thao tác đánh dấu trước đó.","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BUTTON",
+      "text": "Tách xa",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAIR_INTERACTION_SETTINGS",
+      "text": "Cài đặt tương tác",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_UNAVAILABLE",
+      "text": "Hiện không thể giãn cách quan hệ này thêm. Trạng thái và ký ức được giữ nguyên.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STALE",
+      "text": "Quan hệ đã thay đổi. Hãy xem lại kết quả dự kiến mới trước khi thử lại.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DONE",
+      "text": "Đã hoàn tất thay đổi quan hệ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP_CONSEQUENCE",
+      "text": "Bắt đầu giai đoạn hồi phục sau chia tay và giữ lại ký ức chung. Họ vẫn có thể tái hợp sau này.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DISTANCE_CONSEQUENCE",
+      "text": "Giữ lại ký ức chung và không tạo thù địch. Quan hệ vẫn có thể phát triển tự nhiên về sau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BOUNDS_CONSEQUENCE",
+      "text": "Thay đổi thủ công một lần này có thể vượt qua giới hạn dưới. Các giới hạn vẫn giữ nguyên và tiếp tục áp dụng cho biến đổi tự nhiên về sau.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_MATCH_CONSEQUENCE",
+      "text": "Dấu mai mối của cặp này cũng được xóa.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER",
+      "text": "Chọn hai bản sao để xem trước kết quả chia tay hoặc giãn cách rồi mới áp dụng.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER_SECOND",
+      "text": "Đã chọn {0}. Chọn bản sao còn lại; việc chọn người chưa làm thay đổi quan hệ.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_TARGET",
+      "text": "Mục tiêu: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP",
+      "text": "Chia tay",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_FRIENDS",
+      "text": "Trở lại làm bạn",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_ACQUAINTED",
+      "text": "Giãn cách thành người quen",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STRANGERS",
+      "text": "Giãn cách thành người lạ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PREVIEW",
+      "text": "Kết quả thực tế: {0}\nThiện cảm: {1}→{2} {3}; {2}→{1} {4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_COMPLETED",
+      "text": "Đã thay đổi quan hệ giữa {0} và {1}: {2}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

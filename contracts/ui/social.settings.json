@@ -666,6 +666,24 @@
       "maxLength": 10000
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "meaning": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "contractRevision": 1,
@@ -983,6 +1001,24 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "meaning": "说明关闭时仅取消周期总量限制；同一复制人和同一配对的秒级安全冷却仍然生效。",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "meaning": "Optional static speaker portraits in dialogue text bubbles; off uses contextual expression icons. Saving applies immediately.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "meaning": "Optional static speaker portraits in dialogue text bubbles; off uses contextual expression icons. Saving applies immediately.",
       "contractRevision": 1,
       "importance": "standard",
       "arguments": [],

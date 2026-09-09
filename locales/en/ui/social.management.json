@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Block",
+      "text": "Block interactions",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -244,13 +244,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
-      "text": "Choose the first duplicant. Matchmaking grants: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats.",
-      "contractRevision": 1,
+      "text": "Choose the first duplicant. Matchmaking: chat affinity +{0}, confession chance +{1} percentage points, apology chance +{2} percentage points, argument chance ×{3}; heart-to-hearts and mod-added dialogue occur twice as often. Chemistry stays the same; romance is not guaranteed. Interacting with another crush while partnered may trigger jealousy.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Choose the first duplicant. Blocking prevents this pair from triggering mod social events and AI chats. It does not force a breakup or erase an existing relationship.",
+      "text": "Choose the first duplicant. Block interactions: stop this pair’s mod social events and added dialogue. This does not break them up or delete their relationship; base-game interactions can still occur.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -268,7 +268,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
-      "text": "Choose the first duplicant. Bounds cap how close or how hostile this pair's relationship can become — it never stops them from interacting, it only stops the relationship from crossing the line.",
+      "text": "Choose the first duplicant. Bounds set the best/worst relationship tier for future natural changes. Daily interactions and affinity continue; the current relationship does not change immediately.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -304,7 +304,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
-      "text": "Only tiers compatible with the other bound are shown. The choice takes effect immediately, but does not change the current relationship until its next transition.",
+      "text": "Only compatible tiers are shown. Friends only: set the best tier to Friend. Protect a partnership: set the worst to Couple. This does not change the current relationship immediately or prevent arguments or bereavement.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Blocked: {0} × {1}",
+      "text": "Interactions blocked: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -550,6 +550,114 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Expand relationships","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Collapse relationships","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Undo","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Undid the previous mark change.","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Undid the previous mark change.","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BUTTON",
+      "text": "Separate",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAIR_INTERACTION_SETTINGS",
+      "text": "Interaction settings",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_UNAVAILABLE",
+      "text": "This relationship cannot be separated further. Its state and memories are preserved.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STALE",
+      "text": "The relationship changed. Review the updated preview before trying again.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DONE",
+      "text": "Relationship change completed",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP_CONSEQUENCE",
+      "text": "Enters breakup recovery and keeps shared history. They may reunite later.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DISTANCE_CONSEQUENCE",
+      "text": "Keeps shared history without creating a rivalry. The relationship can develop naturally later.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BOUNDS_CONSEQUENCE",
+      "text": "This one-time change can cross the relationship floor. It preserves the bounds, which still govern later natural changes.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_MATCH_CONSEQUENCE",
+      "text": "This also clears this pair’s matchmaking mark.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER",
+      "text": "Choose two duplicants to preview a breakup or distancing before applying it.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER_SECOND",
+      "text": "Selected {0}. Choose the other duplicant; selecting people does not change their relationship.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_TARGET",
+      "text": "Target: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP",
+      "text": "Break up",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_FRIENDS",
+      "text": "Return to friends",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_ACQUAINTED",
+      "text": "Become acquaintances",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STRANGERS",
+      "text": "Become strangers",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PREVIEW",
+      "text": "Actual result: {0}\nAffinity: {1}→{2} {3}; {2}→{1} {4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_COMPLETED",
+      "text": "Changed the relationship between {0} and {1}: {2}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

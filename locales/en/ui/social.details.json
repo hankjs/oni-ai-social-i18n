@@ -802,7 +802,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "Block mark added",
+      "text": "Interactions blocked",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -910,13 +910,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "text": "Matchmaking mark: chat affinity +{0}, confession chance +{1}%, apology chance +{2}%, argument chance ×{3}, doubled heart-to-hearts and AI chats",
-      "contractRevision": 1,
+      "text": "Matchmaking: chat affinity +{0}, confession chance +{1} percentage points, apology chance +{2} percentage points, argument chance ×{3}; heart-to-hearts and mod-added dialogue occur twice as often. Chemistry stays the same; romance is not guaranteed. Interacting with another crush while partnered may trigger jealousy.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Block mark: prevents this pair from triggering mod social events and AI chats; it does not force a breakup or erase an existing relationship",
+      "text": "Block interactions: stop this pair’s mod social events and added dialogue. This does not break them up or delete their relationship; base-game interactions can still occur.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -940,11 +940,33 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "text": "\nChemistry: {0} (first chat each cycle {1} affinity, argument chance {2})",
-      "contractRevision": 1,
+      "text": "\nChemistry: {0} (first chat each cycle: affinity {1}, argument chance {2} percentage points). Innate compatibility; renaming, personality edits and save/reload do not change it. Same-name duplicants can differ.\n",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Latest chapter","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"View personal story","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"View personal story","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"No relationship record yet; next threshold: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"Mod interactions are blocked for this pair","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"A confession is pending ({0} cycles left)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"A relationship event is pending ({0} cycles left)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"Relationship upper bound: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"Still awkward ({0} cycles left)","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"{0} mutual affinity to the next tier","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"Already a crush; {0} mutual affinity short of confession eligibility","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"Confession eligibility reached; outcome and timing are not determined","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"Threshold reached, but monogamy currently blocks confession","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"Currently a couple","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"In a cold war; breakup begins in {0} cycles unless they recover","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"Broken up; former-partner period has {0} cycles left","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","text":"Grieving a deceased partner","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","text":"Mourning the other duplicant","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","text":"Rivals; ordinary negative affinity does not decay toward zero","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "text": "Player-directed relationship change",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

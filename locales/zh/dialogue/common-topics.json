@@ -1,0 +1,786 @@
+{
+  "locale": "zh",
+  "family": "common-topics",
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.common-interest.mining.001",
+      "diversityKey": "common_interest.Mining",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Mining"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13001,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢挖掘。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.building.001",
+      "diversityKey": "common_interest.Building",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Building"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13002,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢建造。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.cooking.001",
+      "diversityKey": "common_interest.Cooking",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Cooking"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13003,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢烹饪。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.farming.001",
+      "diversityKey": "common_interest.Farming",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Farming"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13004,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢耕作。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.ranching.001",
+      "diversityKey": "common_interest.Ranching",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Ranching"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13005,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢畜牧。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.research.001",
+      "diversityKey": "common_interest.Research",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Research"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13006,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢研究。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.technicals.001",
+      "diversityKey": "common_interest.Technicals",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Technicals"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13007,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢机械操作。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.medicalaid.001",
+      "diversityKey": "common_interest.MedicalAid",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.MedicalAid"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13008,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢医疗。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.hauling.001",
+      "diversityKey": "common_interest.Hauling",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Hauling"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13009,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢搬运。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.art.001",
+      "diversityKey": "common_interest.Art",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Art"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13010,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢艺术。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.suits.001",
+      "diversityKey": "common_interest.Suits",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Suits"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13011,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢太空服作业。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.rocketry.001",
+      "diversityKey": "common_interest.Rocketry",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Rocketry"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13012,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢火箭。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.basekeeping.001",
+      "diversityKey": "common_interest.Basekeeping",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Basekeeping"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13013,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢基地维护。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.swimmingskills.001",
+      "diversityKey": "common_interest.SwimmingSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.SwimmingSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13014,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢游泳。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.bionicskills.001",
+      "diversityKey": "common_interest.BionicSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.BionicSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13015,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "原来你也喜欢仿生技能。"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "当然。聊这个总比聊氧气警报轻松。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.mining.001",
+      "diversityKey": "common_work.Mining",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Mining"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13016,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的挖掘活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.building.001",
+      "diversityKey": "common_work.Building",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Building"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13017,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的建造活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.cooking.001",
+      "diversityKey": "common_work.Cooking",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Cooking"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13018,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的烹饪活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.farming.001",
+      "diversityKey": "common_work.Farming",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Farming"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13019,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的耕作活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.ranching.001",
+      "diversityKey": "common_work.Ranching",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Ranching"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13020,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的畜牧活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.research.001",
+      "diversityKey": "common_work.Research",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Research"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13021,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的研究活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.technicals.001",
+      "diversityKey": "common_work.Technicals",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Technicals"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13022,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的机械操作活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.medicalaid.001",
+      "diversityKey": "common_work.MedicalAid",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.MedicalAid"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13023,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的医疗活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.hauling.001",
+      "diversityKey": "common_work.Hauling",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Hauling"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13024,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的搬运活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.art.001",
+      "diversityKey": "common_work.Art",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Art"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13025,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的艺术活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.suits.001",
+      "diversityKey": "common_work.Suits",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Suits"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13026,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的太空服作业活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.rocketry.001",
+      "diversityKey": "common_work.Rocketry",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Rocketry"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13027,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的火箭活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.basekeeping.001",
+      "diversityKey": "common_work.Basekeeping",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Basekeeping"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13028,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的基地维护活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.swimmingskills.001",
+      "diversityKey": "common_work.SwimmingSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.SwimmingSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13029,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的游泳活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.bionicskills.001",
+      "diversityKey": "common_work.BionicSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.BionicSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13030,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "今天的仿生技能活儿，你也碰上了？"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "碰上了。我们可以对对各自的办法。"
+        }
+      ]
+    }
+  ]
+}

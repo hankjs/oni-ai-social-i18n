@@ -1,0 +1,11 @@
+{
+  "locale": "zh",
+  "family": "relationship-memory",
+  "candidates": [
+    {"candidateId":"storylet.casual.memory.care-first.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_first"]},"weight":1,"ordinal":13031,"turns":[{"turnId":"a","speakerSlot":0,"text":"现在感觉好些了吗？"},{"turnId":"b","speakerSlot":1,"text":"好多了。你那时过来陪我，比你想的更管用。"}]},
+    {"candidateId":"storylet.casual.memory.care-second.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_second"]},"weight":1,"ordinal":13032,"turns":[{"turnId":"a","speakerSlot":0,"text":"那时你其实不用一直陪着我的。"},{"turnId":"b","speakerSlot":1,"text":"我知道，是我自己想留下。"}]},
+    {"candidateId":"storylet.casual.memory.apology.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["recent_apology"]},"weight":1,"ordinal":13033,"turns":[{"turnId":"a","speakerSlot":0,"text":"那件事能说开，真好。"},{"turnId":"b","speakerSlot":1,"text":"我也觉得。管道里的压力已经够大家受了。"}]},
+    {"candidateId":"storylet.casual.memory.confession-failure.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["confession_failure"]},"weight":1,"ordinal":13034,"turns":[{"turnId":"a","speakerSlot":0,"text":"这次聊天不用非得变成什么。"},{"turnId":"b","speakerSlot":1,"text":"谢谢。一次聊一点就好。"}]},
+    {"candidateId":"storylet.casual.memory.former-partners.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["former_partners"]},"weight":1,"ordinal":13035,"turns":[{"turnId":"a","speakerSlot":0,"text":"这次没上次那么尴尬了。"},{"turnId":"b","speakerSlot":1,"text":"标准不高，不过也算进步。"}]}
+  ]
+}

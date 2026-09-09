@@ -802,7 +802,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "ブロックマーク追加",
+      "text": "交流ブロック済み",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -910,13 +910,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "text": "取り持ちマーク：雑談の好感度 +{0}、告白成功率 +{1}%、謝罪成功率 +{2}%、言い争い確率 ×{3}、親友の語らいの機会とAI会話の頻度が2倍",
-      "contractRevision": 1,
+      "text": "取り持ち：雑談の好感度 +{0}、告白成功率 +{1} パーセントポイント、謝罪成功率 +{2} パーセントポイント、言い争い確率 ×{3}。親友の語らいとMod追加会話の頻度が2倍になります。相性は変わらず、恋愛の成功は保証しません。恋人がいるときに別の気になる相手と交流すると、嫉妬が生じることがあります。",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "ブロックマーク：このペアが本Modの社交イベントとAI会話を起こすのを防ぎますが、強制的に別れさせたり既存の関係を削除したりはしません",
+      "text": "交流をブロック：この二人のMod社交イベントと追加会話を止めます。直接別れさせたり、既存の関係を削除したりはしません。ゲーム本来の交流は引き続き起こり得ます。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -940,11 +940,33 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "text": "\n相性：{0}（各サイクル最初の雑談の好感度 {1}、言い争い確率 {2}）",
-      "contractRevision": 1,
+      "text": "\n相性：{0}（各サイクル最初の雑談の好感度 {1}、言い争い確率 {2} パーセントポイント）。生まれつきの相性で、改名・性格変更・セーブの再読込では変わりません。同名でも異なる場合があります。\n",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"最近の章","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"個人の物語を見る","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"個人の物語を見る","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"まだ関係記録はありません。次のしきい値: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"この二人の Mod 交流はブロックされています","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"告白が待機中です（残り {0} サイクル）","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"関係イベントが待機中です（残り {0} サイクル）","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"関係の上限: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"まだ気まずい状態です（残り {0} サイクル）","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"次の段階まで相互好感度があと {0} 必要です","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"すでに恋心があり、告白条件まで相互好感度があと {0} 必要です","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"告白条件を満たしています。結果と時期は未定です","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"しきい値には達しましたが、一対一の関係規則により今は告白できません","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"現在は恋人同士です","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"冷戦中です。回復しなければ {0} サイクル後に別れの手続きが始まります","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"別れています。元恋人期間は残り {0} サイクルです","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","text":"亡くなった恋人を深く悼んでいます","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","text":"亡くなった相手を悼んでいます","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","text":"現在は宿敵です。通常の負の好感度はゼロへ戻りません","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "text": "プレイヤーによる関係の変更",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

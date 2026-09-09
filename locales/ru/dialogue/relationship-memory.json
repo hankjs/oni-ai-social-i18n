@@ -1,0 +1,11 @@
+{
+  "locale": "ru",
+  "family": "relationship-memory",
+  "candidates": [
+    {"candidateId":"storylet.casual.memory.care-first.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_first"]},"weight":1,"ordinal":13031,"turns":[{"turnId":"a","speakerSlot":0,"text":"Тебе сейчас лучше?"},{"turnId":"b","speakerSlot":1,"text":"Гораздо. То, что ты пришёл, помогло сильнее, чем кажется."}]},
+    {"candidateId":"storylet.casual.memory.care-second.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_second"]},"weight":1,"ordinal":13032,"turns":[{"turnId":"a","speakerSlot":0,"text":"Тебе ведь не обязательно было тогда оставаться со мной."},{"turnId":"b","speakerSlot":1,"text":"Знаю. Я сам хотел остаться."}]},
+    {"candidateId":"storylet.casual.memory.apology.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["recent_apology"]},"weight":1,"ordinal":13033,"turns":[{"turnId":"a","speakerSlot":0,"text":"Хорошо, что мы всё прояснили."},{"turnId":"b","speakerSlot":1,"text":"Согласен. Нам хватает давления в трубах."}]},
+    {"candidateId":"storylet.casual.memory.confession-failure.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["confession_failure"]},"weight":1,"ordinal":13034,"turns":[{"turnId":"a","speakerSlot":0,"text":"Этот разговор не обязан во что-то превращаться."},{"turnId":"b","speakerSlot":1,"text":"Спасибо. Один разговор за раз."}]},
+    {"candidateId":"storylet.casual.memory.former-partners.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["former_partners"]},"weight":1,"ordinal":13035,"turns":[{"turnId":"a","speakerSlot":0,"text":"Сейчас не так неловко, как в прошлый раз."},{"turnId":"b","speakerSlot":1,"text":"Планка невысока, но пусть будет."}]}
+  ]
+}

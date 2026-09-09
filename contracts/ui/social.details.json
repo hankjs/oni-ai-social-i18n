@@ -1445,28 +1445,28 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "meaning": "{0}: chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale.",
-      "contractRevision": 1,
+      "meaning": "{0}: chat affinity bonus, {1}: confession bonus in percentage points, {2}: apology bonus in percentage points, {3}: argument chance multiplier. Matchmaking does not change chemistry or guarantee romance.",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [
         {
           "token": "0",
-          "name": "chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale",
+          "name": "chat affinity bonus",
           "kind": "text"
         },
         {
           "token": "1",
-          "name": "1",
+          "name": "confession bonus in percentage points",
           "kind": "text"
         },
         {
           "token": "2",
-          "name": "2",
+          "name": "apology bonus in percentage points",
           "kind": "text"
         },
         {
           "token": "3",
-          "name": "3",
+          "name": "argument chance multiplier",
           "kind": "text"
         }
       ],
@@ -1537,23 +1537,23 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "meaning": "{0}: chemistry name, {1}: chat delta (+1/-1), {2}: argument chance delta (-2%/+4%).",
-      "contractRevision": 1,
+      "meaning": "{0}: chemistry name, {1}: signed chat affinity delta, {2}: signed argument chance delta in percentage points, without a unit suffix. Chemistry is tied to stable identity, not display name or personality.",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [
         {
           "token": "0",
-          "name": "chemistry name, {1}: chat delta (+1/-1), {2}: argument chance delta (-2%/+4%)",
+          "name": "chemistry name",
           "kind": "text"
         },
         {
           "token": "1",
-          "name": "1",
+          "name": "signed chat affinity delta",
           "kind": "text"
         },
         {
           "token": "2",
-          "name": "2",
+          "name": "signed argument chance delta in percentage points (no unit suffix)",
           "kind": "text"
         }
       ],
@@ -1577,6 +1577,31 @@
       "arguments": [],
       "richText": false,
       "maxLength": 100
+    },
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","meaning":"No relationship session exists; {0} is the next affinity threshold.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"next affinity threshold","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","meaning":"The player Block mark prevents Mod interactions for this pair.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","meaning":"A confession ceremony is pending; {0} is remaining cycles. Must not reveal its locked outcome.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining cycles","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","meaning":"A relationship ceremony is pending; {0} is remaining cycles. Must not predict its result.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining cycles","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","meaning":"The pair's player-set upper relationship bound is {0}.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"localized relationship tier","kind":"text"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","meaning":"The pair is awkward for {0} more cycles.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining cycles","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","meaning":"The pair needs {0} more mutual affinity for the next stable tier.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining affinity","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","meaning":"The pair is already Crush but needs {0} more mutual affinity to meet the confession gate.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining affinity","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","meaning":"The confession threshold is met, without promising timing or outcome.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","meaning":"The threshold is met but monogamy currently prevents a confession.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","meaning":"The pair is currently a couple.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","meaning":"The pair is in ColdWar; {0} is cycles until breakup scheduling unless recovery occurs.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"cycles until breakup","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","meaning":"The pair broke up; {0} is remaining ex-partner cycles.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"remaining ex-partner cycles","kind":"number"}],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","meaning":"The pair is in the surviving partner's grief state.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","meaning":"The pair is in the non-partner mourning state.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","meaning":"The pair are rivals and negative affinity does not ordinarily decay toward zero.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":200},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "meaning": "Player-directed one-time breakup or distancing. No invented interpersonal motive; the actual result is the recorded relationship state.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
     }
   ]
 }

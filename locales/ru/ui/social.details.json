@@ -802,7 +802,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.MARK_BLOCK",
-      "text": "метка блокировки",
+      "text": "Общение заблокировано",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -910,13 +910,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_MATCH",
-      "text": "Метка сводничества: симпатия за разговор +{0}, шанс признания +{1}%, шанс извинения +{2}%, вероятность ссоры ×{3}, шанс разговора лучших друзей и частота ИИ-диалога удваиваются",
-      "contractRevision": 1,
+      "text": "Сводничество: симпатия за разговор +{0}, шанс признания +{1} п.п., шанс извинения +{2} п.п., вероятность ссоры ×{3}; задушевные беседы и диалоги мода вдвое чаще. Совместимость не меняется, роман не гарантирован. Общение с другим предметом симпатии при наличии партнёра может вызвать ревность.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.MARK_BLOCK",
-      "text": "Метка блокировки: эта пара не запускает события общения мода и ИИ-диалог; она не разрывает и не удаляет существующие отношения",
+      "text": "Блокировка общения останавливает социальные события и диалоги мода для этой пары. Она не разлучает пару и не удаляет отношения; взаимодействия основной игры остаются возможны.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -940,11 +940,33 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.TOOLTIP.CHEMISTRY_LINE",
-      "text": "\nХимия: {0} (симпатия за первый разговор за цикл {1}, вероятность ссоры {2})",
-      "contractRevision": 1,
+      "text": "\nСовместимость: {0} (первый разговор за цикл: симпатия {1}, вероятность ссоры {2} п.п.). Врождённая сочетаемость; имя, правки характера и загрузка сохранения её не меняют. У тёзок она может различаться.\n",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_RECENT","text":"Последняя глава","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Открыть личную историю","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"Открыть личную историю","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"Записи об отношениях ещё нет; следующий порог: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"Взаимодействия мода для этой пары заблокированы","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"Признание ожидает события (осталось циклов: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"Событие отношений ожидает (осталось циклов: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"Верхняя граница отношений: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"Неловкость ещё не прошла (осталось циклов: {0})","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"До следующего уровня не хватает взаимной симпатии: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"Уже влюблены; до условия признания не хватает взаимной симпатии: {0}","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"Условие признания выполнено; результат и время не определены","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"Порог достигнут, но моногамия пока не допускает признание","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"Сейчас они пара","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"Холодная война; без примирения расставание начнётся через {0} циклов","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"Расстались; период бывших партнёров — ещё {0} циклов","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.GRIEVING","text":"Скорбит по умершему партнёру","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.MOURNING","text":"Оплакивает умершего дупликанта","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.RIVAL","text":"Соперники; обычная отрицательная симпатия не возвращается к нулю","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.DETAILS.EVENT.MANUAL_SEPARATION",
+      "text": "Изменение отношений по решению игрока",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

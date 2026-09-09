@@ -1,0 +1,11 @@
+{
+  "locale": "en",
+  "family": "relationship-memory",
+  "candidates": [
+    {"candidateId":"storylet.casual.memory.care-first.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_first"]},"weight":1,"ordinal":13031,"turns":[{"turnId":"a","speakerSlot":0,"text":"How are you feeling now?"},{"turnId":"b","speakerSlot":1,"text":"Better. You showing up helped more than you know."}]},
+    {"candidateId":"storylet.casual.memory.care-second.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["care_from_second"]},"weight":1,"ordinal":13032,"turns":[{"turnId":"a","speakerSlot":0,"text":"You really didn't have to stay with me back then."},{"turnId":"b","speakerSlot":1,"text":"I know. I wanted to."}]},
+    {"candidateId":"storylet.casual.memory.apology.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["recent_apology"]},"weight":1,"ordinal":13033,"turns":[{"turnId":"a","speakerSlot":0,"text":"I'm glad we cleared the air."},{"turnId":"b","speakerSlot":1,"text":"Me too. The pipes make enough pressure for everyone."}]},
+    {"candidateId":"storylet.casual.memory.confession-failure.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["confession_failure"]},"weight":1,"ordinal":13034,"turns":[{"turnId":"a","speakerSlot":0,"text":"We don't have to make this conversation into anything."},{"turnId":"b","speakerSlot":1,"text":"Thanks. One conversation at a time."}]},
+    {"candidateId":"storylet.casual.memory.former-partners.001","storyletId":"Casual","contractRevision":1,"status":"reviewed","selection":{"relationshipContexts":["former_partners"]},"weight":1,"ordinal":13035,"turns":[{"turnId":"a","speakerSlot":0,"text":"This is less awkward than last time."},{"turnId":"b","speakerSlot":1,"text":"A low bar, but I'll take it."}]}
+  ]
+}

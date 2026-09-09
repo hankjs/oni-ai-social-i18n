@@ -435,6 +435,18 @@
       "status": "reviewed"
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "text": "숙적끼리 같이 일하면 서로 발목을 잡는다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "text": "숙적이 된 두 복제인간이 3칸 이내에서 같은 종류의 일을 하면 양쪽 모두 작업 효율이 떨어집니다. 「나란히 일하기」 보너스의 거울상입니다. 피도 스트레스도 사기도 호감도도 건드리지 않습니다. 대가는 오직 당신의 생산성입니다. 관계 악화가 실제로 당신에게 비용을 물리는 첫 번째 기능입니다. 마찰은 실제로 일할 때만 나타납니다. 잠자기, 단체 활동, 식사, 빈둥거리기 같은 흔한 일에는 전혀 영향이 없습니다. 안전선: 효율에는 하한이 있어 어떻게 설정해도 0이 되지 않으며, 치료·진료·약 복용·수중 호흡·산소 확보·대피 중에는 느려지지 않습니다. 해결은 당신 손에 있습니다. 둘을 떼어놓거나, 중매로 관계를 녹이면 됩니다. 기본 켬. 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "text": "집단 화풀이 허용",
       "contractRevision": 1,
@@ -647,6 +659,18 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "text": "모드가 만든 대화 장면 한 번을 1회로 계산합니다. 끄면 주기당 총량 제한만 없어지며, 복제인별·쌍별 초 단위 안전 대기시간은 계속 적용됩니다.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "text": "대화 초상화 표시",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "text": "대화 말풍선에 말하는 복제체의 초상화를 표시합니다. 끄면 상황에 맞는 표정 아이콘을 사용하여 초상화 생성 및 표시 부담을 줄입니다. 저장하면 바로 적용됩니다.",
       "contractRevision": 1,
       "status": "reviewed"
     }

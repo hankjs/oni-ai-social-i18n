@@ -10,7 +10,7 @@
         "requiredForStable": { "type": "boolean" }, "minimumBaseCandidates": { "type": "integer", "minimum": 0 },
         "actorSlots": { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 0 } },
         "selectionDimensions": { "type": "array", "uniqueItems": true, "items": {
-          "enum": ["emotions", "intensities", "stances", "voices", "personalities", "moods", "relationshipStates", "causes", "resolvedTopics", "conversationKinds", "topicDomains", "utteranceModes", "appraisals", "responseActs", "listenerAvailabilities", "moodWildcardEmergency"]
+          "enum": ["emotions", "intensities", "stances", "voices", "personalities", "moods", "relationshipStates", "causes", "resolvedTopics", "conversationKinds", "topicDomains", "utteranceModes", "appraisals", "responseActs", "listenerAvailabilities", "relationshipContexts", "moodWildcardEmergency"]
         } }
       }
     }}

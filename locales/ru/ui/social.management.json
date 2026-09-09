@@ -22,7 +22,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BLOCK_BUTTON",
-      "text": "Блокировка",
+      "text": "Блокировать общение",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -244,13 +244,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
-      "text": "Выберите первого дубликанта. Эффект сводничества: симпатия за разговор +{0}, шанс признания +{1}%, шанс извинения +{2}%, вероятность ссоры ×{3}, шанс разговора лучших друзей и частота ИИ-диалога удваиваются.",
-      "contractRevision": 1,
+      "text": "Выберите первого дубликанта. Сводничество: симпатия за разговор +{0}, шанс признания +{1} п.п., шанс извинения +{2} п.п., вероятность ссоры ×{3}; задушевные беседы и диалоги мода вдвое чаще. Совместимость не меняется, роман не гарантирован. Общение с другим предметом симпатии при наличии партнёра может вызвать ревность.",
+      "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BLOCK_MESSAGE",
-      "text": "Выберите первого дубликанта. Блокировка не даст этой паре запускать события общения мода и ИИ-диалог, но не приведёт к принудительному разрыву и не удалит существующие отношения.",
+      "text": "Выберите первого дубликанта. Блокировка общения останавливает социальные события и диалоги мода для этой пары. Она не разлучает пару и не удаляет отношения; взаимодействия основной игры остаются возможны.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -268,7 +268,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_BOUNDS_MESSAGE",
-      "text": "Выберите первого дубликанта. Пределы задают лучшую и худшую ступень отношений этой пары — общение не запрещают, только останавливают, когда отношения хотят выйти за край.",
+      "text": "Выберите первого дубликанта. Границы задают лучший/худший уровень отношений для последующих естественных изменений. Повседневное общение и симпатия продолжают меняться; текущие отношения не меняются сразу.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -304,7 +304,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
-      "text": "Показаны только ступени, совместимые с другим пределом. Выбор действует сразу, но текущие отношения не меняет мгновенно.",
+      "text": "Показаны только совместимые уровни. Только дружба: лучший — друг. Защита пары: худший — пара. Это не меняет текущие отношения сразу и не предотвращает ссоры или потерю партнёра.",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.MARK_SET_BLOCK",
-      "text": "Заблокированы: {0} × {1}",
+      "text": "Общение заблокировано: {0} × {1}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -550,6 +550,114 @@
     {"key":"STRINGS.SOCIAL.MANAGEMENT.EXPAND_RELATIONSHIPS","text":"Развернуть отношения","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.COLLAPSE_RELATIONSHIPS","text":"Свернуть отношения","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_BUTTON","text":"Отменить","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Предыдущее изменение меток отменено.","contractRevision":1,"status":"reviewed"}
+    {"key":"STRINGS.SOCIAL.MANAGEMENT.UNDO_COMPLETED","text":"Предыдущее изменение меток отменено.","contractRevision":1,"status":"reviewed"},
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BUTTON",
+      "text": "Отдалить",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAIR_INTERACTION_SETTINGS",
+      "text": "Настройки взаимодействий",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_UNAVAILABLE",
+      "text": "Эти отношения сейчас нельзя отдалить. Их состояние и воспоминания сохраняются.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STALE",
+      "text": "Отношения изменились. Проверьте обновлённый результат перед повторной попыткой.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DONE",
+      "text": "Изменение выполнено",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP_CONSEQUENCE",
+      "text": "Начнётся период восстановления после расставания. Общие воспоминания сохранятся; позже возможно воссоединение.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DISTANCE_CONSEQUENCE",
+      "text": "Общие воспоминания сохранятся, вражды не возникнет. Позже отношения смогут развиваться естественно.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BOUNDS_CONSEQUENCE",
+      "text": "Разовое ручное изменение может выйти за нижнюю границу отношений. Настроенные границы сохранятся и продолжат ограничивать естественные изменения.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_MATCH_CONSEQUENCE",
+      "text": "Отметка сватовства для этой пары тоже будет снята.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER",
+      "text": "Выберите двух дубликантов, чтобы сначала посмотреть результат расставания или отдаления, а затем применить его.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER_SECOND",
+      "text": "Выбран {0}. Выберите второго дубликанта; сам выбор не меняет отношения.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_TARGET",
+      "text": "Цель: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP",
+      "text": "Расстаться",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_FRIENDS",
+      "text": "Остаться друзьями",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_ACQUAINTED",
+      "text": "Стать знакомыми",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STRANGERS",
+      "text": "Стать чужими",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PREVIEW",
+      "text": "Фактический результат: {0}\nСимпатия: {1}→{2} {3}; {2}→{1} {4}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_COMPLETED",
+      "text": "Отношения между {0} и {1} изменены: {2}.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    }
   ]
 }

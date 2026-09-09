@@ -458,28 +458,28 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_MATCH_MESSAGE",
-      "meaning": "{0}: chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale.",
-      "contractRevision": 1,
+      "meaning": "{0}: chat affinity bonus, {1}: confession bonus in percentage points, {2}: apology bonus in percentage points, {3}: argument chance multiplier. Matchmaking does not change chemistry or guarantee romance.",
+      "contractRevision": 2,
       "importance": "standard",
       "arguments": [
         {
           "token": "0",
-          "name": "chat affinity bonus, {1}: confession bonus %, {2}: apology bonus %, {3}: argument chance scale",
+          "name": "chat affinity bonus",
           "kind": "text"
         },
         {
           "token": "1",
-          "name": "1",
+          "name": "confession bonus in percentage points",
           "kind": "text"
         },
         {
           "token": "2",
-          "name": "2",
+          "name": "apology bonus in percentage points",
           "kind": "text"
         },
         {
           "token": "3",
-          "name": "3",
+          "name": "argument chance multiplier",
           "kind": "text"
         }
       ],
@@ -1332,6 +1332,222 @@
       "arguments": [],
       "richText": false,
       "maxLength": 200
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BUTTON",
+      "meaning": "Manual relationship separation UI: separation_button. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.PAIR_INTERACTION_SETTINGS",
+      "meaning": "Manual relationship separation UI: pair_interaction_settings. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_UNAVAILABLE",
+      "meaning": "Manual relationship separation UI: separation_unavailable. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STALE",
+      "meaning": "Manual relationship separation UI: separation_stale. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DONE",
+      "meaning": "Manual relationship separation UI: separation_done. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP_CONSEQUENCE",
+      "meaning": "Manual relationship separation UI: separation_breakup_consequence. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_DISTANCE_CONSEQUENCE",
+      "meaning": "Manual relationship separation UI: separation_distance_consequence. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BOUNDS_CONSEQUENCE",
+      "meaning": "Manual relationship separation UI: separation_bounds_consequence. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_MATCH_CONSEQUENCE",
+      "meaning": "Manual relationship separation UI: separation_match_consequence. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER",
+      "meaning": "Manual relationship separation UI: separation_picker. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PICKER_SECOND",
+      "meaning": "Manual relationship separation UI: separation_picker_second. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "selected duplicant name",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_TARGET",
+      "meaning": "Manual relationship separation UI: separation_target. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "requested target relationship state",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_BREAKUP",
+      "meaning": "Manual relationship separation UI: separation_breakup. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_FRIENDS",
+      "meaning": "Manual relationship separation UI: separation_friends. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_ACQUAINTED",
+      "meaning": "Manual relationship separation UI: separation_acquainted. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_STRANGERS",
+      "meaning": "Manual relationship separation UI: separation_strangers. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_PREVIEW",
+      "meaning": "Manual relationship separation UI: separation_preview. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "actual resulting relationship state",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "first duplicant name",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "second duplicant name",
+          "kind": "text"
+        },
+        {
+          "token": "3",
+          "name": "resulting first-to-second affinity",
+          "kind": "number"
+        },
+        {
+          "token": "4",
+          "name": "resulting second-to-first affinity",
+          "kind": "number"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.MANAGEMENT.SEPARATION_COMPLETED",
+      "meaning": "Manual relationship separation UI: separation_completed. Preview and apply are separate; do not imply permanent blocking or invent interpersonal motives.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "first duplicant name",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "second duplicant name",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "actual resulting relationship state",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
     }
   ]
 }

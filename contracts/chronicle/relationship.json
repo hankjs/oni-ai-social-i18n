@@ -196,6 +196,20 @@
       "requiredForStable": true,
       "minimumStable": 10,
       "contractRevision": 1
+    },
+    {
+      "poolId": "chronicle.manual-separation.baseline",
+      "family": "relationship",
+      "angle": "base",
+      "participantMode": "symmetricPair",
+      "allowedSlots": [
+        "a",
+        "b",
+        "state"
+      ],
+      "requiredForStable": true,
+      "minimumStable": 1,
+      "contractRevision": 1
     }
   ]
 }

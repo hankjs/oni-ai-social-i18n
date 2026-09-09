@@ -32,6 +32,7 @@
             "appraisals": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
             "responseActs": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
             "listenerAvailabilities": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+            "relationshipContexts": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
             "moodWildcardEmergency": { "type": "boolean" }
           }
         }, "weight": { "type": "number", "minimum": 0.000001 },

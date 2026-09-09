@@ -435,6 +435,18 @@
       "status": "reviewed"
     },
     {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION",
+      "text": "Rivals drag each other down at work",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
+      "text": "Two duplicants who have become rivals both lose work efficiency while doing the same kind of job within three tiles of each other - the mirror of the \"Side by Side\" bonus. It draws no blood, adds no stress, takes no morale and changes no affinity: the only thing it costs is your throughput. This is the first feature in the mod where a relationship going bad actually charges you for it. Friction only shows up during actual work: sleeping, group activities, eating and idling are untouched. Safety line: efficiency has a floor and can never reach zero however it is configured, and doctoring, healing, taking medicine, catching a breath underwater, grabbing oxygen and fleeing to safety are never slowed. The way out is yours: move one of them, or matchmake to thaw the rivalry. On by default; the Quiet drama preset force-disables it.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH",
       "text": "Allow collective scapegoating",
       "contractRevision": 1,
@@ -647,6 +659,18 @@
     {
       "key": "STRINGS.SOCIAL.SETTINGS.MOD_CONVERSATION_THROTTLE_HINT",
       "text": "Each Mod-authored scene counts once. Turning this off removes only the per-cycle total; per-duplicant and per-pair safety cooldowns still apply.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS",
+      "text": "Show dialogue portraits",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.DIALOGUE_PORTRAITS_HINT",
+      "text": "Show the speaker’s portrait in dialogue text bubbles. Turn off to use contextual expression icons and reduce portrait overhead. Changes apply when saved.",
       "contractRevision": 1,
       "status": "reviewed"
     }

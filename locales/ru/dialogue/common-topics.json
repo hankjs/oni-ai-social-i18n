@@ -1,0 +1,786 @@
+{
+  "locale": "ru",
+  "family": "common-topics",
+  "candidates": [
+    {
+      "candidateId": "storylet.casual.common-interest.mining.001",
+      "diversityKey": "common_interest.Mining",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Mining"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13001,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «добыча»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.building.001",
+      "diversityKey": "common_interest.Building",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Building"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13002,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «строительство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.cooking.001",
+      "diversityKey": "common_interest.Cooking",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Cooking"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13003,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «готовка»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.farming.001",
+      "diversityKey": "common_interest.Farming",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Farming"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13004,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «земледелие»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.ranching.001",
+      "diversityKey": "common_interest.Ranching",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Ranching"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13005,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «животноводство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.research.001",
+      "diversityKey": "common_interest.Research",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Research"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13006,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «исследования»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.technicals.001",
+      "diversityKey": "common_interest.Technicals",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Technicals"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13007,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «работа с техникой»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.medicalaid.001",
+      "diversityKey": "common_interest.MedicalAid",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.MedicalAid"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13008,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «медицина»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.hauling.001",
+      "diversityKey": "common_interest.Hauling",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Hauling"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13009,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «переноска грузов»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.art.001",
+      "diversityKey": "common_interest.Art",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Art"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13010,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «искусство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.suits.001",
+      "diversityKey": "common_interest.Suits",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Suits"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13011,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «работа в скафандре»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.rocketry.001",
+      "diversityKey": "common_interest.Rocketry",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Rocketry"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13012,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «ракетостроение»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.basekeeping.001",
+      "diversityKey": "common_interest.Basekeeping",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.Basekeeping"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13013,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «обслуживание базы»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.swimmingskills.001",
+      "diversityKey": "common_interest.SwimmingSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.SwimmingSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13014,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «плавание»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-interest.bionicskills.001",
+      "diversityKey": "common_interest.BionicSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_interest.BionicSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13015,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Тебе тоже интересна тема «бионические навыки»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Это приятнее разговоров о тревоге из-за кислорода."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.mining.001",
+      "diversityKey": "common_work.Mining",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Mining"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13016,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «добыча»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.building.001",
+      "diversityKey": "common_work.Building",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Building"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13017,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «строительство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.cooking.001",
+      "diversityKey": "common_work.Cooking",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Cooking"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13018,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «готовка»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.farming.001",
+      "diversityKey": "common_work.Farming",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Farming"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13019,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «земледелие»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.ranching.001",
+      "diversityKey": "common_work.Ranching",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Ranching"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13020,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «животноводство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.research.001",
+      "diversityKey": "common_work.Research",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Research"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13021,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «исследования»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.technicals.001",
+      "diversityKey": "common_work.Technicals",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Technicals"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13022,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «работа с техникой»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.medicalaid.001",
+      "diversityKey": "common_work.MedicalAid",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.MedicalAid"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13023,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «медицина»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.hauling.001",
+      "diversityKey": "common_work.Hauling",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Hauling"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13024,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «переноска грузов»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.art.001",
+      "diversityKey": "common_work.Art",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Art"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13025,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «искусство»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.suits.001",
+      "diversityKey": "common_work.Suits",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Suits"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13026,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «работа в скафандре»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.rocketry.001",
+      "diversityKey": "common_work.Rocketry",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Rocketry"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13027,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «ракетостроение»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.basekeeping.001",
+      "diversityKey": "common_work.Basekeeping",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.Basekeeping"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13028,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «обслуживание базы»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.swimmingskills.001",
+      "diversityKey": "common_work.SwimmingSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.SwimmingSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13029,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «плавание»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    },
+    {
+      "candidateId": "storylet.casual.common-work.bionicskills.001",
+      "diversityKey": "common_work.BionicSkills",
+      "storyletId": "Casual",
+      "contractRevision": 1,
+      "status": "reviewed",
+      "selection": {
+        "resolvedTopics": [
+          "common_work.BionicSkills"
+        ]
+      },
+      "weight": 1,
+      "ordinal": 13030,
+      "turns": [
+        {
+          "turnId": "a",
+          "speakerSlot": 0,
+          "text": "Ты тоже сегодня занимался темой «бионические навыки»?"
+        },
+        {
+          "turnId": "b",
+          "speakerSlot": 1,
+          "text": "Да. Давай сравним наши подходы."
+        }
+      ]
+    }
+  ]
+}

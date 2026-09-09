@@ -3915,6 +3915,20 @@
         "b"
       ],
       "deprecated": false
+    },
+    {
+      "templateId": "chronicle.manual-separation.baseline.001",
+      "poolId": "chronicle.manual-separation.baseline",
+      "ordinal": 1,
+      "contractRevision": 1,
+      "status": "reviewed",
+      "text": "玩家调整了{a}与{b}的关系：{state}。",
+      "requiredSlots": [
+        "a",
+        "b",
+        "state"
+      ],
+      "deprecated": false
     }
   ]
 }

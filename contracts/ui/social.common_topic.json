@@ -1,0 +1,26 @@
+{
+  "namespace": "social.common_topic",
+  "entries": [
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CHEMISTRY_LINE","meaning":"Separate pair-details line; {0} is the localized innate chemistry name.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"chemistry","kind":"text"}],"richText":false,"maxLength":160},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.UNKNOWN","meaning":"Pair-details common-topic line when interest evidence is unavailable.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":160},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.NONE","meaning":"Pair-details common-topic line when both interest sets are known and have no overlap.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":160},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.INTEREST","meaning":"Pair-details common-topic line; {0} is a localized shared interest category.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"topic","kind":"text"}],"richText":false,"maxLength":160},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.WORK","meaning":"Pair-details common-topic line; {0} is a localized current-cycle work category.","contractRevision":1,"importance":"standard","arguments":[{"token":"0","name":"topic","kind":"text"}],"richText":false,"maxLength":160},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.MINING","meaning":"Common-topic category: mining.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.BUILDING","meaning":"Common-topic category: building.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.COOKING","meaning":"Common-topic category: cooking.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.FARMING","meaning":"Common-topic category: farming.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.RANCHING","meaning":"Common-topic category: ranching.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.RESEARCH","meaning":"Common-topic category: research.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.TECHNICALS","meaning":"Common-topic category: machine operation.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.MEDICAL_AID","meaning":"Common-topic category: medical aid.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.HAULING","meaning":"Common-topic category: supply and hauling.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.ART","meaning":"Common-topic category: art.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.SUITS","meaning":"Common-topic category: suit operation.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.ROCKETRY","meaning":"Common-topic category: rocketry.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.BASEKEEPING","meaning":"Common-topic category: basekeeping.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.SWIMMING","meaning":"Common-topic category: swimming.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.BIONIC","meaning":"Common-topic category: bionic skills.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60},
+    {"key":"STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.CATEGORY.UNKNOWN","meaning":"Safe fallback for an unknown common-topic category.","contractRevision":1,"importance":"standard","arguments":[],"richText":false,"maxLength":60}
+  ]
+}
