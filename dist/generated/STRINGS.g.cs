@@ -507,6 +507,13 @@ namespace ONIAiSocial
             {
                 public static LocString PAIR_JOINER = "{0} 和 {1}";
                 public static LocString SELF_NAME = "我";
+                public static LocString TOPIC_ART = "新挂的装饰";
+                public static LocString TOPIC_ATHLETICS = "锻炼的心得";
+                public static LocString TOPIC_BUILDING = "建造的门道";
+                public static LocString TOPIC_COOKING = "新琢磨的菜谱";
+                public static LocString TOPIC_DOCTORING = "包扎的手法";
+                public static LocString TOPIC_FARMING = "庄稼的长势";
+                public static LocString TOPIC_HAULING = "搬货的路线";
                 public static LocString TOPIC_JOB_BUILDER = "新盖的走廊";
                 public static LocString TOPIC_JOB_COOK = "灶台上的新花样";
                 public static LocString TOPIC_JOB_DOCTOR = "医务室的药箱";
@@ -515,6 +522,13 @@ namespace ONIAiSocial
                 public static LocString TOPIC_JOB_OPERATOR = "机器的毛病";
                 public static LocString TOPIC_JOB_RANCHER = "圈里的小家伙们";
                 public static LocString TOPIC_JOB_RESEARCHER = "实验台前的发现";
+                public static LocString TOPIC_MINING = "挖掘的进展";
+                public static LocString TOPIC_OPERATING = "机器的维护";
+                public static LocString TOPIC_RANCHING = "小动物的脾气";
+                public static LocString TOPIC_RESEARCH = "研究的新发现";
+                public static LocString TOPIC_ROLE = "彼此的差事";
+                public static LocString TOPIC_SUITS = "穿气压服的窍门";
+                public static LocString TOPIC_WORK = "手上的活计";
             }
             public class MANAGEMENT
             {
