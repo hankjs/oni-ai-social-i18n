@@ -1100,8 +1100,6 @@ def export_dist(root: Path) -> dict[str, bytes]:
         files[f"translations/{locale}.po"] = render_po(po_entries, locale).encode()
     pot_entries = [{**item, "sourceText": item["text"]} for item in default_ui]
     files["translations/strings_template.pot"] = render_po(pot_entries, manifest["defaultLocale"]).encode()
-    compatibility = load_json(root / "contracts" / "compatibility" / "legacy-chronicle-index.json")
-    files["compatibility/legacy-chronicle.json"] = runtime_dumps(compatibility).encode()
     locale_manifests = []
     for locale, value in sorted(resolved.items()):
         snapshot_material = {"requestedLocale": locale, "fallbackChain": value["chain"], "resolutions": value["resolutions"],
