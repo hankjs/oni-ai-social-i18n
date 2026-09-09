@@ -673,6 +673,96 @@
       "text": "会話の文字吹き出しに話者の肖像を表示します。オフにすると状況に合った表情アイコンを使い、肖像の生成・表示負荷を減らせます。保存するとすぐに反映されます。",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_TITLE",
+      "text": "コンテンツパック",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER",
+      "text": "パックフォルダを開く",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_RESCAN",
+      "text": "再スキャン",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_CLOSE",
+      "text": "閉じる",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_SUMMARY",
+      "text": "{0}/{1} 個のパックが有効、セリフプール {2} 個",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY",
+      "text": "コンテンツパックが見つかりません。.json のパックをパックフォルダに入れてから「再スキャン」を押してください。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY_HINT",
+      "text": "コンテンツパックがないと複製人間は話しません。関係、UI、セーブデータには影響しません。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_TITLE",
+      "text": "{0}  v{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_DETAIL",
+      "text": "{0} · {1} · {2} 件",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_PROBLEMS",
+      "text": "{0} 件がスキップされました",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_BUILTIN",
+      "text": "内蔵",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_WORKSHOP",
+      "text": "ワークショップ",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_LOCAL",
+      "text": "ローカル",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ENABLED",
+      "text": "有効",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_DISABLED",
+      "text": "無効",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

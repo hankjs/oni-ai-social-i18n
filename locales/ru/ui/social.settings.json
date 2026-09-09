@@ -673,6 +673,96 @@
       "text": "Показывать портрет говорящего в текстовых облачках. При отключении используются значки эмоций по ситуации и снижается нагрузка от портретов. Изменение применяется после сохранения.",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_TITLE",
+      "text": "Пакеты контента",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER",
+      "text": "Открыть папку пакетов",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_RESCAN",
+      "text": "Пересканировать",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_CLOSE",
+      "text": "Закрыть",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_SUMMARY",
+      "text": "Включено пакетов: {0}/{1}, пулов реплик: {2}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY",
+      "text": "Пакеты контента не найдены. Положите .json-пакет в папку пакетов и нажмите «Пересканировать».",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY_HINT",
+      "text": "Без пакетов контента дупликанты молчат. Отношения, интерфейс и сохранения не затрагиваются.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_TITLE",
+      "text": "{0}  v{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_DETAIL",
+      "text": "{0} · {1} · {2} шт.",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_PROBLEMS",
+      "text": "Пропущено записей: {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_BUILTIN",
+      "text": "Встроенный",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_WORKSHOP",
+      "text": "Мастерская",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_LOCAL",
+      "text": "Локальный",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ENABLED",
+      "text": "Включён",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_DISABLED",
+      "text": "Отключён",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

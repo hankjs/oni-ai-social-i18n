@@ -673,6 +673,96 @@
       "text": "在对话文字气泡中显示说话者头像。关闭后使用情境表情图标，可减少头像生成与显示开销。保存后立即生效。",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_TITLE",
+      "text": "内容包",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER",
+      "text": "打开包目录",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_RESCAN",
+      "text": "重新扫描",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_CLOSE",
+      "text": "关闭",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_SUMMARY",
+      "text": "已启用 {0}/{1} 个包，共 {2} 个文案池",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY",
+      "text": "没有找到任何内容包。把 .json 内容包放进包目录后点「重新扫描」。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY_HINT",
+      "text": "没有内容包时复制人不会说话，关系、界面和存档不受影响。",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_TITLE",
+      "text": "{0}  v{1}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_DETAIL",
+      "text": "{0} · {1} · {2} 条",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_PROBLEMS",
+      "text": "有 {0} 处内容被跳过",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_BUILTIN",
+      "text": "内置",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_WORKSHOP",
+      "text": "创意工坊",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_LOCAL",
+      "text": "本地",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ENABLED",
+      "text": "已启用",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_DISABLED",
+      "text": "已停用",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

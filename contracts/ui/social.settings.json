@@ -1024,6 +1024,190 @@
       "arguments": [],
       "richText": false,
       "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_TITLE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_RESCAN",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_RESCAN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_CLOSE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_CLOSE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_SUMMARY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_SUMMARY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY_HINT",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_EMPTY_HINT",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_TITLE",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_TITLE",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_DETAIL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_DETAIL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        },
+        {
+          "token": "1",
+          "name": "1",
+          "kind": "text"
+        },
+        {
+          "token": "2",
+          "name": "2",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_PROBLEMS",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ITEM_PROBLEMS",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "0",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_BUILTIN",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_BUILTIN",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_WORKSHOP",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_WORKSHOP",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_LOCAL",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ORIGIN_LOCAL",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_ENABLED",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_ENABLED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_DISABLED",
+      "meaning": "STRINGS.SOCIAL.SETTINGS.PACKS_DISABLED",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
     }
   ]
 }
