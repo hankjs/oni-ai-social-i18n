@@ -8,7 +8,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}之间像隔着一层看不见的墙，关系停在了原地。",
+      "text": "{a}和{b}的关系暂时停在了这里。",
       "requiredSlots": [
         "a",
         "b"
@@ -21,7 +21,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "某种说不清的力量按住了{a} 和 {b}的缘分，谁也没有再进一步。",
+      "text": "{a}和{b}的相处有了波澜，关系却没有再往前走。",
       "requiredSlots": [
         "a",
         "b"
@@ -34,7 +34,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}的故事刚要翻页，又被无形的手轻轻按住。",
+      "text": "{a}和{b}之间有些变化，最后还是维持了原来的关系。",
       "requiredSlots": [
         "a",
         "b"
@@ -346,7 +346,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}的压力又重了一分。",
+      "text": "{subject}的心情有了些变化。",
       "requiredSlots": [
         "subject"
       ],
@@ -358,7 +358,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}的眉头又拧紧了一分。",
+      "text": "{subject}心里的那根弦又动了动。",
       "requiredSlots": [
         "subject"
       ],
@@ -370,7 +370,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "弦绷得太久，{subject}自己都能听见响声。",
+      "text": "{subject}的情绪起了些波澜。",
       "requiredSlots": [
         "subject"
       ],
@@ -658,7 +658,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}迎接了新来的同伴。",
+      "text": "{a}和{b}打了招呼，算是认识了。",
       "requiredSlots": [
         "a",
         "b"
@@ -671,7 +671,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}帮新来的同伴安顿下来，讲了讲基地的规矩。",
+      "text": "{a}和{b}见了面，互相问了好。",
       "requiredSlots": [
         "a",
         "b"
@@ -684,7 +684,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "打印舱送来了一位新伙伴，{a}和{b}第一个迎了上去。",
+      "text": "{a}和{b}初次见面，聊了几句。",
       "requiredSlots": [
         "a",
         "b"
@@ -996,7 +996,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}崩溃的样子，{other}都看在眼里。",
+      "text": "{actor}崩溃的那一幕，{other}看在了眼里。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1009,7 +1009,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}别过脸去，却没能忘掉{actor}崩溃的那一幕。",
+      "text": "{other}目睹了{actor}情绪失控。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1022,7 +1022,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "看着{actor}崩溃，{other}第一次觉得基地这么安静。",
+      "text": "{actor}没能撑住，被{other}撞见了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1346,7 +1346,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}撞见了同伴的崩溃，之后一整天都心不在焉。",
+      "text": "看见同伴失控，{subject}也不好受。",
       "requiredSlots": [
         "subject"
       ],
@@ -1358,7 +1358,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}目睹同伴失控后一直心神不宁，工作时也会想起那一幕。",
+      "text": "{subject}被同伴崩溃的样子触动了。",
       "requiredSlots": [
         "subject"
       ],

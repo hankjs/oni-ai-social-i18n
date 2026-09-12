@@ -21,12 +21,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "我不知道你爱不爱吃，反正我闻着挺香。"
+          "text": "{subject}这口味，我挺喜欢的。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "那你先来一口，我的鼻子今天不作证。"
+          "text": "合胃口就好。"
         }
       ]
     },
@@ -49,12 +49,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "这份吃的我有点咽不下去。"
+          "text": "{subject}，我有点吃不惯。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "先别勉强，我那份水还没动。"
+          "text": "那就不用硬说好吃。"
         }
       ]
     },
@@ -77,12 +77,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "那张床我一躺下，肩膀都松了。"
+          "text": "{subject}躺着还挺舒服。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "听起来你的背终于肯下班了。"
+          "text": "睡得舒服，第二天也有精神。"
         }
       ]
     },
@@ -105,12 +105,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "我睡那张床，总觉得每根骨头都在排队抗议。"
+          "text": "{subject}睡着不太舒服。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "今晚换我试试，免得它只欺负你。"
+          "text": "那得想想办法，总不能一直凑合。"
         }
       ]
     },
@@ -133,12 +133,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "我每次路过那件装饰，心里都会亮一点。"
+          "text": "我还挺喜欢{subject}的样子。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "那就多绕一次，今天不赶你。"
+          "text": "看着顺眼，心情也好一点。"
         }
       ]
     },
@@ -161,12 +161,12 @@
         {
           "turnId": "a",
           "speakerSlot": 0,
-          "text": "我看那件装饰，总觉得它也在看我。"
+          "text": "{subject}的样子，我不太喜欢。"
         },
         {
           "turnId": "b",
           "speakerSlot": 1,
-          "text": "那我们走快点，别给它机会。"
+          "text": "咱俩喜欢的还真不一样。"
         }
       ]
     }

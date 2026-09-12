@@ -8,7 +8,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}忘了和{other}的纪念日。",
+      "text": "{actor}错过了与{other}的纪念日。",
       "requiredSlots": [
         "actor",
         "other"
@@ -21,7 +21,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}的排班表上唯独漏掉了和{other}的纪念日。",
+      "text": "{actor}没能和{other}一起过这个纪念日。",
       "requiredSlots": [
         "actor",
         "other"
@@ -34,7 +34,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}等了一晚上，{actor}在矿井里浑然不觉。",
+      "text": "与{other}的纪念日过去了，{actor}留下一点遗憾。",
       "requiredSlots": [
         "actor",
         "other"
@@ -266,7 +266,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}纪念了在一起的日子。",
+      "text": "{a}和{b}一起过了纪念日。",
       "requiredSlots": [
         "a",
         "b"
@@ -279,7 +279,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}又安稳地走过了一年，值得碰一杯。",
+      "text": "又到了纪念日，{a}和{b}没有忘记。",
       "requiredSlots": [
         "a",
         "b"
@@ -292,7 +292,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "在这个连日历都要自己记的地方，{a} 和 {b}没有忘记今天。",
+      "text": "{a}和{b}记着走到一起的那个日子。",
       "requiredSlots": [
         "a",
         "b"
@@ -526,7 +526,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "一场冲突反倒让{a} 和 {b}成了好朋友。",
+      "text": "道歉之后，{a}和{b}反而亲近了一些。",
       "requiredSlots": [
         "a",
         "b"
@@ -539,7 +539,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}把话说透，反倒成了朋友。",
+      "text": "{a}和{b}把话说开，成了朋友。",
       "requiredSlots": [
         "a",
         "b"
@@ -552,7 +552,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "道完歉的{a} 和 {b}，比吵架前还要亲近。",
+      "text": "那场冲突过去了，{a}和{b}更愿意理解彼此。",
       "requiredSlots": [
         "a",
         "b"
@@ -799,7 +799,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}先低了头，{other}也就顺势原谅了。",
+      "text": "{actor}对{other}说了声对不起。",
       "requiredSlots": [
         "actor",
         "other"
@@ -812,7 +812,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把「对不起」三个字说得磕磕绊绊，{other}收下了。",
+      "text": "{actor}主动向{other}认了错。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1044,7 +1044,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}吵了一架。",
+      "text": "{actor}和{other}吵了一架。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1057,7 +1057,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}争执了起来，谁也不让谁。",
+      "text": "{actor}和{other}争了起来，谁也没让谁。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1070,7 +1070,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}的声音越抬越高，惊动了隔壁的哈奇。",
+      "text": "{actor}和{other}越说越气，闹得不愉快。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1304,7 +1304,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "因为{cause}，{actor} 和 {other}吵了起来。",
+      "text": "因为{cause}，{actor}和{other}吵了起来。",
       "requiredSlots": [
         "actor",
         "cause",
@@ -1318,7 +1318,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "因为{cause}，{actor}主动质问{other}，双方很快争执起来。",
+      "text": "{actor}和{other}起了争执，原因是{cause}。",
       "requiredSlots": [
         "actor",
         "cause",
@@ -1332,7 +1332,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把对{cause}的不满算到{other}头上，{other}立刻反驳。",
+      "text": "{cause}让{actor}和{other}闹得不愉快。",
       "requiredSlots": [
         "actor",
         "cause",
@@ -1584,7 +1584,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}分手了。",
+      "text": "{actor}和{other}分手了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1597,7 +1597,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}的感情走到了尽头。",
+      "text": "{actor}和{other}结束了恋人关系。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1610,7 +1610,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}把话说开，然后各自转身。",
+      "text": "{actor}和{other}走到了分开的这一步。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1844,7 +1844,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}向{other}表白了，但{other}没有答应。",
+      "text": "{actor}向{other}告白，但没有被接受。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1857,7 +1857,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}的心意，{other}没能接住。",
+      "text": "{other}没能答应{actor}的告白。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1870,7 +1870,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}说完那句排练好的告白，{other}沉默了很久。",
+      "text": "{actor}说出了心意，{other}没有答应。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2102,7 +2102,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}向{other}表明了心意——{other}答应了。",
+      "text": "{actor}向{other}告白，得到了回应。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2115,7 +2115,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}鼓起勇气告白，{other}红着脸点了头。",
+      "text": "{other}答应了{actor}，两人成了恋人。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2128,7 +2128,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把练习了十遍的话说到一半，{other}就答应了。",
+      "text": "{actor}说出了心意，和{other}走到了一起。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2362,7 +2362,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}约了一次会，气氛正好。",
+      "text": "{a}和{b}约了一次会。",
       "requiredSlots": [
         "a",
         "b"
@@ -2375,7 +2375,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}独处了一会儿，眼里只有彼此。",
+      "text": "{a}和{b}把这段时间留给了彼此。",
       "requiredSlots": [
         "a",
         "b"
@@ -2388,7 +2388,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}并肩散步，谁也没提回工作站的事。",
+      "text": "{a}和{b}有了一次愉快的约会。",
       "requiredSlots": [
         "a",
         "b"
@@ -2622,7 +2622,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}大吵一架，从此形同陌路。",
+      "text": "{a}和{b}闹掰了，一时不想理会彼此。",
       "requiredSlots": [
         "a",
         "b"
@@ -2635,7 +2635,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}之间那点情分，一夜之间清了零。",
+      "text": "{a}和{b}的冲突留下了隔阂。",
       "requiredSlots": [
         "a",
         "b"
@@ -2648,7 +2648,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "从那天起，{a} 和 {b}在走廊里遇见都绕着走。",
+      "text": "{a}和{b}闹得很不愉快，关系冷了下来。",
       "requiredSlots": [
         "a",
         "b"
@@ -2894,7 +2894,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "那股酸劲儿，{actor}自己也说不清来由。",
+      "text": "{actor}有些在意，心里泛起酸意。",
       "requiredSlots": [
         "actor"
       ],
@@ -2906,7 +2906,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}发现自己过分在意对方的注意力去了哪里，酸意已经藏不住。",
+      "text": "{actor}藏不住那点醋意。",
       "requiredSlots": [
         "actor"
       ],
@@ -3122,7 +3122,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}看见{other}和{third}有说有笑，心里很不是滋味。",
+      "text": "看见{other}与{third}亲近，{actor}心里不是滋味。",
       "requiredSlots": [
         "actor",
         "other",
@@ -3136,7 +3136,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{third}和{other}聊得投机，{actor}在旁边数了很久的浮土。",
+      "text": "{actor}在意起{other}和{third}的来往。",
       "requiredSlots": [
         "actor",
         "other",
@@ -3150,7 +3150,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}看见{other}把注意力都放在{third}身上，脸上的不快越来越明显。",
+      "text": "{other}与{third}的互动，让{actor}有些吃醋。",
       "requiredSlots": [
         "actor",
         "other",
@@ -3402,7 +3402,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}冰释前嫌，重归于好。",
+      "text": "{a}和{b}和好了。",
       "requiredSlots": [
         "a",
         "b"
@@ -3415,7 +3415,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}把旧账翻篇，重新坐到了一张桌上。",
+      "text": "{a}和{b}结束了冷战。",
       "requiredSlots": [
         "a",
         "b"
@@ -3428,7 +3428,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "谁先开的口已经不重要，{a} 和 {b}和好了。",
+      "text": "{a}和{b}终于肯重新好好相处了。",
       "requiredSlots": [
         "a",
         "b"
@@ -3662,7 +3662,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}重新走到了一起。",
+      "text": "{a}和{b}重新走到了一起。",
       "requiredSlots": [
         "a",
         "b"
@@ -3675,7 +3675,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}绕了一圈，又回到了彼此身边。",
+      "text": "分开之后，{a}和{b}又决定重新开始。",
       "requiredSlots": [
         "a",
         "b"
@@ -3688,7 +3688,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "有些分开只是为了想清楚，{a} 和 {b}想清楚了。",
+      "text": "{a}和{b}旧情复燃，再次成了恋人。",
       "requiredSlots": [
         "a",
         "b"

@@ -8,7 +8,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}打了起来。",
+      "text": "{a}和{b}打了起来。",
       "requiredSlots": [
         "a",
         "b"
@@ -21,7 +21,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}的争执升级成了拳脚。",
+      "text": "{a}和{b}越吵越凶，最后动了手。",
       "requiredSlots": [
         "a",
         "b"
@@ -34,7 +34,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}扭作一团，工具散了一地。",
+      "text": "{a}和{b}的争执升级成了拳脚。",
       "requiredSlots": [
         "a",
         "b"
@@ -164,7 +164,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "粮食补上了，大家松了一口气。",
+      "text": "粮食补上了，眼前的危机解除了。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -174,7 +174,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "储藏室重新有了存货，咀嚼声又回来了。",
+      "text": "食物及时补上，大家松了一口气。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -184,7 +184,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "危机解除了，没人追问粮食从哪来的。",
+      "text": "断粮的危险暂时过去了。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -284,7 +284,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}和{other}为了最后一口吃的动了手。",
+      "text": "饥饿之下，{actor}和{other}动了手。",
       "requiredSlots": [
         "actor",
         "other"
@@ -297,7 +297,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "饿极了的人不讲道理，{actor}和{other}为了一口吃的撕破了脸。",
+      "text": "为了活下去，{actor}和{other}开始相残。",
       "requiredSlots": [
         "actor",
         "other"
@@ -310,7 +310,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}盯上了{other}的那份口粮，拳头比理智先到。",
+      "text": "断粮把{actor}和{other}推向了彼此。",
       "requiredSlots": [
         "actor",
         "other"
@@ -450,7 +450,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "粮仓重新满了，有些事大家心照不宣地不再提。",
+      "text": "粮食恢复供应，这场饥荒结束了。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -460,7 +460,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "又能吃饱的日子来了，仿佛饥荒从没发生过。",
+      "text": "殖民地总算熬过了这次断粮。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -560,7 +560,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "粮仓见了底，恐慌在殖民地蔓延。",
+      "text": "食物快不够了，已经有人在挨饿。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -570,7 +570,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "最后一块软泥糕也见了底，没人敢想明天。",
+      "text": "粮食见底，殖民地陷入了断粮的危险。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -580,7 +580,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "饿肚子的消息比氧气传得还快。",
+      "text": "挨饿的人越来越不安。",
       "requiredSlots": [],
       "deprecated": false
     },
@@ -680,7 +680,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}一起扛过了危险的活，有了过命的交情。",
+      "text": "{a}和{b}一起做过危险的活，多了份信任。",
       "requiredSlots": [
         "a",
         "b"
@@ -693,7 +693,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "从危险区活着出来，{a} 和 {b}看彼此的眼神都不一样了。",
+      "text": "共同面对危险，让{a}和{b}亲近了一些。",
       "requiredSlots": [
         "a",
         "b"
@@ -706,7 +706,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "生死关头上{a} 和 {b}谁都没先跑，这交情假不了。",
+      "text": "{a}和{b}记着一起扛过的那些危险活。",
       "requiredSlots": [
         "a",
         "b"
@@ -836,7 +836,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}对{other}的那点怨气，慢慢散了。",
+      "text": "{actor}对{other}分工不公的怨气渐渐淡了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -849,7 +849,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}想通了：危险活总得有人干，不该怨{other}。",
+      "text": "{actor}不再那么介意{other}先前做的活比较安全。",
       "requiredSlots": [
         "actor",
         "other"
@@ -862,7 +862,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "时间把那点火气磨平了，{actor}看{other}顺眼多了。",
+      "text": "提起危险活的分配，{actor}对{other}没那么生气了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -992,7 +992,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}替{actor}挡了危险活，{actor}记在了心里。",
+      "text": "{other}承担了更多危险活，{actor}记在了心里。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1005,7 +1005,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "危险活落下来的时候，{other}先一步接了，{actor}不会忘。",
+      "text": "看见{other}接下危险活，{actor}心里多了份感激。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1018,7 +1018,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}欠{other}一个人情，还是拿命换的那种。",
+      "text": "{actor}感念{other}分担的那些危险活。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1148,7 +1148,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}又下了一天危险区，对{other}的轻松差事有了怨气。",
+      "text": "危险活更多落在自己身上，{actor}对{other}有了怨气。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1161,7 +1161,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "同样是下矿井，凭什么{actor}总去危险的那头——{actor}越想越不是滋味。",
+      "text": "危险活更多落在自己身上，{actor}越想越不是滋味。",
       "requiredSlots": [
         "actor"
       ],
@@ -1173,7 +1173,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}数着{other}的清闲日子，心里的账越记越厚。",
+      "text": "比起{other}，{actor}总要面对更多危险，心里不太平衡。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1302,7 +1302,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}走了，{actor}把没说出口的话咽了回去。",
+      "text": "{other}走了，{actor}还有心意没来得及说。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1315,7 +1315,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}没能等到{actor}鼓起勇气的那一天。",
+      "text": "{actor}再也没机会向{other}说那句话了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1328,7 +1328,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把准备了好久的话，说给了{other}空着的床铺。",
+      "text": "失去{other}，让{actor}留下了没说出口的遗憾。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1458,7 +1458,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}失去了{other}，整个人都垮了。",
+      "text": "{actor}失去了伴侣{other}，很难接受。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1471,7 +1471,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}的床铺空了下来，{actor}很久都不去看那个方向。",
+      "text": "{other}离世了，{actor}还没习惯身边少了一个人。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1484,7 +1484,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "往后的排班表上再没有{other}的名字，{actor}的日子也空了一块。",
+      "text": "{actor}往后的日子里，再也没有{other}的陪伴了。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1627,7 +1627,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "宿敌死了，{actor}突然发现走廊安静了不少。",
+      "text": "得知对方离世，{actor}的敌意没了去处。",
       "requiredSlots": [
         "actor"
       ],
@@ -1639,7 +1639,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}曾盼着赢过{other}，如今再也没有对手了。",
+      "text": "{actor}与{other}的恩怨，随着死讯停在了这里。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1768,7 +1768,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}放下了宿怨。",
+      "text": "{a}和{b}放下了宿怨。",
       "requiredSlots": [
         "a",
         "b"
@@ -1781,7 +1781,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}握了握手，宿怨到此为止。",
+      "text": "{a}和{b}不再把彼此当成宿敌。",
       "requiredSlots": [
         "a",
         "b"
@@ -1794,7 +1794,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "恨一个人也挺累的，{a} 和 {b}决定算了。",
+      "text": "{a}和{b}之间的积怨终于化开了。",
       "requiredSlots": [
         "a",
         "b"
@@ -1924,7 +1924,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}结下了梁子，成了宿敌。",
+      "text": "{a}和{b}积怨太深，成了宿敌。",
       "requiredSlots": [
         "a",
         "b"
@@ -1937,7 +1937,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}的恩怨从此有了名字：宿敌。",
+      "text": "{a}和{b}的关系恶化到了彼此敌视的地步。",
       "requiredSlots": [
         "a",
         "b"
@@ -1950,7 +1950,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "往后很长一段日子，{a} 和 {b}都不会给对方好脸色。",
+      "text": "{a}和{b}之间的梁子越结越深。",
       "requiredSlots": [
         "a",
         "b"
@@ -2080,7 +2080,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}带头把账算到了{other}头上。",
+      "text": "{actor}把这场灾祸的账算到了{other}头上。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2093,7 +2093,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "出了事，总得有人背锅——{actor}领着大家选了{other}。",
+      "text": "{actor}将怒气转向了{other}。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2106,7 +2106,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}一句话，就把众人的怒火引向了{other}。",
+      "text": "出了事，{actor}认定该由{other}负责。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2248,7 +2248,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "殖民地找到了新的谈资，{subject}的那档子事没人再提。",
+      "text": "日子久了，大家对{subject}的敌意渐渐淡了。",
       "requiredSlots": [
         "subject"
       ],
@@ -2260,7 +2260,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "日子一长，连怒火也会过期——{subject}重新融进了人群。",
+      "text": "围着{subject}的那股怨气终于散了。",
       "requiredSlots": [
         "subject"
       ],
@@ -2380,7 +2380,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}被孤立了，没人愿意跟他说话。",
+      "text": "{other}成了被孤立的那个人。",
       "requiredSlots": [
         "other"
       ],
@@ -2392,7 +2392,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}走进餐厅，一整桌的人都收了声。",
+      "text": "大家开始有意疏远{other}。",
       "requiredSlots": [
         "other"
       ],
@@ -2404,7 +2404,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "现在连哈奇都比{other}受欢迎。",
+      "text": "{other}被排除在众人之外。",
       "requiredSlots": [
         "other"
       ],
@@ -2524,7 +2524,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}趁没人注意，揍了{other}一顿。",
+      "text": "{actor}把怒气撒在{other}身上，动了手。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2537,7 +2537,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "排班表的空档里，{actor}堵住了{other}。",
+      "text": "{actor}动手打了{other}。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2550,7 +2550,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}挑了个四下无人的时候，把火气撒在了{other}身上。",
+      "text": "{other}遭到了{actor}的殴打。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2680,7 +2680,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}向{other}伸出了援手。",
+      "text": "{actor}主动关心{other}，打破了孤立。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2693,7 +2693,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}端着餐盘坐到{other}旁边，孤立的墙塌了一角。",
+      "text": "{actor}没有继续疏远{other}，两人重新有了来往。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2706,7 +2706,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "所有人都绕开{other}的时候，{actor}偏偏走了过去。",
+      "text": "{other}被孤立时，{actor}伸出了援手。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2836,7 +2836,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}撞见他一个人躲着哭。",
+      "text": "{subject}撞见了被孤立的同伴独自哭泣。",
       "requiredSlots": [
         "subject"
       ],
@@ -2848,7 +2848,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}路过时听见哭声，放轻了脚步。",
+      "text": "看见同伴一个人哭，{subject}心里有些难受。",
       "requiredSlots": [
         "subject"
       ],
@@ -2860,7 +2860,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "躲在角落里的那个人哭了很久，{subject}没有上前。",
+      "text": "{subject}看见了孤立带给同伴的难过。",
       "requiredSlots": [
         "subject"
       ],
@@ -2993,7 +2993,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}当着所有人的面替{other}说话，没人再吭声。",
+      "text": "{actor}开口为{other}辩解。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3006,7 +3006,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "众怒汹汹的时候，{actor}是唯一肯替{other}开口的人。",
+      "text": "众人的怒气指向{other}时，{actor}站出来说了话。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3136,7 +3136,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}看见了那场私刑。",
+      "text": "{subject}看见了同伴遭到殴打。",
       "requiredSlots": [
         "subject"
       ],
@@ -3148,7 +3148,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{subject}撞见了那一幕，慌忙装作没看见。",
+      "text": "{subject}目睹了那场殴打，心里不安。",
       "requiredSlots": [
         "subject"
       ],
@@ -3160,7 +3160,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "有些事看见了也只能咽下去，{subject}把嘴闭得很紧。",
+      "text": "{subject}撞见了有人把怒气撒在同伴身上。",
       "requiredSlots": [
         "subject"
       ],

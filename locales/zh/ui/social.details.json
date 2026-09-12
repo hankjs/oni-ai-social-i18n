@@ -28,13 +28,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL",
-      "text": "声望（仅供观察）",
+      "text": "声望",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP",
-      "text": "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。",
+      "text": "与全体存活复制人的平均好感，反映人缘。开启集体迁怒后，也会影响谁被迁怒、谁能出面说话。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -88,13 +88,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY",
-      "text": "还没有形成可阅读的人生章节",
+      "text": "还没有收录个人故事",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP",
-      "text": "这名复制人最近一段被收录的人生经历",
+      "text": "查看这名复制人最近收录的经历",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -166,7 +166,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP",
-      "text": "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。",
+      "text": "更换这名复制人的社交性格。旧性格会保留在履历中，之后的社交使用新性格。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -298,7 +298,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL",
-      "text": "{0} 性格大变，{1}性格 变成了 {2}性格。",
+      "text": "{0}经历了性格变化，从「{1}」变成了「{2}」。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -358,7 +358,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED",
-      "text": "熟络",
+      "text": "相识",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -508,7 +508,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL",
-      "text": "共同进食",
+      "text": "一起吃饭",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -562,7 +562,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN",
-      "text": "陪伴低谷",
+      "text": "目睹崩溃",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -622,7 +622,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND",
-      "text": "不打不相识",
+      "text": "道歉后交好",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -694,25 +694,25 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED",
-      "text": "第一个坐下来的人",
+      "text": "打破孤立",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED",
-      "text": "被偷揍",
+      "text": "遭到殴打",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED",
-      "text": "我看见他打人",
+      "text": "目睹殴打",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING",
-      "text": "撞见他一个人在哭",
+      "text": "撞见独自哭泣",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -778,7 +778,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED",
-      "text": "他最近也下来了",
+      "text": "危险分工的怨气渐退",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -790,7 +790,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE",
-      "text": "一起在下面待过",
+      "text": "共担危险",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -814,7 +814,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED",
-      "text": "界限·受阻",
+      "text": "关系达到界限",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -948,14 +948,14 @@
     {"key":"STRINGS.SOCIAL.DETAILS.STORY_OPEN_BUTTON","text":"查看个人故事","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.NO_RELATIONSHIP","text":"尚无关系记录；下一门槛为 {0}","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.INTERACTION_BLOCKED","text":"这对已屏蔽 Mod 互动","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"告白已在待发生中（剩余 {0} 周期）","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"关系事件已在待发生中（剩余 {0} 周期）","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING","text":"告白即将发生（剩余 {0} 周期）","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING","text":"关系事件即将发生（剩余 {0} 周期）","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.UPPER_BOUND","text":"这对关系的上限是{0}","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.AWKWARD","text":"仍在尴尬期（剩余 {0} 周期）","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BUILDING_AFFINITY","text":"距下一档还差 {0} 点双向好感","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CRUSH_BELOW_CONFESSION","text":"已经心动，距告白条件还差 {0} 点双向好感","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_READY","text":"已达到告白条件；成功与时间均未确定","contractRevision":1,"status":"reviewed"},
-    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"已达到门槛，但单偶制暂不允许告白","contractRevision":1,"status":"reviewed"},
+    {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE","text":"已有伴侣，暂时不能向其他人告白","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COUPLE","text":"当前已是恋人","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.COLD_WAR","text":"正在冷战；若未恢复，{0} 周期后进入分手流程","contractRevision":1,"status":"reviewed"},
     {"key":"STRINGS.SOCIAL.DETAILS.GROWTH.BROKEN_UP","text":"已经分手；前任期剩余 {0} 周期","contractRevision":1,"status":"reviewed"},

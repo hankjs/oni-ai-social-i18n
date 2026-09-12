@@ -8,7 +8,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}聊到深夜，成了彼此的挚友。",
+      "text": "{a}和{b}谈了心，成了挚友。",
       "requiredSlots": [
         "a",
         "b"
@@ -21,7 +21,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}说了些从没对别人说过的话。",
+      "text": "{a}和{b}更信任彼此了。",
       "requiredSlots": [
         "a",
         "b"
@@ -34,7 +34,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}交换了彼此的秘密，从此不分你我。",
+      "text": "一场谈心，让{a}和{b}亲近了不少。",
       "requiredSlots": [
         "a",
         "b"
@@ -320,7 +320,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}照顾了{other}。",
+      "text": "{actor}照顾了身体不适的{other}。",
       "requiredSlots": [
         "actor",
         "other"
@@ -333,7 +333,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}帮{other}处理了伤势。",
+      "text": "{other}不舒服时，{actor}过来照看了一会儿。",
       "requiredSlots": [
         "actor",
         "other"
@@ -346,7 +346,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}给{other}换了绷带，动作很轻。",
+      "text": "{actor}向需要照顾的{other}伸出了援手。",
       "requiredSlots": [
         "actor",
         "other"
@@ -632,7 +632,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}陪着{other}，直到他缓过来。",
+      "text": "{actor}陪了{other}一会儿。",
       "requiredSlots": [
         "actor",
         "other"
@@ -645,7 +645,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}在{actor}的陪伴下平静了下来。",
+      "text": "难过的时候，{other}得到了{actor}的安慰。",
       "requiredSlots": [
         "actor",
         "other"
@@ -658,7 +658,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}没说什么大道理，只是陪着{other}。",
+      "text": "{actor}关心着情绪低落的{other}。",
       "requiredSlots": [
         "actor",
         "other"
@@ -942,7 +942,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}手把手教{other}干活。",
+      "text": "{actor}给{other}讲了些干活的窍门。",
       "requiredSlots": [
         "actor",
         "other"
@@ -955,7 +955,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}给{other}讲了些独门窍门。",
+      "text": "{other}向{actor}请教了做事的方法。",
       "requiredSlots": [
         "actor",
         "other"
@@ -968,7 +968,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}演示了一遍，{other}看得眼睛都不眨。",
+      "text": "{actor}把自己的经验说给{other}听。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1254,7 +1254,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}说着说着就哭了，{other}默默递了张纸巾。",
+      "text": "{actor}说着说着就哭了，{other}耐心听着。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1907,7 +1907,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{other}听{actor}倾诉了很久。",
+      "text": "{other}听了{actor}的倾诉。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1920,7 +1920,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把今天的糟心事一件一件数给{other}听。",
+      "text": "{actor}把心里的烦闷说给{other}听。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2200,7 +2200,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}的情绪快压不住了，{other}陪他坐了一会儿。",
+      "text": "{actor}快撑不住了，向{other}说起心里的压力。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2213,7 +2213,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}说话时一直攥紧双手，{other}看出这次压力已经不是普通的烦躁。",
+      "text": "{actor}情绪紧绷，{other}听着那些难受的事。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2226,7 +2226,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}几次说不下去，{other}便把节奏放慢，一句句等着。",
+      "text": "压力压得{actor}喘不过气，{other}陪着说了会儿话。",
       "requiredSlots": [
         "actor",
         "other"

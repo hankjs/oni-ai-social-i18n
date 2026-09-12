@@ -40,13 +40,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK",
-      "text": "已保存，并已对当前会话生效。",
+      "text": "设置已保存。标注需重启或读档的项目将在之后生效。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.SAVE_FAILED",
-      "text": "保存失败，详情见日志。",
+      "text": "设置未能保存，请查看日志中的失败原因。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -88,7 +88,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT",
-      "text": "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整",
+      "text": "AI 对话仍在完善中，默认关闭。关闭时使用内置台词，社交玩法照常运行。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -100,7 +100,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_KEY",
-      "text": "API Key",
+      "text": "API 密钥",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -118,7 +118,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER",
-      "text": "粘贴你的 API Key",
+      "text": "粘贴 API 密钥",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -178,7 +178,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN",
-      "text": "模组新增闲聊：同一对复制人的冷却（秒）",
+      "text": "模组闲聊：同一对复制人的间隔（秒）",
       "contractRevision": 2,
       "status": "reviewed"
     },
@@ -196,19 +196,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_SET",
-      "text": "Key 已填写，保存后立即生效",
+      "text": "已填写密钥，保存后生效",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING",
-      "text": "未填写 Key，AI 对话不会发起，仅使用内置台词",
+      "text": "尚未填写密钥，将使用内置台词",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING",
-      "text": "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起",
+      "text": "请检查 API 地址和模型名称。填写完整前，将使用内置台词。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -220,7 +220,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT",
-      "text": "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。",
+      "text": "游戏原生社交照常进行。模组会根据成功发生的互动更新关系，短时间内的重复互动只计一次。",
       "contractRevision": 2,
       "status": "reviewed"
     },
@@ -262,7 +262,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT",
-      "text": "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。",
+      "text": "「聚焦」会自动将镜头移向事件；「标准」保留当前镜头。演出方式不影响事件结果。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -280,19 +280,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW",
-      "text": "待发生窗口",
+      "text": "重要关系事件倒计时",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT",
-      "text": "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。",
+      "text": "开启后，告白等重要事件会先进入倒计时。关闭后直接发生，结果、演出和通知照常。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES",
-      "text": "待发生等待周期",
+      "text": "重要事件等待时长（周期）",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -352,13 +352,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN",
-      "text": "原生聊天进入模组关系反馈的冷却（秒）",
+      "text": "原生聊天影响关系的间隔（秒）",
       "contractRevision": 2,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT",
-      "text": "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。",
+      "text": "同一对复制人的原生聊天，至少间隔这么久才再次影响模组关系。默认 15 秒，也受每周期次数上限限制。原生对话和气泡照常。",
       "contractRevision": 2,
       "status": "reviewed"
     },
@@ -370,13 +370,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT",
-      "text": "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效",
+      "text": "日常纪事最多保留的条数，默认 5000 条。告白、死亡等大事另行保存，不占此额度。读档或新局后生效。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.SECTION_DARK",
-      "text": "黑暗内容（人性考验）",
+      "text": "黑暗内容",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -388,7 +388,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT",
-      "text": "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响",
+      "text": "允许出现复制人之间的暴力与死亡事件，默认关闭。开启后，还需打开对应事件开关；关闭时其余社交功能照常。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -406,19 +406,19 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.FAMINE_HINT",
-      "text": "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关",
+      "text": "粮食短缺且多人挨饿时，可能发生断粮相残，死者会成为食物。事前会有警告和倒数，及时补粮可解除危机。每次事件造成一人死亡；持续缺粮可能再次触发。需同时开启「黑暗内容」。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA",
-      "text": "把崩溃演成一场戏",
+      "text": "显示崩溃与后续陪伴",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT",
-      "text": "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启",
+      "text": "原生压力反应发生时，附近同伴会目睹并留下记忆。之后几周期内的首次倾诉、照顾或共餐可增进好感、减轻当事人的压力，陪伴者会承担少量压力。默认开启，不改变原生崩溃的触发条件。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -430,7 +430,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT",
-      "text": "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭",
+      "text": "同类工作中，危险工时长期落在一人身上时，可能对另一人产生怨气；朋友之间也可能表现为感激，共担危险则能增进交情。调整工作分配后，旧工时会逐渐淡出统计，怨气也会消退。穿防护服时不计入。默认开启，「安静」预设下关闭。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -442,7 +442,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT",
-      "text": "两个已经结成宿敌的复制人，在三格之内做同一类活时，双方的工作效率一起下降——这是「并肩作战」加成的镜像。它不流血、不加压力、不扣士气，也不改变好感：唯一的代价是你的产能。这是本 mod 第一项让恶化的人际关系真的花你钱的内容。摩擦只在真正干活时出现：睡觉、集体活动、吃饭、发呆这些常见事件完全不受影响。安全线：效率有下限，无论怎么配都不会归零；治疗、看病、吃药、水下换气、抢氧气和逃命途中都不会被拖慢。出口在你身上：把两个人调开，或者牵线让这段关系解冻。预设开启；「戏剧强度」设为「安静」时强制关闭",
+      "text": "宿敌在三格内做同类工作时，双方效率会下降。只在实际工作时生效，不影响休息、用餐、治疗和逃生，也不额外改变压力或好感。可调开两人，或牵线缓和关系。默认开启，「安静」预设下关闭。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -454,7 +454,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT",
-      "text": "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭",
+      "text": "死亡、多人崩溃或断粮后，众人可能迁怒于人缘较差的同伴，使其被孤立。前期可牵线让声望较高的人出面；被孤立后，倾诉、照顾或共餐也能解围。无人介入时会随时间消退。需开启「黑暗内容」，「安静」预设下关闭。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -466,7 +466,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT",
-      "text": "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发",
+      "text": "宿敌争执时可能动手，任一方降至半血就会停止，互殴不会致死。默认关闭，需同时开启「黑暗内容」；屏蔽互动或使用「安静」预设可阻止触发。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -520,13 +520,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY",
-      "text": "记录匿名社交遥测",
+      "text": "记录本地玩法数据",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT",
-      "text": "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告",
+      "text": "默认关闭。开启后在本机记录事件、关系、日程和性能数据，复制人使用匿名编号。不记录 API 密钥、AI 地址或存档正文，也不会自动上传。可在「社交 → 纪事」导出诊断报告。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -592,7 +592,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.DEBUG_HINT",
-      "text": "以下是技术性参数，改坏了用「恢复默认」拉回来",
+      "text": "开发调试参数。需要还原时可点「恢复默认」。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -604,7 +604,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN",
-      "text": "模组新增闲聊：同一复制人的冷却（秒）",
+      "text": "模组闲聊：同一复制人的间隔（秒）",
       "contractRevision": 2,
       "status": "reviewed"
     },

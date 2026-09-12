@@ -46,25 +46,25 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON",
-      "text": "待发生",
+      "text": "即将发生",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE",
-      "text": "待发生的社交事件",
+      "text": "即将发生的关系事件",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT",
-      "text": "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。",
+      "text": "告白、分手、和解和结成宿敌会在这里倒数。可以等待倒数结束，也可以选择立即安排；结果不受等待时长影响。",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY",
-      "text": "目前没有待发生的社交事件。",
+      "text": "目前没有正在倒数的关系事件。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -94,7 +94,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED",
-      "text": "事件已请求，正在等待安全时机",
+      "text": "已安排，正在等待安全会合",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -184,7 +184,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS",
-      "text": "没有符合筛选条件的关系",
+      "text": "没有符合条件的关系，可以试着调整筛选。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -274,13 +274,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL",
-      "text": "最好关系:{0}",
+      "text": "最好关系：{0}",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL",
-      "text": "最差关系:{0}",
+      "text": "最差关系：{0}",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -304,7 +304,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT",
-      "text": "只显示与另一侧兼容的档位。只做朋友：最好设为朋友；保护伴侣关系：最差设为恋人。不会立即改变当前关系，也不阻止争执或丧偶。",
+      "text": "这里会列出可以搭配的关系范围。只想让两人做朋友，可把最好关系设为朋友；想保留恋人关系，可把最差关系设为恋人。设置只影响之后的自然变化，争执和丧偶仍可能发生。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -316,7 +316,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID",
-      "text": "设置失败:最差关系不能好过最好关系",
+      "text": "设置未生效：最差关系不能好过最好关系",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -436,7 +436,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE",
-      "text": "{0} 已不在殖民地,无法跳转",
+      "text": "{0} 已不在殖民地，无法定位",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -460,13 +460,13 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE",
-      "text": "查看谁的故事?",
+      "text": "查看谁的故事？",
       "contractRevision": 1,
       "status": "reviewed"
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE",
-      "text": "选一名复制人,日志只显示他参与的事件——他的一段人生。",
+      "text": "选择一名复制人，只查看其参与的事件。",
       "contractRevision": 1,
       "status": "reviewed"
     },
@@ -478,7 +478,7 @@
     },
     {
       "key": "STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED",
-      "text": "请先在 Mod 设置中开启「本地玩法数据」",
+      "text": "请先在模组设置中开启「记录本地玩法数据」",
       "contractRevision": 1,
       "status": "reviewed"
     },

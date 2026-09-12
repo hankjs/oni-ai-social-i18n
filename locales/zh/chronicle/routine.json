@@ -138,7 +138,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}边吃边聊，{other}的话头总被咀嚼声盖过去。",
+      "text": "{actor}和{other}聊起了吃的。",
       "requiredSlots": [
         "actor",
         "other"
@@ -398,7 +398,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}说着说着就提高了音量，{other}居然没介意。",
+      "text": "{actor}和{other}聊着聊着，声音就大了起来。",
       "requiredSlots": [
         "actor",
         "other"
@@ -786,7 +786,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊了会儿天。",
+      "text": "{actor}和{other}聊了会儿天。",
       "requiredSlots": [
         "actor",
         "other"
@@ -799,7 +799,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}凑在一起闲聊，气氛不错。",
+      "text": "{actor}和{other}随口聊了几句。",
       "requiredSlots": [
         "actor",
         "other"
@@ -812,7 +812,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊起了家长里短。",
+      "text": "{actor}和{other}有一搭没一搭地说着话。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1410,7 +1410,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}僵着脖子，交换了几句必要的话。",
+      "text": "{actor}和{other}僵着脖子，交换了几句必要的话。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1566,7 +1566,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}凑在一起说悄悄话，旁若无人。",
+      "text": "{actor}和{other}凑在一起说悄悄话，旁若无人。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1722,7 +1722,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊着聊着，目光就躲到了别处。",
+      "text": "{actor}和{other}聊着聊着，目光就躲到了别处。",
       "requiredSlots": [
         "actor",
         "other"
@@ -1878,7 +1878,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊了几句，客气得像刚认识。",
+      "text": "{actor}和{other}聊了几句，客气得像刚认识。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2034,7 +2034,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}话里带刺，聊得像在过招。",
+      "text": "{actor}和{other}话里带刺，聊得像在过招。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2190,7 +2190,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊得热络——不打不相识。",
+      "text": "{actor}和{other}聊得热络——不打不相识。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2346,7 +2346,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊起那次死里逃生，话就没个完。",
+      "text": "{actor}和{other}聊起共同做过的危险活。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2502,7 +2502,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}有说有笑，当初那次拒绝如今成了笑谈。",
+      "text": "{actor}和{other}有说有笑，当初那次拒绝如今成了笑谈。",
       "requiredSlots": [
         "actor",
         "other"
@@ -2658,7 +2658,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}聊起了{topic}。",
+      "text": "{actor}和{other}聊起了{topic}。",
       "requiredSlots": [
         "actor",
         "other",
@@ -2686,7 +2686,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}嘴里还嚼着米虱糕，含混地跟{other}打了招呼。",
+      "text": "{actor}问{other}吃过没有，就算打了招呼。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3336,7 +3336,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}擦肩而过，互相点了点头。",
+      "text": "{actor}和{other}打了个招呼。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3349,7 +3349,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}在走廊里打了个招呼。",
+      "text": "{actor}碰见{other}，问了声好。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3362,7 +3362,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}碰面时寒暄了两句。",
+      "text": "{actor}和{other}互相招呼了一声。",
       "requiredSlots": [
         "actor",
         "other"
@@ -3960,7 +3960,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}一照面就乐了，谁还记得当初那一架。",
+      "text": "{actor}和{other}一照面就乐了，谁还记得当初那一架。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4116,7 +4116,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把自己那份点心拨给了{other}。",
+      "text": "{actor}一边吃，一边和{other}聊口味。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4246,7 +4246,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}把热乎的那份让给了{other}。",
+      "text": "{actor}吃饭时轻声和{other}聊了几句。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4376,7 +4376,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}嫌饭菜淡了，{other}默默把盐罐推了过去。",
+      "text": "{actor}吃饭时说话很直，{other}也直来直去地回了几句。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4506,7 +4506,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}这桌最热闹，{actor}的嗓门半个餐厅都听得见。",
+      "text": "{actor}和{other}这桌最热闹，{actor}的嗓门半个餐厅都听得见。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4636,7 +4636,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}吃得心不在焉，{other}问了三遍才应声。",
+      "text": "{actor}和{other}吃饭时，仍有些放不开。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4766,7 +4766,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}边吃边聊，很放松。",
+      "text": "{actor}和{other}一起吃了顿饭。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4779,7 +4779,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}拼了一桌，聊了很久。",
+      "text": "{actor}和{other}吃饭时聊了几句。",
       "requiredSlots": [
         "actor",
         "other"
@@ -4792,7 +4792,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}端着餐盘坐到了一起。",
+      "text": "{actor}和{other}同桌吃饭，多了点相处的时间。",
       "requiredSlots": [
         "actor",
         "other"
@@ -5390,7 +5390,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}隔着一张桌子，谁也没先开口。",
+      "text": "{actor}和{other}隔着一张桌子，谁也没先开口。",
       "requiredSlots": [
         "actor",
         "other"
@@ -5546,7 +5546,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}挨着坐下，这顿饭吃得很甜。",
+      "text": "{actor}和{other}挨着坐下，这顿饭吃得很甜。",
       "requiredSlots": [
         "actor",
         "other"
@@ -5702,7 +5702,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}同桌吃饭，谁都吃得心不在焉。",
+      "text": "{actor}和{other}同桌吃饭，谁都吃得心不在焉。",
       "requiredSlots": [
         "actor",
         "other"
@@ -5858,7 +5858,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}同桌吃饭，各自盯着餐盘。",
+      "text": "{actor}和{other}同桌吃饭，各自盯着餐盘。",
       "requiredSlots": [
         "actor",
         "other"
@@ -6014,7 +6014,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}同桌吃饭，刀叉碰得格外响。",
+      "text": "{actor}和{other}同桌吃饭，彼此都不太自在。",
       "requiredSlots": [
         "actor",
         "other"
@@ -6170,7 +6170,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}边吃边碰了碰杯，过命的交情都在里头。",
+      "text": "{actor}和{other}一起吃饭，也记着共同干过的危险活。",
       "requiredSlots": [
         "actor",
         "other"
@@ -6326,7 +6326,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}挨着坐下，这顿饭等了不止一天。",
+      "text": "{actor}和{other}挨着坐下，这顿饭等了不止一天。",
       "requiredSlots": [
         "actor",
         "other"
@@ -6482,7 +6482,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}在{place}一起吃了顿饭。",
+      "text": "{actor}和{other}在{place}一起吃了顿饭。",
       "requiredSlots": [
         "actor",
         "other",
@@ -6510,7 +6510,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}在聚会上玩开了。",
+      "text": "{a}和{b}一起参加了聚会。",
       "requiredSlots": [
         "a",
         "b"
@@ -6523,7 +6523,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}在聚会上碰了杯，果汁都快喝出酒味了。",
+      "text": "聚会时，{a}和{b}凑到了一起。",
       "requiredSlots": [
         "a",
         "b"
@@ -6536,7 +6536,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "聚会的灯光下，{a} 和 {b}比平时健谈了不少。",
+      "text": "{a}和{b}在聚会上待了一会儿。",
       "requiredSlots": [
         "a",
         "b"
@@ -7134,7 +7134,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}参加了{place}的聚会。",
+      "text": "{a}和{b}参加了{place}的聚会。",
       "requiredSlots": [
         "a",
         "b",
@@ -7162,7 +7162,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}同屋睡了一晚，作息很合拍。",
+      "text": "{a}和{b}在同一个房间休息。",
       "requiredSlots": [
         "a",
         "b"
@@ -7175,7 +7175,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}的床铺挨着，夜里翻身都怕吵到对方。",
+      "text": "{a}和{b}赶上了同一段休息时间。",
       "requiredSlots": [
         "a",
         "b"
@@ -7188,7 +7188,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "熄灯之后，{a} 和 {b}又小声聊了一会儿才睡。",
+      "text": "{a}和{b}同屋歇了下来。",
       "requiredSlots": [
         "a",
         "b"
@@ -7786,7 +7786,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}作息不合，谁都没睡好。",
+      "text": "{a}和{b}同屋休息，作息却不太合得来。",
       "requiredSlots": [
         "a",
         "b"
@@ -7942,7 +7942,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a}睡前又摸出一块点心，{b}闻着香味睡不着。",
+      "text": "{a}歇下来还惦记着吃的，跟{b}念叨了两句。",
       "requiredSlots": [
         "a",
         "b"
@@ -8202,7 +8202,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a}的呼噜声，{b}听了一整夜。",
+      "text": "{a}休息前还大声跟{b}聊了两句。",
       "requiredSlots": [
         "a",
         "b"
@@ -8462,7 +8462,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}同屋睡了一晚，屋里冷得像冰窖。",
+      "text": "{a}和{b}同屋睡了一晚，屋里冷得像冰窖。",
       "requiredSlots": [
         "a",
         "b"
@@ -8618,7 +8618,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}挤一张床睡了一晚，醒来还牵着手。",
+      "text": "{a}和{b}同屋休息，彼此有个陪伴。",
       "requiredSlots": [
         "a",
         "b"
@@ -8774,7 +8774,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}同屋睡了一晚，都睡得不踏实。",
+      "text": "{a}和{b}同屋睡了一晚，都睡得不踏实。",
       "requiredSlots": [
         "a",
         "b"
@@ -8930,7 +8930,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}同屋睡了一晚，谁也没提从前。",
+      "text": "{a}和{b}同屋睡了一晚，谁也没提从前。",
       "requiredSlots": [
         "a",
         "b"
@@ -9086,7 +9086,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{a} 和 {b}同屋睡了一晚，背对着背。",
+      "text": "{a}和{b}同屋睡了一晚，背对着背。",
       "requiredSlots": [
         "a",
         "b"
@@ -9242,7 +9242,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}输了游戏差点哭出来，{other}赶紧让了他一局。",
+      "text": "{actor}和{other}一起玩，情绪都写在脸上。",
       "requiredSlots": [
         "actor",
         "other"
@@ -9372,7 +9372,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor}总把输赢让给{other}，两个人都玩得开心。",
+      "text": "{actor}照顾着{other}的感受，两人玩得很轻松。",
       "requiredSlots": [
         "actor",
         "other"
@@ -9502,7 +9502,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "玩游戏时{actor}又急了眼，{other}笑着让了他一把。",
+      "text": "{actor}和{other}玩得起劲，急性子藏不住。",
       "requiredSlots": [
         "actor",
         "other"
@@ -9892,7 +9892,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}在休息区碰头，玩得很开心。",
+      "text": "{actor}和{other}一起玩了一会儿。",
       "requiredSlots": [
         "actor",
         "other"
@@ -9905,7 +9905,7 @@
       "ordinal": 2,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}较量了几局，输赢已经不重要了。",
+      "text": "{actor}和{other}凑在一起消磨闲暇。",
       "requiredSlots": [
         "actor",
         "other"
@@ -9918,7 +9918,7 @@
       "ordinal": 3,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}把一天的疲惫都玩没了。",
+      "text": "{actor}和{other}一起参加了休闲活动。",
       "requiredSlots": [
         "actor",
         "other"
@@ -10516,7 +10516,7 @@
       "ordinal": 1,
       "contractRevision": 1,
       "status": "reviewed",
-      "text": "{actor} 和 {other}在{place}一起玩了一会儿。",
+      "text": "{actor}和{other}在{place}一起玩了一会儿。",
       "requiredSlots": [
         "actor",
         "other",

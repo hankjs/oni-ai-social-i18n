@@ -6,7 +6,7 @@ msgstr ""
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY"
-msgid "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。"
+msgid "{0} 和 {1} 一起过了纪念日。"
 msgstr "Свидание {0} и {1} в годовщину прошло отлично, нежности стало вдвое больше."
 
 #. resolved-locale: ru
@@ -66,25 +66,25 @@ msgstr "Драка!"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY"
-msgid "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。"
+msgid "{0} 当场{2}，{1} 名同伴目睹了这一幕。之后几周期内，主动倾诉、照顾或共餐可以带来安慰。"
 msgstr "{0} прямо на месте {2}, и {1} человек остановились смотреть. Если в ближайшие циклы кто-то сядет рядом, это запомнится на всю жизнь."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY"
-msgid "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。"
+msgid "{0} 关心了崩溃后的 {1}，让这段难熬的日子多了一点陪伴。"
 msgstr "{0} пошёл посидеть с {1}. Важных слов не было — но {1} навсегда запомнит, кто подошёл первым."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE"
-msgid "第一个坐下来的人"
+msgid "崩溃后的陪伴"
 msgstr "Первый, кто сел рядом"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE"
-msgid "整个房间都看着"
+msgid "有人崩溃了"
 msgstr "Смотрела вся комната"
 
 #. resolved-locale: ru
@@ -156,7 +156,7 @@ msgstr "{0} успешно сделал признание {1}, и они офи
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY"
-msgid "{0} 向 {1} 表明了心意，但没有得到回应。"
+msgid "{0} 向 {1} 表明了心意，但对方没有答应。"
 msgstr "{0} открыл чувства {1}, но ответа не последовало."
 
 #. resolved-locale: ru
@@ -168,7 +168,7 @@ msgstr "В признании отказали"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE"
-msgid "喜结连理"
+msgid "在一起了"
 msgstr "Стали парой"
 
 #. resolved-locale: ru
@@ -198,7 +198,7 @@ msgstr "Разрыв"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY"
-msgid "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。"
+msgid "粮食及时补上，眼前的断粮危机解除了。"
 msgstr "Еда подоспела вовремя, колония отступила от края. О том, что думалось в те дни, никто не говорит."
 
 #. resolved-locale: ru
@@ -222,7 +222,7 @@ msgstr "Выжить!"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY"
-msgid "只剩一个人了。基地很安静，食物也够了。"
+msgid "殖民地只剩一名幸存者。"
 msgstr "Остался один. На базе тихо, еды хватает."
 
 #. resolved-locale: ru
@@ -234,7 +234,7 @@ msgstr "Последний колонист"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY"
-msgid "储藏室重新有了食物。没有人问那是什么。"
+msgid "粮食恢复供应，这场饥荒结束了。"
 msgstr "В кладовой снова есть еда. Никто не спрашивает, что это было."
 
 #. resolved-locale: ru
@@ -246,7 +246,7 @@ msgstr "Голод миновал"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY"
-msgid "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。"
+msgid "粮食短缺，多人正在挨饿。若倒数结束前仍没有补上食物，可能发生断粮相残。"
 msgstr "Кладовая пуста, многие голодают. Если так пойдёт, они начнут искать выход сами — ещё не поздно подвезти еду."
 
 #. resolved-locale: ru
@@ -276,7 +276,7 @@ msgstr "{0} и {1} давно вместе, чувства вошли в тих�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE"
-msgid "老夫老妻"
+msgid "相伴已久"
 msgstr "Давняя пара"
 
 #. resolved-locale: ru
@@ -372,7 +372,7 @@ msgstr "Потеря пары"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY"
-msgid "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。"
+msgid "殖民地遭遇了灾祸，众人的怒气转向了 {0}。及时与一位声望较高的同伴牵线，可以让对方出面说话；若无人解围，{0} 可能被孤立。"
 msgstr "В колонии только что случилась беда, а {0} — с самой плохой репутацией: вот счёт и выставили. Сведите сейчас с уважаемым коллегой — тот заступится честным словом; упустите время — наступит изоляция."
 
 #. resolved-locale: ru
@@ -384,7 +384,7 @@ msgstr "Кто-то должен ответить"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY"
-msgid "没人救 {0}，但也没人再记得那件事了。日子照过。"
+msgid "针对 {0} 的孤立随着时间过去了。"
 msgstr "{0} никто не спас, но и ту историю уже никто не помнит. Жизнь идёт."
 
 #. resolved-locale: ru
@@ -396,37 +396,37 @@ msgstr "Забыто"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY"
-msgid "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。"
+msgid "{0} 被孤立了，同伴开始疏远，共餐也可能被冷落。有人主动照顾、听取倾诉或一起吃饭，就能帮助打破孤立。"
 msgstr "За {0} никто не заступился. Теперь коллеги отворачиваются в проходе, а за общим столом встают раньше. Если кто-то один согласится позаботиться, поговорить или поесть вместе — на этом всё кончится."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE"
-msgid "没人跟他说话了"
+msgid "被疏远了"
 msgstr "С ним больше не говорят"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY"
-msgid "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。"
+msgid "{0} 把怒气撒在了 {1} 身上，动了手。"
 msgstr "Когда вокруг никого не было, {0} ударил {1}. Коллеги не знают — это видели только вы."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE"
-msgid "没人看见"
+msgid "迁怒变成了殴打"
 msgstr "Никто не видел"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY"
-msgid "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。"
+msgid "{0} 主动关心了 {1}，孤立结束了。"
 msgstr "{0} сел рядом с {1}. Изоляция кончилась — в таких делах всегда достаточно, чтобы кто-то один сделал шаг."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE"
-msgid "第一个坐下来的人"
+msgid "有人伸出了手"
 msgstr "Первый, кто сел рядом"
 
 #. resolved-locale: ru
@@ -744,25 +744,25 @@ msgstr "Совместимость: {0}"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.INTEREST
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.INTEREST"
-msgid "共同话题：共同兴趣是{0}"
+msgid "共同兴趣：{0}"
 msgstr "Общая тема: общий интерес — {0}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.NONE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.NONE"
-msgid "共同话题：已知兴趣暂无交集"
+msgid "共同话题：暂未发现共同兴趣"
 msgstr "Общая тема: известные интересы не пересекаются"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.UNKNOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.UNKNOWN"
-msgid "共同话题：暂无可用信息"
+msgid "共同话题：还没有足够信息"
 msgstr "Общая тема: нет доступных данных"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.WORK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.WORK"
-msgid "共同话题：最近都做过{0}"
+msgid "最近都做过：{0}"
 msgstr "Общая тема: оба недавно занимались делом «{0}»"
 
 #. resolved-locale: ru
@@ -786,7 +786,7 @@ msgstr "извинение"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND"
-msgid "不打不相识"
+msgid "道歉后交好"
 msgstr "поссорились — подружились"
 
 #. resolved-locale: ru
@@ -810,7 +810,7 @@ msgstr "после беды свалили вину"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED"
-msgid "界限·受阻"
+msgid "关系达到界限"
 msgstr "пределы · удержано"
 
 #. resolved-locale: ru
@@ -972,13 +972,13 @@ msgstr "Горе отступило"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
-msgid "一起在下面待过"
+msgid "共担危险"
 msgstr "были внизу вместе"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED"
-msgid "他最近也下来了"
+msgid "危险分工的怨气渐退"
 msgstr "он тоже недавно спускался"
 
 #. resolved-locale: ru
@@ -1080,7 +1080,7 @@ msgstr "я видел его в самом худшем виде"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL"
-msgid "共同进食"
+msgid "一起吃饭"
 msgstr "совместная трапеза"
 
 #. resolved-locale: ru
@@ -1128,7 +1128,7 @@ msgstr "встреча новичка"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN"
-msgid "陪伴低谷"
+msgid "目睹崩溃"
 msgstr "рядом в беде"
 
 #. resolved-locale: ru
@@ -1152,19 +1152,19 @@ msgstr "За столом отвернулись"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
-msgid "被偷揍"
+msgid "遭到殴打"
 msgstr "ударили исподтишка"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED"
-msgid "第一个坐下来的人"
+msgid "打破孤立"
 msgstr "первый, кто сел рядом"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING"
-msgid "撞见他一个人在哭"
+msgid "撞见独自哭泣"
 msgstr "застал его в слезах одного"
 
 #. resolved-locale: ru
@@ -1176,7 +1176,7 @@ msgstr "кто-то заступился"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED"
-msgid "我看见他打人"
+msgid "目睹殴打"
 msgstr "я видел, как он бил"
 
 #. resolved-locale: ru
@@ -1206,7 +1206,7 @@ msgstr "До следующего уровня не хватает взаимн�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING"
-msgid "关系事件已在待发生中（剩余 {0} 周期）"
+msgid "关系事件即将发生（剩余 {0} 周期）"
 msgstr "Событие отношений ожидает (осталось циклов: {0})"
 
 #. resolved-locale: ru
@@ -1218,7 +1218,7 @@ msgstr "Холодная война; без примирения расстав�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING"
-msgid "告白已在待发生中（剩余 {0} 周期）"
+msgid "告白即将发生（剩余 {0} 周期）"
 msgstr "Признание ожидает события (осталось циклов: {0})"
 
 #. resolved-locale: ru
@@ -1266,7 +1266,7 @@ msgstr "Записи об отношениях ещё нет; следующий
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE"
-msgid "已达到门槛，但单偶制暂不允许告白"
+msgid "已有伴侣，暂时不能向其他人告白"
 msgstr "Порог достигнут, но моногамия пока не допускает признание"
 
 #. resolved-locale: ru
@@ -1314,7 +1314,7 @@ msgstr "Характер {0} сменился с «{1}» на «{2}»."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL"
-msgid "{0} 性格大变，{1}性格 变成了 {2}性格。"
+msgid "{0}经历了性格变化，从「{1}」变成了「{2}」。"
 msgstr "Характер {0} резко переменился: «{1}» стал «{2}»."
 
 #. resolved-locale: ru
@@ -1404,7 +1404,7 @@ msgstr "Сменить характер"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP"
-msgid "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。"
+msgid "更换这名复制人的社交性格。旧性格会保留在履历中，之后的社交使用新性格。"
 msgstr "Направьте этого дубликанта к другому характеру общения. Старый останется в послужном списке только для показа и больше не участвует в случайностях общения."
 
 #. resolved-locale: ru
@@ -1464,7 +1464,7 @@ msgstr "Отношения"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED"
-msgid "熟络"
+msgid "相识"
 msgstr "знакомые"
 
 #. resolved-locale: ru
@@ -1524,7 +1524,7 @@ msgstr "незнакомцы"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL"
-msgid "声望（仅供观察）"
+msgid "声望"
 msgstr "репутация (только наблюдение)"
 
 #. resolved-locale: ru
@@ -1560,7 +1560,7 @@ msgstr "популярный"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP"
-msgid "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。"
+msgid "与全体存活复制人的平均好感，反映人缘。开启集体迁怒后，也会影响谁被迁怒、谁能出面说话。"
 msgstr "Средняя симпатия ко всем живым дубликантам. Сейчас показывает только, насколько человек в чести, и ни на что не влияет; механика репутации будет позже."
 
 #. resolved-locale: ru
@@ -1572,7 +1572,7 @@ msgstr "Открыть личную историю"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
-msgid "还没有形成可阅读的人生章节"
+msgid "还没有收录个人故事"
 msgstr "В личной истории пока нет глав"
 
 #. resolved-locale: ru
@@ -1590,7 +1590,7 @@ msgstr "Личная история"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
-msgid "这名复制人最近一段被收录的人生经历"
+msgid "查看这名复制人最近收录的经历"
 msgstr "Краткий обзор последней главы жизни этого дупликанта"
 
 #. resolved-locale: ru
@@ -1902,13 +1902,13 @@ msgstr "Влюблён"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC"
-msgid "相伴已久,是彼此最安心的存在。士气大幅提升。"
+msgid "相伴已久，是彼此安心的存在。士气大幅提升。"
 msgstr "Вместе так давно, что друг для друга — самое спокойное место. Моральный дух сильно растёт."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME"
-msgid "老夫老妻"
+msgid "相伴已久"
 msgstr "Давняя пара"
 
 #. resolved-locale: ru
@@ -1968,7 +1968,7 @@ msgstr "На пределе"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC"
-msgid "殖民地出了事，而 TA 是人缘垫底的那个——所以帐算在 TA 头上了，跟事情是不是 TA 做的无关。有人愿意照顾 TA、找 TA 说话或跟 TA 一起吃顿饭，这个状态就会解除；再久一点，事情也会被淡忘。"
+msgid "成了众人迁怒的对象，正在被疏远。有人主动照顾、听取倾诉或一起吃饭，就能打破孤立；这个状态也会随时间消退。"
 msgstr "В колонии случилась беда, а репутация была самой низкой — вот счёт и выставили, независимо от вины. Если кто-то согласится позаботиться, поговорить или поесть вместе, состояние спадёт; ещё чуть позже историю и так забудут."
 
 #. resolved-locale: ru
@@ -1980,13 +1980,13 @@ msgstr "В изоляции"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC"
-msgid "断粮那几天留下来的。没有人问这是谁，也没有人愿意先动筷子。"
+msgid "把它晒干就不再像是人类的肉了，对吗？"
 msgstr "Осталось с голодных дней. Никто не спрашивает, кто это, и никто не хочет взять первым."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME"
-msgid "「同事」肉"
+msgid "长猪肉"
 msgstr "«Мясо коллеги»"
 
 #. resolved-locale: ru
@@ -2070,7 +2070,7 @@ msgstr "я"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_ART
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_ART"
-msgid "新挂的装饰"
+msgid "装饰的样子"
 msgstr "новых украшениях на стенах"
 
 #. resolved-locale: ru
@@ -2088,7 +2088,7 @@ msgstr "премудростях стройки"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING"
-msgid "新琢磨的菜谱"
+msgid "做饭的窍门"
 msgstr "новом рецепте"
 
 #. resolved-locale: ru
@@ -2112,7 +2112,7 @@ msgstr "маршрутах переноски"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER"
-msgid "新盖的走廊"
+msgid "建造的活"
 msgstr "новом коридоре"
 
 #. resolved-locale: ru
@@ -2124,7 +2124,7 @@ msgstr "новинках на плите"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR"
-msgid "医务室的药箱"
+msgid "照顾病人的事"
 msgstr "аптечке лазарета"
 
 #. resolved-locale: ru
@@ -2142,7 +2142,7 @@ msgstr "делах в шахте"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR"
-msgid "机器的毛病"
+msgid "机器的运转"
 msgstr "поломках машин"
 
 #. resolved-locale: ru
@@ -2178,7 +2178,7 @@ msgstr "нраве зверья"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH"
-msgid "研究的新发现"
+msgid "研究的进展"
 msgstr "новой находке в исследованиях"
 
 #. resolved-locale: ru
@@ -2232,25 +2232,25 @@ msgstr "Пределы"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID"
-msgid "设置失败:最差关系不能好过最好关系"
+msgid "设置未生效：最差关系不能好过最好关系"
 msgstr "Не вышло: худшие отношения не могут быть лучше лучших"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL"
-msgid "最好关系:{0}"
+msgid "最好关系：{0}"
 msgstr "Лучшие отношения:{0}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL"
-msgid "最差关系:{0}"
+msgid "最差关系：{0}"
 msgstr "Худшие отношения:{0}"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT"
-msgid "只显示与另一侧兼容的档位。只做朋友：最好设为朋友；保护伴侣关系：最差设为恋人。不会立即改变当前关系，也不阻止争执或丧偶。"
+msgid "这里会列出可以搭配的关系范围。只想让两人做朋友，可把最好关系设为朋友；想保留恋人关系，可把最差关系设为恋人。设置只影响之后的自然变化，争执和丧偶仍可能发生。"
 msgstr "Показаны только совместимые уровни. Только дружба: лучший — друг. Защита пары: худший — пара. Это не меняет текущие отношения сразу и не предотвращает ссоры или потерю партнёра."
 
 #. resolved-locale: ru
@@ -2448,7 +2448,7 @@ msgstr "Кто:{0}"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE"
-msgid "{0} 已不在殖民地,无法跳转"
+msgid "{0} 已不在殖民地，无法定位"
 msgstr "{0} уже не в колонии, перейти нельзя"
 
 #. resolved-locale: ru
@@ -2520,7 +2520,7 @@ msgstr "Нет доступных дубликантов."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS"
-msgid "没有符合筛选条件的关系"
+msgid "没有符合条件的关系，可以试着调整筛选。"
 msgstr "Нет отношений под этот фильтр"
 
 #. resolved-locale: ru
@@ -2562,7 +2562,7 @@ msgstr "{0}　[{1}]"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON"
-msgid "待发生"
+msgid "即将发生"
 msgstr "Ожидание"
 
 #. resolved-locale: ru
@@ -2574,7 +2574,7 @@ msgstr "признание"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY"
-msgid "目前没有待发生的社交事件。"
+msgid "目前没有正在倒数的关系事件。"
 msgstr "Сейчас нет ожидающих событий общения."
 
 #. resolved-locale: ru
@@ -2586,13 +2586,13 @@ msgstr "Случиться сейчас"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT"
-msgid "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。"
+msgid "告白、分手、和解和结成宿敌会在这里倒数。可以等待倒数结束，也可以选择立即安排；结果不受等待时长影响。"
 msgstr "Здесь будут признание, расставание, примирение и становление заклятыми врагами. Исход уже зафиксирован; нажмите событие, чтобы устроить его сразу, или дождитесь конца отсчёта."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED"
-msgid "事件已请求，正在等待安全时机"
+msgid "已安排，正在等待安全会合"
 msgstr "Событие запрошено, ждём безопасного момента"
 
 #. resolved-locale: ru
@@ -2610,7 +2610,7 @@ msgstr "«{0}» {1} → {2} · осталось {3} цикл."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE"
-msgid "待发生的社交事件"
+msgid "即将发生的关系事件"
 msgstr "Ожидающие события общения"
 
 #. resolved-locale: ru
@@ -2646,13 +2646,13 @@ msgstr "Выберите дубликанта, чтобы снять все св
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE"
-msgid "选一名复制人,日志只显示他参与的事件——他的一段人生。"
+msgid "选择一名复制人，只查看其参与的事件。"
 msgstr "Выберите дубликанта — в журнале останутся только события с его участием: кусок его жизни."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE"
-msgid "查看谁的故事?"
+msgid "查看谁的故事？"
 msgstr "Чью историю смотреть?"
 
 #. resolved-locale: ru
@@ -2898,7 +2898,7 @@ msgstr "Избранные события, определяющие этапы �
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
-msgid "请先在 Mod 设置中开启「本地玩法数据」"
+msgid "请先在模组设置中开启「记录本地玩法数据」"
 msgstr "Сначала включите «Местные данные партии» в настройках мода"
 
 #. resolved-locale: ru
@@ -2934,13 +2934,13 @@ msgstr "Предыдущее изменение меток отменено."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_1"
-msgid "话到嘴边，又咽了回去……"
+msgid "我还有点没想好。"
 msgstr "Слова подступили к горлу — и там остались..."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_2"
-msgid "心跳得厉害，却怎么也说不出口。"
+msgid "有些话，我现在说不出口。"
 msgstr "Сердце колотится, а слов нет."
 
 #. resolved-locale: ru
@@ -2952,13 +2952,13 @@ msgstr "Может... подождём ещё немного."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_1"
-msgid "好像很久没说话了，但又没什么变化。"
+msgid "好久没好好说话了。"
 msgstr "Давно не разговаривали — а всё как было."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_2"
-msgid "感情淡不下去，也挺奇怪的。"
+msgid "有空还是想找你聊聊。"
 msgstr "Странно: никак не остывает."
 
 #. resolved-locale: ru
@@ -2970,31 +2970,31 @@ msgstr "Ладно... оно того не стоит."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_2"
-msgid "火气上来，又莫名其妙消了。"
+msgid "不说了，越说越气。"
 msgstr "Злость вспыхнула — и сама собой погасла."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_3"
-msgid "我不想再见到他——大概吧。"
+msgid "我先走，省得又吵起来。"
 msgstr "Видеть его больше не хочу. Наверное."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_1"
-msgid "吵到一半，突然不想吵了。"
+msgid "先到这儿吧，我不想再吵了。"
 msgstr "На середине ссоры расхотелось ссориться."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_2"
-msgid "狠话到了嘴边，谁也没说出口。"
+msgid "有些话还是别说绝了。"
 msgstr "Злые слова так и не прозвучали."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_3"
-msgid "……就当没发生过吧。"
+msgid "……让我想一想吧。"
 msgstr "...Считай, ничего не было."
 
 #. resolved-locale: ru
@@ -3018,187 +3018,187 @@ msgstr "И так хорошо. Этого достаточно."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_1"
-msgid "打起来了！打起来了！"
+msgid "真打起来了！"
 msgstr "ДЕРУТСЯ! ДЕРУТСЯ!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_2"
-msgid "都别拦着！……哦，没人拦。"
+msgid "你们倒是停一下啊！"
 msgstr "Не разнимайте! ...А, никто и не собирался."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_3"
-msgid "让他们打！"
+msgid "这也能打起来？"
 msgstr "Пусть дерутся!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_4"
-msgid "我就吃个瓜。"
+msgid "谁去拉开他们？"
 msgstr "Я просто посмотреть."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_5"
-msgid "加油！呃……都加油！"
+msgid "小心！……我是说你们两个！"
 msgstr "Давай его! Э-э — давайте оба!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_6
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_6"
-msgid "你这瓜保熟吗？"
+msgid "都退开一点！"
 msgstr "Это вообще кто-нибудь снимает?"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_1"
-msgid "大意了，没有闪！"
+msgid "停一下，我站不稳了！"
 msgstr "Я не был готов! НЕ ГОТОВ!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_2"
-msgid "耗子尾汁……我耗子尾汁……"
+msgid "够了，我认输。"
 msgstr "Ладно. Ладно! Твоя взяла."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_3"
-msgid "已老实，求放过！"
+msgid "不打了，让我缓缓！"
 msgstr "Сдаюсь! Сдаюсь!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_4"
-msgid "别打了别打了，我错了！"
+msgid "别打了，我错了！"
 msgstr "Хватит — хватит, я был неправ!"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_5"
-msgid "不打了不打了！"
+msgid "不打了，到这儿吧！"
 msgstr "Всё. Больше не буду."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_1"
-msgid "我不是针对你，我是说在座的各位——都是垃圾！"
+msgid "你还想接着吵？"
 msgstr "Ничего личного. Просто здесь все бесполезны — ты в первую очередь."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_10
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_10"
-msgid "犹豫，就会败北！"
+msgid "我可不会一直让着你！"
 msgstr "Промедлил — проиграл. Ты промедлил."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_11
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_11"
-msgid "你给我翻译翻译，什么叫惊喜！"
+msgid "你倒是解释啊！"
 msgstr "Поплачь ещё."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_12
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_12"
-msgid "压力给到你这边了！"
+msgid "这事我还没跟你算完！"
 msgstr "Ну всё, теперь давление на твоей стороне."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_13
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_13"
-msgid "不是吧阿Sir？"
+msgid "你还真敢动手！"
 msgstr "Смело для того, кто в зоне удара."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_14
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_14"
-msgid "格局打开！"
+msgid "少说两句漂亮话！"
 msgstr "Расширь кругозор. Начни с лица."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_15
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_15"
-msgid "小丑竟是我自己！"
+msgid "行，这回是我没站稳！"
 msgstr "Клоун здесь я — раз тебе поверил."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_16
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_16"
-msgid "以前是以前，现在是现在！"
+msgid "旧账也不是你想翻就翻！"
 msgstr "То было тогда. А это — сейчас."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_17
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_17"
-msgid "年轻人，不讲武德！"
+msgid "说着话怎么就动手了！"
 msgstr "Молодёжь пошла — никакого понятия о чести."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_18
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_18"
-msgid "退！退！退！"
+msgid "退后，别再挤过来！"
 msgstr "Назад. Назад. НАЗАД."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_19
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_19"
-msgid "我最讨厌事后道歉！"
+msgid "别打完才来道歉！"
 msgstr "Извинения оставь себе. Терпеть их не могу."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_2"
-msgid "菜就多练！"
+msgid "有话说清楚，别推我！"
 msgstr "Руки кривые — тренируйся."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_20
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_20"
-msgid "你的嘴比没接过滤器的排气口还脏！"
+msgid "你能不能把嘴放干净点！"
 msgstr "У тебя рот грязнее, чем вентиляция без фильтра."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_3"
-msgid "我从未见过有如此厚颜无耻之人！"
+msgid "你非得动手是吧？"
 msgstr "Такого бесстыдства я ещё не встречал."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_4"
-msgid "回答我！LOOK IN MY EYES!"
+msgid "看着我，把话说完！"
 msgstr "Смотри на меня. СМОТРИ НА МЕНЯ."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_5"
-msgid "就这？就这？"
+msgid "还没完呢！"
 msgstr "И это всё? Серьёзно, всё?"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_6
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_6"
-msgid "你在教我做事啊？"
+msgid "别冲我指手画脚！"
 msgstr "О, теперь ты будешь учить меня работать?"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_7
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_7"
-msgid "怎么不找找你自己的问题？"
+msgid "你就一点错都没有？"
 msgstr "А не думал, что проблема — в тебе?"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_8
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_8"
-msgid "半场开香槟？"
+msgid "先别得意！"
 msgstr "Шампанское в перерыве открываешь?"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_9
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_9"
-msgid "你急了？你急了？"
+msgid "你声音大就有理了？"
 msgstr "О-о, кто-то занервничал."
 
 #. resolved-locale: ru
@@ -3354,7 +3354,7 @@ msgstr "Как раз, я тоже не собирался мириться."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_1"
-msgid "我吃完了。"
+msgid "我去别处坐。"
 msgstr "Я уже поел."
 
 #. resolved-locale: ru
@@ -3366,13 +3366,13 @@ msgstr "...Пойду доем там."
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_3"
-msgid "这桌满了。"
+msgid "我想自己吃。"
 msgstr "За этим столом занято."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_4"
-msgid "突然想起来还有活。"
+msgid "这顿我想清静点。"
 msgstr "Точно, у меня же ещё работа."
 
 #. resolved-locale: ru
@@ -3384,43 +3384,43 @@ msgstr "Всплывающие числа симпатии"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT"
-msgid "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整"
+msgid "AI 对话仍在完善中，默认关闭。关闭时使用内置台词，社交玩法照常运行。"
 msgstr "Реплики ИИ ещё сырые, по умолчанию выкл.; при выключении всегда играют встроенные реплики, игра полная"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgid "模组闲聊：同一复制人的间隔（秒）"
 msgstr "Перезарядка добавленной модом болтовни одного дубликанта (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING"
-msgid "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起"
+msgid "请检查 API 地址和模型名称。填写完整前，将使用内置台词。"
 msgstr "Key заполнен, но адрес API или модель пусты/неверны: ИИ-диалог не запускается"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_KEY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY"
-msgid "API Key"
+msgid "API 密钥"
 msgstr "API Key"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING"
-msgid "未填写 Key，AI 对话不会发起，仅使用内置台词"
+msgid "尚未填写密钥，将使用内置台词"
 msgstr "Key не заполнен: ИИ-диалог не запускается, только встроенные реплики"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER"
-msgid "粘贴你的 API Key"
+msgid "粘贴 API 密钥"
 msgstr "Вставьте ваш API Key"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_SET
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_SET"
-msgid "Key 已填写，保存后立即生效"
+msgid "已填写密钥，保存后生效"
 msgstr "Key уже заполнен, после сохранения действует сразу"
 
 #. resolved-locale: ru
@@ -3462,19 +3462,19 @@ msgstr "Разрешить драки заклятых врагов"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgid "宿敌争执时可能动手，任一方降至半血就会停止，互殴不会致死。默认关闭，需同时开启「黑暗内容」；屏蔽互动或使用「安静」预设可阻止触发。"
 msgstr "Ссора заклятых врагов может перерасти в настоящую драку: по раундам, до первой крови не насмерть (кто дойдёт до половины здоровья — оба останавливаются); драка заклятых врагов не убивает (голодное братоубийство — другое, см. ниже). По умолчанию выкл. — включайте, если хотите зрелище. Метка блокировки полностью запрещает драку этой паре; при «уровне драмы» «Тихо» даже включённая драка не случится"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA"
-msgid "把崩溃演成一场戏"
+msgid "显示崩溃与后续陪伴"
 msgstr "Играть срыв как сцену"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT"
-msgid "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启"
+msgid "原生压力反应发生时，附近同伴会目睹并留下记忆。之后几周期内的首次倾诉、照顾或共餐可增进好感、减轻当事人的压力，陪伴者会承担少量压力。默认开启，不改变原生崩溃的触发条件。"
 msgstr "Когда у дубликанта Стресс на максимуме и случается настоящий срыв (рыдания / крик / рвота / обжорство / ломание / разряд), люди в той же комнате останавливаются смотреть, а в отношениях остаётся «я видел его в самом худшем виде». В ближайшие циклы первый, кто подойдёт поговорить / позаботиться / поесть за одним столом, вытащит его из срыва — симпатия обоих сильно вырастет, а у спасателя чуть поднимется Стресс. Можно сразу назначить сводничеством, кто пойдёт. **Числа не меняются**: частота срывов, Стресс и смертность как были, этот пункт добавляет только постановку, память и тот выход. По умолчанию вкл."
 
 #. resolved-locale: ru
@@ -3498,13 +3498,13 @@ msgstr "Отмена"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgid "原生聊天影响关系的间隔（秒）"
 msgstr "Пауза между откликами отношений мода на разговоры ONI (сек.)"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgid "同一对复制人的原生聊天，至少间隔这么久才再次影响模组关系。默认 15 秒，也受每周期次数上限限制。原生对话和气泡照常。"
 msgstr "Ограничивает только повторный отклик отношений и последующие истории мода для одной пары. Штатные облачка реплик ONI всегда отображаются как обычно. По умолчанию 15 сек.; также действует потолок за цикл на пару."
 
 #. resolved-locale: ru
@@ -3528,7 +3528,7 @@ msgstr "Разрешить коллективную злобу"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT"
-msgid "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭"
+msgid "死亡、多人崩溃或断粮后，众人可能迁怒于人缘较差的同伴，使其被孤立。前期可牵线让声望较高的人出面；被孤立后，倾诉、照顾或共餐也能解围。无人介入时会随时间消退。需开启「黑暗内容」，「安静」预设下关闭。"
 msgstr "После крупной беды в колонии (смерть / несколько срывов / пустой амбар) все выставляют счёт тому, у кого хуже всех репутация, виновен или нет: симпатия падает разом, затем изоляция — трое с самого дна только теряют симпатию, остальные при встрече кривят лицо, за общим столом встают раньше. Оба выхода — ваши инструменты: в первой сцене сведите с человеком высокой репутации, тот скажет честное слово; во второй любой уход / разговор по душам / совместная трапеза ломает схему. Если никто не вмешается, навечно не застрянет — время смоет. Нужен ещё общий выключатель; при «уровне драмы» «Тихо» принудительно выкл."
 
 #. resolved-locale: ru
@@ -3546,7 +3546,7 @@ msgstr "Включить тёмное содержание"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT"
-msgid "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响"
+msgid "允许出现复制人之间的暴力与死亡事件，默认关闭。开启后，还需打开对应事件开关；关闭时其余社交功能照常。"
 msgstr "Общий выключатель, по умолчанию выкл. Нижележащие тёмные события работают только после включения — драка, голодное братоубийство и последующие испытания человечности. Там есть насилие и смерть между дубликантами; если не нужно — оставьте выкл., остальное общение не страдает"
 
 #. resolved-locale: ru
@@ -3558,7 +3558,7 @@ msgstr "(общий выключатель тёмного содержания �
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.DEBUG_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DEBUG_HINT"
-msgid "以下是技术性参数，改坏了用「恢复默认」拉回来"
+msgid "开发调试参数。需要还原时可点「恢复默认」。"
 msgstr "Ниже технические параметры; если испортите, верните «Сбросить»"
 
 #. resolved-locale: ru
@@ -3606,7 +3606,7 @@ msgstr "Включить генерацию ИИ-диалога"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY"
-msgid "记录匿名社交遥测"
+msgid "记录本地玩法数据"
 msgstr "Писать анонимную телеметрию общения"
 
 #. resolved-locale: ru
@@ -3618,7 +3618,7 @@ msgstr "Разрешить голодное братоубийство"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.FAMINE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.FAMINE_HINT"
-msgid "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关"
+msgid "粮食短缺且多人挨饿时，可能发生断粮相残，死者会成为食物。事前会有警告和倒数，及时补粮可解除危机。每次事件造成一人死亡；持续缺粮可能再次触发。需同时开启「黑暗内容」。"
 msgstr "Когда амбар пуст и многие голодают, колония скатывается к убийству своих, а мёртвых делают едой. Сначала предупреждение и отсчёт — в это время достаточно подвезти еду; за одно событие умирает один, с появлением еды всё останавливается; если проблему не решить, сработает снова. Это самое тёмное в моде, нужен ещё и общий выключатель"
 
 #. resolved-locale: ru
@@ -3630,7 +3630,7 @@ msgstr "Опасные смены копят обиду"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT"
-msgid "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭"
+msgid "同类工作中，危险工时长期落在一人身上时，可能对另一人产生怨气；朋友之间也可能表现为感激，共担危险则能增进交情。调整工作分配后，旧工时会逐渐淡出统计，怨气也会消退。穿防护服时不计入。默认开启，「安静」预设下关闭。"
 msgstr "В одной профессии, если кого-то всё время посылают в опасные места (мало кислорода, непригодный для дыхания газ, удушье, ожоги или обморожение), а другой туда ни разу не спускался, первый начнёт помнить зло на второго: симпатия только падает, и можно дойти до заклятых врагов. Работа в атмосфекостюме не считается — поэтому «у кого атмосфекостюм» само становится вопросом общения.[b]Выход за вами[/b]: меняйте приоритеты. Старый счёт выскользнет из окна учёта, обида сама спадёт и оставит «он тоже недавно спускался». Это единственное в моде, что снимается тем, что [b]вы меняете свой способ управления[/b], и делается штатными кнопками игры, без нового интерфейса. Двое [b]вместе[/b] в опасности тоже считается: это станет боевым товариществом. А между друзьями тот же случай даёт иной итог — «он спустился вместо меня», и симпатия растёт.[b]Никакого Стресса сверх того, ничего не отнимается[/b]: Стресс от среды игра уже выдала сама. Во всей колонии одновременно не больше двух пар в обиде. По умолчанию вкл.; при «уровне драмы» «Тихо» принудительно выкл."
 
 #. resolved-locale: ru
@@ -3696,7 +3696,7 @@ msgstr "Ёмкость хроники (записей)"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT"
-msgid "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效"
+msgid "日常纪事最多保留的条数，默认 5000 条。告白、死亡等大事另行保存，不占此额度。读档或新局后生效。"
 msgstr "Потолок строк в прокрутке журнала событий. По умолчанию 5000 ≈ около 1 МБ места в сохранении (оценка без сжатия, после сжатия гораздо меньше); вехи вроде признания и смерти лежат отдельно в важных событиях и эту квоту не занимают. Вступает в силу после загрузки или новой партии"
 
 #. resolved-locale: ru
@@ -3780,7 +3780,7 @@ msgstr "Уведомления о вехах отношений"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgid "游戏原生社交照常进行。模组会根据成功发生的互动更新关系，短时间内的重复互动只计一次。"
 msgstr "Штатные облачка реплик ONI всегда отображаются как обычно. Мод лишь отслеживает успешно произошедшие штатные события общения, а повторный отклик отношений отсекается отдельно."
 
 #. resolved-locale: ru
@@ -3888,7 +3888,7 @@ msgstr "Пакеты контента"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgid "模组闲聊：同一对复制人的间隔（秒）"
 msgstr "Перезарядка добавленной модом болтовни одной пары (сек.)"
 
 #. resolved-locale: ru
@@ -3900,7 +3900,7 @@ msgstr "{0} готовится сказать {1} нечто важное, ос�
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES"
-msgid "待发生等待周期"
+msgid "重要事件等待时长（周期）"
 msgstr "Циклы ожидания до события"
 
 #. resolved-locale: ru
@@ -3912,13 +3912,13 @@ msgstr "Скоро случится важное"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW"
-msgid "待发生窗口"
+msgid "重要关系事件倒计时"
 msgstr "Окно ожидания"
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT"
-msgid "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。"
+msgid "开启后，告白等重要事件会先进入倒计时。关闭后直接发生，结果、演出和通知照常。"
 msgstr "Если выключить, признание и подобные события случаются сразу, но постановка и уведомления остаются. Меняется только момент, не исход."
 
 #. resolved-locale: ru
@@ -3942,7 +3942,7 @@ msgstr "Фокус"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT"
-msgid "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。"
+msgid "「聚焦」会自动将镜头移向事件；「标准」保留当前镜头。演出方式不影响事件结果。"
 msgstr "Обычная не перехватывает камеру; сама наводится только «Фокус». Не меняет, случатся ли события, и не меняет числа."
 
 #. resolved-locale: ru
@@ -4020,7 +4020,7 @@ msgstr "Соперники мешают друг другу в работе"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT"
-msgid "两个已经结成宿敌的复制人，在三格之内做同一类活时，双方的工作效率一起下降——这是「并肩作战」加成的镜像。它不流血、不加压力、不扣士气，也不改变好感：唯一的代价是你的产能。这是本 mod 第一项让恶化的人际关系真的花你钱的内容。摩擦只在真正干活时出现：睡觉、集体活动、吃饭、发呆这些常见事件完全不受影响。安全线：效率有下限，无论怎么配都不会归零；治疗、看病、吃药、水下换气、抢氧气和逃命途中都不会被拖慢。出口在你身上：把两个人调开，或者牵线让这段关系解冻。预设开启；「戏剧强度」设为「安静」时强制关闭"
+msgid "宿敌在三格内做同类工作时，双方效率会下降。只在实际工作时生效，不影响休息、用餐、治疗和逃生，也不额外改变压力或好感。可调开两人，或牵线缓和关系。默认开启，「安静」预设下关闭。"
 msgstr "Двое дубликантов, ставших соперниками, теряют эффективность, когда делают одну и ту же работу в пределах трёх клеток друг от друга — зеркало бонуса «Плечом к плечу». Ни крови, ни стресса, ни морали, ни изменения симпатии: единственная плата — ваша производительность. Это первая функция мода, где испорченные отношения действительно выставляют вам счёт. Трение проявляется только во время настоящей работы: сон, совместный отдых, еда и безделье не затрагиваются. Линия безопасности: у эффективности есть нижний предел, она никогда не падает до нуля при любых настройках, а лечение, приём лекарств, вдох под водой, добыча кислорода и бегство в безопасное место не замедляются. Выход за вами: развести их или свести через сватовство. Включено по умолчанию; пресет «Тихо» принудительно отключает."
 
 #. resolved-locale: ru
@@ -4038,13 +4038,13 @@ msgstr "Сохранить"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK"
-msgid "已保存，并已对当前会话生效。"
+msgid "设置已保存。标注需重启或读档的项目将在之后生效。"
 msgstr "Сохранено и уже действует в этой сессии."
 
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.SAVE_FAILED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVE_FAILED"
-msgid "保存失败，详情见日志。"
+msgid "设置未能保存，请查看日志中的失败原因。"
 msgstr "Сохранить не удалось, подробности в журнале."
 
 #. resolved-locale: ru
@@ -4062,7 +4062,7 @@ msgstr "Баланс"
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.SECTION_DARK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_DARK"
-msgid "黑暗内容（人性考验）"
+msgid "黑暗内容"
 msgstr "Тёмное содержание (испытание человечности)"
 
 #. resolved-locale: ru
@@ -4104,7 +4104,7 @@ msgstr "Мягкий потолок социального Стресса (0 = �
 #. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT"
-msgid "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告"
+msgid "默认关闭。开启后在本机记录事件、关系、日程和性能数据，复制人使用匿名编号。不记录 API 密钥、AI 地址或存档正文，也不会自动上传。可在「社交 → 纪事」导出诊断报告。"
 msgstr "По умолчанию выкл. Если включить, на этом компьютере пишутся частоты событий, расклад отношений, эффект Стресса мода, доли расписания и время работы; дубликанты нумеруются анонимно, API Key, адрес ИИ и текст сохранения не пишутся и никуда сами не уходят. Диагностический отчёт можно выгрузить в партии: «Общение → журнал событий»"
 
 #. resolved-locale: ru

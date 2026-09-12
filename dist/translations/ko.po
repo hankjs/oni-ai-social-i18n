@@ -6,7 +6,7 @@ msgstr ""
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.ANNIVERSARY_BODY"
-msgid "{0} 和 {1} 的纪念日约会圆满结束，甜蜜加倍。"
+msgid "{0} 和 {1} 一起过了纪念日。"
 msgstr "{0}와 {1}의 기념일 데이트가 순조롭게 끝나, 달콤함이 배가되었습니다."
 
 #. resolved-locale: ko
@@ -66,25 +66,25 @@ msgstr "주먹다짐이다!"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_BODY"
-msgid "{0} 当场{2}，{1} 个人停下来看着他。这几个周期里，有人愿意过去坐一下的话，他会记一辈子。"
+msgid "{0} 当场{2}，{1} 名同伴目睹了这一幕。之后几周期内，主动倾诉、照顾或共餐可以带来安慰。"
 msgstr "{0}가 그 자리에서 {2}, {1}명이 멈춰 서서 그를 봤습니다. 이후 몇 사이클 안에 누군가 가서 앉아 준다면, 그는 평생 기억할 것입니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_BODY"
-msgid "{0} 过去陪 {1} 坐了一会儿。没说什么要紧的话——但 {1} 会一直记得是谁第一个过来。"
+msgid "{0} 关心了崩溃后的 {1}，让这段难熬的日子多了一点陪伴。"
 msgstr "{0}가 {1} 곁에 잠시 앉아 주었습니다. 중요한 말은 하지 않았습니다. 하지만 {1}은 누가 먼저 왔는지를 오래 기억할 것입니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_COMFORT_TITLE"
-msgid "第一个坐下来的人"
+msgid "崩溃后的陪伴"
 msgstr "먼저 앉은 사람"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.BREAKDOWN_TITLE"
-msgid "整个房间都看着"
+msgid "有人崩溃了"
 msgstr "방 전체가 보고 있다"
 
 #. resolved-locale: ko
@@ -156,7 +156,7 @@ msgstr "{0}가 {1}에게 고백하여 성공했고, 두 사람은 정식으로 �
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_FAIL_BODY"
-msgid "{0} 向 {1} 表明了心意，但没有得到回应。"
+msgid "{0} 向 {1} 表明了心意，但对方没有答应。"
 msgstr "{0}가 {1}에게 마음을 밝혔지만, 대답을 얻지 못했습니다."
 
 #. resolved-locale: ko
@@ -168,7 +168,7 @@ msgstr "고백이 거절됨"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.CONFESSION_TITLE"
-msgid "喜结连理"
+msgid "在一起了"
 msgstr "백년가약"
 
 #. resolved-locale: ko
@@ -198,7 +198,7 @@ msgstr "결렬"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_AVERTED_BODY"
-msgid "食物及时送到，殖民地从边缘退了回来。没有人提起前几天在想什么。"
+msgid "粮食及时补上，眼前的断粮危机解除了。"
 msgstr "식량이 제때 도착해, 식민지는 가장자리에서 물러났습니다. 앞날에 무엇을 생각했는지는 아무도 꺼내지 않습니다."
 
 #. resolved-locale: ko
@@ -222,7 +222,7 @@ msgstr "살아남아라!"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_LAST_ONE_BODY"
-msgid "只剩一个人了。基地很安静，食物也够了。"
+msgid "殖民地只剩一名幸存者。"
 msgstr "한 사람만 남았습니다. 기지는 조용하고, 식량도 충분합니다."
 
 #. resolved-locale: ko
@@ -234,7 +234,7 @@ msgstr "마지막 식민자"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_OVER_BODY"
-msgid "储藏室重新有了食物。没有人问那是什么。"
+msgid "粮食恢复供应，这场饥荒结束了。"
 msgstr "창고에 다시 식량이 있습니다. 그것이 무엇인지 묻는 사람은 없습니다."
 
 #. resolved-locale: ko
@@ -246,7 +246,7 @@ msgstr "기근이 지나갔다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.FAMINE_WARNING_BODY"
-msgid "储藏室空了，多人正在挨饿。再这样下去，他们会开始自己想办法——现在补上粮食还来得及。"
+msgid "粮食短缺，多人正在挨饿。若倒数结束前仍没有补上食物，可能发生断粮相残。"
 msgstr "창고가 비었고, 여럿이 굶고 있습니다. 이대로면 스스로 방법을 찾기 시작합니다. 지금 식량을 보충하면 아직 늦지 않습니다."
 
 #. resolved-locale: ko
@@ -276,7 +276,7 @@ msgstr "{0}와 {1}가 오래 함께하며, 정은 가늘고 길게 흐르는 단
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.LOVE_MATURE_TITLE"
-msgid "老夫老妻"
+msgid "相伴已久"
 msgstr "정든 부부"
 
 #. resolved-locale: ko
@@ -372,7 +372,7 @@ msgstr "반려를 잃다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_BLAME_BODY"
-msgid "殖民地刚出了事，而 {0} 是人缘垫底的那个——帐就这么算在 TA 头上了。现在把 TA 和一位受人敬重的同事牵线，那人会站出来说句公道话；错过这段时间，TA 会被孤立起来。"
+msgid "殖民地遭遇了灾祸，众人的怒气转向了 {0}。及时与一位声望较高的同伴牵线，可以让对方出面说话；若无人解围，{0} 可能被孤立。"
 msgstr "식민지에 일이 막 터졌고, {0}은 인기가 바닥인 사람입니다. 그 책임은 그렇게 그 사람에게 돌아갔습니다. 지금 그 사람과 존경받는 동료를 중매하면, 그 동료가 나서서 공정한 한 마디를 합니다. 이 시기를 놓치면 그 사람은 고립됩니다."
 
 #. resolved-locale: ko
@@ -384,7 +384,7 @@ msgstr "누군가는 책임져야 한다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_FADED_BODY"
-msgid "没人救 {0}，但也没人再记得那件事了。日子照过。"
+msgid "针对 {0} 的孤立随着时间过去了。"
 msgstr "아무도 {0}를 구하지 않았지만, 그 일을 기억하는 사람도 없어졌습니다. 날은 그대로 갑니다."
 
 #. resolved-locale: ko
@@ -396,37 +396,37 @@ msgstr "잊혀졌다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_BODY"
-msgid "没人替 {0} 说话。现在起同事路过会别开脸，同桌的人提前离席。任何一个人愿意去照顾 TA、找 TA 聊聊或一起吃顿饭，这件事就到此为止。"
+msgid "{0} 被孤立了，同伴开始疏远，共餐也可能被冷落。有人主动照顾、听取倾诉或一起吃饭，就能帮助打破孤立。"
 msgstr "아무도 {0}을 변호하지 않았습니다. 이제부터 동료는 지나가며 얼굴을 돌리고, 같은 자리의 사람은 먼저 일어납니다. 누구든 그 사람을 돌보거나, 말을 걸거나, 함께 식사하면 이 일은 여기서 끝입니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_ISOLATED_TITLE"
-msgid "没人跟他说话了"
+msgid "被疏远了"
 msgstr "아무도 말을 걸지 않는다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_BODY"
-msgid "四下无人的时候，{0} 动手打了 {1}。同事都不知道——这件事只有你看见了。"
+msgid "{0} 把怒气撒在了 {1} 身上，动了手。"
 msgstr "사방에 사람이 없을 때, {0}가 {1}를 때렸습니다. 동료는 아무도 모릅니다. 이 일을 본 것은 당신뿐입니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_PUNCH_TITLE"
-msgid "没人看见"
+msgid "迁怒变成了殴打"
 msgstr "아무도 보지 못했다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_BODY"
-msgid "{0} 坐到了 {1} 旁边。孤立到此结束——这种事从来只需要一个人先动。"
+msgid "{0} 主动关心了 {1}，孤立结束了。"
 msgstr "{0}가 {1} 옆에 앉았습니다. 고립은 여기서 끝입니다. 이런 일은 언제나 한 사람이 먼저 움직이면 충분합니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.ANNOUNCE.WRATH_RESCUE_TITLE"
-msgid "第一个坐下来的人"
+msgid "有人伸出了手"
 msgstr "먼저 앉은 사람"
 
 #. resolved-locale: ko
@@ -744,25 +744,25 @@ msgstr "궁합: {0}"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.INTEREST
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.INTEREST"
-msgid "共同话题：共同兴趣是{0}"
+msgid "共同兴趣：{0}"
 msgstr "공통 화제: 공통 관심사 {0}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.NONE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.NONE"
-msgid "共同话题：已知兴趣暂无交集"
+msgid "共同话题：暂未发现共同兴趣"
 msgstr "공통 화제: 확인된 관심사가 겹치지 않음"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.UNKNOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.UNKNOWN"
-msgid "共同话题：暂无可用信息"
+msgid "共同话题：还没有足够信息"
 msgstr "공통 화제: 이용 가능한 정보 없음"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.WORK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.COMMON_TOPIC.WORK"
-msgid "共同话题：最近都做过{0}"
+msgid "最近都做过：{0}"
 msgstr "공통 화제: 최근 둘 다 {0} 작업을 함"
 
 #. resolved-locale: ko
@@ -786,7 +786,7 @@ msgstr "사과"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.APOLOGY_BOND"
-msgid "不打不相识"
+msgid "道歉后交好"
 msgstr "싸우고 친해지다"
 
 #. resolved-locale: ko
@@ -810,7 +810,7 @@ msgstr "재난 후 화풀이 대상"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.BOUND_BLOCKED"
-msgid "界限·受阻"
+msgid "关系达到界限"
 msgstr "한계·가로막힘"
 
 #. resolved-locale: ko
@@ -972,13 +972,13 @@ msgstr "비탄이 잦아듦"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_COMRADE"
-msgid "一起在下面待过"
+msgid "共担危险"
 msgstr "함께 아래를 겪었다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.HAZARD_EASED"
-msgid "他最近也下来了"
+msgid "危险分工的怨气渐退"
 msgstr "그도 요즘은 내려온다"
 
 #. resolved-locale: ko
@@ -1080,7 +1080,7 @@ msgstr "그 최악의 모습을 봤다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.SHARED_MEAL"
-msgid "共同进食"
+msgid "一起吃饭"
 msgstr "함께 식사"
 
 #. resolved-locale: ko
@@ -1128,7 +1128,7 @@ msgstr "새 동료 환영"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WITNESSED_BREAKDOWN"
-msgid "陪伴低谷"
+msgid "目睹崩溃"
 msgstr "바닥을 함께하다"
 
 #. resolved-locale: ko
@@ -1152,19 +1152,19 @@ msgstr "식탁에서 외면당함"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_PUNCHED"
-msgid "被偷揍"
+msgid "遭到殴打"
 msgstr "몰래 맞음"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_RESCUED"
-msgid "第一个坐下来的人"
+msgid "打破孤立"
 msgstr "먼저 앉은 사람"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_SAW_CRYING"
-msgid "撞见他一个人在哭"
+msgid "撞见独自哭泣"
 msgstr "혼자 우는 걸 목격"
 
 #. resolved-locale: ko
@@ -1176,7 +1176,7 @@ msgstr "누군가 변호해 줌"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.EVENT.WRATH_WITNESSED"
-msgid "我看见他打人"
+msgid "目睹殴打"
 msgstr "그 사람이 때리는 걸 봤다"
 
 #. resolved-locale: ko
@@ -1206,7 +1206,7 @@ msgstr "다음 단계까지 상호 호감도 {0} 필요"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.CEREMONY_PENDING"
-msgid "关系事件已在待发生中（剩余 {0} 周期）"
+msgid "关系事件即将发生（剩余 {0} 周期）"
 msgstr "관계 이벤트가 대기 중입니다(남은 주기: {0})"
 
 #. resolved-locale: ko
@@ -1218,7 +1218,7 @@ msgstr "냉전 중입니다. 회복하지 못하면 {0}주기 후 결별 절차�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.CONFESSION_PENDING"
-msgid "告白已在待发生中（剩余 {0} 周期）"
+msgid "告白即将发生（剩余 {0} 周期）"
 msgstr "고백이 대기 중입니다(남은 주기: {0})"
 
 #. resolved-locale: ko
@@ -1266,7 +1266,7 @@ msgstr "아직 관계 기록이 없습니다. 다음 기준: {0}"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.GROWTH.PARTNER_UNAVAILABLE"
-msgid "已达到门槛，但单偶制暂不允许告白"
+msgid "已有伴侣，暂时不能向其他人告白"
 msgstr "기준을 충족했지만 현재 일부일처 규칙으로 고백할 수 없습니다"
 
 #. resolved-locale: ko
@@ -1314,7 +1314,7 @@ msgstr "{0}의 성격이 {1}에서 {2}로 바뀌었습니다."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY.CAUSE.UPHEAVAL"
-msgid "{0} 性格大变，{1}性格 变成了 {2}性格。"
+msgid "{0}经历了性格变化，从「{1}」变成了「{2}」。"
 msgstr "{0}의 성격이 크게 바뀌어, {1}성격이 {2}성격이 되었습니다."
 
 #. resolved-locale: ko
@@ -1404,7 +1404,7 @@ msgstr "성격 수정"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.PERSONALITY_CHANGE_TOOLTIP"
-msgid "引导这名复制人换成另一种社交性格。旧性格留在履历里，只做展示，不再参与之后的社交随机。"
+msgid "更换这名复制人的社交性格。旧性格会保留在履历中，之后的社交使用新性格。"
 msgstr "이 복제인간을 다른 사교 성격으로 이끕니다. 옛 성격은 이력에만 남고 전시용이며, 이후 사교 난수에는 참여하지 않습니다."
 
 #. resolved-locale: ko
@@ -1464,7 +1464,7 @@ msgstr "대인 관계"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.RELATIONSHIP_STATE.ACQUAINTED"
-msgid "熟络"
+msgid "相识"
 msgstr "안면"
 
 #. resolved-locale: ko
@@ -1524,7 +1524,7 @@ msgstr "타인"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_LABEL"
-msgid "声望（仅供观察）"
+msgid "声望"
 msgstr "명성(관찰 전용)"
 
 #. resolved-locale: ko
@@ -1560,7 +1560,7 @@ msgstr "인기 있음"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.REPUTATION_TOOLTIP"
-msgid "与全体存活复制人的平均好感。目前只反映人缘高低，不影响任何判定；声望玩法留待后续版本。"
+msgid "与全体存活复制人的平均好感，反映人缘。开启集体迁怒后，也会影响谁被迁怒、谁能出面说话。"
 msgstr "생존 중인 모든 복제인간과의 평균 호감입니다. 지금은 인기의 높낮이만 보여 주며 판정에는 영향을 주지 않습니다. 명성 플레이는 이후 버전에서 다룹니다."
 
 #. resolved-locale: ko
@@ -1572,7 +1572,7 @@ msgstr "개인 이야기 보기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_EMPTY"
-msgid "还没有形成可阅读的人生章节"
+msgid "还没有收录个人故事"
 msgstr "아직 읽을 수 있는 인생 장이 없습니다"
 
 #. resolved-locale: ko
@@ -1590,7 +1590,7 @@ msgstr "개인 이야기"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.DETAILS.STORY_PREVIEW_TOOLTIP"
-msgid "这名复制人最近一段被收录的人生经历"
+msgid "查看这名复制人最近收录的经历"
 msgstr "이 복제체의 가장 최근 인생 장을 요약해 보여줍니다"
 
 #. resolved-locale: ko
@@ -1902,13 +1902,13 @@ msgstr "연애 중"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.DESC"
-msgid "相伴已久,是彼此最安心的存在。士气大幅提升。"
+msgid "相伴已久，是彼此安心的存在。士气大幅提升。"
 msgstr "오래 함께하며, 서로에게 가장 안심이 되는 존재입니다. 사기가 크게 오릅니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.LOVE_MATURE.NAME"
-msgid "老夫老妻"
+msgid "相伴已久"
 msgstr "정든 부부"
 
 #. resolved-locale: ko
@@ -1968,7 +1968,7 @@ msgstr "감정 팽팽"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.EFFECTS.WRATH_ISOLATED.DESC"
-msgid "殖民地出了事，而 TA 是人缘垫底的那个——所以帐算在 TA 头上了，跟事情是不是 TA 做的无关。有人愿意照顾 TA、找 TA 说话或跟 TA 一起吃顿饭，这个状态就会解除；再久一点，事情也会被淡忘。"
+msgid "成了众人迁怒的对象，正在被疏远。有人主动照顾、听取倾诉或一起吃饭，就能打破孤立；这个状态也会随时间消退。"
 msgstr "식민지에 일이 터졌고 그 사람은 인기가 바닥이었습니다. 그래서 그 일의 책임이 그 사람에게 갔습니다. 그 사람이 했는지는 상관없습니다. 누군가 그 사람을 돌보거나, 말을 걸거나, 함께 식사하면 이 상태가 풀립니다. 더 오래 두면 일도 잊혀집니다."
 
 #. resolved-locale: ko
@@ -1980,13 +1980,13 @@ msgstr "고립됨"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.DESC"
-msgid "断粮那几天留下来的。没有人问这是谁，也没有人愿意先动筷子。"
+msgid "把它晒干就不再像是人类的肉了，对吗？"
 msgstr "식량이 끊겼던 며칠이 남긴 것입니다. 누구인지 묻는 사람도, 먼저 젓가락을 드는 사람도 없습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.FOOD.CANNIBAL_MEAT.NAME"
-msgid "「同事」肉"
+msgid "长猪肉"
 msgstr "「동료」 고기"
 
 #. resolved-locale: ko
@@ -2070,7 +2070,7 @@ msgstr "나"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_ART
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_ART"
-msgid "新挂的装饰"
+msgid "装饰的样子"
 msgstr "새로 건 장식"
 
 #. resolved-locale: ko
@@ -2088,7 +2088,7 @@ msgstr "건축의 요령"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_COOKING"
-msgid "新琢磨的菜谱"
+msgid "做饭的窍门"
 msgstr "새로 궁리한 레시피"
 
 #. resolved-locale: ko
@@ -2112,7 +2112,7 @@ msgstr "운반 경로"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_BUILDER"
-msgid "新盖的走廊"
+msgid "建造的活"
 msgstr "새로 지은 복도"
 
 #. resolved-locale: ko
@@ -2124,7 +2124,7 @@ msgstr "화덕 위의 새 재주"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_DOCTOR"
-msgid "医务室的药箱"
+msgid "照顾病人的事"
 msgstr "의무실의 약상자"
 
 #. resolved-locale: ko
@@ -2142,7 +2142,7 @@ msgstr "갱도 안의 일"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_JOB_OPERATOR"
-msgid "机器的毛病"
+msgid "机器的运转"
 msgstr "기계의 고장"
 
 #. resolved-locale: ko
@@ -2178,7 +2178,7 @@ msgstr "작은 동물들의 성미"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.LOG_STORY.TOPIC_RESEARCH"
-msgid "研究的新发现"
+msgid "研究的进展"
 msgstr "연구의 새 발견"
 
 #. resolved-locale: ko
@@ -2232,25 +2232,25 @@ msgstr "한계"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_INVALID"
-msgid "设置失败:最差关系不能好过最好关系"
+msgid "设置未生效：最差关系不能好过最好关系"
 msgstr "설정 실패: 가장 나쁜 관계는 가장 좋은 관계보다 나을 수 없습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MAX_LABEL"
-msgid "最好关系:{0}"
+msgid "最好关系：{0}"
 msgstr "가장 좋은 관계:{0}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_MIN_LABEL"
-msgid "最差关系:{0}"
+msgid "最差关系：{0}"
 msgstr "가장 나쁜 관계:{0}"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.BOUNDS_PICKER_HINT"
-msgid "只显示与另一侧兼容的档位。只做朋友：最好设为朋友；保护伴侣关系：最差设为恋人。不会立即改变当前关系，也不阻止争执或丧偶。"
+msgid "这里会列出可以搭配的关系范围。只想让两人做朋友，可把最好关系设为朋友；想保留恋人关系，可把最差关系设为恋人。设置只影响之后的自然变化，争执和丧偶仍可能发生。"
 msgstr "반대쪽 한계와 양립하는 단계만 표시합니다. 친구로만 지내려면 최고를 친구로, 연인 관계를 보호하려면 최저를 연인으로 설정하세요. 현재 관계를 즉시 바꾸거나 말다툼과 사별을 막지는 않습니다."
 
 #. resolved-locale: ko
@@ -2448,7 +2448,7 @@ msgstr "인물:{0}"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.LOG_NAME_GONE"
-msgid "{0} 已不在殖民地,无法跳转"
+msgid "{0} 已不在殖民地，无法定位"
 msgstr "{0}은 이미 식민지에 없어, 이동할 수 없습니다"
 
 #. resolved-locale: ko
@@ -2520,7 +2520,7 @@ msgstr "고를 수 있는 복제인간이 없습니다."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.NO_FILTER_RESULTS"
-msgid "没有符合筛选条件的关系"
+msgid "没有符合条件的关系，可以试着调整筛选。"
 msgstr "선별 조건에 맞는 관계가 없습니다"
 
 #. resolved-locale: ko
@@ -2562,7 +2562,7 @@ msgstr "{0}　[{1}]"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_BUTTON"
-msgid "待发生"
+msgid "即将发生"
 msgstr "대기 중"
 
 #. resolved-locale: ko
@@ -2574,7 +2574,7 @@ msgstr "고백"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_EMPTY"
-msgid "目前没有待发生的社交事件。"
+msgid "目前没有正在倒数的关系事件。"
 msgstr "지금은 대기 중인 사교 이벤트가 없습니다."
 
 #. resolved-locale: ko
@@ -2586,13 +2586,13 @@ msgstr "지금 발생"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_HINT"
-msgid "这里会列出告白、分手、和解和结成宿敌。结果已经锁定；点击事件可立即安排，也可以等待倒计时结束。"
+msgid "告白、分手、和解和结成宿敌会在这里倒数。可以等待倒数结束，也可以选择立即安排；结果不受等待时长影响。"
 msgstr "여기에 고백, 이별, 화해, 숙적 맺기가 나열됩니다. 결과는 이미 잠겼습니다. 이벤트를 누르면 바로 주선할 수 있고, 카운트다운이 끝나기를 기다려도 됩니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_REQUESTED"
-msgid "事件已请求，正在等待安全时机"
+msgid "已安排，正在等待安全会合"
 msgstr "이벤트가 요청되었고, 안전한 때를 기다리는 중"
 
 #. resolved-locale: ko
@@ -2610,7 +2610,7 @@ msgstr "【{0}】{1} → {2} · {3}사이클 남음"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PENDING_TITLE"
-msgid "待发生的社交事件"
+msgid "即将发生的关系事件"
 msgstr "대기 중인 사교 이벤트"
 
 #. resolved-locale: ko
@@ -2646,13 +2646,13 @@ msgstr "복제인간 한 명을 골라, 그와 관련된 모든 중매와 차단
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_MESSAGE"
-msgid "选一名复制人,日志只显示他参与的事件——他的一段人生。"
+msgid "选择一名复制人，只查看其参与的事件。"
 msgstr "복제인간 한 명을 고르면, 기록은 그 사람이 참여한 사건만 보여 줍니다. 그 사람의 한 생애입니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.PICKER_FILTER_TITLE"
-msgid "查看谁的故事?"
+msgid "查看谁的故事？"
 msgstr "누구의 이야기를 볼까요?"
 
 #. resolved-locale: ko
@@ -2898,7 +2898,7 @@ msgstr "삶의 각 장을 대표하는 경험을 골라 보여 주며, 완전한
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.MANAGEMENT.TELEMETRY_DISABLED"
-msgid "请先在 Mod 设置中开启「本地玩法数据」"
+msgid "请先在模组设置中开启「记录本地玩法数据」"
 msgstr "먼저 Mod 설정에서 「로컬 플레이 데이터」를 켜세요"
 
 #. resolved-locale: ko
@@ -2934,13 +2934,13 @@ msgstr "이전 표시 작업을 취소했습니다."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_1"
-msgid "话到嘴边，又咽了回去……"
+msgid "我还有点没想好。"
 msgstr "목까지 올라온 말을, 도로 삼켰어……"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_COUPLE_2"
-msgid "心跳得厉害，却怎么也说不出口。"
+msgid "有些话，我现在说不出口。"
 msgstr "심장은 이렇게 뛰는데, 말이 안 나와."
 
 #. resolved-locale: ko
@@ -2952,13 +2952,13 @@ msgstr "아마도……조금만 더 기다리자."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_1"
-msgid "好像很久没说话了，但又没什么变化。"
+msgid "好久没好好说话了。"
 msgstr "한참 말도 안 섞었는데, 딱히 달라진 게 없네."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_FADE_2"
-msgid "感情淡不下去，也挺奇怪的。"
+msgid "有空还是想找你聊聊。"
 msgstr "옅어지지도 않는 게, 참 이상해."
 
 #. resolved-locale: ko
@@ -2970,31 +2970,31 @@ msgstr "됐어……그럴 가치도 없어."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_2"
-msgid "火气上来，又莫名其妙消了。"
+msgid "不说了，越说越气。"
 msgstr "화가 확 치밀었다가, 왜인지 스르르 가라앉았어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_RIVAL_3"
-msgid "我不想再见到他——大概吧。"
+msgid "我先走，省得又吵起来。"
 msgstr "다시는 보고 싶지 않아. ……아마도."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_1"
-msgid "吵到一半，突然不想吵了。"
+msgid "先到这儿吧，我不想再吵了。"
 msgstr "싸우다 말고, 갑자기 다 부질없어졌어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_2"
-msgid "狠话到了嘴边，谁也没说出口。"
+msgid "有些话还是别说绝了。"
 msgstr "모진 말은, 누구도 끝내 꺼내지 않았어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BOUND_BLOCK_SPLIT_3"
-msgid "……就当没发生过吧。"
+msgid "……让我想一想吧。"
 msgstr "……없던 일로 하자."
 
 #. resolved-locale: ko
@@ -3018,187 +3018,187 @@ msgstr "여기까지면 됐어. 이것도 나쁘지 않아."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_1"
-msgid "打起来了！打起来了！"
+msgid "真打起来了！"
 msgstr "붙었다! 싸운다! 싸운다!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_2"
-msgid "都别拦着！……哦，没人拦。"
+msgid "你们倒是停一下啊！"
 msgstr "아무도 말리지 마! ……아, 말릴 사람도 없네."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_3"
-msgid "让他们打！"
+msgid "这也能打起来？"
 msgstr "그냥 놔둬!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_4"
-msgid "我就吃个瓜。"
+msgid "谁去拉开他们？"
 msgstr "난 그냥 구경만."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_5"
-msgid "加油！呃……都加油！"
+msgid "小心！……我是说你们两个！"
 msgstr "가라! 어…… 둘 다 가라!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_CHEER_6
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_CHEER_6"
-msgid "你这瓜保熟吗？"
+msgid "都退开一点！"
 msgstr "이거, 누가 찍어야 하는 거 아니야?"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_1"
-msgid "大意了，没有闪！"
+msgid "停一下，我站不稳了！"
 msgstr "방심했어! 못 피했다고!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_2"
-msgid "耗子尾汁……我耗子尾汁……"
+msgid "够了，我认输。"
 msgstr "알았어. 알았다고! 네가 이겼어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_3"
-msgid "已老实，求放过！"
+msgid "不打了，让我缓缓！"
 msgstr "항복! 항복이라고!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_4"
-msgid "别打了别打了，我错了！"
+msgid "别打了，我错了！"
 msgstr "그만, 그만해, 내가 잘못했어!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_SURRENDER_5"
-msgid "不打了不打了！"
+msgid "不打了，到这儿吧！"
 msgstr "그만할래. 그만."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_1"
-msgid "我不是针对你，我是说在座的各位——都是垃圾！"
+msgid "你还想接着吵？"
 msgstr "너만 그런 게 아니야. 여기 있는 전부 다 짐덩어리라고."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_10
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_10"
-msgid "犹豫，就会败北！"
+msgid "我可不会一直让着你！"
 msgstr "망설이면 지는 거야. 넌 망설였어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_11
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_11"
-msgid "你给我翻译翻译，什么叫惊喜！"
+msgid "你倒是解释啊！"
 msgstr "억울하면 울든가."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_12
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_12"
-msgid "压力给到你这边了！"
+msgid "这事我还没跟你算完！"
 msgstr "자, 이제 압박은 네 쪽이야."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_13
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_13"
-msgid "不是吧阿Sir？"
+msgid "你还真敢动手！"
 msgstr "주먹 닿는 거리에서 말 한번 크네."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_14
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_14"
-msgid "格局打开！"
+msgid "少说两句漂亮话！"
 msgstr "시야 좀 넓혀. 그 얼굴부터."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_15
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_15"
-msgid "小丑竟是我自己！"
+msgid "行，这回是我没站稳！"
 msgstr "광대는 나였네, 널 믿은 순간부터."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_16
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_16"
-msgid "以前是以前，现在是现在！"
+msgid "旧账也不是你想翻就翻！"
 msgstr "예전은 예전이고, 지금은 지금이야."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_17
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_17"
-msgid "年轻人，不讲武德！"
+msgid "说着话怎么就动手了！"
 msgstr "요즘 애들은, 예의라는 게 없어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_18
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_18"
-msgid "退！退！退！"
+msgid "退后，别再挤过来！"
 msgstr "물러나. 물러나. 물러나라고!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_19
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_19"
-msgid "我最讨厌事后道歉！"
+msgid "别打完才来道歉！"
 msgstr "사과는 됐어. 뒤늦게 미안하다는 게 제일 싫어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_2
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_2"
-msgid "菜就多练！"
+msgid "有话说清楚，别推我！"
 msgstr "못하면 연습을 해."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_20
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_20"
-msgid "你的嘴比没接过滤器的排气口还脏！"
+msgid "你能不能把嘴放干净点！"
 msgstr "네 입은 필터도 안 단 배기구보다 더러워."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_3"
-msgid "我从未见过有如此厚颜无耻之人！"
+msgid "你非得动手是吧？"
 msgstr "이렇게까지 뻔뻔한 인간은 처음 봐."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_4"
-msgid "回答我！LOOK IN MY EYES!"
+msgid "看着我，把话说完！"
 msgstr "나 봐. 나 보라고!"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_5
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_5"
-msgid "就这？就这？"
+msgid "还没完呢！"
 msgstr "그게 다야? 그게 끝이야?"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_6
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_6"
-msgid "你在教我做事啊？"
+msgid "别冲我指手画脚！"
 msgstr "오, 이제 나한테 일을 가르치시겠다?"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_7
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_7"
-msgid "怎么不找找你自己的问题？"
+msgid "你就一点错都没有？"
 msgstr "문제가 너일 수도 있다는 생각은 안 해 봤어?"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_8
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_8"
-msgid "半场开香槟？"
+msgid "先别得意！"
 msgstr "아직 반밖에 안 왔는데 벌써 축배야?"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_9
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.BRAWL_TRASH_TALK_9"
-msgid "你急了？你急了？"
+msgid "你声音大就有理了？"
 msgstr "오, 화났네? 화났어?"
 
 #. resolved-locale: ko
@@ -3354,7 +3354,7 @@ msgstr "마침 잘 됐네. 나도 너와 화해할 생각 없어."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_1
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_1"
-msgid "我吃完了。"
+msgid "我去别处坐。"
 msgstr "다 먹었어."
 
 #. resolved-locale: ko
@@ -3366,13 +3366,13 @@ msgstr "……저쪽에서 먹을게."
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_3
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_3"
-msgid "这桌满了。"
+msgid "我想自己吃。"
 msgstr "이 자리 꽉 찼어."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_4
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SCENE.WRATH_MEAL_SNUB_4"
-msgid "突然想起来还有活。"
+msgid "这顿我想清静点。"
 msgstr "아 참, 아직 일이 남았지."
 
 #. resolved-locale: ko
@@ -3384,43 +3384,43 @@ msgstr "호감 증감 떠다니는 숫자"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AI_WIP_HINT"
-msgid "AI 台词尚未开发完善，默认关闭；关闭时全程使用内置台词，玩法完整"
+msgid "AI 对话仍在完善中，默认关闭。关闭时使用内置台词，社交玩法照常运行。"
 msgstr "AI 대사는 아직 충분히 다듬이지 않아 기본값은 끔입니다. 끄면 전 구간 내장 대사를 쓰며, 플레이는 완전합니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.AMBIENT_CHAT_COOLDOWN"
-msgid "模组新增闲聊：同一复制人的冷却（秒）"
+msgid "模组闲聊：同一复制人的间隔（秒）"
 msgstr "모드가 추가한 잡담: 복제인간별 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_ENDPOINT_MISSING"
-msgid "Key 已填写，但 API 地址或模型未填写/无效，AI 对话不会发起"
+msgid "请检查 API 地址和模型名称。填写完整前，将使用内置台词。"
 msgstr "Key는 채워졌지만 API 주소나 모델이 비었거나 유효하지 않아, AI 대화는 시작되지 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_KEY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY"
-msgid "API Key"
+msgid "API 密钥"
 msgstr "API Key"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_MISSING"
-msgid "未填写 Key，AI 对话不会发起，仅使用内置台词"
+msgid "尚未填写密钥，将使用内置台词"
 msgstr "Key가 없어 AI 대화는 시작되지 않고, 내장 대사만 씁니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_PLACEHOLDER"
-msgid "粘贴你的 API Key"
+msgid "粘贴 API 密钥"
 msgstr "API Key를 붙여 넣으세요"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.API_KEY_SET
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.API_KEY_SET"
-msgid "Key 已填写，保存后立即生效"
+msgid "已填写密钥，保存后生效"
 msgstr "Key가 채워졌습니다. 저장 후 바로 적용됩니다"
 
 #. resolved-locale: ko
@@ -3462,19 +3462,19 @@ msgstr "숙적 주먹다짐 허용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BRAWLS_HINT"
-msgid "宿敌之间的争执有几率升级成真的打起来：回合制互殴、点到为止（任一方掉到半血双双收手），宿敌互殴不会打死人（断粮相残是另一回事，见下）。默认关——想看好戏的自己开。屏蔽标记可以彻底禁止一对互殴；「戏剧强度」设为「安静」时即使打开也不会触发"
+msgid "宿敌争执时可能动手，任一方降至半血就会停止，互殴不会致死。默认关闭，需同时开启「黑暗内容」；屏蔽互动或使用「安静」预设可阻止触发。"
 msgstr "숙적 사이의 말다툼이 진짜 싸움으로 번질 확률이 있습니다. 턴제 주먹다짐이며 선을 지킵니다(한쪽이 체력 절반까지 떨어지면 둘 다 손을 뗍니다). 숙적 주먹다짐은 사람을 죽이지 않습니다(식량 단절 상잔은 다른 일이며, 아래를 보세요). 기본값은 끔입니다. 구경하고 싶으면 직접 켜세요. 차단 표시는 한 쌍의 주먹다짐을 완전히 막을 수 있습니다. 「극적 강도」를 「조용」으로 두면 켜 두어도 발동하지 않습니다"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA"
-msgid "把崩溃演成一场戏"
+msgid "显示崩溃与后续陪伴"
 msgstr "붕괴를 한 편의 극으로 연출"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.BREAKDOWN_DRAMA_HINT"
-msgid "复制人压力满格真的崩溃时（嚎啕大哭／尖叫／呕吐／暴食／砸东西／放电），同房间的人会停下来看着他，事后在关系里留下「我看过他最糟的样子」。接下来几个周期内，第一个过去找他说话／照顾他／跟他同桌吃饭的人，会把他从崩溃里拉出来——两人好感大涨，那个人自己吃一点压力。你也可以直接牵线钦点谁去。**不改任何数值**：崩溃频率、压力、死亡率全部照旧，这一项只加演出、记忆与那道出口。预设开启"
+msgid "原生压力反应发生时，附近同伴会目睹并留下记忆。之后几周期内的首次倾诉、照顾或共餐可增进好感、减轻当事人的压力，陪伴者会承担少量压力。默认开启，不改变原生崩溃的触发条件。"
 msgstr "복제인간의 스트레스가 가득 차 진짜 붕괴할 때(목놓아 울음／비명／구토／폭식／물건 파괴／방전), 같은 방의 사람들이 멈춰 서서 그를 보고, 이후 관계에 「그 최악의 모습을 봤다」가 남습니다. 이어지는 몇 사이클 안에 먼저 가서 말을 걸거나／돌보거나／함께 식사하는 사람이 그를 붕괴에서 끌어냅니다. 둘의 호감은 크게 오르고, 그 사람은 스트레스를 조금 받습니다. 중매로 누구를 보낼지 직접 지정해도 됩니다. **수치는 전혀 바꾸지 않습니다**: 붕괴 빈도, 스트레스, 사망률은 모두 그대로이며, 이 항목은 연출·기억·그 출구만 더합니다. 기본값은 켬입니다"
 
 #. resolved-locale: ko
@@ -3498,13 +3498,13 @@ msgstr "취소"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN"
-msgid "原生聊天进入模组关系反馈的冷却（秒）"
+msgid "原生聊天影响关系的间隔（秒）"
 msgstr "ONI 원본 대화의 모드 관계 피드백 반영 쿨다운(초)"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.CHAT_FEED_COOLDOWN_HINT"
-msgid "只限制同一对重复触发模组关系反馈和后续故事。ONI 原生对话气泡始终照常显示。默认 15 秒；另受每对每周期上限限制。"
+msgid "同一对复制人的原生聊天，至少间隔这么久才再次影响模组关系。默认 15 秒，也受每周期次数上限限制。原生对话和气泡照常。"
 msgstr "같은 쌍에서 반복되는 모드 관계 피드백과 후속 이야기만 제한합니다. ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 기본 15초이며, 쌍당 사이클 상한도 적용됩니다."
 
 #. resolved-locale: ko
@@ -3528,7 +3528,7 @@ msgstr "집단 화풀이 허용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.COLLECTIVE_WRATH_HINT"
-msgid "殖民地出大事之后（有人死亡／多人崩溃／粮仓见底），全员会把帐算在人缘最差的那个人头上，无论是不是 TA 的错：好感一次性下跌，接着滑进被孤立状态——垫底三人对 TA 只跌不涨、其他人路过会闪厌恶、同桌的人提前离席。两道出口都是玩家的工具：第一幕把 TA 和一位高声望者牵线，那人会仗义执言；第二幕任何人来照顾／倾诉／共餐都算破局。没人管也不会永久卡死，时间会冲淡。需要同时打开总开关；「戏剧强度」设为「安静」时强制关闭"
+msgid "死亡、多人崩溃或断粮后，众人可能迁怒于人缘较差的同伴，使其被孤立。前期可牵线让声望较高的人出面；被孤立后，倾诉、照顾或共餐也能解围。无人介入时会随时间消退。需开启「黑暗内容」，「安静」预设下关闭。"
 msgstr "식민지에 큰일이 난 뒤(누군가의 죽음／여러 명의 붕괴／식량고 바닥), 전원은 인기가 가장 낮은 사람에게 책임을 돌립니다. 그 사람 잘못인지는 따지지 않습니다. 호감이 한 번에 떨어지고, 이어서 고립 상태로 미끄러집니다. 하위 세 명은 그 사람에 대한 호감이 떨어지기만 하고, 나머지는 지나가며 혐오를 보이고, 같은 자리의 사람은 먼저 일어납니다. 출구 두 가지는 모두 플레이어의 도구입니다. 1막에서는 그 사람과 명성이 높은 사람을 중매하면 그 사람이 의리를 세워 말해 줍니다. 2막에서는 누구든 돌봄／털어놓기／함께 식사가 국면을 깹니다. 아무도 건드리지 않아도 영구히 멈추지 않으며, 시간이 흐리면 옅어집니다. 총 스위치도 함께 켜야 하며, 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다"
 
 #. resolved-locale: ko
@@ -3546,7 +3546,7 @@ msgstr "어두운 내용 사용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DARK_CONTENT_HINT"
-msgid "总开关，默认关。打开后下面的黑暗事件才会生效——互殴、断粮相残，以及后续加入的人性考验事件。这些内容涉及复制人之间的暴力与死亡；不想要的话保持关闭即可，其余社交功能完全不受影响"
+msgid "允许出现复制人之间的暴力与死亡事件，默认关闭。开启后，还需打开对应事件开关；关闭时其余社交功能照常。"
 msgstr "총 스위치이며 기본값은 끔입니다. 켠 뒤에야 아래의 어두운 이벤트가 적용됩니다. 주먹다짐, 식량 단절 상잔, 그리고 이후에 더해질 인간성 시험 이벤트입니다. 이 내용은 복제인간 사이의 폭력과 죽음을 다룹니다. 원하지 않으면 꺼 두면 되며, 나머지 사교 기능은 전혀 영향받지 않습니다"
 
 #. resolved-locale: ko
@@ -3558,7 +3558,7 @@ msgstr "(어두운 내용 총 스위치가 꺼져 있어, 아래 항목은 당�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.DEBUG_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.DEBUG_HINT"
-msgid "以下是技术性参数，改坏了用「恢复默认」拉回来"
+msgid "开发调试参数。需要还原时可点「恢复默认」。"
 msgstr "아래는 기술 매개변수입니다. 망가뜨렸으면 「기본값 복원」으로 되돌리세요"
 
 #. resolved-locale: ko
@@ -3606,7 +3606,7 @@ msgstr "AI 생성 대화 사용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.ENABLE_TELEMETRY"
-msgid "记录匿名社交遥测"
+msgid "记录本地玩法数据"
 msgstr "익명 사교 원격측정 기록"
 
 #. resolved-locale: ko
@@ -3618,7 +3618,7 @@ msgstr "식량 단절 상잔 허용"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.FAMINE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.FAMINE_HINT"
-msgid "粮仓见底且多人挨饿时，殖民地会陷入自相残杀，死者会被做成食物。事前有警告与倒数，这段时间补上粮食即可解除；一场事件只死一人，粮食恢复就停止；问题没解决的话会再次触发。这是本 Mod 最黑暗的内容，需要同时打开总开关"
+msgid "粮食短缺且多人挨饿时，可能发生断粮相残，死者会成为食物。事前会有警告和倒数，及时补粮可解除危机。每次事件造成一人死亡；持续缺粮可能再次触发。需同时开启「黑暗内容」。"
 msgstr "식량고가 바닥나고 여럿이 굶을 때, 식민지는 서로 죽이는 지경에 빠지고 죽은 자는 식량이 됩니다. 사전에 경고와 카운트다운이 있어, 그 동안 식량을 보충하면 해제됩니다. 한 이벤트에서 죽는 사람은 한 명뿐이고, 식량이 돌아오면 멈춥니다. 문제가 풀리지 않으면 다시 발동합니다. 이 Mod에서 가장 어두운 내용이며, 총 스위치도 함께 켜야 합니다"
 
 #. resolved-locale: ko
@@ -3630,7 +3630,7 @@ msgstr "위험 근무가 원한을 쌓음"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.HAZARD_RESENTMENT_HINT"
-msgid "同一个工种里，如果有人一直被派去危险的地方（低氧、不能呼吸的气体、正在窒息或烫伤冻伤），而另一个人从来没下去过，前者会开始记恨后者：好感只跌不涨，一路下去甚至可能结成宿敌。穿着气压服工作不算——所以「谁有气压服」自动变成一个社交问题。[b]出口在你身上[/b]：去改优先级。旧帐会滑出统计窗口，不平自然消退，还会留下「他最近也下来了」。这是整个 mod 里唯一一项由[b]你改变自己的管理方式[/b]来化解的内容，而且用的是游戏原生的操作，没有新界面。两个人[b]一起[/b]在危险里也算数：那会变成战友情。而同一件事在朋友之间是另一种结果——「他替我下去了」，好感反而上升。[b]不加任何压力、不扣任何东西[/b]：恶劣环境的压力游戏本身已经给过了。全殖民地同时最多两对处于不平。预设开启；「戏剧强度」设为「安静」时强制关闭"
+msgid "同类工作中，危险工时长期落在一人身上时，可能对另一人产生怨气；朋友之间也可能表现为感激，共担危险则能增进交情。调整工作分配后，旧工时会逐渐淡出统计，怨气也会消退。穿防护服时不计入。默认开启，「安静」预设下关闭。"
 msgstr "같은 직무에서 누군가 계속 위험한 곳(저산소, 호흡 불가 기체, 질식·화상·동상 중)으로 보내지고 다른 사람은 한 번도 내려간 적이 없으면, 전자는 후자를 원망하기 시작합니다. 호감은 떨어지기만 하고, 이대로면 숙적이 될 수도 있습니다. 대기복을 입고 일한 경우는 세지 않습니다. 그래서 「누가 대기복을 가졌는가」가 그대로 사교 문제가 됩니다. [b]출구는 당신에게 있습니다[/b]: 우선순위를 바꾸면 됩니다. 옛 근무는 집계 창에서 밀려 나가고, 불공평은 자연히 옅어지며 「그도 요즘은 내려온다」가 남습니다. 이것은 모드 전체에서 유일하게 [b]당신이 관리 방식을 바꾸는 것[/b]으로 푸는 내용이며, 게임 본래의 조작만 쓰고 새 화면은 없습니다. 두 사람이 [b]함께[/b] 위험에 있는 경우도 세며, 그때는 전우애가 됩니다. 같은 일이 친구 사이에서는 다른 결과입니다. 「그 사람이 나 대신 내려갔다」가 되어 호감은 오히려 오릅니다. [b]스트레스를 더하지 않고, 아무것도 깎지 않습니다[/b]: 열악한 환경의 스트레스는 게임이 이미 주고 있습니다. 식민지 전체에서 동시에 불공평한 쌍은 최대 두 쌍입니다. 기본값은 켬입니다. 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다"
 
 #. resolved-locale: ko
@@ -3696,7 +3696,7 @@ msgstr "연대기 용량(줄)"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.LOG_CAPACITY_HINT"
-msgid "事件日志滚动区的条数上限。默认 5000 条 ≈ 预留 1MB 存档空间（未压缩估算，压缩后远小于此）；告白/死亡等里程碑另存大事记，不占此额度。读档或新局后生效"
+msgid "日常纪事最多保留的条数，默认 5000 条。告白、死亡等大事另行保存，不占此额度。读档或新局后生效。"
 msgstr "이벤트 로그 스크롤 구역의 줄 수 상한입니다. 기본 5000줄 ≈ 세이브 공간 약 1MB 예약(비압축 추정, 압축 후 훨씬 작음). 고백/죽음 같은 이정표는 큰일에 따로 저장되어 이 한도를 쓰지 않습니다. 불러오기나 새 판 이후에 적용됩니다"
 
 #. resolved-locale: ko
@@ -3780,7 +3780,7 @@ msgstr "관계 이정표 알림"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.OBSERVE_NATIVE_HINT"
-msgid "ONI 原生对话气泡始终照常显示；模组只观察成功的原生社交事件，关系反馈另行去重。"
+msgid "游戏原生社交照常进行。模组会根据成功发生的互动更新关系，短时间内的重复互动只计一次。"
 msgstr "ONI 원본 대화 말풍선은 언제나 평소처럼 표시됩니다. 모드는 성공한 원본 사교 이벤트만 관찰하며, 관계 피드백은 별도로 중복을 제거합니다."
 
 #. resolved-locale: ko
@@ -3888,7 +3888,7 @@ msgstr "콘텐츠 팩"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PAIR_COOLDOWN"
-msgid "模组新增闲聊：同一对复制人的冷却（秒）"
+msgid "模组闲聊：同一对复制人的间隔（秒）"
 msgstr "모드가 추가한 잡담: 쌍별 쿨다운(초)"
 
 #. resolved-locale: ko
@@ -3900,7 +3900,7 @@ msgstr "{0}가 {1}에게 중요한 말을 하려 하며, {2}사이클 남았습�
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_CYCLES"
-msgid "待发生等待周期"
+msgid "重要事件等待时长（周期）"
 msgstr "대기 사이클"
 
 #. resolved-locale: ko
@@ -3912,13 +3912,13 @@ msgstr "중요한 일이 곧 일어납니다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW"
-msgid "待发生窗口"
+msgid "重要关系事件倒计时"
 msgstr "대기 창"
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PENDING_WINDOW_HINT"
-msgid "关闭后告白等事件立即发生，但仍有演出和通知。不改变结果，只改变时机。"
+msgid "开启后，告白等重要事件会先进入倒计时。关闭后直接发生，结果、演出和通知照常。"
 msgstr "끄면 고백 같은 이벤트가 바로 일어나지만, 연출과 알림은 그대로입니다. 결과는 바꾸지 않고 타이밍만 바꿉니다."
 
 #. resolved-locale: ko
@@ -3942,7 +3942,7 @@ msgstr "집중"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PRESENTATION_HINT"
-msgid "标准不抢镜头；只有聚焦会自动移动镜头。不改变事件会不会发生，也不改变数值。"
+msgid "「聚焦」会自动将镜头移向事件；「标准」保留当前镜头。演出方式不影响事件结果。"
 msgstr "표준은 화면을 빼앗지 않습니다. 자동으로 카메라를 움직이는 것은 집중뿐입니다. 이벤트가 일어날지, 수치도 바꾸지 않습니다."
 
 #. resolved-locale: ko
@@ -4020,7 +4020,7 @@ msgstr "숙적끼리 같이 일하면 서로 발목을 잡는다"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.RIVAL_FRICTION_HINT"
-msgid "两个已经结成宿敌的复制人，在三格之内做同一类活时，双方的工作效率一起下降——这是「并肩作战」加成的镜像。它不流血、不加压力、不扣士气，也不改变好感：唯一的代价是你的产能。这是本 mod 第一项让恶化的人际关系真的花你钱的内容。摩擦只在真正干活时出现：睡觉、集体活动、吃饭、发呆这些常见事件完全不受影响。安全线：效率有下限，无论怎么配都不会归零；治疗、看病、吃药、水下换气、抢氧气和逃命途中都不会被拖慢。出口在你身上：把两个人调开，或者牵线让这段关系解冻。预设开启；「戏剧强度」设为「安静」时强制关闭"
+msgid "宿敌在三格内做同类工作时，双方效率会下降。只在实际工作时生效，不影响休息、用餐、治疗和逃生，也不额外改变压力或好感。可调开两人，或牵线缓和关系。默认开启，「安静」预设下关闭。"
 msgstr "숙적이 된 두 복제인간이 3칸 이내에서 같은 종류의 일을 하면 양쪽 모두 작업 효율이 떨어집니다. 「나란히 일하기」 보너스의 거울상입니다. 피도 스트레스도 사기도 호감도도 건드리지 않습니다. 대가는 오직 당신의 생산성입니다. 관계 악화가 실제로 당신에게 비용을 물리는 첫 번째 기능입니다. 마찰은 실제로 일할 때만 나타납니다. 잠자기, 단체 활동, 식사, 빈둥거리기 같은 흔한 일에는 전혀 영향이 없습니다. 안전선: 효율에는 하한이 있어 어떻게 설정해도 0이 되지 않으며, 치료·진료·약 복용·수중 호흡·산소 확보·대피 중에는 느려지지 않습니다. 해결은 당신 손에 있습니다. 둘을 떼어놓거나, 중매로 관계를 녹이면 됩니다. 기본 켬. 「극적 강도」를 「조용」으로 두면 강제로 꺼집니다"
 
 #. resolved-locale: ko
@@ -4038,13 +4038,13 @@ msgstr "저장"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVED_FEEDBACK"
-msgid "已保存，并已对当前会话生效。"
+msgid "设置已保存。标注需重启或读档的项目将在之后生效。"
 msgstr "저장되었고, 현재 세션에 바로 적용되었습니다."
 
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.SAVE_FAILED
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SAVE_FAILED"
-msgid "保存失败，详情见日志。"
+msgid "设置未能保存，请查看日志中的失败原因。"
 msgstr "저장에 실패했습니다. 자세한 내용은 로그를 보세요."
 
 #. resolved-locale: ko
@@ -4062,7 +4062,7 @@ msgstr "균형"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.SECTION_DARK
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.SECTION_DARK"
-msgid "黑暗内容（人性考验）"
+msgid "黑暗内容"
 msgstr "어두운 내용(인간성 시험)"
 
 #. resolved-locale: ko
@@ -4104,7 +4104,7 @@ msgstr "사교 스트레스 소프트 상한(0 = 끄기)"
 #. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.TELEMETRY_HINT"
-msgid "默认关闭。开启后只在本机记录事件频率、关系分布、Mod 压力效果、日程占比与性能耗时；复制人会匿名编号，不记录 API Key、AI 地址或存档正文，也不会自动上传。可在对局内「社交 → 事件日志」导出诊断报告"
+msgid "默认关闭。开启后在本机记录事件、关系、日程和性能数据，复制人使用匿名编号。不记录 API 密钥、AI 地址或存档正文，也不会自动上传。可在「社交 → 纪事」导出诊断报告。"
 msgstr "기본값은 끔입니다. 켜면 이 기기에서만 이벤트 빈도, 관계 분포, Mod 스트레스 효과, 일정 비율, 성능 소요를 기록합니다. 복제인간은 익명 번호로 남고, API Key·AI 주소·세이브 본문은 기록하지 않으며 자동 업로드도 없습니다. 판 안에서 「사교 → 이벤트 로그」로 진단 보고서를 내보낼 수 있습니다"
 
 #. resolved-locale: ko
