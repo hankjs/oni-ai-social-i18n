@@ -1208,6 +1208,30 @@
       "arguments": [],
       "richText": false,
       "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG",
+      "meaning": "Session-only author diagnostic that replaces missing dialogue with its internal request ID. {0} is the enabled or disabled state.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [
+        {
+          "token": "0",
+          "name": "state",
+          "kind": "text"
+        }
+      ],
+      "richText": false,
+      "maxLength": 10000
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT",
+      "meaning": "Explains that the session-only author diagnostic displays internal request IDs where dialogue content is missing.",
+      "contractRevision": 1,
+      "importance": "standard",
+      "arguments": [],
+      "richText": false,
+      "maxLength": 10000
     }
   ]
 }

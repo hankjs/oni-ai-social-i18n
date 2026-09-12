@@ -763,6 +763,18 @@
       "text": "已停用",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG",
+      "text": "缺失文案定位 · {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT",
+      "text": "开启后，缺少对应文案时会在对白位置显示内部请求 ID，供扩展包作者定位。只对本次游戏有效。",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

@@ -812,6 +812,8 @@ namespace ONIAiSocial
                 public static LocString PACKS_ITEM_DETAIL = "{0} · {1} · {2} 条";
                 public static LocString PACKS_ITEM_PROBLEMS = "有 {0} 处内容被跳过";
                 public static LocString PACKS_ITEM_TITLE = "{0}  v{1}";
+                public static LocString PACKS_MISSING_CONTENT_DEBUG = "缺失文案定位 · {0}";
+                public static LocString PACKS_MISSING_CONTENT_DEBUG_HINT = "开启后，缺少对应文案时会在对白位置显示内部请求 ID，供扩展包作者定位。只对本次游戏有效。";
                 public static LocString PACKS_OPEN_FOLDER = "打开包目录";
                 public static LocString PACKS_ORIGIN_BUILTIN = "内置";
                 public static LocString PACKS_ORIGIN_LOCAL = "本地";

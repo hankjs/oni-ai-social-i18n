@@ -3844,6 +3844,18 @@ msgid "{0}  v{1}"
 msgstr "{0}  v{1}"
 
 #. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG"
+msgid "缺失文案定位 · {0}"
+msgstr "누락 콘텐츠 찾기 · {0}"
+
+#. resolved-locale: ko
+#. STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT"
+msgid "开启后，缺少对应文案时会在对白位置显示内部请求 ID，供扩展包作者定位。只对本次游戏有效。"
+msgstr "켜면 대사가 없는 위치에 내부 요청 ID가 표시되어 확장 팩 제작자가 누락된 부분을 찾을 수 있습니다. 현재 세션에서만 적용됩니다."
+
+#. resolved-locale: ko
 #. STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER"
 msgid "打开包目录"

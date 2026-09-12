@@ -763,6 +763,18 @@
       "text": "Disabled",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG",
+      "text": "Locate missing content · {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT",
+      "text": "When enabled, missing dialogue shows its internal request ID in place so extension-pack authors can locate the gap. This lasts only for the current session.",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

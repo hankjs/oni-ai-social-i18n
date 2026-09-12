@@ -763,6 +763,18 @@
       "text": "無効",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG",
+      "text": "不足コンテンツを特定 · {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT",
+      "text": "有効にすると、対応するセリフがない場所に内部リクエスト ID を表示し、拡張パック作者が不足箇所を特定できます。このセッション中のみ有効です。",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

@@ -763,6 +763,18 @@
       "text": "Отключён",
       "contractRevision": 1,
       "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG",
+      "text": "Поиск пропусков · {0}",
+      "contractRevision": 1,
+      "status": "reviewed"
+    },
+    {
+      "key": "STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT",
+      "text": "Если включено, вместо отсутствующей реплики показывается внутренний ID запроса, чтобы автор расширения мог найти пропуск. Действует только в текущем сеансе.",
+      "contractRevision": 1,
+      "status": "reviewed"
     }
   ]
 }

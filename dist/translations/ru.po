@@ -3844,6 +3844,18 @@ msgid "{0}  v{1}"
 msgstr "{0}  v{1}"
 
 #. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG"
+msgid "缺失文案定位 · {0}"
+msgstr "Поиск пропусков · {0}"
+
+#. resolved-locale: ru
+#. STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT
+msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_MISSING_CONTENT_DEBUG_HINT"
+msgid "开启后，缺少对应文案时会在对白位置显示内部请求 ID，供扩展包作者定位。只对本次游戏有效。"
+msgstr "Если включено, вместо отсутствующей реплики показывается внутренний ID запроса, чтобы автор расширения мог найти пропуск. Действует только в текущем сеансе."
+
+#. resolved-locale: ru
 #. STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER
 msgctxt "ONIAiSocial.STRINGS.SOCIAL.SETTINGS.PACKS_OPEN_FOLDER"
 msgid "打开包目录"
